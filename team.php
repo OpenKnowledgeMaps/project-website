@@ -52,6 +52,13 @@
         </ul>
     </div>
     <div class="member">
+        <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/team/chris.png" alt="Christopher Kittel"></a>
+        <ul>
+            <li class="name">Christopher Kittel</li>
+            <li>Content Mining & Recommendation</li>
+        </ul>
+    </div>
+    <div class="member">
         <a target="_blank" href="http://www.michaelskaug.com/"><img class="hoverlink" src="./img/team/mike.png" alt="Mike"></a>
         <ul>
             <li class="name">Mike Skaug</li>
@@ -60,31 +67,19 @@
     </div>
     
     
-    <div class="member">
+    <!--<div class="member">
         <a target="_blank" href="http://archivelab.org"><img class="hoverlink" src="./img/team/mek.png" alt="Michael E. Karpeles"></a>
         <ul>
             <li class="name">Michael E. Karpeles</li>
             <li>APIs & Accessibility</li>
         </ul>
-    </div>
+    </div>-->
     
     
-    <div class="member">
-        <a target="_blank" href="http://www.madgik.di.uoa.gr/content/omiros"><img class="hoverlink" src="./img/team/omiros.png" alt="Omiros Metaxas"></a>
-        <ul>
-            <li class="name">Omiros Metaxas</li>
-            <li>Topic Modeling & Citation Enrichment</li>
-        </ul>
-    </div>
     
     
-    <div class="member">
-        <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/team/chris.png" alt="Christopher Kittel"></a>
-        <ul>
-            <li class="name">Christopher Kittel</li>
-            <li>Content Mining & Recommendation</li>
-        </ul>
-    </div>
+    
+    
     
     
     
@@ -93,6 +88,14 @@
         <ul>
             <li class="name">Björn Brembs</li>
             <li>Requirements & Evaluation</li>
+        </ul>
+    </div>
+    
+    <div class="member">
+        <a target="_blank" href="http://www.madgik.di.uoa.gr/content/omiros"><img class="hoverlink" src="./img/team/omiros.png" alt="Omiros Metaxas"></a>
+        <ul>
+            <li class="name">Omiros Metaxas</li>
+            <li>Topic Modeling & Citation Enrichment</li>
         </ul>
     </div>
 

@@ -34,7 +34,12 @@
         <a class="carousel-control right" href="#myCarousel" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
+        
     </div>
+            <div class="twitterbutton"><a class="twitter-follow-button"
+                    href="https://twitter.com/OK_Maps" target="_blank"
+                    accesskey=""data-size="large" data-show-count="false">
+            Follow @OK_Maps</a></div>
 </div>
 
 <script>
@@ -119,6 +124,8 @@
            $('.slideNr').html(current);
         });
     });
+
+
 
 
 </script>

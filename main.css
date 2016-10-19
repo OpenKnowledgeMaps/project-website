@@ -524,8 +524,8 @@ div#mission {
 }
 
 .licenselink {
-color: white; 
-text-decoration: underline;
+    color: white; 
+    text-decoration: underline;
 }
 
 .licenselink:hover, .licenselink:active, .licenselink:focus {
@@ -543,12 +543,12 @@ text-decoration: underline;
 .licenseimg {
     display: block; 
     max-width:150px; 
-    
+
 }
 
 /*team page*/
 #team {
-    padding-top:128px;
+    padding-top: 90px;
 }
 
 .background2 {
@@ -709,7 +709,7 @@ input[type="radio"] {
     width:400px;
     font-size: 14px;
     font-family: inherit;
-    
+
 }
 
 .popover-content {
@@ -808,9 +808,9 @@ sup {
     height: 250px;
 }
 .bs-example {
-	padding: 100px 0px;
-        max-width:1600px;
-        background: #2d3e52;
+    padding: 100px 0px;
+    max-width:1600px;
+    background: #2d3e52;
 }
 .bs-example img {
     width: 580px;
@@ -826,7 +826,7 @@ sup {
 }
 
 .carousel-num {
-    top: 20px;
+    top: -10px;
     position: relative;
     color: white;
     text-align: center;
@@ -850,18 +850,122 @@ sup {
     font-weight: 800;
 }
 
+/*.twitter-follow-button {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.twitter-follow-button:hover, .twitter-follow-button:active, .twitter-follow-button:focus  {
+    background-color: white;
+    color: #2d3e52;
+}*/
+
+.twitterbutton {
+    margin: 30px auto 0px;
+    max-width: 160px;
+    width: 100%;
+
+}
+
+/*NEWS*/
+
+.newsitem {
+    background-color: white;
+
+    word-break: break-word;
+    word-wrap: break-word;
+    display: inline-block; 
+    width: 30%; 
+    vertical-align: top; 
+    margin: 1%;
+}
+
+.newsitem-text {
+    padding: 50px;
+}
+
+.newsitem-headline {
+    text-align: left;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 16px;
+    color: #2c3e52
+}
+
+.newsitem-p {
+    background-color: white; 
+    margin-bottom: 20px;
+    max-width: 420px;
+    text-align: left;
+    font-size: 16px; 
+    margin-top: 0;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    color: black;
+}
+
+.newsitem-button {
+    border-radius: 3px;
+    border: 2px solid #2c3e52;
+    font-size: 16px; 
+    display: inline-block;
+    font-weight: normal; 
+    padding: 10px;
+    text-align: center;
+    text-decoration: none !important;
+    transition: opacity 0.2s ease-in;
+    color: #fff;
+    background-color: #2c3e52;
+}
+
+.newsitem-button:hover, .newsitem-button:active, .newsitem-button:focus {
+    border: 2px solid #2c3e52;
+    background-color: white;
+    color: #2c3e52;
+}
+
+#news {
+    background-color: #e0e0e0;
+    padding: 180px 0px 20px 50px;
+}
+
+#news h2 {
+    background-color: transparent;
+    color: #2d3e52;
+    font-weight: 800;
+}
+
 /*MEDIA BREAK POINTS*/
 
 /*quick fix for search header bug*/
-@media screen and (max-width: 1240px) {
-.nav_top {
+@media screen and (max-width: 1340px) {
+    .nav_top {
         font-size: 14px;
     }
-    
+
+    .newsitem-headline {
+        font-size: 16px;
+    }
+
+    .newsitem-p, .newsitem-button {
+        font-size: 14px;
+
+    }
+
+    .newsitem-text {
+        padding: 40px;
+    }
+
     .imglogo img {
         width:80%;
     }
-    
+
     .imglogo {
         padding: 0px 0px 20px 50px;
         margin-top: 0px;
@@ -888,19 +992,33 @@ sup {
     .searchheader .nav_top {
         display:none;
     }
+
+    .newsitem {
+        
+        width: 45%; 
+       
+        margin: 2%;
+    }
     
-   
+    .nav_top li {
+    margin-right: 10px;
+    
+}
+    
+
 }
 
 @media screen and (max-width: 960px) {
     
+    .newsitem-p, .newsitem-button {
+        font-size: 12px;
+
+    }
+
     html {
         background-color: white;
     }
 
-    
-    
-    
 
     .mittig {
         margin: 150px 0px 0px 0px;
@@ -909,7 +1027,7 @@ sup {
 
 
     header {
-        padding: 20px 0px;
+        padding: 12px 0px;
     }
 
     .background1 {
@@ -946,15 +1064,16 @@ sup {
     #divdiscover, #divhow {
         padding: 50px 0px 50px 30px;
     }
-    
+
     #newsletterdiv {
-    padding: 50px 0px;
+        padding: 50px 0px;
     }
 
     .advisor {
         width: 30%;
         background-size: 100%;
         margin: 10px;
+        min-height: 340px;
     }
 
     .background2 .team p:last-child {
@@ -982,7 +1101,28 @@ sup {
 
 }
 
+@media screen and (max-width: 910px) {
+    
+    .nav_top {
+        margin: 0px 0px 0px 20px !important;
+    }
+    
+}
+
+@media screen and (max-width: 865px) {
+    .nav_top {
+        margin: 0px 0px 0px 50px !important;
+    }
+}
+
 @media screen and (max-width: 750px) {
+    
+    .newsitem {
+        
+        width: 45%; 
+       
+        margin: 1%;
+    }
 
     .advisor {
         width: 45%;
@@ -995,15 +1135,17 @@ sup {
     #progress p {
         font-size: 16px;
     }
-    
+
     .carousel-control .glyphicon-chevron-left, 
     .carousel-control .glyphicon-chevron-right, 
     .carousel-control .icon-next, 
     .carousel-control .icon-prev {
-    top: 100%;
-    margin-top: 0px;
-}
+        top: 100%;
+        margin-top: 0px;
+    }
     
+    
+
 }
 
 @media screen and (max-width: 700px) {
@@ -1012,6 +1154,15 @@ sup {
         margin-left: 0px;
     }
     
+    .newsitem {
+        width:100%;
+        margin: 2%;
+    }
+    
+    #news {
+        padding: 180px 20px 20px 20px; 
+    } 
+
     .radio-inline {
         display: block;
         margin-left: 0px;
@@ -1019,7 +1170,7 @@ sup {
         line-height: 200%;
     }
     input[type="radio"] {
-    margin: 12px 0 0;
+        margin: 12px 0 0;
     }
 }
 
@@ -1028,7 +1179,7 @@ sup {
     .background1, .searchheader .description {
         padding-left: 20px;
     }
-    
+
     .imglogo {
         padding: 0px 10px 20px 20px;
     }
@@ -1058,14 +1209,14 @@ sup {
     #mission strong, .icon-description {
         font-size: 16px;
     }
-    
+
     .icon-description, .icon {
         display: block;
         width: 100%;
         text-align: center;
     }
-    
-    
+
+
 
     #divdiscover a {
         font-size: 12px;
@@ -1090,16 +1241,33 @@ sup {
 
 @media screen and (max-width: 535px) {
     
-    .description {
-        padding-left: 20px;
-    }
-    
-    .imglogo {
+    .description li:last-child {
         display:none;
     }
     
+    #members {
+        max-width:200px;
+        margin: 0px auto;
+    }
+    
+    .member {
+        margin: 20px 0px;
+    }
+    
+    #news {
+        padding: 80px 20px 20px 20px; 
+    } 
+
+    .description {
+        padding-left: 20px;
+    }
+
+    .imglogo {
+        display:none;
+    }
+
     #team {
-        padding-top: 70px;
+        padding-top: 50px;
     }
 
     .menu {
@@ -1110,9 +1278,7 @@ sup {
         display: inline-block;
     }
 
-    .description li:last-child {
-        font-size: 14px;
-    }
+    
 
     .nav_top {
         display:none;
@@ -1163,9 +1329,9 @@ sup {
     .missionstatement {
         padding: 50px 0px;
     }
-    
+
     .bs-example{
-	padding: 50px 0px;
+        padding: 50px 0px;
     }
 
     div#mission {
@@ -1194,34 +1360,41 @@ sup {
     address {
         width: 100%;
     }
+    
+    .description, .searchheader .description {
+        padding: 0px 10px 10px 10px;
+    }
+    
+    .description li:first-child {
+        padding: 5px;
+    }
+
 }
 
 @media screen and (max-width: 470px) {
-    
+
     .radio-inline {
         line-height: 250%;
         font-size: 12px;
-        
+
     }
     input[type="radio"] {
-    margin: 9px 0 0;
+        margin: 9px 0 0;
     }
-    
+
     #newsletterdiv {
-    padding: 50px 0px;
-    font-size: 14px;
+        padding: 50px 0px;
+        font-size: 14px;
     }
 
     #progress p {
         font-size: 14px;
     }
 
-    .description, .searchheader .description {
-        padding: 0px 10px 10px 10px;
-    }
     
+
     .searchheader {
-    padding: 0px 0px;
+        padding: 0px 0px;
     }
 
     #mission p, .description-headstart {
@@ -1251,15 +1424,7 @@ sup {
     .background2 {
         min-height: 50px;
     }
-
-    .description li:last-child {
-        display:none;
-    }
-
-    .description li:first-child {
-        padding: 5px;
-    }
-
+    
     #team {
         padding-top: 100px;
     }
@@ -1285,35 +1450,35 @@ sup {
     .waitforit {
         font-size: 18px;
     }
-    
+
     #team {
         padding-top: 50px;
     }
-    
+
     #license {
-    margin-top:50px; 
-    max-width:600px; 
-    font-size: 12px; 
-    text-align:left;
-}
+        margin-top:50px; 
+        max-width:600px; 
+        font-size: 12px; 
+        text-align:left;
+    }
 
-.licenseimg {
-    display: block; 
-    max-width:100px; 
-    margin:0px 0px 10px 0px;
-}
+    .licenseimg {
+        display: block; 
+        max-width:100px; 
+        margin:0px 0px 10px 0px;
+    }
 
-.bs-example {
-    padding-bottom: 70px;
-}
+    .bs-example {
+        padding-bottom: 70px;
+    }
 
-.carousel-inner {
-    height: 270px;
-}
+    .carousel-inner {
+        height: 270px;
+    }
 
-.description-headstart {
-   width: 70%;
-    border: 0px solid #2d3e52;
-}
+    .description-headstart {
+        width: 70%;
+        border: 0px solid #2d3e52;
+    }
 
 }
