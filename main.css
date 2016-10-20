@@ -191,12 +191,12 @@ header #logo a:hover {
 /*Header for Vis*/
 
 .searchheader {
-    padding: 10px 0px;
+    padding: 10px 0px 10px 50px;
 }
 
 .searchheader .description {
     display: inline-block;
-    padding: 0px 0px 0px 20px;
+    padding: 0px 0px 0px 0px;
 }
 
 .searchheader .nav_top {
@@ -215,12 +215,13 @@ header #logo a:hover {
 .searchheader .imglogo{
     display: inline-block; 
     vertical-align:top; 
-    padding: 0px 0px 0px 20px; 
+    padding: 0px 0px 0px 0px; 
     margin-top: 0px;
 }
 
 .searchheader .imglogo img {
-    width:90%;
+    width:70%;
+    vertical-align: middle;
 }
 
 .hoverlink:hover {
@@ -792,6 +793,11 @@ sup {
     text-align:left;
 }
 
+.searchheader .icon-menu {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
 .icon-menu i {
     margin-right: 5px;
 }
@@ -1004,7 +1010,32 @@ sup {
     margin-right: 10px;
     
 }
+
+    .searchheader .imglogo{
+    display: none;
+}
+
+
     
+    .searchheader .icon-menu {
+    margin-right: 10px;
+}
+
+.searchheader .description li:last-child {
+        display:none;
+    }
+    .searchheader .description li:first-child {
+        font-size: 16px;
+        padding: 5px;
+
+    }
+    .searchheader .description {
+        margin-top: 10px;
+    }
+    
+    .searchheader {
+        padding: 0px 0px 10px 50px;
+    }
 
 }
 
@@ -1175,8 +1206,12 @@ sup {
 }
 
 @media screen and (max-width: 640px) {
+    
 
-    .background1, .searchheader .description {
+.searchheader {
+        padding: 0px 0px 10px 20px;
+    }
+    .background1 {
         padding-left: 20px;
     }
 
@@ -1235,11 +1270,14 @@ sup {
         padding: 50px 20px;
     }
 
+    
 }
 
 
 
 @media screen and (max-width: 535px) {
+    
+    
     
     .description li:last-child {
         display:none;
@@ -1361,7 +1399,7 @@ sup {
         width: 100%;
     }
     
-    .description, .searchheader .description {
+    .description {
         padding: 0px 10px 10px 10px;
     }
     
@@ -1393,9 +1431,7 @@ sup {
 
     
 
-    .searchheader {
-        padding: 0px 0px;
-    }
+    
 
     #mission p, .description-headstart {
         padding: 20px;

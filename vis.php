@@ -48,7 +48,7 @@
         </script>
         <script type="text/javascript" src="search/dist/bundle.js"></script>
 
-        <div style="background-color: white">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
+        <div style="background-color: white; padding: 20px 0px 20px 50px;">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
         </div>
 
         <?php include('footer.php'); ?>
