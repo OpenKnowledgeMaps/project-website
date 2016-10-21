@@ -12,8 +12,6 @@
         <!--<meta name="copyright" content="Maxi Schramm" >-->
         <meta name="keywords" content="knowldege visualization" >
         <meta name="description" content="Open Knowledge Maps - A visual interface to the world's scientific knowledge" >
-
-        <style type="text/css"></style>
         
         <link rel="stylesheet" href="./main.css">
         <!--    <link href='http://fonts.googleapis.com/css?family=Lato:300,100,800' rel='stylesheet' type='text/css'>-->

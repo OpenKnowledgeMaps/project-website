@@ -47,8 +47,9 @@
                 }]
         </script>
         <script type="text/javascript" src="search/dist/bundle.js"></script>
-
-        <div style="background-color: white; padding: 20px 0px 20px 50px;">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
+        
+        <div style="text-align: right; margin: 20px 10px 10px 10px">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
         </div>
-
+        
+        <link rel="stylesheet" href="./main.css">
         <?php include('footer.php'); ?>
