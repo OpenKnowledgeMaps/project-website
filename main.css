@@ -145,7 +145,7 @@ header #logo a:hover {
     font-weight:800;
 }
 
-.nav_top a.newsletter:hover, .nav_top a.newsletter:active {
+.nav_top a.newsletter:hover, .nav_top a.newsletter:active, .nav_top a.newsletter:focus {
     border: 2px solid #e55137; 
     color:white; 
     background-color: #e55137;
