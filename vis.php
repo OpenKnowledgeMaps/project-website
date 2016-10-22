@@ -2,6 +2,13 @@
 <html lang="en">
     <head>
             <?php include ("head_standard.php"); ?>
+        
+        <script>
+            var intro = {
+                title: "What's this?",    
+		body: '<div class="description-headstart" style="max-width: 1000px"><div style="margin: 0 0 30px;"><p class="icon"><img src="./img/top100.png">            </p>             <p class="icon-description">An Open Knowledge Maps visualization presents you with a topical overview for a search term.                It is based on the most relevant papers in the chosen library.                            </p>        </div>        <div style="margin: 0 0 30px;">            <p class="icon"><img src="./img/textsimilarity.png">            </p>            <p class="icon-description">We use text similarity to create the knowledge maps.                The algorithm groups those papers together that have many words in common.            </p>        </div>        <div style="display: block;">            <p class="icon"><img src="./img/headstart-search.png"></p>            <p class="icon-description">The visualization is intended to give you a head start on your             literature search. You can also use Open Knowledge Maps to stay up-to-date - just limit your search to the most recent papers in the search options.            </p>        </div>'
+            }
+        </script>
     </head>
 
     <body>
@@ -17,7 +24,7 @@
         if (!isset($_GET['service'])) {
             echo '<script type="text/javascript" src="data-config_plos.js"></script>';
             $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
-
+            
             $title = "PLOS";
         } else {
             if ($_GET['service'] === "plos") {
@@ -40,6 +47,7 @@
             $("#visualization").css("height", div_height + "px")
 
             data_config.server_url = "http://localhost/project-website/search/server/";
+            data_config.intro = intro;
             data_config.title = '<?php echo 'Overview of <span id="num_articles"></span> ' . $title . ' articles for ' . json_encode($_GET['query']); ?>';
             data_config.files = [{
                     title: <?php echo json_encode($_GET['query']) ?>,
