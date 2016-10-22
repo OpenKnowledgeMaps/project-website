@@ -21,7 +21,7 @@
                 <h2 class="visualize">Visualize a research topic <sup>beta</sup></h2>
                 <p class="library">Choose a library:
                     <label class="radio-inline"><input type="radio" name="optradio" value="pubmed">
-                        <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more than 26 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.">PubMed</a></label>
+                        <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more than 33 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.">PubMed</a></label>
                     <label class="radio-inline"><input type="radio" name="optradio" value="doaj" checked="checked">
                         <a href="#" data-toggle="popover" title="Directory of Open Access Journals (DOAJ)" data-content="Provides access to over 2.3 million articles from more than 9,200 open access journals in all disciplines.">Directory of Open Access Journals</a></label>
                 </p>
