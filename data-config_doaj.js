@@ -10,7 +10,7 @@ var data_config = {
     show_timeline: false,
     show_dropdown: false,
     preview_type: "pdf",
-    sort_options: ["title", "authors", "year"],
+    sort_options: ["relevance", "title", "authors", "year"],
     is_force_areas: true,
     language: "eng_pubmed",
     area_force_alpha: 0.015,
