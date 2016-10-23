@@ -8,7 +8,7 @@
             <div class="info">
             <address><h3>Get in touch:</h3>
                 <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a><br>
-                <a href="https://twitter.com/ok_maps">twitter.com/OK_Maps</a>                
+                <a href="https://twitter.com/ok_maps" target="_blank">twitter.com/OK_Maps</a>                
                 </address>
             <ul class="nav_bottom">
                 <!--<li><a class="seitenanfang" href="#top">back to top</a></li>-->

@@ -21,7 +21,7 @@
                 <h2 class="visualize">Visualize a research topic <sup>beta</sup></h2>
                 <p class="library">Choose a library:
                     <label class="radio-inline"><input type="radio" name="optradio" value="pubmed">
-                        <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more than 33 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.">PubMed</a></label>
+                        <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more than 26 million citations for biomedical literature from MEDLINE, life science journals, and online books. Citations may include links to full-text content from PubMed Central and publisher web sites.">PubMed</a></label>
                     <label class="radio-inline"><input type="radio" name="optradio" value="doaj" checked="checked">
                         <a href="#" data-toggle="popover" title="Directory of Open Access Journals (DOAJ)" data-content="Provides access to over 2.3 million articles from more than 9,200 open access journals in all disciplines.">Directory of Open Access Journals</a></label>
                 </p>
@@ -40,27 +40,13 @@
 
         <!--<div class="background2"></div>-->
 
-        <div class="missionstatement">
+        <!--<div class="missionstatement">
             <p>It's time <br>to change the way <br>we discover research!</p>
 
-        </div>
+        </div>-->
         <span class="anchor" id="okmmission"></span>
-        <div id="mission">
-            <h2 id="ourmission"> Our Mission</h2>
 
-
-
-            <p><strong>We are creating a visual interface to the world's scientific knowledge</strong>
-                that can be used by anyone in order to dramatically improve the discoverability of research results.
-                <br><br>
-                We are going to provide a large-scale system of open, interactive and interlinked knowledge maps
-                spanning all fields of research. Around these maps, we will develop a space for collective knowledge organisation 
-                and exploration, <strong>connecting researchers, students, librarians, journalists, practitioners and citizens.</strong>
-                <br><br>
-                <strong>For more information</strong>, see <a href="https://science20.wordpress.com/2016/05/11/its-time-to-change-the-way-we-discover-research/" style="text-decoration: underline;" target="_blank">Peter's post</a> where he describes his vision for revolutionizing discovery.
-            </p>
-        </div>
-
+        <?php include("mission.php") ?>
 
 
         <!--<div class="missionstatement">
@@ -83,12 +69,12 @@
         <?php include("newsletter.php") ?>
 
         <script type="text/javascript">
-            
+
             var search_options;
 
             var chooseOptions = function () {
                 search_options = SearchOptions;
-                
+
                 switch (config.service) {
                     case "plos":
                         config.options = options_plos;
@@ -105,7 +91,7 @@
                     default:
                         config.options = options_doaj;
                 }
-                
+
                 search_options.init("#filter-container", config.options);
 
                 config.options.dropdowns.forEach(function (entry) {
@@ -138,15 +124,15 @@
                     var radio_val = $(this).val();
                     config.service = radio_val;
                     $("#searchform").attr("action", "search.php?service=" + config.service);
-                    
+
                     search_options.user_defined_date = false;
                     $("#filter-container").html("");
 
                     chooseOptions();
-                    
-                    
+
+
                 });
-               
+
                 chooseOptions();
 
                 $("#searchform").attr("action", "search.php?service=" + config.service);

@@ -28,6 +28,7 @@ body {
     -o-hyphens: auto;
 }
 
+
 img {
     vertical-align: middle;
     max-width:100%;
@@ -259,12 +260,12 @@ header #logo a:hover {
 
 .background1 {
     background-color: white;
-    background-image: url(./img/pixellampe_test_50044.png);
+    background-image: url(./img/bubbleman7.png);
     background-repeat: no-repeat; 
-    padding-top: 165px;
-    background-position: 50% 70%;
+    padding-top: 195px;
+    background-position: 100% 100%;
     background-size: 100%;
-    min-height: 550px;
+    min-height: 700px;
 }
 
 .background1.gif {
@@ -341,7 +342,7 @@ address a:hover, address a:focus, address a:active {
 .anchor{
     display: block;
     height: 110px; /*same height as header*/
-    margin-top: -110px; /*same height as header*/
+    margin-top: -116px; /*same height as header*/
     visibility: hidden;
 }
 
@@ -427,7 +428,7 @@ h2.dunkelblau {
 .missionstatement {
     background-color: #2d3e52;
     padding: 150px 0px;
-    background-image: url(./img/timetochange2.png);
+    background-image: url(./img/bubbleman4.png);
     background-position: 50% 40%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -447,6 +448,7 @@ h2.dunkelblau {
     background-color: transparent;
     color: white;/*#2d3e52;*/ 
     font-weight: 800;
+    padding-bottom: 50px;
 }
 
 .icon, .icon-description {
@@ -482,17 +484,43 @@ h2.dunkelblau {
 }
 
 div#mission {
-    background-image: url(./img/mission2.png);
+    /*background-image: url(./img/mission2.png);
     background-size: 100%;
     background-position: 50% 50%;
-    background-repeat: no-repeat;
-    padding: 100px 0px 100px;
+    background-repeat: no-repeat;*/
+    padding: 100px 50px 100px;
     background-color: #2d3e52;
+    margin: 0px auto;
+}
+
+.vision {
+    vertical-align: top; 
+    display: inline-block; 
+    max-width:28%; 
+    text-align: center; 
+    margin-right: 0px; 
+    padding: 2%;
+}
+
+.vision h2 {
+    margin: 50px 0px 10px;
+    text-align: center;
+    background-color: transparent;
+}
+
+.vision p {
+    font-size: 18px;
+    text-align: center; 
+    background-color: transparent;  
+    color: white;
+}
+
+.vision img {
+    max-width: 30%;
 }
 
 
-
-#mission p, .description-headstart {
+.description-headstart {
     max-width: 500px;
     margin: 0px auto;
     width:100%;
@@ -503,6 +531,7 @@ div#mission {
     background-color: white;
     border: 5px solid #2d3e52;
 }
+
 
 #mission strong {
     font-size: 20px;
@@ -951,6 +980,11 @@ sup {
 
 /*quick fix for search header bug*/
 @media screen and (max-width: 1340px) {
+    
+    .background1 {
+   padding-top: 145px;
+    min-height: 600px;
+}
     .nav_top {
         font-size: 14px;
     }
@@ -983,10 +1017,31 @@ sup {
     }
 
     .description li:last-child  {
-        font-size:14px;
+        font-size:16px;
     }
+    
+    .vision h2 {
+    font-size: 22px;
+}
+
+.vision p {
+    font-size: 14px;
+    
+}
 }
 @media screen and (max-width: 1020px) {
+    
+    
+    
+    .mittig {
+        margin: 100px 0px 0px 50px;
+        width: 100%;
+    }
+    
+    .background1 {
+   padding-top: 120px;
+   background-image: url(./img/bubbleman7_klein.png);
+}
     .searchheader .menu {
         display: block;
     }
@@ -1041,6 +1096,20 @@ sup {
 
 @media screen and (max-width: 960px) {
     
+    .mittig {
+        margin: 100px 0px 0px 0px;
+        max-width: 100%;
+    }
+    
+    .vision h2 {
+    font-size: 18px;
+}
+
+.vision p {
+    font-size: 14px;
+    
+}
+    
     .newsitem-p, .newsitem-button {
         font-size: 12px;
 
@@ -1051,10 +1120,7 @@ sup {
     }
 
 
-    .mittig {
-        margin: 150px 0px 0px 0px;
-        max-width: 100%;
-    }
+    
 
 
     header {
@@ -1062,11 +1128,11 @@ sup {
     }
 
     .background1 {
-        padding-top: 100px;
+        
         padding-bottom: 100px;
         padding-left: 50px;
         background-size: 100%;
-        min-height: 350px;
+        min-height: 400px;
         padding-right: 20px;
     }
 
@@ -1086,6 +1152,7 @@ sup {
 
     #ourmission {
         padding-top: 0px;
+        
     }
 
     .discovermaps {
@@ -1119,7 +1186,7 @@ sup {
         font-size: 28px;
     }
 
-    #mission strong, #mission p, .description-headstart {
+    #mission strong, .description-headstart {
         font-size: 18px;
     }
 
@@ -1135,7 +1202,7 @@ sup {
 @media screen and (max-width: 910px) {
     
     .nav_top {
-        margin: 0px 0px 0px 20px !important;
+        margin: 0px 0px 0px 50px !important;
     }
     
 }
@@ -1148,6 +1215,9 @@ sup {
 
 @media screen and (max-width: 750px) {
     
+    .vision h2 {
+    margin: 20px 0px 10px;
+    }
     .newsitem {
         
         width: 45%; 
@@ -1234,7 +1304,7 @@ sup {
         padding-left: 0px;
     }
 
-    #mission p, .description-headstart {
+    .description-headstart {
         max-width: 500px;
         margin: 0px auto;
         font-size: 16px;
@@ -1262,7 +1332,7 @@ sup {
     }
 
     .mittig {
-        margin: 150px auto 0px;
+        margin: 50px auto 0px;
         max-width: 500px;
     }
 
@@ -1277,7 +1347,20 @@ sup {
 
 @media screen and (max-width: 535px) {
     
+    .vision {
+        display: block;
+        max-width: 100%;
+        
+        padding: 20px 40px;
+    }
     
+    .vision p, .vision h2 {
+        text-align: center;
+    }
+    
+    .vision h2 {
+        margin: 20px 0px 0px !important;
+    }
     
     .description li:last-child {
         display:none;
@@ -1350,14 +1433,16 @@ sup {
     }
 
     .mittig {
-        margin: 30px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
     }
 
     .background1 {
+        background-image: url(./img/bubbleman7_smart.png);
         padding-bottom: 0px;
         background-size: 130%;
-        background-position: 10% 60%; 
-        min-height: 300px;
+        background-position: 0%; 
+        min-height: 370px;
+        background-color: #2d3e52;
     }
 
     .missionstatement p {
@@ -1374,8 +1459,7 @@ sup {
 
     div#mission {
         padding: 50px 0px;
-        background-image: url(./img/mission2small.png);
-        background-size: contain;
+        
     }
 
     .info {
@@ -1410,6 +1494,8 @@ sup {
 }
 
 @media screen and (max-width: 470px) {
+    
+    
 
     .radio-inline {
         line-height: 250%;
@@ -1430,10 +1516,12 @@ sup {
     }
 
     
-
+    .text-field {
+        display: block;
+    }
     
 
-    #mission p, .description-headstart {
+    .description-headstart {
         padding: 20px;
         font-size: 14px;
     }
@@ -1466,14 +1554,17 @@ sup {
     }
 
     .mittig {
-        margin: 50px 0px 0px 0px;
+        margin: 20px 0px 0px 0px;
+    }
+    
+    .library {
+    margin: 10px 0px 10px 0px;
     }
     .background1 {
-        min-height: 150px;
+        min-height: 300px;
         padding-bottom: 50px;
         padding-top: 70px;
-        background-position: 120% 30%;
-        background-size: 60%;
+        
     }
     .missionstatement {
         padding: 50px 0px;
@@ -1517,4 +1608,10 @@ sup {
         border: 0px solid #2d3e52;
     }
 
+}
+@media screen and (max-width: 350px) {
+    
+    div#mission {
+    padding: 0px 0px 50px 0px;
+}
 }

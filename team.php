@@ -158,12 +158,18 @@
             <h3>Lambert Heller</h3>
             <p class="advisor-desc">Librarian at German National Library of S&T (TIB)</p>
         </div>
+        <div class="advisor">
+            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/keinbild.jpg" alt="Advisor OKM"></a>
+            <h3>Christian Schlögl</h3>
+            <p class="advisor-desc">Associate Professor at University of Graz</p>
+        </div> 
         
         <div class="advisor">
-            <a target="_blank" href="https://twitter.com/sdennerlein"><img class="hoverlink" src="./img/advisors/sebastian.jpg" alt="Advisor OKM"></a>
-            <h3>Sebastian Dennerlein</h3>
-            <p class="advisor-desc">PhD Student, Graz University of Technology</p>
+            <a target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><img class="hoverlink" src="./img/advisors/michaela.jpg" alt="Advisor OKM"></a>
+            <h3>Michela Vignoli</h3>
+            <p class="advisor-desc">Junior Scientist at Austrian Institute of Technology (AIT)</p>
         </div>
+        
         
         <div class="advisor">
             <a target="_blank" href="http://www.stefankasberger.at/"><img class="hoverlink" src="./img/advisors/stefan.jpg" alt="Advisor OKM"></a>
@@ -178,10 +184,16 @@
         </div>
         
         <div class="advisor">
-            <a target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><img class="hoverlink" src="./img/advisors/michaela.jpg" alt="Advisor OKM"></a>
-            <h3>Michela Vignoli</h3>
-            <p class="advisor-desc">Junior Scientist at Austrian Institute of Technology (AIT)</p>
+            <a target="_blank" href="https://twitter.com/sdennerlein"><img class="hoverlink" src="./img/advisors/sebastian.jpg" alt="Advisor OKM"></a>
+            <h3>Sebastian Dennerlein</h3>
+            <p class="advisor-desc">PhD Student, Graz University of Technology</p>
         </div>
+        
+        <div class="advisor">
+            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/antica.jpg" alt="Advisor OKM"></a>
+            <h3>Antica Culina</h3>
+            <p class="advisor-desc">Postdoc at Netherlands Institute of Ecology (NIOO-KNAW)</p>
+        </div> 
         
         <div class="advisor">
             <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Advisor OKM"></a>
@@ -207,6 +219,9 @@
             <h3>Daniel Dörler</h3>
             <p class="advisor-desc">PhD Student at BOKU Vienna</p>
         </div> 
+        
+        
+        
         
         
         
