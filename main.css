@@ -268,11 +268,21 @@ header #logo a:hover {
     min-height: 700px;
 }
 
-.background1.gif {
+.background-lamp {
+    background-color: white;
+    background-image: url(./img/pixellampe_test_50044.png);
+    background-repeat: no-repeat; 
+    padding-top: 165px;
+    background-position: 50% 70%;
+    background-size: 100%;
+    min-height: 550px;
+}
+
+.background-lamp.gif {
     background-image: url(./img/lamp.gif);
 }
 
-.background1.failgif {
+.background-lamp.failgif {
     background-image: url(./img/lamp-bw.gif);
 }
 
@@ -1135,6 +1145,22 @@ sup {
         min-height: 400px;
         padding-right: 20px;
     }
+    
+    .background-lamp {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 50px;
+        background-size: 100%;
+        min-height: 350px;
+        padding-right: 20px;
+    }
+    
+    background-lamp.gif {
+        background-color: white;
+        background-size: 100%;
+        background-position: 30% 40% !important;
+        padding-bottom: 150px;
+    } 
 
     .visualize {
         font-size: 28px;
@@ -1282,6 +1308,10 @@ sup {
         padding: 0px 0px 10px 20px;
     }
     .background1 {
+        padding-left: 20px;
+    }
+    
+    .background-lamp {
         padding-left: 20px;
     }
 
@@ -1478,6 +1508,13 @@ sup {
     .background2 .team p:last-child {
         font-size: 16px;
     }
+    
+    .background-lamp {
+        padding-bottom: 0px;
+        background-size: 130%;
+        background-position: 10% 60%; 
+        min-height: 300px;
+    }
 
     address {
         width: 100%;
@@ -1573,7 +1610,21 @@ sup {
     .background1.gif {
         background-position: 30% 15% !important;
         padding-bottom: 150px;
-    } 
+    }
+    
+    .background-lamp {
+        min-height: 150px;
+        padding-bottom: 50px;
+        padding-top: 70px;
+        background-position: 120% 30%;
+        background-size: 60%;
+    }
+    
+    .background-lamp.gif {
+        background-position: 30% 15% !important;
+        padding-bottom: 150px;
+    }
+    
     .waitforit {
         font-size: 18px;
     }
