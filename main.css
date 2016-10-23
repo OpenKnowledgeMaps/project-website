@@ -990,11 +990,11 @@ sup {
 
 /*quick fix for search header bug*/
 @media screen and (max-width: 1340px) {
-    
+
     .background1 {
-   padding-top: 145px;
-    min-height: 600px;
-}
+        padding-top: 145px;
+        min-height: 600px;
+    }
     .nav_top {
         font-size: 14px;
     }
@@ -1029,29 +1029,29 @@ sup {
     .description li:last-child  {
         font-size:16px;
     }
-    
-    .vision h2 {
-    font-size: 22px;
-}
 
-.vision p {
-    font-size: 14px;
-    
-}
+    .vision h2 {
+        font-size: 22px;
+    }
+
+    .vision p {
+        font-size: 14px;
+
+    }
 }
 @media screen and (max-width: 1020px) {
-    
-    
-    
+
+
+
     .mittig {
         margin: 100px 0px 0px 50px;
         width: 100%;
     }
-    
+
     .background1 {
-   padding-top: 120px;
-   background-image: url(./img/bubbleman7_klein.png);
-}
+        padding-top: 120px;
+        background-image: url(./img/bubbleman7_klein.png);
+    }
     .searchheader .menu {
         display: block;
     }
@@ -1065,28 +1065,28 @@ sup {
     }
 
     .newsitem {
-        
+
         width: 45%; 
-       
+
         margin: 2%;
     }
-    
+
     .nav_top li {
-    margin-right: 10px;
-    
-}
+        margin-right: 10px;
+
+    }
 
     .searchheader .imglogo{
-    display: none;
-}
+        display: none;
+    }
 
 
-    
+
     .searchheader .icon-menu {
-    margin-right: 10px;
-}
+        margin-right: 10px;
+    }
 
-.searchheader .description li:last-child {
+    .searchheader .description li:last-child {
         display:none;
     }
     .searchheader .description li:first-child {
@@ -1097,7 +1097,7 @@ sup {
     .searchheader .description {
         margin-top: 10px;
     }
-    
+
     .searchheader {
         padding: 0px 0px 10px 50px;
     }
@@ -1105,21 +1105,21 @@ sup {
 }
 
 @media screen and (max-width: 960px) {
-    
+
     .mittig {
         margin: 100px 0px 0px 0px;
         max-width: 100%;
     }
-    
-    .vision h2 {
-    font-size: 18px;
-}
 
-.vision p {
-    font-size: 14px;
-    
-}
-    
+    .vision h2 {
+        font-size: 18px;
+    }
+
+    .vision p {
+        font-size: 14px;
+
+    }
+
     .newsitem-p, .newsitem-button {
         font-size: 12px;
 
@@ -1130,7 +1130,7 @@ sup {
     }
 
 
-    
+
 
 
     header {
@@ -1138,14 +1138,14 @@ sup {
     }
 
     .background1 {
-        
+
         padding-bottom: 100px;
         padding-left: 50px;
         background-size: 100%;
         min-height: 400px;
         padding-right: 20px;
     }
-    
+
     .background-lamp {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -1154,7 +1154,7 @@ sup {
         min-height: 350px;
         padding-right: 20px;
     }
-    
+
     background-lamp.gif {
         background-color: white;
         background-size: 100%;
@@ -1178,7 +1178,7 @@ sup {
 
     #ourmission {
         padding-top: 0px;
-        
+
     }
 
     .discovermaps {
@@ -1226,11 +1226,11 @@ sup {
 }
 
 @media screen and (max-width: 910px) {
-    
+
     .nav_top {
         margin: 0px 0px 0px 50px !important;
     }
-    
+
 }
 
 @media screen and (max-width: 865px) {
@@ -1240,14 +1240,14 @@ sup {
 }
 
 @media screen and (max-width: 750px) {
-    
+
     .vision h2 {
-    margin: 20px 0px 10px;
+        margin: 20px 0px 10px;
     }
     .newsitem {
-        
+
         width: 45%; 
-       
+
         margin: 1%;
     }
 
@@ -1270,8 +1270,8 @@ sup {
         top: 100%;
         margin-top: 0px;
     }
-    
-    
+
+
 
 }
 
@@ -1280,12 +1280,16 @@ sup {
         display: block;
         margin-left: 0px;
     }
-    
+
+    #filters {
+        margin-left: 30px;
+    }
+
     .newsitem {
         width:100%;
         margin: 2%;
     }
-    
+
     #news {
         padding: 180px 20px 20px 20px; 
     } 
@@ -1302,15 +1306,19 @@ sup {
 }
 
 @media screen and (max-width: 640px) {
-    
 
-.searchheader {
+
+    .searchheader {
         padding: 0px 0px 10px 20px;
     }
     .background1 {
         padding-left: 20px;
     }
-    
+
+    .icon-description {
+        padding: 0 0 0 0;
+    }
+
     .background-lamp {
         padding-left: 20px;
     }
@@ -1370,41 +1378,41 @@ sup {
         padding: 50px 20px;
     }
 
-    
+
 }
 
 
 
 @media screen and (max-width: 535px) {
-    
+
     .vision {
         display: block;
         max-width: 100%;
-        
+
         padding: 20px 40px;
     }
-    
+
     .vision p, .vision h2 {
         text-align: center;
     }
-    
+
     .vision h2 {
         margin: 20px 0px 0px !important;
     }
-    
+
     .description li:last-child {
         display:none;
     }
-    
+
     #members {
         max-width:200px;
         margin: 0px auto;
     }
-    
+
     .member {
         margin: 20px 0px;
     }
-    
+
     #news {
         padding: 80px 20px 20px 20px; 
     } 
@@ -1429,7 +1437,7 @@ sup {
         display: inline-block;
     }
 
-    
+
 
     .nav_top {
         display:none;
@@ -1489,7 +1497,7 @@ sup {
 
     div#mission {
         padding: 50px 0px;
-        
+
     }
 
     .info {
@@ -1508,7 +1516,7 @@ sup {
     .background2 .team p:last-child {
         font-size: 16px;
     }
-    
+
     .background-lamp {
         padding-bottom: 0px;
         background-size: 130%;
@@ -1519,11 +1527,11 @@ sup {
     address {
         width: 100%;
     }
-    
+
     .description {
         padding: 0px 10px 10px 10px;
     }
-    
+
     .description li:first-child {
         padding: 5px;
     }
@@ -1531,8 +1539,6 @@ sup {
 }
 
 @media screen and (max-width: 470px) {
-    
-    
 
     .radio-inline {
         line-height: 250%;
@@ -1552,11 +1558,11 @@ sup {
         font-size: 14px;
     }
 
-    
+
     .text-field {
         display: block;
     }
-    
+
 
     .description-headstart {
         padding: 20px;
@@ -1585,7 +1591,7 @@ sup {
     .background2 {
         min-height: 50px;
     }
-    
+
     #team {
         padding-top: 100px;
     }
@@ -1593,15 +1599,15 @@ sup {
     .mittig {
         margin: 20px 0px 0px 0px;
     }
-    
+
     .library {
-    margin: 10px 0px 10px 0px;
+        margin: 10px 0px 10px 0px;
     }
     .background1 {
         min-height: 300px;
         padding-bottom: 50px;
         padding-top: 70px;
-        
+
     }
     .missionstatement {
         padding: 50px 0px;
@@ -1611,7 +1617,7 @@ sup {
         background-position: 30% 15% !important;
         padding-bottom: 150px;
     }
-    
+
     .background-lamp {
         min-height: 150px;
         padding-bottom: 50px;
@@ -1619,12 +1625,12 @@ sup {
         background-position: 120% 30%;
         background-size: 60%;
     }
-    
+
     .background-lamp.gif {
         background-position: 30% 15% !important;
         padding-bottom: 150px;
     }
-    
+
     .waitforit {
         font-size: 18px;
     }
@@ -1661,8 +1667,8 @@ sup {
 
 }
 @media screen and (max-width: 350px) {
-    
+
     div#mission {
-    padding: 0px 0px 50px 0px;
-}
+        padding: 0px 0px 50px 0px;
+    }
 }
