@@ -3,6 +3,11 @@ var data_config = {
     mode: "search_repos",
 
     service: "doaj",
+    
+    bubble_min_scale: 0.9,
+    bubble_max_scale: 0.9,
+    paper_min_scale: 1.1,
+    paper_max_scale: 1.1,
 
     title: "",
     base_unit: "citations",

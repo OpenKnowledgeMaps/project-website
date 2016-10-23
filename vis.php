@@ -42,15 +42,24 @@
             }
         }
         ?>
+        
+        <?php
+            $query = json_encode($_GET['id']);
+            
+            if (isset($_GET['query'])) {
+                $query = json_encode($_GET['query']);
+            }
+        ?>
+        
         <script>
             var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
             $("#visualization").css("height", div_height + "px")
 
             data_config.server_url = "http://localhost/project-website/search/server/";
             data_config.intro = intro;
-            data_config.title = '<?php echo 'Overview of <span id="num_articles"></span> ' . $title . ' articles for ' . json_encode($_GET['query']); ?>';
+            data_config.title = '<?php echo 'Overview of <span id="num_articles"></span> ' . $title . ' articles for ' . $query; ?>';
             data_config.files = [{
-                    title: <?php echo json_encode($_GET['query']) ?>,
+                    title: <?php echo $query ?>,
                     file: <?php echo json_encode($_GET['id']) ?>
                 }]
         </script>

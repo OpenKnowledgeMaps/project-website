@@ -726,6 +726,10 @@ div#mission {
     font-size:18px;
 }
 
+#progress a {
+	text-decoration: underline;
+}
+
 /**/
 .library {
     font-size: 20px; 
