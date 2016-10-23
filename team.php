@@ -67,13 +67,13 @@
     </div>
     
     
-    <!--<div class="member">
+    <div class="member">
         <a target="_blank" href="http://archivelab.org"><img class="hoverlink" src="./img/team/mek.png" alt="Michael E. Karpeles"></a>
         <ul>
             <li class="name">Michael E. Karpeles</li>
             <li>APIs & Accessibility</li>
         </ul>
-    </div>-->
+    </div>
     
     
     
