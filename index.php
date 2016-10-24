@@ -108,7 +108,7 @@
                     return (find.length > 0) ? (true) : (false);
                 }
                 if (valueExists("id", "time_range")) {
-                    search_options.addDatePickerFromTo("#from", "#to", "any-time");
+                    search_options.addDatePickerFromTo("#from", "#to", "any-time", "1809-01-01");
                 } else if (valueExists("id", "year_range")) {
                     search_options.setDateRangeFromPreset("#from", "#to", "any-time-years", "1809");
                 }
