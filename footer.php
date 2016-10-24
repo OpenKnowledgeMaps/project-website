@@ -26,6 +26,7 @@
                 <a href="http://know-center.at/" target="_blank"><img src="./img/partners/knowcenter.png" alt="Know Center"></a>
                 <a href="http://okfn.at" target="_blank"><img src="./img/partners/okfn.png" alt="Open Knowledge Austria"></a>
                 <a href="http://www.year-network.com/" target="_blank"><img src="./img/partners/year-logo.png" alt="Open Knowledge Austria"></a>
+                <a href="http://hypothes.is" target="_blank"><img src="./img/partners/hypothesis.png" alt="Hypothes.is"></a>
             </div>
             
              <div id="license">
