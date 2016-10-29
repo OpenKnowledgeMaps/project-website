@@ -4,8 +4,8 @@ var data_config = {
 
     service: "doaj",
     
-    bubble_min_scale: 0.9,
-    bubble_max_scale: 0.9,
+    bubble_min_scale: 1,
+    bubble_max_scale: 1,
     paper_min_scale: 1.1,
     paper_max_scale: 1.1,
 
