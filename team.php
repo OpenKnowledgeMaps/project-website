@@ -150,7 +150,7 @@
             <p class="advisor-desc">Librarian at German National Library of S&T (TIB)</p>
         </div>
         <div class="advisor">
-            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/keinbild.jpg" alt="Advisor OKM"></a>
+            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
             <h3>Christian Schlögl</h3>
             <p class="advisor-desc">Associate Professor at University of Graz</p>
         </div> 
