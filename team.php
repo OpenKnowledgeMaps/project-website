@@ -167,11 +167,11 @@
             <h3>Stefan Kasberger</h3>
             <p class="advisor-desc">Board Member at Open Knowledge Austria</p>
         </div>
-        
-        <div class="advisor">
-            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKM"></a>
-            <h3>Robert Gutounig</h3>
-            <p class="advisor-desc">Researcher and Lecturer at FH JOANNEUM</p>
+       		
+		<div class="advisor">
+            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKM"></a>
+            <h3>Andreas Ferus</h3>
+            <p class="advisor-desc">Dept. Director, Library of the Academy of Fine Arts Vienna</p>
         </div>
         
         <div class="advisor">
@@ -199,10 +199,11 @@
             <p class="advisor-desc">PhD Student at BOKU Vienna</p>
         </div>
         
+         
         <div class="advisor">
-            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKM"></a>
-            <h3>Andreas Ferus</h3>
-            <p class="advisor-desc">Dept. Director, Library of the Academy of Fine Arts Vienna</p>
+            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKM"></a>
+            <h3>Robert Gutounig</h3>
+            <p class="advisor-desc">Researcher and Lecturer at FH JOANNEUM</p>
         </div>
         
        <div class="advisor">
