@@ -82,7 +82,7 @@ var options_pubmed = {
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
-                {id: "any-time", text: "Any time"}
+                {id: "any-time", text: "Any publication date"}
                 , {id: "last-month", text: "Last month"}
                 , {id: "last-year", text: "Last year"}
                 , {id: "user-defined", text: "Custom range", class: "user-defined",
@@ -178,7 +178,7 @@ var options_doaj = {
     dropdowns: [
         {id: "year_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
-                {id: "any-time-years", text: "Any time"}
+                {id: "any-time-years", text: "Any publication year"}
                 , {id: "this-year", text: "This year"}
                 , {id: "last-year-years", text: "Last year"}
                 , {id: "user-defined", text: "Custom range", class: "user-defined",
