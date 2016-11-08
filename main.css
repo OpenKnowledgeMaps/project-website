@@ -53,6 +53,11 @@ h1, h2, h3 {
     color:#2d3e52;
 }
 
+/*Fixes the Webkit issue where you can't click on options dropdowns*/
+.dropdown-backdrop {
+    z-index: auto;
+}
+
 a:active {
     text-decoration: none;
     color:#2d3e52;
