@@ -150,7 +150,7 @@
             <p class="advisor-desc">Librarian at German National Library of S&T (TIB)</p>
         </div>
         <div class="advisor">
-            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/keinbild.jpg" alt="Advisor OKM"></a>
+            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
             <h3>Christian Schlögl</h3>
             <p class="advisor-desc">Associate Professor at University of Graz</p>
         </div> 
@@ -167,11 +167,11 @@
             <h3>Stefan Kasberger</h3>
             <p class="advisor-desc">Board Member at Open Knowledge Austria</p>
         </div>
-        
-        <div class="advisor">
-            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKM"></a>
-            <h3>Robert Gutounig</h3>
-            <p class="advisor-desc">Researcher and Lecturer at FH JOANNEUM</p>
+       		
+		<div class="advisor">
+            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKM"></a>
+            <h3>Andreas Ferus</h3>
+            <p class="advisor-desc">Dept. Director, Library of the Academy of Fine Arts Vienna</p>
         </div>
         
         <div class="advisor">
@@ -199,10 +199,11 @@
             <p class="advisor-desc">PhD Student at BOKU Vienna</p>
         </div>
         
+         
         <div class="advisor">
-            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKM"></a>
-            <h3>Andreas Ferus</h3>
-            <p class="advisor-desc">Dept. Director, Library of the Academy of Fine Arts Vienna</p>
+            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKM"></a>
+            <h3>Robert Gutounig</h3>
+            <p class="advisor-desc">Researcher and Lecturer at FH JOANNEUM</p>
         </div>
         
        <div class="advisor">
