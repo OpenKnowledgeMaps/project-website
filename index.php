@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
         <?php include('head_bootstrap.php'); ?>
         <?php include('head_standard.php'); ?>

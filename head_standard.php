@@ -11,6 +11,10 @@
         <meta name="publisher" content="Peter Kraker" >
         <!--<meta name="copyright" content="Maxi Schramm" >-->
         <meta name="keywords" content="knowldege visualization" >
+        
+        <meta property="og:image" content="http://openknowledgemaps.org/img/logo-okmaps.png" />
+        <meta property="og:image" content="http://openknowledgemaps.org/img/headstart-search.png" />
+        
         <meta name="description" content="Open Knowledge Maps - A visual interface to the world's scientific knowledge" >
         
         <link rel="stylesheet" href="./main.css">
