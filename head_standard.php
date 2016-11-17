@@ -18,13 +18,12 @@
 
 <!-- TWITTER CARD -->
 
-<meta name=”twitter:card” content=”Open Knowledge Maps a visual interface to the world&#39;s scientific knowledge”>
-<meta name=”twitter:site” content=”@OK_Maps”>
-<meta name=”twitter:title” content= “Title specifically for Twitter”>
-<meta name=”twitter:description” content=”We are building a visual interface to the world&#39;s scientific knowledge to change the way we discover research. For more updates follow us @OK_Maps”>
-<meta name=”twitter:creator” content=”Open Knowledge Maps”>
-<meta name=”twitter:image:src” content=http://openknowledgemaps.org/img/logo-okmaps.png>
-<meta name=”twitter:domain” content=”http://openknowledgemaps.org”>
+<meta name="twitter:card" content="Open Knowledge Maps" />
+<meta name="twitter:site" content="@OK_Maps" />
+<meta name="twitter:title" content="A visual interface to the world's scientific knowledge" />
+<meta name="twitter:description" content="We are building a visual interface to the world's scientific knowledge to change the way we discover research. For more updates follow us @OK_Maps" />
+<meta name="twitter:image" content="http://openknowledgemaps.org/img/logo-okmaps.png" />
+
 
 
 <!-- OPEN GRAPH OG -->
