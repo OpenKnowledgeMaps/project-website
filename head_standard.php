@@ -9,7 +9,6 @@
 <meta name="distribution" content="global">
 <meta name="author" content="Peter Kraker" >
 <meta name="publisher" content="Peter Kraker" >
-<!--<meta name="copyright" content="Maxi Schramm" >-->
 <meta name="keywords" content="knowldege visualization" >
 
 
@@ -18,22 +17,22 @@
 
 <!-- TWITTER CARD -->
 
-<meta name="twitter:card" content="Open Knowledge Maps" />
+<meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@OK_Maps" />
-<meta name="twitter:title" content="A visual interface to the world's scientific knowledge" />
-<meta name="twitter:description" content="We are building a visual interface to the world's scientific knowledge to change the way we discover research. For more updates follow us @OK_Maps" />
-<meta name="twitter:image" content="http://openknowledgemaps.org/img/logo-okmaps.png" />
+<meta name="twitter:title" content="Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge" />
+<meta name="twitter:description" content="We are building a visual interface to the world&#39;s scientific knowledge to change the way we discover research." />
+<meta name="twitter:image" content="http://openknowledgemaps.org/img/card.png" />
 
 
 
 <!-- OPEN GRAPH OG -->
-<meta property=”og:description” content=”We are building a visual interface to the world&#39;s scientific 
+<meta property="og:description" content="We are building a visual interface to the world&#39;s scientific 
       knowledge to change the way we discover research. For more updates 
-      follow us on http://twitter.com/OK_Maps”/>
-      <meta property=”og:url” content=”http://openknowledgemaps.org”/>
-<meta property=”og:image” content=”http://openknowledgemaps.org/img/logo-okmaps.png”/>
-<meta property=”og:type” content=”website”/>
-<meta property=”og:site_name” content=”Open Knowledge Maps”/>
+      follow us on http://twitter.com/OK_Maps"/>
+      <meta property="og:url" content="http://openknowledgemaps.org"/>
+<meta property="og:image" content="http://openknowledgemaps.org/img/cardfb.png"/>
+<meta property="og:type" content="website"/>
+<meta property="og:site_name" content="Open Knowledge Maps"/>
 
       <link rel="stylesheet" href="./main.css">
 <!--    <link href='http://fonts.googleapis.com/css?family=Lato:300,100,800' rel='stylesheet' type='text/css'>-->
