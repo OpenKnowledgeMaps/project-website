@@ -11,7 +11,16 @@
 <meta name="publisher" content="Peter Kraker" >
 <meta name="keywords" content="knowldege visualization" >
 
-
+<!-- FAVICONS -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=vMr4Eywprz">
+<link rel="icon" type="image/png" href="/favicon-32x32.png?v=vMr4Eywprz" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-16x16.png?v=vMr4Eywprz" sizes="16x16">
+<link rel="manifest" href="/manifest.json?v=vMr4Eywprz">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=vMr4Eywprz" color="#2d3e52">
+<link rel="shortcut icon" href="/favicon.ico?v=vMr4Eywprz">
+<meta name="apple-mobile-web-app-title" content="Open Knowledge Maps">
+<meta name="application-name" content="Open Knowledge Maps">
+<meta name="theme-color" content="#ffffff">
 
 <meta name="description" content="Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge" >
 
