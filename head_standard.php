@@ -9,7 +9,7 @@
 <meta name="distribution" content="global">
 <meta name="author" content="Peter Kraker" >
 <meta name="publisher" content="Peter Kraker" >
-<meta name="keywords" content="knowldege visualization" >
+<meta name="keywords" content="knowldege visualization, open knowledge, open science" >
 
 <!-- FAVICONS -->
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=vMr4Eywprz">
@@ -22,7 +22,7 @@
 <meta name="application-name" content="Open Knowledge Maps">
 <meta name="theme-color" content="#ffffff">
 
-<meta name="description" content="Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge" >
+<meta name="description" content="We are building a visual interface to the world&#39;s scientific knowledge to change the way we discover research." >
 
 <!-- TWITTER CARD -->
 
