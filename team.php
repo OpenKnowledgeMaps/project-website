@@ -175,6 +175,12 @@
         </div>
         
         <div class="advisor">
+            <a target="_blank" href="https://twitter.com/christinezhang"><img class="hoverlink" src="./img/advisors/christine.jpg" alt="Advisor OKM"></a>
+            <h3>Christine Zhang</h3>
+            <p class="advisor-desc">OpenNews Fellow / Knight-Mozilla</p>
+        </div>
+        
+        <div class="advisor">
             <a target="_blank" href="https://twitter.com/sdennerlein"><img class="hoverlink" src="./img/advisors/sebastian.jpg" alt="Advisor OKM"></a>
             <h3>Sebastian Dennerlein</h3>
             <p class="advisor-desc">PhD Student, Graz University of Technology</p>
