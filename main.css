@@ -468,7 +468,7 @@ h2.dunkelblau {
 
 .icon, .icon-description {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .icon-description {
