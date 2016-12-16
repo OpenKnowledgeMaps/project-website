@@ -31,11 +31,11 @@ button {
 
 .submit-btn {
     margin-left: -5px;
-    margin-top: -3px;
+    margin-top: -2px;
     background-color: #2D3E52;
     color: white;
     font-weight: bold;
-    width: 55px;
+    width: 13%;
     height: 40px;
     font-size: 28px;
     border-radius: 0px;
@@ -44,6 +44,7 @@ button {
     border-width: 0px 0px 0px 0px; 
     border-style: solid;
     border-color: #2D3E52;
+    display: inline-block;
 }
 
 .submit-btn:hover {
@@ -168,7 +169,7 @@ button {
 }
 
 .btn-group.open {
-   background-color: #e55137;
+    background-color: #e55137;
     color: white; 
 }
 
@@ -188,11 +189,12 @@ button {
         border: 5px solid #2D3E52;
         height: 30px;
         padding-left: 5px;
-        max-width: 60%;
+        max-width: 70%;
+        display: inline-block;
     }
-    
+
     .btn-group {
-    margin-left: 0px;
+        margin-left: 0px;
     }
 }
 
@@ -200,7 +202,7 @@ button {
     .submit-btn {
         font-size: 18px;
     }
-    
+
     #filter-container {
         display:none;
     }
