@@ -34,3 +34,18 @@ var main = function() {
 
 
 $(document).ready(main);
+
+//Convert anchors to avoid using the base url
+$(document).ready(function () {
+    var pathname = window.location.href;
+    var index = pathname.indexOf("#");
+    if (index != -1) {
+        pathname = pathname.substr(0, index);
+    }
+    $('a').each(function () {
+       var link = $(this).attr('href');
+       if (link.substr(0,1) == "#") {
+           $(this).attr('href', pathname + link);
+       }
+    });
+})

@@ -25,7 +25,7 @@
 
 </footer>
 
-<script src="./menu.js"></script>
+<script src="./js/menu.js"></script>
 
 </body>
 </html>

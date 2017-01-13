@@ -274,7 +274,7 @@ header #logo a:hover {
 
 .background1 {
     background-color: white;
-    background-image: url(./img/bubbleman7Kopie.png);
+    background-image: url(../img/bubbleman7Kopie.png);
     background-repeat: no-repeat; 
     padding-top: 195px;
     background-position: 100% 100%;
@@ -284,7 +284,7 @@ header #logo a:hover {
 
 .background-lamp {
     background-color: white;
-    background-image: url(./img/pixellampe_test_50044.png);
+    background-image: url(../img/pixellampe_test_50044.png);
     background-repeat: no-repeat; 
     padding-top: 165px;
     background-position: 50% 70%;
@@ -293,11 +293,11 @@ header #logo a:hover {
 }
 
 .background-lamp.gif {
-    background-image: url(./img/lamp.gif);
+    background-image: url(../img/lamp.gif);
 }
 
 .background-lamp.failgif {
-    background-image: url(./img/lamp-bw.gif);
+    background-image: url(../img/lamp-bw.gif);
 }
 
 .background3 {
@@ -408,7 +408,7 @@ h2.dunkelblau {
 }
 
 .discovermaps {
-    background-image:url(./img/hover_maps2.png);
+    background-image:url(../img/hover_maps2.png);
     background-size: 100%;
     display:inline-block;
     vertical-align: top;
@@ -452,7 +452,7 @@ h2.dunkelblau {
 .missionstatement {
     background-color: #2d3e52;
     padding: 150px 0px;
-    background-image: url(./img/bubbleman4.png);
+    background-image: url(../img/bubbleman4.png);
     background-position: 50% 40%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -634,7 +634,7 @@ div#mission {
     max-width: 200px;
     margin:20px;
     vertical-align: top;
-    background-image:url(./img/link.png); 
+    background-image:url(../img/link.png); 
     background-repeat:no-repeat;
 }
 
@@ -682,7 +682,7 @@ div#mission {
     background-color: #2d3e52;
     vertical-align: top;
     margin: 3px;
-    background-image:url(./img/advisorhover.png); 
+    background-image:url(../img/advisorhover.png); 
     background-repeat:no-repeat;
     max-width: 300px;
     min-height: 405px;
@@ -897,11 +897,11 @@ sup {
 }
 
 .glyphicon-chevron-right::before {
-    content: url(./img/right.png);
+    content: url(../img/right.png);
 }
 
 .glyphicon-chevron-left::before {
-    content: url(./img/left.png);
+    content: url(../img/left.png);
 }
 
 #feedback {
@@ -1078,7 +1078,7 @@ time {
 
     .background1 {
         padding-top: 120px;
-        background-image: url(./img/bubbleman7_klein.png);
+        background-image: url(../img/bubbleman7_klein.png);
     }
     .searchheader .menu {
         display: block;
@@ -1490,7 +1490,7 @@ time {
     }
 
     .background1 {
-        background-image: url(./img/bubbleman7_smart.png);
+        background-image: url(../img/bubbleman7_smart.png);
         padding-bottom: 0px;
         background-size: 130%;
         background-position: 0%; 

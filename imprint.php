@@ -1,14 +1,15 @@
+<?php include 'config.php' ?>
 <!DOCTYPE HTML>
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
-        <?php include('head_bootstrap.php'); ?>
-        <?php include('head_standard.php'); ?>
+        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
+        <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
     <body>
 
 
 
-        <?php include('header.php'); ?>
+        <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
 
         <div id="imprint">
@@ -25,4 +26,4 @@
                 <br><br><span class="bold">Email:</span> 
                 <br>info@openknowledgemaps.org</p>
         </div>
-        <?php include('footer.php'); ?>
+        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
