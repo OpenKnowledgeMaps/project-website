@@ -49,7 +49,7 @@
             </div>
         </form>
     </div>
-    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function ($) {
+    <script type='text/javascript' src='./lib/mc-validate.js'></script><script type='text/javascript'>(function ($) {
             window.fnames = new Array();
             window.ftypes = new Array();
             fnames[0] = 'EMAIL';

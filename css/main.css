@@ -28,7 +28,10 @@ body {
     -o-hyphens: auto;
 }
 
-
+.bold {
+    font-weight: 800;
+    color: #2c3e52;
+}
 img {
     vertical-align: middle;
     max-width:100%;
@@ -102,7 +105,7 @@ header #logo a:hover {
 .imglogo {
     display: inline-block; 
     vertical-align:top; 
-    padding: 0px 20px 20px 50px; 
+    padding: 0px 10px 20px 50px; 
     margin-top: 10px;
 }
 
@@ -112,7 +115,6 @@ header #logo a:hover {
 
 .description {
     display: inline-block;
-    /*padding: 0px 0px 20px 50px;*/
 }
 
 .description li:first-child {
@@ -141,7 +143,6 @@ header #logo a:hover {
 
 .nav_top a:hover, .nav_top a:active  {
     color: #2d3e52;
-    /*font-weight:800;*/
     text-decoration: underline;
 }
 
@@ -164,15 +165,23 @@ header #logo a:hover {
     color:#e55137; 
     background-color: white;
     padding:5px;
+    border-radius: 3px;
 }
 
-#newsletterdiv {
+#newsletterdiv, #partnerdiv {
     padding: 100px 0px;
     font-size: 20px;
     color: #2d3e52;
 }
 
-#newsletterdiv p, #newsletterdiv h2 {
+#partnerdiv {
+    background-color: #eaeaea;
+    max-width:1600px;
+    width:100%;
+    margin: 0px auto;
+}
+
+#newsletterdiv p, #newsletterdiv h2, #partnerdiv h2 {
     color: #2d3e52;
 }
 
@@ -260,12 +269,12 @@ header #logo a:hover {
     max-width: 729px;
     width:100%;
     margin: 0px auto;
-    margin-top: 150px;
+    margin-top: 120px;
 }
 
 .background1 {
     background-color: white;
-    background-image: url(./img/bubbleman7.png);
+    background-image: url(../img/bubbleman7Kopie.png);
     background-repeat: no-repeat; 
     padding-top: 195px;
     background-position: 100% 100%;
@@ -275,7 +284,7 @@ header #logo a:hover {
 
 .background-lamp {
     background-color: white;
-    background-image: url(./img/pixellampe_test_50044.png);
+    background-image: url(../img/pixellampe_test_50044.png);
     background-repeat: no-repeat; 
     padding-top: 165px;
     background-position: 50% 70%;
@@ -284,11 +293,11 @@ header #logo a:hover {
 }
 
 .background-lamp.gif {
-    background-image: url(./img/lamp.gif);
+    background-image: url(../img/lamp.gif);
 }
 
 .background-lamp.failgif {
-    background-image: url(./img/lamp-bw.gif);
+    background-image: url(../img/lamp-bw.gif);
 }
 
 .background3 {
@@ -327,12 +336,12 @@ header #logo a:hover {
 }
 
 address {
+    margin-bottom: 20px;
     display: block;
     font-style: normal;
     line-height: 150%;
     font-size: 20px;
     font-weight: 300;
-    padding: 0px 0px 20px 0px;
     width:400px;
     color: white;
 }
@@ -399,7 +408,7 @@ h2.dunkelblau {
 }
 
 .discovermaps {
-    background-image:url(./img/hover_maps2.png);
+    background-image:url(../img/hover_maps2.png);
     background-size: 100%;
     display:inline-block;
     vertical-align: top;
@@ -443,7 +452,7 @@ h2.dunkelblau {
 .missionstatement {
     background-color: #2d3e52;
     padding: 150px 0px;
-    background-image: url(./img/bubbleman4.png);
+    background-image: url(../img/bubbleman4.png);
     background-position: 50% 40%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -468,7 +477,7 @@ h2.dunkelblau {
 
 .icon, .icon-description {
     display: inline-block;
-    vertical-align: top;
+    vertical-align: middle;
 }
 
 .icon-description {
@@ -481,7 +490,7 @@ h2.dunkelblau {
     width: 29%;   
 }
 
-#divdiscover h2, #newsletterdiv h2, #divhow h2 {
+#divdiscover h2, #newsletterdiv h2, #divhow h2, #partnerdiv h2 {
 
     background-color: transparent;
     color: #2d3e52;
@@ -499,10 +508,6 @@ h2.dunkelblau {
 }
 
 div#mission {
-    /*background-image: url(./img/mission2.png);
-    background-size: 100%;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;*/
     padding: 100px 50px 100px;
     background-color: #2d3e52;
     margin: 0px auto;
@@ -550,7 +555,6 @@ div#mission {
 
 #mission strong {
     font-size: 20px;
-    /*color: #e55137;*/
     margin-top: 20px;
     font-weight: 800;
 }
@@ -559,13 +563,16 @@ div#mission {
     background-color: transparent;
 }
 
-.info, .partners {
+.info {
     display:inline-block; 
     vertical-align:top;
 }
 
 .partners {
     padding: 0px;
+    width:80%;
+    margin:20px auto 0px;
+    text-align:center;
 }
 
 .licenselink {
@@ -579,10 +586,10 @@ div#mission {
 }
 
 #license {
-    margin-top:50px; 
-    max-width:600px; 
+    max-width:25%; 
     font-size: 14px; 
     text-align:left;
+    display: inline-block;
 }
 
 .licenseimg {
@@ -627,7 +634,7 @@ div#mission {
     max-width: 200px;
     margin:20px;
     vertical-align: top;
-    background-image:url(./img/link.png); 
+    background-image:url(../img/link.png); 
     background-repeat:no-repeat;
 }
 
@@ -666,8 +673,7 @@ div#mission {
 }
 
 .advisorsdiv {
-
-    background-color:#eaeaea;
+    background-color:white;
     padding: 50px;
 }
 
@@ -676,7 +682,7 @@ div#mission {
     background-color: #2d3e52;
     vertical-align: top;
     margin: 3px;
-    background-image:url(./img/advisorhover.png); 
+    background-image:url(../img/advisorhover.png); 
     background-repeat:no-repeat;
     max-width: 300px;
     min-height: 405px;
@@ -732,7 +738,7 @@ div#mission {
 }
 
 #progress a {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 /**/
@@ -891,11 +897,11 @@ sup {
 }
 
 .glyphicon-chevron-right::before {
-    content: url(./img/right.png);
+    content: url(../img/right.png);
 }
 
 .glyphicon-chevron-left::before {
-    content: url(./img/left.png);
+    content: url(../img/left.png);
 }
 
 #feedback {
@@ -903,18 +909,6 @@ sup {
     color: white;
     font-weight: 800;
 }
-
-/*.twitter-follow-button {
-    color: white;
-    font-weight: bold;
-    padding: 10px;
-    border: 2px solid white;
-}
-
-.twitter-follow-button:hover, .twitter-follow-button:active, .twitter-follow-button:focus  {
-    background-color: white;
-    color: #2d3e52;
-}*/
 
 .twitterbutton {
     margin: 30px auto 0px;
@@ -924,16 +918,27 @@ sup {
 }
 
 /*NEWS*/
+.newscollection {
+    width: 50%; 
+    margin: 0px auto;
+}
 
 .newsitem {
     background-color: white;
-
     word-break: break-word;
     word-wrap: break-word;
-    display: inline-block; 
-    width: 30%; 
-    vertical-align: top; 
-    margin: 1%;
+    display: block;
+    margin: 3% 0%;
+}
+
+time {
+    color: #2c3e52;
+}
+
+.abstract {
+    font-size: 18px; 
+    color: #2c3e52;
+    font-weight: 400;
 }
 
 .newsitem-text {
@@ -948,25 +953,26 @@ sup {
     font-size: 20px;
     line-height: 120%;
     margin-bottom: 16px;
-    color: #2c3e52
+    color: #2c3e52;
 }
 
 .newsitem-p {
     background-color: white; 
     margin-bottom: 20px;
-    max-width: 420px;
     text-align: left;
     font-size: 16px; 
     margin-top: 0;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 120%;
     color: black;
 }
 
 .newsitem-button {
-    border-radius: 3px;
     border: 2px solid #2c3e52;
+    background-color: white;
+    color: #2c3e52;
+    border-radius: 3px;
     font-size: 16px; 
     display: inline-block;
     font-weight: normal; 
@@ -974,22 +980,30 @@ sup {
     text-align: center;
     text-decoration: none !important;
     transition: opacity 0.2s ease-in;
-    color: #fff;
-    background-color: #2c3e52;
 }
 
 .newsitem-button:hover, .newsitem-button:active, .newsitem-button:focus {
     border: 2px solid #2c3e52;
-    background-color: white;
-    color: #2c3e52;
+    color: #fff;
+    background-color: #2c3e52;
+    border-radius: 3px;
 }
 
 #news {
-    background-color: #e0e0e0;
-    padding: 180px 0px 20px 50px;
+    background-color: #eaeaea;
 }
 
-#news h2 {
+#imprint {
+    background-color: white;
+}
+
+#imprint, #news {
+    max-width:1600px;
+    margin: 0px auto;
+    padding: 180px 50px 100px;
+}
+
+#news h2, #imprint h2 {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
@@ -1032,7 +1046,6 @@ sup {
 
     .description li:first-child  {
         font-size:25px;
-        padding: 
     }
 
     .description li:last-child  {
@@ -1048,9 +1061,15 @@ sup {
 
     }
 }
+
+@media screen and (max-width: 1060px) {
+
+    .nav_top li {
+        margin-right: 10px;
+    }
+}
+
 @media screen and (max-width: 1020px) {
-
-
 
     .mittig {
         margin: 100px 0px 0px 50px;
@@ -1059,7 +1078,7 @@ sup {
 
     .background1 {
         padding-top: 120px;
-        background-image: url(./img/bubbleman7_klein.png);
+        background-image: url(../img/bubbleman7_klein.png);
     }
     .searchheader .menu {
         display: block;
@@ -1073,23 +1092,9 @@ sup {
         display:none;
     }
 
-    .newsitem {
-
-        width: 45%; 
-
-        margin: 2%;
-    }
-
-    .nav_top li {
-        margin-right: 10px;
-
-    }
-
     .searchheader .imglogo{
         display: none;
     }
-
-
 
     .searchheader .icon-menu {
         margin-right: 10px;
@@ -1115,6 +1120,9 @@ sup {
 
 @media screen and (max-width: 960px) {
 
+    .newscollection {
+        width: 80%; 
+    } 
     .mittig {
         margin: 100px 0px 0px 0px;
         max-width: 100%;
@@ -1126,12 +1134,10 @@ sup {
 
     .vision p {
         font-size: 14px;
-
     }
 
     .newsitem-p, .newsitem-button {
         font-size: 12px;
-
     }
 
     html {
@@ -1139,15 +1145,28 @@ sup {
     }
 
 
+    .menu {
+        display: block;
+    }
 
+    .icon-menu {
+        display: inline-block;
+        margin-right: 20px;
+    }
 
+    .nav_top {
+        display:none;
+    }
+
+    .imglogo {
+        display:none;
+    }
 
     header {
         padding: 12px 0px;
     }
 
     .background1 {
-
         padding-bottom: 100px;
         padding-left: 50px;
         background-size: 100%;
@@ -1187,7 +1206,6 @@ sup {
 
     #ourmission {
         padding-top: 0px;
-
     }
 
     .discovermaps {
@@ -1243,6 +1261,7 @@ sup {
 }
 
 @media screen and (max-width: 865px) {
+
     .nav_top {
         margin: 0px 0px 0px 50px !important;
     }
@@ -1252,12 +1271,6 @@ sup {
 
     .vision h2 {
         margin: 20px 0px 10px;
-    }
-    .newsitem {
-
-        width: 45%; 
-
-        margin: 1%;
     }
 
     .advisor {
@@ -1280,11 +1293,10 @@ sup {
         margin-top: 0px;
     }
 
-
-
 }
 
 @media screen and (max-width: 700px) {
+
     .radio-inline + .radio-inline {
         display: block;
         margin-left: 0px;
@@ -1294,13 +1306,8 @@ sup {
         margin-left: 30px;
     }
 
-    .newsitem {
-        width:100%;
-        margin: 2%;
-    }
-
-    #news {
-        padding: 180px 20px 20px 20px; 
+    #news, #imprint {
+        padding: 180px 20px 50px; 
     } 
 
     .radio-inline {
@@ -1309,13 +1316,24 @@ sup {
         font-size: 16px;
         line-height: 200%;
     }
+
     input[type="radio"] {
         margin: 12px 0 0;
     }
+
 }
 
 @media screen and (max-width: 640px) {
 
+    .newscollection {
+        width: 100%; 
+    }
+
+    .abstract {
+        font-size: 16px;
+        color: #2c3e52;
+        font-weight: 400;
+    }
 
     .searchheader {
         padding: 0px 0px 10px 20px;
@@ -1332,8 +1350,8 @@ sup {
         padding-left: 20px;
     }
 
-    .imglogo {
-        padding: 0px 10px 20px 20px;
+    .icon-menu {
+        margin-right: 0px;
     }
 
     .nav_top {
@@ -1343,6 +1361,7 @@ sup {
     .nav_top li {
         margin-right: 15px;
     }
+
     address {
         font-size: 16px;
     }
@@ -1368,8 +1387,6 @@ sup {
         text-align: center;
     }
 
-
-
     #divdiscover a {
         font-size: 12px;
     }
@@ -1387,17 +1404,43 @@ sup {
         padding: 50px 20px;
     }
 
+    .description li:last-child {
+        display:none;
+    }
+
+    .description {
+        display: inline-block;
+        margin-top: 10px;
+        vertical-align:top;
+    }
+
+    .description li:first-child, h2, .searchheader .description li:first-child {
+        font-size: 16px;
+
+    }
+    .description {
+        padding: 0px 10px 10px 10px;
+    }
+
+    .description li:first-child {
+        padding: 5px;
+    }
+
+    .imglogo {
+        display:none;
+    }
+
+    #ourmission {
+        padding-bottom: 20px;
+    }
 
 }
-
-
 
 @media screen and (max-width: 535px) {
 
     .vision {
         display: block;
         max-width: 100%;
-
         padding: 20px 40px;
     }
 
@@ -1409,10 +1452,6 @@ sup {
         margin: 20px 0px 0px !important;
     }
 
-    .description li:last-child {
-        display:none;
-    }
-
     #members {
         max-width:200px;
         margin: 0px auto;
@@ -1422,49 +1461,16 @@ sup {
         margin: 20px 0px;
     }
 
-    #news {
-        padding: 80px 20px 20px 20px; 
-    } 
-
-    .description {
-        padding-left: 20px;
-    }
-
-    .imglogo {
-        display:none;
+    #news, #imprint {
+        padding: 80px 10px 50px; 
     }
 
     #team {
         padding-top: 50px;
     }
 
-    .menu {
-        display: block;
-    }
-
-    .icon-menu {
-        display: inline-block;
-    }
-
-
-
-    .nav_top {
-        display:none;
-    }
-
-    .description li:first-child, h2, .searchheader .description li:first-child {
-        font-size: 16px;
-
-    }
-
     .visualize {
         font-size: 18px;
-    }
-
-    .description {
-        display: inline-block;
-        margin-top: 10px;
-        vertical-align:top;
     }
 
     header {
@@ -1484,7 +1490,7 @@ sup {
     }
 
     .background1 {
-        background-image: url(./img/bubbleman7_smart.png);
+        background-image: url(../img/bubbleman7_smart.png);
         padding-bottom: 0px;
         background-size: 130%;
         background-position: 0%; 
@@ -1506,12 +1512,12 @@ sup {
 
     div#mission {
         padding: 50px 0px;
-
     }
 
     .info {
         width: 100%;
     }
+
     .advisor {
         display: block;
         width:100%;
@@ -1537,14 +1543,6 @@ sup {
         width: 100%;
     }
 
-    .description {
-        padding: 0px 10px 10px 10px;
-    }
-
-    .description li:first-child {
-        padding: 5px;
-    }
-
 }
 
 @media screen and (max-width: 470px) {
@@ -1552,13 +1550,13 @@ sup {
     .radio-inline {
         line-height: 250%;
         font-size: 12px;
-
     }
+
     input[type="radio"] {
         margin: 9px 0 0;
     }
 
-    #newsletterdiv {
+    #newsletterdiv, #partnerdiv {
         padding: 50px 0px;
         font-size: 14px;
     }
@@ -1567,11 +1565,9 @@ sup {
         font-size: 14px;
     }
 
-
     .text-field {
         display: block;
     }
-
 
     .description-headstart {
         padding: 20px;
@@ -1649,10 +1645,10 @@ sup {
     }
 
     #license {
-        margin-top:50px; 
-        max-width:600px; 
+        max-width:400px; 
         font-size: 12px; 
         text-align:left;
+        display:inline-block;
     }
 
     .licenseimg {
@@ -1675,9 +1671,11 @@ sup {
     }
 
 }
+
 @media screen and (max-width: 350px) {
 
     div#mission {
         padding: 0px 0px 50px 0px;
     }
+
 }

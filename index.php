@@ -1,14 +1,16 @@
+<?php include 'config.php' ?>
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
-        <?php include('head_bootstrap.php'); ?>
-        <?php include('head_standard.php'); ?>
-        <?php include('head_headstart.php') ?>
+        <base href="<?php echo $SITE_URL ?>">
+        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
+        <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
+        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
     <body>
 
-        <?php include('header.php'); ?>
+        <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
 
         <a name="top"></a>
@@ -46,7 +48,7 @@
         </div>-->
         <span class="anchor" id="okmmission"></span>
 
-        <?php include("mission.php") ?>
+        <?php include($COMPONENTS_PATH . "mission.php") ?>
 
 
         <!--<div class="missionstatement">
@@ -57,16 +59,16 @@
         <!--<span class="anchor" id="discover"></span>-->
         <!--<div class="background3"></div>-->
 
-        <?php include("howitworks.php") ?>
+        <?php include($COMPONENTS_PATH . "howitworks.php") ?>
 
 
         <span class="anchor" id="feedback"></span>
 
-        <?php include("feedback.php") ?>
+        <?php include($COMPONENTS_PATH . "feedback.php") ?>
 
         <span class="anchor" id="newsletter"></span>
 
-        <?php include("newsletter.php") ?>
+        <?php include($COMPONENTS_PATH . "newsletter.php") ?>
 
         <script type="text/javascript">
 
@@ -140,4 +142,4 @@
         </script>
 
 
-        <?php include('footer.php'); ?>
+        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
