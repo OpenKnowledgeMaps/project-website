@@ -2,7 +2,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-        <base href="<?php echo $SITE_URL ?>">
         
         <?php include ($COMPONENTS_PATH. "head_standard.php"); ?>
         
