@@ -32,8 +32,6 @@
 <meta name="twitter:description" content="We are building a visual interface to the world&#39;s scientific knowledge to change the way we discover research." />
 <meta name="twitter:image" content="http://openknowledgemaps.org/img/card.png" />
 
-
-
 <!-- OPEN GRAPH OG -->
 <meta property="og:description" content="We are building a visual interface to the world&#39;s scientific 
       knowledge to change the way we discover research. For more updates 
@@ -47,3 +45,22 @@
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,300,400' rel='stylesheet' type='text/css'>
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+<?php if ($PIWIK_ENABLED) { ?>
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      // tracker methods like "setCustomDimension" should be called before "trackPageView"
+      _paq.push(['trackPageView']);
+      _paq.push(['enableLinkTracking']);
+      (function() {
+        var u="<?php echo $SITE_URL . $PIWIK_PATH; ?>";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+<?php }; ?>
