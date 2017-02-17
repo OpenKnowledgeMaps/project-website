@@ -65,10 +65,13 @@
                     file: <?php echo json_encode($_GET['id']) ?>
                 }]
         </script>
-        <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/bundle.js"></script>
+        <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
+        <script type="text/javascript">
+            headstart.start();
+        </script>
         
         <div style="text-align: right; margin: 20px 10px 10px 10px">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
         </div>
         
-        <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/style.css">
+        <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>
