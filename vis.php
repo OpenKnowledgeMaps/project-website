@@ -14,23 +14,6 @@
     </head>
 
     <body>
-        <?php
-            require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
-            $detect = new Mobile_Detect;
-            if ($detect->isMobile()):
-        ?>
-
-
-
-            <div class="alert alert-warning">
-
-                <a href="#" class="close" data-dismiss="alert">&times;</a>
-
-                Open Knowledge Maps isn't optimized for mobile usage yet. We are working on a better mobile experience; in the meantime, you may encounter some rough edges.
-
-            </div>
-
-        <?php endif ?>
 
         <?php include ($COMPONENTS_PATH . "header_search.php"); ?>
         <!--<div id="empty" style="padding-top:70px;"></div>-->

@@ -72,6 +72,13 @@ a:focus, a:hover {
 }
 
 /*NAVIGATION*/
+
+#mobile-warning {
+    margin-top: -10px;
+    margin-left: -50px;
+    margin-bottom: 10px;
+}
+
 header {
     padding: 20px 0px 15px;
     position: fixed;
@@ -1338,6 +1345,11 @@ time {
     .searchheader {
         padding: 0px 0px 10px 20px;
     }
+    
+    #mobile-warning {
+        margin-left: -20px;
+    }
+    
     .background1 {
         padding-left: 20px;
     }
