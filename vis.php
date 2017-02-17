@@ -74,4 +74,5 @@
         </div>
         
         <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
+        <link rel="stylesheet" href="./css/main.css">
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>
