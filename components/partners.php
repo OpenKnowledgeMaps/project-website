@@ -10,6 +10,7 @@
         <a href="http://okfn.at" target="_blank"><img src="./img/partners/okfn.png" alt="Open Knowledge Austria"></a>
         <a href="http://www.year-network.com/" target="_blank"><img src="./img/partners/year-logo.png" alt="Open Knowledge Austria"></a>
         <a href="http://hypothes.is" target="_blank"><img src="./img/partners/hypothesis.png" alt="Hypothes.is"></a>
+        <a href="http://wikimedia.at" target="_blank"><img src="./img/partners/Wikimedia_Austria.png" alt="Wikimedia Austria"></a>
 
     </div>
 </div>       
