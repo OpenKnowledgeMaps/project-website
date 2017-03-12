@@ -182,6 +182,12 @@
                         <h3>Stefan Kasberger</h3>
                         <p class="advisor-desc">Board Member at Open Knowledge Austria</p>
                     </div>
+                    
+                    <div class="advisor">
+                        <a target="_blank" href="http://stefaniehaustein.com/"><img class="hoverlink" src="./img/advisors/stefanieh.jpg" alt="Advisor OKM"></a>
+                        <h3>Stefanie Haustein</h3>
+                        <p class="advisor-desc">Postdoctoral researcher at University of Montreal</p>
+                    </div>
 
                     <div class="advisor">
                         <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKM"></a>
