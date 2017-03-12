@@ -58,9 +58,13 @@
                 echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
                 $title = "PubMed";
             } else if ($_GET['service'] === "doaj") {
-                $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">DOAJ</a>.';
+                $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
                 echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
                 $title = "DOAJ";
+            } else if ($_GET['service'] === "base") {
+                $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
+                echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
+                $title = "BASE";
             }
         }
         ?>
