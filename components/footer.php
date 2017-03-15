@@ -12,6 +12,7 @@
         <ul class="nav_bottom">
 
             <li><a href="imprint.php" href="">Imprint</a></li>
+             <li><a href="faqs.php" href="">FAQ</a></li>
             <li><a class="seitenanfang" href="#top">back to top</a></li>
         </ul>
     </div>

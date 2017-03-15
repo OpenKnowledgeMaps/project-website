@@ -41,12 +41,14 @@
 </p>
                 <h2>Visual <br>interface</h2>
                 <p>We are creating a visual interface to the world's scientific knowledge
-                    that can be used by anyone in order to dramatically improve the discoverability of research results.</p>
+                    that can be used by anyone in order to dramatically improve the discoverability of research results.
+                <br><br><span style="font-weight: bold;">our goal</span>
+                </p>
             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
             </div>
             </a>
                 
-             <div class="vision">
+                <a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md " target="_blank"><div class="vision">
                 <p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 width="127.796px" height="127.961px" viewBox="0 0 127.796 127.961" enable-background="new 0 0 127.796 127.961"
 	 xml:space="preserve">
@@ -110,11 +112,11 @@
 </svg></p>
                 <h2>Revolutionize <br>discovery</h2>
                 <p>We are going to provide a large-scale system of open, interactive and interlinked knowledge maps
-                    spanning all fields of research.</p>
+                    spanning all fields of research. <br><br><span style="font-weight: bold;">our roadmap</span></p>
                <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
                     
             </div>
-            
+            </a>
 
                 <a href="https://vimeo.com/188647919" target="_blank"><div class="vision">
                 <p><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
@@ -291,7 +293,9 @@
 </p>
                 <h2>Share. Use. <br>Collaborate.</h2>
                 <p>We will develop a space for collective knowledge organisation 
-                    and exploration, connecting researchers, students, librarians, journalists, practitioners and citizens.</p>
+                    and exploration, connecting researchers, students, librarians, journalists, practitioners and citizens.
+                <br><br><span style="font-weight: bold;">our vision</span>
+                </p>
             <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
              </div>
                     </a>

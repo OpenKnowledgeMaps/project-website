@@ -29,6 +29,6 @@
 
         <?php include($COMPONENTS_PATH . "benefits.php") ?>
         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
-        <?php include($COMPONENTS_PATH . "faq.php") ?>
+        <?php include($COMPONENTS_PATH . "moreinfo.php") ?>
         <?php include($COMPONENTS_PATH . 'feedback.php'); ?>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

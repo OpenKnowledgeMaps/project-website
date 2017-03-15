@@ -64,7 +64,14 @@
                             <li class="job-title">Content Mining & Recommendation</li>
                         </ul>
                     </div>
-
+                    
+                    <div class="member">
+                        <a target="_blank" href="http://brembs.net"><img class="hoverlink" src="./img/team/bjorn.png" alt="Bjorn"></a>
+                        <ul>
+                            <li class="name">Björn Brembs</li>
+                            <li class="job-title">Requirements & Evaluation</li>
+                        </ul>
+                    </div>
 
 
                     <div class="member">
@@ -75,13 +82,7 @@
                         </ul>
                     </div>
 
-                    <div class="member">
-                        <a target="_blank" href="http://brembs.net"><img class="hoverlink" src="./img/team/bjorn.png" alt="Bjorn"></a>
-                        <ul>
-                            <li class="name">Björn Brembs</li>
-                            <li class="job-title">Requirements & Evaluation</li>
-                        </ul>
-                    </div>
+
 
                     <div class="member">
                         <a target="_blank" href="http://nthmost.com/"><img class="hoverlink" src="./img/team/naomi.png" alt="Naomi Most"></a>
@@ -153,7 +154,7 @@
                             <h3>Elisabeth Lex</h3>
                             <p class="advisor-desc">Assistant Professor <br>Graz University of Technology</p>
                         </div>
-<div class="advisor">
+                        <div class="advisor">
                             <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Advisor OKM"></a>
                             <h3>Michael E. Karpeles</h3>
                             <p class="advisor-desc">Citizen of the world <br>Internet Archive</p>

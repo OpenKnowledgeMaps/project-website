@@ -509,7 +509,10 @@ strong {
     font-size: 18px;
     padding: 0 0 0 5%;
 }
-
+.howitworks-point p {
+    font-size: 18px;
+}    
+   
 .icon {
     width: 20%;   
 }
@@ -682,6 +685,14 @@ div#mission {
    max-width: 120px;
    width: 100%;
    padding: 0 5% 0 0;
+}
+
+.howitworks-point {
+    width:25%; 
+    display: inline-block; 
+    padding: 0px 2% 2%; 
+    vertical-align:top; 
+    text-align:left;
 }
 
 /*team page*/
@@ -1151,8 +1162,9 @@ time {
 }
 
 .number {
-    font-size:70px; 
+    font-size:60px; 
     color: #2c3e52;
+    font-weight: bold;
 }
 
 /*MEDIA BREAK POINTS*/
