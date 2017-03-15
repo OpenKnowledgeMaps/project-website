@@ -28,6 +28,14 @@ body {
     -o-hyphens: auto;
 }
 
+svg {
+    width:26%;
+}
+
+p {
+    text-align: left;
+}
+
 .bold {
     font-weight: 800;
     color: #2c3e52;
@@ -81,7 +89,10 @@ header {
     background-color: white;
     text-align: left;
     z-index: 10;
-    border-bottom: 4px solid #cacfd3;
+    -webkit-box-shadow: 0px 0px 4px 0px #cacfd3;
+    -moz-box-shadow: 0px 0px 4px 0px #cacfd3;
+    box-shadow: 0px 0px 4px 0px #cacfd3;
+    /*border-bottom: 4px solid #cacfd3;*/
     color: #2d3e52;
 }
 
@@ -98,7 +109,7 @@ header #logo a:hover {
     text-align: left;
     color:white;
     background-color: transparent;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 120%;
     margin: 0px 0px 0px 50px !important;
 }
@@ -106,8 +117,7 @@ header #logo a:hover {
 .imglogo {
     display: inline-block; 
     vertical-align:top; 
-    padding: 0px 10px 20px 50px; 
-    margin-top: 10px;
+    padding: 0px 10px 0px 50px;
 }
 
 .imglogo img {
@@ -120,14 +130,14 @@ header #logo a:hover {
 
 .description li:first-child {
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 26px;
     font-family: Open Sans;
     font-weight: 800;
 }
 
 .description li:last-child {
     line-height: 120%;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .nav_top li:last-child {
@@ -176,7 +186,7 @@ header #logo a:hover {
 }
 
 #partnerdiv {
-    background-color: #eaeaea;
+    background-color: #eff3f4;
     max-width:1600px;
     width:100%;
     margin: 0px auto;
@@ -247,11 +257,12 @@ header #logo a:hover {
 .visualize {
     text-align: left; 
     padding: 0px;
-    font-size:46px; 
+    font-size:40px; 
     color: #2d3e52; 
     background-color:transparent; 
-    text-transform: uppercase; 
+    text-transform: none; 
     margin: 0px;
+    font-weight: bold;
 }
 
 .wrapper {
@@ -267,20 +278,23 @@ header #logo a:hover {
 } 
 
 .mittig {
-    max-width: 729px;
-    width:100%;
+    width:50%;
     margin: 0px auto;
-    margin-top: 120px;
+    background-color: white;
+    padding: 50px;
+    -webkit-box-shadow: 0px 2px 4px 0px #cacfd3;
+    -moz-box-shadow: 0px 2px 4px 0px #cacfd3;
+    box-shadow: 0px 2px 4px 0px #cacfd3;
 }
 
 .background1 {
-    background-color: white;
-    background-image: url(../img/bubbleman7Kopie.png);
+    background-color: white; /*#f7f7f7;*/
+    background-image: url(../img/start-page1.png);
     background-repeat: no-repeat; 
-    padding-top: 195px;
     background-position: 100% 100%;
     background-size: 100%;
-    min-height: 700px;
+    text-align: center;
+    padding: 225px 0 100px;
 }
 
 .background-lamp {
@@ -381,7 +395,6 @@ h1 {
 
 h2 {
     color: white;
-    background-color:rgba(0,0,0,.7); 
     padding: 0px 0px 20px;
     margin:0px auto;
     font-size: 30px;
@@ -389,6 +402,12 @@ h2 {
     line-height: 120%;
     text-align: center;
     text-transform: uppercase;
+}
+
+.h2reverse {
+    background-color: transparent;
+    color: #2d3e52;
+    font-weight: 800;
 }
 
 h3 {
@@ -401,6 +420,10 @@ h3 {
 
 h2.dunkelblau {
     background-color: #2d3e52;/*#042e45;*/
+}
+
+strong {
+    color: #2d3e52;
 }
 
 .webdesign, .missionstatement {
@@ -488,7 +511,7 @@ h2.dunkelblau {
 }
 
 .icon {
-    width: 29%;   
+    width: 20%;   
 }
 
 #divdiscover h2, #newsletterdiv h2, #divhow h2, #partnerdiv h2 {
@@ -498,10 +521,7 @@ h2.dunkelblau {
     font-weight: 800;
 }
 
-#mission {
-    background-color: #2d3e52; /*oder helles blau #e0ecf9*/
 
-}
 
 #divdiscover {
     background-color: #eff3f4;
@@ -510,36 +530,54 @@ h2.dunkelblau {
 
 div#mission {
     padding: 100px 50px 100px;
-    background-color: #2d3e52;
+    color: #2d3e52;
+    background-color: #eff3f4;
     margin: 0px auto;
+    text-align: center;
 }
 
 .vision {
     vertical-align: top; 
     display: inline-block; 
-    max-width:28%; 
-    text-align: center; 
+    max-width:26%; 
+    text-align: left; 
     margin-right: 0px; 
     padding: 2%;
+    margin: 1%;
+    min-height: 416px;
+    border-bottom: 4px solid transparent;
+    background-color:white;
+}
+
+.vision:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    border-bottom: 4px solid #2c3e52;
+}
+
+.fa-ellipsis-h {
+    font-size:28px;
 }
 
 .vision h2 {
-    margin: 50px 0px 10px;
-    text-align: center;
+    margin: 0px 0px 10px;
+    text-align: left;
     background-color: transparent;
+    color: #2d3e52;
+    font-weight: bold;
+    text-transform: none;
 }
 
 .vision p {
     font-size: 18px;
-    text-align: center; 
+    /*text-align: center;*/ 
     background-color: transparent;  
-    color: white;
+
 }
 
 .vision img {
     max-width: 30%;
 }
-
 
 .description-headstart {
     max-width: 500px;
@@ -552,7 +590,6 @@ div#mission {
     background-color: white;
     border: 5px solid #2d3e52;
 }
-
 
 #mission strong {
     font-size: 20px;
@@ -599,6 +636,54 @@ div#mission {
 
 }
 
+
+/*ABOUT*/
+#about-page, #news {
+    background-color: white;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+#about-page .background2, #news .background2 {
+    background-color: white;
+}
+
+#about-page .background2 p, #news .background2 p {
+    color: #2d3e52;
+}
+
+.about-page #divhow {
+    padding: 50px;
+}
+
+
+#version {
+    display: inline-block;
+}
+
+.benefits {
+    max-width:1200px; 
+    width:100%; 
+    margin:0px auto;
+}
+
+.benefit-point {
+    display:inline-block; 
+    width:46%; 
+    padding:1%;
+}
+
+.benefit-point .icon-description {
+    padding:0%;
+}
+
+.benefit-point .icon {
+    display: inline-block;
+   max-width: 120px;
+   width: 100%;
+   padding: 0 5% 0 0;
+}
+
 /*team page*/
 #team {
     padding-top: 90px;
@@ -606,7 +691,6 @@ div#mission {
 
 .background2 {
     background-color: #2d3e52;
-    min-height: 200px;
 }
 
 .background2 .team p{
@@ -624,19 +708,23 @@ div#mission {
 .background2 .team p:last-child {
     text-align: center;
     font-size: 24px;
+    max-width: 750px;
+    margin: 0px auto;
 }
 
 .background2 .team {
-    padding:150px;
+    padding:100px;
 }
 
 .member {
     display: inline-block;
+    width: 20%;
     max-width: 200px;
     margin:20px;
     vertical-align: top;
     background-image:url(../img/link.png); 
     background-repeat:no-repeat;
+    background-size: 100%;
 }
 
 .member img {
@@ -646,14 +734,12 @@ div#mission {
 .member ul {
     display: block;
     text-align:center;
-    line-height: 150%;
 }
 
 #members {
-    max-width:750px;
     width:100%;
     margin:0px auto;
-
+    text-align: center;
 }
 
 .name {
@@ -671,39 +757,56 @@ div#mission {
     max-width:1250px;
     width: 100%;
     margin: 0px auto;
+    text-align: center;
+    padding-bottom: 50px;
 }
 
-.advisorsdiv {
-    background-color:white;
-    padding: 50px;
+
+
+.bg1 .advisorsdiv {
+    background-color: #eff3f4;
 }
 
 .advisor {
     display:inline-block;
-    background-color: #2d3e52;
+    background-color: white;
     vertical-align: top;
     margin: 3px;
-    background-image:url(../img/advisorhover.png); 
+    background-image:url(../img/link.png); 
     background-repeat:no-repeat;
-    max-width: 300px;
-    min-height: 405px;
+    width: 23%;
+    background-size: 100%;
+    /*min-height: 405px;*/
+    text-align: left;
 }
 
 .advisor h3 {
-    color: white;
+    color: #2d3e52;
     font-weight: 800;
     text-align: left;
     padding: 10px 20px 0px 20px;
     text-transform: none;
 }
 
+.background2.bg1 {
+    background-color: #eff3f4;
+}
+
+.background2.bg1 .team p, .background2.bg2 .team p {
+    color: #2c3e52;
+}
+
+.background2.bg2 {
+    background-color: white;
+}
+
 .advisor a {
-    color: white;
+    color: #2d3e52;
 }
 
 .advisor p {
     padding: 0px 20px 20px 20px;
-    color: white;
+    color: #2d3e52;
 }
 
 /*Partners*/
@@ -745,15 +848,22 @@ div#mission {
 /**/
 .library {
     font-size: 20px; 
-    margin: 30px 0px 10px 0px;
-    display: inline-block;
+    margin: 20px 0px 10px 0px;
+    display: block;
 }
 
 .radio-inline {
     font-size: 20px;
-    margin-left: 20px;
+    /*margin-left: 20px;*/
     font-weight: 100;
     vertical-align: top;
+    display: block;
+    padding:5px 0 0px 20px; 
+}
+
+.radio-inline + .radio-inline {
+    margin-top: 0;
+    margin-left: 0px;
 }
 
 input[type="radio"] {
@@ -785,16 +895,21 @@ input[type="radio"] {
 
 sup {
     position: relative;
-    font-size: 60%;
+    font-size: 12px;
     line-height: 0;
     vertical-align: top;
+    background-color: #2c3e52;
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 100;
 }
 
 /*TOGGLE MENU CSS*/
 .menu {
     top: 0;
     display:none;
-    background-color: #2d3e52;
+    background-color: white;
     left: -285px;  /* start off behind the scenes */
     height: 100%;
     position: fixed;
@@ -806,11 +921,11 @@ sup {
     list-style: none;
     margin: 0;
     padding: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: white;
 }
 
 .menu li {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #cacfd3;
     font-family: 'Open Sans', sans-serif;
     line-height: 45px;
     padding-bottom: 3px;
@@ -819,7 +934,6 @@ sup {
 }
 
 .menu a {
-    color: white;
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
@@ -827,25 +941,25 @@ sup {
 
 .icon-close {
     cursor: pointer;
-    padding-left: 10px;
-    padding-top: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
+    padding: 5px 0px 5px 20px;
+    background-color: #e55137;
+    color: white;
+    font-size: 28px;
 }
 
 .icon-menu {
     display:none;
-    color: #e55137;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    margin-left: 20px;
+    margin: 10px 0px 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
     border: 3px solid #e55137;
     padding: 5px;
-    margin-top: 10px;
-    vertical-align: top;
+    vertical-align: middle;
     text-align:left;
+    color: #e55137;
 }
 
 .searchheader .icon-menu {
@@ -871,7 +985,7 @@ sup {
 .bs-example {
     padding: 100px 0px;
     max-width:1600px;
-    background: #2d3e52;
+    background: #51c9ae;
 }
 .bs-example img {
     width: 580px;
@@ -915,21 +1029,38 @@ sup {
     margin: 30px auto 0px;
     max-width: 160px;
     width: 100%;
+    text-align: center;
 
 }
 
 /*NEWS*/
 .newscollection {
-    width: 50%; 
-    margin: 0px auto;
+    padding: 50px 0;
+    background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(/*left,*/ white, #f5f9fa); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(/*right,*/ white, #f5f9fa); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(/*right,*/ white, #f5f9fa); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(/*to right,*/ white, #f5f9fa); /* Standard syntax */
 }
 
 .newsitem {
-    background-color: white;
-    word-break: break-word;
+    word-break: normal;
     word-wrap: break-word;
     display: block;
-    margin: 3% 0%;
+    width: 50%;
+    margin: 0px auto;
+    z-index:5;
+    position: relative;
+}
+
+
+.trennung {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 2px;
+    background-color: #eff3f4; z-index:0;
 }
 
 time {
@@ -937,41 +1068,37 @@ time {
 }
 
 .abstract {
-    font-size: 18px; 
-    color: #2c3e52;
-    font-weight: 400;
+    font-size: 20px; 
+    /*font-weight: 400;*/
 }
 
 .newsitem-text {
-    padding: 50px;
-}
+        padding: 40px 0px;
+    }
 
 .newsitem-headline {
     text-align: left;
     margin-top: 0px;
     font-style: normal;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 120%;
     margin-bottom: 16px;
     color: #2c3e52;
 }
 
 .newsitem-p {
-    background-color: white; 
     margin-bottom: 20px;
     text-align: left;
-    font-size: 16px; 
+    font-size: 20px; 
     margin-top: 0;
     font-style: normal;
     font-weight: 100;
-    line-height: 120%;
     color: black;
 }
 
 .newsitem-button {
     border: 2px solid #2c3e52;
-    background-color: white;
     color: #2c3e52;
     border-radius: 3px;
     font-size: 16px; 
@@ -983,6 +1110,10 @@ time {
     transition: opacity 0.2s ease-in;
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 .newsitem-button:hover, .newsitem-button:active, .newsitem-button:focus {
     border: 2px solid #2c3e52;
     color: #fff;
@@ -990,24 +1121,38 @@ time {
     border-radius: 3px;
 }
 
-#news {
-    background-color: #eaeaea;
-}
+
 
 #imprint {
     background-color: white;
 }
 
-#imprint, #news {
+#imprint {
     max-width:1600px;
     margin: 0px auto;
     padding: 180px 50px 100px;
 }
 
-#news h2, #imprint h2 {
+#imprint h2 {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
+}
+
+.team-page #partnerdiv {
+    background-color:white;
+}
+
+
+.howitworks-div {
+    max-width:100%; 
+    text-align:center; 
+    margin-top:2%;
+}
+
+.number {
+    font-size:70px; 
+    color: #2c3e52;
 }
 
 /*MEDIA BREAK POINTS*/
@@ -1015,13 +1160,7 @@ time {
 /*quick fix for search header bug*/
 @media screen and (max-width: 1340px) {
 
-    .background1 {
-        padding-top: 145px;
-        min-height: 600px;
-    }
-    .nav_top {
-        font-size: 14px;
-    }
+
 
     .newsitem-headline {
         font-size: 16px;
@@ -1029,28 +1168,13 @@ time {
 
     .newsitem-p, .newsitem-button {
         font-size: 14px;
-
     }
 
-    .newsitem-text {
-        padding: 40px;
-    }
-
-    .imglogo img {
-        width:80%;
-    }
+    
 
     .imglogo {
-        padding: 0px 0px 20px 50px;
+        padding: 0px 10px 0px 50px;
         margin-top: 0px;
-    }
-
-    .description li:first-child  {
-        font-size:25px;
-    }
-
-    .description li:last-child  {
-        font-size:16px;
     }
 
     .vision h2 {
@@ -1060,6 +1184,12 @@ time {
     .vision p {
         font-size: 14px;
 
+    }
+}
+
+@media screen and (max-width: 1230px) {
+    .mittig {
+        width: 70%;
     }
 }
 
@@ -1073,13 +1203,11 @@ time {
 @media screen and (max-width: 1020px) {
 
     .mittig {
-        margin: 100px 0px 0px 50px;
-        width: 100%;
+        margin: 50px auto 0;
     }
 
     .background1 {
         padding-top: 120px;
-        background-image: url(../img/bubbleman7_klein.png);
     }
     .searchheader .menu {
         display: block;
@@ -1088,6 +1216,10 @@ time {
     .searchheader .icon-menu {
         display: inline-block;
     }
+    
+    .description {
+    vertical-align: middle;
+}
 
     .searchheader .nav_top {
         display:none;
@@ -1121,13 +1253,8 @@ time {
 
 @media screen and (max-width: 960px) {
 
-    .newscollection {
-        width: 80%; 
-    } 
-    .mittig {
-        margin: 100px 0px 0px 0px;
-        max-width: 100%;
-    }
+    
+
 
     .vision h2 {
         font-size: 18px;
@@ -1137,14 +1264,23 @@ time {
         font-size: 14px;
     }
 
-    .newsitem-p, .newsitem-button {
+    .newsitem-p, .newsitem-button, .abstract {
         font-size: 12px;
     }
 
     html {
         background-color: white;
     }
-
+.about-page #divhow {
+    padding: 50px 20px;
+}
+.benefit-point .icon, .benefit-point  {
+    display: block;
+}
+ 
+.benefit-point {
+    width:100%;
+}
 
     .menu {
         display: block;
@@ -1171,8 +1307,8 @@ time {
         padding-bottom: 100px;
         padding-left: 50px;
         background-size: 100%;
-        min-height: 400px;
-        padding-right: 20px;
+
+        padding-right: 50px;
     }
 
     .background-lamp {
@@ -1228,12 +1364,12 @@ time {
         min-height: 340px;
     }
 
-    .background2 .team p:last-child {
-        font-size: 18px;
+    .background2 .team p:first-child {
+        font-size: 36px;
     }
 
-    .background2 .team {
-        padding: 100px 0px;
+    .background2 .team p:last-child {
+        font-size: 18px;
     }
 
     h2 {
@@ -1251,6 +1387,15 @@ time {
         padding-bottom: 150px;
     }   
 
+    .background2 .team {
+        padding: 50px;
+    }
+    .name {
+        font-size: 16px;
+    }
+.newsitem {
+        width: 70%;
+    }
 }
 
 @media screen and (max-width: 910px) {
@@ -1258,6 +1403,8 @@ time {
     .nav_top {
         margin: 0px 0px 0px 50px !important;
     }
+    
+    
 
 }
 
@@ -1265,6 +1412,10 @@ time {
 
     .nav_top {
         margin: 0px 0px 0px 50px !important;
+    }
+
+    .mittig {
+        width:80%;
     }
 }
 
@@ -1298,6 +1449,13 @@ time {
 
 @media screen and (max-width: 700px) {
 
+    .mittig {
+        width: 80%;
+    }
+    .job-title {
+        font-size: 12px;
+    }
+
     .radio-inline + .radio-inline {
         display: block;
         margin-left: 0px;
@@ -1307,7 +1465,7 @@ time {
         margin-left: 30px;
     }
 
-    #news, #imprint {
+    #imprint {
         padding: 180px 20px 50px; 
     } 
 
@@ -1321,27 +1479,25 @@ time {
     input[type="radio"] {
         margin: 12px 0 0;
     }
+    #version {
+        display: none;
+    }
 
 }
 
 @media screen and (max-width: 640px) {
-
+    
     .newscollection {
-        width: 100%; 
-    }
-
-    .abstract {
-        font-size: 16px;
-        color: #2c3e52;
-        font-weight: 400;
+    padding: 20px 0 0;
     }
 
     .searchheader {
         padding: 0px 0px 10px 20px;
     }
-    
+
     .background1 {
         padding-left: 20px;
+        background-image: none;
     }
 
     .icon-description {
@@ -1386,7 +1542,6 @@ time {
     .icon-description, .icon {
         display: block;
         width: 100%;
-        text-align: center;
     }
 
     #divdiscover a {
@@ -1399,11 +1554,6 @@ time {
 
     .mittig {
         margin: 50px auto 0px;
-        max-width: 500px;
-    }
-
-    .advisorsdiv {
-        padding: 50px 20px;
     }
 
     .description li:last-child {
@@ -1413,7 +1563,7 @@ time {
     .description {
         display: inline-block;
         margin-top: 10px;
-        vertical-align:top;
+        vertical-align: middle;
     }
 
     .description li:first-child, h2, .searchheader .description li:first-child {
@@ -1421,12 +1571,9 @@ time {
 
     }
     .description {
-        padding: 0px 10px 10px 10px;
+        padding: 0px 10px 0px 10px;
     }
 
-    .description li:first-child {
-        padding: 5px;
-    }
 
     .imglogo {
         display:none;
@@ -1436,43 +1583,55 @@ time {
         padding-bottom: 20px;
     }
 
+    .library {
+        font-size: 14px;
+    }
+
+    .visualize {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 535px) {
+    
+    .about-page #divhow {
+    padding: 20px;
+}
 
     .vision {
         display: block;
         max-width: 100%;
         padding: 20px 40px;
+        min-height: 16px;
     }
 
-    .vision p, .vision h2 {
-        text-align: center;
-    }
+
 
     .vision h2 {
         margin: 20px 0px 0px !important;
     }
 
-    #members {
-        max-width:200px;
-        margin: 0px auto;
-    }
 
     .member {
-        margin: 20px 0px;
+        margin: 10px 10px;
+        width: 25%;
     }
 
-    #news, #imprint {
+    .name {
+        font-size: 14px;
+    }
+    .job-title {
+        font-size: 10px;
+    }
+
+    #imprint {
         padding: 80px 10px 50px; 
     }
+    
 
-    #team {
-        padding-top: 50px;
-    }
-
-    .visualize {
-        font-size: 18px;
+    #team, #about-page, #news {
+        padding-top: 60px;
     }
 
     header {
@@ -1483,22 +1642,7 @@ time {
         height:50px;
     }
 
-    .library {
-        font-size: 14px;
-    }
 
-    .mittig {
-        margin: 0px 0px 0px 0px;
-    }
-
-    .background1 {
-        background-image: url(../img/bubbleman7_smart.png);
-        padding-bottom: 0px;
-        background-size: 130%;
-        background-position: 0%; 
-        min-height: 370px;
-        background-color: #2d3e52;
-    }
 
     .missionstatement p {
         font-size: 20px;
@@ -1521,10 +1665,17 @@ time {
     }
 
     .advisor {
-        display: block;
-        width:100%;
-        max-width: 300px;
+        display: inline-block;
+        width: 49%;
         margin: 0px 0px 10px 0px;
+        min-height: 260px;
+    }
+
+    .advisor h3, .name {
+        font-size: 12px;
+    }
+    .advisor p {
+        font-size: 10px;
     }
 
     .background2 .team p:first-child {
@@ -1544,6 +1695,27 @@ time {
     address {
         width: 100%;
     }
+
+    .mittig {
+        padding: 30px;
+        width:90%;
+    }
+
+    sup {
+        font-size:8px;
+        padding: 3px;
+    }
+
+    .bg1 .advisorsdiv {
+        padding: 10px;
+    }
+    
+    #advisors {
+    padding-bottom: 20px;
+    }
+.newsitem {
+    width: 80%;
+}
 
 }
 
@@ -1592,16 +1764,13 @@ time {
     }
 
     .background2 .team {
-        padding: 50px 0px;
+        padding: 20px;
     }
 
     .background2 {
         min-height: 50px;
     }
 
-    #team {
-        padding-top: 100px;
-    }
 
     .mittig {
         margin: 20px 0px 0px 0px;
@@ -1611,7 +1780,7 @@ time {
         margin: 10px 0px 10px 0px;
     }
     .background1 {
-        min-height: 300px;
+
         padding-bottom: 50px;
         padding-top: 70px;
 
@@ -1642,9 +1811,7 @@ time {
         font-size: 18px;
     }
 
-    #team {
-        padding-top: 50px;
-    }
+    
 
     #license {
         max-width:400px; 
@@ -1672,12 +1839,22 @@ time {
         border: 0px solid #2d3e52;
     }
 
-}
-
-@media screen and (max-width: 350px) {
-
-    div#mission {
-        padding: 0px 0px 50px 0px;
+    .visualize {
+        font-size: 16px;
     }
 
+    .advisor p {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .advisor h3 {
+        padding: 10px 10px 0px 10px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .mittig {
+        padding: 20px;
+        width: 100%;
+    }
 }

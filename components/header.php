@@ -4,17 +4,18 @@
 
                 <!-- Menu icon -->
                 <div class="icon-close">
-                    <img src="./img/close.png">
+                    <i class="fa fa-times" aria-hidden="true"></i>
                 </div>
 
                 <!-- Menu -->
                 <ul>
                     <li><a href="index.php#search">Search</a></li>
-                    <li><a href="index.php#okmmission">Our Mission</a></li>
+                    <li><a href="about.php">About</a></li>
                     <!--<li><a href="index.php#discover">Discover Maps</a></li>-->
-                    <li><a href="#contact">Get in touch</a></li>
+                    
                     <li><a href="team.php#team">Team</a></li>
                     <li><a href="news.php">News</a></li>
+                    <li><a href="#contact">Get in touch</a></li>
                     <li><a href="index.php#newsletter">Newsletter</a></li>
                 </ul>
 
@@ -35,7 +36,7 @@
                     <a href="index.php#search">Search</a>
                 </li>
                 <li>
-                    <a href="index.php#okmmission">Our Mission</a>
+                    <a href="about.php">About</a>
                 </li>
                 <!--<li>
                     <a href="index.php#discover">Discover Maps</a>

@@ -1,6 +1,6 @@
 <div id="parser" style="display:none"></div>
 <div class="bs-example">
-    <h2 id="feedback"> Feedback</h2>
+    <h2 id="feedback">What our users say</h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Carousel indicators -->
 

@@ -6,7 +6,9 @@
     border: 5px solid #2D3E52;
     height: 30px;
     padding-left: 5px;
-    max-width: 558px;
+
+    width:80%;
+
 }
 
 .time_input {
@@ -189,7 +191,6 @@ button {
         border: 5px solid #2D3E52;
         height: 30px;
         padding-left: 5px;
-        max-width: 70%;
         display: inline-block;
     }
 
@@ -200,10 +201,14 @@ button {
 
 @media screen and (max-width: 490px) {
     .submit-btn {
-        font-size: 18px;
+        font-size: 14px;
     }
 
     #filter-container {
         display:none;
+    }
+
+    input {
+        font-size: 12px;
     }
 }
