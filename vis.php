@@ -3,7 +3,46 @@
 <html lang="en">
     <head>
 
-        <?php include ($COMPONENTS_PATH . "head_standard.php"); ?>
+        <?php
+            $query = json_encode($_GET['id']);
+
+            if (isset($_GET['query'])) {
+                $query = json_encode($_GET['query']);
+            }
+
+            $credit = "";
+
+            $service_name = "";
+
+            if (!isset($_GET['service'])) {
+                echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
+                $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
+
+                $service_name = "PLOS";
+            } else {
+                if ($_GET['service'] === "plos") {
+                    $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
+                    echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
+                    $service_name = "PLOS";
+                } else if ($_GET['service'] === "pubmed") {
+                    $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
+                    echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
+                    $service_name = "PubMed";
+                } else if ($_GET['service'] === "doaj") {
+                    $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
+                    echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
+                    $service_name = "DOAJ";
+                } else if ($_GET['service'] === "base") {
+                    $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
+                    echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
+                    $service_name = "BASE";
+                }
+            }
+
+            $title = "Overview of $service_name articles for $query - Open Knowledge Maps";
+            
+            include ($COMPONENTS_PATH . "head_standard.php");
+        ?>
 
         <script>
             var intro = {
@@ -17,7 +56,7 @@
         <?php include ($COMPONENTS_PATH . "header_search.php"); ?>
 
         <div style="padding-top:78px;">
-            
+
             <?php
             require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
             $detect = new Mobile_Detect;
@@ -35,47 +74,9 @@
                 </div>
 
             <?php endif ?>
-            
+
             <div id="visualization" style="background-color:white;"></div>
         </div>
-        <?php
-        $credit = "";
-
-        $title = "";
-
-        if (!isset($_GET['service'])) {
-            echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
-            $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
-
-            $title = "PLOS";
-        } else {
-            if ($_GET['service'] === "plos") {
-                $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
-                echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
-                $title = "PLOS";
-            } else if ($_GET['service'] === "pubmed") {
-                $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
-                echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
-                $title = "PubMed";
-            } else if ($_GET['service'] === "doaj") {
-                $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
-                echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
-                $title = "DOAJ";
-            } else if ($_GET['service'] === "base") {
-                $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
-                echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
-                $title = "BASE";
-            }
-        }
-        ?>
-
-        <?php
-        $query = json_encode($_GET['id']);
-
-        if (isset($_GET['query'])) {
-            $query = json_encode($_GET['query']);
-        }
-        ?>
 
         <script>
             var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
@@ -83,7 +84,7 @@
 
                     data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
             data_config.intro = intro;
-            data_config.title = '<?php echo 'Overview of <span id="num_articles"></span> ' . $title . ' articles for ' . $query; ?>';
+            data_config.title = '<?php echo 'Overview of <span id="num_articles"></span> ' . $service_name . ' articles for ' . $query; ?>';
             data_config.files = [{
             title: <?php echo $query ?>,
                     file: <?php echo json_encode($_GET['id']) ?>

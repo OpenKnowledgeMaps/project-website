@@ -1,4 +1,13 @@
-<title>Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge</title>
+<title>
+<?php 
+    $DEFAULT_TITLE = "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge";
+    if($title != null) {
+        echo $title; 
+    } else {
+        echo $DEFAULT_TITLE;
+    }        
+?>
+</title>
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" >
 <meta http-equiv="content-style-type" content="text/css" >
