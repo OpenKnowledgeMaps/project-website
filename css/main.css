@@ -28,10 +28,6 @@ body {
     -o-hyphens: auto;
 }
 
-svg {
-    width:26%;
-}
-
 p {
     text-align: left;
 }
