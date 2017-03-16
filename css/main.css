@@ -294,7 +294,7 @@ header #logo a:hover {
     background-position: 100% 100%;
     background-size: 100%;
     text-align: center;
-    padding: 225px 0 100px;
+    padding: 180px 0 100px;
 }
 
 .background-lamp {
@@ -512,7 +512,7 @@ strong {
 .howitworks-point p {
     font-size: 18px;
 }    
-   
+
 .icon {
     width: 20%;   
 }
@@ -531,8 +531,8 @@ strong {
     padding: 100px 0px 100px 30px;/*oder helles blau #e0ecf9*/
 }
 
-div#mission {
-    padding: 100px 50px 100px;
+#mission {
+    padding: 100px 0px 100px;
     color: #2d3e52;
     background-color: #eff3f4;
     margin: 0px auto;
@@ -656,12 +656,29 @@ div#mission {
 }
 
 .about-page #divhow {
-    padding: 50px;
+    padding: 70px;
 }
 
+.try-now {
+    text-align:center; 
+    margin-top:40px;
+}
+
+.try-now .newsitem-button {
+    font-size: 26px;
+
+}
+
+.more-info h2 {
+    font-size: 20px;
+}
 
 #version {
     display: inline-block;
+}
+
+.more-info-icon {
+    font-size: 70px;
 }
 
 .benefits {
@@ -682,9 +699,9 @@ div#mission {
 
 .benefit-point .icon {
     display: inline-block;
-   max-width: 120px;
-   width: 100%;
-   padding: 0 5% 0 0;
+    max-width: 120px;
+    width: 100%;
+    padding: 0 5% 0 0;
 }
 
 .howitworks-point {
@@ -695,6 +712,9 @@ div#mission {
     text-align:left;
 }
 
+.okm-icon {
+    margin-bottom: 20px;
+}
 /*team page*/
 #team {
     padding-top: 90px;
@@ -1048,10 +1068,10 @@ sup {
 .newscollection {
     padding: 50px 0;
     background: red; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(/*left,*/ white, #f5f9fa); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(/*right,*/ white, #f5f9fa); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(/*right,*/ white, #f5f9fa); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(/*to right,*/ white, #f5f9fa); /* Standard syntax */
+    background: -webkit-linear-gradient(/*left,*/ white, #f5f9fa); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(/*right,*/ white, #f5f9fa); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(/*right,*/ white, #f5f9fa); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(/*to right,*/ white, #f5f9fa); /* Standard syntax */
 }
 
 .newsitem {
@@ -1084,8 +1104,8 @@ time {
 }
 
 .newsitem-text {
-        padding: 40px 0px;
-    }
+    padding: 40px 0px;
+}
 
 .newsitem-headline {
     text-align: left;
@@ -1165,6 +1185,8 @@ time {
     font-size:60px; 
     color: #2c3e52;
     font-weight: bold;
+    vertical-align: bottom;
+    padding-right: 20px;
 }
 
 /*MEDIA BREAK POINTS*/
@@ -1182,7 +1204,7 @@ time {
         font-size: 14px;
     }
 
-    
+
 
     .imglogo {
         padding: 0px 10px 0px 50px;
@@ -1228,10 +1250,10 @@ time {
     .searchheader .icon-menu {
         display: inline-block;
     }
-    
+
     .description {
-    vertical-align: middle;
-}
+        vertical-align: middle;
+    }
 
     .searchheader .nav_top {
         display:none;
@@ -1265,7 +1287,7 @@ time {
 
 @media screen and (max-width: 960px) {
 
-    
+
 
 
     .vision h2 {
@@ -1283,16 +1305,16 @@ time {
     html {
         background-color: white;
     }
-.about-page #divhow {
-    padding: 50px 20px;
-}
-.benefit-point .icon, .benefit-point  {
-    display: block;
-}
- 
-.benefit-point {
-    width:100%;
-}
+    .about-page #divhow {
+        padding: 50px 20px;
+    }
+    .benefit-point .icon, .benefit-point  {
+        display: block;
+    }
+
+    .benefit-point {
+        width:100%;
+    }
 
     .menu {
         display: block;
@@ -1405,7 +1427,7 @@ time {
     .name {
         font-size: 16px;
     }
-.newsitem {
+    .newsitem {
         width: 70%;
     }
 }
@@ -1415,8 +1437,8 @@ time {
     .nav_top {
         margin: 0px 0px 0px 50px !important;
     }
-    
-    
+
+
 
 }
 
@@ -1498,9 +1520,9 @@ time {
 }
 
 @media screen and (max-width: 640px) {
-    
+
     .newscollection {
-    padding: 20px 0 0;
+        padding: 20px 0 0;
     }
 
     .searchheader {
@@ -1606,19 +1628,24 @@ time {
 }
 
 @media screen and (max-width: 535px) {
-    
-    .about-page #divhow {
-    padding: 20px;
-}
 
+    .about-page #divhow {
+        padding: 20px;
+    }
+
+    .okm-icon {
+    margin-bottom: 0px;
+}
     .vision {
-        display: block;
-        max-width: 100%;
-        padding: 20px 40px;
+        display: inline-block;
+        max-width: 70%;
+        padding: 20px 20px;
         min-height: 16px;
     }
 
-
+    .howitworks-point {
+        width:100%; 
+    }
 
     .vision h2 {
         margin: 20px 0px 0px !important;
@@ -1640,7 +1667,7 @@ time {
     #imprint {
         padding: 80px 10px 50px; 
     }
-    
+
 
     #team, #about-page, #news {
         padding-top: 60px;
@@ -1721,13 +1748,20 @@ time {
     .bg1 .advisorsdiv {
         padding: 10px;
     }
-    
+
     #advisors {
-    padding-bottom: 20px;
+        padding-bottom: 20px;
     }
-.newsitem {
-    width: 80%;
-}
+    .newsitem {
+        width: 80%;
+    }
+    .try-now .newsitem-button {
+        font-size: 18px;
+    }
+    .try-now {
+        text-align: left;
+        margin-top: 10px;
+    }
 
 }
 
@@ -1760,7 +1794,7 @@ time {
         font-size: 14px;
     }
 
-    #mission strong, .icon-description {
+    #mission strong, .icon-description, .howitworks-point p {
         font-size: 14px;
     }
 
@@ -1823,7 +1857,7 @@ time {
         font-size: 18px;
     }
 
-    
+
 
     #license {
         max-width:400px; 
