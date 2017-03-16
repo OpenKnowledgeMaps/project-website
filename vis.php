@@ -4,10 +4,10 @@
     <head>
 
         <?php
-            $query = json_encode($_GET['id']);
+            $query = $_GET['id'];
 
             if (isset($_GET['query'])) {
-                $query = json_encode($_GET['query']);
+                $query = $_GET['query'];
             }
 
             $credit = "";
@@ -82,11 +82,11 @@
             var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
             $("#visualization").css("height", div_height + "px")
 
-                    data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
+            data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
             data_config.intro = intro;
             data_config.title = '<?php echo 'Overview of <span id="num_articles"></span> ' . $service_name . ' articles for ' . $query; ?>';
             data_config.files = [{
-            title: <?php echo $query ?>,
+                    title: <?php echo json_encode($query) ?>,
                     file: <?php echo json_encode($_GET['id']) ?>
             }]
         </script>
