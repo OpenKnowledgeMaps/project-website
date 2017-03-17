@@ -727,6 +727,10 @@ strong {
     color: #2D3E52;
 }
 
+.faq a {
+    text-decoration: underline;
+}
+
 #question-Q {
     font-size:30px; 
     font-weight: bold; 
