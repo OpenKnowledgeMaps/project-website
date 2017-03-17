@@ -124,7 +124,7 @@
                 </div>
 
                 <p class="faq">
-                    You couldn't find an answer to your question? <a class="underline" href="#contact">Get in touch</a> an we will get back to you as soon as we can.
+                    You couldn't find an answer to your question? <a class="underline" href="#contact">Get in touch</a> and we will get back to you as soon as we can.
                 </p>
 
             </div>
