@@ -99,7 +99,7 @@
                 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q7</span>How can I contribute?
+                        <span id="question-Q">Q7</span> How can I contribute?
                     </p>
                     <p>
                         You can contribute in a number of ways: 
@@ -115,7 +115,7 @@
                 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q8</span>Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q8</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         No doubt! Just drop us a line on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
