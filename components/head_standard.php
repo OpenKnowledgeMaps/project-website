@@ -4,7 +4,8 @@
     if($title != null) {
         echo $title; 
     } else {
-        echo $DEFAULT_TITLE;
+        $title = $DEFAULT_TITLE;
+        echo $title;
     }        
 ?>
 </title>
@@ -37,7 +38,7 @@
 
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@OK_Maps" />
-<meta name="twitter:title" content="Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge" />
+<meta name="twitter:title" content="<?php echo $title; ?>" />
 <meta name="twitter:description" content="We are building a visual interface to the world&#39;s scientific knowledge to change the way we discover research." />
 <meta name="twitter:image" content="http://openknowledgemaps.org/img/card.png" />
 

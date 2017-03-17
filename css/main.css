@@ -1159,6 +1159,10 @@ time {
     text-decoration: underline;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
 .newsitem-button:hover, .newsitem-button:active, .newsitem-button:focus {
     border: 2px solid #2c3e52;
     color: #fff;

@@ -250,8 +250,7 @@ var SearchOptions = {
                 .attr("class", "divity")
 
         div.append('a')
-                .attr("href", "#")
-                .attr("class", "frontend-btn")
+                .attr("class", "frontend-btn pointer")
                 .text("Options")
 
         var filters = d3.select(tag).append('div')

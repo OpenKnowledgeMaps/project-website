@@ -27,12 +27,12 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q1</span> How do you define most relevant?
+                        <span id="question-Q">Q1</span> How do you define most relevant when you are talking about most relevant papers?
                     </p>
                     <p>At the moment, we are using the relevance ranking provided by - 
                         depending on your choice - either the PubMed API or the BASE API. 
                         Both of them mainly use text similarity. PubMed has a detailed <a class="underline" href="https://www.ncbi.nlm.nih.gov/books/NBK3827/#pubmedhelp.Computation_of_Weighted_Relev" target="_blank">
-                            description of their relevance ranking.</a>
+                            description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
                     </p>
                 </div>
                 

@@ -115,7 +115,7 @@ button {
     text-decoration: none;
 }
 
-.frontend-btn, .frontend-btn:link, .frontend-btn:hover, .frontend-btn:visited, .frontend-btn:active {
+.frontend-btn, .frontend-btn:link, .frontend-btn:hover, .frontend-btn:visited, .frontend-btn:active, .frontend-btn.pointer {
     text-decoration: none;
     color: white;
 }

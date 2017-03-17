@@ -33,7 +33,7 @@
 
     <div id="mc_embed_signup">
         <form action="//openknowledgemaps.us13.list-manage.com/subscribe/post?u=c399f89442d6aa733a9896515&amp;id=3ff20c12f9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-            <p>We are continously improving Open Knowledge Maps. Please enter your e-mail address below to receive updates on the newest developments.</p>
+            <p>We are continously improving Open Knowledge Maps. Enter your e-mail address below to receive updates on the newest developments.</p>
             <div id="mc_embed_signup_scroll">
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">Email Address<span class="asterisk">*</span>
