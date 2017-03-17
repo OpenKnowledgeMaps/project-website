@@ -7,8 +7,7 @@
                     <img class="okm-icon" src="./img/icons/visual-interface.png">
                 </p>
                 <h2>Visual <br>interface</h2>
-                <p>We are creating a visual interface to the world's scientific knowledge
-                    that can be used by anyone in order to dramatically improve the discoverability of research results.
+                <p>We are creating a visual interface to the world's scientific knowledge that dramatically increases the visibility of research findings for science and society alike.
                     <br><br><span style="font-weight: bold;">our goal</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
@@ -21,7 +20,7 @@
                 </p>
                 <h2>Revolutionize <br>discovery</h2>
                 <p>We are going to provide a large-scale system of open, interactive and interlinked knowledge maps
-                    spanning all fields of research. <br><br><span style="font-weight: bold;">our roadmap</span></p>
+                    for every research topic, every field and every discipline. <br><br><span style="font-weight: bold;">our roadmap</span></p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
 
             </div>
@@ -32,8 +31,7 @@
                     <img class="okm-icon" src="./img/icons/openscience.png">
                 </p>
                 <h2>Share. Use. <br>Collaborate.</h2>
-                <p>We will develop a space for collective knowledge organisation 
-                    and exploration, connecting researchers, students, librarians, journalists, practitioners and citizens.
+                <p>We want to turn discovery into an open and collaborative process. By sharing the results of our discoveries, we can save valuable time and build on top of each other's knowledge.
                     <br><br><span style="font-weight: bold;">our vision</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
