@@ -19,7 +19,7 @@
             <div class="background2">
                 <div class="team">
                     <p>FAQ</p>
-                    <p>Some of the most frequently asked questions about OK Maps.</p>
+                    <p>Answers to the most frequently asked questions about Open Knowledge Maps.</p>
                 </div>
             </div>
 
