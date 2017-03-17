@@ -1587,7 +1587,7 @@ time {
         width: 60%;
     }
 
-    #mission strong, .icon-description {
+    #mission strong, .icon-description, .faq {
         font-size: 16px;
     }
 
@@ -1816,7 +1816,7 @@ time {
         font-size: 14px;
     }
 
-    #mission strong, .icon-description, .howitworks-point p {
+    #mission strong, .icon-description, .howitworks-point p, .faq {
         font-size: 14px;
     }
 
