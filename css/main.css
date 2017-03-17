@@ -234,18 +234,6 @@ header #logo a:hover {
     font-size: 20px;
 }
 
-.searchheader .imglogo{
-    display: inline-block; 
-    vertical-align:top; 
-    padding: 0px 0px 0px 0px; 
-    margin-top: 0px;
-}
-
-.searchheader .imglogo img {
-    width:70%;
-    vertical-align: middle;
-}
-
 .hoverlink:hover {
     opacity:0.3;
 }
@@ -283,6 +271,16 @@ header #logo a:hover {
     box-shadow: 0px 2px 4px 0px #cacfd3;
 }
 
+.background-lamp .mittig {
+    width:50%;
+    margin: 0px auto;
+    background-color: transparent;
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 0px 0px #cacfd3;
+    -moz-box-shadow: 0px 0px 0px 0px #cacfd3;
+    box-shadow: 0px 0px 0px 0px #cacfd3;
+}
+
 .background1 {
     background-color: white; /*#f7f7f7;*/
     background-image: url(../img/start-page1.png);
@@ -297,18 +295,19 @@ header #logo a:hover {
     background-color: white;
     background-image: url(../img/pixellampe_test_50044.png);
     background-repeat: no-repeat; 
-    padding-top: 165px;
-    background-position: 50% 70%;
-    background-size: 100%;
-    min-height: 550px;
+    background-size: 80%;
+    text-align: center;
+    padding: 120px 0px 100px;
+    background-position: 50%;
 }
 
 .background-lamp.gif {
-    background-image: url(../img/lamp.gif);
+    background-image: url(../img/lamp2.gif);
+
 }
 
 .background-lamp.failgif {
-    background-image: url(../img/lamp-bw.gif);
+    background-image: url(../img/lamp-bw2.gif);
 }
 
 .background3 {
@@ -574,9 +573,7 @@ strong {
 
 }
 
-.vision img {
-    max-width: 30%;
-}
+
 
 .description-headstart {
     max-width: 500px;
@@ -677,6 +674,10 @@ strong {
     font-size: 70px;
 }
 
+#more-info .vision {
+    max-width: 20%;
+}
+
 .benefits {
     max-width:1200px; 
     width:100%; 
@@ -709,8 +710,29 @@ strong {
 }
 
 .okm-icon {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    max-width: 100%;
 }
+
+/*FAQ*/
+.faq {
+    max-width:60%; 
+    margin:0px auto 30px;
+    font-size: 18px;
+}
+
+.faquestion {
+    font-weight: bold; 
+    font-size: 18px; 
+    color: #2D3E52;
+}
+
+#question-Q {
+    font-size:30px; 
+    font-weight: bold; 
+    color: #e55137;
+}
+
 /*team page*/
 #team {
     padding-top: 90px;
@@ -858,10 +880,6 @@ strong {
     width:200px;
     color: #e55137;
     margin: 20px 0px;
-}
-
-#progressbar {
-    margin-bottom:50px;
 }
 
 #progress p {
@@ -1218,7 +1236,7 @@ time {
 }
 
 @media screen and (max-width: 1230px) {
-    .mittig {
+    .mittig, .background-lamp .mittig {
         width: 70%;
     }
 }
@@ -1228,17 +1246,21 @@ time {
     .nav_top li {
         margin-right: 10px;
     }
+
 }
 
 @media screen and (max-width: 1020px) {
 
-    .mittig {
+
+
+    .mittig, {
         margin: 50px auto 0;
     }
 
     .background1 {
         padding-top: 120px;
     }
+
     .searchheader .menu {
         display: block;
     }
@@ -1284,7 +1306,9 @@ time {
 @media screen and (max-width: 960px) {
 
 
-
+    .description {
+        padding: 0px 10px 0px 10px;
+    }
 
     .vision h2 {
         font-size: 18px;
@@ -1318,7 +1342,6 @@ time {
 
     .icon-menu {
         display: inline-block;
-        margin-right: 20px;
     }
 
     .nav_top {
@@ -1333,7 +1356,7 @@ time {
         padding: 12px 0px;
     }
 
-    .background1 {
+    .background1, .background-lamp {
         padding-bottom: 100px;
         padding-left: 50px;
         background-size: 100%;
@@ -1341,21 +1364,8 @@ time {
         padding-right: 50px;
     }
 
-    .background-lamp {
-        padding-top: 100px;
-        padding-bottom: 100px;
-        padding-left: 50px;
-        background-size: 100%;
-        min-height: 350px;
-        padding-right: 20px;
-    }
 
-    background-lamp.gif {
-        background-color: white;
-        background-size: 100%;
-        background-position: 30% 40% !important;
-        padding-bottom: 150px;
-    } 
+
 
     .visualize {
         font-size: 28px;
@@ -1410,13 +1420,6 @@ time {
         font-size: 18px;
     }
 
-    .background1.gif {
-        background-color: white;
-        background-size: 100%;
-        background-position: 30% 40% !important;
-        padding-bottom: 150px;
-    }   
-
     .background2 .team {
         padding: 50px;
     }
@@ -1444,7 +1447,7 @@ time {
         margin: 0px 0px 0px 50px !important;
     }
 
-    .mittig {
+    .mittig, .background-lamp .mittig {
         width:80%;
     }
 }
@@ -1452,7 +1455,7 @@ time {
 @media screen and (max-width: 750px) {
 
     .vision h2 {
-        margin: 20px 0px 10px;
+        margin: 10px 0px 10px;
     }
 
     .advisor {
@@ -1479,9 +1482,11 @@ time {
 
 @media screen and (max-width: 700px) {
 
-    .mittig {
-        width: 80%;
+    .okm-icon {
+        max-width: 35%;
     }
+
+
     .job-title {
         font-size: 12px;
     }
@@ -1513,6 +1518,11 @@ time {
         display: none;
     }
 
+    .faq {
+        max-width:80%; 
+    }
+
+
 }
 
 @media screen and (max-width: 640px) {
@@ -1525,7 +1535,7 @@ time {
         padding: 0px 0px 10px 20px;
     }
 
-    .background1 {
+    .background1, .background-lamp {
         padding-left: 20px;
         background-image: none;
     }
@@ -1534,9 +1544,6 @@ time {
         padding: 0 0 0 0;
     }
 
-    .background-lamp {
-        padding-left: 20px;
-    }
 
     .icon-menu {
         margin-right: 0px;
@@ -1600,9 +1607,7 @@ time {
         font-size: 16px;
 
     }
-    .description {
-        padding: 0px 10px 0px 10px;
-    }
+
 
 
     .imglogo {
@@ -1625,18 +1630,26 @@ time {
 
 @media screen and (max-width: 535px) {
 
+    .okm-icon {
+        max-width: 25%;
+    }
+
     .about-page #divhow {
         padding: 20px;
     }
 
     .okm-icon {
-    margin-bottom: 0px;
-}
-    .vision {
+        margin-bottom: 0px;
+    }
+    .vision, #more-info .vision {
         display: inline-block;
         max-width: 70%;
         padding: 20px 20px;
         min-height: 16px;
+    }
+
+    .more-info-icon {
+        font-size: 40px;
     }
 
     .howitworks-point {
@@ -1644,7 +1657,7 @@ time {
     }
 
     .vision h2 {
-        margin: 20px 0px 0px !important;
+        margin: 10px 0px 0px !important;
     }
 
 
@@ -1720,18 +1733,12 @@ time {
         font-size: 16px;
     }
 
-    .background-lamp {
-        padding-bottom: 0px;
-        background-size: 130%;
-        background-position: 10% 60%; 
-        min-height: 300px;
-    }
 
     address {
         width: 100%;
     }
 
-    .mittig {
+    .mittig, .background-lamp .mittig {
         padding: 30px;
         width:90%;
     }
@@ -1757,6 +1764,10 @@ time {
     .try-now {
         text-align: left;
         margin-top: 10px;
+    }
+    
+    .background-lamp {
+        padding-top: 70px;
     }
 
 }
@@ -1821,33 +1832,19 @@ time {
     .library {
         margin: 10px 0px 10px 0px;
     }
-    .background1 {
 
+    .background1 {
         padding-bottom: 50px;
         padding-top: 70px;
-
     }
+
+    
+
     .missionstatement {
         padding: 50px 0px;
     }
 
-    .background1.gif {
-        background-position: 30% 15% !important;
-        padding-bottom: 150px;
-    }
 
-    .background-lamp {
-        min-height: 150px;
-        padding-bottom: 50px;
-        padding-top: 70px;
-        background-position: 120% 30%;
-        background-size: 60%;
-    }
-
-    .background-lamp.gif {
-        background-position: 30% 15% !important;
-        padding-bottom: 150px;
-    }
 
     .waitforit {
         font-size: 18px;
@@ -1895,7 +1892,7 @@ time {
 }
 
 @media screen and (max-width: 360px) {
-    .mittig {
+    .mittig, .background-lamp .mittig {
         padding: 20px;
         width: 100%;
     }

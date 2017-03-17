@@ -25,19 +25,55 @@
 
             <div style="max-width:100%;">
 
-                <div style="max-width:50%; margin:0px auto 30px;">
-                    <p style="font-weight: bold; font-size: 18px; color: #2D3E52;">
-                        <span style="font-size:30px; font-weight: bold; color: #e55137;">Q1</span> How do you define most relevant?</p>
-                    <p style="font-size: 18px;">At the moment, we are using the relevance ranking provided by - 
-                        depending on your choice - either the DOAJ API or the PubMed API. 
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q1</span> How do you define most relevant?
+                    </p>
+                    <p>At the moment, we are using the relevance ranking provided by - 
+                        depending on your choice - either the PubMed API or the BASE API. 
                         Both of them mainly use text similarity. PubMed has a detailed <a class="underline" href="https://www.ncbi.nlm.nih.gov/books/NBK3827/#pubmedhelp.Computation_of_Weighted_Relev" target="_blank">
                             description of their relevance ranking.</a>
                     </p>
                 </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q2</span> Why are you only using the top 100 papers?
+                    </p>
+                    <p>(please fill in answer)
+                    </p>
+                </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q3</span> Is this based on full text analysis, abstract or titles?
+                    </p>
+                    <p>The grouping of papers is based on the subject keywords of papers. 
+                        In cases where they are missing from the metadata, we approximate them from abstract and title.
+                    </p>
+                </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q4</span> Is this based on full text analysis, abstract or titles?
+                    </p>
+                    <p>The grouping of papers is based on the subject keywords of papers. 
+                        In cases where they are missing from the metadata, we approximate them from abstract and title.
+                    </p>
+                </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q4</span> What are the dependencies?
+                    </p>
+                    <p>We need to mention that the result depends on the meta data and how well that is done etc.
+                    </p>
+                </div>
 
 
-                <p style="max-width:50%; margin:0px auto;font-size: 18px;">
-                    <a class="underline" href="#contact">Get in touch</a> if you have any more questions.
+
+                <p class="faq">
+                    You couldn't find an answer to your question? <a class="underline" href="#contact">Get in touch</a> an we will get back to you as soon as we can.
                 </p>
 
             </div>

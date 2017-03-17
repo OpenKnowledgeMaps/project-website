@@ -18,7 +18,7 @@
             <div class="background2 bg2">
                 <div class="team">
                     <p>Our Team</p>
-                    <p>is building Open Knowledge Maps</p>
+                    <p>of dedicated volunteers are building Open Knowledge Maps</p>
                 </div>
             </div>
 
