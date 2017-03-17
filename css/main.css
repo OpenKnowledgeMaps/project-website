@@ -637,7 +637,14 @@ strong {
 #about-page, #news {
     background-color: white;
     padding-top: 90px;
+}
+
+#about-page {
     padding-bottom: 50px;
+}
+
+#news {
+    padding-bottom: 0px;
 }
 
 #about-page .background2, #news .background2 {
@@ -1773,7 +1780,7 @@ time {
         text-align: left;
         margin-top: 10px;
     }
-    
+
     .background-lamp {
         padding-top: 70px;
     }
@@ -1846,7 +1853,7 @@ time {
         padding-top: 70px;
     }
 
-    
+
 
     .missionstatement {
         padding: 50px 0px;
