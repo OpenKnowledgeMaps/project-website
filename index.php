@@ -22,7 +22,7 @@
 
             <form id="searchform" action="#" method="POST" class="mittig" target="_blank">
                 <div style="max-width:700px; text-align: left; margin:0px auto;">
-                    <h2 class="visualize">Visualize a research topic<sup>beta</sup></h2>
+                    <h2 class="visualize">Visualize a research topic<sup id="beta-version">beta version</sup><sup id="beta">beta</sup></h2>
                     <p class="library">
                         <span style="font-weight:400; color: #cacfd3;">Choose a library:</span>
                         <label class="radio-inline"><input type="radio" name="optradio" value="pubmed">

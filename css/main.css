@@ -210,6 +210,14 @@ header #logo a:hover {
     color: red;
 }
 
+.betaversion {
+    display: inline;
+}
+
+.beta {
+    display: none;
+}
+
 /*Header for Vis*/
 
 .searchheader {
@@ -1529,9 +1537,15 @@ time {
     input[type="radio"] {
         margin: 12px 0 0;
     }
-    #version {
-        display: none;
-    }
+   
+    
+    #betaversion {
+    display: none;
+}
+
+#beta {
+    display: inline;
+}
 
     .faq {
         max-width:80%; 
