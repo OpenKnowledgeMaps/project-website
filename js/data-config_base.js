@@ -6,8 +6,8 @@ var data_config = {
     
     bubble_min_scale: 1,
     bubble_max_scale: 1,
-    paper_min_scale: 1.1,
-    paper_max_scale: 1.1,
+    paper_min_scale: 1,
+    paper_max_scale: 1,
 
     title: "",
     base_unit: "citations",
