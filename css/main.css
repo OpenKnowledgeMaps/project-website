@@ -210,11 +210,11 @@ header #logo a:hover {
     color: red;
 }
 
-.betaversion {
+#beta-version {
     display: inline;
 }
 
-.beta {
+#beta {
     display: none;
 }
 
@@ -1539,7 +1539,7 @@ time {
     }
    
     
-    #betaversion {
+    #beta-version {
     display: none;
 }
 
