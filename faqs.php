@@ -9,7 +9,7 @@
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
-    <body>
+    <body class="faq-page">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
@@ -35,7 +35,7 @@
                             description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q2</span> Why are you only using the top 100 papers to create the map?
@@ -48,7 +48,7 @@
                         One way to do this is to expand your query with the topic of a sub-area.
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q3</span> Are the maps generated based on full text analysis or on metadata analysis?
@@ -61,7 +61,7 @@
                         More information can be found in <a href="http://0277.ch/ojs/index.php/cdrs_0277/article/view/157/355" target="_blank">this article</a>.
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q4</span> Why does the overview visualization work better for some research topics than others?
@@ -84,7 +84,7 @@
                         on his blog, which brought a first team of volunteers together.
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q6</span> How is Open Knowledge Maps funded?
@@ -93,10 +93,10 @@
                         We are a group of volunteers. 
                         Currently, we are looking for funding for <a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
                         If you are interested in funding this effort, please contact us on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
-                        
+
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q7</span> How can I contribute?
@@ -108,23 +108,23 @@
                         We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
                         let us know via <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. 
-                        
-                        
+
+
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q8</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         No doubt! Just drop us a line on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
-                        
+
                     </p>
                 </div>
 
                 <p class="faq">
-                    You couldn't find an answer to your question? <a class="underline" href="#contact">Get in touch</a> and we will get back to you as soon as we can.
+                    You couldn't find an answer to your question? Get in touch and we will get back to you as soon as we can.
                 </p>
 
             </div>

@@ -24,25 +24,24 @@
                 <div style="max-width:700px; text-align: left; margin:0px auto;">
                     <h2 class="visualize">Visualize a research topic<sup id="beta-version">beta version</sup><sup id="beta">beta</sup></h2>
                     <p class="library">
-                        <span style="font-weight:400; color: #cacfd3;">Choose a library:</span>
+                        <span class="library-choice">Choose a library:</span>
                         <label class="radio-inline"><input type="radio" name="optradio" value="pubmed">
-                            PubMed <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more 
+                            PubMed (biomedicine) <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more 
                                       than 26 million citations for biomedical literature from MEDLINE, life science 
                                       journals, and online books. Citations may include links to full-text content from 
                                       PubMed Central and publisher web sites."><i class="fa fa-info-circle" aria-hidden="true"></i></a></label>
                         <label class="radio-inline"><input type="radio" name="optradio" value="base" checked="checked">
-                            Bielefeld Academic 
-                            Search Engine <a href="#" data-toggle="popover" title="Bielefeld Academic Search Engine 
+                            BASE (all disciplines) <a href="#" data-toggle="popover" title="Bielefeld Academic Search Engine 
                                              (BASE)" data-content="Provides access to over 100 million documents from 
                                              more than 5,200 content sources in all disciplines."><i class="fa fa-info-circle" aria-hidden="true"></i></a></label>
                     </p>
 
                     <!--<label for="q">Search term:</label> -->
                     <!--<div class="bg-div">-->
-                    
-                        <input type="text" name="q" size="89" required class="text-field" placeholder="Enter a research topic or area, e.g. heart disease">
-                        <button type="submit" class="submit-btn">GO</button>
-                   
+
+                    <input type="text" name="q" size="89" required class="text-field" placeholder="Enter a research topic or area, e.g. heart disease">
+                    <button type="submit" class="submit-btn">GO</button>
+
                     <!--</div>-->
                     <!--<div class="filter-btn" style="display: inline-block"><a href="#" id="submit-btn" class="frontend-btn">Submit</a></div>-->
                     <div id="filter-container"></div>

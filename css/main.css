@@ -218,6 +218,10 @@ header #logo a:hover {
     display: none;
 }
 
+.library-choice {
+    font-weight:100; 
+    color: #cacfd3;
+}
 /*Header for Vis*/
 
 .searchheader {
@@ -287,6 +291,10 @@ header #logo a:hover {
     -webkit-box-shadow: 0px 0px 0px 0px #cacfd3;
     -moz-box-shadow: 0px 0px 0px 0px #cacfd3;
     box-shadow: 0px 0px 0px 0px #cacfd3;
+}
+
+.about-page .background-lamp .mittig {
+    padding: 150px 50px;
 }
 
 .background1 {
@@ -653,6 +661,10 @@ strong {
 
 #news {
     padding-bottom: 0px;
+}
+
+.faq-page #news {
+    padding-bottom: 50px;
 }
 
 #about-page .background2, #news .background2 {
@@ -1223,7 +1235,7 @@ time {
     color: #2c3e52;
     font-weight: bold;
     vertical-align: bottom;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 /*MEDIA BREAK POINTS*/
@@ -1259,7 +1271,7 @@ time {
 }
 
 @media screen and (max-width: 1230px) {
-    .mittig, .background-lamp .mittig {
+    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig {
         width: 70%;
     }
 }
@@ -1379,13 +1391,15 @@ time {
         padding: 12px 0px;
     }
 
-    .background1, .background-lamp {
+    .background1 {
         padding-bottom: 100px;
         padding-left: 50px;
         background-size: 100%;
-
         padding-right: 50px;
     }
+    
+    
+
 
 
 
@@ -1470,12 +1484,17 @@ time {
         margin: 0px 0px 0px 50px !important;
     }
 
-    .mittig, .background-lamp .mittig {
+    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig {
         width:80%;
+    }
+    .number {
+        font-size:40px; 
     }
 }
 
 @media screen and (max-width: 750px) {
+    
+    
 
     .vision h2 {
         margin: 10px 0px 10px;
@@ -1537,24 +1556,32 @@ time {
     input[type="radio"] {
         margin: 12px 0 0;
     }
-   
-    
-    #beta-version {
-    display: none;
-}
 
-#beta {
-    display: inline;
-}
+
+    #beta-version {
+        display: none;
+    }
+
+    #beta {
+        display: inline;
+    }
 
     .faq {
         max-width:80%; 
     }
+    
+    
+    
 
 
 }
 
 @media screen and (max-width: 640px) {
+    
+    .background-lamp {
+        padding: 50px;
+        background-size: 100%;
+    }
 
     .newscollection {
         padding: 20px 0 0;
@@ -1637,7 +1664,9 @@ time {
 
     }
 
-
+.howitworks-point {
+        width:100%; 
+    }
 
     .imglogo {
         display:none;
@@ -1655,9 +1684,14 @@ time {
         font-size: 18px;
     }
 
+    
 }
 
 @media screen and (max-width: 535px) {
+    
+    .about-page .background-lamp .mittig {
+        padding: 30px 20px 80px;
+    }
 
     .okm-icon {
         max-width: 25%;
@@ -1679,10 +1713,6 @@ time {
 
     .more-info-icon {
         font-size: 40px;
-    }
-
-    .howitworks-point {
-        width:100%; 
     }
 
     .vision h2 {
@@ -1768,7 +1798,11 @@ time {
     }
 
     .mittig, .background-lamp .mittig {
-        padding: 30px;
+        padding: 20px;
+        width:90%;
+    }
+    
+    .about-page .background-lamp .mittig {
         width:90%;
     }
 
@@ -1802,6 +1836,14 @@ time {
 }
 
 @media screen and (max-width: 470px) {
+
+    .faquestion {
+        font-size: 14px;
+    }
+
+    #question-Q {
+        font-size: 20px;
+    }
 
     .radio-inline {
         line-height: 250%;
@@ -1918,6 +1960,8 @@ time {
     .advisor h3 {
         padding: 10px 10px 0px 10px;
     }
+
+    
 }
 
 @media screen and (max-width: 360px) {
