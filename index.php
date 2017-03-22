@@ -128,7 +128,7 @@
                     if (config.service === "pubmed") {
                         search_options.addDatePickerFromTo("#from", "#to", "any-time", "1809-01-01");
                     } else if (config.service === "base") {
-                        search_options.addDatePickerFromTo("#from", "#to", "any-time", "1000-01-01");
+                        search_options.addDatePickerFromTo("#from", "#to", "any-time", "1665-01-01");
                     } else {
                         search_options.addDatePickerFromTo("#from", "#to", "any-time", "1809-01-01");
                     }
