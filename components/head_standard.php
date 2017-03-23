@@ -40,12 +40,12 @@
 <meta name="twitter:site" content="@OK_Maps" />
 <meta name="twitter:title" content="<?php echo $title; ?>" />
 <meta name="twitter:description" content="We are building a visual interface that dramatically increases the visibility of research findings for science and society alike." />
-<meta name="twitter:image" content="http://openknowledgemaps.org/img/card.png" />
+<meta name="twitter:image" content="https://openknowledgemaps.org/img/card.png" />
 
 <!-- OPEN GRAPH OG -->
 <meta property="og:description" content="We are building a visual interface that dramatically increases the visibility of research findings for science and society alike. For more updates follow us on http://twitter.com/OK_Maps"/>
-<meta property="og:url" content="http://openknowledgemaps.org"/>
-<meta property="og:image" content="http://openknowledgemaps.org/img/cardfb.png"/>
+<meta property="og:url" content="https://openknowledgemaps.org"/>
+<meta property="og:image" content="https://openknowledgemaps.org/img/cardfb.png"/>
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="Open Knowledge Maps"/>
 
