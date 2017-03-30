@@ -4,10 +4,10 @@ var data_config = {
 
     service: "pubmed",
 	
-    bubble_min_scale: 1.1,
-    bubble_max_scale: 0.9,
-    paper_min_scale: 1.1,
-    paper_max_scale: 1.1,
+    bubble_min_scale: 1.2,
+    bubble_max_scale: 1,
+    paper_min_scale: 1,
+    paper_max_scale: 1,
 
     title: "",
     base_unit: "citations",
