@@ -65,7 +65,7 @@
                             <li class="job-title">Content Mining & Recommendation</li>
                         </ul>
                     </div>
-                    
+
                     <div class="member">
                         <a target="_blank" href="http://brembs.net"><img class="hoverlink" src="./img/team/bjorn.png" alt="Bjorn"></a>
                         <ul>
@@ -74,7 +74,13 @@
                         </ul>
                     </div>
 
-
+                    <div class="member">
+                        <a target="_blank" href="https://twitter.com/rabachleitner"><img class="hoverlink" src="./img/team/rainer.png" alt="Rainer"></a>
+                        <ul>
+                            <li class="name">Rainer Bachleitner</li>
+                            <li class="job-title">Frontend Architect</li>
+                        </ul>
+                    </div>
                     <div class="member">
                         <a target="_blank" href="http://www.michaelskaug.com/"><img class="hoverlink" src="./img/team/mike.png" alt="Mike"></a>
                         <ul>
