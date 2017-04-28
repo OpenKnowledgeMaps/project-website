@@ -85,7 +85,7 @@
                         <a target="_blank" href="http://www.michaelskaug.com/"><img class="hoverlink" src="./img/team/mike.png" alt="Mike"></a>
                         <ul>
                             <li class="name">Mike Skaug</li>
-                            <li class="job-title">Frontend</li>
+                            <li class="job-title">Visualizations</li>
                         </ul>
                     </div>
 
