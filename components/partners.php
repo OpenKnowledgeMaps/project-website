@@ -1,4 +1,4 @@
-
+<a name="partners"></a>
 <div id="partnerdiv">
     <h2>Our Partners</h2>
     <div class="partners">
