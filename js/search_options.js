@@ -93,7 +93,8 @@ var options_pubmed = {
             ]},
         {id: "article_types", multiple: true, name: "Article types", type: "dropdown"
             , fields: [
-                {id: "autobiography", text: "Autobiography", selected: true}
+                {id: "addresses", text: "Addresses", selected: true}
+                , {id: "autobiography", text: "Autobiography", selected: true}
                 , {id: "bibliography", text: "Bibliography", selected: true}
                 , {id: "biography", text: "Biography", selected: true}
                 , {id: "book illustrations", text: "Book Illustrations", selected: true}
