@@ -162,6 +162,12 @@
                             <p class="advisor-desc">Assistant Professor <br>Graz University of Technology</p>
                         </div>
                         <div class="advisor">
+                            <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKM"></a>
+                            <h3>Daniel Mietchen</h3>
+                            <p class="advisor-desc">Senior Researcher <br>University of Virginia</p>
+                        </div>
+                        
+                        <div class="advisor">
                             <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Advisor OKM"></a>
                             <h3>Michael E. Karpeles</h3>
                             <p class="advisor-desc">Citizen of the world <br>Internet Archive</p>
@@ -173,16 +179,17 @@
                             <p class="advisor-desc">Librarian <br>German National Library of S&T (TIB)</p>
                         </div>
                         <div class="advisor">
+                            <a target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><img class="hoverlink" src="./img/advisors/michaela.jpg" alt="Advisor OKM"></a>
+                            <h3>Michela Vignoli</h3>
+                            <p class="advisor-desc">Junior Scientist <br>Austrian Institute of Technology (AIT)</p>
+                        </div>
+                        <div class="advisor">
                             <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
                             <h3>Christian Schlögl</h3>
                             <p class="advisor-desc">Associate Professor <br>University of Graz</p>
                         </div> 
 
-                        <div class="advisor">
-                            <a target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><img class="hoverlink" src="./img/advisors/michaela.jpg" alt="Advisor OKM"></a>
-                            <h3>Michela Vignoli</h3>
-                            <p class="advisor-desc">Junior Scientist <br>Austrian Institute of Technology (AIT)</p>
-                        </div>
+                        
 
 
                         <div class="advisor">
