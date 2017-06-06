@@ -1055,6 +1055,10 @@ sup {
     margin-right: 20px;
 }
 
+.searchheader .imglogo img {
+    max-height: 36px;
+}
+
 .icon-menu i {
     margin-right: 5px;
 }
