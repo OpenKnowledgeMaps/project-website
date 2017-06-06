@@ -106,22 +106,30 @@ header #logo a:hover {
     color:white;
     background-color: transparent;
     font-size: 16px;
-    line-height: 120%;
-    margin: 0px 0px 0px 50px !important;
+    line-height: 80%;
+    margin: 0px 0px 10px 50px !important;
+    vertical-align: bottom;
 }
 
 .imglogo {
     display: inline-block; 
-    vertical-align:top; 
-    padding: 0px 10px 0px 50px;
+    vertical-align: bottom;
+    margin-bottom: 10px; 
+    padding: 0px 3px 0px 50px;
 }
 
 .imglogo img {
-    width:100%;
+    max-height: 42px;
+    width: auto;
+}
+
+.searchheader .imglogo {
+    padding: 0px 3px 0px 0px;   
 }
 
 .description {
     display: inline-block;
+    vertical-align: bottom;
 }
 
 .description li:first-child {
@@ -132,7 +140,7 @@ header #logo a:hover {
 }
 
 .description li:last-child {
-    line-height: 120%;
+    line-height: 80%;
     font-size: 14px;
 }
 
@@ -172,7 +180,7 @@ header #logo a:hover {
     color:#e55137; 
     background-color: white;
     padding:5px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 #newsletterdiv, #partnerdiv {
@@ -212,6 +220,7 @@ header #logo a:hover {
 
 #beta-version {
     display: inline;
+    text-transform: none;
 }
 
 #beta {
@@ -253,10 +262,10 @@ header #logo a:hover {
 .visualize {
     text-align: left; 
     padding: 0px;
-    font-size:40px; 
+    font-size: 35px; 
     color: #2d3e52; 
     background-color:transparent; 
-    text-transform: none; 
+    text-transform: uppercase; 
     margin: 0px;
     font-weight: bold;
 }
@@ -274,10 +283,11 @@ header #logo a:hover {
 } 
 
 .mittig {
-    width:50%;
+    max-width: 540px;
+    width: 100%;
     margin: 0px auto;
     background-color: white;
-    padding: 50px;
+    padding: 65px 70px 50px;
     -webkit-box-shadow: 0px 2px 4px 0px #cacfd3;
     -moz-box-shadow: 0px 2px 4px 0px #cacfd3;
     box-shadow: 0px 2px 4px 0px #cacfd3;
@@ -408,7 +418,7 @@ h2 {
     color: white;
     padding: 0px 0px 20px;
     margin:0px auto;
-    font-size: 30px;
+    font-size: 26px;
     font-weight: 300;
     line-height: 120%;
     text-align: center;
@@ -535,7 +545,9 @@ strong {
     font-weight: 800;
 }
 
-
+.background-lamp .visualize {
+    font-size: 26px;
+}
 
 #divdiscover {
     background-color: #eff3f4;
@@ -558,7 +570,7 @@ strong {
     margin-right: 0px; 
     padding: 2%;
     margin: 1%;
-    min-height: 416px;
+    min-height: 350px;
     border-bottom: 4px solid transparent;
     background-color:white;
 }
@@ -579,7 +591,6 @@ strong {
     background-color: transparent;
     color: #2d3e52;
     font-weight: bold;
-    text-transform: none;
 }
 
 .vision p {
@@ -645,9 +656,7 @@ strong {
 .licenseimg {
     display: block; 
     max-width:150px; 
-
 }
-
 
 /*ABOUT*/
 #about-page, #news {
@@ -738,7 +747,9 @@ strong {
 
 .okm-icon {
     margin-bottom: 0px;
-    max-width: 100%;
+    width: auto;
+    max-height: 60px;
+    height: 100%;
 }
 
 /*FAQ*/
@@ -923,13 +934,13 @@ strong {
 
 /**/
 .library {
-    font-size: 20px; 
+    font-size: 16px;
     margin: 20px 0px 10px 0px;
     display: block;
 }
 
 .radio-inline {
-    font-size: 20px;
+    font-size: 16px;
     /*margin-left: 20px;*/
     font-weight: 100;
     vertical-align: top;
@@ -948,20 +959,22 @@ input[type="radio"] {
 
 .popover {
     max-width:400px;
-    width:400px;
+    width: 100%;
     font-size: 14px;
     font-family: inherit;
-
 }
 
 .popover-content {
-    padding: 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 .popover-title {
-    background-color: #2d3e52;
-    padding: 8px 20px;
-    color: white;
+    padding: 10px 20px;
+    background-color: white;
+    color: #2d3e52;
+    font-weight: normal;
+    border:0;
+    text-transform: none;
 }
 
 #divhow {
@@ -1176,7 +1189,7 @@ time {
 .newsitem-button {
     border: 2px solid #2c3e52;
     color: #2c3e52;
-    border-radius: 3px;
+    border-radius: 5px;
     font-size: 16px; 
     display: inline-block;
     font-weight: normal; 
@@ -1184,6 +1197,11 @@ time {
     text-align: center;
     text-decoration: none !important;
     transition: opacity 0.2s ease-in;
+}
+
+#mc_embed_signup div.mce_inline_error {
+    /*color: #e55137 !important;*/
+    font-weight:normal !important;
 }
 
 .underline {
@@ -1243,8 +1261,6 @@ time {
 /*quick fix for search header bug*/
 @media screen and (max-width: 1340px) {
 
-
-
     .newsitem-headline {
         font-size: 16px;
     }
@@ -1253,10 +1269,7 @@ time {
         font-size: 14px;
     }
 
-
-
     .imglogo {
-        padding: 0px 10px 0px 50px;
         margin-top: 0px;
     }
 
@@ -1266,7 +1279,6 @@ time {
 
     .vision p {
         font-size: 14px;
-
     }
 }
 
@@ -1285,8 +1297,6 @@ time {
 }
 
 @media screen and (max-width: 1020px) {
-
-
 
     .mittig {
         margin: 50px auto 0;
@@ -1397,12 +1407,6 @@ time {
         background-size: 100%;
         padding-right: 50px;
     }
-    
-    
-
-
-
-
 
     .visualize {
         font-size: 28px;
@@ -1493,8 +1497,8 @@ time {
 }
 
 @media screen and (max-width: 750px) {
-    
-    
+
+
 
     .vision h2 {
         margin: 10px 0px 10px;
@@ -1569,15 +1573,19 @@ time {
     .faq {
         max-width:80%; 
     }
-    
-    
-    
-
 
 }
 
 @media screen and (max-width: 640px) {
-    
+
+    .mittig {
+        -webkit-box-shadow: 0px 0px 0px 0px #cacfd3;
+        -moz-box-shadow: 0px 0px 0px 0px #cacfd3;
+        box-shadow: 0px 0px 0px 0px #cacfd3;
+        margin: 0px auto;
+        padding: 50px 0px 0px;
+    }
+
     .background-lamp {
         padding: 50px;
         background-size: 100%;
@@ -1645,9 +1653,6 @@ time {
         padding: 50px 20px;
     }
 
-    .mittig {
-        margin: 50px auto 0px;
-    }
 
     .description li:last-child {
         display:none;
@@ -1659,12 +1664,12 @@ time {
         vertical-align: middle;
     }
 
-    .description li:first-child, h2, .searchheader .description li:first-child {
+    .description li:first-child, h2, .searchheader .description li:first-child, .background-lamp .visualize {
         font-size: 16px;
 
     }
 
-.howitworks-point {
+    .howitworks-point {
         width:100%; 
     }
 
@@ -1684,11 +1689,11 @@ time {
         font-size: 18px;
     }
 
-    
+
 }
 
 @media screen and (max-width: 535px) {
-    
+
     .about-page .background-lamp .mittig {
         padding: 30px 20px 80px;
     }
@@ -1801,7 +1806,7 @@ time {
         padding: 20px;
         width:90%;
     }
-    
+
     .about-page .background-lamp .mittig {
         width:90%;
     }
@@ -1961,7 +1966,7 @@ time {
         padding: 10px 10px 0px 10px;
     }
 
-    
+
 }
 
 @media screen and (max-width: 360px) {

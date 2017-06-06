@@ -2,13 +2,15 @@
     box-sizing: content-box;
 }
 
-.text-field {
-    border: 5px solid #2D3E52;
+#newsletterdiv .text-field {
+    /*border: 3px solid #2D3E52;*/
     height: 30px;
     padding-left: 5px;
+    width: 95%;
+}
 
-    width:80%;
-
+#newsletterdiv .frontend-btn {
+    border-radius: 5px;
 }
 
 .time_input {
@@ -17,9 +19,9 @@
     padding-left: 5px;
 }
 
-
 .dropdown-menu > .active > a {
-    background-color: #e55137;
+    background-color: #cacfd3;
+    color: black;
 }
 
 .dropdown-menu {
@@ -38,20 +40,27 @@ button {
     color: white;
     font-weight: bold;
     width: 13%;
-    height: 40px;
-    font-size: 28px;
-    border-radius: 0px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
     padding: 0px 0px;
     vertical-align: middle;
-    border-width: 0px 0px 0px 0px; 
+    border-width: 3px;
     border-style: solid;
     border-color: #2D3E52;
     display: inline-block;
 }
 
+.mittig .text-field {
+    height: 35px;
+    padding-left: 5px;
+    width: 80%;
+}
+
 .submit-btn:hover {
     background-color: #e55137;
     color: white;
+    border-color: #e55137;
 }
 
 .divity {
@@ -67,19 +76,23 @@ button {
 }
 
 #filter-container {
-    margin-top: 15px;
+    margin-top: 35px;
 }
 
 #filter-btn {
-    margin-bottom: 23px;
+    margin-bottom: 35px;
     margin-right: 0px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .filter-btn-highlight, .open > .dropdown-toggle.btn-default, .open > .dropdown-toggle.btn-default:hover, .open > .dropdown-toggle.btn-default:active,
 .btn-default:active, .btn-default:hover, .btn-default:focus {
-    background-color: #e55137 !important;
+    background-color: #2D3E52 !important;
     color: white !important;
+}
+
+.btn-default:hover {
+    border-color: #2D3E52;
 }
 
 #filters {
@@ -100,12 +113,33 @@ button {
     color: #FFFFFF;
     padding: 9px 10px 9px 10px;
     text-decoration: none;
-    border: solid #636363 0px;
+    border: solid #2D3E52 0px;
     background-color: #2D3E52;
 }
 
-.frontend-btn:hover {
+#filter-container .frontend-btn, .btn {
+    font-size: 14px;
+    color: #2D3E52;
+    padding: 9px 10px 9px 10px;
+    text-decoration: none;
+    border: 2px solid #2D3E52;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.frontend-btn:hover, .frontend-btn:active, .frontend-btn:focus {
     background: #e55137;
+    color: white;
+    /*background-image: -webkit-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: -moz-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: -ms-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: -o-linear-gradient(top, #f5f2f5, #c9c9c9);
+    background-image: linear-gradient(to bottom, #f5f2f5, #c9c9c9);*/
+    text-decoration: none;
+}
+
+#filter-container .frontend-btn:hover, #filter-container .frontend-btn:active, #filter-container .frontend-btn:focus, .btn:hover {
+    background: #2D3E52;
     color: white;
     /*background-image: -webkit-linear-gradient(top, #f5f2f5, #c9c9c9);
     background-image: -moz-linear-gradient(top, #f5f2f5, #c9c9c9);
@@ -118,6 +152,10 @@ button {
 .frontend-btn, .frontend-btn:link, .frontend-btn:hover, .frontend-btn:visited, .frontend-btn:active, .frontend-btn.pointer {
     text-decoration: none;
     color: white;
+}
+
+#mc_embed_signup input.mce_inline_error {
+    border-color: #e55137;
 }
 
 .div {
@@ -158,7 +196,7 @@ button {
     margin-left: 28px;
 }
 
-.btn {
+/*.btn {
     background-color: #2D3E52;
     color: white;
     border: 0px;
@@ -168,7 +206,7 @@ button {
 .btn:hover, .btn:active, .btn:focus {
     background-color: #e55137;
     color: white;
-}
+}*/
 
 .btn-group.open {
     background-color: #e55137;
@@ -188,8 +226,6 @@ button {
 @media screen and (max-width: 710px) {
 
     .text-field {
-        border: 5px solid #2D3E52;
-        height: 30px;
         padding-left: 5px;
         display: inline-block;
     }
@@ -197,9 +233,11 @@ button {
     .btn-group {
         margin-left: 0px;
     }
+
 }
 
 @media screen and (max-width: 490px) {
+    
     .submit-btn {
         font-size: 14px;
     }
