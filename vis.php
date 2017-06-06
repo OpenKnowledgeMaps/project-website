@@ -85,7 +85,7 @@
 
             data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
             data_config.intro = intro;
-            data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query .'</span> based on <span id="num_articles"></span>' . $service_name . 'articles' ; ?>';
+            data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query .'</span> based on <span id="num_articles"></span> ' . $service_name . ' articles' ; ?>';
             data_config.files = [{
                     title: <?php echo json_encode($query) ?>,
                     file: <?php echo json_encode($_GET['id']) ?>
