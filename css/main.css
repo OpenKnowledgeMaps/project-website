@@ -382,6 +382,12 @@ address {
     color: white;
 }
 
+.radio-inline input[type=radio] {
+    position: relative;
+    margin-top: 0px;
+    vertical-align: baseline;
+}
+
 address a {
     color: white;
 }
@@ -1530,6 +1536,11 @@ time {
 }
 
 @media screen and (max-width: 700px) {
+    
+    /*.radio-inline input[type=radio] {
+    position: absolute;
+    margin-top: 10px;
+}*/
 
     .okm-icon {
         max-width: 35%;
