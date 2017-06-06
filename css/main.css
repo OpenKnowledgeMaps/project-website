@@ -161,12 +161,6 @@ header #logo a:hover {
     text-decoration: underline;
 }
 
-.nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus {
-    color: white;
-    text-decoration: none;
-    font-weight:800;
-}
-
 .nav_top a.newsletter:hover, .nav_top a.newsletter:active, .nav_top a.newsletter:focus {
     border: 2px solid #e55137; 
     color:white; 
@@ -329,7 +323,6 @@ header #logo a:hover {
 
 .background-lamp.gif {
     background-image: url(../img/lamp2.gif);
-
 }
 
 .background-lamp.failgif {
@@ -371,6 +364,10 @@ header #logo a:hover {
     color: white;
 }
 
+.nav_bottom .awesome {
+    font-size: 20px;
+}
+
 address {
     margin-bottom: 20px;
     display: block;
@@ -392,10 +389,9 @@ address a {
     color: white;
 }
 
-address a:hover, address a:focus, address a:active {
+address a:hover, address a:focus, address a:active, .nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus {
     color: white;
-    text-decoration: none;
-    font-weight: 800;
+    text-decoration: underline;
 }
 
 .getintouch {    
@@ -1263,6 +1259,14 @@ time {
     font-weight: 800;
     vertical-align: bottom;
     padding-right: 10px;
+}
+
+.awesome {
+    font-family: 'FontAwesome';
+}
+
+.seitenanfang {
+    margin-top: 20px;
 }
 
 /*MEDIA BREAK POINTS*/
