@@ -260,6 +260,7 @@ header #logo a:hover {
 }
 
 .visualize {
+    font-weight: 800;
     text-align: left; 
     padding: 0px;
     font-size: 35px; 
@@ -267,7 +268,6 @@ header #logo a:hover {
     background-color:transparent; 
     text-transform: uppercase; 
     margin: 0px;
-    font-weight: bold;
 }
 
 .wrapper {
@@ -596,7 +596,7 @@ strong {
     text-align: left;
     background-color: transparent;
     color: #2d3e52;
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .vision p {
@@ -765,7 +765,7 @@ strong {
 }
 
 .faquestion {
-    font-weight: bold; 
+    font-weight: 800; 
     font-size: 18px; 
     color: #2D3E52;
 }
@@ -776,7 +776,7 @@ strong {
 
 #question-Q {
     font-size:30px; 
-    font-weight: bold; 
+    font-weight: 800; 
     color: #e55137;
 }
 
@@ -1178,7 +1178,7 @@ time {
     text-align: left;
     margin-top: 0px;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 30px;
     line-height: 120%;
     margin-bottom: 16px;
@@ -1260,7 +1260,7 @@ time {
 .number {
     font-size:60px; 
     color: #2c3e52;
-    font-weight: bold;
+    font-weight: 800;
     vertical-align: bottom;
     padding-right: 10px;
 }
