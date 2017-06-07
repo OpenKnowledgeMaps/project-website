@@ -1272,6 +1272,32 @@ time {
     margin-top: 20px;
 }
 
+#faulty-map {
+    border: 1px solid #e55137;
+    padding: 5px;
+    margin-left: 50px;
+    color: #e55137;
+    background-color: white;
+}
+
+#faulty-map:hover, #faulty-map:active, #faulty-map:focus {
+    color: white;
+    background-color: #e55137;
+}
+
+.builtwith {
+    text-align: right; 
+    margin: 20px 10px 10px 10px;
+}
+
+.builtwith a {
+    text-decoration: underline;
+}
+
+.builtwith a:hover {
+    text-decoration: none;
+}
+
 /*MEDIA BREAK POINTS*/
 
 /*quick fix for search header bug*/
