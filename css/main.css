@@ -1244,7 +1244,7 @@ time {
     font-weight: 800;
 }
 
-.team-page #partnerdiv {
+.team-page #partnerdiv, .vis #partnerdiv {
     background-color:white;
     background-image: none;
 }

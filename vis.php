@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
-
+               
         <?php
         $query = $_GET['id'];
 
@@ -43,7 +43,6 @@
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');
         include($COMPONENTS_PATH . 'head_standard.php');
-        include($COMPONENTS_PATH . 'head_headstart.php');
         ?>
 
         <script>
@@ -54,10 +53,10 @@
         </script>
     </head>
 
-    <body>
+    <body class="vis">
         <?php include ($COMPONENTS_PATH . "header_search.php"); ?>
 
-        <div style="padding-top:78px;">
+        <div style="padding-top:70px;">
 
             <?php
             require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
@@ -109,6 +108,6 @@
 
         <?php
         include($COMPONENTS_PATH . 'moreinfo.php');
-        include($COMPONENTS_PATH . 'newsletter.php');
+        //include($COMPONENTS_PATH . 'newsletter.php');
         include($COMPONENTS_PATH . 'footer.php');
         ?>
