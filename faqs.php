@@ -61,8 +61,8 @@
                         More information can be found in <a href="http://0277.ch/ojs/index.php/cdrs_0277/article/view/157/355" target="_blank">this article</a>.
                     </p>
                 </div>
-
-                <div class="faq" id="faq-faulty-map">
+                <a herf="#faq-faulty-map"></a>
+                <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q4</span> Why does the overview visualization work better for some research topics than others?
                     </p>
