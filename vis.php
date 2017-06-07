@@ -97,7 +97,7 @@
             <script type="text/javascript">
                 headstart.start();
             </script>
-            <div id="faulty-map"><a href="https://openknowledgemaps.org/faqs.php" target="_blank">Not what you expected</a>
+            <div id="faulty-map"><a href="https://openknowledgemaps.org/faqs.php#faq-faulty-map" target="_blank">Not what you expected?</a>
             </div>
             <div class="builtwith">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
             </div>

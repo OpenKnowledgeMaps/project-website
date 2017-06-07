@@ -62,7 +62,7 @@
                     </p>
                 </div>
 
-                <div class="faq">
+                <div class="faq" id="faq-faulty-map">
                     <p class="faquestion">
                         <span id="question-Q">Q4</span> Why does the overview visualization work better for some research topics than others?
                     </p>
