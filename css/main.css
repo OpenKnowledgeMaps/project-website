@@ -1278,6 +1278,7 @@ time {
     margin-left: 50px;
     color: #e55137;
     background-color: white;
+    max-width: 170px;
 }
 
 #faulty-map:hover, #faulty-map:active, #faulty-map:focus {
