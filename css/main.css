@@ -1272,6 +1272,10 @@ time {
     margin-top: 20px;
 }
 
+#faulty-map {
+    margin: 20px 0px 30px;
+}
+
 #faulty-map a {
     border: 1px solid #e55137;
     padding: 5px;
