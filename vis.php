@@ -97,9 +97,10 @@
             <script type="text/javascript">
                 headstart.start();
             </script>
-            <div id="faulty-map"><a href="faqs.php#faq-faulty-map" target="_blank">Not what you expected?</a>
-            </div>
+
             <div class="builtwith">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
+            </div>
+            <div id="faulty-map"><a href="faqs.php#faq-faulty-map" target="_blank">Not what you expected?</a>
             </div>
         </div>
         <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">

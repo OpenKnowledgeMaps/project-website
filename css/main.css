@@ -1272,23 +1272,23 @@ time {
     margin-top: 20px;
 }
 
-#faulty-map {
+#faulty-map a {
     border: 1px solid #e55137;
     padding: 5px;
     margin-left: 50px;
-    color: #e55137;
     background-color: white;
     max-width: 170px;
+    border-radius: 5px;
+    color: #e55137;
 }
 
-#faulty-map:hover, #faulty-map:active, #faulty-map:focus {
+#faulty-map a:hover, #faulty-map a:active, #faulty-map a:focus {
     color: white;
     background-color: #e55137;
 }
 
 .builtwith {
-    text-align: right; 
-    margin: 20px 10px 10px 10px;
+    margin: 20px 10px 10px 50px;
 }
 
 .builtwith a {
@@ -1570,7 +1570,7 @@ time {
 }
 
 @media screen and (max-width: 700px) {
-    
+
     /*.radio-inline input[type=radio] {
     position: absolute;
     margin-top: 10px;
