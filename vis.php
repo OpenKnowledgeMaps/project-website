@@ -4,45 +4,45 @@
     <head>
 
         <?php
-            $query = $_GET['id'];
+        $query = $_GET['id'];
 
-            if (isset($_GET['query'])) {
-                $query = $_GET['query'];
-            }
+        if (isset($_GET['query'])) {
+            $query = $_GET['query'];
+        }
 
-            $credit = "";
+        $credit = "";
 
-            $service_name = "";
+        $service_name = "";
 
-            if (!isset($_GET['service'])) {
-                echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
+        if (!isset($_GET['service'])) {
+            echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
+            $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
+
+            $service_name = "PLOS";
+        } else {
+            if ($_GET['service'] === "plos") {
                 $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
-
+                echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
                 $service_name = "PLOS";
-            } else {
-                if ($_GET['service'] === "plos") {
-                    $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
-                    echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
-                    $service_name = "PLOS";
-                } else if ($_GET['service'] === "pubmed") {
-                    $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
-                    echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
-                    $service_name = "PubMed";
-                } else if ($_GET['service'] === "doaj") {
-                    $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
-                    echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
-                    $service_name = "DOAJ";
-                } else if ($_GET['service'] === "base") {
-                    $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
-                    echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
-                    $service_name = "BASE";
-                }
+            } else if ($_GET['service'] === "pubmed") {
+                $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
+                echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
+                $service_name = "PubMed";
+            } else if ($_GET['service'] === "doaj") {
+                $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
+                echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
+                $service_name = "DOAJ";
+            } else if ($_GET['service'] === "base") {
+                $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
+                echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
+                $service_name = "BASE";
             }
+        }
 
-            $title = "Overview of $service_name articles for $query - Open Knowledge Maps";
-            
-            include ($COMPONENTS_PATH . "head_standard.php");
-            include ($COMPONENTS_PATH . "head_bootstrap.php");
+        $title = "Overview of $service_name articles for $query - Open Knowledge Maps";
+
+        include ($COMPONENTS_PATH . "head_standard.php");
+        include ($COMPONENTS_PATH . "head_bootstrap.php");
         ?>
 
         <script>
@@ -76,29 +76,45 @@
 
             <?php endif ?>
 
-            <div id="visualization" style="background-color:white;"></div>
+            <div style="overflow:hidden;">
+                <div id="visualization" style="background-color:white;"></div>
+            </div>
+
+            <script>
+                var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
+                $("#visualization").css("height", div_height + "px")
+
+                        data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
+                data_config.intro = intro;
+                data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
+                data_config.files = [{
+                title: <?php echo json_encode($query) ?>,
+                        file: <?php echo json_encode($_GET['id']) ?>
+                }]
+            </script>
+            <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
+            <script type="text/javascript">
+                headstart.start();
+            </script>
+
+            <div style="text-align: right; margin: 20px 10px 10px 10px">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
+            </div>
         </div>
-
-        <script>
-            var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
-            $("#visualization").css("height", div_height + "px")
-
-            data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
-            data_config.intro = intro;
-            data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query .'</span> based on <span id="num_articles"></span> ' . $service_name . ' articles' ; ?>';
-            data_config.files = [{
-                    title: <?php echo json_encode($query) ?>,
-                    file: <?php echo json_encode($_GET['id']) ?>
-            }]
-        </script>
-        <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
-        <script type="text/javascript">
-            headstart.start();
-        </script>
-
-        <div style="text-align: right; margin: 20px 10px 10px 10px">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
-        </div>
-
         <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
         <link rel="stylesheet" href="./css/main.css">
-        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
+
+        <div class="faq">
+            <p class="faquestion">
+                <span id="question-Q">Not what you expected?</span>
+            </p>
+            <p> Why does the overview visualization work better for some research topics than others? The visualization depends on the search results that we get for a given query.
+                If there are for example not enough articles on the topic, or if the metadata quality is low, this will impact the visualization.
+                We have a number of routines in place to improve your chances of getting a useful map, but we do not always succeed.
+                If you come across a map that needs improvement, we'd love to hear from you at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
+            </p>
+        </div>
+        <?php
+        include($COMPONENTS_PATH . 'moreinfo.php');
+        include($COMPONENTS_PATH . 'newsletter.php');
+        include($COMPONENTS_PATH . 'footer.php');
+        ?>
