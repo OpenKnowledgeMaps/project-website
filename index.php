@@ -22,7 +22,8 @@
 
             <form id="searchform" action="#" method="POST" class="mittig" target="_blank">
                 <div style="text-align: left;">
-                    <h2 class="visualize">Visualize a research topic</h2>
+                    <h2 class="visualize">Visualize a research topic<sup>beta</sup></h2>
+                    
                     <p class="library">
                         <span class="library-choice">Choose a library:</span>
                         <label class="radio-inline"><input type="radio" name="optradio" value="pubmed">
