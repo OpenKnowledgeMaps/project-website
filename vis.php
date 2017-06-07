@@ -41,8 +41,9 @@
 
         $title = "Overview of $service_name articles for $query - Open Knowledge Maps";
 
-        include ($COMPONENTS_PATH . "head_standard.php");
-        include ($COMPONENTS_PATH . "head_bootstrap.php");
+        include($COMPONENTS_PATH . 'head_bootstrap.php');
+        include($COMPONENTS_PATH . 'head_standard.php');
+        include($COMPONENTS_PATH . 'head_headstart.php');
         ?>
 
         <script>
@@ -96,23 +97,15 @@
             <script type="text/javascript">
                 headstart.start();
             </script>
-
+            <div id="faulty-map"><a href="https://openknowledgemaps.org/faqs.php" target="_blank">Not what you expected</a>
+            </div>
             <div style="text-align: right; margin: 20px 10px 10px 10px">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
             </div>
         </div>
         <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
         <link rel="stylesheet" href="./css/main.css">
 
-        <div class="faq">
-            <p class="faquestion">
-                <span id="question-Q">Not what you expected?</span>
-            </p>
-            <p> Why does the overview visualization work better for some research topics than others? The visualization depends on the search results that we get for a given query.
-                If there are for example not enough articles on the topic, or if the metadata quality is low, this will impact the visualization.
-                We have a number of routines in place to improve your chances of getting a useful map, but we do not always succeed.
-                If you come across a map that needs improvement, we'd love to hear from you at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
-            </p>
-        </div>
+
         <?php
         include($COMPONENTS_PATH . 'moreinfo.php');
         include($COMPONENTS_PATH . 'newsletter.php');
