@@ -76,7 +76,7 @@
 
             <?php endif ?>
 
-            <div style="overflow:hidden;">
+            <div style="overflow-y: hidden;">
                 <div id="visualization" style="background-color:white;"></div>
             </div>
 

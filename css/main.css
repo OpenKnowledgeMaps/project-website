@@ -601,10 +601,13 @@ strong {
     font-size: 18px;
     /*text-align: center;*/ 
     background-color: transparent;  
-
 }
 
-
+.howimg {
+    width: auto;
+    max-height: 60px; 
+    vertical-align: baseline;
+}
 
 .description-headstart {
     max-width: 500px;
@@ -1226,8 +1229,6 @@ time {
     border-radius: 3px;
 }
 
-
-
 #imprint {
     background-color: white;
 }
@@ -1248,7 +1249,6 @@ time {
     background-color:white;
     background-image: none;
 }
-
 
 .howitworks-div {
     max-width:100%; 
@@ -1330,6 +1330,7 @@ time {
 }
 
 @media screen and (max-width: 1230px) {
+    
     .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig {
         width: 70%;
     }
@@ -1397,6 +1398,17 @@ time {
 
 @media screen and (max-width: 960px) {
 
+    .more-info-icon {
+        font-size: 40px;
+    }
+
+    #more-info .vision h2 {
+        font-size: 16px;
+    }
+
+    #more-info .vision {
+        max-width: 25%;
+    }
 
     .description {
         padding: 0px 10px 0px 10px;
@@ -1524,12 +1536,14 @@ time {
     .nav_top {
         margin: 0px 0px 0px 50px !important;
     }
-
-
-
 }
 
 @media screen and (max-width: 865px) {
+    
+    .howimg {
+        width: auto;
+        max-height: 40px; 
+   }
 
     .nav_top {
         margin: 0px 0px 0px 50px !important;
@@ -1544,8 +1558,6 @@ time {
 }
 
 @media screen and (max-width: 750px) {
-
-
 
     .vision h2 {
         margin: 10px 0px 10px;
@@ -1570,7 +1582,6 @@ time {
         top: 100%;
         margin-top: 0px;
     }
-
 }
 
 @media screen and (max-width: 700px) {
@@ -1583,7 +1594,6 @@ time {
     .okm-icon {
         max-width: 35%;
     }
-
 
     .job-title {
         font-size: 12px;
@@ -1613,7 +1623,6 @@ time {
         margin: 12px 0 0;
     }
 
-
     #beta-version {
         display: none;
     }
@@ -1625,7 +1634,6 @@ time {
     .faq {
         max-width:80%; 
     }
-
 }
 
 @media screen and (max-width: 640px) {
@@ -1659,7 +1667,6 @@ time {
     .icon-description {
         padding: 0 0 0 0;
     }
-
 
     .icon-menu {
         margin-right: 0px;
@@ -1705,7 +1712,6 @@ time {
         padding: 50px 20px;
     }
 
-
     .description li:last-child {
         display:none;
     }
@@ -1718,7 +1724,6 @@ time {
 
     .description li:first-child, h2, .searchheader .description li:first-child, .background-lamp .visualize {
         font-size: 16px;
-
     }
 
     .howitworks-point {
@@ -1740,8 +1745,6 @@ time {
     .visualize {
         font-size: 18px;
     }
-
-
 }
 
 @media screen and (max-width: 535px) {
@@ -1761,6 +1764,7 @@ time {
     .okm-icon {
         margin-bottom: 0px;
     }
+    
     .vision, #more-info .vision {
         display: inline-block;
         max-width: 70%;
@@ -1775,8 +1779,7 @@ time {
     .vision h2 {
         margin: 10px 0px 0px !important;
     }
-
-
+    
     .member {
         margin: 10px 10px;
         width: 25%;
@@ -1785,6 +1788,7 @@ time {
     .name {
         font-size: 14px;
     }
+    
     .job-title {
         font-size: 10px;
     }
@@ -1792,7 +1796,6 @@ time {
     #imprint {
         padding: 80px 10px 50px; 
     }
-
 
     #team, #about-page, #news {
         padding-top: 60px;
@@ -1805,8 +1808,6 @@ time {
     .partners img {
         height:50px;
     }
-
-
 
     .missionstatement p {
         font-size: 20px;
@@ -1849,7 +1850,6 @@ time {
         font-size: 16px;
     }
 
-
     address {
         width: 100%;
     }
@@ -1875,14 +1875,16 @@ time {
     #advisors {
         padding-bottom: 20px;
     }
+    
     .newsitem {
         width: 80%;
     }
+    
     .try-now .newsitem-button {
-        font-size: 18px;
+        font-size: 14px;
     }
+    
     .try-now {
-        text-align: left;
         margin-top: 10px;
     }
 
@@ -1951,7 +1953,6 @@ time {
         min-height: 50px;
     }
 
-
     .mittig {
         margin: 20px 0px 0px 0px;
     }
@@ -1965,19 +1966,13 @@ time {
         padding-top: 70px;
     }
 
-
-
     .missionstatement {
         padding: 50px 0px;
     }
 
-
-
     .waitforit {
         font-size: 18px;
     }
-
-
 
     #license {
         max-width:400px; 
@@ -2016,11 +2011,10 @@ time {
     .advisor h3 {
         padding: 10px 10px 0px 10px;
     }
-
-
 }
 
 @media screen and (max-width: 360px) {
+    
     .mittig, .background-lamp .mittig {
         padding: 20px;
         width: 100%;
