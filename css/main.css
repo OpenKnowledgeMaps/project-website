@@ -1303,6 +1303,10 @@ time {
     text-decoration: none;
 }
 
+.overflow-vis {
+    overflow-y: hidden;
+}
+
 /*MEDIA BREAK POINTS*/
 
 /*quick fix for search header bug*/
