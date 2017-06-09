@@ -64,7 +64,12 @@
             if ($detect->isMobile()):
                 ?>
 
-
+            <script>
+                //Enable overflow on mobile so you can pinch and zoom
+                $(document).ready(function () {
+                    $(".overflow-vis").css("overflow-y", "visible");
+                })
+            </script>
 
                 <div class="alert alert-warning" id="mobile-warning">
 

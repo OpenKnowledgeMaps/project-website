@@ -30,11 +30,11 @@
                             PubMed (biomedicine) <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more 
                                       than 26 million citations for biomedical literature from MEDLINE, life science 
                                       journals, and online books. Citations may include links to full-text content from 
-                                      PubMed Central and publisher web sites."><i class="fa fa-info-circle" aria-hidden="true"></i></a></label>
+                                      PubMed Central and publisher web sites."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
                         <label class="radio-inline"><input type="radio" name="optradio" value="base" checked="checked">
                             BASE (all disciplines) <a href="#" data-toggle="popover" title="Bielefeld Academic Search Engine 
                                              (BASE)" data-content="Provides access to over 100 million documents from 
-                                             more than 5,200 content sources in all disciplines."><i class="fa fa-info-circle" aria-hidden="true"></i></a></label>
+                                             more than 5,200 content sources in all disciplines."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
                     </p>
 
                     <!--<label for="q">Search term:</label> -->
