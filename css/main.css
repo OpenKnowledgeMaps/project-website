@@ -1304,7 +1304,7 @@ time {
 }
 
 .overflow-vis {
-    overflow-y: hidden;
+    /*overflow-y: hidden;*/
 }
 
 /*MEDIA BREAK POINTS*/
