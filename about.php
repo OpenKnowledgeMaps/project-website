@@ -31,5 +31,9 @@
         <?php include($COMPONENTS_PATH . "benefits.php") ?>
         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
         <?php include($COMPONENTS_PATH . "moreinfo.php") ?>
-        <?php include($COMPONENTS_PATH . 'feedback.php'); ?>
+        <?php 
+		$TIMELINE_ID = "733358003295035393";
+        $FEEBDACK_TITLE = "What our users say";
+		include($COMPONENTS_PATH . 'twitterstream.php'); 
+		?>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>
