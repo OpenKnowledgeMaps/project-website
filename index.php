@@ -12,7 +12,15 @@
     <body>
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
-
+        
+        <?php
+        
+        $default_lib = "base";
+        if(isset($_GET["lib"])) {
+            $default_lib = $_GET["lib"];
+        }
+        
+        ?>
 
         <a name="top"></a>
         <a style="padding-top:160px;" name="search"></a>
@@ -26,12 +34,12 @@
                     
                     <p class="library">
                         <span class="library-choice">Choose a library:</span>
-                        <label class="radio-inline"><input type="radio" name="optradio" value="pubmed">
+                        <label class="radio-inline"><input type="radio" name="optradio" value="pubmed" <?php if ($default_lib == "pubmed") echo 'checked="checked"'; ?>>
                             PubMed (biomedicine) <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more 
                                       than 26 million citations for biomedical literature from MEDLINE, life science 
                                       journals, and online books. Citations may include links to full-text content from 
                                       PubMed Central and publisher web sites."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
-                        <label class="radio-inline"><input type="radio" name="optradio" value="base" checked="checked">
+                        <label class="radio-inline"><input type="radio" name="optradio" value="base" <?php if ($default_lib == "base") echo 'checked="checked"'; ?>>
                             BASE (all disciplines) <a href="#" data-toggle="popover" title="Bielefeld Academic Search Engine 
                                              (BASE)" data-content="Provides access to over 100 million documents from 
                                              more than 5,200 content sources in all disciplines."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
