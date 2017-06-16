@@ -4,7 +4,11 @@
     <head>
                
         <?php
-        $query = $_GET['id'];
+        $query = "zika";
+        
+        if (isset($_GET['id'])) {
+            $query = $_GET['id'];
+        }             
 
         if (isset($_GET['query'])) {
             $query = $_GET['query'];
