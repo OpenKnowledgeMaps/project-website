@@ -133,7 +133,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.madgik.di.uoa.gr/content/natalia.jpg"><img class="hoverlink" src="./img/advisors/natalia.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://www.madgik.di.uoa.gr/content/natalia"><img class="hoverlink" src="./img/advisors/natalia.jpg" alt="Advisor OKM"></a>
                             <h3>Natalia Manola</h3>
                             <p class="advisor-desc">Project Director <br>OpenAIRE</p>
                         </div>
