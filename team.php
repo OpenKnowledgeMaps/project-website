@@ -157,6 +157,12 @@
                         </div>
 
                         <div class="advisor">
+                            <a target="_blank" href="https://www.wikimedia.at/"><img class="hoverlink" src="./img/advisors/claudia.jpg" alt="Advisor OKM"></a>
+                            <h3>Claudia Gar&aacute;d</h3>
+                            <p class="advisor-desc">Executive Director <br>at Wikimedia Österreich</p>
+                        </div>
+                        
+                        <div class="advisor">
                             <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKM"></a>
                             <h3>Elisabeth Lex</h3>
                             <p class="advisor-desc">Assistant Professor <br>Graz University of Technology</p>
