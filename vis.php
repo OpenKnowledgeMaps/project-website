@@ -1,8 +1,7 @@
 <?php include 'config.php' ?>
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-               
+    <head>     
         <?php
         $query = "zika";
         
@@ -17,6 +16,8 @@
         $credit = "";
 
         $service_name = "";
+        
+        $service = "plos";
 
         if (!isset($_GET['service'])) {
             echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
@@ -24,19 +25,20 @@
 
             $service_name = "PLOS";
         } else {
-            if ($_GET['service'] === "plos") {
+            $service = $_GET['service'];
+            if ($service === "plos") {
                 $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
                 echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
                 $service_name = "PLOS";
-            } else if ($_GET['service'] === "pubmed") {
+            } else if ($service === "pubmed") {
                 $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
                 echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
                 $service_name = "PubMed";
-            } else if ($_GET['service'] === "doaj") {
+            } else if ($service === "doaj") {
                 $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
                 echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
                 $service_name = "DOAJ";
-            } else if ($_GET['service'] === "base") {
+            } else if ($service === "base") {
                 $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
                 echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
                 $service_name = "BASE";
@@ -88,18 +90,21 @@
             <div class="overflow-vis">
                 <div id="visualization" style="background-color:white;"></div>
             </div>
-
+            
+            <script src="js/search_options.js"></script>  
             <script>
                 var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
                 $("#visualization").css("height", div_height + "px")
 
                         data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
                 data_config.intro = intro;
-                data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
+                //data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
                 data_config.files = [{
-                title: <?php echo json_encode($query) ?>,
-                        file: <?php echo json_encode($_GET['id']) ?>
+                    title: <?php echo json_encode($query) ?>,
+                    file: <?php echo json_encode($_GET['id']) ?>
                 }]
+                
+                data_config.options = options_<?php echo $service ?>.dropdowns;
             </script>
             <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
             <script type="text/javascript">
