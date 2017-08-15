@@ -170,7 +170,7 @@ header #logo a:hover {
 }
 
 .newsletter {
-    border: 2px solid #e55137;
+    border: 3px solid #e55137;
     color:#e55137; 
     background-color: white;
     padding:5px;
@@ -1306,6 +1306,18 @@ time {
 .overflow-vis {
     overflow-y: hidden;
 }
+
+/*SOCIAL MEDIA SHARE BUTTONS*/
+.a2a_kit {
+    position: absolute;
+    top: 180px;
+    left: 10px;
+}
+
+.sharebutton a {
+    padding-top: 3px;
+}
+
 
 /*MEDIA BREAK POINTS*/
 
