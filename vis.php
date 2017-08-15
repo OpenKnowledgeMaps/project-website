@@ -3,49 +3,48 @@
 <html lang="en">
     <head>     
         <?php
-        $query = "zika";
+        $id = (isset($_GET['id']))?($_GET['id']):("zika");
         
-        if (isset($_GET['id'])) {
-            $query = $_GET['id'];
-        }             
+        $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https:' : 'http:';
+        
+        $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
+        $context = json_decode($context_json);
 
-        if (isset($_GET['query'])) {
-            $query = $_GET['query'];
-        }
+        $query =($context->query == null)?($context->query):("zika");
 
         $credit = "";
 
         $service_name = "";
         
-        $service = "plos";
+        $service = (substr($context->service, 0, 4) == "PLOS")?("plos"):($context->service);
 
-        if (!isset($_GET['service'])) {
-            echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
+        if ($service == "plos") {
             $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
-
+            echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
             $service_name = "PLOS";
-        } else {
-            $service = $_GET['service'];
-            if ($service === "plos") {
-                $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
-                echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
-                $service_name = "PLOS";
-            } else if ($service === "pubmed") {
-                $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
-                echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
-                $service_name = "PubMed";
-            } else if ($service === "doaj") {
-                $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
-                echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
-                $service_name = "DOAJ";
-            } else if ($service === "base") {
-                $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
-                echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
-                $service_name = "BASE";
-            }
+        } else if ($service === "pubmed") {
+            $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
+            echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
+            $service_name = "PubMed";
+        } else if ($service === "doaj") {
+            $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
+            echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
+            $service_name = "DOAJ";
+        } else if ($service === "base") {
+            $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
+            echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
+            $service_name = "BASE";
         }
-
-        $title = "Overview of $service_name articles for $query - Open Knowledge Maps";
+        
+        $override_labels = array(
+            "title" => "Overview of $service_name articles for $query - Open Knowledge Maps"
+            , "app-name" => "Open Knowledge Maps"
+            , "description" => ""
+            , "url" => "https://openknowledgemaps.org"
+            , "twitter-type" => "summary_large_image"
+            , "twitter-image" => "https://openknowledgemaps.org/server/storage/$id.png"
+            , "fb-image" => "https://openknowledgemaps.org/server/storage/$id.png"
+        );
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');
         include($COMPONENTS_PATH . 'head_standard.php');
@@ -135,3 +134,16 @@
         //include($COMPONENTS_PATH . 'newsletter.php');
         include($COMPONENTS_PATH . 'footer.php');
         ?>
+
+<?php
+    function curl_get_contents($url) {
+      $ch = curl_init($url);
+      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+      curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+      curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+      $data = curl_exec($ch);
+      curl_close($ch);
+      return $data;
+    }
+?>
