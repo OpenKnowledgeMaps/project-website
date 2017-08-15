@@ -609,17 +609,7 @@ strong {
     vertical-align: baseline;
 }
 
-.description-headstart {
-    max-width: 500px;
-    margin: 0px auto;
-    width:100%;
-    padding: 50px;
-    text-align: left;
-    color:#2d3e52;
-    font-size: 20px;
-    background-color: white;
-    border: 5px solid #2d3e52;
-}
+
 
 #mission strong {
     font-size: 20px;
@@ -1318,6 +1308,40 @@ time {
     padding-top: 3px;
 }
 
+
+/*WHAT'S THIS PAGE*/
+#whatsthis-page {
+    max-width: 1000px;
+    width: 100%;
+    padding-top: 0px;
+    margin: 0px auto;
+}
+
+#whatsthis-page .benefit-point {
+    display: block;
+    width: 100%;
+    padding: 3% 0%;
+}
+
+#whatsthis-page .icon-description {
+    width: 77%;
+}
+
+.wtp {
+    font-size: 18px; padding-top: 3%;
+}
+
+.description-headstart {
+    max-width: 1000px;
+    margin: 0px auto;
+    width:100%;
+    
+    text-align: left;
+    /*color:#2d3e52;*/
+    font-size: 18px;
+    background-color: white;
+    
+}
 
 /*MEDIA BREAK POINTS*/
 
