@@ -88,7 +88,17 @@
             <?php endif ?>
 
             <div class="overflow-vis">
+               <!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+
+    <div class="sharebutton"><a class="a2a_button_twitter"></a></div>
+    <div class="sharebutton"><a class="a2a_button_facebook"></a></div>
+    <div class="sharebutton"><a class="a2a_dd" href="https://www.addtoany.com/share"></a></div>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
                 <div id="visualization" style="background-color:white;"></div>
+                
             </div>
             
             <script src="js/search_options.js"></script>  
