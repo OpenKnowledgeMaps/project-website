@@ -23,7 +23,7 @@
             echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
             $service_name = "PLOS";
         } else if ($service === "pubmed") {
-            $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>';
+            $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>.';
             echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
             $service_name = "PubMed";
         } else if ($service === "doaj") {
@@ -121,7 +121,8 @@
                 headstart.start();
             </script>
 
-            <div class="builtwith">Built with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
+            <div class="builtwith">Created on <?php echo (new DateTime($context->timestamp))->format('j M Y \a\t H:i') ?> 
+                with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
             </div>
             <div id="faulty-map"><a href="faqs.php#faq-faulty-map" target="_blank">Not what you expected?</a>
             </div>
