@@ -10,7 +10,7 @@
         $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
         $context = json_decode($context_json);
 
-        $query =($context->query == null)?($context->query):("zika");
+        $query =($context->query == null)?("zika"):($context->query);
 
         $credit = "";
 
@@ -22,18 +22,24 @@
             $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
             echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
             $service_name = "PLOS";
+            $description = '<a href="https://www.plos.org/publications/journals/" target="_blank">PLOS</a> is a nonprofit Open Access publisher providing access to more than 850,000 articles.';
         } else if ($service === "pubmed") {
             $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>.';
             echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
             $service_name = "PubMed";
+            $description = '<a href="http://www.ncbi.nlm.nih.gov/pubmed" target="_blank ">PubMed</a> comprises more '
+                    . 'than 26 million citations for biomedical literature from MEDLINE, life science journals, and online books.';
         } else if ($service === "doaj") {
             $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
             echo '<script type="text/javascript" src="./js/data-config_doaj.js"></script>';
             $service_name = "DOAJ";
+            $description = '<a href="http://doaj.org " target="_blank ">DOAJ</a> provides access to over 2.3 million articles from more than 9,200 open access journals in all disciplines.';
         } else if ($service === "base") {
             $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
             echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
             $service_name = "BASE";
+            $description = '<a href="http://base-search.net" target="_blank ">BASE</a> provides access to over 100 million documents from '
+                    . 'more than 5,200 content sources in all disciplines.';
         }
         
         $override_labels = array(
@@ -53,7 +59,7 @@
         <script>
             var intro = {
             title: "What's this?",
-                    body: '<div class="description-headstart" style="max-width: 1000px"><div id="whatsthis-page">            <p class="wtp">This <strong>BETA version of Open Knowledge Maps</strong> presents you with a topical overview of:                 <strong>insert search term</strong> based on 100 papers taken from <strong>insert source full name</strong>.                 Insert description of Source.</p>                <p class="wtp">We use text similarity to create a knowledge map. The algorithm groups those papers together                 that have many words in common. This Open Knowledge Map is intended to help you with:</p>            <div class="benefits">                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/overview.png">                    </p>                     <p class="icon-description"><strong>Get an overview of a research topic & find attached research papers:</strong> Knowledge maps                         provide an instant overview of a topic by showing the main areas at a glance,                         and papers related to each area. This makes it possible to easily identify useful,                         pertinent information. Simply zoom into the area of your interest and start reading attached papers.                    </p>                </div>                                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/concepts.png">                    <p class="icon-description">                        <strong>Identify relevant concepts:</strong> one of the most difficult tasks when you are new in a research field                         is to learn the “language” of the field. Open Knowledge Maps makes it easier for you by                         labeling research areas with relevant concepts.                    </p>                </div>                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/irrelevant.png">                    </p>                    <p class="icon-description"><strong>Separate the wheat from the chaff:</strong> we cluster similar papers together.                         This makes it easier to identify relevant content when you are searching for an ambiguous term,                         or when you would like to identify content from a single discipline in a multidisciplinary field.                    </p>                </div>                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/open-content.png">                    <p class="icon-description">                        <strong>Find open content:</strong> Knowledge Maps include both closed and open access papers. However we highlight open access papers -                         and the majority of those papers can be read from within the interface. And if not,                         the fulltext is only a click away.                    </p>                </div>            </div>                            <p class="wtp"><strong style="font-size: 18px;">We need your feedback!</strong><br>Open Knowledge Maps is made by a team of volunteers. We are continously improving this openly available service for you.                 In order to do so, we need your help, please let us know your feedback at <a style="text-decoration: underline;" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a></p>        </div></div>'
+                    body: '<div class="description-headstart" style="max-width: 1000px"><div id="whatsthis-page">            <p class="wtp">This <strong><span style="color:#e55137">beta</span> version of Open Knowledge Maps</strong> presents you with a topical overview of research on                <strong><?php echo $query; ?></strong> based on 100 papers taken from <strong><?php echo $service_name ?></strong>.                 <?php echo $description; ?></p>                <p class="wtp">We use text similarity to create a knowledge map. The algorithm groups those papers together                 that have many words in common. This Open Knowledge Map is intended to help you with:</p>            <div class="benefits">                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/overview.png">                    </p>                     <p class="icon-description"><strong>Get an overview of a research topic & find attached research papers:</strong> knowledge maps                         provide an instant overview of a topic by showing the main areas at a glance,                         and papers related to each area. This makes it possible to easily identify useful,                         pertinent information. Simply zoom into the area of your interest and start reading attached papers.                    </p>                </div>                                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/concepts.png">                    <p class="icon-description">                        <strong>Identify relevant concepts:</strong> one of the most difficult tasks when you are new in a research field                         is to learn the “language” of the field. Open Knowledge Maps makes it easier for you by                         labeling research areas with relevant concepts.                    </p>                </div>                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/irrelevant.png">                    </p>                    <p class="icon-description"><strong>Separate the wheat from the chaff:</strong> we cluster similar papers together.                         This makes it easier to identify relevant content when you are searching for an ambiguous term,                         or when you would like to identify content from a single discipline in a multidisciplinary field.                    </p>                </div>                <div class="benefit-point">                    <p class="icon"><img src="./img/benefits-OKM/open-content.png">                    <p class="icon-description">                        <strong>Find open content:</strong> our knowledge maps include both closed and open access papers. However we highlight open access papers -                         and the majority of those papers can be read from within the interface. And if not,                         the fulltext is only a click away.                    </p>                </div>            </div>                            <p class="wtp"><strong style="font-size: 18px;">We need your feedback!</strong><br>Open Knowledge Maps is made by a team of volunteers. We are continously improving this openly available service for you.                 In order to do so, we need your help, please send us your feedback at <a style="text-decoration: underline;" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a></p>        </div></div>'
             }
         </script>
     </head>
@@ -67,7 +73,7 @@
             require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
             $detect = new Mobile_Detect;
             if ($detect->isMobile()):
-                ?>
+            ?>
 
             <script>
                 //Enable overflow on mobile so you can pinch and zoom
@@ -83,7 +89,18 @@
                     Open Knowledge Maps isn't optimized for mobile usage yet. We are working on a better mobile experience; in the meantime, you may encounter some rough edges.
 
                 </div>
+            
+            <?php else: ?>
+            
+                <div class="alert alert-warning" id="desktop-warning">
 
+                    <a href="#" class="close" data-dismiss="alert">&times;</a>
+
+                    Welcome to the <span style="color:#e55137">beta</span> version of Open Knowledge Maps. For more information on this map, please 
+                    <a href="#info_modal" data-type="text" data-toggle="modal" class="underline">click here</a>.
+
+                </div>
+            
             <?php endif ?>
 
             <div class="overflow-vis">

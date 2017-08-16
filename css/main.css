@@ -1327,6 +1327,13 @@ time {
     width: 77%;
 }
 
+#desktop-warning {
+    margin-bottom: 0px;
+    padding-left: 50px;
+    background-color: #F1F6FA;
+    border-color: #D2E4F0;
+}
+
 .wtp {
     font-size: 18px; padding-top: 3%;
 }
