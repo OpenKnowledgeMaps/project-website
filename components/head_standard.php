@@ -1,13 +1,31 @@
-<title>
-<?php 
-    $DEFAULT_TITLE = "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge";
-    if($title != null) {
-        echo $title; 
-    } else {
-        $title = $DEFAULT_TITLE;
-        echo $title;
-    }        
+<?php
+    $default_labels = array(
+        "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
+        , "app-name" => "Open Knowledge Maps"
+        , "description" => "We are building a visual interface that dramatically increases the visibility of research findings for science and society alike."
+        , "url" => "https://openknowledgemaps.org"
+        , "twitter-type" => "summary"
+        , "twitter-image" => "https://openknowledgemaps.org/img/card.png"
+        , "fb-image" => "https://openknowledgemaps.org/img/cardfb.png"
+    );
+    
+    function getLabel($tag) {
+        global $default_labels, $override_labels;
+        
+        if(isset($override_labels) && isset($override_labels[$tag])) {
+            return $override_labels[$tag];
+        } else {
+            if(isset($default_labels[$tag]))
+                return $default_labels[$tag];
+            else
+                return "Not set";
+        }
+    }
+    
 ?>
+
+<title>
+<?php echo getLabel("title") ?>
 </title>
 
 <meta http-equiv="content-type" content="text/html; charset=utf-8" >
@@ -17,8 +35,8 @@
 <meta name="robots" content="follow" >
 <meta name="revisit-after" content="1 month" >
 <meta name="distribution" content="global">
-<meta name="author" content="Peter Kraker" >
-<meta name="publisher" content="Peter Kraker" >
+<meta name="author" content="Open Knowledge Maps" >
+<meta name="publisher" content="Open Knowledge Maps" >
 <meta name="keywords" content="knowldege visualization, open knowledge, open science" >
 
 <!-- FAVICONS -->
@@ -28,26 +46,26 @@
 <link rel="manifest" href="/manifest.json?v=vMr4Eywprz">
 <link rel="mask-icon" href="/safari-pinned-tab.svg?v=vMr4Eywprz" color="#2d3e52">
 <link rel="shortcut icon" href="/favicon.ico?v=vMr4Eywprz">
-<meta name="apple-mobile-web-app-title" content="Open Knowledge Maps">
-<meta name="application-name" content="Open Knowledge Maps">
+<meta name="apple-mobile-web-app-title" content="<?php echo getLabel("app-name") ?>">
+<meta name="application-name" content="<?php echo getLabel("app-name") ?>">
 <meta name="theme-color" content="#ffffff">
 
-<meta name="description" content="We are building a visual interface that dramatically increases the visibility of research findings for science and society alike." >
+<meta name="description" content="<?php echo getLabel("description") ?>" >
 
 <!-- TWITTER CARD -->
 
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="<?php echo getLabel("twitter-type") ?>" />
 <meta name="twitter:site" content="@OK_Maps" />
-<meta name="twitter:title" content="<?php echo $title; ?>" />
-<meta name="twitter:description" content="We are building a visual interface that dramatically increases the visibility of research findings for science and society alike." />
-<meta name="twitter:image" content="https://openknowledgemaps.org/img/card.png" />
+<meta name="twitter:title" content="<?php echo getLabel("title") ?>" />
+<meta name="twitter:description" content="<?php echo getLabel("description") ?>" />
+<meta name="twitter:image" content="<?php echo getLabel("twitter-image") ?>" />
 
 <!-- OPEN GRAPH OG -->
-<meta property="og:description" content="We are building a visual interface that dramatically increases the visibility of research findings for science and society alike. For more updates follow us on http://twitter.com/OK_Maps"/>
-<meta property="og:url" content="https://openknowledgemaps.org"/>
-<meta property="og:image" content="https://openknowledgemaps.org/img/cardfb.png"/>
+<meta property="og:description" content="<?php echo getLabel("description") ?> For more updates follow us on http://twitter.com/OK_Maps"/>
+<meta property="og:url" content="<?php echo getLabel("url") ?>"/>
+<meta property="og:image" content="<?php echo getLabel("fb-image") ?>"/>
 <meta property="og:type" content="website"/>
-<meta property="og:site_name" content="Open Knowledge Maps"/>
+<meta property="og:site_name" content="<?php echo getLabel("app-name") ?>"/>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
 <link rel="stylesheet" href="./css/main.css">
