@@ -42,8 +42,8 @@
             , "description" => ""
             , "url" => "https://openknowledgemaps.org"
             , "twitter-type" => "summary_large_image"
-            , "twitter-image" => "https://openknowledgemaps.org/server/storage/$id.png"
-            , "fb-image" => "https://openknowledgemaps.org/server/storage/$id.png"
+            , "twitter-image" => "$SNAPSHOT_PATH$id.png"
+            , "fb-image" => "$SNAPSHOT_PATH$id.png"
         );
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');
