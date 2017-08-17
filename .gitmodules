@@ -1,3 +1,3 @@
 [submodule "search_plos"]
-	path = search
+	path = headstart
 	url = https://github.com/pkraker/Headstart
