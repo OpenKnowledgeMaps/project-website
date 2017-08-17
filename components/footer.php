@@ -12,9 +12,9 @@
         </address>
         
         <ul class="nav_bottom">
-            <li><a href="imprint.php" href=""><span class="awesome">&#xf0c1;</span> Imprint</a></li>
-            <li><a href="faqs.php" href=""><span class="awesome">&#xf05a;</span> FAQ</a></li>
-            <li><a href="privacy.php" href=""><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
+            <li><a href="imprint" href=""><span class="awesome">&#xf0c1;</span> Imprint</a></li>
+            <li><a href="faq" href=""><span class="awesome">&#xf05a;</span> FAQ</a></li>
+            <li><a href="privacy" href=""><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
             <li class="seitenanfang"><a href="#top"><span class="awesome">&#xf106;</span> back to top</a></li>
         </ul>
     </div>

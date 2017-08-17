@@ -2,7 +2,7 @@
     <!--<h2 class="h2reverse"> Our Mission</h2>-->
     <div >
 
-        <a href="./about.php"><div class="vision">
+        <a href="./about"><div class="vision">
                 <p>
                     <img class="okm-icon" src="./img/icons/visual-interface.png">
                 </p>

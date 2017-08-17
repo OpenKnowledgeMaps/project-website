@@ -159,7 +159,7 @@
                 $("input[name='optradio']").change(function () {
                     var radio_val = $(this).val();
                     config.service = radio_val;
-                    $("#searchform").attr("action", "search.php?service=" + config.service);
+                    $("#searchform").attr("action", "search?service=" + config.service);
 
                     search_options.user_defined_date = false;
                     $("#filter-container").html("");
@@ -171,7 +171,7 @@
 
                 chooseOptions();
 
-                $("#searchform").attr("action", "search.php?service=" + config.service);
+                $("#searchform").attr("action", "search?service=" + config.service);
             })
         </script>
 

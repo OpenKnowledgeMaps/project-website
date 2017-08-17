@@ -1,7 +1,8 @@
 <?php include 'config.php' ?>
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>     
+    <head>
+        <base href="<?php echo $SITE_URL ?>">
         <?php
         $id = (isset($_GET['id']))?($_GET['id']):("zika");
         
@@ -141,7 +142,7 @@
             <div class="builtwith">Created on <?php echo (new DateTime($context->timestamp))->format('j M Y \a\t H:i') ?> 
                 with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
             </div>
-            <div id="faulty-map"><a href="faqs.php#faq-faulty-map" target="_blank">Not what you expected?</a>
+            <div id="faulty-map"><a href="faq#faq-faulty-map" target="_blank">Not what you expected?</a>
             </div>
         </div>
         <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">

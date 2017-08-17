@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Custom 404 page
+ErrorDocument 404 /404.php
+
+# Only use for maintenance
+# RewriteCond %{HTTP_HOST} ^(www\.)?openknowledgemaps\.org [NC]
+# RewriteCond %{REQUEST_URI} !/index_maintenance.php$ [NC]
+# RewriteCond %{REQUEST_URI} !\.(jpe?g?|png|gif|css) [NC]
+# RewriteRule .* /index_maintenance.php [R=302,L]
+
+RewriteRule ^maps/([^/\.]*)$ vis.php?id=$1 [L,QSA,NC]
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]

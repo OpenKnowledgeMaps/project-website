@@ -7,14 +7,14 @@
 
                 <!-- Menu -->
                 <ul>
-                    <li><a href="index.php#search">Search</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <!--<li><a href="index.php#discover">Discover Maps</a></li>-->
+                    <li><a href="index#search">Search</a></li>
+                    <li><a href="about">About</a></li>
+                    <!--<li><a href="index#discover">Discover Maps</a></li>-->
                     
-                    <li><a href="team.php#team">Team</a></li>
-                    <li><a href="news.php">News</a></li>
+                    <li><a href="team#team">Team</a></li>
+                    <li><a href="news">News</a></li>
                     <li><a href="#contact">Get in touch</a></li>
-                    <li><a href="index.php#newsletter">Newsletter</a></li>
+                    <li><a href="index#newsletter">Newsletter</a></li>
                 </ul>
 
             </div>
@@ -22,29 +22,29 @@
             <div class="icon-menu">
                 MENU
             </div>
-            <div class="imglogo"><a href="index.php"><img src="./img/logo-okmaps.png"></a></div>
+            <div class="imglogo"><a href="index"><img src="./img/logo-okmaps.png"></a></div>
             <ul class="description">
                 
-                <li id="logo"><a href="index.php">Open Knowledge Maps</a></li>
+                <li id="logo"><a href="index">Open Knowledge Maps</a></li>
                 <li>A visual interface to the world's scientific knowledge</li>
             </ul>
 
             <ul class="nav_top">
                 <li>
-                    <a href="index.php#search">Search</a>
+                    <a href="index#search">Search</a>
                 </li>
                 <li>
-                    <a href="about.php">About</a>
+                    <a href="about">About</a>
                 </li>
                 <!--<li>
-                    <a href="index.php#discover">Discover Maps</a>
+                    <a href="index#discover">Discover Maps</a>
                 </li>-->
 
                 <li>
-                    <a href="team.php#team">Team</a>
+                    <a href="team#team">Team</a>
                 </li>
                 <li>
-                    <a href="news.php">News</a>
+                    <a href="news">News</a>
                 </li>
 
                 <li>
@@ -52,7 +52,7 @@
                 </li>
                 
                 <li>
-                    <a class="newsletter" href="index.php#newsletter">Newsletter</a>
+                    <a class="newsletter" href="index#newsletter">Newsletter</a>
                 </li>
                 
             </ul>
