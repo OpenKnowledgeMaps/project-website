@@ -125,7 +125,10 @@
                 search_options.init("#filter-container", config.options);
 
                 config.options.dropdowns.forEach(function (entry) {
-                    search_options.select_multi('.dropdown_multi_' + entry.id, entry.name)
+                    if(typeof entry.width === "undefined") {
+                        entry.width = "110px";
+                    }
+                    search_options.select_multi('.dropdown_multi_' + entry.id, entry.name, entry.width)
                 })
 
                 var valueExists = function (key, value) {

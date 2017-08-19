@@ -16,7 +16,7 @@ var options_plos = {
                 {id: "most-relevant", text: "Most relevant"}
                 , {id: "most-recent", text: "Most recent"}
             ]},
-        {id: "article_types", multiple: true, name: "Article types", type: "dropdown"
+        {id: "article_types", multiple: true, width: "140px", name: "Article types", type: "dropdown"
             , fields: [
                 {id: "Research Article", text: "Research Article", selected: true}
                 , {id: "Review", text: "Review", selected: true}
@@ -87,7 +87,7 @@ var options_pubmed = {
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
-                {id: "any-time", text: "Any publication date"}
+                {id: "any-time", text: "Any time"}
                 , {id: "last-month", text: "Last month"}
                 , {id: "last-year", text: "Last year"}
                 , {id: "user-defined", text: "Custom range", class: "user-defined",
@@ -101,7 +101,7 @@ var options_pubmed = {
                 {id: "most-relevant", text: "Most relevant"}
                 , {id: "most-recent", text: "Most recent"}
             ]},
-        {id: "article_types", multiple: true, name: "Article types", type: "dropdown"
+        {id: "article_types", multiple: true, width: "140px", name: "Article types", type: "dropdown"
             , fields: [
                 {id: "addresses", text: "Addresses", selected: true}
                 , {id: "autobiography", text: "Autobiography", selected: true}
@@ -224,7 +224,7 @@ var options_base = {
                 {id: "most-relevant", text: "Most relevant"}
                 , {id: "most-recent", text: "Most recent"}
             ]},
-        {id: "document_types", multiple: true, name: "Document types", type: "dropdown"
+        {id: "document_types", multiple: true, width: "140px", name: "Document types", type: "dropdown"
             , fields: [
                 {id: "4", text: "Audio", selected: false}
                 , {id: "11", text: "Book", selected: false}
@@ -375,7 +375,7 @@ var SearchOptions = {
         });
 
     },
-    select_multi: function (dropdown_class, entity) {
+    select_multi: function (dropdown_class, entity, width) {
 
         var self = this;
 
@@ -384,7 +384,7 @@ var SearchOptions = {
                 allSelectedText: "All " + entity
                 , nonSelectedText: "No " + entity
                 , nSelectedText: entity
-                , buttonWidth: '150px'
+                , buttonWidth: width
                 , numberDisplayed: 2
                 , maxHeight: 250
                 , includeSelectAllOption: true
