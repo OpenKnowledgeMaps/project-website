@@ -14,7 +14,7 @@
                     <li><a href="team#team">Team</a></li>
                     <li><a href="news">News</a></li>
                     <li><a href="#contact">Get in touch</a></li>
-                    <li><a href="index#newsletter">Newsletter</a></li>
+                    <li><a href="index#newsletter">Support us</a></li>
                 </ul>
 
             </div>
@@ -52,7 +52,7 @@
                 </li>
                 
                 <li>
-                    <a class="newsletter" href="index#newsletter">Newsletter</a>
+                    <a class="newsletter" href="index#newsletter">Support us</a>
                 </li>
                 
             </ul>
