@@ -1343,12 +1343,12 @@ time {
     max-width: 1000px;
     margin: 0px auto;
     width:100%;
-    
+
     text-align: left;
     /*color:#2d3e52;*/
     font-size: 18px;
     background-color: white;
-    
+
 }
 
 /*MEDIA BREAK POINTS*/
@@ -2067,7 +2067,7 @@ time {
     .advisor h3 {
         padding: 10px 10px 0px 10px;
     }
-    
+
     .source-info {
         display: none;
     }
