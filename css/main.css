@@ -1330,8 +1330,9 @@ time {
 #desktop-warning {
     margin-bottom: 0px;
     padding-left: 50px;
-    background-color: #F1F6FA;
-    border-color: #D2E4F0;
+    background-color: #f1c500;
+    border-color: #f1c500;
+    color: black;
 }
 
 .wtp {
