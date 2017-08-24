@@ -161,7 +161,7 @@ header #logo a:hover {
     text-decoration: underline;
 }
 
-.nav_top a.newsletter:hover, .nav_top a.newsletter:active, .nav_top a.newsletter:focus {
+a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     border: 2px solid #e55137; 
     color:white; 
     background-color: #e55137;

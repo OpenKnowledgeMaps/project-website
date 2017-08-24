@@ -12,14 +12,12 @@
     <body>
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
-        
+
         <?php
-        
         $default_lib = "base";
-        if(isset($_GET["lib"])) {
+        if (isset($_GET["lib"])) {
             $default_lib = $_GET["lib"];
         }
-        
         ?>
 
         <a name="top"></a>
@@ -31,18 +29,18 @@
             <form id="searchform" action="#" method="POST" class="mittig" target="_blank">
                 <div style="text-align: left;">
                     <h2 class="visualize">Visualize a research topic<sup>beta</sup></h2>
-                    
+
                     <p class="library">
                         <span class="library-choice">Choose a library:</span>
                         <label class="radio-inline"><input type="radio" name="optradio" value="pubmed" <?php if ($default_lib == "pubmed") echo 'checked="checked"'; ?>>
                             PubMed (biomedicine) <a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more 
-                                      than 26 million citations for biomedical literature from MEDLINE, life science 
-                                      journals, and online books. Citations may include links to full-text content from 
-                                      PubMed Central and publisher web sites."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
+                                                    than 26 million citations for biomedical literature from MEDLINE, life science 
+                                                    journals, and online books. Citations may include links to full-text content from 
+                                                    PubMed Central and publisher web sites."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
                         <label class="radio-inline"><input type="radio" name="optradio" value="base" <?php if ($default_lib == "base") echo 'checked="checked"'; ?>>
                             BASE (all disciplines) <a href="#" data-toggle="popover" title="Bielefeld Academic Search Engine 
-                                             (BASE)" data-content="Provides access to over 100 million documents from 
-                                             more than 5,200 content sources in all disciplines."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
+                                                      (BASE)" data-content="Provides access to over 100 million documents from 
+                                                      more than 5,200 content sources in all disciplines."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a></label>
                     </p>
 
                     <!--<label for="q">Search term:</label> -->
@@ -68,31 +66,26 @@
         </div>-->
         <span class="anchor" id="okmmission"></span>
 
-        <?php include($COMPONENTS_PATH . "mission.php") ?>
-
-
-        <!--<div class="missionstatement">
-            <p>Become an advisor on the project!</p>
-            
-        </div>-->
-
-        <!--<span class="anchor" id="discover"></span>-->
-        <!--<div class="background3"></div>-->
-
-
+<?php include($COMPONENTS_PATH . "mission.php") ?>
 
 
         <span class="anchor" id="feedback"></span>
-        
-        <?php 
-        $TIMELINE_ID = "733358003295035393";
-        $FEEBDACK_TITLE = "What our users say";
-        include($COMPONENTS_PATH . "twitterstream.php") 
-        ?>
+
+<?php
+$TIMELINE_ID = "733358003295035393";
+$FEEBDACK_TITLE = "What our users say";
+include($COMPONENTS_PATH . "twitterstream.php")
+?>
 
         <span class="anchor" id="newsletter"></span>
 
+<?php include($COMPONENTS_PATH . "supportus.php") ?>
         <?php include($COMPONENTS_PATH . "newsletter.php") ?>
+
+
+
+
+
 
         <script type="text/javascript">
 
@@ -176,4 +169,4 @@
         </script>
 
 
-        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
+<?php include($COMPONENTS_PATH . 'footer.php'); ?>
