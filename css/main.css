@@ -134,7 +134,7 @@ header #logo a:hover {
 
 .description li:first-child {
     text-transform: uppercase;
-    font-size: 26px;
+    font-size: 20px;
     font-family: Open Sans;
     font-weight: 800;
 }
@@ -266,7 +266,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     font-weight: 800;
     text-align: left; 
     padding: 0px;
-    font-size: 35px; 
+    font-size: 26px; 
     color: #2d3e52; 
     background-color:transparent; 
     text-transform: uppercase; 
@@ -557,7 +557,7 @@ strong {
 }
 
 .background-lamp .visualize {
-    font-size: 26px;
+    font-size: 20px;
 }
 
 #divdiscover {
@@ -602,6 +602,7 @@ strong {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
+    font-size: 20px;
 }
 
 .vision p {
@@ -1376,7 +1377,7 @@ time {
     }
 
     .vision h2 {
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .vision p {
@@ -1469,7 +1470,7 @@ time {
     }
 
     .vision h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .vision p {
@@ -1521,9 +1522,7 @@ time {
         padding-right: 50px;
     }
 
-    .visualize {
-        font-size: 28px;
-    }
+    
 
     .missionstatement {
         padding: 100px 0px;
