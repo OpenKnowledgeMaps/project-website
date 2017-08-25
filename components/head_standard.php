@@ -40,12 +40,12 @@
 <meta name="keywords" content="knowldege visualization, open knowledge, open science" >
 
 <!-- FAVICONS -->
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=vMr4Eywprz">
-<link rel="icon" type="image/png" href="/favicon-32x32.png?v=vMr4Eywprz" sizes="32x32">
-<link rel="icon" type="image/png" href="/favicon-16x16.png?v=vMr4Eywprz" sizes="16x16">
-<link rel="manifest" href="/manifest.json?v=vMr4Eywprz">
-<link rel="mask-icon" href="/safari-pinned-tab.svg?v=vMr4Eywprz" color="#2d3e52">
-<link rel="shortcut icon" href="/favicon.ico?v=vMr4Eywprz">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png?v=694Pz9mPLx">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=694Pz9mPLx">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=694Pz9mPLx">
+<link rel="manifest" href="/manifest.json?v=694Pz9mPLx">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=694Pz9mPLx" color="#2d3e52">
+<link rel="shortcut icon" href="/favicon.ico?v=694Pz9mPLx">
 <meta name="apple-mobile-web-app-title" content="<?php echo getLabel("app-name") ?>">
 <meta name="application-name" content="<?php echo getLabel("app-name") ?>">
 <meta name="theme-color" content="#ffffff">

@@ -103,7 +103,7 @@
                     </p>
                     <p>
                         You can contribute in a number of ways: 
-                        we love to hear <a class="underline" href="#contact">your feedback and ideas</a> as this helps us to improve 
+                        we love to hear <a class="underline" href="index#newsletter">your feedback and ideas</a> as this helps us to improve 
                         Open Knowledge Maps. If you like the project, please spread the word as far as you can :) <br>
                         We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
@@ -130,8 +130,6 @@
             </div>
 
         </div>
-
-
 
 
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

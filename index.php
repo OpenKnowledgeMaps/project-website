@@ -9,7 +9,7 @@
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
-    <body>
+    <body id="home">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 

@@ -46,13 +46,17 @@
                 <li>
                     <a href="news">News</a>
                 </li>
+                
+                <li>
+                    <a href="faq.php">FAQ</a>
+                </li>
 
                 <li>
                     <a href="#contact">Get in touch</a>
                 </li>
                 
                 <li>
-                    <a class="newsletter" href="index#newsletter">Support us</a>
+                    <a class="newsletter" href="index#newsletter"><i class="fa fa-heart" aria-hidden="true"></i> Support us</a>
                 </li>
                 
             </ul>

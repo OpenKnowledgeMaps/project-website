@@ -150,7 +150,8 @@
 
 
         <?php
-        include($COMPONENTS_PATH . 'moreinfo.php');
+        include($COMPONENTS_PATH . 'supportus.php');
+        include($COMPONENTS_PATH . 'newsletter.php');
         //include($COMPONENTS_PATH . 'newsletter.php');
         include($COMPONENTS_PATH . 'footer.php');
         ?>

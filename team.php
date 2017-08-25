@@ -28,7 +28,7 @@
                         <a target="_blank" href="http://twitter.com/PeterKraker"><img class="hoverlink" src="./img/team/peter.png" alt="Peter Kraker"></a>
                         <ul>
                             <li class="name">Peter Kraker</li>
-                            <li class="job-title">Founder</li>
+                            <li class="job-title">Founder & Chairman</li>
                         </ul>
                     </div>
 
@@ -36,7 +36,7 @@
                         <a target="_blank" href="http://looove-design.com"><img class="hoverlink" src="./img/team/maxi.png" alt="Maxi Schramm"></a>
                         <ul>
                             <li class="name">Maxi Schramm</li>
-                            <li class="job-title">Interface, Web Design & Graphics</li>
+                            <li class="job-title">Design & Coordination</li>
                         </ul>
                     </div>
 
@@ -62,7 +62,7 @@
                         <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/team/chris.png" alt="Christopher Kittel"></a>
                         <ul>
                             <li class="name">Christopher Kittel</li>
-                            <li class="job-title">Content Mining & Recommendation</li>
+                            <li class="job-title">Data Science</li>
                         </ul>
                     </div>
 
@@ -81,6 +81,15 @@
                             <li class="job-title">Frontend Architect</li>
                         </ul>
                     </div>
+                    
+                    <div class="member">
+                        <a target="_blank" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9"><img class="hoverlink" src="./img/team/fabian.png" alt="Fabian"></a>
+                        <ul>
+                            <li class="name">Fabian Kraut</li>
+                            <li class="job-title">Communication</li>
+                        </ul>
+                    </div>
+                    
                     <div class="member">
                         <a target="_blank" href="http://www.michaelskaug.com/"><img class="hoverlink" src="./img/team/mike.png" alt="Mike"></a>
                         <ul>
@@ -163,10 +172,12 @@
                         </div>
                         
                         <div class="advisor">
-                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKM"></a>
-                            <h3>Elisabeth Lex</h3>
-                            <p class="advisor-desc">Assistant Professor <br>Graz University of Technology</p>
+                            <a target="_blank" href="https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/birgit-schmidt/"><img class="hoverlink" src="./img/advisors/birgit.jpg" alt="Advisor OKM"></a>
+                            <h3>Birgit Schmidt</h3>
+                            <p class="advisor-desc">Scientific Manager / Project Coordinator <br>Göttingen State and University Library</p>
                         </div>
+                        
+                        
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKM"></a>
                             <h3>Daniel Mietchen</h3>
@@ -189,14 +200,12 @@
                             <h3>Michela Vignoli</h3>
                             <p class="advisor-desc">Junior Scientist <br>Austrian Institute of Technology (AIT)</p>
                         </div>
+
                         <div class="advisor">
-                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
-                            <h3>Christian Schlögl</h3>
-                            <p class="advisor-desc">Associate Professor <br>University of Graz</p>
-                        </div> 
-
-                        
-
+                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKM"></a>
+                            <h3>Elisabeth Lex</h3>
+                            <p class="advisor-desc">Assistant Professor <br>Graz University of Technology</p>
+                        </div>
 
                         <div class="advisor">
                             <a target="_blank" href="http://www.stefankasberger.at/"><img class="hoverlink" src="./img/advisors/stefan.jpg" alt="Advisor OKM"></a>
@@ -235,18 +244,16 @@
                         </div> 
 
                         <div class="advisor">
-                            <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Advisor OKM"></a>
-                            <h3>Christian Kaier</h3>
-                            <p class="advisor-desc">Open Access Office <br>University of Graz</p>
-                        </div>
-
-
-                        <div class="advisor">
                             <a target="_blank" href="https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&ansicht_in=&menue_id_in=101&id_in=113247"><img class="hoverlink" src="./img/advisors/florian.jpg" alt="Advisor OKM"></a>
                             <h3>Florian Heigl</h3>
                             <p class="advisor-desc">PhD Student <br>BOKU Vienna</p>
                         </div>
 
+                        <div class="advisor">
+                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
+                            <h3>Christian Schlögl</h3>
+                            <p class="advisor-desc">Associate Professor <br>University of Graz</p>
+                        </div> 
 
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKM"></a>
@@ -259,6 +266,12 @@
                             <h3>Daniel Dörler</h3>
                             <p class="advisor-desc">PhD Student <br>BOKU Vienna</p>
                         </div> 
+                        
+                        <div class="advisor">
+                            <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Advisor OKM"></a>
+                            <h3>Christian Kaier</h3>
+                            <p class="advisor-desc">Open Access Office <br>University of Graz</p>
+                        </div>
 
                     </div>
                 </div></div>

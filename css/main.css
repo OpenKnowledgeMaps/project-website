@@ -183,13 +183,20 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     color: #2d3e52;
 }
 
+#newsletterdiv {
+    background-color: #eff3f4;
+}
+
 #partnerdiv {
-    /*background-color: #eff3f4;*/
-    background-image: url(../img/partnerbg.png);
+    background-color: #eff3f4;
     background-repeat: repeat;
     max-width:1600px;
     width:100%;
     margin: 0px auto;
+}
+
+#home #partnerdiv {
+    background-color: white;
 }
 
 #newsletterdiv p, #newsletterdiv h2, #partnerdiv h2 {
