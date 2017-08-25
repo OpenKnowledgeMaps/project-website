@@ -174,7 +174,7 @@
                         <div class="advisor">
                             <a target="_blank" href="https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/birgit-schmidt/"><img class="hoverlink" src="./img/advisors/birgit.jpg" alt="Advisor OKM"></a>
                             <h3>Birgit Schmidt</h3>
-                            <p class="advisor-desc">Scientific Manager / Project Coordinator <br>Göttingen State and University Library</p>
+                            <p class="advisor-desc">Scientific Manager/Project Coordinator <br>Göttingen State and University Library</p>
                         </div>
                         
                         
