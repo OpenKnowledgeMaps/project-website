@@ -25,7 +25,7 @@
             <div class="imglogo"><a href="index"><img src="./img/logo-okmaps.png"></a></div>
             <ul class="description">
                 
-                <li id="logo"><a href="index">Open Knowledge Maps</a></li>
+                <li id="logo"><a href="index"><span style="color: #e55137;">Open</span> Knowledge Maps</a></li>
                 <li>A visual interface to the world's scientific knowledge</li>
             </ul>
 

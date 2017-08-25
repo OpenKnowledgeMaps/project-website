@@ -21,7 +21,7 @@
                     <p>Our Goal</p>
                     <p>is to revolutionize discovery of scientific knowledge. 
                         We are building a visual interface that dramatically increases the visibility of 
-                        research findings for science and society alike. We believe that a better way to 
+                        research findings for science and society alike. We are a non-profit organization and we believe that a better way to 
                         explore and discover scientific knowledge will benefit us all. </p>
                 </div>
             </div>
