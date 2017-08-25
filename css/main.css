@@ -573,6 +573,10 @@ strong {
     text-align: center;
 }
 
+.updates #newsletterdiv {
+    background-color: white;
+}
+
 .vision {
     vertical-align: top; 
     display: inline-block; 
