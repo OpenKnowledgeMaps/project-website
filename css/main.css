@@ -1315,8 +1315,8 @@ time {
 
 /*SOCIAL MEDIA SHARE BUTTONS*/
 .a2a_kit {
-    position: absolute;
-    top: 180px;
+    position: fixed;
+    top: 200px;
     left: 10px;
 }
 
@@ -1349,6 +1349,7 @@ time {
     background-color: #f1c500;
     border-color: #f1c500;
     color: black;
+    min-width: 360px;
 }
 
 .wtp {
