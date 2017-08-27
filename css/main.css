@@ -183,8 +183,13 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     color: #2d3e52;
 }
 
-#newsletterdiv {
-    background-color: #eff3f4;
+#newsletterdiv, .supportus, .search-waiting-page .benefitssearch, .infohow {
+    /*background-color: #eff3f4;*/
+    border-top: 1px solid #cacfd3; 
+}
+
+.updates #newsletterdiv {
+    border-top: 0px solid #cacfd3;
 }
 
 #partnerdiv {
@@ -195,9 +200,9 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     margin: 0px auto;
 }
 
-#home #partnerdiv {
+/*#home #partnerdiv {
     background-color: white;
-}
+}*/
 
 #newsletterdiv p, #newsletterdiv h2, #partnerdiv h2 {
     color: #2d3e52;
@@ -406,7 +411,7 @@ address a:hover, address a:focus, address a:active, .nav_bottom a:hover, .nav_bo
 .getintouch {    
     background-color: #2d3e52;
     font-size: 16px;
-    padding: 100px 50px;
+    padding: 50px;
     color: white;
 }
 
@@ -550,7 +555,6 @@ strong {
 }
 
 #divdiscover h2, #newsletterdiv h2, #divhow h2, #partnerdiv h2 {
-
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
@@ -573,9 +577,9 @@ strong {
     text-align: center;
 }
 
-.updates #newsletterdiv {
+/*.updates #newsletterdiv {
     background-color: white;
-}
+}*/
 
 .vision {
     vertical-align: top; 
@@ -1247,7 +1251,7 @@ time {
     font-weight: 800;
 }
 
-.team-page #partnerdiv, .vis #partnerdiv {
+.team-page #partnerdiv {
     background-color:white;
     background-image: none;
 }
@@ -1526,7 +1530,7 @@ time {
         padding-right: 50px;
     }
 
-    
+
 
     .missionstatement {
         padding: 100px 0px;

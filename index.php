@@ -22,13 +22,15 @@
 
         <a name="top"></a>
         <a style="padding-top:160px;" name="search"></a>
+<?php include($COMPONENTS_PATH . 'search-box.php'); ?>
+
         <!---->
         <div class="background1">
 
 
             <form id="searchform" action="#" method="POST" class="mittig" target="_blank">
                 <div style="text-align: left;">
-                    <h2 class="visualize">Visualize a research topic<sup>beta</sup></h2>
+                    <h2 class="visualize">Map a research topic<sup>beta</sup></h2>
 
                     <p class="library">
                         <span class="library-choice">Choose a library:</span>
@@ -55,7 +57,6 @@
                 </div>
             </form> 
         </div>
-
 <!--<div style="padding-top:100px;"><img src="./img/start-page1.png"></div>-->
 
         <!--<div class="background2"></div>-->
@@ -66,7 +67,7 @@
         </div>-->
         <span class="anchor" id="okmmission"></span>
 
-<?php include($COMPONENTS_PATH . "mission.php") ?>
+<?php include($COMPONENTS_PATH . 'mission.php') ?>
 
 
         <span class="anchor" id="feedback"></span>
@@ -74,13 +75,13 @@
 <?php
 $TIMELINE_ID = "733358003295035393";
 $FEEBDACK_TITLE = "What our users say";
-include($COMPONENTS_PATH . "twitterstream.php")
+include($COMPONENTS_PATH . 'twitterstream.php')
 ?>
 
         <span class="anchor" id="newsletter"></span>
 
-<?php include($COMPONENTS_PATH . "supportus.php") ?>
-        <?php include($COMPONENTS_PATH . "newsletter.php") ?>
+<?php include($COMPONENTS_PATH . 'supportus.php') ?>
+        <?php include($COMPONENTS_PATH . 'newsletter.php') ?>
 
 
 

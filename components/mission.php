@@ -8,7 +8,7 @@
                 </p>
                 <h2>Visual <br>interface</h2>
                 <p>We are creating a visual interface to the world's scientific knowledge that dramatically increases the visibility of research findings for science and society alike.
-                    <br><br><span style="font-weight: bold;">our goal</span>
+                    <br><br><span style="font-weight: bold;">about us</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
             </div>
@@ -32,7 +32,7 @@
                 </p>
                 <h2>Share. Use. <br>Collaborate.</h2>
                 <p>We want to turn discovery into an open and collaborative process. By sharing the results of our discoveries, we can save valuable time and build on top of each other's knowledge.
-                    <br><br><span style="font-weight: bold;">our vision</span>
+                    <br><br><span style="font-weight: bold;">on the road to</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
             </div>

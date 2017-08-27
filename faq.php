@@ -81,7 +81,7 @@
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
                         <a href="https://github.com/OpenKnowledgeMaps/Headstart">the  open source visualization framework Headstart</a> out of frustration with the existing discovery tools for scientific knowledge.
                         In January 2016, Peter posted a <a href="https://science20.wordpress.com/2016/01/27/call-for-collaborators-open-science-prize-project-on-open-discovery/" target="_blank">Call for Collaborators</a> 
-                        on his blog, which brought a first team of volunteers together.
+                        on his blog, which brought a first team of volunteers together. Since 2016 Open Knowledge Maps is a <a href="imprint">registered non-profit organization</a>. 
                     </p>
                 </div>
 
@@ -90,7 +90,7 @@
                         <span id="question-Q">Q6</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
-                        We are a group of volunteers. 
+                        We are a non-profit organization run by a group of dedicated volunteers. 
                         Currently, we are looking for funding for <a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
                         If you are interested in funding this effort, please contact us on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
 
@@ -103,7 +103,7 @@
                     </p>
                     <p>
                         You can contribute in a number of ways: 
-                        we love to hear <a class="underline" href="index#newsletter">your feedback and ideas</a> as this helps us to improve 
+                        we love to hear <a class="underline" href="getintouch">your feedback and ideas</a> as this helps us to improve 
                         Open Knowledge Maps. If you like the project, please spread the word as far as you can :) <br>
                         We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
@@ -130,6 +130,6 @@
             </div>
 
         </div>
-
-
+        <span class="anchor" id="newslettersignup"></span>
+        <?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>
