@@ -177,13 +177,29 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     border-radius: 5px;
 }
 
+a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
+    border: 3px solid #eee;
+    color: #eee; 
+    background-color: transparent;
+}
+
+.newsletter2 {
+    border: 3px solid #4bb2b3;
+    border-radius: 5px;
+    padding:5px;
+    color: white; 
+    background-color: #4bb2b3;
+    font-weight:300;
+    text-decoration: none;
+}
+
 #newsletterdiv, #partnerdiv {
     padding: 100px 0px;
     font-size: 20px;
     color: #2d3e52;
 }
 
-#newsletterdiv, .supportus, .search-waiting-page .benefitssearch, .infohow {
+#newsletterdiv, .supportus, .infohow {
     /*background-color: #eff3f4;*/
     border-top: 1px solid #cacfd3; 
 }
@@ -220,10 +236,6 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 #mc-embedded-subscribe, #mce-success-response, #mce-error-response {
     margin-top: 10px;
-}
-
-#mc_embed_signup_scroll .asterisk {
-    color: red;
 }
 
 #beta-version {
@@ -301,6 +313,89 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     box-shadow: 0px 2px 4px 0px #cacfd3;
 }
 
+.mittig2 {
+    max-width: 560px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: transparent;
+    padding: 30px 0 0;  
+}
+
+.try-out-maps {
+    max-width: 560px;
+    width: 100%;
+    margin: 20px auto 30px; 
+
+    font-size: 18px;
+}
+
+.try-out-maps a {
+    color: #4bb2b3;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+#home .search-box #about-page {
+    padding-bottom: 0px;
+}
+
+.search-box {
+    /*background-image:
+        linear-gradient(rgba(44, 61, 81, 0), rgba(44, 61, 81, 1)), 
+        url(../img/start3.png);*/
+    /*background-image: url(../img/start-page2.png);*/
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
+        url(../img/start3.png);
+    background-color: white;
+    background-repeat: repeat; 
+    background-position: 100% 100%;
+    background-size: contain;
+}
+
+#newsletterdiv #mc_embed_signup div.mce_inline_error {
+    background-color: transparent !important;
+    color: #e55137 !important;
+}
+
+#newsletterdiv #mc_embed_signup_scroll .asterisk {
+    color: #e55137 !important;
+}
+
+
+.search-box {
+    padding: 190px 0px 100px;
+}
+
+.search-box .background2 .team p {
+    color: #2D3E52;
+}
+
+.search-box #about-page, .search-box #about-page .background2 {
+    background-color: transparent;
+}
+
+.search-box .background2 .team {
+    padding: 0px;
+}
+
+.search-box .background2 {
+    background-color: white;
+    max-width: 600px;
+    margin: 0px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.search-box .background2 .team p:first-child, .search-box .background2 .team p:last-child {
+    max-width: 560px;
+    text-align: left;
+}
+
+.search-box .background2 .team p:last-child {
+    display: none;
+}
+
 .background-lamp .mittig {
     width:50%;
     margin: 0px auto;
@@ -316,8 +411,8 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 .background1 {
-    background-color: white; /*#f7f7f7;*/
     background-image: url(../img/start-page1.png);
+    background-color: white; /*#f7f7f7;*/
     background-repeat: no-repeat; 
     background-position: 100% 100%;
     background-size: 100%;
@@ -327,6 +422,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 .background-lamp {
     background-color: white;
+    
     background-image: url(../img/pixellampe_test_50044.png);
     background-repeat: no-repeat; 
     background-size: 80%;
@@ -336,7 +432,10 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 .background-lamp.gif {
-    background-image: url(../img/lamp2.gif);
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0), rgba(75, 178, 179, 0.1)), 
+        url(../img/lamp2.gif);
+   background-size: contain;
 }
 
 .background-lamp.failgif {
@@ -947,14 +1046,12 @@ strong {
 
 /**/
 .library {
-    font-size: 16px;
-    margin: 20px 0px 10px 0px;
+    font-size: 18px;
+    margin: 0px;
     display: block;
 }
 
 .radio-inline {
-    font-size: 16px;
-    /*margin-left: 20px;*/
     font-weight: 100;
     vertical-align: top;
     display: block;
@@ -967,7 +1064,7 @@ strong {
 }
 
 input[type="radio"] {
-    margin: 8px 0 0;
+    margin: 4px 0 0;
 }
 
 .popover {
@@ -1090,7 +1187,7 @@ sup {
 .bs-example {
     padding: 100px 0px;
     max-width:1600px;
-    background: #51c9ae;
+    background: #4bb2b3; /*#51c9ae;*/
 }
 .bs-example img {
     width: 580px;
@@ -1216,7 +1313,6 @@ time {
 }
 
 #mc_embed_signup div.mce_inline_error {
-    /*color: #e55137 !important;*/
     font-weight:normal !important;
 }
 

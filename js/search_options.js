@@ -189,7 +189,7 @@ var options_doaj = {
     dropdowns: [
         {id: "year_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
-                {id: "any-time-years", text: "Any publication year"}
+                {id: "any-time-years", text: "Any year"}
                 , {id: "this-year", text: "This year"}
                 , {id: "last-year-years", text: "Last year"}
                 , {id: "user-defined", text: "Custom range", class: "user-defined",
@@ -231,21 +231,21 @@ var options_base = {
                 , {id: "111", text: "Book part", selected: false}
                 , {id: "13", text: "Conference object", selected: false}
                 , {id: "16", text: "Course material", selected: false}
-                , {id: "7", text: "Dataset", selected: false}                
-                , {id: "5", text: "Image/video", selected: false}                
+                , {id: "7", text: "Dataset", selected: false}
+                , {id: "5", text: "Image/video", selected: false}
                 , {id: "121", text: "Journal/newspaper article", selected: true}
                 , {id: "122", text: "Journal/newspaper other content", selected: false}
                 , {id: "17", text: "Lecture", selected: false}
                 , {id: "19", text: "Manuscript", selected: false}
                 , {id: "3", text: "Map", selected: false}
-                , {id: "2", text: "Musical notation", selected: false}   
-                , {id: "F", text: "Other/Unknown material", selected: false}                
+                , {id: "2", text: "Musical notation", selected: false}
+                , {id: "F", text: "Other/Unknown material", selected: false}
                 , {id: "1A", text: "Patent", selected: false}
                 , {id: "14", text: "Report", selected: false}
                 , {id: "15", text: "Review", selected: false}
-                , {id: "6", text: "Software", selected: false}                
+                , {id: "6", text: "Software", selected: false}
                 , {id: "51", text: "Still image", selected: false}
-                , {id: "1", text: "Text", selected: false}       
+                , {id: "1", text: "Text", selected: false}
                 , {id: "181", text: "Thesis: bachelor", selected: false}
                 , {id: "183", text: "Thesis: doctoral and postdoctoral", selected: false}
                 , {id: "182", text: "Thesis: master", selected: false}
@@ -271,8 +271,11 @@ var SearchOptions = {
                 .attr("class", "divity")
 
         div.append('a')
-                .attr("class", "frontend-btn pointer")
-                .text("Options")
+                .attr("class", "pointer refine-search")
+                .text("Refine your search ")
+                .append('span')
+                .attr("class", "awesome")
+                .text("")
 
         var filters = d3.select(tag).append('div')
                 .attr('id', 'filters')
@@ -332,7 +335,7 @@ var SearchOptions = {
                                     .append("label")
                                     .attr("for", input.id)
                                     .text(input.label)
-                                    .style("margin-left", "8px")
+                                    .style("margin-right", "8px")
 
                             d3.select("#input-container")
                                     .append("input")
@@ -409,21 +412,21 @@ var SearchOptions = {
     setDateRangeFromPreset: function (from, to, val, start_date) {
         var current_date = new Date();
         var current_year = current_date.getFullYear();
-        
+
         var start = new Date();
         var end = new Date();
         end.setHours(start.getHours() + (start.getTimezoneOffset() / 60) * -1);
-        
+
         switch (val) {
 
             case "user-defined":
                 self.user_defined_date = true;
                 d3.select("#input-container").style("display", "block");
                 break;
-            
-            //full date
+
+                //full date
             case "any-time":
-                if(typeof start_date === "undefined") {
+                if (typeof start_date === "undefined") {
                     start.setTime(0);
                 } else {
                     start.setTime(Date.parse(start_date))
@@ -440,10 +443,10 @@ var SearchOptions = {
                 start.setFullYear(end.getFullYear() - 1);
                 this.setDateFields(from, to, start, end);
                 break;
-            
-            //years only
+
+                //years only
             case "any-time-years":
-                if(typeof start_date === "undefined") {
+                if (typeof start_date === "undefined") {
                     $(from).val("1809");
                 } else {
                     $(from).val(start_date);
