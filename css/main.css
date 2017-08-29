@@ -179,9 +179,9 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     
-    border: 2px solid #4bb2b3;
+    border: 2px solid #51c9ae;
     color: white; 
-    background-color: #4bb2b3;
+    background-color: #51c9ae;
 }
 
 .newsletter2 {
@@ -1205,7 +1205,7 @@ sup {
 .bs-example {
     padding: 100px 0px;
     max-width:1600px;
-    background: #4bb2b3; /*#51c9ae;*/
+    background: #51c9ae; /*#4bb2b3;*/
 }
 .bs-example img {
     width: 580px;
