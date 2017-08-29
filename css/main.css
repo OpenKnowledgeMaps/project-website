@@ -170,7 +170,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 .newsletter {
-    border: 3px solid #e55137;
+    border: 2px solid #e55137;
     color:#e55137; 
     background-color: white;
     padding:5px;
@@ -178,13 +178,13 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
-    border: 3px solid #eee;
+    border: 2px solid #eee;
     color: #eee; 
     background-color: transparent;
 }
 
 .newsletter2 {
-    border: 3px solid #4bb2b3;
+    border: 2px solid #4bb2b3;
     border-radius: 5px;
     padding:5px;
     color: white; 
@@ -324,7 +324,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .try-out-maps {
     max-width: 560px;
     width: 100%;
-    margin: 20px auto 30px; 
+    margin: 20px auto; 
 
     font-size: 18px;
 }
@@ -383,8 +383,8 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: white;
     max-width: 600px;
     margin: 0px auto;
-    padding: 30px;
-    border-radius: 10px;
+    padding: 30px 50px;
+    border-radius: 5px;
 }
 
 .search-box .background2 .team p:first-child, .search-box .background2 .team p:last-child {
@@ -904,7 +904,7 @@ strong {
     max-width:600px;
     font-weight: 800;
     margin: 0px auto;
-    font-size: 46px;
+    font-size: 40px;
     text-align: center; 
 }
 
@@ -1153,7 +1153,7 @@ sup {
     margin: 10px 0px 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    border: 3px solid #e55137;
+    border: 2px solid #e55137;
     padding: 5px;
     vertical-align: middle;
     text-align:left;
@@ -1328,7 +1328,7 @@ time {
     border: 2px solid #2c3e52;
     color: #fff;
     background-color: #2c3e52;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 #imprint {
