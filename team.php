@@ -18,7 +18,7 @@
             <div class="background2 bg2">
                 <div class="team">
                     <p>Our Team</p>
-                    <p>of dedicated volunteers are building Open Knowledge Maps</p>
+                    <p>We are a non-profit organization run by a group of dedicated volunteers.</p>
                 </div>
             </div>
 
@@ -81,7 +81,7 @@
                             <li class="job-title">Frontend Architect</li>
                         </ul>
                     </div>
-                    
+
                     <div class="member">
                         <a target="_blank" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9"><img class="hoverlink" src="./img/team/fabian.png" alt="Fabian"></a>
                         <ul>
@@ -89,7 +89,7 @@
                             <li class="job-title">Communication</li>
                         </ul>
                     </div>
-                    
+
                     <div class="member">
                         <a target="_blank" href="http://www.michaelskaug.com/"><img class="hoverlink" src="./img/team/mike.png" alt="Mike"></a>
                         <ul>
@@ -170,20 +170,20 @@
                             <h3>Claudia Gar&aacute;d</h3>
                             <p class="advisor-desc">Executive Director <br>at Wikimedia Österreich</p>
                         </div>
-                        
+
                         <div class="advisor">
                             <a target="_blank" href="https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/birgit-schmidt/"><img class="hoverlink" src="./img/advisors/birgit.jpg" alt="Advisor OKM"></a>
                             <h3>Birgit Schmidt</h3>
                             <p class="advisor-desc">Scientific Manager/Project Coordinator <br>Göttingen State and University Library</p>
                         </div>
-                        
-                        
+
+
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKM"></a>
                             <h3>Daniel Mietchen</h3>
                             <p class="advisor-desc">Senior Researcher <br>University of Virginia</p>
                         </div>
-                        
+
                         <div class="advisor">
                             <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Advisor OKM"></a>
                             <h3>Michael E. Karpeles</h3>
@@ -266,7 +266,7 @@
                             <h3>Daniel Dörler</h3>
                             <p class="advisor-desc">PhD Student <br>BOKU Vienna</p>
                         </div> 
-                        
+
                         <div class="advisor">
                             <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Advisor OKM"></a>
                             <h3>Christian Kaier</h3>

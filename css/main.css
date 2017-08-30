@@ -88,7 +88,6 @@ header {
     -webkit-box-shadow: 0px 0px 4px 0px #cacfd3;
     -moz-box-shadow: 0px 0px 4px 0px #cacfd3;
     box-shadow: 0px 0px 4px 0px #cacfd3;
-    /*border-bottom: 4px solid #cacfd3;*/
     color: #2d3e52;
 }
 
@@ -178,21 +177,18 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
-    
     border: 2px solid #51c9ae;
     color: white; 
     background-color: #51c9ae;
 }
 
 .newsletter2 {
-    
     border-radius: 5px;
     padding:5px;
-    
     border: 2px solid #eee;
     color: #eee; 
     background-color: transparent;
-    font-weight:300;
+    font-weight: 300;
     text-decoration: none;
 }
 
@@ -218,10 +214,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     width:100%;
     margin: 0px auto;
 }
-
-/*#home #partnerdiv {
-    background-color: white;
-}*/
 
 #newsletterdiv p, #newsletterdiv h2, #partnerdiv h2 {
     color: #2d3e52;
@@ -254,8 +246,8 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     font-weight:100; 
     color: #cacfd3;
 }
-/*Header for Vis*/
 
+/*Header for Vis*/
 .searchheader {
     padding: 10px 0px 10px 50px;
 }
@@ -320,25 +312,20 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     max-width: 560px;
     width: 100%;
     margin: 0px auto;
-    /*background-color: transparent;
-    padding: 30px 0 0;*/ 
-
     background-color: white;
     padding: 30px 50px;
     border-radius: 5px;
-
 }
 
 .try-out-maps {
     max-width: 560px;
     width: 100%;
-    margin: 20px auto; 
-
+    margin: 20px auto;
     font-size: 18px;
 }
 
 .try-out-maps a {
-    color: #4bb2b3;
+    color: #51c9ae;
     text-decoration: underline;
     margin-left: 10px;
 }
@@ -348,10 +335,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .search-box {
-    /*background-image:
-        linear-gradient(rgba(44, 61, 81, 0), rgba(44, 61, 81, 1)), 
-        url(../img/start3.png);*/
-    /*background-image: url(../img/start-page2.png);*/
     background-image:
         linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
         url(../img/start3.png);
@@ -369,7 +352,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 #newsletterdiv #mc_embed_signup_scroll .asterisk {
     color: #e55137 !important;
 }
-
 
 .search-box {
     padding: 190px 0px 100px;
@@ -393,26 +375,15 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 
 .search-box .background2 {
     background-color: transparent;
-    /*max-width: 600px;*/
-    /*padding: 30px 50px;*/
     margin: 0px auto;
     border-radius: 5px;
     padding: 0px;
 }
 
-/*.search-box .background2 .team p:first-child, .search-box .background2 .team p:last-child {
-    max-width: 560px;
-    text-align: left;
-}*/
-
 .search-box .background2 .team p:first-child, .search-box .background2 .team p:last-child {
     color: white;
     text-align: center;
 }
-
-/*.search-box .background2 .team p:last-child {
-    display: none;
-}*/
 
 .background-lamp .mittig {
     width:50%;
@@ -486,7 +457,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     display: block;
     color: white;
     background-color: transparent;
-    font-size: 20px;
     line-height: 140%;
     padding: 0px 0px 20px;
 }
@@ -495,18 +465,11 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     color: white;
 }
 
-.nav_bottom .awesome {
-    font-size: 20px;
-}
-
 address {
-    margin-bottom: 20px;
     display: block;
     font-style: normal;
     line-height: 150%;
-    font-size: 20px;
     font-weight: 300;
-    width:400px;
     color: white;
 }
 
@@ -694,10 +657,6 @@ strong {
     text-align: center;
 }
 
-/*.updates #newsletterdiv {
-    background-color: white;
-}*/
-
 .vision {
     vertical-align: top; 
     display: inline-block; 
@@ -742,8 +701,6 @@ strong {
     vertical-align: baseline;
 }
 
-
-
 #mission strong {
     font-size: 20px;
     margin-top: 20px;
@@ -757,6 +714,10 @@ strong {
 .info {
     display:inline-block; 
     vertical-align:top;
+    margin-right: 40px;
+    max-width: 340px;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .partners {
@@ -786,7 +747,7 @@ strong {
 .licenseimg {
     display: block; 
     max-width:150px; 
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 /*ABOUT*/
@@ -981,8 +942,6 @@ strong {
     text-align: center;
     padding-bottom: 50px;
 }
-
-
 
 .bg1 .advisorsdiv {
     background-color: #eff3f4;
@@ -1865,7 +1824,7 @@ time {
         margin-right: 15px;
     }
 
-    address, .nav_bottom, .nav_bottom .awesome {
+    .info {
         font-size: 16px;
     }
 
