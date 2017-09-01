@@ -12,10 +12,11 @@
 
     <div class="info">
         <address><h3 style="margin-bottom: 10px;">Contact us</h3>
-
-            <a href="mailto:info@openknowledgemaps.org"><span class="awesome">&#xf003;</span> info@openknowledgemaps.org</a><br>
-            <a href="https://twitter.com/ok_maps" target="_blank"><span class="awesome">&#xf099;</span> twitter.com/OK_Maps</a><br>
-            <a href="https://github.com/OpenKnowledgeMaps" target="_blank"><span class="awesome">&#xf09b;</span> github.com/OpenKnowledgeMaps</a>                
+            <ul class="nav_bottom">
+                <li><a href="mailto:info@openknowledgemaps.org"><span class="awesome">&#xf003;</span> info@openknowledgemaps.org</a></li>
+                <li><a href="https://twitter.com/ok_maps" target="_blank"><span class="awesome">&#xf099;</span> twitter.com/OK_Maps</a></li>
+                <li><a href="https://github.com/OpenKnowledgeMaps" target="_blank"><span class="awesome">&#xf09b;</span> github.com/OpenKnowledgeMaps</a> </li>              
+            </ul>
         </address>
     </div>
 
@@ -31,7 +32,7 @@
 
     <div class="info">
         <h3 style="margin-bottom: 10px;">License</h3>
-                <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img class="licenseimg"src="./img/cc-by.png" alt="licensed under cc by"></a>
+        <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img class="licenseimg"src="./img/cc-by.png" alt="licensed under cc by"></a>
 
         Unless otherwise noted, all content on openknowledgemaps.org is licensed under a 
         <a class="licenselink" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.

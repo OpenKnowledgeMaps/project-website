@@ -108,6 +108,10 @@ header #logo a:hover {
     line-height: 80%;
     margin: 0px 0px 10px 50px !important;
     vertical-align: bottom;
+    position: absolute;
+    right: 50px;
+    top: 50%;
+
 }
 
 .imglogo {
@@ -128,7 +132,8 @@ header #logo a:hover {
 
 .description {
     display: inline-block;
-    vertical-align: bottom;
+    vertical-align: top;
+    margin-bottom: 0px;
 }
 
 .description li:first-child {
@@ -155,9 +160,15 @@ header #logo a:hover {
     vertical-align: bottom;
 }
 
+.nav_top li {
+    transition: all .9s ease-in;
+    border-bottom:1px solid transparent;
+}
+
 .nav_top a:hover, .nav_top a:active  {
-    color: #2d3e52;
-    text-decoration: underline;
+    border-bottom:1px solid black;
+    /*color: #2d3e52;
+    text-decoration: underline;*/
 }
 
 a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
@@ -496,7 +507,7 @@ address a:hover, address a:focus, address a:active, .nav_bottom a:hover, .nav_bo
     font-size: 16px;
     padding: 50px;
     color: white;
-    text-align: center;
+    /*text-align: center;*/
 }
 
 .anchor{
@@ -1132,7 +1143,7 @@ sup {
     display:none;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
+    font-size: 12px;
     margin: 10px 0px 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
@@ -1141,6 +1152,7 @@ sup {
     vertical-align: middle;
     text-align:left;
     color: #e55137;
+    border-radius: 5px;
 }
 
 .searchheader .icon-menu {
@@ -1512,10 +1524,6 @@ time {
         display: inline-block;
     }
 
-    .description {
-        vertical-align: middle;
-    }
-
     .searchheader .nav_top {
         display:none;
     }
@@ -1581,6 +1589,17 @@ time {
     .menu {
         display: block;
     }
+
+    .description li:last-child {
+        display:none;
+    }
+
+    .description {
+        display: inline-block;
+        margin-top: 0px;
+        vertical-align: middle;
+    }   
+
 
     .icon-menu {
         display: inline-block;
@@ -1853,16 +1872,6 @@ time {
 
     .getintouch {
         padding: 50px 20px;
-    }
-
-    .description li:last-child {
-        display:none;
-    }
-
-    .description {
-        display: inline-block;
-        margin-top: 10px;
-        vertical-align: middle;
     }
 
     .description li:first-child, h2, .searchheader .description li:first-child, .background-lamp .visualize {

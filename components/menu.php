@@ -20,7 +20,7 @@
 </div>
 
 <div class="icon-menu">
-    MENU
+    <span class="awesome">&#xf0c9;</span> MENU
 </div>
 <div class="imglogo"><a href="index"><img src="./img/logo-okmaps.png"></a></div>
 <ul class="description">
