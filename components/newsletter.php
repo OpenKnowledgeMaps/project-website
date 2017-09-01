@@ -47,6 +47,11 @@
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c399f89442d6aa733a9896515_3ff20c12f9" tabindex="-1" value=""></div>
                 <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="frontend-btn"></div>
             </div>
+
+            <p id="alternate-signup" style="display:none">To sign up, please 
+                <a href="http://eepurl.com/cjRDZL" target="_blank" class="underline">use this link</a>
+            </p>
+
         </form>
     </div>
     <script type='text/javascript' src='./lib/mc-validate.js'></script><script type='text/javascript'>(function ($) {
@@ -61,11 +66,10 @@
         }(jQuery));
         var $mcj = jQuery.noConflict(true);
         
-        $("#mc-embedded-subscribe-form").submit(function() {
-            $("mce-success-response")
-                    .css({"display": "block", "color": "black"})
-                    .html("Submitting...");
-        })
+        if(navigator.doNotTrack) {
+            $("#mc_embed_signup_scroll").css("display", "none");
+            $("#alternate-signup").css("display", "block");
+        }
         
     </script>
 
