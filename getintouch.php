@@ -54,13 +54,13 @@
                     </p>
                 </div>
 
-                <div class="faq">
+                <!--<div class="faq">
                     <p class="faquestion">
                         <span id="question-Q" class="awesome">&#xf27b;</span> Take part in our survey.
                     </p>
-                    <p>Beschreibung Survey plus Link einfügen.
+                    <p>
                     </p>
-                </div>
+                </div>-->
 
                 <div class="faq">
                     <p class="faquestion">

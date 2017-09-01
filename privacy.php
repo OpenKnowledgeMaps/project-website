@@ -26,7 +26,7 @@
                 <br><br>
                 <span class="bold">Opt-out</span>
                 <br>
-                <iframe style="border: 0; height: 200px; width: 600px;" src="https://openknowledgemaps.org/piwik_stats/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
+                <iframe style="border: 0; width: 600px; font-family: 'Open Sans';" src="https://openknowledgemaps.org/piwik_stats/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
             </p>
         </div>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

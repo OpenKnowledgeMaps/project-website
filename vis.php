@@ -4,20 +4,20 @@
     <head>
         <base href="<?php echo $SITE_URL ?>">
         <?php
-        $id = (isset($_GET['id']))?($_GET['id']):("zika");
-        
-        $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https:' : 'http:';
-        
+        $id = (isset($_GET['id'])) ? ($_GET['id']) : ("zika");
+
+        $protocol = stripos($_SERVER['SERVER_PROTOCOL'], 'https') === true ? 'https:' : 'http:';
+
         $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
         $context = json_decode($context_json);
 
-        $query =($context->query == null)?("zika"):($context->query);
+        $query = ($context->query == null) ? ("zika") : ($context->query);
 
         $credit = "";
 
         $service_name = "";
-        
-        $service = (substr($context->service, 0, 4) == "PLOS")?("plos"):($context->service);
+
+        $service = (substr($context->service, 0, 4) == "PLOS") ? ("plos") : ($context->service);
 
         if ($service == "plos") {
             $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
@@ -42,7 +42,7 @@
             $description = '<a href="http://base-search.net" target="_blank ">BASE</a> provides access to over 100 million documents from '
                     . 'more than 5,200 content sources in all disciplines.';
         }
-        
+
         $override_labels = array(
             "title" => "Overview of $service_name articles for $query - Open Knowledge Maps"
             , "app-name" => "Open Knowledge Maps"
@@ -74,14 +74,14 @@
             require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
             $detect = new Mobile_Detect;
             if ($detect->isMobile()):
-            ?>
+                ?>
 
-            <script>
-                //Enable overflow on mobile so you can pinch and zoom
-                $(document).ready(function () {
+                <script>
+                    //Enable overflow on mobile so you can pinch and zoom
+                    $(document).ready(function () {
                     $(".overflow-vis").css("overflow-y", "visible");
-                })
-            </script>
+                    })
+                </script>
 
                 <div class="alert alert-warning" id="mobile-warning">
 
@@ -90,22 +90,22 @@
                     Open Knowledge Maps isn't optimized for mobile usage yet. We are working on a better mobile experience; in the meantime, you may encounter some rough edges.
 
                 </div>
-            
+
             <?php else: ?>
-            
+
                 <div class="alert alert-warning" id="desktop-warning">
 
                     <a href="#" class="close" data-dismiss="alert">&times;</a>
 
-                    Welcome to the <span style="color:#e55137">beta</span> version of Open Knowledge Maps. For more information on this map, please 
-                    <a href="#info_modal" data-type="text" data-toggle="modal" class="underline">click here</a>.
+                    Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps. For more information on this map, please 
+                    <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">click here</a>.
 
                 </div>
-            
+
             <?php endif ?>
 
             <div class="overflow-vis">
-               <!-- AddToAny BEGIN -->
+                <!-- AddToAny BEGIN -->
                 <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
 
                     <div class="sharebutton"><a class="a2a_button_twitter"></a></div>
@@ -114,11 +114,11 @@
                 </div>
                 <script async src="https://static.addtoany.com/menu/page.js"></script>
                 <!-- AddToAny END -->
-                
+
                 <div id="visualization" style="background-color:white;"></div>
-                
+
             </div>
-            
+
             <script src="js/search_options.js"></script>  
             <script>
                 var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
@@ -128,11 +128,11 @@
                 data_config.intro = intro;
                 //data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
                 data_config.files = [{
-                    title: <?php echo json_encode($query) ?>,
-                    file: <?php echo json_encode($_GET['id']) ?>
+                title: <?php echo json_encode($query) ?>,
+                        file: <?php echo json_encode($_GET['id']) ?>
                 }]
-                
-                data_config.options = options_<?php echo $service ?>.dropdowns;
+
+                        data_config.options = options_<?php echo $service ?>.dropdowns;
             </script>
             <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
             <script type="text/javascript">
@@ -155,15 +155,16 @@
         include($COMPONENTS_PATH . 'footer.php');
         ?>
 
-<?php
-    function curl_get_contents($url) {
-      $ch = curl_init($url);
-      curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-      curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-      curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-      $data = curl_exec($ch);
-      curl_close($ch);
-      return $data;
-    }
-?>
+        <?php
+
+        function curl_get_contents($url) {
+            $ch = curl_init($url);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+            $data = curl_exec($ch);
+            curl_close($ch);
+            return $data;
+        }
+        ?>

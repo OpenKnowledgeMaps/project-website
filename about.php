@@ -7,13 +7,11 @@
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
-
     </head>
+    
     <body class="about-page">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
-
-
 
         <div id="about-page">
             <div class="background2">
@@ -25,16 +23,15 @@
                         explore and discover scientific knowledge will benefit us all. </p>
                 </div>
             </div>
-
         </div>
 
         <?php include($COMPONENTS_PATH . "benefits.php") ?>
         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
-        <?php include($COMPONENTS_PATH . "moreinfo.php") ?>
         <?php
         $TIMELINE_ID = "733358003295035393";
         $FEEBDACK_TITLE = "What our users say";
         include($COMPONENTS_PATH . 'twitterstream.php');
         ?>
+        <?php include($COMPONENTS_PATH . "moreinfo.php") ?>
         <?php include($COMPONENTS_PATH . "newsletter.php") ?>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

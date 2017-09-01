@@ -13,8 +13,9 @@
 
         <li><a href="team#team">Team</a></li>
         <li><a href="news">News</a></li>
+        <li><a href="faq">FAQ</a></li>
         <li><a href="getintouch">Get in touch</a></li>
-        <li><a href="index#newsletter"><i style="color: #E55137;" class="fa fa-heart" aria-hidden="true"></i> Support us</a></li>
+        <li><a href="index#supportus"><i style="color: #E55137;" class="fa fa-heart" aria-hidden="true"></i> Support us</a></li>
     </ul>
 </div>
 
@@ -35,7 +36,7 @@
     <li><a href="news">News</a></li>
     <li><a href="faq">FAQ</a></li>
     <li><a href="getintouch">Get in touch</a></li>
-    <li><a class="newsletter" href="index#newsletter"><i class="fa fa-heart" aria-hidden="true"></i> 
+    <li><a class="newsletter" href="index#supportus"><i class="fa fa-heart" aria-hidden="true"></i> 
             Support us</a></li>
 </ul>
 

@@ -17,7 +17,7 @@ body {
     -webkit-font-smoothing: subpixel-antialiased;
     clear:both;
     position: relative;
-    top:0px;
+    top: 0px;
     /*     -ms-word-break: break-all;*/
     word-break: break-word;
     word-wrap: break-word; 
@@ -199,8 +199,11 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 #newsletterdiv, .supportus, .infohow {
-    /*background-color: #eff3f4;*/
     border-top: 1px solid #cacfd3; 
+}
+
+.about-page #newsletterdiv  {
+    border-top: 0px solid #cacfd3;
 }
 
 .updates #newsletterdiv {
@@ -338,9 +341,9 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
         url(../img/start3.png);
-    background-color: white;
-    background-repeat: repeat; 
-    background-position: 100% 100%;
+    background-color: #51c9ae;
+    background-repeat: no-repeat; 
+    background-position: 100% 70%;
     background-size: contain;
 }
 
@@ -370,13 +373,12 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .search-box .background2 .team {
-    padding: 0px;
+    padding: 0px 20px;
 }
 
 .search-box .background2 {
     background-color: transparent;
     margin: 0px auto;
-    border-radius: 5px;
     padding: 0px;
 }
 
@@ -458,7 +460,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     color: white;
     background-color: transparent;
     line-height: 140%;
-    padding: 0px 0px 20px;
+    padding: 0px 0px 0px;
 }
 
 .nav_bottom a {
@@ -471,6 +473,7 @@ address {
     line-height: 150%;
     font-weight: 300;
     color: white;
+    margin-bottom: 0px;
 }
 
 .radio-inline input[type=radio] {
@@ -847,9 +850,10 @@ strong {
 
 /*FAQ*/
 .faq {
-    max-width:60%; 
+    max-width: 750px; 
     margin:0px auto 30px;
     font-size: 18px;
+    padding: 0px 20px;
 }
 
 .faquestion {
@@ -1211,7 +1215,6 @@ sup {
     max-width: 160px;
     width: 100%;
     text-align: center;
-
 }
 
 /*NEWS*/
@@ -1234,7 +1237,6 @@ sup {
     position: relative;
 }
 
-
 .trennung {
     position: absolute;
     left: 0;
@@ -1250,7 +1252,6 @@ time {
 
 .abstract {
     font-size: 20px; 
-    /*font-weight: 400;*/
 }
 
 .newsitem-text {
@@ -1435,12 +1436,10 @@ time {
     max-width: 1000px;
     margin: 0px auto;
     width:100%;
-
     text-align: left;
     /*color:#2d3e52;*/
     font-size: 18px;
     background-color: white;
-
 }
 
 /*MEDIA BREAK POINTS*/
@@ -1471,7 +1470,7 @@ time {
 
 @media screen and (max-width: 1230px) {
 
-    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig {
+    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig, .mittig2 {
         width: 70%;
     }
 }
@@ -1606,8 +1605,6 @@ time {
         padding-right: 50px;
     }
 
-
-
     .missionstatement {
         padding: 100px 0px;
         background-position: 0% 0%;
@@ -1686,7 +1683,7 @@ time {
         margin: 0px 0px 0px 50px !important;
     }
 
-    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig {
+    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig, .mittig2 {
         width:80%;
     }
     .number {
@@ -1767,10 +1764,6 @@ time {
     #beta {
         display: inline;
     }
-
-    .faq {
-        max-width:80%; 
-    }
 }
 
 @media screen and (max-width: 640px) {
@@ -1790,6 +1783,10 @@ time {
         box-shadow: 0px 0px 0px 0px #cacfd3;
         margin: 0px auto;
         padding: 50px 0px 0px;
+    }
+
+    .mittig2 {
+        padding: 20px 30px;
     }
 
     .background-lamp {
@@ -1891,9 +1888,24 @@ time {
     .visualize {
         font-size: 18px;
     }
+
+    .supportus .howitworks-div {
+        padding: 0px 20px 20px;
+    }
+
+    .howitworks-point {
+        width: 100%;
+        display: block;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 535px) {
+
+    .search-box {
+        padding: 100px 0px 50px;
+    }
+
 
     .about-page .background-lamp .mittig {
         padding: 30px 20px 80px;
@@ -1952,7 +1964,7 @@ time {
     }
 
     .partners img {
-        height:50px;
+        height:30px;
     }
 
     .missionstatement p {
@@ -2042,15 +2054,15 @@ time {
 
 @media screen and (max-width: 470px) {
 
-    .faquestion {
-        font-size: 14px;
+    .info {
+        margin-right: 0px;
     }
 
     #question-Q {
         font-size: 20px;
     }
 
-    .radio-inline {
+    .radio-inline, .try-out-maps, .faquestion {
         font-size: 14px;
     }
 
@@ -2161,6 +2173,11 @@ time {
     .source-info {
         display: none;
     }
+
+    .search-box {
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -2169,4 +2186,9 @@ time {
         padding: 20px;
         width: 100%;
     }
+
+    .mittig2 {
+        padding: 10px 20px;
+    }
+
 }
