@@ -161,12 +161,12 @@ header #logo a:hover {
 }
 
 .nav_top li {
-    transition: all .9s ease-in;
-    border-bottom:1px solid transparent;
+    transition: all .5s ease-in-out;
+    border-bottom: 2px solid transparent;
 }
 
 .nav_top a:hover, .nav_top a:active  {
-    border-bottom:1px solid black;
+    border-bottom: 2px solid #2d3e52;
     /*color: #2d3e52;
     text-decoration: underline;*/
 }

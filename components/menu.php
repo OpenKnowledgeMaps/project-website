@@ -15,7 +15,7 @@
         <li><a href="news">News</a></li>
         <li><a href="faq">FAQ</a></li>
         <li><a href="getintouch">Get in touch</a></li>
-        <li><a href="index#supportus"><i style="color: #E55137;" class="fa fa-heart" aria-hidden="true"></i> Support us</a></li>
+        <li><a href="index#supportus" style="color: #E55137;"><i class="fa fa-heart" aria-hidden="true"></i> Support us</a></li>
     </ul>
 </div>
 
