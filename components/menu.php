@@ -7,8 +7,8 @@
 
     <!-- Mobile Menu -->
     <ul>
-        <li><a href="index#search">Search</a></li>
-        <li><a href="about">About</a></li>
+        <a href="index#search"><li>Search</li></a>
+        <a href="about"><li>About</li></a>
         <!--<li><a href="index#discover">Discover Maps</a></li>-->
 
         <li><a href="team#team">Team</a></li>
