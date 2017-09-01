@@ -1206,14 +1206,19 @@ sup {
 
 .carousel-control.left, .carousel-control.right {
     background:none;
+    height: 200px;
 }
 
-.glyphicon-chevron-right::before {
+/*.glyphicon-chevron-right::before {
     content: url(../img/right.png);
 }
 
 .glyphicon-chevron-left::before {
     content: url(../img/left.png);
+}*/
+
+.glyphicon-chevron-right::before, .glyphicon-chevron-left::before {
+    font-size: 60px;
 }
 
 #feedback {
