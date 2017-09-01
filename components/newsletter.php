@@ -59,7 +59,15 @@
             fnames[2] = 'LNAME';
             ftypes[2] = 'text';
         }(jQuery));
-        var $mcj = jQuery.noConflict(true);</script>
+        var $mcj = jQuery.noConflict(true);
+        
+        $("#mc-embedded-subscribe-form").submit(function() {
+            $("mce-success-response")
+                    .css({"display": "block", "color": "black"})
+                    .html("Submitting...");
+        })
+        
+    </script>
 
     <!--End mc_embed_signup-->
 
