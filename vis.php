@@ -6,7 +6,7 @@
         <?php
         $id = (isset($_GET['id'])) ? ($_GET['id']) : ("zika");
 
-        $protocol = stripos($_SERVER['SERVER_PROTOCOL'], 'https') === true ? 'https:' : 'http:';
+        $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
 
         $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
         $context = json_decode($context_json);
@@ -50,8 +50,8 @@
             , "description" => "Get an overview - Find papers - Identify relevant concepts"
             , "url" => "https://openknowledgemaps.org"
             , "twitter-type" => "summary_large_image"
-            , "twitter-image" => "$SNAPSHOT_PATH$id.png"
-            , "fb-image" => "$SNAPSHOT_PATH$id.png"
+            , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
+            , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
         );
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');

@@ -57,8 +57,8 @@
 
 <meta name="twitter:card" content="<?php echo getLabel("twitter-type") ?>" />
 <meta name="twitter:site" content="@OK_Maps" />
-<meta name="twitter:title" content="<?php echo getLabel("tweet-text") ?>" />
-<meta name="twitter:description" content="<?php echo getLabel("tweet-text") ?>" />
+<meta name="twitter:title" content="<?php echo getLabel("title") ?>" />
+<meta name="twitter:description" content="<?php echo getLabel("description") ?>" />
 <meta name="twitter:image" content="<?php echo getLabel("twitter-image") ?>" />
 
 <!-- OPEN GRAPH OG -->
