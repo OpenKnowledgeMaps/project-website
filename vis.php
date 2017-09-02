@@ -172,7 +172,7 @@
         }
         ?>
         <script type="text/javascript">
-            $.fn.followTo = function (pos, top_pos, left_pos) {
+            $.fn.followTo = function (pos, top_pos, left_pos, left_offset) {
                 var $this = this,
                     $window = $(window);
 
@@ -181,17 +181,25 @@
                         $this.css({
                             position: 'absolute',
                             top: pos,
-                            left: left_pos
+                            left: left_offset
                         });
                     } else {
                         $this.css({
                             position: 'fixed',
                             top: top_pos,
-                            left: left_pos
+                            left: left_pos + left_offset
                         });
                     }
                 });
             };
-
-            $(".a2a_kit").followTo(div_height, $(".a2a_kit").position().top, $("#visualization").position().left + 10);
+            
+             $(window).resize(function(){
+                 var absolute_left = $("#visualization").offset().left;
+                 var offset = 10;
+                 $(".a2a_kit").css("left",  absolute_left + offset)
+                 $(".a2a_kit").followTo(div_height, $(".a2a_kit").position().top, absolute_left, offset);
+             });
+             
+             $(window).trigger("resize");
+            
         </script>
