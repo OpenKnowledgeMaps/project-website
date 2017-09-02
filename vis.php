@@ -79,15 +79,17 @@
                 <script>
                     //Enable overflow on mobile so you can pinch and zoom
                     $(document).ready(function () {
-                    $(".overflow-vis").css("overflow-y", "visible");
+                        $(".overflow-vis").css("overflow-y", "visible");
                     })
                 </script>
 
-                <div class="alert alert-warning" id="mobile-warning">
+                <div class="alert alert-warning" id="desktop-warning">
 
                     <a href="#" class="close" data-dismiss="alert">&times;</a>
 
-                    Open Knowledge Maps isn't optimized for mobile usage yet. We are working on a better mobile experience; in the meantime, you may encounter some rough edges.
+                    Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps.
+                    <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">More info on this map</a>. 
+                    Note: the map isn't optimized for mobile yet, you may encounter some rough edges.
 
                 </div>
 
