@@ -135,6 +135,7 @@
                 }]
 
                         data_config.options = options_<?php echo $service ?>.dropdowns;
+                                    
             </script>
             <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
             <script type="text/javascript">
@@ -170,3 +171,27 @@
             return $data;
         }
         ?>
+        <script type="text/javascript">
+            $.fn.followTo = function (pos, top_pos, left_pos) {
+                var $this = this,
+                    $window = $(window);
+
+                $window.scroll(function (e) {
+                    if ($window.scrollTop() > pos - top_pos) {
+                        $this.css({
+                            position: 'absolute',
+                            top: pos,
+                            left: left_pos
+                        });
+                    } else {
+                        $this.css({
+                            position: 'fixed',
+                            top: top_pos,
+                            left: left_pos
+                        });
+                    }
+                });
+            };
+
+            $(".a2a_kit").followTo(div_height, $(".a2a_kit").position().top, $("#visualization").position().left + 10);
+        </script>
