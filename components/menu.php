@@ -11,11 +11,11 @@
         <a href="about"><li>About</li></a>
         <!--<li><a href="index#discover">Discover Maps</a></li>-->
 
-        <li><a href="team#team">Team</a></li>
-        <li><a href="news">News</a></li>
-        <li><a href="faq">FAQ</a></li>
-        <li><a href="getintouch">Get in touch</a></li>
-        <li><a href="index#supportus" style="color: #E55137;"><i class="fa fa-heart" aria-hidden="true"></i> Support us</a></li>
+        <a href="team#team"><li>Team</li></a>
+        <a href="news"><li>News</li></a>
+        <a href="faq"><li>FAQ</li></a>
+        <a href="getintouch"><li>Get in touch</li></a>
+        <a href="index#supportus" style="color: #E55137;"><li><i class="fa fa-heart" aria-hidden="true"></i> Support us</li></a>
     </ul>
 </div>
 
