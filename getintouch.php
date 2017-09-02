@@ -27,29 +27,29 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span class="awesome" id="question-Q">&#xf003;</span> Let us know what you think.
+                        <span class="awesome" id="question-Q">&#xf003;</span> Let us know what you think
                     </p>
                     <p>
-                        In order to improve our Open Knowledge Maps, we need your feedback. If you find issues or have ideas regarding new features, that could improve your experience: write us an E-Mail.<br>
+                        In order to improve Open Knowledge Maps, we need your feedback. Send us an e-mail with features you would like to see and ideas on how we can improve your literature search.<br>
                         <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf099;</span> Follow us on Twitter.
+                        <span id="question-Q" class="awesome">&#xf099;</span> Follow us on Twitter
                     </p>
-                    <p>If you like the project, please spread the word as far as you can.<br>
+                    <p>Get real-time updates, ask questions and send feedback.<br>
                         <a href="https://twitter.com/ok_maps" target="_blank">twitter.com/OK_Maps</a>
                     </p>
                 </div>
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf09b;</span> Fork us on Github.
+                        <span id="question-Q" class="awesome">&#xf09b;</span> Fork us on Github
                     </p>
                     <p>
-                        You can post issues or find out more about our open source software Headstart.<br>
+                        Check out our open source software and report issues & ideas for improvement.<br>
                         <a href="https://github.com/OpenKnowledgeMaps" target="_blank">github.com/OpenKnowledgeMaps</a>
                     </p>
                 </div>
@@ -64,17 +64,28 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf155;</span> Fund our project.
+                        <span id="question-Q" class="awesome">&#xf2b5;</span> Collaborate with us
                     </p>
                     <p>
-                        We are a non-profit organization currently looking for funding and joint projects. Drop us a line if you are interested in changing the way we discover research!<br>
+                        If you have a collection that you would like to visualize with Open Knowledge Maps, contact us to set up a joint project.<br>
+                        <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
+                    </p>
+                </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q" class="awesome">&#xf155;</span> Fund our project
+                    </p>
+                    <p>
+                        We are a non-profit organization currently looking for funding. 
+                        Drop us a line if you are interested in changing the way we discover research!<br>
                         <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf005;</span> Become part of the Open Knowledge Maps team.
+                        <span id="question-Q" class="awesome">&#xf005;</span> Become a volunteer
                     </p>
                     <p>
                         We are also looking for open source programmers. If you know your way around PHP, R, 

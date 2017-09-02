@@ -79,7 +79,7 @@
                         If you come across a map that needs improvement, we'd love to hear from you at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
-
+                
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q5</span> How did Open Knowledge Maps come about?
@@ -94,7 +94,18 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q6</span> How is Open Knowledge Maps funded?
+                        <span id="question-Q">Q6</span> Can Open Knowledge Maps connect to my data source?
+                    </p>
+                    <p>
+                        Absolutely! Open Knowledge Maps is based on the open source software 
+                        <a href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a>, which is able to create knowledge maps from a wide variety of data, including text, metadata and references. 
+                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out <a href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started, or contact us on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> for a joint project.
+                    </p>
+                </div>
+
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q7</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
                         We are a non-profit organization run by a group of dedicated volunteers. 
@@ -106,7 +117,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q7</span> How can I contribute?
+                        <span id="question-Q">Q8</span> How can I contribute?
                     </p>
                     <p>
                         You can contribute in a number of ways: 
@@ -122,7 +133,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q8</span> Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q9</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         No doubt! Just drop us a line on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>

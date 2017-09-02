@@ -44,7 +44,7 @@
         }
 
         $override_labels = array(
-            "title" => "Overview of $service_name articles for $query - Open Knowledge Maps"
+            "title" => "Check out this visual overview of $query by @OK_Maps!"
             , "app-name" => "Open Knowledge Maps"
             , "description" => ""
             , "url" => "https://openknowledgemaps.org"
