@@ -1197,6 +1197,15 @@ sup {
     width: 580px;
 }
 
+.carousel .carousel-inner.static .item img {
+    height: auto;
+    width: auto;
+}
+
+.carousel-inner.static .bs-example img {
+    width: auto;
+}
+
 .item {
     padding: 0px 20px;
 }

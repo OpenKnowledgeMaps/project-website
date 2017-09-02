@@ -39,15 +39,17 @@
                             + "&hide_media=true";
 
                     $.getJSON(url, function (data) {
-
+                                                
                         var div = $('<div class="item' + ((index === 0) ? ' active' : '') + '"></div>'),
-                                divInner = $('<div class="carousel-content"></div>');
+                        divInner = $('<div class="carousel-content"></div>');
                         div.append(divInner.html(data.html));
                         
                         container.append(div);
                     });
                 };
-
+        
+        container.html("");
+        
         for (i = 0; i < tweets.length; i++) {
             createItem(tweets[i], i);
         }
@@ -86,6 +88,32 @@
         $('#myCarousel').carousel({
             interval: false
         });
+        
+        var container = $(".carousel-inner"),
+        status = 200,
+        index = 1,
+        url = "./img/comments/";
+        
+        container.addClass("static");
+        
+        while(status !== 404) {
+            var http = new XMLHttpRequest(),
+            fileurl = url + "comment-" + index + ".png";
+            http.open('HEAD', fileurl, false);
+            http.send();
+            status = http.status;
+            if (status !== 404) {
+                var div = $('<div class="item' + ((index === 1) ? ' active' : '') + '"></div>'),
+                divInner = $('<div class="carousel-content"></div>');
+                div.append(divInner.html('<img src="' + fileurl + '" width=464>'));
+                
+                container.append(div);
+            }
+            
+            index++;
+        }
+
+        $('.carousel-num').html('<span class="slideNr">1</span>/' + index);
 
         var current = 1;
 
