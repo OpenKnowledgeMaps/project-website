@@ -19,7 +19,7 @@
             <div class="background2">
                 <div class="team">
                     <p>Get in Touch</p>
-                    <p>We are a non-profit organization and we would love to hear from you!</p>
+                    <p>We would love to hear from you! We are a non-profit organization run by a team of friendly volunteers.</p>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@
                         <span class="awesome" id="question-Q">&#xf003;</span> Let us know what you think.
                     </p>
                     <p>
-                        In order to improve our free service for you, we need your feedback. If you find issues or have ideas regarding new features, that could improve your experience: write us an E-Mail.<br>
+                        In order to improve our Open Knowledge Maps, we need your feedback. If you find issues or have ideas regarding new features, that could improve your experience: write us an E-Mail.<br>
                         <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
@@ -67,7 +67,7 @@
                         <span id="question-Q" class="awesome">&#xf155;</span> Fund our project.
                     </p>
                     <p>
-                        We are a non-profit organization currently looking for funding and joint projects. Drop us a line if you are interested!<br>
+                        We are a non-profit organization currently looking for funding and joint projects. Drop us a line if you are interested in changing the way we discover research!<br>
                         <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
@@ -78,7 +78,7 @@
                     </p>
                     <p>
                         We are also looking for open source programmers. If you know your way around PHP, R, 
-                        or JavaScript and would be able to spare a few hours a week to work with a team of friendly people, 
+                        or JavaScript and would be able to spare a few hours a week to work with a team of friendly volunteers, 
                         let us know via<br>
                         <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>

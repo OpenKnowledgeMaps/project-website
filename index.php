@@ -38,7 +38,7 @@
         include($COMPONENTS_PATH . 'twitterstream.php')
         ?>
 
-        <span class="anchor" id="supportus"></span>
+        
 
         <?php include($COMPONENTS_PATH . 'supportus.php') ?>
         <?php include($COMPONENTS_PATH . 'newsletter.php') ?>
