@@ -108,7 +108,7 @@
 
             <div class="overflow-vis">
                 <!-- AddToAny BEGIN -->
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+                <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2e_vis">
 
                     <div class="sharebutton"><a class="a2a_button_twitter"></a></div>
                     <div class="sharebutton"><a class="a2a_button_facebook"></a></div>
@@ -193,5 +193,5 @@
                 });
             };
 
-            $(".a2a_kit").followTo(div_height, $(".a2a_kit").position().top, $("#visualization").position().left + 10);
+            $(".a2e_vis").followTo(div_height, $(".a2e_vis").position().top, $("#visualization").position().left + 10);
         </script>
