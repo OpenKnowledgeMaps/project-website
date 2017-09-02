@@ -688,7 +688,7 @@ strong {
     margin-right: 0px; 
     padding: 2%;
     margin: 1%;
-    min-height: 350px;
+    /*min-height: 350px;*/
     border-bottom: 4px solid transparent;
     background-color:white;
 }
