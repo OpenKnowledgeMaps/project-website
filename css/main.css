@@ -1503,6 +1503,12 @@ time {
     }
 }
 
+@media screen and (max-width: 1120px) {
+    .nav_top li {
+        margin-right: 10px;
+    }
+}
+
 @media screen and (max-width: 1230px) {
 
     .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig, .mittig2 {
@@ -1510,11 +1516,9 @@ time {
     }
 }
 
-@media screen and (max-width: 1060px) {
 
-    .nav_top li {
-        margin-right: 10px;
-    }
+
+@media screen and (max-width: 1060px) {
 
     .more-info-icon {
         font-size: 40px;
