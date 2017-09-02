@@ -3,7 +3,12 @@
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
         <base href="<?php echo $SITE_URL ?>">
-        <?php $title = "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"; ?>
+        <?php 
+        $override_labels = array(
+            "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
+            , "description" => "Get an overview - Find papers - Identify relevant concepts"
+        );
+        ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>

@@ -2,9 +2,9 @@
     $default_labels = array(
         "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
         , "app-name" => "Open Knowledge Maps"
-        , "description" => "We are building a visual interface that dramatically increases the visibility of research findings for science and society alike."
+        , "description" => "Our Goal is to revolutionize discovery of scientific knowledge. We are building a visual interface that dramatically increases the visibility of research findings for science and society alike. We are a non-profit organization and we believe that a better way to explore and discover scientific knowledge will benefit us all."
         , "tweet-text" => "Check out Open Knowledge Maps"
-        , "url" => "https://openknowledgemaps.org"
+        , "url" => $_SERVER['REQUEST_URI']
         , "twitter-type" => "summary"
         , "twitter-image" => "https://openknowledgemaps.org/img/card.png"
         , "fb-image" => "https://openknowledgemaps.org/img/cardfb.png"

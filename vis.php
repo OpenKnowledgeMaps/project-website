@@ -47,7 +47,7 @@
             "tweet-text" => "Check out this visual overview of research on $query by @OK_Maps!"
             , "title" => "Overview of research on $query - Open Knowledge Maps"
             , "app-name" => "Open Knowledge Maps"
-            , "description" => ""
+            , "description" => "Get an overview - Find papers - Identify relevant concepts"
             , "url" => "https://openknowledgemaps.org"
             , "twitter-type" => "summary_large_image"
             , "twitter-image" => "$SNAPSHOT_PATH$id.png"
