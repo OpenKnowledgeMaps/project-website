@@ -3,6 +3,7 @@
         "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
         , "app-name" => "Open Knowledge Maps"
         , "description" => "We are building a visual interface that dramatically increases the visibility of research findings for science and society alike."
+        , "tweet-text" => "Check out Open Knowledge Maps"
         , "url" => "https://openknowledgemaps.org"
         , "twitter-type" => "summary"
         , "twitter-image" => "https://openknowledgemaps.org/img/card.png"
@@ -56,12 +57,12 @@
 
 <meta name="twitter:card" content="<?php echo getLabel("twitter-type") ?>" />
 <meta name="twitter:site" content="@OK_Maps" />
-<meta name="twitter:title" content="<?php echo getLabel("title") ?>" />
-<meta name="twitter:description" content="<?php echo getLabel("description") ?>" />
+<meta name="twitter:title" content="<?php echo getLabel("tweet-text") ?>" />
+<meta name="twitter:description" content="<?php echo getLabel("tweet-text") ?>" />
 <meta name="twitter:image" content="<?php echo getLabel("twitter-image") ?>" />
 
 <!-- OPEN GRAPH OG -->
-<meta property="og:description" content="<?php echo getLabel("description") ?> For more updates follow us on http://twitter.com/OK_Maps"/>
+<meta property="og:description" content="<?php echo getLabel("description") ?>"/>
 <meta property="og:url" content="<?php echo getLabel("url") ?>"/>
 <meta property="og:image" content="<?php echo getLabel("fb-image") ?>"/>
 <meta property="og:type" content="website"/>
