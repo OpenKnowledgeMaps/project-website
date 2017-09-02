@@ -284,6 +284,10 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     font-size: 20px;
 }
 
+.topheader {
+    padding-top:88px;
+}
+
 .hoverlink:hover {
     opacity:0.3;
 }
@@ -429,8 +433,12 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-repeat: no-repeat; 
     background-size: 80%;
     text-align: center;
-    padding: 120px 0px 100px;
+    padding: 50px 0px;
     background-position: 50%;
+}
+
+.failgif {
+    padding: 90px 0px 50px;
 }
 
 .background-lamp.gif {
@@ -918,7 +926,7 @@ strong {
 .member {
     display: inline-block;
     width: 20%;
-    max-width: 200px;
+    max-width: 150px;
     margin:20px;
     vertical-align: top;
     background-image:url(../img/link.png); 
@@ -937,13 +945,14 @@ strong {
 
 #members {
     width:100%;
+    max-width: 1200px;
     margin:0px auto;
     text-align: center;
 }
 
 .name {
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
     color: #2d3e52;
 }
 
@@ -971,7 +980,7 @@ strong {
     margin: 3px;
     background-image:url(../img/link.png); 
     background-repeat:no-repeat;
-    width: 23%;
+    width: 17%;
     background-size: 100%;
     /*min-height: 405px;*/
     text-align: left;
@@ -1313,7 +1322,7 @@ time {
     font-weight:normal !important;
 }
 
-.underline {
+.underline, .underline:focus {
     text-decoration: underline;
 }
 
@@ -1442,7 +1451,7 @@ time {
     background-color: #f1c500;
     border-color: #f1c500;
     color: black;
-    min-width: 360px;
+    /*min-width: 360px;*/
 }
 
 .wtp {
@@ -1545,12 +1554,12 @@ time {
         display:none;
     }
     .searchheader .description li:first-child {
-        font-size: 16px;
+        font-size: 14px;
         padding: 5px;
 
     }
     .searchheader .description {
-        margin-top: 10px;
+        margin-top: 0px;
     }
 
     .searchheader {
@@ -1560,6 +1569,19 @@ time {
 }
 
 @media screen and (max-width: 960px) {
+
+    .background-lamp {
+        padding: 50px 0px;
+    }
+
+    .about-page .background-lamp .mittig {
+        padding: 50px 0 100px;
+    }
+
+    .search-waiting-page header {
+        padding: 10px 0;
+        text-align: center;
+    }
 
     .description {
         padding: 0px 10px 0px 10px;
@@ -1593,6 +1615,10 @@ time {
 
     .menu {
         display: block;
+    }
+
+    .topheader {
+        padding-top:75px;
     }
 
     .description li:last-child {
@@ -1713,6 +1739,11 @@ time {
     .number {
         font-size:40px; 
     }
+
+    #whatsthis-page .icon-description {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -1813,6 +1844,10 @@ time {
         padding: 20px 30px;
     }
 
+    #desktop-warning {
+        padding-left: 20px;
+    }
+
     .background-lamp {
         padding: 50px;
         background-size: 100%;
@@ -1879,8 +1914,16 @@ time {
         padding: 50px 20px;
     }
 
-    .description li:first-child, h2, .searchheader .description li:first-child, .background-lamp .visualize {
+    h2 {
         font-size: 16px;
+    }
+
+    .description li:first-child {
+        font-size: 14px;
+    } 
+
+    .background-lamp .visualize {
+        font-size: 12px;
     }
 
     .howitworks-point {
@@ -1915,6 +1958,14 @@ time {
 }
 
 @media screen and (max-width: 535px) {
+
+    .wtp {
+        font-size: 14px;
+    }
+
+    .topheader {
+        padding-top: 50px;
+    }
 
     .search-box {
         padding: 100px 0px 50px;
@@ -2061,7 +2112,7 @@ time {
     }
 
     .background-lamp {
-        padding-top: 70px;
+        padding-top: 45px;
     }
 
 }
