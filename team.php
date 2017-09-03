@@ -189,6 +189,12 @@
                             <h3>Michael E. Karpeles</h3>
                             <p class="advisor-desc">Citizen of the world <br>Internet Archive</p>
                         </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKM"></a>
+                            <h3>Elisabeth Lex</h3>
+                            <p class="advisor-desc">Assistant Professor <br>Graz University of Technology</p>
+                        </div>
 
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/Lambo"><img class="hoverlink" src="./img/advisors/lambert.jpg" alt="Advisor OKM"></a>
@@ -200,11 +206,11 @@
                             <h3>Michela Vignoli</h3>
                             <p class="advisor-desc">Junior Scientist <br>Austrian Institute of Technology (AIT)</p>
                         </div>
-
+                        
                         <div class="advisor">
-                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKM"></a>
-                            <h3>Elisabeth Lex</h3>
-                            <p class="advisor-desc">Assistant Professor <br>Graz University of Technology</p>
+                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
+                            <h3>Christian Schlögl</h3>
+                            <p class="advisor-desc">Associate Professor <br>University of Graz</p>
                         </div>
 
                         <div class="advisor">
@@ -247,12 +253,6 @@
                             <a target="_blank" href="https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&ansicht_in=&menue_id_in=101&id_in=113247"><img class="hoverlink" src="./img/advisors/florian.jpg" alt="Advisor OKM"></a>
                             <h3>Florian Heigl</h3>
                             <p class="advisor-desc">PhD Student <br>BOKU Vienna</p>
-                        </div>
-
-                        <div class="advisor">
-                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
-                            <h3>Christian Schlögl</h3>
-                            <p class="advisor-desc">Associate Professor <br>University of Graz</p>
                         </div> 
 
                         <div class="advisor">
