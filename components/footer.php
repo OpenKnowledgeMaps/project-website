@@ -15,6 +15,7 @@
             <ul class="nav_bottom">
                 <li><a href="mailto:info@openknowledgemaps.org"><span class="awesome">&#xf003;</span> info@openknowledgemaps.org</a></li>
                 <li><a href="https://twitter.com/ok_maps" target="_blank"><span class="awesome">&#xf099;</span> twitter.com/OK_Maps</a></li>
+                <li><a href="https://facebook.com/OKMaps" target="_blank"><span class="awesome">&#xf09a;</span> facebook.com/OKMaps</a> </li>
                 <li><a href="https://github.com/OpenKnowledgeMaps" target="_blank"><span class="awesome">&#xf09b;</span> github.com/OpenKnowledgeMaps</a> </li>              
             </ul>
         </address>

@@ -43,6 +43,15 @@
                         <a href="https://twitter.com/ok_maps" target="_blank">twitter.com/OK_Maps</a>
                     </p>
                 </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q" class="awesome">&#xf09a;</span> Like us on Facebook
+                    </p>
+                    <p>
+                        <a href="https://www.facebook.com/OKMaps" target="_blank">facebook.com/OKMaps</a>
+                    </p>
+                </div>
 
                 <div class="faq">
                     <p class="faquestion">

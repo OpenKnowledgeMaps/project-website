@@ -193,7 +193,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: #51c9ae;
 }
 
-.newsletter2 {
+.newsletter2, .static-button {
     border-radius: 5px;
     padding:5px;
     border: 2px solid #eee;

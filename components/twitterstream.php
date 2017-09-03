@@ -18,7 +18,7 @@
         </a>
 
     </div>
-    <div class="twitterbutton"><a class="twitter-follow-button"
+    <div class="twitterbutton"><a class="twitter-follow-button static-button"
                                   href="https://twitter.com/OK_Maps" target="_blank"
                                   accesskey=""data-size="large" data-show-count="false">
             Follow @OK_Maps</a></div>
@@ -49,6 +49,7 @@
                 };
         
         container.html("");
+        $(".twitter-follow-button").removeClass("static-button");
         
         for (i = 0; i < tweets.length; i++) {
             createItem(tweets[i], i);
