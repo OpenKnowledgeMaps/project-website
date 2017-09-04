@@ -27,39 +27,39 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span class="awesome" id="question-Q">&#xf003;</span> Let us know what you think
+                        <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span class="awesome" id="question-Q">&#xf003;</span> Let us know what you think</a>
                     </p>
                     <p>
                         In order to improve Open Knowledge Maps, we need your feedback. Send us an e-mail with features you would like to see and ideas on how we can improve your literature search.<br>
-                        <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
+                        <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
                     </p>
                 </div>
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf099;</span> Follow us on Twitter
+                        <a style="text-decoration: none;" target="_blank" href="https://twitter.com/ok_maps"><span id="question-Q" class="awesome">&#xf099;</span> Follow us on Twitter</a>
                     </p>
                     <p>Get real-time updates, ask questions and send feedback.<br>
-                        <a href="https://twitter.com/ok_maps" target="_blank">twitter.com/OK_Maps</a>
+                        <a class="underline" href="https://twitter.com/ok_maps" target="_blank">twitter.com/OK_Maps</a>
                     </p>
                 </div>
                 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf09a;</span> Like us on Facebook
+                        <a style="text-decoration: none;" target="_blank" href="https://www.facebook.com/OKMaps"><span id="question-Q" class="awesome">&#xf09a;</span> Like us on Facebook</a>
                     </p>
                     <p>
-                        <a href="https://www.facebook.com/OKMaps" target="_blank">facebook.com/OKMaps</a>
+                        <a class="underline" href="https://www.facebook.com/OKMaps" target="_blank">facebook.com/OKMaps</a>
                     </p>
                 </div>
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf09b;</span> Fork us on Github
+                        <a style="text-decoration: none;" target="_blank" href="https://github.com/OpenKnowledgeMaps"><span id="question-Q" class="awesome">&#xf09b;</span> Fork us on Github</a>
                     </p>
                     <p>
                         Check out our open source software and report issues & ideas for improvement.<br>
-                        <a href="https://github.com/OpenKnowledgeMaps" target="_blank">github.com/OpenKnowledgeMaps</a>
+                        <a class="underline" href="https://github.com/OpenKnowledgeMaps" target="_blank">github.com/OpenKnowledgeMaps</a>
                     </p>
                 </div>
 
@@ -73,34 +73,34 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf2b5;</span> Collaborate with us
+                        <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf2b5;</span> Collaborate with us</a>
                     </p>
                     <p>
                         If you have a collection that you would like to visualize with Open Knowledge Maps, contact us to set up a joint project.<br>
-                        <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
+                        <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
                 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf155;</span> Fund our project
+                        <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf155;</span> Fund our project</a>
                     </p>
                     <p>
                         We are a non-profit organization currently looking for funding. 
                         Drop us a line if you are interested in changing the way we discover research!<br>
-                        <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
+                        <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf005;</span> Become a volunteer
+                        <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf005;</span> Become a volunteer</a>
                     </p>
                     <p>
                         We are also looking for open source programmers. If you know your way around PHP, R, 
                         or JavaScript and would be able to spare a few hours a week to work with a team of friendly volunteers, 
                         let us know via<br>
-                        <a href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
+                        <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
 

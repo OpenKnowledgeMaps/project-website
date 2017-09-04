@@ -48,8 +48,8 @@
                 <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="frontend-btn"></div>
             </div>
 
-            <p id="alternate-signup" style="display:none">To sign up, please 
-                <a href="http://eepurl.com/cjRDZL" target="_blank" class="underline">use this link</a>
+            <p id="alternate-signup" style="display:none"> 
+                <a href="http://eepurl.com/cjRDZL" target="_blank" class="underline"><i class="fa fa-envelope" aria-hidden="true"></i> To sign up, please use this link</a>
             </p>
 
         </form>

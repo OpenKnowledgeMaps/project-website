@@ -209,11 +209,21 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     color: #2d3e52;
 }
 
-#newsletterdiv, .supportus, .infohow {
+#newsletterdiv, .infohow {
     border-top: 1px solid #cacfd3; 
 }
 
-.about-page #newsletterdiv  {
+.supportus {
+    background-color: #eff3f4;
+}
+
+.supportus .howitworks-point {
+    background-color: white;
+    padding: 2%;
+    margin: 2%;
+}
+
+.about-page #newsletterdiv, #home #newsletterdiv  {
     border-top: 0px solid #cacfd3;
 }
 
@@ -343,8 +353,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .try-out-maps a {
-    color: #51c9ae;
-    text-decoration: underline;
     margin-left: 10px;
 }
 
@@ -693,10 +701,21 @@ strong {
     background-color:white;
 }
 
+/*.vision:hover:before {
+   font-family: FontAwesome;
+   content: '\f06e';
+   font-size: 30px;
+   position: absolute;
+}*/
+
 .vision:hover {
     cursor: pointer;
     opacity: 0.7;
     border-bottom: 4px solid #2c3e52;
+}
+
+a .number:hover {
+    color: #e55137;
 }
 
 .fa-ellipsis-h {
@@ -1091,7 +1110,7 @@ input[type="radio"] {
 }
 
 #divhow {
-    background-color: white;
+    /*background-color: white;*/
     padding: 100px 0px 100px 30px;
 }
 
@@ -1377,7 +1396,7 @@ time {
     font-size:60px; 
     color: #2c3e52;
     font-weight: 800;
-    vertical-align: bottom;
+    /*vertical-align: bottom;*/
     padding-right: 10px;
 }
 
