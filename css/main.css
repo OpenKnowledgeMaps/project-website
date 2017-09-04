@@ -223,6 +223,14 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     margin: 2%;
 }
 
+.supportertext {
+    text-align: center; 
+    font-size:18px; 
+    max-width:600px; 
+    margin: 0px auto 20px; 
+    padding: 0 20px;
+}
+
 .benefitssearch {
     background-color: white;
 }
@@ -1997,6 +2005,17 @@ time {
         display: block;
         padding: 0;
     }
+
+    .supportus .howitworks-point {
+        padding: 5%;
+        margin: 0 0 5%;
+        max-width: 90%;
+    }
+    
+    #divhow.supportus {
+        padding: 50px 20px 20px;
+    }
+
 }
 
 @media screen and (max-width: 535px) {
@@ -2294,6 +2313,10 @@ time {
         background-image:
             linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
     }
+    
+    .supportertext {
+        font-size: 14px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -2301,7 +2324,7 @@ time {
     .about-page .background-lamp .mittig {
         padding: 30px 0px 40px;
     }
-    
+
     .background-lamp {
         padding: 50px 0px;
     }
