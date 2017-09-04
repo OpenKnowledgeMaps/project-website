@@ -2294,6 +2294,15 @@ time {
 
 @media screen and (max-width: 360px) {
 
+    .about-page .background-lamp .mittig {
+        padding: 30px 0px 40px;
+    }
+    
+    .background-lamp {
+        padding: 50px 0px;
+    }
+
+
     .mittig, .background-lamp .mittig {
         padding: 20px;
         width: 100%;
