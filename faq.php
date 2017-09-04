@@ -9,13 +9,13 @@
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
-    <body class="faq-page">
+    <body class="faq-page faqx">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
 
         <div id="news">  
-
+            <div class="headerimage"><img src="./img/faqx2.png"></div>
             <div class="background2">
                 <div class="team">
                     <p>FAQ</p>
@@ -31,13 +31,13 @@
                     </p>
                     <p>At the moment, we are using the relevance ranking provided by - 
                         depending on your choice - either the 
-                        
+
                         <a class="underline pointer" data-toggle="popover" title="PubMed" data-content="Comprises more 
-                                            than 26 million citations for biomedical literature from MEDLINE, life science 
-                                            journals, and online books. Citations may include links to full-text content from 
-                                            PubMed Central and publisher web sites.">PubMed</a> API or the <a class="underline pointer" data-toggle="popover" title="Bielefeld Academic Search Engine 
-                                              (BASE)" data-content="Provides access to over 100 million documents from 
-                                              more than 5,200 content sources in all disciplines.">BASE</a> API. 
+                           than 26 million citations for biomedical literature from MEDLINE, life science 
+                           journals, and online books. Citations may include links to full-text content from 
+                           PubMed Central and publisher web sites.">PubMed</a> API or the <a class="underline pointer" data-toggle="popover" title="Bielefeld Academic Search Engine 
+                           (BASE)" data-content="Provides access to over 100 million documents from 
+                           more than 5,200 content sources in all disciplines.">BASE</a> API. 
                         Both of them mainly use text similarity between your query and the article metadata to determine the relevance. PubMed has a detailed <a href="https://www.ncbi.nlm.nih.gov/books/NBK3827/#pubmedhelp.Computation_of_Weighted_Relev" target="_blank">
                             description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
                     </p>
@@ -79,7 +79,7 @@
                         If you come across a map that needs improvement, we'd love to hear from you at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q5</span> How did Open Knowledge Maps come about?

@@ -380,7 +380,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: #51c9ae;
     background-repeat: no-repeat; 
     background-position: 100% 70%;
-    background-size: contain;
+    background-size: 100%;
 }
 
 #newsletterdiv #mc_embed_signup div.mce_inline_error {
@@ -813,7 +813,7 @@ a .number:hover {
 /*ABOUT*/
 #about-page, #news {
     background-color: white;
-    padding-top: 90px;
+    padding-top: 80px;
 }
 
 #about-page {
@@ -917,10 +917,6 @@ a .number:hover {
     color: #2D3E52;
 }
 
-.faq a {
-    text-decoration: underline;
-}
-
 #question-Q {
     font-size:30px; 
     font-weight: 800; 
@@ -957,6 +953,32 @@ a .number:hover {
 
 .background2 .team {
     padding:100px;
+}
+
+.getintouchpage .background2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/getintouch2.png);
+    background-size:100%;
+    background-repeat: repeat;
+    margin-bottom: 50px;
+    background-color: #ea9940;
+    background-position: 100% 10%;;
+}
+
+.faqx .background2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/faqx.png);
+    background-size:100%;
+    background-repeat: repeat;
+    margin-bottom: 50px;
+    background-color: #5598cc;
+    background-position: 100% 10%;;
+}
+
+.headerimage {
+    display: none;
+}
+
+.getintouchpage #news .background2 p, .faqx #news .background2 p {
+    color: white;
 }
 
 .member {
@@ -1410,7 +1432,7 @@ time {
 }
 
 .number {
-    font-size:60px; 
+    font-size:40px; 
     color: #2c3e52;
     font-weight: 800;
     /*vertical-align: bottom;*/
@@ -1787,7 +1809,7 @@ time {
         width:80%;
     }
     .number {
-        font-size:40px; 
+        font-size:30px; 
     }
 
     #whatsthis-page .icon-description {
@@ -2011,7 +2033,7 @@ time {
         margin: 0 0 5%;
         max-width: 90%;
     }
-    
+
     #divhow.supportus {
         padding: 50px 20px 20px;
     }
@@ -2082,7 +2104,7 @@ time {
     }
 
     #team, #about-page, #news {
-        padding-top: 60px;
+        padding-top: 50px;
     }
 
     header {
@@ -2174,6 +2196,10 @@ time {
 
     .background-lamp {
         padding-top: 45px;
+    }
+    
+    .getintouchpage .background2 {
+        margin-bottom: 30px;
     }
 
 }
@@ -2313,9 +2339,24 @@ time {
         background-image:
             linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
     }
-    
+
     .supportertext {
         font-size: 14px;
+    }
+    
+    .getintouchpage .background2, .faqx #news .background2 {
+        background-image: none;
+        background-size: 100%;
+        margin-bottom: 0px;
+    }
+
+    .headerimage {
+        display: block;
+        width:100%;
+    }
+
+    .getintouchpage #news .background2 p, .faqx #news .background2 p {
+        color: #2d3e52;
     }
 }
 

@@ -9,13 +9,13 @@
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
-    <body class="faq-page">
+    <body class="faq-page getintouchpage">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
 
         <div id="news">  
-
+            <div class="headerimage"><img src="./img/getintouch.png"></div>
             <div class="background2">
                 <div class="team">
                     <p>Get in Touch</p>
