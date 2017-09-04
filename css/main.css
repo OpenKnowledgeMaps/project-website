@@ -223,6 +223,11 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     margin: 2%;
 }
 
+.benefitssearch {
+    background-color: white;
+}
+
+
 .about-page #newsletterdiv, #home #newsletterdiv  {
     border-top: 0px solid #cacfd3;
 }
@@ -1218,7 +1223,7 @@ sup {
 
 .carousel .carousel-inner.static .item img {
     height: auto;
-    width: auto;
+    width: 100%;
 }
 
 .carousel-inner.static .bs-example img {
@@ -2156,6 +2161,11 @@ time {
         margin-right: 0px;
     }
 
+    .glyphicon-chevron-right::before, .glyphicon-chevron-left::before {
+        font-size: 30px;
+    }
+
+
     #question-Q {
         font-size: 20px;
     }
@@ -2248,7 +2258,11 @@ time {
     }
 
     .carousel-inner {
-        height: 270px;
+        height: 170px;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        height: 150px;
     }
 
     .description-headstart {
