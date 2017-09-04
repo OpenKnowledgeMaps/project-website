@@ -213,9 +213,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     border-top: 1px solid #cacfd3; 
 }
 
-.supportus {
-    background-color: #eff3f4;
-}
+
 
 .supportus .howitworks-point {
     background-color: white;
@@ -955,22 +953,34 @@ a .number:hover {
     padding:100px;
 }
 
+.vis #partnerdiv {
+    background-color: white;
+}
+
+.supportus {
+    background-image: url(../img/supporters.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-color: #eff3f4;
+    background-position: 100% 100%;
+}
+
 .getintouchpage .background2 {
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/getintouch2.png);
     background-size:100%;
     background-repeat: repeat;
-    margin-bottom: 50px;
     background-color: #ea9940;
-    background-position: 100% 10%;;
+    background-position: 100% 10%;
+    margin-bottom: 50px;
 }
 
 .faqx .background2 {
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/faqx.png);
     background-size:100%;
     background-repeat: repeat;
-    margin-bottom: 50px;
     background-color: #5598cc;
-    background-position: 100% 10%;;
+    background-position: 100% 10%;
+        margin-bottom: 50px;
 }
 
 .headerimage {
