@@ -465,6 +465,10 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-image: url(../img/lamp-bw2.gif);
 }
 
+.nomapresult {
+    background-image: none;
+}
+
 .background3 {
     background-color: white;
     background-image: url(); 
