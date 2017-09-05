@@ -6,7 +6,7 @@
         <?php 
         $override_labels = array(
             "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
-            , "description" => "Get an overview - Find papers - Identify relevant concepts"
+            , "description" => "Start your literature search here: get an overview of a research topic, find relevant papers, and identify important concepts."
         );
         ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
