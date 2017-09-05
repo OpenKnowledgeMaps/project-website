@@ -962,7 +962,7 @@ a .number:hover {
     background-size:100%;
     background-repeat: no-repeat;
     background-color: #eff3f4;
-    background-position: 100% 100%;
+    background-position: 100% 20%;
 }
 
 .getintouchpage .background2 {
@@ -972,6 +972,14 @@ a .number:hover {
     background-color: #ea9940;
     background-position: 100% 10%;
     margin-bottom: 50px;
+}
+
+.updates .background2 {
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)), url(../img/newsbg.png);
+    background-size:100%;
+    background-repeat: repeat;
+    background-color: #ea9940;
+    background-position: 100% 10%;
 }
 
 .faqx .background2 {
@@ -2051,6 +2059,10 @@ time {
 }
 
 @media screen and (max-width: 535px) {
+    
+    .supportus {
+        background-position: 100% 3%;
+    }
 
     .wtp {
         font-size: 14px;
