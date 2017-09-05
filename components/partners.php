@@ -2,7 +2,6 @@
 <div id="partnerdiv">
     <h2>Our Partners</h2>
     <div class="partners">
-
         <a href="http://ropensci.org/" target="_blank"><img src="./img/partners/ropensci.png" alt="rOpenSci"></a>
         <a href="http://contentmine.org/" target="_blank"><img src="./img/partners/contentmine.png" alt="Content Mine"></a>
         <a href="https://base-search.net/" target="_blank"><img src="./img/partners/base.png" alt="Bielefeld Academic Search Engine"></a>
