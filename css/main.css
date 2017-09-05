@@ -111,7 +111,6 @@ header #logo a:hover {
     position: absolute;
     right: 50px;
     top: 50%;
-
 }
 
 .imglogo {
@@ -167,8 +166,6 @@ header #logo a:hover {
 
 .nav_top a:hover, .nav_top a:active  {
     border-bottom: 2px solid #2d3e52;
-    /*color: #2d3e52;
-    text-decoration: underline;*/
 }
 
 a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
@@ -204,21 +201,64 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 #newsletterdiv, #partnerdiv {
-    padding: 100px 0px;
-    font-size: 20px;
+    padding: 50px 20px;
+    font-size: 18px;
     color: #2d3e52;
 }
 
-#newsletterdiv, .infohow {
-    border-top: 1px solid #cacfd3; 
+#newsletterdiv h3 {
+    font-size: 18px;
+    font-weight: 800;
 }
 
+#newsletterdiv {
+    background-color: #eff3f4;
+}
 
+#signup-box {
+    max-width: 750px; 
+    width: 100%;
+    margin:0px auto; 
+    background-color: white;
+}
+
+#signup-pic {
+    display:inline-block; 
+    vertical-align: middle; 
+    max-width:250px; 
+    margin-right: 10px;
+}
+
+#signup-pic-mobil {
+    display: none;
+    width:100%;
+}
+
+#mc_embed_signup {
+    display:inline-block; 
+    vertical-align: middle; 
+    text-align:left; 
+    max-width:470px; 
+    padding:0px;
+}
+
+#home #newsletterdiv {
+    background-color: white;
+}
+
+#home #partnerdiv {
+    background-color: #eff3f4;
+}
+
+.infohow {
+    border-top: 1px solid #cacfd3; 
+}
 
 .supportus .howitworks-point {
     background-color: white;
     padding: 2%;
     margin: 2%;
+    min-height: 240px;
 }
 
 .supportertext {
@@ -233,18 +273,8 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: white;
 }
 
-
-.about-page #newsletterdiv, #home #newsletterdiv  {
-    border-top: 0px solid #cacfd3;
-}
-
-.updates #newsletterdiv {
-    border-top: 0px solid #cacfd3;
-}
-
 #partnerdiv {
-    background-color: #eff3f4;
-    background-repeat: repeat;
+    background-color: white;
     max-width:1600px;
     width:100%;
     margin: 0px auto;
@@ -538,7 +568,6 @@ address a:hover, address a:focus, address a:active, .nav_bottom a:hover, .nav_bo
     font-size: 16px;
     padding: 50px;
     color: white;
-    /*text-align: center;*/
 }
 
 .anchor{
@@ -716,13 +745,6 @@ strong {
     background-color:white;
 }
 
-/*.vision:hover:before {
-   font-family: FontAwesome;
-   content: '\f06e';
-   font-size: 30px;
-   position: absolute;
-}*/
-
 .vision:hover {
     cursor: pointer;
     opacity: 0.7;
@@ -748,7 +770,6 @@ a .number:hover {
 
 .vision p {
     font-size: 18px;
-    /*text-align: center;*/ 
     background-color: transparent;  
 }
 
@@ -845,7 +866,6 @@ a .number:hover {
 
 .try-now .newsitem-button {
     font-size: 26px;
-
 }
 
 #more-info .vision h2 {
@@ -953,10 +973,6 @@ a .number:hover {
     padding:100px;
 }
 
-.vis #partnerdiv {
-    background-color: white;
-}
-
 .supportus {
     background-image: url(../img/supporters.png);
     background-size:100%;
@@ -988,7 +1004,7 @@ a .number:hover {
     background-repeat: repeat;
     background-color: #5598cc;
     background-position: 100% 10%;
-        margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .headerimage {
@@ -1292,7 +1308,7 @@ sup {
 }
 
 .carousel-num {
-    top: -10px;
+    top: 10px;
     position: relative;
     color: white;
     text-align: center;
@@ -1300,7 +1316,7 @@ sup {
 
 .carousel-control.left, .carousel-control.right {
     background:none;
-    height: 200px;
+    height: 220px;
 }
 
 /*.glyphicon-chevron-right::before {
@@ -1436,11 +1452,6 @@ time {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
-}
-
-.team-page #partnerdiv {
-    background-color:white;
-    background-image: none;
 }
 
 .howitworks-div {
@@ -1767,10 +1778,6 @@ time {
         padding: 50px 0px 50px 30px;
     }
 
-    #newsletterdiv {
-        padding: 50px 0px;
-    }
-
     .advisor {
         width: 30%;
         background-size: 100%;
@@ -1834,6 +1841,26 @@ time {
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 800px) {
+
+    #signup-pic {
+        max-width: 150px;
+        display: none;
+    }
+
+    #signup-pic-mobil {
+        display: block;
+    }
+    
+    #signup-box, #mc_embed_signup {
+        max-width: 650px;
+    }
+    
+    #mc_embed_signup {
+        padding: 20px;
+    }
 }
 
 @media screen and (max-width: 750px) {
@@ -2050,6 +2077,7 @@ time {
         padding: 5%;
         margin: 0 0 5%;
         max-width: 90%;
+        min-height: 20px;
     }
 
     #divhow.supportus {
@@ -2059,7 +2087,7 @@ time {
 }
 
 @media screen and (max-width: 535px) {
-    
+
     .supportus {
         background-position: 100% 3%;
     }
@@ -2161,7 +2189,7 @@ time {
         display: inline-block;
         width: 49%;
         margin: 0px 0px 10px 0px;
-        min-height: 260px;
+        min-height: 240px;
     }
 
     .advisor h3, .name {
@@ -2219,7 +2247,7 @@ time {
     .background-lamp {
         padding-top: 45px;
     }
-    
+
     .getintouchpage .background2 {
         margin-bottom: 30px;
     }
@@ -2249,9 +2277,20 @@ time {
         margin: 9px 0 0;
     }
 
-    #newsletterdiv, #partnerdiv {
-        padding: 50px 0px;
+    #newsletterdiv {
+        padding: 20px;
+    }
+    
+    #home #newsletterdiv {
+        padding: 0px;
+    }
+    
+    #newsletterdiv h3, #newsletterdiv, #partnerdiv {
         font-size: 14px;
+    }
+    
+    #partnerdiv {
+        padding: 50px 0px;
     }
 
     #progress p {
@@ -2329,11 +2368,7 @@ time {
     }
 
     .carousel-inner {
-        height: 170px;
-    }
-
-    .carousel-control.left, .carousel-control.right {
-        height: 150px;
+        height: 210px;
     }
 
     .description-headstart {
@@ -2365,8 +2400,8 @@ time {
     .supportertext {
         font-size: 14px;
     }
-    
-    .getintouchpage .background2, .faqx #news .background2 {
+
+    .getintouchpage .background2, .faqx #news .background2, .updates #news .background2 {
         background-image: none;
         background-size: 100%;
         margin-bottom: 0px;

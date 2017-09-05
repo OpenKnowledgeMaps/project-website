@@ -50,7 +50,7 @@
                     <p>We want to keep the number of papers to a manageable amount. 
                         100 papers are already 10 times more content than is presented on a standard search results page.
                         Nevertheless, we are investigating on how to enable the exploration of larger amounts of content, 
-                        while keeping <a href="https://en.wikipedia.org/wiki/Cognitive_load" target="_blank">cognitive load</a> to a minimum.
+                        while keeping <a class="underline" href="https://en.wikipedia.org/wiki/Cognitive_load" target="_blank">cognitive load</a> to a minimum.
                         At the moment, you can drill deeper into a topic by providing a more specific search query.
                         One way to do this is to expand your query with the topic of a sub-area.
                     </p>
@@ -65,7 +65,7 @@
                         matrix, we perform clustering and ordination algorithms. 
                         The labels for the sub-areas (bubbles) are generated from the subject keywords of the articles in this area. 
                         In cases where they are missing from the metadata, we approximate them from abstract and title.
-                        More information can be found in <a href="http://0277.ch/ojs/index.php/cdrs_0277/article/view/157/355" target="_blank">this article</a>.
+                        More information can be found in <a class="underline" href="http://0277.ch/ojs/index.php/cdrs_0277/article/view/157/355" target="_blank">this article</a>.
                     </p>
                 </div>
                 <a name=faq-faulty-map class="anchor"></a>
@@ -76,7 +76,7 @@
                     <p>The visualization depends on the search results that we get for a given query.
                         If there are for example not enough articles on the topic, or if the metadata quality is low, this will impact the visualization.
                         We have a number of routines in place to improve your chances of getting a useful map, but we do not always succeed.
-                        If you come across a map that needs improvement, we'd love to hear from you at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
+                        If you come across a map that needs improvement, we'd love to hear from you at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
 
@@ -86,9 +86,9 @@
                     </p>
                     <p>Open Knowledge Maps was founded by Peter Kraker in 2015. 
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
-                        <a href="https://github.com/OpenKnowledgeMaps/Headstart">the  open source visualization framework Headstart</a> out of frustration with the existing discovery tools for scientific knowledge.
-                        In January 2016, Peter posted a <a href="https://science20.wordpress.com/2016/01/27/call-for-collaborators-open-science-prize-project-on-open-discovery/" target="_blank">Call for Collaborators</a> 
-                        on his blog, which brought a first team of volunteers together. Since 2016 Open Knowledge Maps is a <a href="imprint">registered non-profit organization</a>. 
+                        <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart">the  open source visualization framework Headstart</a> out of frustration with the existing discovery tools for scientific knowledge.
+                        In January 2016, Peter posted a <a class="underline" href="https://science20.wordpress.com/2016/01/27/call-for-collaborators-open-science-prize-project-on-open-discovery/" target="_blank">Call for Collaborators</a> 
+                        on his blog, which brought a first team of volunteers together. Since 2016 Open Knowledge Maps is a <a class="underline" href="imprint">registered non-profit organization</a>. 
                     </p>
                 </div>
 
@@ -98,8 +98,8 @@
                     </p>
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
-                        <a href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a>, which is able to create knowledge maps from a wide variety of data, including text, metadata and references. 
-                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out <a href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started, or contact us on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> for a joint project.
+                        <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a>, which is able to create knowledge maps from a wide variety of data, including text, metadata and references. 
+                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started, or contact us on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> for a joint project.
                     </p>
                 </div>
 
@@ -109,8 +109,8 @@
                     </p>
                     <p>
                         We are a non-profit organization run by a group of dedicated volunteers. 
-                        Currently, we are looking for funding for <a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
-                        If you are interested in funding this effort, please contact us on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
+                        Currently, we are looking for funding for <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
+                        If you are interested in funding this effort, please contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
 
                     </p>
                 </div>
@@ -125,7 +125,7 @@
                         Open Knowledge Maps. If you like the project, please spread the word as far as you can :) <br>
                         We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
-                        let us know via <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. 
+                        let us know via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. 
 
 
                     </p>
@@ -136,7 +136,7 @@
                         <span id="question-Q">Q9</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
-                        No doubt! Just drop us a line on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
+                        No doubt! Just drop us a line on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
 
                     </p>
                 </div>
