@@ -2401,7 +2401,7 @@ time {
         font-size: 14px;
     }
 
-    .getintouchpage .background2, .faqx #news .background2 {
+    .getintouchpage .background2, .faqx #news .background2, .updates #news .background2 {
         background-image: none;
         background-size: 100%;
         margin-bottom: 0px;
