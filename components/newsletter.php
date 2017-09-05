@@ -29,8 +29,8 @@
 
 <div id="newsletterdiv">
     <div id="signup-box">
-    <a id="signup-pic" href="http://eepurl.com/cjRDZL" target="_blank"><img src="./img/newslettersignup.png"></a>
-    <a id="signup-pic-mobil" href="http://eepurl.com/cjRDZL" target="_blank"><img src="./img/newslettersignup-mobil.png"></a>
+    <div id="signup-pic"><img src="./img/newslettersignup.png"></div>
+    <div id="signup-pic-mobil"><img src="./img/newslettersignup-mobil.png"></div>
 
     <div id="mc_embed_signup">
         <form action="//openknowledgemaps.us13.list-manage.com/subscribe/post?u=c399f89442d6aa733a9896515&amp;id=3ff20c12f9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
