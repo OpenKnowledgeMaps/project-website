@@ -201,7 +201,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 #newsletterdiv, #partnerdiv {
-    padding: 50px 20px;
+    padding: 50px 0px;
     font-size: 18px;
     color: #2d3e52;
 }
