@@ -242,11 +242,11 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     padding:0px;
 }
 
-#home #newsletterdiv {
+#home #newsletterdiv, .about-page #newsletterdiv {
     background-color: white;
 }
 
-#home #partnerdiv {
+#home #partnerdiv, .about-page #partnerdiv {
     background-color: #eff3f4;
 }
 
@@ -1347,11 +1347,8 @@ sup {
 /*NEWS*/
 .newscollection {
     padding: 50px 0;
-    background: red; /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(/*left,*/ white, #f5f9fa); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(/*right,*/ white, #f5f9fa); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(/*right,*/ white, #f5f9fa); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(/*to right,*/ white, #f5f9fa); /* Standard syntax */
+    background-color: white;
+    border-bottom: 2px solid #eff3f4;
 }
 
 .newsitem {
@@ -1442,7 +1439,7 @@ time {
     background-color: white;
 }
 
-#imprint #partnerdiv  {
+#privacy-page #partnerdiv, #imprint-page #partnerdiv  {
     background-color: #eff3f4;
 }
 

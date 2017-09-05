@@ -6,7 +6,7 @@
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
-    <body>
+    <body id="imprint-page">
 
 
 
