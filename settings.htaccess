@@ -11,6 +11,7 @@ ErrorDocument 404 /404.php
 # RewriteRule .* /index_maintenance.php [R=302,L]
 
 RewriteRule ^maps/([^/\.]*)$ vis.php?id=$1 [L,QSA,NC]
+RewriteRule ^map/([^/\.]*)$ vis.php?id=$1 [L,QSA,NC]
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^([^.]+)$ $1.php [NC,L]
