@@ -28,12 +28,14 @@
 </style>
 
 <div id="newsletterdiv">
-
-    <h2>Newsletter</h2>
+    <div id="signup-box">
+    <a id="signup-pic" href="http://eepurl.com/cjRDZL" target="_blank"><img src="./img/newslettersignup.png"></a>
+    <a id="signup-pic-mobil" href="http://eepurl.com/cjRDZL" target="_blank"><img src="./img/newslettersignup-mobil.png"></a>
 
     <div id="mc_embed_signup">
         <form action="//openknowledgemaps.us13.list-manage.com/subscribe/post?u=c399f89442d6aa733a9896515&amp;id=3ff20c12f9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
-            <p>We are continously improving Open Knowledge Maps. Enter your e-mail address below to receive updates on the newest developments.</p>
+            <h3>Sign-up for our Newsletter</h3>
+            <p>Receive regular updates on the newest improvements.</p>
             <div id="mc_embed_signup_scroll">
                 <div class="mc-field-group">
                     <label for="mce-EMAIL">Email Address<span class="asterisk">*</span>
@@ -53,6 +55,7 @@
             </p>
 
         </form>
+    </div>
     </div>
     <script type='text/javascript' src='./lib/mc-validate.js'></script><script type='text/javascript'>(function ($) {
             window.fnames = new Array();
