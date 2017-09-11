@@ -12,6 +12,7 @@
         $context = json_decode($context_json);
 
         $query = ($context->query == null) ? ("zika") : ($context->query);
+        $query = preg_replace("/\\\\\"/", "&quot;", $query);
 
         $credit = "";
 
