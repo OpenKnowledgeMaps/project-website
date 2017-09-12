@@ -50,8 +50,8 @@
             , "app-name" => "Open Knowledge Maps"
             , "description" => "Get an overview of $query, find relevant papers, and identify important concepts."
             , "twitter-type" => "summary_large_image"
-            , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
-            , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
+            , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.jpg"
+            , "fb-image" => "$protocol$SNAPSHOT_PATH$id.jpg"
         );
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');
