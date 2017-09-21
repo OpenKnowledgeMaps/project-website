@@ -13,6 +13,6 @@
         <a href="http://wikimedia.at" target="_blank"><img src="./img/partners/Wikimedia_Austria.png" alt="Wikimedia Austria"></a>
         <a href="http://citizen-science.at" target="_blank"><img src="./img/partners/citizenscienceat.png" alt="Citizen Science Austria"></a>
         <a href="http://www.year-network.com/" target="_blank"><img src="./img/partners/year-logo.png" alt="YEAR Network"></a>
-        <a href="http://www.webuildeurope.eu/" target="_blank"><img src="./img/partners/wbe2.jpg" alt="YEAR Network"></a>
+        <a href="http://www.webuildeurope.eu/" target="_blank"><img src="./img/partners/wbe.jpg" alt="WeBuildEurope.eu"></a>
     </div>
 </div>       
