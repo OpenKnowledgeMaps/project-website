@@ -50,7 +50,7 @@
             , "app-name" => "Open Knowledge Maps"
             , "description" => "Get an overview of $query, find relevant papers, and identify important concepts."
             , "twitter-type" => "summary_large_image"
-            , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.jpng"
+            , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
             , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
         );
 
