@@ -197,8 +197,8 @@
              $(window).resize(function(){
                  var absolute_left = $("#visualization").offset().left;
                  var offset = 10;
-                 $(".a2a_kit").css("left",  absolute_left + offset)
-                 $(".a2a_kit").followTo(div_height, $(".a2a_kit").position().top, absolute_left, offset);
+                 $(".overflow-vis .a2a_kit").css("left",  absolute_left + offset)
+                 $(".overflow-vis .a2a_kit").followTo(div_height, $(".overflow-vis .a2a_kit").position().top, absolute_left, offset);
              });
              
              $(window).trigger("resize");
