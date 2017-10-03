@@ -38,8 +38,8 @@
                            PubMed Central and publisher web sites.">PubMed</a> API or the <a class="underline pointer" data-toggle="popover" title="Bielefeld Academic Search Engine 
                            (BASE)" data-content="Provides access to over 100 million documents from 
                            more than 5,200 content sources in all disciplines.">BASE</a> API. 
-                        Both of them mainly use text similarity between your query and the article metadata to determine the relevance. PubMed has a detailed <a href="https://www.ncbi.nlm.nih.gov/books/NBK3827/#pubmedhelp.Computation_of_Weighted_Relev" target="_blank">
-                            description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
+                        Both of them mainly use text similarity between your query and the article metadata to determine the relevance. PubMed has a detailed <a class="underline" href="https://www.ncbi.nlm.nih.gov/books/NBK3827/#pubmedhelp.Computation_of_Weighted_Relev" target="_blank">
+                            description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a class="underline" href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
                     </p>
                 </div>
 
