@@ -232,7 +232,6 @@ var options_base = {
                 , {id: "13", text: "Conference object", selected: false}
                 , {id: "16", text: "Course material", selected: false}
                 , {id: "7", text: "Dataset", selected: false}
-                , {id: "5", text: "Image/video", selected: false}
                 , {id: "121", text: "Journal/newspaper article", selected: true}
                 , {id: "122", text: "Journal/newspaper other content", selected: false}
                 , {id: "17", text: "Lecture", selected: false}
