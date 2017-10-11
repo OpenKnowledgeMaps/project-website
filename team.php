@@ -12,8 +12,6 @@
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
-
-
         <div id="team">
             <div class="background2 bg2">
                 <div class="team">
@@ -56,21 +54,11 @@
                         </ul>
                     </div>
 
-
-
                     <div class="member">
                         <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/team/chris.png" alt="Christopher Kittel"></a>
                         <ul>
                             <li class="name">Christopher Kittel</li>
                             <li class="job-title">Data Science</li>
-                        </ul>
-                    </div>
-
-                    <div class="member">
-                        <a target="_blank" href="http://brembs.net"><img class="hoverlink" src="./img/team/bjorn.png" alt="Bjorn"></a>
-                        <ul>
-                            <li class="name">Björn Brembs</li>
-                            <li class="job-title">Requirements & Evaluation</li>
                         </ul>
                     </div>
 
@@ -89,6 +77,22 @@
                             <li class="job-title">Communication</li>
                         </ul>
                     </div>
+                    
+                    <div class="member">
+                        <a target="_blank" href="http://findresearcher.sdu.dk:8080/portal/en/person/nas"><img class="hoverlink" src="./img/team/najmeh.png" alt="Najmeh"></a>
+                        <ul>
+                            <li class="name">Najmeh Shaghaei</li>
+                            <li class="job-title">Community Coordination</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="member">
+                        <a target="_blank" href="http://brembs.net"><img class="hoverlink" src="./img/team/bjorn.png" alt="Bjorn"></a>
+                        <ul>
+                            <li class="name">Björn Brembs</li>
+                            <li class="job-title">Requirements & Evaluation</li>
+                        </ul>
+                    </div>
 
                     <div class="member">
                         <a target="_blank" href="http://www.michaelskaug.com/"><img class="hoverlink" src="./img/team/mike.png" alt="Mike"></a>
@@ -97,8 +101,6 @@
                             <li class="job-title">Visualizations</li>
                         </ul>
                     </div>
-
-
 
                     <div class="member">
                         <a target="_blank" href="http://nthmost.com/"><img class="hoverlink" src="./img/team/naomi.png" alt="Naomi Most"></a>
@@ -116,9 +118,8 @@
                         </ul>
                     </div>
 
-
-
-                </div> </div>
+                </div> 
+            </div>
 
             <div class="background2 bg1">
                 <div class="team" id="advisory-board">
@@ -189,7 +190,7 @@
                             <h3>Michael E. Karpeles</h3>
                             <p class="advisor-desc">Citizen of the world <br>Internet Archive</p>
                         </div>
-                        
+
                         <div class="advisor">
                             <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKM"></a>
                             <h3>Elisabeth Lex</h3>
@@ -206,7 +207,7 @@
                             <h3>Michela Vignoli</h3>
                             <p class="advisor-desc">Junior Scientist <br>Austrian Institute of Technology (AIT)</p>
                         </div>
-                        
+
                         <div class="advisor">
                             <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
                             <h3>Christian Schlögl</h3>
