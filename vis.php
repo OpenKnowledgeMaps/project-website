@@ -134,7 +134,7 @@
             <?php endif ?>
                 data_config.files = [{
                 title: <?php echo json_encode($query) ?>,
-                        file: <?php echo json_encode($_GET['id']) ?>
+                        file: <?php echo json_encode($id) ?>
                 }]
 
                 data_config.options = options_<?php echo $service ?>.dropdowns;
