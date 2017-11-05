@@ -127,15 +127,17 @@
                 var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
                 $("#visualization").css("height", div_height + "px")
 
-                        data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
+                data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
                 data_config.intro = intro;
-                //data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
+            <?php if ($service == "plos"): ?>
+                data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
+            <?php endif ?>
                 data_config.files = [{
                 title: <?php echo json_encode($query) ?>,
                         file: <?php echo json_encode($_GET['id']) ?>
                 }]
 
-                        data_config.options = options_<?php echo $service ?>.dropdowns;
+                data_config.options = options_<?php echo $service ?>.dropdowns;
                                     
             </script>
             <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>

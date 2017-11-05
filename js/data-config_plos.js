@@ -17,6 +17,6 @@ var data_config = {
     show_list: true,
     content_based: false,
 	
-	show_context: true,
-	create_title_from_context: true
+    show_context: false,
+    create_title_from_context: false
 };
