@@ -11,6 +11,7 @@
         <a href="http://core.ac.uk/" target="_blank"><img src="./img/partners/core.png" alt="Core"></a>
         <a href="http://hypothes.is" target="_blank"><img src="./img/partners/hypothesis.png" alt="Hypothes.is"></a>
         <a href="http://wikimedia.at" target="_blank"><img src="./img/partners/Wikimedia_Austria.png" alt="Wikimedia Austria"></a>
+        <a href="http://openup-h2020.eu" target="_blank"><img src="./img/partners/openup.png" alt="OpenUP"></a>
         <a href="http://citizen-science.at" target="_blank"><img src="./img/partners/citizenscienceat.png" alt="Citizen Science Austria"></a>
         <a href="http://www.year-network.com/" target="_blank"><img src="./img/partners/year-logo.png" alt="YEAR Network"></a>
         <a href="http://www.webuildeurope.eu/" target="_blank"><img src="./img/partners/wbe.jpg" alt="WeBuildEurope.eu"></a>
