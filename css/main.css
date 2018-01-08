@@ -200,7 +200,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     text-decoration: none;
 }
 
-#newsletterdiv, #partnerdiv {
+#newsletterdiv, #partnerdiv, #networkdiv {
     padding: 50px 0px;
     font-size: 18px;
     color: #2d3e52;
@@ -280,7 +280,14 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     margin: 0px auto;
 }
 
-#newsletterdiv p, #newsletterdiv h2, #partnerdiv h2 {
+#networkdiv {
+    background-color: #eff3f4;
+    max-width:1600px;
+    width:100%;
+    margin: 0px auto;
+}
+
+#newsletterdiv p, #newsletterdiv h2, #partnerdiv h2, #networkdiv h2 {
     color: #2d3e52;
 }
 
@@ -709,7 +716,7 @@ strong {
     width: 20%;   
 }
 
-#divdiscover h2, #newsletterdiv h2, #divhow h2, #partnerdiv h2 {
+#divdiscover h2, #newsletterdiv h2, #divhow h2, #partnerdiv h2, #networkdiv h2 {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
@@ -800,6 +807,13 @@ a .number:hover {
 }
 
 .partners {
+    padding: 0px;
+    width:80%;
+    margin:20px auto 0px;
+    text-align:center;
+}
+
+.networks {
     padding: 0px;
     width:80%;
     margin:20px auto 0px;
@@ -1115,6 +1129,17 @@ a .number:hover {
 
 .partners img {
     margin: 0px 10px 10px 0px;
+    height: 100%;
+}
+
+/*Networks*/
+.networks a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.networks img {
+    margin: 0px 25px 10px 0px;
     height: 100%;
 }
 
@@ -2165,6 +2190,14 @@ time {
     .partners img {
         height:30px;
     }
+    
+    .networks img {
+        height:30px;
+    }
+    
+    .networks img {
+        height:30px;
+    }
 
     .missionstatement p {
         font-size: 20px;
@@ -2286,11 +2319,11 @@ time {
         padding: 0px;
     }
     
-    #newsletterdiv h3, #newsletterdiv, #partnerdiv {
+    #newsletterdiv h3, #newsletterdiv, #partnerdiv, #networkdiv {
         font-size: 14px;
     }
     
-    #partnerdiv {
+    #partnerdiv, #networkdiv {
         padding: 50px 0px;
     }
 

@@ -278,4 +278,6 @@
                 </div></div>
 
         </div>
-        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
+        <?php include($COMPONENTS_PATH . 'partners.php'); ?>
+        <?php include($COMPONENTS_PATH . 'networks.php'); ?>
+        <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
