@@ -33,7 +33,7 @@
         <span class="anchor" id="okmmission"></span>
 
         <?php include($COMPONENTS_PATH . 'mission.php') ?>
-
+        <?php include($COMPONENTS_PATH . 'featuredin.php') ?>
 
         <span class="anchor" id="feedback"></span>
 

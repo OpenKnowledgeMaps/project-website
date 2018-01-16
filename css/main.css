@@ -250,6 +250,14 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: #eff3f4;
 }
 
+#partnerdiv.featuredin {
+    background-color: #eff3f4;
+}
+
+#home #partnerdiv.featuredin, .about-page #partnerdiv.featuredin, .team-page #partnerdiv.featuredin, #imprint-page #partnerdiv.featuredin, #privacy-page #partnerdiv.featuredin {
+    background-color: white;
+}
+
 .infohow {
     border-top: 1px solid #cacfd3; 
 }
@@ -1130,6 +1138,11 @@ a .number:hover {
 .partners img {
     margin: 0px 10px 10px 0px;
     height: 100%;
+    max-height: 80px;
+}
+
+.featuredin img {
+    max-height:50px;
 }
 
 /*Networks*/
