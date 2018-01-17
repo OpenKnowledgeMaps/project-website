@@ -42,7 +42,8 @@
                             description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a class="underline" href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
                     </p>
                 </div>
-
+                
+                <a name=faq-top-100 class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q2</span> Why are you only using the top 100 papers to create the map?
@@ -55,10 +56,25 @@
                         One way to do this is to expand your query with the topic of a sub-area.
                     </p>
                 </div>
-
+                
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q3</span> Are the maps generated based on full text analysis or on metadata analysis?
+                        <span id="question-Q">Q3</span> Why are there important papers missing in my map?
+                    </p>
+                    <p>At the moment, we are using the <a href="#faq-top-100" class="underline">top 100 papers</a> from the selected data source to create the map.
+                        While this is already 10 times more content than is presented on a standard search results page, we may still miss important 
+                        papers due to this restriction. In addition, we can only use papers that have an abstract - otherwise we do not have enough content
+                        for our <a href="#faq-automatic-analysis" class="underline">automatic analysis</a>.
+                        <br>In the future, we hope to overcome this problem by including more papers in a map 
+                        and by enabling users to <a target="_blank" class="underline" href="https://vimeo.com/188647919">manually add papers to automatically created maps</a>.
+                        In the meantime, please let us know of cases of major omissions via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
+                    </p>
+                </div>
+                
+                <a name=faq-automatic-analysis class="anchor"></a>
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q4</span> Are the maps generated based on full text analysis or on metadata analysis?
                     </p>
                     <p>The grouping of papers is based on article metadata. Currently, we use titles, abstracts, authors, 
                         journals, and subject keywords to create a word co-occurrence matrix between articles. On top of this
@@ -71,7 +87,7 @@
                 <a name=faq-faulty-map class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q4</span> Why does the overview visualization work better for some research topics than others?
+                        <span id="question-Q">Q5</span> Why does the overview visualization work better for some research topics than others?
                     </p>
                     <p>The visualization depends on the search results that we get for a given query.
                         If there are for example not enough articles on the topic, or if the metadata quality is low, this will impact the visualization.
@@ -82,7 +98,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q5</span> How did Open Knowledge Maps come about?
+                        <span id="question-Q">Q6</span> How did Open Knowledge Maps come about?
                     </p>
                     <p>Open Knowledge Maps was founded by Peter Kraker in 2015. 
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
@@ -94,7 +110,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q6</span> Can Open Knowledge Maps connect to my data source?
+                        <span id="question-Q">Q7</span> Can Open Knowledge Maps connect to my data source?
                     </p>
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
@@ -105,7 +121,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q7</span> How is Open Knowledge Maps funded?
+                        <span id="question-Q">Q8</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
                         We are a non-profit organization run by a group of dedicated volunteers. 
@@ -117,7 +133,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q8</span> How can I contribute?
+                        <span id="question-Q">Q9</span> How can I contribute?
                     </p>
                     <p>
                         You can contribute in a number of ways: 
@@ -133,7 +149,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q9</span> Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q10</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         No doubt! Just drop us a line on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
