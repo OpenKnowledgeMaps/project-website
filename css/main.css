@@ -1142,7 +1142,7 @@ a .number:hover {
 }
 
 .featuredin img {
-    max-height:50px;
+    max-height:60px;
 }
 
 /*Networks*/
@@ -1154,6 +1154,7 @@ a .number:hover {
 .networks img {
     margin: 0px 15px 10px 0px;
     height: 100%;
+    max-height: 75px;
 }
 
 /*SEARCH PHP*/
