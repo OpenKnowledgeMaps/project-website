@@ -29,7 +29,7 @@
 
 <div id="newsletterdiv">
     <div id="signup-box">
-    <div id="signup-pic"><img src="./img/newslettersignup.png"></div>
+    <div id="signup-pic"><img src="./img/newslettersignup2.png"></div>
     <div id="signup-pic-mobil"><img src="./img/newslettersignup-mobil.png"></div>
 
     <div id="mc_embed_signup">
