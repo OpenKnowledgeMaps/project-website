@@ -71,7 +71,7 @@
                         </ul>
                         
                         <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:asura.kittel@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="mailto:asura@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://twitter.com/asuraenkhbayar"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
