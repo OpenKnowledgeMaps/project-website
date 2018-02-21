@@ -499,9 +499,6 @@ var SearchOptions = {
                 changeYear: true,
                 numberOfMonths: 1,
                 dateFormat: 'yy-mm-dd',
-                onClose: function (selectedDate) {
-                    $(to).datepicker("option", "minDate", selectedDate);
-                },
                 onChangeMonthYear:function(y, m, i){                                
                     var d = i.selectedDay;
                     $(this).datepicker('setDate', new Date(y, m - 1, d));
@@ -513,9 +510,6 @@ var SearchOptions = {
                 changeYear: true,
                 numberOfMonths: 1,
                 dateFormat: 'yy-mm-dd',
-                onClose: function (selectedDate) {
-                    $(from).datepicker("option", "maxDate", selectedDate);
-                },
                 onChangeMonthYear:function(y, m, i){                                
                     var d = i.selectedDay;
                     $(this).datepicker('setDate', new Date(y, m - 1, d));
