@@ -1,4 +1,5 @@
 var options_plos = {
+    start_date: "1970-01-01",
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -80,10 +81,12 @@ var options_plos = {
                 , {id: "PLoSBiology", text: "PLOS Biology", selected: true}
                 , {id: "PLoSMedicine", text: "PLOS Medicine", selected: true}
                 , {id: "PLoSClinicalTrials", text: "PLOS Hub for Clinical Trials", selected: true}
-            ]}
-    ]}
+            ]},
+    ]
+}
 
 var options_pubmed = {
+    start_date: "1809-01-01",
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -183,9 +186,11 @@ var options_pubmed = {
                 , {id: "validation studies", text: "Validation Studies", selected: true}
                 , {id: "video audio media", text: "Video Audio Media", selected: true}
                 , {id: "webcasts", text: "Webcasts", selected: true}]}
-    ]}
+    ]
+}
 
 var options_doaj = {
+    start_date: "1809",
     dropdowns: [
         {id: "year_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -207,6 +212,7 @@ var options_doaj = {
 }
 
 var options_base = {
+    start_date: "1665-01-01",
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -377,7 +383,7 @@ var SearchOptions = {
         });
 
     },
-    select_multi: function (dropdown_class, entity, width) {
+    select_multi: function (dropdown_class, entity, width, data) {
 
         var self = this;
 
@@ -401,7 +407,7 @@ var SearchOptions = {
                             d3.select("#input-container").style("display", "block");
                         }
 
-                        self.setDateRangeFromPreset("#from", "#to", element.val());
+                        self.setDateRangeFromPreset("#from", "#to", element.val(), data.start_date);
                     }
                 }
             });
