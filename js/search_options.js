@@ -417,10 +417,16 @@ var SearchOptions = {
     setDateRangeFromPreset: function (from, to, val, start_date) {
         var current_date = new Date();
         var current_year = current_date.getFullYear();
-
+        
         var start = new Date();
         var end = new Date();
-        end.setHours(start.getHours() + (start.getTimezoneOffset() / 60) * -1);
+        
+        //set ranges for date picker
+        var start_date_object = new Date(start_date);
+        var start_year = start_date_object.getFullYear();
+        var range = start_year + ":" + current_year;
+        $(from).datepicker("option", "yearRange", range);
+        $(to).datepicker("option", "yearRange", range);
         
         switch (val) {
 
@@ -431,19 +437,8 @@ var SearchOptions = {
 
                 //full date
             case "any-time":
-                if (typeof start_date === "undefined") {
-                    start.setTime(0);
-                } else {
-                    start.setTime(Date.parse(start_date))
-                }
+                start.setTime(Date.parse(start_date));
                 this.setDateFields(from, to, start, end);
-                
-                //set ranges for date picker
-                var start_date_object = new Date(start_date);
-                var start_year = start_date_object.getFullYear();
-                var range = start_year + ":" + current_year;
-                $(from).datepicker("option", "yearRange", range);
-                $(to).datepicker("option", "yearRange", range);
                 
                 break;
 
@@ -459,11 +454,7 @@ var SearchOptions = {
 
                 //years only
             case "any-time-years":
-                if (typeof start_date === "undefined") {
-                    $(from).val("1809");
-                } else {
-                    $(from).val(start_date);
-                }
+                $(from).val(start_date);
                 $(to).val(current_year);
                 break;
 
