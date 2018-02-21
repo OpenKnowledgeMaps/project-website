@@ -415,7 +415,7 @@ var SearchOptions = {
         var start = new Date();
         var end = new Date();
         end.setHours(start.getHours() + (start.getTimezoneOffset() / 60) * -1);
-
+        
         switch (val) {
 
             case "user-defined":
@@ -431,6 +431,14 @@ var SearchOptions = {
                     start.setTime(Date.parse(start_date))
                 }
                 this.setDateFields(from, to, start, end);
+                
+                //set ranges for date picker
+                var start_date_object = new Date(start_date);
+                var start_year = start_date_object.getFullYear();
+                var range = start_year + ":" + current_year;
+                $(from).datepicker("option", "yearRange", range);
+                $(to).datepicker("option", "yearRange", range);
+                
                 break;
 
             case "last-month":
@@ -488,7 +496,8 @@ var SearchOptions = {
         $(function () {
             $(from).datepicker({
                 changeMonth: true,
-                numberOfMonths: 3,
+                changeYear: true,
+                numberOfMonths: 1,
                 dateFormat: 'yy-mm-dd',
                 onClose: function (selectedDate) {
                     $(to).datepicker("option", "minDate", selectedDate);
@@ -496,7 +505,8 @@ var SearchOptions = {
             });
             $(to).datepicker({
                 changeMonth: true,
-                numberOfMonths: 3,
+                changeYear: true,
+                numberOfMonths: 1,
                 dateFormat: 'yy-mm-dd',
                 onClose: function (selectedDate) {
                     $(from).datepicker("option", "maxDate", selectedDate);
