@@ -501,7 +501,12 @@ var SearchOptions = {
                 dateFormat: 'yy-mm-dd',
                 onClose: function (selectedDate) {
                     $(to).datepicker("option", "minDate", selectedDate);
-                }
+                },
+                onChangeMonthYear:function(y, m, i){                                
+                    var d = i.selectedDay;
+                    $(this).datepicker('setDate', new Date(y, m - 1, d));
+                },
+                firstDay: 1
             });
             $(to).datepicker({
                 changeMonth: true,
@@ -510,7 +515,12 @@ var SearchOptions = {
                 dateFormat: 'yy-mm-dd',
                 onClose: function (selectedDate) {
                     $(from).datepicker("option", "maxDate", selectedDate);
-                }
+                },
+                onChangeMonthYear:function(y, m, i){                                
+                    var d = i.selectedDay;
+                    $(this).datepicker('setDate', new Date(y, m - 1, d));
+                },
+                firstDay: 1
             });
 
             self.setDateRangeFromPreset("#from", "#to", init_time_range, start_date);
