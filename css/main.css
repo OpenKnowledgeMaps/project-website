@@ -1172,7 +1172,7 @@ a .number:hover {
     color: #2d3e52;
 }
 
-.advisor p {
+.advisor p, .advisor ul {
     padding: 0px 20px 20px 20px;
     color: #2d3e52;
 }
@@ -2291,7 +2291,7 @@ time {
     .advisor h3, .name {
         font-size: 12px;
     }
-    .advisor p {
+    .advisor p, .advisor ul {
         font-size: 10px;
     }
 
@@ -2476,7 +2476,7 @@ time {
         font-size: 14px;
     }
 
-    .advisor p {
+    .advisor p, .advisor ul {
         padding: 0px 10px 0px 10px;
     }
 
