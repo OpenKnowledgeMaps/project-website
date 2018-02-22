@@ -28,7 +28,7 @@
                         <a target="_blank" href="http://twitter.com/PeterKraker"><img class="hoverlink" src="./img/team/peter.png" alt="Peter Kraker"></a>
                         <ul>
                             <li class="name">Peter Kraker</li>
-                            <li class="job-title">Founder & Chairman </li>
+                            <li class="job-title">Founder & Chairman</li>
                         </ul>
 
                         <ul class="contact-member">
