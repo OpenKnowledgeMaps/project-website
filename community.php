@@ -9,32 +9,28 @@
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
     </head>
 
-    <body class="about-page community-page">
+    <body class="team-page community-page">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
-        <div id="about-page">
-            <div class="background2">
+        <div id="team">
+            <div class="background2 bg4">
                 <div class="team">
                     <p>Our Community</p>
                     <p>is helping us to improve our service. Together we are changing the way we discover research.
-                        You can also help us shape open knowledge maps by <a class="underline" href="#enthusiast-program">becoming an enthusiast</a>.</p>
+                        You can also help us shape open knowledge maps by <a class="underline whitelink" href="#enthusiast-program">becoming an enthusiast</a>.</p>
                 </div>
             </div>
+
         </div>
-        <?php
-        $TIMELINE_ID = "733358003295035393";
-        $FEEBDACK_TITLE = "What our users say";
-        include($COMPONENTS_PATH . 'twitterstream.php');
-        ?>
-        <div id="team">
-            <div class="background2 bg2">
-                <div class="team">
-                    <p>Our Enthusiasts</p>
-                    <p>are spreading the word in events and workshops around the world and collect valuable feedback. 
-                    </p>
-                </div>
+
+
+        <div class="background2 bg2">
+            <div class="team">
+                <p>Our Enthusiasts</p>
+                <p>are spreading the word in events and workshops around the world and collect valuable feedback.</p>
             </div>
+
 
             <div class="advisorsdiv">
 
@@ -102,16 +98,21 @@
                         <ul>
                             <li class="name">Benedikt Fecher</li>
                             <li class="job-title">Program Director</li>
-                            <li class="organization">Humboldt-Institut für Internet und Gesellschaft</li>
+                            <li class="organization">Humboldt-Institut for Internet and Society</li>
                         </ul>
                     </div>
 
                 </div> 
-
-
             </div>
 
+            <?php
+            $TIMELINE_ID = "733358003295035393";
+            $FEEBDACK_TITLE = "What our enthusiasts say";
+            include($COMPONENTS_PATH . 'twitterstream.php');
+            ?>
+        </div>
 
-            <?php include($COMPONENTS_PATH . "become-enthusiast.php") ?>
-            <?php include($COMPONENTS_PATH . "newsletter.php") ?>
-            <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
+
+        <?php include($COMPONENTS_PATH . "become-enthusiast.php") ?>
+        <?php include($COMPONENTS_PATH . "newsletter.php") ?>
+        <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

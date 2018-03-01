@@ -75,6 +75,11 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
+.whitelink:hover {
+    color: white;
+}
+
+
 /*NAVIGATION*/
 
 header {
@@ -1050,8 +1055,12 @@ a .number:hover {
 }
 
 .community-page .member {
-     
     max-width: 350px;
+}
+
+.community-page .bg4 {
+    background-color: #51c9ae;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4));
 }
 
 .organizational-member {
@@ -1516,6 +1525,11 @@ time {
 .underline, .underline:focus {
     text-decoration: underline;
 }
+
+.whitelink {
+    color: white;
+}
+
 
 .pointer {
     cursor: pointer;
