@@ -1,4 +1,5 @@
 var options_plos = {
+    start_date: "1970-01-01",
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -80,10 +81,12 @@ var options_plos = {
                 , {id: "PLoSBiology", text: "PLOS Biology", selected: true}
                 , {id: "PLoSMedicine", text: "PLOS Medicine", selected: true}
                 , {id: "PLoSClinicalTrials", text: "PLOS Hub for Clinical Trials", selected: true}
-            ]}
-    ]}
+            ]},
+    ]
+}
 
 var options_pubmed = {
+    start_date: "1809-01-01",
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -183,9 +186,11 @@ var options_pubmed = {
                 , {id: "validation studies", text: "Validation Studies", selected: true}
                 , {id: "video audio media", text: "Video Audio Media", selected: true}
                 , {id: "webcasts", text: "Webcasts", selected: true}]}
-    ]}
+    ]
+}
 
 var options_doaj = {
+    start_date: "1809",
     dropdowns: [
         {id: "year_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -207,6 +212,7 @@ var options_doaj = {
 }
 
 var options_base = {
+    start_date: "1665-01-01",
     dropdowns: [
         {id: "time_range", multiple: false, name: "Time Range", type: "dropdown"
             , fields: [
@@ -377,7 +383,7 @@ var SearchOptions = {
         });
 
     },
-    select_multi: function (dropdown_class, entity, width) {
+    select_multi: function (dropdown_class, entity, width, data) {
 
         var self = this;
 
@@ -401,7 +407,7 @@ var SearchOptions = {
                             d3.select("#input-container").style("display", "block");
                         }
 
-                        self.setDateRangeFromPreset("#from", "#to", element.val());
+                        self.setDateRangeFromPreset("#from", "#to", element.val(), data.start_date);
                     }
                 }
             });
@@ -411,11 +417,17 @@ var SearchOptions = {
     setDateRangeFromPreset: function (from, to, val, start_date) {
         var current_date = new Date();
         var current_year = current_date.getFullYear();
-
+        
         var start = new Date();
         var end = new Date();
-        end.setHours(start.getHours() + (start.getTimezoneOffset() / 60) * -1);
-
+        
+        //set ranges for date picker
+        var start_date_object = new Date(start_date);
+        var start_year = start_date_object.getFullYear();
+        var range = start_year + ":" + current_year;
+        $(from).datepicker("option", "yearRange", range);
+        $(to).datepicker("option", "yearRange", range);
+        
         switch (val) {
 
             case "user-defined":
@@ -425,12 +437,9 @@ var SearchOptions = {
 
                 //full date
             case "any-time":
-                if (typeof start_date === "undefined") {
-                    start.setTime(0);
-                } else {
-                    start.setTime(Date.parse(start_date))
-                }
+                start.setTime(Date.parse(start_date));
                 this.setDateFields(from, to, start, end);
+                
                 break;
 
             case "last-month":
@@ -445,11 +454,7 @@ var SearchOptions = {
 
                 //years only
             case "any-time-years":
-                if (typeof start_date === "undefined") {
-                    $(from).val("1809");
-                } else {
-                    $(from).val(start_date);
-                }
+                $(from).val(start_date);
                 $(to).val(current_year);
                 break;
 
@@ -488,19 +493,25 @@ var SearchOptions = {
         $(function () {
             $(from).datepicker({
                 changeMonth: true,
-                numberOfMonths: 3,
+                changeYear: true,
+                numberOfMonths: 1,
                 dateFormat: 'yy-mm-dd',
-                onClose: function (selectedDate) {
-                    $(to).datepicker("option", "minDate", selectedDate);
-                }
+                onChangeMonthYear:function(y, m, i){                                
+                    var d = i.selectedDay;
+                    $(this).datepicker('setDate', new Date(y, m - 1, d));
+                },
+                firstDay: 1
             });
             $(to).datepicker({
                 changeMonth: true,
-                numberOfMonths: 3,
+                changeYear: true,
+                numberOfMonths: 1,
                 dateFormat: 'yy-mm-dd',
-                onClose: function (selectedDate) {
-                    $(from).datepicker("option", "maxDate", selectedDate);
-                }
+                onChangeMonthYear:function(y, m, i){                                
+                    var d = i.selectedDay;
+                    $(this).datepicker('setDate', new Date(y, m - 1, d));
+                },
+                firstDay: 1
             });
 
             self.setDateRangeFromPreset("#from", "#to", init_time_range, start_date);
