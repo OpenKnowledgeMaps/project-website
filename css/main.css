@@ -1039,22 +1039,28 @@ a .number:hover {
 
 .member, .organizational-member {
     display: inline-block;
-
     margin: 20px;
     vertical-align: top;
     background-repeat:no-repeat;
     background-size: 100%;
 }
 
-.member {
-    background-image:url(../img/link.png); 
+.member, .member img {
     max-width: 165px;
+}
+
+.community-page .member {
+     
+    max-width: 350px;
 }
 
 .organizational-member {
     max-width: 240px;
 }
-.member img {
+.memberimage {
+    background-image:url(../img/link.png);
+    background-size: 100%;
+    max-width: 165px;
     display: inline-block;
 }
 

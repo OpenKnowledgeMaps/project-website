@@ -9,7 +9,7 @@
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
     </head>
 
-    <body class="about-page">
+    <body class="about-page community-page">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
@@ -18,7 +18,7 @@
                 <div class="team">
                     <p>Our Community</p>
                     <p>is helping us to improve our service. Together we are changing the way we discover research.
-                    You can also help us shape open knowledge maps by <a class="underline" href="#enthusiast-program">becoming an enthusiast</a>.</p>
+                        You can also help us shape open knowledge maps by <a class="underline" href="#enthusiast-program">becoming an enthusiast</a>.</p>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                 <div class="team">
                     <p>Our Enthusiasts</p>
                     <p>are spreading the word in events and workshops around the world and collect valuable feedback. 
-                        </p>
+                    </p>
                 </div>
             </div>
 
@@ -41,19 +41,71 @@
                 <div id="members">
 
                     <div class="member">
-                        <a target="_blank" href=""><img class="hoverlink" src="./img/enthusiasts/x.png" alt=""></a>
+                        <div class="memberimage">
+                            <a target="_blank" href="https://refigure.org/"><img class="hoverlink" src="./img/enthusiasts/girija.png" alt="OK Maps Enthusiast"></a>
+                        </div>
                         <ul>
-                            <li class="name">Name</li>
-                            <li class="job-title">Short description</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href=""><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                            <li class="name">Girija Goyal</li>
+                            <li class="job-title">Co-founder</li>
+                            <li class="organization">ReFigure.org</li>
                         </ul>
                     </div>
 
-                    
+                    <div class="member">
+                        <div class="memberimage">
+                            <a target="_blank" href="https://twitter.com/ametodico"><img class="hoverlink" src="./img/enthusiasts/ricardo.png" alt="OK Maps Enthusiast"></a>
+                        </div>
+                        <ul>
+                            <li class="name">Ricardo Hartley Belmar</li>
+                            <li class="job-title">Academic</li>
+                            <li class="organization">Universidad Central de Chile</li>
+                        </ul>
+                    </div>
+
+                    <div class="member">
+                        <div class="memberimage">
+                            <a target="_blank" href="https://twitter.com/amiefairs"><img class="hoverlink" src="./img/enthusiasts/amie.png" alt="OK Maps Enthusiast"></a>
+                        </div>
+                        <ul>
+                            <li class="name">Amie Fairs</li>
+                            <li class="job-title">PhD candidate</li>
+                            <li class="organization">Max Planck Institute for Psycholinguistics</li>
+                        </ul>
+                    </div>
+
+                    <div class="member">
+                        <div class="memberimage">
+                            <a target="_blank" href="https://twitter.com/jermy_pee"><img class="hoverlink" src="./img/enthusiasts/jeremiah.png" alt="OK Maps Enthusiast"></a>
+                        </div>
+                        <ul>
+                            <li class="name">Jeremiah Pietersen</li>
+                            <li class="job-title">Digital Scholarship Specialist</li>
+                            <li class="organization">University of Cape Town Libraries</li>
+                        </ul>
+                    </div>
+
+                    <div class="member">
+                        <div class="memberimage">
+                            <a target="_blank" href="https://www.linkedin.com/in/maria-ines-plaza-schwarck-9825962/"><img class="hoverlink" src="./img/enthusiasts/mari.png" alt="OK Maps Enthusiast"></a>
+                        </div>
+                        <ul>
+                            <li class="name">Mari Plaza</li>
+                            <li class="job-title">Data Scientist</li>
+                        </ul>
+                    </div>
+
+
+                    <div class="member">
+                        <div class="memberimage">
+                            <img src="./img/enthusiasts/benedikt.png" alt="OK Maps Enthusiast">
+                        </div>
+                        <ul>
+                            <li class="name">Benedikt Fecher</li>
+                            <li class="job-title">Program Director</li>
+                            <li class="organization">Humboldt-Institut für Internet und Gesellschaft</li>
+                        </ul>
+                    </div>
+
                 </div> 
 
 
