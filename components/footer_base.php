@@ -24,6 +24,7 @@
         <ul class="nav_bottom">
             <li><a href="imprint"><span class="awesome">&#xf0c1;</span> Imprint</a></li>
             <li><a href="privacy"><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
+            <li><a href="community-guidelines"><span class="awesome">&#xf0c0;</span> Community participation guidelines</a></li>
             <li><a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank"><span class="awesome">&#xf278;</span> Roadmap</a></li>
             <!--<li class="seitenanfang"><a href="#top"><span class="awesome">&#xf106;</span> back to top</a></li>-->
         </ul>
