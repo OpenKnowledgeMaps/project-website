@@ -968,6 +968,11 @@ a .number:hover {
     color: #e55137;
 }
 
+.cgp li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
 /*team page*/
 #team {
     padding-top: 90px;
