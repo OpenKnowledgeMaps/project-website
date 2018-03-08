@@ -25,12 +25,12 @@
                 <div id="members">
 
                     <div class="member">
-                        <a target="_blank" href="http://twitter.com/PeterKraker"><img class="hoverlink" src="./img/team/peter.png" alt="Peter Kraker"></a>
+                        <img src="./img/team/peter.png" alt="Peter Kraker">
                         <ul>
                             <li class="name">Peter Kraker</li>
                             <li class="job-title">Founder & Chairman</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:pkraker@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="http://twitter.com/PeterKraker"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -38,12 +38,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="http://looove-design.com"><img class="hoverlink" src="./img/team/maxi.png" alt="Maxi Schramm"></a>
+                        <img src="./img/team/maxi.png" alt="Maxi Schramm">
                         <ul>
                             <li class="name">Maxi Schramm</li>
                             <li class="job-title">Design & Coordination</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:maxi@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="http://looove-design.com"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -51,12 +51,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="http://www.christopherkittel.eu/"><img class="hoverlink" src="./img/team/chris.png" alt="Christopher Kittel"></a>
+                        <img src="./img/team/chris.png" alt="Christopher Kittel">
                         <ul>
                             <li class="name">Christopher Kittel</li>
                             <li class="job-title">Data Science</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:christopher.kittel@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="http://www.christopherkittel.eu/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -64,12 +64,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="https://twitter.com/asuraenkhbayar"><img class="hoverlink" src="./img/team/asura.png" alt="Asura"></a>
+                        <img src="./img/team/asura.png" alt="Asura">
                         <ul>
                             <li class="name">Asura Enkhbayar</li>
                             <li class="job-title">Software Architect</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:asura@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://twitter.com/asuraenkhbayar"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -77,12 +77,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="http://ropensci.org"><img class="hoverlink" src="./img/team/scott.png" alt="Scott Chamberlain"></a>
+                        <img src="./img/team/scott.png" alt="Scott Chamberlain">
                         <ul>
                             <li class="name">Scott Chamberlain</li>
                             <li class="job-title">Data Sources</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:scott@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="http://ropensci.org"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -90,12 +90,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="https://twitter.com/rabachleitner"><img class="hoverlink" src="./img/team/rainer.png" alt="Rainer"></a>
+                        <img src="./img/team/rainer.png" alt="Rainer">
                         <ul>
                             <li class="name">Rainer Bachleitner</li>
                             <li class="job-title">Frontend Developer</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:rbachleitner@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://twitter.com/rabachleitner"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -103,12 +103,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9"><img class="hoverlink" src="./img/team/fabian.png" alt="Fabian"></a>
+                        <img src="./img/team/fabian.png" alt="Fabian">
                         <ul>
                             <li class="name">Fabian Kraut</li>
                             <li class="job-title">Communication</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" class="contact-icon" target="_blank" href="mailto:fkraut@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" class="contact-icon" target="_blank" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -116,12 +116,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="http://findresearcher.sdu.dk:8080/portal/en/person/nas"><img class="hoverlink" src="./img/team/najmeh.png" alt="Najmeh"></a>
+                        <img src="./img/team/najmeh.png" alt="Najmeh">
                         <ul>
                             <li class="name">Najmeh Shaghaei</li>
                             <li class="job-title">Community Coordination</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:n.shaghaei@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="http://findresearcher.sdu.dk:8080/portal/en/person/nas"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -129,12 +129,12 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="http://brembs.net"><img class="hoverlink" src="./img/team/bjorn.png" alt="Bjorn"></a>
+                        <img src="./img/team/bjorn.png" alt="Bjorn">
                         <ul>
                             <li class="name">Björn Brembs</li>
                             <li class="job-title">Requirements & Evaluation</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:brembs@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="http://brembs.net"><i class="fa fa-link" aria-hidden="true"></i></a></li>
@@ -142,30 +142,43 @@
                     </div>
 
                     <div class="member">
-                        <a target="_blank" href="https://github.com/jaels"><img class="hoverlink" src="./img/team/jaels.png" alt="Yael"></a>
+                        <img src="./img/team/jaels.png" alt="Yael">
                         <ul>
                             <li class="name">Yael Stein</li>
                             <li class="job-title">Frontend Developer</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:jaels@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://github.com/jaels"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    
-                    <div class="organizational-member">
-                        <a target="_blank" href="http://www.know-center.tugraz.at/"><img src="./img/team/knowcenter.png" alt="Know Center"></a>
+
+                    <div class="member">
+                        <img src="./img/team/thomas.png" alt="Thomas">
+                        <ul>
+                            <li class="name">Thomas Arrow</li>
+                            <li class="job-title">Frontend Developer</li>
+                        </ul>
+
+                        <ul class="contact-member">
+                            <li><a class="contact-icon" target="_blank" href="mailto:tom@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="https://github.com/tarrow/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="member">
+                        <img src="./img/team/knowcenter.png" alt="Know Center">
                         <ul>
                             <li class="name">Know Center</li>
                             <li class="job-title">Organizational member</li>
                         </ul>
-                        
+
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="http://www.know-center.tugraz.at/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    
+
                     <!-- list of former members -->
                     <div class="alumni"><h3>Former team members include:</h3>
                         <a target="_blank" class="underline" href="http://www.michaelskaug.com/">Mike Skaug</a>, 

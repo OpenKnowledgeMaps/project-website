@@ -1039,7 +1039,6 @@ a .number:hover {
 
 .member, .organizational-member {
     display: inline-block;
-
     margin: 20px;
     vertical-align: top;
     background-repeat:no-repeat;
@@ -1047,13 +1046,10 @@ a .number:hover {
 }
 
 .member {
-    background-image:url(../img/link.png); 
+    /*background-image:url(../img/link.png);*/
     max-width: 165px;
 }
 
-.organizational-member {
-    max-width: 240px;
-}
 .member img {
     display: inline-block;
 }
