@@ -103,7 +103,7 @@ var options_pubmed = {
             , fields: [
                 {id: "most-relevant", text: "Most relevant"}
                 , {id: "most-recent", text: "Most recent"}
-            ]},
+            ]}/*,
         {id: "article_types", multiple: true, width: "140px", name: "Article types", type: "dropdown"
             , fields: [
                 {id: "adaptive clinical trial", text: "Adaptive Clinical Trial", selected: true}
@@ -188,7 +188,7 @@ var options_pubmed = {
                 , {id: "twin study", text: "Twin Study", selected: true}
                 , {id: "validation studies", text: "Validation Studies", selected: true}
                 , {id: "video audio media", text: "Video Audio Media", selected: true}
-                , {id: "webcasts", text: "Webcasts", selected: true}]}
+                , {id: "webcasts", text: "Webcasts", selected: true}]}*/
     ]
 }
 
