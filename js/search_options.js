@@ -103,8 +103,8 @@ var options_pubmed = {
             , fields: [
                 {id: "most-relevant", text: "Most relevant"}
                 , {id: "most-recent", text: "Most recent"}
-            ]}/*,
-        {id: "article_types", multiple: true, width: "140px", name: "Article types", type: "dropdown"
+            ]},
+        {id: "article_types", multiple: true, width: "140px", name: "Article types", type: "dropdown", display: "none"
             , fields: [
                 {id: "adaptive clinical trial", text: "Adaptive Clinical Trial", selected: true}
                 , {id: "addresses", text: "Addresses", selected: true}
@@ -188,7 +188,7 @@ var options_pubmed = {
                 , {id: "twin study", text: "Twin Study", selected: true}
                 , {id: "validation studies", text: "Validation Studies", selected: true}
                 , {id: "video audio media", text: "Video Audio Media", selected: true}
-                , {id: "webcasts", text: "Webcasts", selected: true}]}*/
+                , {id: "webcasts", text: "Webcasts", selected: true}]}
     ]
 }
 
@@ -294,6 +294,10 @@ var SearchOptions = {
                 .attr('class', 'divity frontend-hidden')
 
         data.dropdowns.forEach(function (entry) {
+            
+            if(entry.hasOwnProperty("display") && entry.display === "none") {
+                return;
+            }
 
             if (entry.type == "input") {
                 var new_input = filters.insert("div", "#input-container")
