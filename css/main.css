@@ -1050,6 +1050,10 @@ a .number:hover {
     max-width: 165px;
 }
 
+.organizational-member {
+    max-width: 235px;
+}
+
 .member img {
     display: inline-block;
 }

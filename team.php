@@ -167,7 +167,7 @@
                         </ul>
                     </div>
 
-                    <div class="member">
+                    <div class="organizational-member">
                         <img src="./img/team/knowcenter.png" alt="Know Center">
                         <ul>
                             <li class="name">Know Center</li>
