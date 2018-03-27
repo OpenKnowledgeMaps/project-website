@@ -17,8 +17,8 @@
             <div class="background2 bg4">
                 <div class="team">
                     <p>Our Community</p>
-                    <p>is helping us to improve our service. Together we are changing the way we discover research.
-                        You can also help us shape open knowledge maps by <a class="underline whitelink" href="#enthusiast-program">becoming an enthusiast</a>.</p>
+                    <p>We are driven by our community: only together can we change the way we discover research.
+                        Do you also want to make a difference? Then consider <a class="underline whitelink" href="#enthusiast-program">becoming an enthusiast</a>! In any case, <a class="underline whitelink" href="./getintouch">get in touch</a>.</p>
                 </div>
             </div>
 
@@ -28,7 +28,7 @@
         <div class="background2 bg2">
             <div class="team">
                 <p>Our Enthusiasts</p>
-                <p>are spreading the word in events and workshops around the world and collect valuable feedback.</p>
+                <p>play a critical role in shaping Open Knowledge Maps. They are power users and ambassadors from all over the world, spreading the word in events and workshops and providing valuable feedback.</p>
             </div>
 
 
@@ -109,7 +109,7 @@
             $TIMELINE_ID = "733358003295035393";
             $FEEBDACK_TITLE = "What our enthusiasts say";
             include($COMPONENTS_PATH . 'twitterstream.php');
-            ?>
+            ?>            
         </div>
 
 
