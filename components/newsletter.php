@@ -47,13 +47,18 @@
                     <div class="response" id="mce-success-response" style="display:none"></div>
                 </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                 <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c399f89442d6aa733a9896515_3ff20c12f9" tabindex="-1" value=""></div>
+                <p style="font-size:10pt; margin: 10px 0px;">By clicking the button below, you subscribe to our newsletter. 
+                We use your e-mail address to send you periodic updates. 
+                You can unsubscribe at any time by clicking on a dedicated link in the newsletter, in which case we will also delete your data. 
+                We use a GDPR-compliant service such as MailChimp to manage your data, to send out e-mails and 
+                to conduct statistical analysis of newsletter use.
                 <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="frontend-btn"></div>
             </div>
 
             <p id="alternate-signup" style="display:none"> 
                 <a href="http://eepurl.com/cjRDZL" target="_blank" class="underline"><i class="fa fa-envelope" aria-hidden="true"></i> To sign up, please use this link</a>
             </p>
-
+            
         </form>
     </div>
     </div>
