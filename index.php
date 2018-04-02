@@ -19,7 +19,7 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
         <?php
-        $default_lib = "base";
+        $default_lib = $DEFAULT_LIB;
         if (isset($_GET["lib"])) {
             $default_lib = $_GET["lib"];
         }

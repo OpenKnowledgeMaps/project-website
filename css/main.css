@@ -36,6 +36,16 @@ p {
     font-weight: 800;
     color: #2c3e52;
 }
+
+.greyed_out {
+    color: #c0c0c0;
+}
+
+.error-message {
+    color: #e55137;
+    font-size: 14px;
+}
+
 img {
     vertical-align: middle;
     max-width:100%;
@@ -2383,6 +2393,10 @@ time {
 
     #newsletterdiv h3, #newsletterdiv, #partnerdiv, #networkdiv {
         font-size: 14px;
+    }
+    
+    .error-message {
+        font-size: 12px;
     }
 
     #partnerdiv, #networkdiv {
