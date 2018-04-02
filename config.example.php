@@ -8,7 +8,10 @@ $LIB_PATH = "lib/";
 $SNAPSHOT_PATH = $HEADSTART_URL . "server/storage/";
 
 $PIWIK_ENABLED = false;
-$PIWIK_PATH = "piwik/"
+$PIWIK_PATH = "piwik/";
+
+$DEFAULT_LIB = "base";
+$DOAJ_FALLBACK = false;
 
 ?>
 

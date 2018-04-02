@@ -36,6 +36,11 @@ p {
     font-weight: 800;
     color: #2c3e52;
 }
+
+.greyed_out {
+    color: #c8c8c8;
+}
+
 img {
     vertical-align: middle;
     max-width:100%;
