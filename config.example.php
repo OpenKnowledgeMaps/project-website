@@ -11,6 +11,7 @@ $PIWIK_ENABLED = false;
 $PIWIK_PATH = "piwik/";
 
 $DEFAULT_LIB = "base";
+$BASE_DOWN = false;
 $DOAJ_FALLBACK = false;
 
 ?>
