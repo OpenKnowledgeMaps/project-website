@@ -12,6 +12,7 @@
         <!--<li><a href="index#discover">Discover Maps</a></li>-->
 
         <a href="team#team"><li>Team</li></a>
+        <a href="community"><li>Community</li></a>
         <a href="news"><li>News</li></a>
         <a href="faq"><li>FAQ</li></a>
         <a href="getintouch"><li>Get in touch</li></a>
@@ -33,6 +34,7 @@
     <li><a href="index#search">Search</a></li>
     <li><a href="about">About</a></li>
     <li><a href="team#team">Team</a></li>
+    <li><a href="community">Community</a></li>
     <li><a href="news">News</a></li>
     <li><a href="faq">FAQ</a></li>
     <li><a href="getintouch">Get in touch</a></li>

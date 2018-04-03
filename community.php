@@ -44,6 +44,7 @@
                             <li class="name">Girija Goyal</li>
                             <li class="job-title">Co-founder</li>
                             <li class="organization">ReFigure.org</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> USA</li>
                         </ul>
                     </div>
 
@@ -55,6 +56,7 @@
                             <li class="name">Ricardo Hartley Belmar</li>
                             <li class="job-title">Academic</li>
                             <li class="organization">Universidad Central de Chile</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Chile</li>
                         </ul>
                     </div>
 
@@ -66,6 +68,7 @@
                             <li class="name">Amie Fairs</li>
                             <li class="job-title">PhD candidate</li>
                             <li class="organization">Max Planck Institute for Psycholinguistics</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Netherlands</li>
                         </ul>
                     </div>
 
@@ -77,6 +80,7 @@
                             <li class="name">Jeremiah Pietersen</li>
                             <li class="job-title">Digital Scholarship Specialist</li>
                             <li class="organization">University of Cape Town Libraries</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> South Africa</li>
                         </ul>
                     </div>
 
@@ -87,6 +91,7 @@
                         <ul>
                             <li class="name">Mari Plaza</li>
                             <li class="job-title">Data Scientist</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Austria</li>
                         </ul>
                     </div>
 
@@ -99,6 +104,7 @@
                             <li class="name">Benedikt Fecher</li>
                             <li class="job-title">Program Director</li>
                             <li class="organization">Humboldt-Institut for Internet and Society</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Germany</li>
                         </ul>
                     </div>
 
@@ -114,5 +120,6 @@
 
 
         <?php include($COMPONENTS_PATH . "become-enthusiast.php") ?>
+        <?php include($COMPONENTS_PATH . "program-coordination.php") ?>
         <?php include($COMPONENTS_PATH . "newsletter.php") ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

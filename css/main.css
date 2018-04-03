@@ -30,9 +30,10 @@ body {
 
 p {
     text-align: left;
+    /*max-width: 750px;*/
 }
 
-.bold {
+.bold, b {
     font-weight: 800;
     color: #2c3e52;
 }
@@ -431,6 +432,14 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-size: 100%;
 }
 
+.enthusiast-bg {
+    background-image: url(../img/supporters.png);
+    background-color: white;
+    background-repeat: no-repeat; 
+    background-position: 100% 70%;
+    background-size: 100%;
+}
+
 #newsletterdiv #mc_embed_signup div.mce_inline_error {
     background-color: transparent !important;
     color: #e55137 !important;
@@ -627,7 +636,8 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 170%;
-    text-align: left;
+    
+    /*text-align: left;*/
 }
 
 h2.dunkelblau {
@@ -856,6 +866,25 @@ a .number:hover {
     margin: 10px 0;
 }
 
+/*HOW TO BECOME AN ENTHUSIAST*/
+#howtoep p{
+  margin:0px auto;
+}
+
+.eprunby .member img {
+    max-width: 110px;
+    text-align: center;
+}
+
+.eprunby {
+    border-top: 1px solid #cacfd3;
+    padding: 50px 0;
+}
+
+#enthusiasts .try-now {
+    margin-bottom: 50px;
+}
+
 /*ABOUT*/
 #about-page, #news {
     background-color: white;
@@ -874,7 +903,7 @@ a .number:hover {
     padding-bottom: 50px;
 }
 
-#about-page .background2, #news .background2 {
+#about-page .background2 {
     background-color: white;
 }
 
@@ -1026,8 +1055,8 @@ a .number:hover {
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)), url(../img/newsbg.png);
     background-size:100%;
     background-repeat: repeat;
-    background-color: #ea9940;
     background-position: 100% 10%;
+    background-color: #eff3f4;
 }
 
 .faqx .background2 {
@@ -1059,10 +1088,14 @@ a .number:hover {
     max-width: 165px;
 }
 
+
+
 .community-page .member {
     max-width: 350px;
 }
-
+.community-page .bs-example {
+    background-color: #51c9ae;
+}
 .community-page .bg4 {
     background-color: #51c9ae;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4));
@@ -1292,6 +1325,11 @@ input[type="radio"] {
 #divhow {
     /*background-color: white;*/
     padding: 100px 0px 100px 30px;
+}
+
+#divhow.supportus {
+    /*background-color: white;*/
+    padding: 100px 0px 50px 30px;
 }
 
 sup {
@@ -2526,6 +2564,7 @@ time {
         background-image: none;
         background-size: 100%;
         margin-bottom: 0px;
+        background-color: white;
     }
 
     .headerimage {

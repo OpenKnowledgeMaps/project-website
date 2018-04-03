@@ -14,19 +14,16 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
 
-        <div id="news">  
-            <div class="headerimage"><img src="./img/faqx2.png"></div>
-            <div class="background2">
-                <div class="team">
-                    <p>Community participation guidelines</p>
+        <div id="imprint">  
+
+            <div style="max-width:100%;">
+                <div class="faq">
+                    <h2>Community participation guidelines</h2>
                     <p>Open Knowledge Maps is driven by people from all over the world, who are passionate about better 
                         and more open solutions for discovery. Our goal is to create a respectful, sustainable and 
                         inclusive environment for everyone involved. As such, we have adopted these guidelines, 
                         which are aligned with our core values of openness, diversity, and common good.</p>
                 </div>
-            </div>
-
-            <div style="max-width:100%;">
                 <div class="faq">
                     <p>We require all those who participate to agree and adhere to the Community Participation Guidelines in 
                         order to help us create a safe and positive experience for all. These guidelines outline our behavior 
@@ -128,7 +125,7 @@
                     </p>
 
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         Attribution
@@ -138,9 +135,9 @@
                     <ul class="cgp">
                         <li><a class="underline" target="_blank" href="http://contributor-covenant.org/version/1/4">atom Code of Conduct, available at</a></li>
                         <li><a class="underline" target="_blank" href="https://www.mozilla.org/about/governance/policies/participation/">
-                            Mozilla Community Participation Guidelines, available at</a> 
-</li>
-<li><a class="underline" target="_blank" href="http://www.opencon2017.org/code_of_conduct">OpenCon Code of Conduct, available at</a></li>
+                                Mozilla Community Participation Guidelines, available at</a> 
+                        </li>
+                        <li><a class="underline" target="_blank" href="http://www.opencon2017.org/code_of_conduct">OpenCon Code of Conduct, available at</a></li>
                     </ul>
                 </div>
 
