@@ -112,9 +112,9 @@
             </div>
 
             <?php
-            $TIMELINE_ID = "733358003295035393";
-            $FEEBDACK_TITLE = "What our enthusiasts say";
-            include($COMPONENTS_PATH . 'twitterstream.php');
+            $COMMENT_TITLE = "What our enthusiasts say";
+            $COMMENT_IMAGES_URL = "./img/enthusiasts/ep-statements/";
+            include($COMPONENTS_PATH . 'commentstream.php');
             ?>            
         </div>
 
