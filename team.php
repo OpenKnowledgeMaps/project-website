@@ -59,7 +59,7 @@
 
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:christopher.kittel@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="http://contentmine.org"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="http://www.christopherkittel.eu/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 
@@ -151,6 +151,19 @@
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:jaels@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://github.com/jaels"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="member">
+                        <img src="./img/team/thomas.png" alt="Thomas">
+                        <ul>
+                            <li class="name">Thomas Arrow</li>
+                            <li class="job-title">Frontend Developer</li>
+                        </ul>
+
+                        <ul class="contact-member">
+                            <li><a class="contact-icon" target="_blank" href="mailto:tom@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="https://github.com/tarrow/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 

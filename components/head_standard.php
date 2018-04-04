@@ -43,14 +43,15 @@
 <meta name="keywords" content="knowldege visualization, open knowledge, open science" >
 
 <!-- FAVICONS -->
-<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png?v=694Pz9mPLx">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=694Pz9mPLx">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=694Pz9mPLx">
-<link rel="manifest" href="/manifest.json?v=694Pz9mPLx">
-<link rel="mask-icon" href="/safari-pinned-tab.svg?v=694Pz9mPLx" color="#2d3e52">
-<link rel="shortcut icon" href="/favicon.ico?v=694Pz9mPLx">
-<meta name="apple-mobile-web-app-title" content="<?php echo getLabel("app-name") ?>">
-<meta name="application-name" content="<?php echo getLabel("app-name") ?>">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=xQz6nej7eR">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=xQz6nej7eR">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=xQz6nej7eR">
+<link rel="manifest" href="/site.webmanifest?v=xQz6nej7eR">
+<link rel="mask-icon" href="/safari-pinned-tab.svg?v=xQz6nej7eR" color="#263d54">
+<link rel="shortcut icon" href="/favicon.ico?v=xQz6nej7eR">
+<meta name="apple-mobile-web-app-title" content="OKMaps">
+<meta name="application-name" content="OKMaps">
+<meta name="msapplication-TileColor" content="#263d54">
 <meta name="theme-color" content="#ffffff">
 
 <meta name="description" content="<?php echo getLabel("description") ?>" >
