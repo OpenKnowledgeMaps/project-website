@@ -206,6 +206,16 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     text-decoration: none;
 }
 
+.static-button:hover {
+    border-radius: 5px;
+    padding:5px;
+    border: 2px solid #eee;
+    color: #2d3e52; 
+    background-color: #eee;
+    font-weight: 300;
+    text-decoration: none;
+}
+
 #newsletterdiv, #partnerdiv, #networkdiv {
     padding: 50px 0px;
     font-size: 18px;
@@ -433,11 +443,11 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .enthusiast-bg {
-    background-image: url(../img/supporters.png);
+    background-image: url(../img/share-heart.png);
     background-color: white;
     background-repeat: no-repeat; 
-    background-position: 100% 70%;
-    background-size: 100%;
+    background-position: 90% 40%;
+    /*background-size: 100%;*/
 }
 
 #newsletterdiv #mc_embed_signup div.mce_inline_error {
@@ -560,12 +570,18 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     display: block;
     color: white;
     background-color: transparent;
-    line-height: 140%;
+    line-height: 180%;
     padding: 0px 0px 0px;
 }
 
 .nav_bottom a {
     color: white;
+    text-decoration: underline;
+}
+
+.nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus  {
+    color: white;
+    text-decoration: none;
 }
 
 address {
@@ -587,7 +603,7 @@ address a {
     color: white;
 }
 
-address a:hover, address a:focus, address a:active, .nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus {
+address a:hover, address a:focus, address a:active {
     color: white;
     text-decoration: underline;
 }
@@ -636,7 +652,7 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 170%;
-    
+
     /*text-align: left;*/
 }
 
@@ -823,10 +839,14 @@ a .number:hover {
     display:inline-block; 
     vertical-align:top;
     margin-right: 40px;
-    max-width: 340px;
+    max-width: 300px;
     font-size: 16px;
     margin-bottom: 20px;
     text-align: left;
+}
+
+.okm-ngo {
+    max-width: 400px;
 }
 
 .partners {
@@ -868,7 +888,7 @@ a .number:hover {
 
 /*HOW TO BECOME AN ENTHUSIAST*/
 #howtoep p{
-  margin:0px auto;
+    margin:0px auto;
 }
 
 .eprunby .member img {
@@ -877,7 +897,6 @@ a .number:hover {
 }
 
 .eprunby {
-    border-top: 1px solid #cacfd3;
     padding: 50px 0;
 }
 
@@ -1064,7 +1083,7 @@ a .number:hover {
     background-size:100%;
     background-repeat: repeat;
     background-color: #5598cc;
-    background-position: 100% 10%;
+    background-position: 100% 70%;
     margin-bottom: 50px;
 }
 
@@ -1088,17 +1107,21 @@ a .number:hover {
     max-width: 165px;
 }
 
-
+.community-page #members {
+    max-width: 1000px;
+}
 
 .community-page .member {
     max-width: 350px;
 }
-.community-page .bs-example {
-    background-color: #51c9ae;
+.community-page .bs-example, .community-page .bg4 {
+    background-color: #ea9940;
 }
 .community-page .bg4 {
-    background-color: #51c9ae;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/community-bg.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: 100% 80%;
 }
 
 .organizational-member {
@@ -1774,6 +1797,9 @@ time {
 
 @media screen and (max-width: 1020px) {
 
+    #team, #about-page, #news {
+        padding-top: 70px;
+    }
     .mittig {
         margin: 50px auto 0;
     }
@@ -1990,6 +2016,10 @@ time {
 
     #whatsthis-page .icon-description {
         width: 100%;
+    }
+
+    .enthusiast-bg {
+        background-image: none;
     }
 
 }
@@ -2530,6 +2560,10 @@ time {
         height: 210px;
     }
 
+    .community-page .carousel-inner {
+        height: 160px;
+    }
+
     .description-headstart {
         width: 70%;
         border: 0px solid #2d3e52;
@@ -2560,7 +2594,7 @@ time {
         font-size: 14px;
     }
 
-    .getintouchpage .background2, .faqx #news .background2, .updates #news .background2 {
+    .getintouchpage .background2, .faqx #news .background2, .updates #news .background2, .community-page .background2  {
         background-image: none;
         background-size: 100%;
         margin-bottom: 0px;
@@ -2572,7 +2606,7 @@ time {
         width:100%;
     }
 
-    .getintouchpage #news .background2 p, .faqx #news .background2 p {
+    .getintouchpage #news .background2 p, .faqx #news .background2 p, .community-page .background2 p,  .community-page .background2 a {
         color: #2d3e52;
     }
 }

@@ -18,39 +18,44 @@
         </a>
 
     </div>
+
+    <div class="twitterbutton"><a class="static-button"
+                                  href="mailto:n.shaghaei@openknowledgemaps.org" target="_blank"
+                                  accesskey=""data-size="large" data-show-count="false">
+            Become an enthusiast</a></div>
 </div>
 
 <script>
-    
+
     $(document).ready(function () {
         $('#myCarousel').carousel({
             interval: false
         });
-        
+
         var container = $(".carousel-inner"),
-        status = 200,
-        index = 1,
-        url = "<?php echo $COMMENT_IMAGES_URL ?>";
-        
+                status = 200,
+                index = 1,
+                url = "<?php echo $COMMENT_IMAGES_URL ?>";
+
         container.addClass("static");
-        
-        while(status !== 404) {
+
+        while (status !== 404) {
             var http = new XMLHttpRequest(),
-            fileurl = url + "statement-" + index + ".jpg";
+                    fileurl = url + "statement-" + index + ".png";
             http.open('HEAD', fileurl, false);
             http.send();
             status = http.status;
             if (status !== 404) {
                 var div = $('<div class="item' + ((index === 1) ? ' active' : '') + '"></div>'),
-                divInner = $('<div class="carousel-content"></div>');
+                        divInner = $('<div class="carousel-content"></div>');
                 div.append(divInner.html('<img src="' + fileurl + '" width=464>'));
-                
+
                 container.append(div);
             }
-            
+
             index++;
         }
-        
+
 
         $('.carousel-num').html('<span class="slideNr">1</span>/' + $('.item').length);
 

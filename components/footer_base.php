@@ -2,10 +2,23 @@
 
     <span class="anchor" id="contact"></span>
 
-    <div class="info">
+    <div class="info okm-ngo">
         <h3 style="margin-bottom: 10px;">Open Knowledge Maps</h3>
         is a non-profit organization dedicated to improving the visibility 
         of scientific knowledge for science and society.
+        <br><br>
+        Unless otherwise noted, all content on openknowledgemaps.org is licensed under a 
+        <a class="licenselink" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
+        Our software is open source and hosted <a class="licenselink" href="https://github.com/OpenKnowledgeMaps" target="_blank">on Github</a>.
+        <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img class="licenseimg"src="./img/cc-by.png" alt="licensed under cc by"></a>
+    </div>
+    
+    <div class="info">
+        <h3 style="margin-bottom: 10px;">Newsletter sign-up</h3>
+        Receive regular updates on the newest improvements.
+        <ul class="nav_bottom">
+        <li><a href="http://eepurl.com/cjRDZL" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
+        </ul>
     </div>
 
     <div class="info">
@@ -19,7 +32,7 @@
         </address>
     </div>
 
-    <div class="info">
+    <div class="info" style="margin-right: 0px;">
         <h3 style="margin-bottom: 10px;">Details</h3>
         <ul class="nav_bottom">
             <li><a href="imprint"><span class="awesome">&#xf0c1;</span> Imprint</a></li>
@@ -30,14 +43,10 @@
         </ul>
     </div>
 
-    <div class="info">
+    <!--<div class="info">
         <h3 style="margin-bottom: 10px;">License</h3>
-        <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img class="licenseimg"src="./img/cc-by.png" alt="licensed under cc by"></a>
-
-        Unless otherwise noted, all content on openknowledgemaps.org is licensed under a 
-        <a class="licenselink" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
-        Our software is open source and hosted <a class="licenselink" href="https://github.com/OpenKnowledgeMaps" target="_blank">on Github</a>.
-    </div>
+        
+    </div>-->
 
 <!--<p style="text-align:center; margin-top: 20px; font-size: 14px;">Open Knowledge Maps is a non-profit organization<br>dedicated to improving the visibility of scientific knowledge for science and society.</p>-->
     <!--<a class="seitenanfang" style="color:white;" href="#top"><span class="awesome">&#xf106;</span> back to top</a>-->
