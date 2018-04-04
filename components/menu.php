@@ -7,11 +7,11 @@
 
     <!-- Mobile Menu -->
     <ul>
-        <a href="index#search"><li>Search</li></a>
+        <a href="index"><li>Search</li></a>
         <a href="about"><li>About</li></a>
         <!--<li><a href="index#discover">Discover Maps</a></li>-->
 
-        <a href="team#team"><li>Team</li></a>
+        <a href="team"><li>Team</li></a>
         <a href="community"><li>Community</li></a>
         <a href="news"><li>News</li></a>
         <a href="faq"><li>FAQ</li></a>
@@ -31,9 +31,10 @@
 </ul>
 
 <ul class="nav_top">
-    <li><a href="index#search">Search</a></li>
+    
+    <li><a href="index">Search</a></li>
     <li><a href="about">About</a></li>
-    <li><a href="team#team">Team</a></li>
+    <li><a href="team">Team</a></li>
     <li><a href="community">Community</a></li>
     <li><a href="news">News</a></li>
     <li><a href="faq">FAQ</a></li>
@@ -42,3 +43,12 @@
             Support us</a></li>
 </ul>
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".nav_top > li > a").each(function(key, item) {
+           if(item.href.substr(item.href.lastIndexOf('/') + 1) === location.pathname.substr(location.pathname.lastIndexOf('/') + 1)) {
+               $(this).addClass("underline-menu");
+           } 
+        });
+    });
+</script>

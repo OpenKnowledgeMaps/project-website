@@ -76,6 +76,10 @@ a:focus, a:hover {
     text-decoration: none;
 }
 
+.underline-menu {
+    border-bottom: 2px solid #2d3e52;
+}
+
 .whitelink:hover {
     color: white;
 }
@@ -576,12 +580,14 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 
 .nav_bottom a {
     color: white;
-    text-decoration: underline;
+    text-decoration: none;
+    border-bottom: 1px solid white;
 }
 
 .nav_bottom a:hover, .nav_bottom a:active, .nav_bottom a:focus  {
     color: white;
     text-decoration: none;
+    border-bottom: 0px;
 }
 
 address {
