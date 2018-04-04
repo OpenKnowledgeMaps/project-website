@@ -11,10 +11,12 @@
     );
     
     function getLabel($tag) {
-        global $default_labels, $override_labels;
+        global $default_labels, $override_labels, $title;
         
         if(isset($override_labels) && isset($override_labels[$tag])) {
             return $override_labels[$tag];
+        } else if (isset($title)) { 
+            return $title;
         } else {
             if(isset($default_labels[$tag]))
                 return $default_labels[$tag];
