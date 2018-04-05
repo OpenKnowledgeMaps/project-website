@@ -1753,7 +1753,7 @@ time {
         font-size: 16px;
     }
 
-    .newsitem-p, .newsitem-button {
+    .newsitem-p, .newsitem-button, blockquote {
         font-size: 14px;
     }
 
@@ -1879,7 +1879,7 @@ time {
         font-size: 14px;
     }
 
-    .newsitem-p, .newsitem-button, .abstract {
+    .newsitem-p, .newsitem-button, .abstract, blockquote {
         font-size: 12px;
     }
 
@@ -2127,6 +2127,10 @@ time {
 
 @media screen and (max-width: 640px) {
 
+    .newsitem-text {
+        padding: 20px 0px;
+    }
+
     .builtwith {
         margin: 10px 0px 10px 20px;
     }
@@ -2242,7 +2246,7 @@ time {
         padding-bottom: 20px;
     }
 
-    .library {
+    .library, .info {
         font-size: 14px;
     }
 
@@ -2566,7 +2570,7 @@ time {
         height: 210px;
     }
 
-    .community-page .carousel-inner {
+    .community-page .carousel-inner, #home .carousel-inner {
         height: 160px;
     }
 
