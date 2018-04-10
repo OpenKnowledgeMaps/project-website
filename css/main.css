@@ -61,6 +61,15 @@ h1, h2, h3 {
     color:#2d3e52;
 }
 
+.greyed_out {
+    color: #c0c0c0;
+}
+
+.error-message {
+    color: #e55137;
+    font-size: 14px;
+}
+
 /*Fixes the Webkit issue where you can't click on options dropdowns*/
 .dropdown-backdrop {
     z-index: auto;
