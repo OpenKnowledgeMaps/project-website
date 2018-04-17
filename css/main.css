@@ -1677,14 +1677,32 @@ time {
 
 .builtwith {
     margin: 20px 10px 10px 50px;
+    font-size: 12px;
 }
 
-.builtwith a {
+.builtwith a, .cite-map a {
     text-decoration: underline;
 }
 
-.builtwith a:hover {
+.builtwith a:hover, .cite-map a:hover {
     text-decoration: none;
+}
+
+.cite-map {
+    margin: 10px 10px 10px 50px;
+    font-size: 12px;
+}
+
+.cite-map p:first-child {
+    margin-bottom: 0px;
+}
+
+.citation {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(239,243,244,0.3);
+    hyphens: none;
+    border-radius: 3px;
 }
 
 .overflow-vis {
