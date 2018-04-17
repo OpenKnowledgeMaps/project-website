@@ -152,7 +152,7 @@
                 <p>Please cite this map as follows:
                 <div class="citation">
                     <?php echo 
-                "Open Knowledge Maps (" . date("Y") . "). Overview of research on " . mb_strimwidth($query, 0, 100, "[..]") .". " 
+                "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth($query, 0, 100, "[..]") .". " 
                 . "Retrieved from " . '<a href="https://openknowledgemaps.org/map/' . $id . '">https://openknowledgemaps.org/map/' . $id . '</a>'
                 .  "/ [" . date ("d M Y") . "]."; 
                     ?>

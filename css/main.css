@@ -1709,7 +1709,7 @@ time {
 .citation {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(239,243,244,0.3);
+    background-color: rgba(239,243,244,1);
     hyphens: none;
     border-radius: 3px;
 }
