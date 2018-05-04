@@ -200,7 +200,7 @@
                     <div id="advisors">
 
                         <div class="advisor">
-                            <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/advisors/pmr.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/advisors/pmr.jpg" alt="Advisor OKMaps"></a>
                             <h3>Peter Murray-Rust</h3> 
                             <ul class="advisor-desc"><a target="_blank" href="http://contentmine.org">
                                     <li>Founder</li> 
@@ -209,13 +209,13 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://know-center.at"><img class="hoverlink" src="./img/advisors/stefanie.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://know-center.at"><img class="hoverlink" src="./img/advisors/stefanie.jpg" alt="Advisor OKMaps"></a>
                             <h3>Stefanie Lindstaedt</h3>
                             <p class="advisor-desc">CEO <br>Know-Center</p>
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.madgik.di.uoa.gr/content/natalia"><img class="hoverlink" src="./img/advisors/natalia.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://www.madgik.di.uoa.gr/content/natalia"><img class="hoverlink" src="./img/advisors/natalia.jpg" alt="Advisor OKMaps"></a>
                             <h3>Natalia Manola</h3>
                             <ul class="advisor-desc">
                                 <li>Project Director</li>
@@ -224,22 +224,31 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.punkish.org"><img class="hoverlink" src="./img/advisors/puneet.jpg" alt="Advisor OKM"></a>
-                            <h3>Puneet Kishor</h3>
-                            <p class="advisor-desc">Itinerant Open Science and Data Advocate</p>
+                            <a target="_blank" href="http://findresearcher.sdu.dk/portal/da/person/bfd"><img class="hoverlink" src="./img/advisors/bertil.jpg" alt="Advisor OKMaps"></a>
+                            <h3>Bertil F. Dorch</h3>
+                            <ul class="advisor-desc">
+                                <li>Director</li>
+                                <li>University Library of Southern Denmark</li>
+                            </ul>
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://homepage.univie.ac.at/katja.mayer/"><img class="hoverlink" src="./img/advisors/katja.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://homepage.univie.ac.at/katja.mayer/"><img class="hoverlink" src="./img/advisors/katja.jpg" alt="Advisor OKMaps"></a>
                             <h3>Katja Mayer</h3>
                             <ul class="advisor-desc">
                                 <li>Researcher and Lecturer</li>
                                 <li>University of Vienna</li>
                             </ul>
                         </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="http://www.punkish.org"><img class="hoverlink" src="./img/advisors/puneet.jpg" alt="Advisor OKMaps"></a>
+                            <h3>Puneet Kishor</h3>
+                            <p class="advisor-desc">Itinerant Open Science and Data Advocate</p>
+                        </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://oana.at"><img class="hoverlink" src="./img/advisors/falk.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://oana.at"><img class="hoverlink" src="./img/advisors/falk.jpg" alt="Advisor OKMaps"></a>
                             <h3>Falk Reckling</h3>
                             <ul class="advisor-desc">
                                 <li>Head of Strategy</li>
@@ -248,7 +257,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.wikimedia.at/"><img class="hoverlink" src="./img/advisors/claudia.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://www.wikimedia.at/"><img class="hoverlink" src="./img/advisors/claudia.jpg" alt="Advisor OKMaps"></a>
                             <h3>Claudia Gar&aacute;d</h3>
                             <ul class="advisor-desc">
                                 <li>Executive Director</li>
@@ -257,7 +266,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/birgit-schmidt/"><img class="hoverlink" src="./img/advisors/birgit.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/birgit-schmidt/"><img class="hoverlink" src="./img/advisors/birgit.jpg" alt="Advisor OKMaps"></a>
                             <h3>Birgit Schmidt</h3>
                             <ul class="advisor-desc">
                                 <li>Scientific Manager/Project Coordinator</li>
@@ -267,7 +276,7 @@
 
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKMaps"></a>
                             <h3>Daniel Mietchen</h3>
                             <ul class="advisor-desc">
                                 <li>Senior Researcher</li>
@@ -276,7 +285,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Advisor OKMaps"></a>
                             <h3>Michael E. Karpeles</h3>
                             <ul class="advisor-desc">
                                 <li>Citizen of the world</li>
@@ -285,7 +294,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKMaps"></a>
                             <h3>Elisabeth Lex</h3>
                             <ul class="advisor-desc">
                                 <li>Assistant Professor</li>
@@ -294,7 +303,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://aldirdiri.strikingly.com/"><img class="hoverlink" src="./img/advisors/osman.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://aldirdiri.strikingly.com/"><img class="hoverlink" src="./img/advisors/osman.jpg" alt="Advisor OKMaps"></a>
                             <h3>Osman Aldirdiri</h3>
                             <ul class="advisor-desc">
                                 <li>Executive Committee Member</li>
@@ -303,7 +312,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/Lambo"><img class="hoverlink" src="./img/advisors/lambert.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://twitter.com/Lambo"><img class="hoverlink" src="./img/advisors/lambert.jpg" alt="Advisor OKMaps"></a>
                             <h3>Lambert Heller</h3>
                             <ul class="advisor-desc">
                                 <li>Librarian</li>
@@ -312,7 +321,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><img class="hoverlink" src="./img/advisors/michaela.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><img class="hoverlink" src="./img/advisors/michaela.jpg" alt="Advisor OKMaps"></a>
                             <h3>Michela Vignoli</h3>
                             <ul class="advisor-desc">
                                 <li>Junior Scientist</li>
@@ -321,13 +330,22 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://tonyr-h.github.io/"><img class="hoverlink" src="./img/advisors/tony.jpg" alt="Advisor OKMaps"></a>
+                            <h3>Tony Ross-Hellauer</h3>
+                            <ul class="advisor-desc">
+                                <li>Senior Researcher</li>
+                                <li>Know-Center</li>
+                            </ul>
+                        </div>
+
+                        <div class="advisor">
+                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKMaps"></a>
                             <h3>Christian Schlögl</h3>
                             <p class="advisor-desc">Associate Professor<br>University of Graz</p>
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.stefankasberger.at/"><img class="hoverlink" src="./img/advisors/stefan.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://www.stefankasberger.at/"><img class="hoverlink" src="./img/advisors/stefan.jpg" alt="Advisor OKMaps"></a>
                             <h3>Stefan Kasberger</h3>
                             <ul class="advisor-desc">
                                 <li>Board Member</li>
@@ -336,7 +354,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://stefaniehaustein.com/"><img class="hoverlink" src="./img/advisors/stefanieh.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="http://stefaniehaustein.com/"><img class="hoverlink" src="./img/advisors/stefanieh.jpg" alt="Advisor OKMaps"></a>
                             <h3>Stefanie Haustein</h3>
                             <ul class="advisor-desc">
                                 <li>Postdoctoral researcher</li>
@@ -345,7 +363,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKMaps"></a>
                             <h3>Andreas Ferus</h3>
                             <ul class="advisor-desc">
                                 <li>Dept. Director</li>
@@ -354,7 +372,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/christinezhang"><img class="hoverlink" src="./img/advisors/christine.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://twitter.com/christinezhang"><img class="hoverlink" src="./img/advisors/christine.jpg" alt="Advisor OKMaps"></a>
                             <h3>Christine Zhang</h3>
                             <ul class="advisor-desc">
                                 <li>OpenNews Fellow</li>
@@ -363,7 +381,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/sdennerlein"><img class="hoverlink" src="./img/advisors/sebastian.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://twitter.com/sdennerlein"><img class="hoverlink" src="./img/advisors/sebastian.jpg" alt="Advisor OKMaps"></a>
                             <h3>Sebastian Dennerlein</h3>
                             <ul class="advisor-desc">
                                 <li>PhD Student</li>
@@ -372,7 +390,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/antica.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/antica.jpg" alt="Advisor OKMaps"></a>
                             <h3>Antica Culina</h3>
                             <ul class="advisor-desc">
                                 <li>Postdoc</li>
@@ -381,7 +399,7 @@
                         </div> 
 
                         <div class="advisor">
-                            <a target="_blank" href="https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&ansicht_in=&menue_id_in=101&id_in=113247"><img class="hoverlink" src="./img/advisors/florian.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&ansicht_in=&menue_id_in=101&id_in=113247"><img class="hoverlink" src="./img/advisors/florian.jpg" alt="Advisor OKMaps"></a>
                             <h3>Florian Heigl</h3>
                             <ul class="advisor-desc">
                                 <li>PhD Student</li>
@@ -390,7 +408,7 @@
                         </div> 
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKMaps"></a>
                             <h3>Robert Gutounig</h3>
                             <ul class="advisor-desc">
                                 <li>Researcher and Lecturer</li>
@@ -399,7 +417,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://online.boku.ac.at/BOKUonline/visitenkarte.show_vcard?pPersonenId=51947CF9F7441FEF&pPersonenGruppe=3"><img class="hoverlink" src="./img/advisors/daniel.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href="https://online.boku.ac.at/BOKUonline/visitenkarte.show_vcard?pPersonenId=51947CF9F7441FEF&pPersonenGruppe=3"><img class="hoverlink" src="./img/advisors/daniel.jpg" alt="Advisor OKMaps"></a>
                             <h3>Daniel Dörler</h3>
                             <ul class="advisor-desc">
                                 <li>PhD Student</li>
@@ -408,7 +426,7 @@
                         </div> 
 
                         <div class="advisor">
-                            <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Advisor OKM"></a>
+                            <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Advisor OKMaps"></a>
                             <h3>Christian Kaier</h3>
                             <ul class="advisor-desc">
                                 <li>Open Access Office</li>
