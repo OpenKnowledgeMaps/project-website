@@ -1110,6 +1110,21 @@ a .number:hover {
     color: white;
 }
 
+.create-map {
+    background-color: #3696e0; 
+    border-radius: 3px; 
+    padding: 10px; 
+    color:white;
+    border: 2px solid #3696e0;
+}
+
+.create-map:hover {
+    background-color: white;
+    border: 2px solid #3696e0;
+    color:#3696e0;
+    text-decoration: none;
+}
+
 .member, .organizational-member {
     display: inline-block;
     margin: 20px;
