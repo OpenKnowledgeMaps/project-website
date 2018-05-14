@@ -1,7 +1,7 @@
 <a name="viper"></a>
 <div class="vipersection">
     <div class="" style="max-width:750px; padding:30px 20px; margin:0px auto; text-align:center;">
-        <img class="vipercircleimg" src="./img/viper-logo-color-200px.png" alt="VIPER a visual project explorer">
+        <img class="vipercircleimg" src="./img/viper-logo-color-200px.png" alt="VIPER - The Visual Project Explorer">
         <span class="bold" style="color:#3696e0; font-size:20px;">
             VIPER - The Visual Project Explorer</span>
         <span style="display:block;">Map a research project and see its reception in different areas!</span>
