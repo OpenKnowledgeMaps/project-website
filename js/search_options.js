@@ -262,6 +262,41 @@ var options_base = {
     ]
 }
 
+var options_openaire = {
+    dropdowns: [
+        /*{id: "year_range", multiple: false, name: "Start year", type: "dropdown"
+            , fields: [
+                {id: "any-time-years", text: "Any time"}
+                , {id: "this-year", text: "This year"}
+                , {id: "last-year-years", text: "Last year"}
+                , {id: "user-defined", text: "Custom range", class: "user-defined",
+                    inputs: [
+                        {id: "from", label: "From: ", class: "time_input"}
+                        , {id: "to", label: "To: ", class: "time_input"}
+                    ]}
+            ]},*/
+        {id: "funders", multiple: false, name: "Funders", type: "dropdown"
+            , fields: [
+                {id: "all", text: "All funders"}
+                , {id: "ec", text: "EC - European Commission", selected: true}
+                , {id: "arc", text: "ARC - Australian Research Council"}
+                , {id: "hrzz", text: "CSF - Croatian Science Foundation"}
+                , {id: "fct", text: "FCT - Fundação para a Ciência e a Tecnologia, I.P."}
+                , {id: "fwf", text: "FWF - Austrian Science Fund"}
+                , {id: "mestd", text: "MESTD - Ministry of Education, Science and Technological Development of Republic of Serbia"}
+                , {id: "mzos", text: "MSES - Ministry of Science, Education and Sports of the Republic of Croatia"}               
+                , {id: "nhmrc", text: "NHRMC - National Health and Medical Research Council"}
+                , {id: "nih", text: "NIH - National Institutes of Health"}
+                , {id: "nsf", text: "NSF - National Science Foundation"}
+                , {id: "nwo", text: "NWO - Netherlands Organisation for Scientific Research"}        
+                , {id: "rcuk", text: "RCUK - Research Council UK"}
+                , {id: "sfi", text: "SFI - Science Foundation Ireland"}                
+                , {id: "snsf", text: "SNSF - Swiss National Science Foundation"}
+                , {id: "tubitak", text: "TUBITAK - Türkiye Bilimsel ve Teknolojik Araştırma Kurumu"}                
+                , {id: "wt", text: "WT - Wellcome Trust"}                
+            ]}
+    ]}
+
 var SearchOptions = {
     user_defined_date: false,
     init: function (tag, data) {
