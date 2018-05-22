@@ -71,13 +71,37 @@
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="<?php echo getLabel("app-name") ?>"/>
 
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#51c9ae",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#2D3E52",
+      "text": "#ffffff"
+    }
+  },
+  "position": "bottom",
+  "theme": "classic",
+  "content": {
+    "message": "We use cookies to improve your experience. By your continued use of this site you accept such use. To change your settings, please see ",
+    "dismiss": "Got it!",
+    "link": "our privacy policy.",
+    "href": "https://openknowledgemaps.org/privacy-policy"
+  }
+})});
+</script>
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
 <link rel="stylesheet" href="./css/main.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-
-
 
 <?php if ($PIWIK_ENABLED) { ?>  
     
