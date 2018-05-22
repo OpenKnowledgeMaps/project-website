@@ -99,8 +99,8 @@
 <meta property="og:type" content="website"/>
 <meta property="og:site_name" content="<?php echo getLabel("app-name") ?>"/>
 
-<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
-<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<link rel="stylesheet" type="text/css" href="./lib/cookieconsent.min.css" />
+<script src="./lib/cookieconsent.min.js"></script>
 <script>
     
     <?php if ($BROWSER_LANG === "de") { ?>
@@ -137,11 +137,11 @@
 
 </script>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+<link rel="stylesheet" href="./lib/font-awesome.min.css" >
 <link rel="stylesheet" href="./css/main.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <?php if ($PIWIK_ENABLED) { ?>  
     
