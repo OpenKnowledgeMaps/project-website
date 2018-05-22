@@ -1,4 +1,32 @@
 <?php
+
+    $available_languages = array("en", "de");
+    $default_language = "en";
+    function prefered_language($available_languages, $http_accept_language) {
+            global $default_language;
+            $available_languages = array_flip($available_languages);
+            $langs = array();
+            preg_match_all('~([\w-]+)(?:[^,\d]+([\d.]+))?~', strtolower($http_accept_language), $matches, PREG_SET_ORDER);
+            foreach($matches as $match) {
+                    list($a, $b) = explode('-', $match[1]) + array('', '');
+                    $value = isset($match[2]) ? (float) $match[2] : 1.0;
+                    if(isset($available_languages[$match[1]])) {
+                            $langs[$match[1]] = $value;
+                            continue;
+                    }
+                    if(isset($available_languages[$a])) {
+                            $langs[$a] = $value - 0.1;
+                    }
+            }
+            if($langs) {
+                    arsort($langs);
+                    return key($langs);
+            } else {
+                    return $default_language;
+            }
+    }
+    $BROWSER_LANG = prefered_language($available_languages, strtolower($_SERVER["HTTP_ACCEPT_LANGUAGE"]));
+
     $default_labels = array(
         "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
         , "app-name" => "Open Knowledge Maps"
@@ -74,27 +102,37 @@
 <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
 <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
 <script>
-window.addEventListener("load", function(){
-window.cookieconsent.initialise({
-  "palette": {
-    "popup": {
-      "background": "#51c9ae",
-      "text": "#ffffff"
-    },
-    "button": {
-      "background": "#2D3E52",
-      "text": "#ffffff"
-    }
-  },
-  "position": "bottom",
-  "theme": "classic",
-  "content": {
-    "message": "We use cookies to improve your experience. By your continued use of this site you accept such use. To change your settings, please see ",
-    "dismiss": "Got it!",
-    "link": "our privacy policy.",
-    "href": "https://openknowledgemaps.org/privacy-policy"
-  }
-})});
+    
+    <?php if ($BROWSER_LANG === "de") { ?>
+    let cookie_message = "Wir verwenden Cookies, um unsere Webseite für Sie möglichst benutzerfreundlich zu gestalten. Wenn Sie fortfahren, nehmen wir an, dass Sie mit der Verwendung von Cookies auf dieser Webseite einverstanden sind. Weitere Informationen entnehmen Sie bitte ";
+    let cookie_link = "unserer Datenschutzerklärung.";
+    <?php } else { ?>
+    let cookie_message = "We use cookies to improve your experience. By your continued use of this site you accept such use. For more information, please see ";
+    let cookie_link = "our privacy policy.";
+    <?php }; ?>
+    
+    window.addEventListener("load", function(){   
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#51c9ae",
+          "text": "#ffffff"
+        },
+        "button": {
+          "background": "#2D3E52",
+          "text": "#ffffff"
+        }
+      },
+      "position": "bottom",
+      "theme": "classic",
+      "content": {
+        "message": cookie_message,
+        "dismiss": "Got it!",
+        "link": cookie_link,
+        "href": "https://openknowledgemaps.org/privacy-policy"
+      }
+    })});
+
 </script>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
