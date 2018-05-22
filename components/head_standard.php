@@ -141,7 +141,7 @@
 <link rel="stylesheet" href="./css/main.css">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,800' rel='stylesheet' type='text/css'>
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <?php if ($PIWIK_ENABLED) { ?>  
     
