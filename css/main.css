@@ -692,6 +692,7 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 170%;
+   
 
     /*text-align: left;*/
 }
@@ -1671,6 +1672,11 @@ time {
 
 #imprint {
     background-color: white;
+}
+
+#imprint h3 {
+    color: #2D3E52;
+    text-transform: none;
 }
 
 #privacy-page #partnerdiv, #imprint-page #partnerdiv  {
