@@ -1779,8 +1779,13 @@ time {
     left: 10px;
 }
 
+.sharebutton {
+    display: inline-block;
+    font-size: 40px;
+}
+
 .sharebutton a {
-    padding-top: 3px;
+    padding-right: 5px;
 }
 
 
