@@ -17,7 +17,7 @@
         <h3 style="margin-bottom: 10px;">Newsletter sign-up</h3>
         Receive regular updates on the newest improvements.
         <ul class="nav_bottom">
-        <li><a href="http://eepurl.com/cjRDZL" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
+        <li><a href="http://eepurl.com/dvQeGP" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
         </ul>
     </div>
 
@@ -35,7 +35,7 @@
     <div class="info" style="margin-right: 0px;">
         <h3 style="margin-bottom: 10px;">Details</h3>
         <ul class="nav_bottom">
-            <li><a href="imprint"><span class="awesome">&#xf0c1;</span> Imprint</a></li>
+            <li><a href="imprint"><span class="awesome">&#xf0c1;</span> Impressum / Legal Notice</a></li>
             <li><a href="privacy"><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
             <li><a href="community-guidelines"><span class="awesome">&#xf0c0;</span> Community Participation Guidelines</a></li>
             <li><a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank"><span class="awesome">&#xf278;</span> Roadmap</a></li>
