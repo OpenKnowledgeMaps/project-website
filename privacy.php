@@ -21,6 +21,8 @@
 
 
                 <h2>Privacy Policy</h2>
+                <p><b>Last updated:</b> 25 May 2018
+                
                 <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example “personal data” or “third party” are defined in Art. 4 of the General Data Protection Regulation (GDPR):
                     <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a> 
                 </p>
