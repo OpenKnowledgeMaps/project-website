@@ -36,13 +36,13 @@
                     ZVR:
                     859648888<br>
                     E-Mail-Adresse:
-                    info@openknowledgemaps.org<br>
+                    <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a><br>
 
                     Weitere Details finden Sie im Impressum:  <a href="https://openknowledgemaps.org/imprint#impressum">https://openknowledgemaps.org/imprint#impressum</a>
 
 
                 </p>
-                <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail unter privacy@openknowledgemaps.org 
+                <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail unter <a href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a>
                 </p>
 
 
@@ -161,7 +161,7 @@
                 <p>Auch auf unseren Seiten eingebettete Webseiten-Elemente von Twitter (siehe auch “Social Plugins”) verwenden Cookies. Open Knowledge Maps hat keinen Zugriff auf diese Daten und wertet Sie nicht aus. Twitter verwendet diese Cookies unter anderem zur Optimierung des Services und zum Verständnis, wie Social Plugins genutzt werden. Twitter verwendet diese Cookies möglicherweise auch, um Nutzer zu identifizieren, auch über die Grenzen dieser Webseite hinaus, und - falls Sie einen Twitter Account besitzen und eingeloggt sind - um ihre Aktivitäten mit diesem Account zu verknüpfen. Mehr Information zur Nutzung von Cookies von Twitter finden Sie unter 
                      <a href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> und unter 
                       <a href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>.</p>
-                <p class="bold">MATOMO</p>
+                <p class="bold">Matomo</p>
 
                 <p>Unsere Website verwendet Matomo, dabei handelt es sich um einen sogenannten Webanalysedienst. Matomo verwendet Cookies, um eine Analyse der Benutzung der Webseite ermöglichen. Zu diesem Zweck werden die durch den Cookie erzeugten Nutzungsinformationen (einschließlich Ihrer gekürzten IP-Adresse) an unseren Server übertragen und zu Nutzungsanalysezwecken gespeichert, was der Webseitenoptimierung unsererseits dient. Ihre IP-Adresse wird bei diesem Vorgang umge­hend anony­mi­siert, so dass Sie als Nutzer für uns anonym bleiben. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden nicht an Dritte weitergegeben. Sie können die Verwendung der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern, es kann jedoch sein, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können.</p>
                 <p>Wenn Sie mit der Speicherung und Auswertung dieser Daten aus Ihrem Besuch nicht ein­ver­stan­den sind, dann kön­nen Sie der Speicherung und Nutzung nachfolgend per Mausklick jederzeit widersprechen. In diesem Fall wird in Ihrem Browser ein sog. Opt-Out-Cookie abgelegt, was zur Folge hat, dass Matomo keinerlei Sitzungsdaten erhebt.</p>
