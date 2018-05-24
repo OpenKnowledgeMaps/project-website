@@ -107,10 +107,12 @@
     let cookie_message = "Wir verwenden Cookies, um unsere Webseite für Sie möglichst benutzerfreundlich zu gestalten. Wenn Sie fortfahren, nehmen wir an, dass Sie mit der Verwendung von Cookies auf dieser Webseite einverstanden sind. Weitere Informationen entnehmen Sie bitte ";
     let cookie_link = "unserer Datenschutzerklärung.";
     let cookie_button = "Alles klar!";
+    let cookie_href = "https://openknowledgemaps.org/datenschutz";
     <?php } else { ?>
     let cookie_message = "We use cookies to improve your experience. By your continued use of this site you accept such use. For more information, please see ";
     let cookie_link = "our privacy policy.";
     let cookie_button = "Got it!";
+    let cookie_href = "https://openknowledgemaps.org/privacy";
     <?php }; ?>
     
     window.addEventListener("load", function(){   
@@ -131,7 +133,7 @@
         "message": cookie_message,
         "dismiss": cookie_button,
         "link": cookie_link,
-        "href": "https://openknowledgemaps.org/privacy"
+        "href": cookie_href
       }
     })});
 
