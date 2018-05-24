@@ -117,8 +117,8 @@
     window.cookieconsent.initialise({
       "palette": {
         "popup": {
-          "background": "#51c9ae",
-          "text": "#ffffff"
+          "background": "#eff3f4",
+          "text": "#2D3E52"
         },
         "button": {
           "background": "#2D3E52",
@@ -131,7 +131,7 @@
         "message": cookie_message,
         "dismiss": cookie_button,
         "link": cookie_link,
-        "href": "https://openknowledgemaps.org/privacy-policy"
+        "href": "https://openknowledgemaps.org/privacy"
       }
     })});
 

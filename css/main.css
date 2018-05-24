@@ -1788,6 +1788,26 @@ time {
     padding-right: 5px;
 }
 
+/*COOKIEEESSSS*/
+.cc-message {
+    font-size:14px;
+    line-height:120%;
+    padding-right:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cc-window {
+    border-top: 2px solid #e1e5e5;
+}
+
+.cc-theme-classic .cc-btn:last-child {
+    min-width: 10px;
+}
+
+/*SHARE BTNS*/
+.sharebutton a:hover {
+    color: #e55137;
+}
 
 /*WHAT'S THIS PAGE*/
 #whatsthis-page {

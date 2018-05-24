@@ -131,15 +131,15 @@
                 <h3>Licenses</h3>
                 <p>Unless otherwise noted, all content on openknowledgemaps.org is licensed under a <a class="underline" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
                     Our software is open source and hosted on Github.
-                    Otherwise, the copyright holder and and the license are specified in/with the work.</p>
+                    Otherwise, the copyright holder and the license are specified in/with the work.</p>
 
                 <p>Should you find any content on this website that is not attributed correctly please notify us (see contact details above).
                 </p>
 
                 <h3>Picture credits</h3>
-                <p>Unless otherwise noted, all pictures, photographs and graphics on this website is licensed under a
+                <p>Unless otherwise noted, all pictures, photographs and graphics on this website are licensed under a
                     <a class="underline" target="_blank" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. Unless otherwise noted, Open Knowledge Maps is the copyright holder.
-                    Otherwise, the copyright holder and and the license are specified in/with the work.</p>
+                    Otherwise, the copyright holder and the license are specified in/with the work.</p>
 
             </div>
         </div>

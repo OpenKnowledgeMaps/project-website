@@ -19,10 +19,10 @@
 
     </div>
 
-    <div class="twitterbutton"><a class="static-button"
+    <!--<div class="twitterbutton"><a class="static-button"
                                   href="mailto:n.shaghaei@openknowledgemaps.org" target="_blank"
                                   accesskey=""data-size="large" data-show-count="false">
-            Become an enthusiast</a></div>
+            Pre-register per email to become an Enthusiast</a></div>-->
 </div>
 
 <script>
