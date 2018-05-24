@@ -37,11 +37,11 @@
                     Registration number (ZVR):
                     859648888<br>
                     Email:
-                    <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a><br>
+                    <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a><br>
                     Please find further details in our Legal Notice:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>
                 </p>
 
-                <p>If you have any question about our privacy policy or data protection at Open Knowledge Maps, please send an email to <a href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a> 
+                <p>If you have any question about our privacy policy or data protection at Open Knowledge Maps, please send an email to <a class="underline" href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a> 
                 </p>
                 <h3>Collection and storage of general data and information</h3>
                 <p>Every visit to our website general data is automatically collected and stored in a log file.

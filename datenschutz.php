@@ -36,13 +36,13 @@
                     ZVR:
                     859648888<br>
                     E-Mail-Adresse:
-                    <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a><br>
+                    <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a><br>
 
                     Weitere Details finden Sie im Impressum:  <a href="https://openknowledgemaps.org/imprint#impressum">https://openknowledgemaps.org/imprint#impressum</a>
 
 
                 </p>
-                <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail unter <a href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a>
+                <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail unter <a class="underline" href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a>
                 </p>
 
 
@@ -169,7 +169,7 @@
                 <p>                <iframe style="border: 0; width: 600px; font-family: 'Open Sans';" src="https://openknowledgemaps.org/piwik_stats/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
                 </p>
                 <p class="bold">Kontrolle über Cookies</p>    
-                <p>Sie können Cookies nach Belieben steuern und/oder löschen. Wie, erfahren Sie hier: aboutcookies.org. Sie können alle auf Ihrem Rechner abgelegten Cookies löschen und die meisten Browser so einstellen, dass die Ablage von Cookies verhindert wird. Dann müssen Sie aber möglicherweise einige Einstellungen bei jedem Besuch einer Seite manuell vornehmen und die Beeinträchtigung mancher Funktionen in Kauf nehmen.</p>
+                <p>Sie können Cookies nach Belieben steuern und/oder löschen. Wie, erfahren Sie hier: <a class="underline" target="_blank" href="https://aboutcookies.org">aboutcookies.org</a>. Sie können alle auf Ihrem Rechner abgelegten Cookies löschen und die meisten Browser so einstellen, dass die Ablage von Cookies verhindert wird. Dann müssen Sie aber möglicherweise einige Einstellungen bei jedem Besuch einer Seite manuell vornehmen und die Beeinträchtigung mancher Funktionen in Kauf nehmen.</p>
 
                 <h3>Newsletter</h3>
                 <p>Wenn Sie sich für unseren Newsletter eintragen übermitteln Sie ihre persönlichen Daten (E-Mail-Adresse und Name) und geben uns das Recht Sie per E-Mail zu kontaktieren. 
