@@ -20,7 +20,7 @@
     </div>
     <div class="twitterbutton"><a class="twitter-follow-button static-button"
                                   href="https://twitter.com/OK_Maps" target="_blank"
-                                  accesskey=""data-size="large" data-show-count="false">
+                                  accesskey=""data-size="large" data-show-count="false" data-dnt="true">
             Follow @OK_Maps</a></div>
 </div>
 
