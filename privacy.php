@@ -11,12 +11,18 @@
 
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
+        
         <div id="imprint">
             <div style="max-width: 750px; width:100%; margin: 0px auto;">
+                
+                <ul>
+                    <li><a class="underline" target="_blank" href="datenschutz">Datenschutzerklärung auf Deutsch</a></li>
+                </ul>
+
 
                 <h2>Privacy Policy</h2>
                 <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example “personal data” or “third party” are defined in Art. 4 of the General Data Protection Regulation (GDPR):
-                    <a href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a> 
+                    <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a> 
                 </p>
                 <h3>Purpose of processing</h3>
                 <p>We use the data for provision, maintenance, security and improvement of services, for the analysis of user behaviour and development of new services, and to protect Open Knowledge Maps and our users. We also use the data to fulfil the purpose of our association (for more info see: https://openknowledgemaps.org/imprint#legalnotice)</p>
@@ -30,7 +36,7 @@
                     859648888<br>
                     Email:
                     info@openknowledgemaps.org<br>
-                    Please find further details in our Legal Notice:  <a href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>
+                    Please find further details in our Legal Notice:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>
                 </p>
 
                 <p>If you have any question about our privacy policy or data protection at Open Knowledge Maps, please send an email to privacy@openknowledgemaps.org 
@@ -87,14 +93,14 @@
                 <p>If you have any questions about the processing of your e-mail and related personal data, do not hesitate to include them in your message.</p>
                 <h3>Social Plug-ins</h3>
                 <p>We use website elements from Twitter, a social network of the company Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA), on our website. Website elements are e.g. buttons (so-called “social plug-ins”) or integrated content from the provider. You can find an overview of Twitter website elements here: 
-                    <a href="https://dev.twitter.com/web/overview">https://dev.twitter.com/web/overview</a></p>
+                    <a class="underline" target="_blank" href="https://dev.twitter.com/web/overview">https://dev.twitter.com/web/overview</a></p>
                 <p>We use Twitter elements to display posts and news about and by Open Knowledge Maps.
 
 
                     When you visit a page on our website that contains such a website element, your browser establishes a direct connection to the server of the provider. The content of the website element is transmitted by the provider directly to your browser and integrated into the Open Knowledge Maps page. By integrating the website elements, the provider gains knowledge that your browser has accessed the corresponding page of our website, and even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to Twitter. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section “Cookies”).
                 </p>
                 <p>Open Knowledge Maps has no influence on the parameters of the data that the Twitter lifts out with the help of the website elements. For details on the purpose and extent of the data collection and the further processing and use of the data by the providers as well as your related rights and setting options for protecting your privacy, please refer to the privacy policy of Twitter: 
-                    <a href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>
+                    <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>
                     You would need to log out of each provider’s services if you want to prevent providers from directly associating the data collected through our website with your profile in that service.</p>
 
                 <p class="bold">How to deactivate social plug-ins</p>
@@ -115,19 +121,19 @@
                     The use of google fonts does not require logging into to google services and google fonts don’t save any cookies on your computer. If you have an account with Google, your google account information is not being transmitted while using google fonts. Google only registers which libraries and style sheets (CSS) are used  and stores this information savely.
                 </p>
                 <p>Google’s privacy policy is available here:
- <a href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a> </p>
+ <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a> </p>
                 <p>More details regarding google fonts are available here:
-                     <a href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a></p>
+                     <a class="underline" target="_blank" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a></p>
 
                 <h3>Use of Content Distribution Networks by Google</h3>
                 <p>On our website we use google hosted libraries a Content Distribution Network (CDN) of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA).
                     A CDN ensures that all program libraries and style sheets (CSS) that are necessary for the correct display of our website and services are being loaded as efficiently and securely as possible, independent of their location.
                     The use of google hosted libraries does not require logging into to google services and google hosted libraries does not save any cookies on your computer. If you have an account with Google, your google account information is not being transmitted while using google hosted libraries. Google only registers which libraries and style sheets (CSS) are used  and stores this information savely.</p>
                 <p>Google’s privacy policy is available here:
-      <a href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>
+      <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>
                 </p>
                 <p>More details regarding Google Hosted Libraries are available here:
-                     <a href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a></p>
+                     <a class="underline" target="_blank" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a></p>
 
                 <h3>Cookies</h3>
                 <p>To make this site work properly, we sometimes place small data files called cookies on your device. Most big websites do this too.</p>
@@ -144,8 +150,8 @@
                 </p>
 
                 <p>Website elements from Twitter embedded on our website (see also “Social plugins”) also use cookies. Open Knowledge Maps does not have access to this data and does not process it. Twitter uses these cookies for example to improve its service and to understand, how social plugins are used. Twitter possibly also uses these cookies to identify you as a user, even beyond the scope of this website, and in addition, if you have a Twitter account and are logged in, to link your activity to your account. You can find more information on the use of cookies by Twitter here: 
-                     <a href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> and here: 
-                      <a href="https://twitter.com/privacy">https://twitter.com/privacy</a>.</p>
+                     <a class="underline" target="_blank" href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> and here: 
+                      <a class="underline" target="_blank" href="https://twitter.com/privacy">https://twitter.com/privacy</a>.</p>
                 <p class="bold">MATOMO</p>
 
                 <p>Our website uses Matomo, a web analysis service which uses cookies (text files that are stored on your computer and allow us to analyse the use of our website). For this purpose, the usage information generated by the cookie (including your truncated IP address) is transferred to our server and stored for the purpose of analysing the use of our website, which in turn allows us to optimise the website accordingly. In this process, your IP address is anonymised immediately in order to ensure your anonymity as a user. The site usage information generated by the cookie is not passed on to third parties. You can block the use of cookies in your browser settings; however, you may not be able to use all of the functions offered on this website as a result.</p>
@@ -168,8 +174,8 @@
                     Suite 5000
                     Atlanta, GA 30308 USA
                     By signing up for our newsletter you acknowledge that the information you provide will be transferred to MailChimp for processing in accordance with their Privacy Policy and Terms:
-                     <a href="https://mailchimp.com/legal/privacy/">https://mailchimp.com/legal/privacy/</a>
-                     <a href="https://mailchimp.com/legal/terms/">https://mailchimp.com/legal/terms/</a>
+                     <a class="underline" target="_blank" href="https://mailchimp.com/legal/privacy/">https://mailchimp.com/legal/privacy/</a>
+                     <a class="underline" target="_blank" href="https://mailchimp.com/legal/terms/">https://mailchimp.com/legal/terms/</a>
                 </p>
 
 
@@ -216,10 +222,10 @@
                         <span class="bold">"Addthis" Bookmarking Tool</span>
                         <br>
                         This website contains "Addthis" plugins, which enable you to place bookmarks or share interesting contents of the website. "Addthis" uses cookies. 
-                        The files thus created (such as the time of usage or the browser language) are passed on to the Add This LLC in the USA and are processed there. For more information on data processing by Add This LLC and the data protection provided by Add This LLC, please go to <a href="www.addthis.com/privacy" target="_blank" class="underline">www.addthis.com/privacy</a>.
+                        The files thus created (such as the time of usage or the browser language) are passed on to the Add This LLC in the USA and are processed there. For more information on data processing by Add This LLC and the data protection provided by Add This LLC, please go to <a class="underline" target="_blank" href="www.addthis.com/privacy" target="_blank" class="underline" target="_blank">www.addthis.com/privacy</a>.
                         <br><br>
-                        This website contains specific information about the type of processed data and their purpose. We do not process this data. By using the "Addthis" field you consent to data processing by Add This LLC to the extent specified on the web page of <a href="www.addthis.com" target="_blank" class="underline">www.addthis.com</a>. 
-                        You may withdraw your consent to the processing of your data at any time by the use of a  "Opt-Out cookie" that you can download here: <a href="www.addthis.com/privacy/opt-out" target="_blank" class="underline">www.addthis.com/privacy/opt-out</a>
+                        This website contains specific information about the type of processed data and their purpose. We do not process this data. By using the "Addthis" field you consent to data processing by Add This LLC to the extent specified on the web page of <a class="underline" target="_blank" href="www.addthis.com" target="_blank" class="underline" target="_blank">www.addthis.com</a>. 
+                        You may withdraw your consent to the processing of your data at any time by the use of a  "Opt-Out cookie" that you can download here: <a class="underline" target="_blank" href="www.addthis.com/privacy/opt-out" target="_blank" class="underline" target="_blank">www.addthis.com/privacy/opt-out</a>
         
                     
                     </p>-->

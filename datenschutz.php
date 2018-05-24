@@ -14,6 +14,10 @@
 
         <div id="imprint">
             <div style="max-width: 750px; width:100%; margin: 0px auto;">
+                
+                <ul>
+                    <li><a class="underline" target="_blank" href="privacy">Privacy policy in English</a></li>
+                </ul>
 
                 <h2>Datenschutzerklärung</h2>
                 <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben.  Die hier verwendeten Begriffe, wie z.B. „Auftragsverarbeitung“ oder „Verantwortlicher“, sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert: 
@@ -243,10 +247,10 @@
                         <span class="bold">"Addthis" Bookmarking Tool</span>
                         <br>
                         This website contains "Addthis" plugins, which enable you to place bookmarks or share interesting contents of the website. "Addthis" uses cookies. 
-                        The files thus created (such as the time of usage or the browser language) are passed on to the Add This LLC in the USA and are processed there. For more information on data processing by Add This LLC and the data protection provided by Add This LLC, please go to <a href="www.addthis.com/privacy" target="_blank" class="underline">www.addthis.com/privacy</a>.
+                        The files thus created (such as the time of usage or the browser language) are passed on to the Add This LLC in the USA and are processed there. For more information on data processing by Add This LLC and the data protection provided by Add This LLC, please go to <a href="www.addthis.com/privacy" target="_blank" class="underline" target="_blank">www.addthis.com/privacy</a>.
                         <br><br>
-                        This website contains specific information about the type of processed data and their purpose. We do not process this data. By using the "Addthis" field you consent to data processing by Add This LLC to the extent specified on the web page of <a href="www.addthis.com" target="_blank" class="underline">www.addthis.com</a>. 
-                        You may withdraw your consent to the processing of your data at any time by the use of a  "Opt-Out cookie" that you can download here: <a href="www.addthis.com/privacy/opt-out" target="_blank" class="underline">www.addthis.com/privacy/opt-out</a>
+                        This website contains specific information about the type of processed data and their purpose. We do not process this data. By using the "Addthis" field you consent to data processing by Add This LLC to the extent specified on the web page of <a href="www.addthis.com" target="_blank" class="underline" target="_blank">www.addthis.com</a>. 
+                        You may withdraw your consent to the processing of your data at any time by the use of a  "Opt-Out cookie" that you can download here: <a href="www.addthis.com/privacy/opt-out" target="_blank" class="underline" target="_blank">www.addthis.com/privacy/opt-out</a>
         
                     </p>
                     
