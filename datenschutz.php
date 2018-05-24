@@ -16,7 +16,7 @@
             <div style="max-width: 750px; width:100%; margin: 0px auto;">
                 
                 <ul>
-                    <li><a class="underline" target="_blank" href="privacy">Privacy policy in English</a></li>
+                    <li><a class="underline" href="privacy">Privacy policy in English</a></li>
                 </ul>
 
                 <h2>Datenschutzerklärung</h2>

@@ -6,7 +6,7 @@
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
-    <body id="privacy-page imprint-page">
+    <body id="imprint-page">
 
 
 
@@ -16,7 +16,7 @@
             <div style="max-width: 750px; width:100%; margin: 0px auto;">
                 
                 <ul>
-                    <li><a class="underline" target="_blank" href="datenschutz">Datenschutzerklärung auf Deutsch</a></li>
+                    <li><a class="underline" href="datenschutz">Datenschutzerklärung auf Deutsch</a></li>
                 </ul>
 
 
