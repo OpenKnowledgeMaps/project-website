@@ -6,5 +6,6 @@
         <a href="http://oana.at/" target="_blank"><img src="./img/networks/oana.png" alt="Open Access Network Austria"></a>
         <a href="https://hypothes.is/annotating-all-knowledge/" target="_blank"><img src="./img/networks/aak.png" alt="Annotating All Knowledge Coalition"></a>
         <a href="http://citizen-science.at" target="_blank"><img src="./img/networks/citizenscienceat.png" alt="Citizen Science Austria"></a>
+        <a href="http://jrost.org/" target="_blank"><img src="./img/networks/jrost.png" alt="Joint Roadmaps for Open Science"></a>
     </div>
 </div>       

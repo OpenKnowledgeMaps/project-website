@@ -30,7 +30,6 @@ body {
 
 p {
     text-align: left;
-    /*max-width: 750px;*/
 }
 
 .bold, b {
@@ -93,9 +92,7 @@ a:focus, a:hover {
     color: white;
 }
 
-
 /*NAVIGATION*/
-
 header {
     padding: 20px 0px 15px;
     position: fixed;
@@ -202,6 +199,21 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     padding:5px;
     border-radius: 5px;
     moz-border-radius: 5px;
+}
+
+.become-enthusiast {
+    border: 2px solid #e55137;
+    background-color:#e55137; 
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    moz-border-radius: 5px;
+    font-size: 18px;
+}
+
+.become-enthusiast:hover, .become-enthusiast:active, .become-enthusiast:focus {
+    color:#e55137;
+    background-color: white;
 }
 
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
@@ -487,6 +499,61 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     /*background-size: 100%;*/
 }
 
+.upcoming-events .event-card {
+    margin-bottom: 40px;
+}
+
+.event-card .bold {
+    font-weight: 600;
+}
+
+.event-card h3 {
+    text-transform: none;
+    line-height: 120%;
+}
+
+.upcoming-events .event-card h3 {
+    font-size: 20px;
+}
+
+.faq.upcoming-events {
+    margin-bottom: 50px;
+}
+
+.past-events .event-card {
+    margin-bottom: 20px;
+}
+
+.faq.past-events {
+    font-size: 12px;
+}
+
+.faq.past-events .event-date {
+    width: 150px;
+    height: 80px;
+    font-size: 20px;
+}
+
+.event-date {
+    text-shadow: 1px 1px 2px black; 
+    display:inline-block; 
+    width:200px; 
+    height:104px; 
+    text-align: center; 
+    color: white;
+    vertical-align: top; 
+    margin-right:20px; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0)), url(../img/events/events-bg.jpg); 
+    background-size:contain;
+    font-weight:800; 
+    font-size:30px;
+}
+
+.event-description {
+    display:inline-block; 
+    max-width:500px;
+}
+
 #newsletterdiv #mc_embed_signup div.mce_inline_error {
     background-color: transparent !important;
     color: #e55137 !important;
@@ -692,9 +759,7 @@ h3 {
     font-weight: 700;
     text-transform: uppercase;
     line-height: 170%;
-   
-
-    /*text-align: left;*/
+   color: #2d3e52;
 }
 
 h2.dunkelblau {
@@ -1891,7 +1956,7 @@ time {
         font-size: 16px;
     }
 
-    .newsitem-p, .newsitem-button, blockquote {
+    .newsitem-p, .newsitem-button, blockquote, .become-enthusiast {
         font-size: 14px;
     }
 
@@ -2025,7 +2090,7 @@ time {
         font-size: 14px;
     }
 
-    .newsitem-p, .newsitem-button, .abstract, blockquote {
+    .newsitem-p, .newsitem-button, .abstract, blockquote, .become-enthusiast {
         font-size: 12px;
     }
 

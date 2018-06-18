@@ -19,23 +19,19 @@
                 <div class="team">
                     <p>Our Community</p>
                     <p>We are driven by our community: only together can we change the way we discover research.
-                        Do you also want to make a difference? Then consider <a class="underline whitelink" href="#enthusiast-program">becoming an enthusiast</a>! In any case, <a class="underline whitelink" href="./getintouch">get in touch</a>.</p>
+                        Do you also want to make a difference? Then consider <a class="underline whitelink" href="community#enthusiasts-program">becoming an enthusiast</a>! In any case, <a class="underline whitelink" href="./getintouch">get in touch</a>.</p>
                 </div>
             </div>
-
         </div>
-        <?php include($COMPONENTS_PATH . "enthusiasts-program.php") ?>
+
         <?php include($COMPONENTS_PATH . "current-enthusiasts.php") ?>
-
-
+        <?php include($COMPONENTS_PATH . "enthusiasts-events.php") ?>
         <?php
         $COMMENT_TITLE = "What our enthusiasts say";
         $COMMENT_IMAGES_URL = "./img/enthusiasts/ep-statements/";
         include($COMPONENTS_PATH . 'commentstream.php');
         ?>            
-
-
-
+        <?php include($COMPONENTS_PATH . "enthusiasts-program.php") ?>
         <?php include($COMPONENTS_PATH . "program-coordination.php") ?>
         <?php /* include($COMPONENTS_PATH . "newsletter.php") */ ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
