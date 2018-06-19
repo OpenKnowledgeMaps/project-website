@@ -1014,6 +1014,11 @@ a .number:hover {
     margin-bottom: 50px;
 }
 
+.freeadmission {
+    color: #e55137;
+    font-size:12px;
+}
+
 /*ABOUT*/
 #about-page, #news {
     background-color: white;
