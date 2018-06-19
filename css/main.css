@@ -951,6 +951,10 @@ a .number:hover {
     text-align: left;
 }
 
+.info h3 {
+    color: white;
+}
+
 .okm-ngo {
     max-width: 400px;
 }
