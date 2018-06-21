@@ -67,65 +67,56 @@
     </head>
 
     <body class="vis">
-        <?php include ($COMPONENTS_PATH . "header.php"); ?>
+        <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
+        
+            <?php include ($COMPONENTS_PATH . "header.php"); ?>
 
-        <div class="topheader">
+            <div class="topheader">
 
-            <?php
-            require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
-            $detect = new Mobile_Detect;
-            if ($detect->isMobile()):
-                ?>
+                <?php
+                require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
+                $detect = new Mobile_Detect;
+                if ($detect->isMobile()):
+                    ?>
 
-                <script>
-                    //Enable overflow on mobile so you can pinch and zoom
-                    $(document).ready(function () {
-                        $(".overflow-vis").css("overflow-y", "visible");
-                    })
-                </script>
+                    <script>
+                        //Enable overflow on mobile so you can pinch and zoom
+                        $(document).ready(function () {
+                            $(".overflow-vis").css("overflow-y", "visible");
+                        })
+                    </script>
 
-                <div class="alert alert-warning" id="desktop-warning">
+                    <div class="alert alert-warning" id="desktop-warning">
 
-                    <a href="#" class="close" data-dismiss="alert">&times;</a>
+                        <a href="#" class="close" data-dismiss="alert">&times;</a>
 
-                    Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps.
-                    <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">More info on this map</a>. 
-                    Note: the map isn't optimized for mobile yet, you may encounter some rough edges.
+                        Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps.
+                        <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">More info on this map</a>. 
+                        Note: the map isn't optimized for mobile yet, you may encounter some rough edges.
 
-                </div>
+                    </div>
 
-            <?php else: ?>
+                <?php else: ?>
 
-                <div class="alert alert-warning" id="desktop-warning">
+                    <div class="alert alert-warning" id="desktop-warning">
 
-                    <a href="#" class="close" data-dismiss="alert">&times;</a>
+                        <a href="#" class="close" data-dismiss="alert">&times;</a>
 
-                    Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps. For more information on this map, please 
-                    <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">click here</a>.
+                        Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps. For more information on this map, please 
+                        <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">click here</a>.
 
-                </div>
+                    </div>
 
-            <?php endif ?>
-
+                <?php endif ?>
+             <?php endif ?>
             <div class="overflow-vis">
-                <!--
-                <div class="a2a_kit a2a_kit_size_32 a2a_default_style a2e_vis">
-
-                    <div class="sharebutton"><a class="a2a_button_twitter"></a></div>
-                    <div class="sharebutton"><a class="a2a_button_facebook"></a></div>
-                    <div class="sharebutton"><a class="a2a_dd" href="https://www.addtoany.com/share"></a></div>
-                </div>
-                -->
-
+ 
                 <div id="visualization" style="background-color:white;"></div>
 
             </div>
 
             <script src="js/search_options.js"></script>  
             <script>
-                var div_height = ($(document).height() < 750) ? (750) : ($(document).height());
-                $("#visualization").css("height", div_height + "px")
-
                 data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
                 data_config.intro = intro;
             <?php if ($service == "plos"): ?>
@@ -143,32 +134,39 @@
             <script type="text/javascript">
                 headstart.start();
             </script>
+            
+            <?php if (isset($_GET['embed']) && $_GET['embed'] === 'true'): ?>
+                <script>data_config.credit = true</script>
+            
+            <?php else: ?>
 
-            <div class="builtwith">Created on <?php echo (new DateTime($context->timestamp))->format('j M Y \a\t H:i') ?> 
-                with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
-            </div>
-            <div class="cite-map">
-                <p>Please cite this map as follows:
-                <div class="citation">
-                    <?php echo 
-                "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth($query, 0, 100, "[..]") .". " 
-                . "Retrieved from " . '<a href="https://openknowledgemaps.org/map/' . $id . '">https://openknowledgemaps.org/map/' . $id . '</a>'
-                .  "/ [" . date ("d M Y") . "]."; 
-                    ?>
+                <div class="builtwith">Created on <?php echo (new DateTime($context->timestamp))->format('j M Y \a\t H:i') ?> 
+                    with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
+                </div>
+                <div class="cite-map">
+                    <p>Please cite this map as follows:
+                    <div class="citation">
+                        <?php echo 
+                    "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth($query, 0, 100, "[..]") .". " 
+                    . "Retrieved from " . '<a href="https://openknowledgemaps.org/map/' . $id . '">https://openknowledgemaps.org/map/' . $id . '</a>'
+                    .  "/ [" . date ("d M Y") . "]."; 
+                        ?>
+                    </div>
+                </div>
+                <div id="faulty-map"><a href="faq#faq-faulty-map" target="_blank">Not what you expected?</a>
                 </div>
             </div>
-            <div id="faulty-map"><a href="faq#faq-faulty-map" target="_blank">Not what you expected?</a>
-            </div>
-        </div>
-        <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
-        <link rel="stylesheet" href="./css/main.css">
+            <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
+            <link rel="stylesheet" href="./css/main.css">
 
 
-        <?php
-        include($COMPONENTS_PATH . 'supportus.php');
-        //include($COMPONENTS_PATH . 'newsletter.php');
-        include($COMPONENTS_PATH . 'footer.php');
-        ?>
+            <?php
+            include($COMPONENTS_PATH . 'supportus.php');
+            //include($COMPONENTS_PATH . 'newsletter.php');
+            include($COMPONENTS_PATH . 'footer.php');
+            ?>
+        
+        <?php endif ?>
 
         <?php
 

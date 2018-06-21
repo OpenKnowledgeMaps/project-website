@@ -26,7 +26,7 @@ var data_config = {
     create_title_from_context: true,
     
     embed_modal: true,
-    share_modal: false,
+    share_modal: true,
 
     doi_outlink: true,
     filter_menu_dropdown: true,
