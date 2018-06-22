@@ -116,7 +116,7 @@
             </div>
 
             <script src="js/search_options.js"></script>  
-            <script>
+            <script> 
                 var calcDivHeight = function () {
                     if($(window).height() <= 750) {
                         return 750;
@@ -128,11 +128,15 @@
                         return $(window).height();
                     }
                 }
-                
+
                 var div_height = calcDivHeight();
                 var initial_height = div_height;
-                $(".overflow-vis").css("min-height", div_height + "px")
-                $("#visualization").css("min-height", div_height + "px")
+
+                <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
+                    $(".overflow-vis").css("min-height", div_height + "px")
+                    $("#visualization").css("min-height", div_height + "px")
+                
+                <?php endif ?>
                 
                 data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
                 data_config.intro = intro;
@@ -226,8 +230,10 @@
             $(document).ready(function () {
                 $(window).resize(function(){
                     div_height = calcDivHeight();
-                    $(".overflow-vis").css("min-height", div_height + "px")
-                    $("#visualization").css("min-height", div_height + "px")
+                    <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
+                        $(".overflow-vis").css("min-height", div_height + "px")
+                        $("#visualization").css("min-height", div_height + "px")
+                    <?php endif ?>
                     
                     var absolute_left = $("#visualization").offset().left;
                     var offset = 0;
