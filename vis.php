@@ -229,16 +229,17 @@
             
             $(document).ready(function () {
                 $(window).resize(function(){
-                    div_height = calcDivHeight();
                     <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
+                        div_height = calcDivHeight();
+                        
                         $(".overflow-vis").css("min-height", div_height + "px")
                         $("#visualization").css("min-height", div_height + "px")
+
+                        var absolute_left = $("#visualization").offset().left;
+                        var offset = 0;
+                        $("#modals").css("left",  absolute_left + offset)
+                        $("#modals").followTo(initial_height, $("#modals").position().top, absolute_left, offset);
                     <?php endif ?>
-                    
-                    var absolute_left = $("#visualization").offset().left;
-                    var offset = 0;
-                    $("#modals").css("left",  absolute_left + offset)
-                    $("#modals").followTo(initial_height, $("#modals").position().top, absolute_left, offset);
                 });
 
                 $(window).trigger("resize");
