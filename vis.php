@@ -117,9 +117,22 @@
 
             <script src="js/search_options.js"></script>  
             <script>
-                var div_height = ($(window).height() < 750) ? (750) : ($(window).height());
-                $(".overflow-vis").css("height", div_height + "px")
-                $("#visualization").css("height", div_height + "px")
+                var calcDivHeight = function () {
+                    if($(window).height() <= 750) {
+                        return 750;
+                    } else if($(window).width() <= 1200) {
+                        return 750;
+                    } else if($(window).width() > 1200 && $(window).width() < 1400) {
+                        return 850;
+                    } else {
+                        return $(window).height();
+                    }
+                }
+                
+                var div_height = calcDivHeight();
+                var initial_height = div_height;
+                $(".overflow-vis").css("min-height", div_height + "px")
+                $("#visualization").css("min-height", div_height + "px")
                 
                 data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
                 data_config.intro = intro;
@@ -212,14 +225,14 @@
             
             $(document).ready(function () {
                 $(window).resize(function(){
-                    div_height = ($(window).height() < 750) ? (750) : ($(window).height());
-                    $(".overflow-vis").css("height", div_height + "px")
-                    $("#visualization").css("height", div_height + "px")
+                    div_height = calcDivHeight();
+                    $(".overflow-vis").css("min-height", div_height + "px")
+                    $("#visualization").css("min-height", div_height + "px")
                     
                     var absolute_left = $("#visualization").offset().left;
-                    var offset = 10;
+                    var offset = 0;
                     $("#modals").css("left",  absolute_left + offset)
-                    $("#modals").followTo(div_height, $("#modals").position().top, absolute_left, offset);
+                    $("#modals").followTo(initial_height, $("#modals").position().top, absolute_left, offset);
                 });
 
                 $(window).trigger("resize");
