@@ -177,7 +177,7 @@
                         ?>
                     </div>
                 </div>
-                <div id="faulty-map"><a href="faq#faq-faulty-map" target="_blank">Not what you expected?</a>
+                <div id="faulty-map">Not what you expected? <a href="faq#faq-faulty-map" target="_blank">Check out our FAQs.</a>
                 </div>
             </div>
             <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
