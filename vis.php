@@ -84,13 +84,20 @@
             <script src="js/search_options.js"></script>  
             <script> 
                 var calcDivHeight = function () {
-                    if($(window).height() <= 750) {
-                        return 750;
-                    } else if($(window).width() <= 1200) {
-                        return 750;
-                    } else if($(window).width() > 1200 && $(window).width() < 1400) {
-                        return 850;
-                    } else {
+                    
+                    let height = $(window).height();
+                    let width = $(window).width();
+                    
+                    if(height <= 670 || width < 904 || (width >= 985 && width  < 1070)) {
+                        return 670;    
+                    } else if (width >= 904 && width <= 984) {
+                        return 670 + (width - 904);
+                    } else if (width >= 1070 && width < 1400) {
+                        return 670 + (width - 1070)/2;
+                    } else if (width > 1400 && width < 1600) {
+                        let calc_width = 835 + (width - 1400)
+                        return (calc_width > 897)?(897):(calc_width);
+                    }  else {
                         return $(window).height();
                     }
                 }
@@ -144,10 +151,9 @@
 
         <?php endif ?>  
 
-        <?php 
+        <?php include ($COMPONENTS_PATH . "vis_additional_functions.php"); ?>
         
-            include ($COMPONENTS_PATH . "vis_additional_functions.php");
-
+        <?php
             function curl_get_contents($url) {
                 $ch = curl_init($url);
                 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);

@@ -24,6 +24,9 @@
         $(window).resize(function(){
             <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
                 div_height = calcDivHeight();
+                
+                /*console.log("window height: " + $(window).height()
+                               + "\nwindow width: " + $(window).width())*/
 
                 $(".overflow-vis").css("min-height", div_height + "px")
                 $("#visualization").css("min-height", div_height + "px")
@@ -32,6 +35,8 @@
                 var offset = 0;
                 $("#modals").css("left",  absolute_left + offset)
                 $("#modals").followTo(initial_height, $("#modals").position().top, absolute_left, offset);
+                
+                //console.log("vis_height:" + $(".container-headstart").height())
             <?php endif ?>
         });
 
