@@ -71,44 +71,10 @@
         
             <?php include ($COMPONENTS_PATH . "header.php"); ?>
 
-            <div class="topheader">
+        <div class="topheader"></div>
 
-                <?php
-                require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
-                $detect = new Mobile_Detect;
-                if ($detect->isMobile()):
-                    ?>
-
-                    <script>
-                        //Enable overflow on mobile so you can pinch and zoom
-                        $(document).ready(function () {
-                            $(".overflow-vis").css("overflow-y", "visible");
-                        })
-                    </script>
-
-                    <div class="alert alert-warning" id="desktop-warning">
-
-                        <a href="#" class="close" data-dismiss="alert">&times;</a>
-
-                        Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps.
-                        <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">More info on this map</a>. 
-                        Note: the map isn't optimized for mobile yet, you may encounter some rough edges.
-
-                    </div>
-
-                <?php else: ?>
-
-                    <div class="alert alert-warning" id="desktop-warning">
-
-                        <a href="#" class="close" data-dismiss="alert">&times;</a>
-
-                        Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps. For more information on this map, please 
-                        <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">click here</a>.
-
-                    </div>
-
-                <?php endif ?>
-             <?php endif ?>
+            <?php include ($COMPONENTS_PATH . "vis_beta_banner.php"); ?>
+       <?php endif; ?>
             <div class="overflow-vis">
  
                 <div id="visualization" style="background-color:white;"></div>
@@ -159,90 +125,38 @@
                 
             </script>
             
-            <?php if (isset($_GET['embed']) && $_GET['embed'] === 'true'): ?>
-                <script>data_config.credit = true</script>
-            
-            <?php else: ?>
+        <?php if (isset($_GET['embed']) && $_GET['embed'] === 'true'): ?>
+            <script>data_config.credit = true</script>
 
-                <div class="builtwith">Created on <?php echo (new DateTime($context->timestamp))->format('j M Y \a\t H:i') ?> 
-                    with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?>
-                </div>
-                <div class="cite-map">
-                    <p>Please cite this map as follows:
-                    <div class="citation">
-                        <?php echo 
-                    "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth($query, 0, 100, "[..]") .". " 
-                    . "Retrieved from " . '<a href="https://openknowledgemaps.org/map/' . $id . '">https://openknowledgemaps.org/map/' . $id . '</a>'
-                    .  "/ [" . date ("d M Y") . "]."; 
-                        ?>
-                    </div>
-                </div>
-                <div id="faulty-map">Not what you expected? <a href="faq#faq-faulty-map" target="_blank">Check out our FAQs.</a>
-                </div>
-            </div>
-            <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
-            <link rel="stylesheet" href="./css/main.css">
+        <?php else: ?>
 
-
-            <?php
-            include($COMPONENTS_PATH . 'supportus.php');
-            //include($COMPONENTS_PATH . 'newsletter.php');
-            include($COMPONENTS_PATH . 'footer.php');
-            ?>
+        <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>       
         
-        <?php endif ?>
+        <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
+        <link rel="stylesheet" href="./css/main.css">
+
 
         <?php
-
-        function curl_get_contents($url) {
-            $ch = curl_init($url);
-            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-            curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-            $data = curl_exec($ch);
-            curl_close($ch);
-            return $data;
-        }
+        include($COMPONENTS_PATH . 'supportus.php');
+        //include($COMPONENTS_PATH . 'newsletter.php');
+        include($COMPONENTS_PATH . 'footer.php');
         ?>
-        <script type="text/javascript">
-            $.fn.followTo = function (pos, top_pos, left_pos, left_offset) {
-                var $this = this,
-                    $window = $(window);
 
-                $window.scroll(function (e) {
-                    if ($window.scrollTop() > pos - top_pos) {
-                        $this.css({
-                            position: 'absolute',
-                            top: pos,
-                            left: left_offset
-                        });
-                    } else {
-                        $this.css({
-                            position: 'fixed',
-                            top: top_pos,
-                            left: left_pos + left_offset
-                        });
-                    }
-                });
-            };
-            
-            $(document).ready(function () {
-                $(window).resize(function(){
-                    <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
-                        div_height = calcDivHeight();
-                        
-                        $(".overflow-vis").css("min-height", div_height + "px")
-                        $("#visualization").css("min-height", div_height + "px")
+        <?php endif ?>  
 
-                        var absolute_left = $("#visualization").offset().left;
-                        var offset = 0;
-                        $("#modals").css("left",  absolute_left + offset)
-                        $("#modals").followTo(initial_height, $("#modals").position().top, absolute_left, offset);
-                    <?php endif ?>
-                });
+        <?php 
+        
+            include ($COMPONENTS_PATH . "vis_additional_functions.php");
 
-                $(window).trigger("resize");
-            })
-            
-        </script>
+            function curl_get_contents($url) {
+                $ch = curl_init($url);
+                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
+                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+                curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+                $data = curl_exec($ch);
+                curl_close($ch);
+                return $data;
+            }
+        
+        ?>
