@@ -103,7 +103,6 @@
                 }
 
                 var div_height = calcDivHeight();
-                var initial_height = div_height;
 
                 <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
                     $(".overflow-vis").css("min-height", div_height + "px")
