@@ -30,13 +30,13 @@
 
             $(".close").click(function(){
                 $("#modals").css("top", $("#modals").position().top - $('#desktop-warning').outerHeight());
-                $("#modals").followTo(div_height, $("#modals").position().top, absolute_left, 0);
+                top_pos = $("#modals").position().top;
+                $("#modals").followTo(div_height, top_pos, absolute_left, 0);
             });
         <?php endif ?>
         
         $(window).resize(function(){
             <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
-                let previous_div_height = div_height;
                 div_height = calcDivHeight();
 
                 $(".overflow-vis").css("min-height", div_height + "px")
