@@ -131,15 +131,15 @@
                 
             </script>
             
+            <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
+            <link rel="stylesheet" href="./css/main.css">
+            
         <?php if (isset($_GET['embed']) && $_GET['embed'] === 'true'): ?>
             <script>data_config.credit = true</script>
 
         <?php else: ?>
 
-        <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>       
-        
-        <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
-        <link rel="stylesheet" href="./css/main.css">
+        <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>
 
 
         <?php
