@@ -46,7 +46,7 @@
 
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:maxi@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="http://looove-design.com"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                            
                         </ul>
                     </div>
 
@@ -241,11 +241,7 @@
                             </ul>
                         </div>
                         
-                        <div class="advisor">
-                            <a target="_blank" href="http://www.punkish.org"><img class="hoverlink" src="./img/advisors/puneet.jpg" alt="Advisor OKMaps"></a>
-                            <h3>Puneet Kishor</h3>
-                            <p class="advisor-desc">Itinerant Open Science and Data Advocate</p>
-                        </div>
+                        
 
                         <div class="advisor">
                             <a target="_blank" href="http://oana.at"><img class="hoverlink" src="./img/advisors/falk.jpg" alt="Advisor OKMaps"></a>
@@ -440,5 +436,4 @@
         </div>
         <?php include($COMPONENTS_PATH . 'partners.php'); ?>
         <?php include($COMPONENTS_PATH . 'networks.php'); ?>
-
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
