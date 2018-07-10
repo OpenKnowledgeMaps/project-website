@@ -10,5 +10,8 @@
         <a href="https://mozillafestival.org/" target="_blank"><img src="./img/featuredin/mozfest.png" alt="Mozfest"></a>
         <a href="https://news.ycombinator.com/" target="_blank"><img src="./img/featuredin/hackernews.jpg" alt="Hacker News"></a>
         <a href="http://wikicite.org/" target="_blank"><img src="./img/featuredin/wikicite.png" alt="Wikicite"></a>
+        <a href="http://www.sciencegeist.com/search?sq=open+knowledge+maps" target="_blank"><img src="./img/featuredin/sciencegeist.png" alt="ScienceGeist"></a>
+        <a href="https://www.zbw-mediatalk.eu/?s=open+knowledge+maps" target="_blank"><img src="./img/featuredin/zbw-mediatalk.png" alt="ZBW Mediatalk"></a>
+        <a href="http://www.storybench.org" target="_blank"><img src="./img/featuredin/storybench.png" alt="Storybench"></a>
     </div>
 </div>       
