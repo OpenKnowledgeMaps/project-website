@@ -7,6 +7,8 @@
         $id = (isset($_GET['id'])) ? ($_GET['id']) : ("zika");
 
         $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
+        
+        $canonical_url = "$protocol//openknowledgemaps.org/map/$id";
 
         $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
         $context = json_decode($context_json);
@@ -129,7 +131,10 @@
             <link rel="stylesheet" href="./css/main.css">
             
         <?php if (isset($_GET['embed']) && $_GET['embed'] === 'true'): ?>
-            <script>data_config.credit = true</script>
+            <script>
+                data_config.credit_embed = true;
+                data_config.canonical_url = "<?php echo $canonical_url; ?>";
+            </script>
 
         <?php else: ?>
 
