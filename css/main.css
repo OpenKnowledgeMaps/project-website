@@ -1918,6 +1918,10 @@ time {
     font-size: 18px;
 }
 
+.intro_underline a {
+    text-decoration: underline;
+}
+
 .description-headstart {
     max-width: 1000px;
     margin: 0px auto;
