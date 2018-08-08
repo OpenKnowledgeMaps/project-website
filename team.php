@@ -353,8 +353,8 @@
                             <a target="_blank" href="http://stefaniehaustein.com/"><img class="hoverlink" src="./img/advisors/stefanieh.jpg" alt="Advisor OKMaps"></a>
                             <h3>Stefanie Haustein</h3>
                             <ul class="advisor-desc">
-                                <li>Postdoctoral researcher</li>
-                                <li>University of Montreal</li>
+                                <li>Assistant professor</li>
+                                <li>University of Ottawa</li>
                             </ul>
                         </div>
 
