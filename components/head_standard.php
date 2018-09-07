@@ -148,9 +148,9 @@ function getLabel($tag) {
 
 
 <script>
-// Set to the same value as the web property used on the site
+    // Set to the same value as the web property used on the site
     var gaProperty = '<?php echo $GA_CODE; ?>';
-// Disable tracking if the opt-out cookie exists.
+    // Disable tracking if the opt-out cookie exists.
     var disableStr = 'ga-disable-' + gaProperty;
     if (document.cookie.indexOf(disableStr + '=true') > -1) {
         window[disableStr] = true;
@@ -165,7 +165,7 @@ function getLabel($tag) {
 
 <?php if ($GA_ENABLED): ?>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123491299-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=<?php echo $GA_CODE; ?>"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
