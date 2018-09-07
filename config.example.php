@@ -9,6 +9,8 @@ $SNAPSHOT_PATH = $HEADSTART_URL . "server/storage/";
 
 $PIWIK_ENABLED = false;
 $PIWIK_PATH = "piwik/";
+$GA_ENABLED = false;
+$GA_CODE = "XX-00000000-0";
 
 $DEFAULT_LIB = "base";
 $BASE_DOWN = false;

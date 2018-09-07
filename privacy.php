@@ -23,11 +23,11 @@
                 <h2>Privacy Policy</h2>
                 <p><b>Last updated:</b> 25 May 2018
                 
-                <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example “personal data” or “third party” are defined in Art. 4 of the General Data Protection Regulation (GDPR):
+                <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example "personal data" or "third party" are defined in Art. 4 of the General Data Protection Regulation (GDPR):
                     <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a> 
                 </p>
                 <h3>Purpose of processing</h3>
-                <p>We use the data for provision, maintenance, security and improvement of services, for the analysis of user behaviour and development of new services, and to protect Open Knowledge Maps and our users. We also use the data to fulfil the purpose of our association (for more info see: https://openknowledgemaps.org/imprint#legalnotice)</p>
+                <p>We use the data for provision, maintenance, security and improvement of services, for the analysis of user behaviour and development of new services, and to protect Open Knowledge Maps and our users. We also use the data to fulfil the purpose of our association (for more info seeour Legal Notice:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>)</p>
 
                 <h3>Controller
                 </h3>
@@ -41,7 +41,7 @@
                     Please find further details in our Legal Notice:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>
                 </p>
 
-                <p>If you have any question about our privacy policy or data protection at Open Knowledge Maps, please send an email to <a class="underline" href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a> 
+                <p>If you have any question about our privacy policy, or data protection at Open Knowledge Maps in general, please send an email to <a class="underline" href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a> 
                 </p>
                 <h3>Collection and storage of general data and information</h3>
                 <p>Every visit to our website general data is automatically collected and stored in a log file.
@@ -60,46 +60,46 @@
 
                 </ul>
 
-                <p>This information is technically required in order to display the content of our website and services correctly and are imperative when you use the internet. The data isi collected to:
+                <p>This information is technically necessary in order to display the content of our website and services correctly and is imperative when you use the internet. The data is collected to:
                 </p>
                 <ul style="list-style: disc; margin-left:20px;">
                     <li>ensure an accurate connection establishment to our website and services</li>
-                    <li>to ensure that you can use our website without obstruction</li>
+                    <li>ensure that you can use our website without obstruction</li>
                     <li>analyse system security and stability and for further administrative purposes</li>
                     <li>create aggregate usage statistics for the analysis of user behaviour and to further develop our service</li>
 
                 </ul>
                 <p>The processing of this information is based on our legitimate interest in the purposes for data collection mentioned above. We are not using this data to identify you personally. The recipient of the data is only the responsible office. The information is used for example to fix errors, to detect hacker attacks or for legitimate investigations of government bodies.</p>
 
-                <p>Access logs are deleted after 30 days in case of regular access behaviour. Access data for debugging (“error logs”) are deleted after 90 days, security-relevant access data (“security logs) are deleted after 180 days. Access data is only collected in an error log in case an error occurs. Access data is only collected in a security log in case when an improper use of our website is suspected.</p>
+                <p>Access logs are deleted after 30 days in case of regular access behaviour. Access data for debugging ("error logs") are deleted after 90 days, security-relevant access data ("security logs) are deleted after 180 days. Access data is only collected in an error log in case an error occurs. Access data is only collected in a security log in case when an improper use of our website is suspected.</p>
                 <h3>Collection and storage of Personally Identifiable Information</h3>
-                <p>“Personally Identifiable Information” means any information that can be used to identify an individual, including, but not limited to, a first and last name, an email address or other contact information, whether at work or at home. </p>
+                <p>"Personally Identifiable Information" means any information that can be used to identify an individual, including, but not limited to, a first and last name, an email address or other contact information, whether at work or at home. </p>
 
                 <h3>Encrypted connection</h3>
                 <p>We use an encrypted connection to establish a connection between your browser and our website & web services. An encrypted connection ensures that the data you send via our web services (e.g. search terms you type into our search field on openknowledgemaps.org) cannot be recognized by third parties.</p>
                 <p>If you use your email software to send us a message, please be aware that the message you send is not encrypted by default. 
-                    If you want to send us personal information via email we advise you to always encrypt your messages beforehand. For more information check “Email communication with us” further down.</p>
+                    If you want to send us personal information via email, we advise you to always encrypt your messages beforehand. Please see the section "Email communication with us" for more information.</p>
 
                 <h3>Collaboration with Data Processors and Third Parties</h3>
-                <p>We use Google Fonts and Google Hosted Libraries, a Content Distribution Network (CDN), of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see “Use of Google Fonts” and “Use of Content Distribution Network (CDN)” further down.
-                    We als use some web services provided by Twitter. For more information please see “Social Plugins” further down.
-                    In addition, we use the GDPR-compliant service MailChimp, a marketing automation service provided by The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). For more information please see “Newsletter” further down.
+                <p>We use Google Fonts, Google Hosted Libraries, a Content Distribution Network (CDN), and Google Analytics, a web analytics service, of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see "Use of Google Fonts", "Use of Content Distribution Network (CDN)", and "Use of Google Analytics" further down.
+                    We als use some web services provided by Twitter. For more information please see "Social Plugins" further down.
+                    In addition, we use the GDPR-compliant service MailChimp, a marketing automation service provided by The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). For more information please see "Newsletter" further down.
                 </p>
-                <p>Apart from the aformentioned data processors, we don’t transfer your data to any other third parties.</p>
+                <p>Apart from the aformentioned data processors, we do not transfer your data to any other third parties.</p>
 
                 <h3>Email communications with us</h3>
-                <p>If you click on our dedicated contact buttons: info@openknowledgemaps.org or any other contact buttons (“pre-register via email”, email icon) your email software will be activated and invites you to send your comments to a specific functional mailbox. When you send such a message, your personal data is collected only to the extent necessary to reply. 
+                <p>If you click on our dedicated contact buttons: info@openknowledgemaps.org or any other contact buttons ("pre-register via email", email icon) your email software will be activated and invites you to send your comments to a specific functional mailbox. When you send such a message, your personal data is collected only to the extent necessary to reply. 
                     If you use your email software to send us a message, please be aware that the message you send is not encrypted by default. 
                     If you want to send us personal information via email we advise you to always encrypt your messages beforehand.</p>
                 <p>We will not forward your email or the data included in your email to any third parties without your consent.</p>
                 <p>If you have any questions about the processing of your e-mail and related personal data, do not hesitate to include them in your message.</p>
                 <h3>Social Plug-ins</h3>
-                <p>We use website elements from Twitter, a social network of the company Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA), on our website. Website elements are e.g. buttons (so-called “social plug-ins”) or integrated content from the provider. You can find an overview of Twitter website elements here: 
+                <p>We use website elements from Twitter, a social network of the company Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA), on our website. Website elements are e.g. buttons (so-called "social plug-ins") or integrated content from the provider. You can find an overview of Twitter website elements here: 
                     <a class="underline" target="_blank" href="https://dev.twitter.com/web/overview">https://dev.twitter.com/web/overview</a></p>
                 <p>We use Twitter elements to display posts and news about and by Open Knowledge Maps.
 
 
-                    When you visit a page on our website that contains such a website element, your browser establishes a direct connection to the server of the provider. The content of the website element is transmitted by the provider directly to your browser and integrated into the Open Knowledge Maps page. By integrating the website elements, the provider gains knowledge that your browser has accessed the corresponding page of our website, and even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to Twitter. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section “Cookies”).
+                    When you visit a page on our website that contains such a website element, your browser establishes a direct connection to the server of the provider. The content of the website element is transmitted by the provider directly to your browser and integrated into the Open Knowledge Maps page. By integrating the website elements, the provider gains knowledge that your browser has accessed the corresponding page of our website, and even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to Twitter. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section "Cookies").
                 </p>
                 <p>Open Knowledge Maps has no influence on the parameters of the data that the Twitter lifts out with the help of the website elements. For details on the purpose and extent of the data collection and the further processing and use of the data by the providers as well as your related rights and setting options for protecting your privacy, please refer to the privacy policy of Twitter: 
                     <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>
@@ -146,12 +146,12 @@
                 <p>We use cookies on our website to</p>
                 <ul>
                     <li>store your acknowledgement of the use of cookies on this website</li>
-                    <li>to create aggregated usage statistics and anonymised analysis of user behaviour (see section “Matomo”)</li>
+                    <li>to create aggregated usage statistics and anonymised analysis of user behaviour (see section "Matomo")</li>
                 </ul>
                 <p>The cookies for the purposes mentioned above are not used to personally identify you. These cookies are stored permanently and are not used for any other purpose.
                 </p>
 
-                <p>Website elements from Twitter embedded on our website (see also “Social plugins”) also use cookies. Open Knowledge Maps does not have access to this data and does not process it. Twitter uses these cookies for example to improve its service and to understand, how social plugins are used. Twitter possibly also uses these cookies to identify you as a user, even beyond the scope of this website, and in addition, if you have a Twitter account and are logged in, to link your activity to your account. You can find more information on the use of cookies by Twitter here: 
+                <p>Website elements from Twitter embedded on our website (see also "Social plugins") also use cookies. Open Knowledge Maps does not have access to this data and does not process it. Twitter uses these cookies for example to improve its service and to understand, how social plugins are used. Twitter possibly also uses these cookies to identify you as a user, even beyond the scope of this website, and in addition, if you have a Twitter account and are logged in, to link your activity to your account. You can find more information on the use of cookies by Twitter here: 
                      <a class="underline" target="_blank" href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> and here: 
                       <a class="underline" target="_blank" href="https://twitter.com/privacy">https://twitter.com/privacy</a>.</p>
                 <p class="bold">Matomo</p>
@@ -182,9 +182,9 @@
 
 
                 <h3>Rights of the data subject - right of access, rectification, blocking, erasure, right to object</h3>
-                <p>You have the right to obtain from us free information about your personal data stored at any time. You also have the right to rectification, blocking and, with the exception of legally mandated data storage. Please contact us if you want to exercise these right. You can find the contact data above in the section “Controller”.</p>
+                <p>You have the right to obtain from us free information about your personal data stored at any time. You also have the right to rectification, blocking and, with the exception of legally mandated data storage. Please contact us if you want to exercise these right. You can find the contact data above in the section "Controller".</p>
                 <p>To fulfil your right to blocking of data, we need to store these data in a blocking file. You can demand erasure of data, unless data archival is not legally mandated. If data storage is legally mandated, we will block your data, if this is your wish. You can submit changes or a revocation of a granted consent, with effect for the future.</p>
-                <p>By contacting us using the contact data under “Processor”, you can exercise the following rights at any time:</p>
+                <p>By contacting us using the contact data under "Processor", you can exercise the following rights at any time:</p>
                 <ul style="list-style: disc; margin-left:20px;">
                     <li>Access to your personal data stored by us and their processing</li>
                     <li>Rectification of inaccurate personal data</li>

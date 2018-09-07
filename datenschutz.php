@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
-        <?php $title = "Privacy Policy - Open Knowledge Maps"; ?>
+        <?php $title = "Datenschutzerklärung - Open Knowledge Maps"; ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
@@ -21,12 +21,12 @@
 
                 <h2>Datenschutzerklärung</h2>
                 <p><b>Stand:</b> 25.05.2018
-                <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben.  Die hier verwendeten Begriffe, wie z.B. „Auftragsverarbeitung“ oder „Verantwortlicher“, sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert: 
+                <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben.  Die hier verwendeten Begriffe, wie z.B. "Auftragsverarbeitung" oder "Verantwortlicher", sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert: 
                     <a class="underline" target="_blank" href="http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj">http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj</a>
                 </p>
 
                 <h3>Zweck der Verarbeitung</h3>
-                <p>Wir nutzen die im Rahmen unserer Webseite erhobenen Daten zur Bereitstellung, zur Wartung, zum Schutz und zur Verbesserung unserer Dienste, zur Analyse des Nutzungsverhaltens und zur Entwicklung neuer Dienste sowie zum Schutz von Open Knowledge Maps und unseren Nutzern. Zudem nutzen wir die erhobenen Daten für die Erreichung unseres Vereinszwecks (siehe: https://openknowledgemaps.org/imprint#impressum).
+                <p>Wir nutzen die im Rahmen unserer Webseite erhobenen Daten zur Bereitstellung, zur Wartung, zum Schutz und zur Verbesserung unserer Dienste, zur Analyse des Nutzungsverhaltens und zur Entwicklung neuer Dienste sowie zum Schutz von Open Knowledge Maps und unseren Nutzern. Zudem nutzen wir die erhobenen Daten für die Erreichung unseres Vereinszwecks (siehe Impressum:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#impressum">https://openknowledgemaps.org/imprint#impressum</a>).
                 </p>
 
                 <h3>Verantwortlicher</h3>
@@ -48,10 +48,9 @@
 
                 <h3>Automatische Datenspeicherung
                 </h3>
-                <p>Jeder Abruf von Inhalten unserer Webseite wird automatisch in einer sogenannten Log-Datei aufgezeichnet.   
-                    Es werden dabei in der Regel folgende Informationen aufgezeichnet:</p>
+                <p>Jeder Abruf von Inhalten unserer Webseite wird automatisch in einer sogenannten Log-Datei aufgezeichnet. Es werden dabei in der Regel folgende Informationen aufgezeichnet:</p>
                 <ul style="list-style: disc; margin-left:20px;">
-                    <li>die IP-Adresse ihres Gerätes, mit dem Sie unser Webseite nutzen </li>
+                    <li>die IP-Adresse ihres Gerätes, mit dem Sie unsere Webseite besuchen </li>
                     <li>der Name der abgerufenen Webseite </li>
                     <li>der Name der abgerufenen Datei(en)</li>
                     <li> Datum und Uhrzeit des Abrufs </li>
@@ -73,33 +72,33 @@
                     </li>
 
                 </ul>
-                <p>Die Verarbeitung dieser Informationen basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Empfänger der Daten sind nur die verantwortliche Stelle.   Diese Informationen dienen z.B. im Falle eines Fehlers der Fehlerbeseitigung, dem Erkennen von Hackerangriffen oder rechtmäßigen Ermittlungen staatlicher Organe.
+                <p>Die Verarbeitung dieser Informationen basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Empfänger der Daten ist nur die verantwortliche Stelle.   Diese Informationen dienen z.B. im Falle eines Fehlers der Fehlerbeseitigung, dem Erkennen von Hackerangriffen oder rechtmäßigen Ermittlungen staatlicher Organe.
                 </p>
-                <p>Zugriffsdaten (“Access Logs”) werden im Falle normalen Zugriffsverhaltens nach 30 Tagen gelöscht. Zugriffsdaten zum Zweck der Fehlerbeseitigung (“Error Logs”) werden nach 90 Tagen gelöscht, sicherheitskritische Zugriffsdaten (“Security Logs”) nach 180 Tagen. Zugriffsdaten zum Zweck der Fehlerbeseitigung werden nur angelegt, wenn ein Fehler auftritt. Sicherheitskritische Zugriffsdaten werden nur angelegt, wenn eine unsachgemäße Nutzung der Webseite vermutet wird.
+                <p>Zugriffsdaten ("Access Logs") werden im Falle normalen Zugriffsverhaltens nach 30 Tagen gelöscht. Zugriffsdaten zum Zweck der Fehlerbeseitigung ("Error Logs") werden nach 90 Tagen gelöscht, sicherheitskritische Zugriffsdaten ("Security Logs") nach 180 Tagen. Zugriffsdaten zum Zweck der Fehlerbeseitigung werden nur angelegt, wenn ein Fehler auftritt. Sicherheitskritische Zugriffsdaten werden nur angelegt, wenn eine unsachgemäße Nutzung der Webseite vermutet wird.
                 </p>
                 <h3>Erhebung und Speicherung personenbezogener Daten
                 </h3>
-                <p>Bei personenbezogenen Daten handelt es sich um Informationen, über welche Sie als Person identifiziert werden können. Wir erfassen im Rahmen dieser Webseite nur wenige personenbezogene Daten. Dazu gehört das Speichern von Zugriffsdaten (siehe hierzu Punkt "Automatische Datenspeicherung") und das Speichern von Daten wenn Sie mit uns Kontakt per E-Mail aufnehmen (siehe hierzu Punkt “Kontaktaufnahme per E-Mail”).
+                <p>Bei personenbezogenen Daten handelt es sich um Informationen, über welche Sie als Person identifiziert werden können. Wir erfassen im Rahmen dieser Webseite nur wenige personenbezogene Daten. Dazu gehört das Speichern von Zugriffsdaten (siehe hierzu Punkt "Automatische Datenspeicherung") und das Speichern von Daten wenn Sie mit uns Kontakt per E-Mail aufnehmen (siehe hierzu Punkt "Kontaktaufnahme per E-Mail").
                 </p>
 
                 <h3>Verschlüsselte Verbindung</h3>
                 <p>Für die Verbindung zwischen Ihrem Web-Browser und unserer Webseite nutzen wir eine verschlüsselte Verbindung. 
                     Eine verschlüsselte Verbindung stellt sicher, dass ihre gesendeten Daten (z.B. wenn Sie einen Suchbegriff auf openknowledgemaps.org eingeben) nicht von Dritten eingesehen werden können. 
 
-                    Wenn Sie uns persönliche Daten per E-Mail schicken wollen – somit abseits dieser Webseite – können wir keine sichere Übertragung und den Schutz Ihrer Daten garantieren. Mehr Infos hierzu finden Sie unter dem Punkt “Kontaktaufnahme per E-Mail”. 
+                    Wenn Sie uns persönliche Daten per E-Mail schicken wollen – somit abseits dieser Webseite – können wir keine sichere Übertragung und den Schutz Ihrer Daten garantieren. Mehr Infos hierzu finden Sie unter dem Punkt "Kontaktaufnahme per E-Mail". 
                 </p>
 
                 <h3>Zusammenarbeit mit Auftragsdatenverarbeitern und Dritten
                 </h3>
-                <p>Wir benutzen für unsere Webseite die Schriftarten (Google Fonts) und das Content Distribution Network der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mehr Informationen hierzu finden Sie im Punkt "Benutzung der Schriftarten von Google" und “Benutzung des Content Distribution Networks von Google”.
-                    Wir nutzen außerdem die Dienste der Firma Twitter. Mehr Informationen hierzu finden Sie unter dem Punkt “Social Plugins”. 
-                    Außerdem verwenden wir den DSGVO-konformen Service MailChimp. Mailchimp ist ein automatisierter Marketing-Service der Firma The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). Mehr Informationen dazu finden Sie unter dem Punkt “Newsletter”.
+                <p>Wir benutzen für unsere Webseite die Schriftarten (Google Fonts), das Content Distribution Network und Google Analytics, einen Webanalysedienst, der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mehr Informationen hierzu finden Sie im Punkt "Verwendung der Schriftarten von Google", "Verwendung des Content Distribution Networks von Google" und "Verwendung von Google Analytics".
+                    Wir nutzen außerdem die Dienste der Firma Twitter. Mehr Informationen hierzu finden Sie unter dem Punkt "Social Plugins". 
+                    Außerdem verwenden wir den DSGVO-konformen Service MailChimp. Mailchimp ist ein automatisierter Marketing-Service der Firma The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). Mehr Informationen dazu finden Sie unter dem Punkt "Newsletter".
                 </p>
                 <p>Eine darüber hinausgehende Weitergabe von Daten durch uns an Dritte findet nicht statt.</p>
 
                 <h3>Kontaktaufnahme per E-Mail</h3>
-                <p>Wenn Sie auf openknowledgemaps.org den Link info@openknowledgemaps.org anklicken oder einen unserer anderen Kontakt Buttons anklicken (“pre-register via email”, Mail Icon), wird ihre E-Mail Software aktiviert und Sie können eine Nachricht an uns verfassen und an eine spezifische Mailbox senden. </p>
-                <p>Wenn Sie uns eine E-Mail über Ihr E-Mail-Programm zusenden möchten, so gehen Sie bitte davon aus, dass die Informationen, die Sie mit der E-Mail übermitteln, nicht geschützt übertragen werden.  Wenn Sie uns persönliche Daten per E-Mail schicken wollen – somit abseits dieser Webseite – können wir keine sichere Übertragung und den Schutz Ihrer Daten garantieren. Wir empfehlen Ihnen, vertrauliche Daten niemals unverschlüsselt per E-Mail zu übermitteln. </p>
+                <p>Wenn Sie auf openknowledgemaps.org den Link info@openknowledgemaps.org anklicken oder einen unserer anderen Kontakt Buttons anklicken ("pre-register via email", Mail Icon), wird ihre E-Mail Software aktiviert und Sie können eine Nachricht an uns verfassen und an eine spezifische Mailbox senden. </p>
+                <p>Wenn Sie uns eine E-Mail über Ihr E-Mail-Programm zusenden möchten, so gehen Sie bitte davon aus, dass die Informationen, die Sie mit der E-Mail übermitteln, nicht geschützt übertragen werden.  Wenn Sie uns persönliche Daten per E-Mail schicken wollen – somit abseits dieser Webseite – können wir die sichere Übertragung und den Schutz Ihrer Daten nicht garantieren. Wir empfehlen Ihnen, vertrauliche Daten niemals unverschlüsselt per E-Mail zu übermitteln. </p>
                 <p>Sie berechtigen uns, die in der E-Mail übertragenen Informationen zum Bearbeiten Ihres Anliegens zu speichern. Eine Weitergabe Ihrer E-Mail-Adresse und der in der E-Mail übertragenen Informationen an Dritte findet nicht ohne Ihre vorherige Zustimmung statt.</p>
                 <p>Sollten Sie Fragen zur Bearbeitung ihrer E-Mail und den darin enthaltenen Daten haben, teilen Sie uns diese bitte in derselben E-Mail mit.
                 </p>
@@ -107,7 +106,7 @@
                 <p>Wir verwenden auf dieser Webseiten-Elemente von Twitter, einem Social Network der Firma Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA). Webseiten-Elemente sind z.B. Buttons oder integrierte Inhalte. Wir nutzen Twitter, um Ihnen Posts über und Neuigkeiten von Open Knowledge Maps anzuzeigen.
                     Durch die Nutzung der Elemente von Twitter können auch personenbezogene Daten an Twitter übertragen werden. Wir überwachen diesen Datenaustausch nicht und speichern nichts darüber.
                 </p>
-                <p>Wenn Sie eine Seite auf unserer Webseite besuchen, die ein solches Webseiten-Element, wird eine Verbindung zu Twitter aufgebaut. Der Inhalt des Webseiten-Elements wird von Twitter übertragen und in die Seite von Open Knowledge Maps eingebunden. Durch die Einbindung erhält Twitter die Information, dass Ihr Browser auf die entsprechende Seite auf unserer Webseite zugegriffen hat, auch wenn Sie kein Profil bei Twitter haben oder zu diesem Zeitpunkt nicht eingeloggt waren. Diese Daten (inkl. der IP-Adresse) werden direkt von ihrem Browser an Twitter übermittelt. Wenn Sie eingeloggt sind, dann kann Twitter den Seitenaufruf direkt mit Ihrem Profil verknüpfen (siehe Punkt “Cookies”).</p>
+                <p>Wenn Sie eine Seite auf unserer Webseite besuchen, die ein solches Webseiten-Element, wird eine Verbindung zu Twitter aufgebaut. Der Inhalt des Webseiten-Elements wird von Twitter übertragen und in die Seite von Open Knowledge Maps eingebunden. Durch die Einbindung erhält Twitter die Information, dass Ihr Browser auf die entsprechende Seite auf unserer Webseite zugegriffen hat, auch wenn Sie kein Profil bei Twitter haben oder zu diesem Zeitpunkt nicht eingeloggt waren. Diese Daten (inkl. der IP-Adresse) werden direkt von ihrem Browser an Twitter übermittelt. Wenn Sie eingeloggt sind, dann kann Twitter den Seitenaufruf direkt mit Ihrem Profil verknüpfen (siehe Punkt "Cookies").</p>
                 <p>Open Knowledge Maps hat keinen Einfluss, welche Daten Twitter mithilfe der Webseiten-Elemente überträgt..Wenn Sie mehr über die Nutzung Ihrer Daten durch Twitter wissen möchten, finden Sie alle Informationen in der Twitter Datenschutzrichtline auf 
                      <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>.
                     Sollten Sie ein Konto bei Twitter haben, können Sie Ihre Datenschutzeinstellungen in den Konto- Einstellungen unter 
@@ -122,9 +121,9 @@
                 <p>Wir halten uns an die Grundsätze der Datenvermeidung und Datensparsamkeit. Wir speichern Ihre personenbezogenen Daten daher nur so lange, wie dies zur Erreichung der hier genannten Zwecke erforderlich ist oder wie es die vom Gesetzgeber vorgesehenen vielfältigen Speicherfristen vorsehen. Nach Fortfall des jeweiligen Zweckes bzw. Ablauf dieser Fristen werden die entsprechenden Daten routinemäßig und entsprechend den gesetzlichen Vorschriften gesperrt oder gelöscht.
                 </p>
 
-                <h3>Benutzung der Schriftarten von Google</h3>
-                <p>Unsere Webseite benutzt Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. </p>
-                <p>Wir tun das, weil dadurch unsere Webseite überall gleich aussieht, egal mit welchem Gerät - PC, Tablet, Smartphone - Sie sich diese ansehen. </p>
+                <h3>Verwendung der Schriftarten von Google</h3>
+                <p>Unsere Webseite benutzt Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. 
+                    Wir tun das, weil dadurch unsere Webseite überall gleich aussieht, egal mit welchem Gerät - PC, Tablet, Smartphone - Sie sich diese ansehen. </p>
                 <p>Die Verwendung von Google Fonts erfolgt ohne Anmeldung und es werden keine Cookies von Google Fonts gesetzt. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Fonts übermittelt. Google erfasst lediglich die Nutzung der verwendeten Bibliotheken und Darstellungsvorgaben (CSS) und speichert diese Daten sicher.
                 </p>
                 <p>Die Datenschutzerklärung von Google finden sie hier:  
@@ -134,33 +133,67 @@
                      <a class="underline" target="_blank" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a>
                 </p>
 
-                <h3>Benutzung des Content Distribution Networks von Google</h3>
-                <p>Wir verwenden Google Hosted Libraries, ein Content Distribution Network (CDN) der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) auf unserer Webseite. Das CDN stellt sicher, dass für die Ausführung und Darstellung unsere Webseite benötigte Programmbibliotheken und Darstellungsvorgaben (CSS) schnell und zuverlässig geladen werden können, unabhängig von ihrem Standort.</p>
+                <h3>Verwendung des Content Distribution Networks von Google</h3>
+                <p>Wir verwenden Google Hosted Libraries, ein Content Distribution Network (CDN) der Firma Google LLC (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) auf unserer Webseite. Das CDN stellt sicher, dass für die Ausführung und Darstellung unsere Webseite benötigte Programmbibliotheken und Darstellungsvorgaben (CSS) schnell und zuverlässig geladen werden können, unabhängig von ihrem Standort.</p>
                 <p>Die Verwendung von Google Hosted Libraries erfolgt ohne Anmeldung und es werden keine Cookies von Google Hosted Libraries gesetzt. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Hosted Libraries übermittelt. Google erfasst lediglich die Nutzung der verwendeten Bibliotheken und Darstellungsvorgaben (CSS) und speichert diese Daten sicher.</p>
                 <p>Die Datenschutzerklärung von Google finden sie hier:  
                      <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>. </p>
                 <p>Weitere Details bezüglich der Google Hosted Libraries - bestimmt für Entwickler - finden Sie hier:
                      <a class="underline" target="_blank" href="https://developers.google.com/speed/libraries/">https://developers.google.com/speed/libraries/</a>
+                      </p>      
+
+                <h3>Verwendung von Google Analytics</h3>
+                <p>Diese Website benutzt Google Analytics, einen Webanalysedienst der Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA. 
+                    Wir verwenden Google Analytics, um Berichte über Aktivitäten auf der Website zu erstellen. Diese Berichte dienen als Grundlage für die Analyse des Nutzungsverhalten, der Verbesserung unserer Dienste und für die Entwicklung neuer Dienste.
+                <p>
+                <p>Google Analytics verwendet Cookies (siehe Punkt "Cookies"), um eine Analyse der Benutzung der Webseite durch Sie durchzuführen. Die Verwendung von Google Analytics erfolgt ohne Anmeldung. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt. 
+                </p>
+                <p>Die Datenschutzerklärung von Google finden sie hier:  
+                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>. </p>
+                <p>Weitere Details bezüglich der Google Analytics finden Sie hier:
+                     <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
                       </p>
-
-
+                
+                      
+                <p>
                 <h3>Cookies</h3>
                 <p>Damit diese Webseite ordnungsgemäß funktioniert, legen wir manchmal kleine Dateien – sogenannte Cookies – auf Ihrem Gerät ab. Das ist bei den meisten großen Webseiten üblich.</p>
                 <p class="bold">Was sind Cookies?</p>
-                <p>Ein Cookie ist eine kleine Textdatei, die eine Webseite auf Ihrem Rechner, Tablet-Computer oder Smartphone hinterlässt, wenn Sie sie besuchen. So kann sich die Webseite bestimmte Eingaben und Einstellungen über einen bestimmten Zeitraum „merken“ und Sie brauchen diese nicht bei jedem weiteren Besuch und beim Navigieren im Webseite erneut vorzunehmen.
+                <p>Ein Cookie ist eine kleine Textdatei, die eine Webseite auf Ihrem Rechner, Tablet-Computer oder Smartphone hinterlässt, wenn Sie sie besuchen. So kann sich die Webseite bestimmte Eingaben und Einstellungen über einen bestimmten Zeitraum "merken" und Sie brauchen diese nicht bei jedem weiteren Besuch und beim Navigieren im Webseite erneut vorzunehmen.
                 </p>
                 <p class="bold">Wie setzen wir Cookies ein?</p>
 
                 <p>Auf unseren Seiten verwenden wir Cookies</p>
                 <ul style="list-style: disc; margin-left:20px;">
                     <li>zur Speicherung Ihrer Kenntnisnahme der Nutzung von Cookies auf dieser Webseite</li>
-                    <li>zur Erstellung von aggregierten Nutzungsstatistiken und der anonymisierten Analyse des Nutzungsverhaltens (siehe Abschnitt “Matomo”)</li>
+                    <li>zur Erstellung von aggregierten Nutzungsstatistiken und der anonymisierten Analyse des Nutzungsverhaltens (siehe Abschnitt "Matomo")</li>
                 </ul>
                 <p>Die mit den Cookies für die oben genannten Verwendungszwecke erhobenen Informationen werden nicht dazu genutzt, Sie zu identifizieren. Diese Cookies werden dauerhaft gespeichert und dienen keinen anderen Zwecken als den hier genannten.</p>
 
-                <p>Auch auf unseren Seiten eingebettete Webseiten-Elemente von Twitter (siehe auch “Social Plugins”) verwenden Cookies. Open Knowledge Maps hat keinen Zugriff auf diese Daten und wertet Sie nicht aus. Twitter verwendet diese Cookies unter anderem zur Optimierung des Services und zum Verständnis, wie Social Plugins genutzt werden. Twitter verwendet diese Cookies möglicherweise auch, um Nutzer zu identifizieren, auch über die Grenzen dieser Webseite hinaus, und - falls Sie einen Twitter Account besitzen und eingeloggt sind - um ihre Aktivitäten mit diesem Account zu verknüpfen. Mehr Information zur Nutzung von Cookies von Twitter finden Sie unter 
+                <p>Auch auf unseren Seiten eingebettete Webseiten-Elemente von Twitter (siehe auch "Social Plugins") verwenden Cookies. Open Knowledge Maps hat keinen Zugriff auf diese Daten und wertet Sie nicht aus. Twitter verwendet diese Cookies unter anderem zur Optimierung des Services und zum Verständnis, wie Social Plugins genutzt werden. Twitter verwendet diese Cookies möglicherweise auch, um Nutzer zu identifizieren, auch über die Grenzen dieser Webseite hinaus, und - falls Sie einen Twitter Account besitzen und eingeloggt sind - um ihre Aktivitäten mit diesem Account zu verknüpfen. 
+                    Mehr Information zur Nutzung von Cookies von Twitter finden Sie unter 
                      <a class="underline" target="_blank" href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> und unter 
                       <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>.</p>
+                
+                <p class="bold">Google Analytics</p>
+                    <p>Google Analytics verwendet Cookies, um eine Analyse der Benutzung der Webseite durch Sie durchzuführen. 
+                    Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden in der Regel an einen Server von Google in den USA übertragen und dort sicher gespeichert. 
+                    Aufgrund der Aktivierung der IP-Anonymisierung auf diesen Webseiten, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt.
+                    Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Webseitenbetreiber zu erbringen.
+                    Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.</p>
+                    
+                    <p>Sie können die Speicherung der Cookies durch eine entsprechende Einstellung Ihrer Browser-Software verhindern. 
+                        Sie können darüber hinaus die Erfassung der durch das Cookie erzeugten und auf Ihre Nutzung der Webseite bezogenen 
+                        Daten (inkl. Ihrer IP-Adresse) an Google sowie die Verarbeitung dieser Daten durch Google verhindern, indem sie das 
+                        unter dem folgenden Link verfügbare Browser-Plugin herunterladen und installieren: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" class="underline">https://tools.google.com/dlpage/gaoptout</a>
+
+                <br>Zusätzlich oder als Alternative zum Browser-Add-On können Sie das Tracking durch Google Analytics auf unseren Seiten unterbinden, indem Sie  	
+                <a href="javascript:gaOptout()" class="underline">diesen Link</a> anklicken. Dabei wird ein Opt-out-Cookie auf Ihrem Gerät installiert. Damit wird die Erfassung durch Google Analytics für diese Website und für diesen Browser zukünftig verhindert, so lange das Cookie in Ihrem Browser installiert bleibt.
+                
+                 <p>Mehr Information zur Nutzung von Cookies von Google finden Sie unter 
+                    <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a> und
+                    <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
+                
                 <p class="bold">Matomo</p>
 
                 <p>Unsere Website verwendet Matomo, dabei handelt es sich um einen sogenannten Webanalysedienst. Matomo verwendet Cookies, um eine Analyse der Benutzung der Webseite ermöglichen. Zu diesem Zweck werden die durch den Cookie erzeugten Nutzungsinformationen (einschließlich Ihrer gekürzten IP-Adresse) an unseren Server übertragen und zu Nutzungsanalysezwecken gespeichert, was der Webseitenoptimierung unsererseits dient. Ihre IP-Adresse wird bei diesem Vorgang umge­hend anony­mi­siert, so dass Sie als Nutzer für uns anonym bleiben. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden nicht an Dritte weitergegeben. Sie können die Verwendung der Cookies durch eine entsprechende Einstellung Ihrer Browser Software verhindern, es kann jedoch sein, dass Sie in diesem Fall gegebenenfalls nicht sämtliche Funktionen dieser Website voll umfänglich nutzen können.</p>
@@ -199,10 +232,10 @@
                 </p>
 
                 <h3>Ihre Rechte auf Auskunft, Berichtigung, Sperre, Löschung und Widerspruch</h3>
-                <p>Sie haben das Recht, jederzeit Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu erhalten. Ebenso haben Sie das Recht auf Berichtigung, Sperrung oder, abgesehen von gesetzlich vorgeschriebener Datenspeicherung, Löschung Ihrer personenbezogenen Daten. Bitte wenden Sie sich dazu an uns. Die Kontaktdaten finden Sie weiter oben unter “Verantwortlicher”.</p>
+                <p>Sie haben das Recht, jederzeit Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu erhalten. Ebenso haben Sie das Recht auf Berichtigung, Sperrung oder, abgesehen von gesetzlich vorgeschriebener Datenspeicherung, Löschung Ihrer personenbezogenen Daten. Bitte wenden Sie sich dazu an uns. Die Kontaktdaten finden Sie weiter oben unter "Verantwortlicher".</p>
                 <p>Damit eine Sperre von Daten jederzeit berücksichtigt werden kann, müssen diese Daten zu Kontrollzwecken in einer Sperrdatei vorgehalten werden. Sie können auch die Löschung der Daten verlangen, soweit keine gesetzliche Archivierungsverpflichtung besteht. Soweit eine solche Verpflichtung besteht, sperren wir Ihre Daten auf Wunsch.
                     Sie können Änderungen oder den Widerruf einer Einwilligung durch entsprechende Mitteilung an uns mit Wirkung für die Zukunft vornehmen.</p>
-                <p>Unter den angegebenen Kontaktdaten unter “Verantwortlicher” können Sie jederzeit folgende Rechte ausüben: </p>
+                <p>Unter den angegebenen Kontaktdaten unter "Verantwortlicher" können Sie jederzeit folgende Rechte ausüben: </p>
                 <ul style="list-style: disc; margin-left:20px;">
                     <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung, </li>
                     <li>Berichtigung unrichtiger personenbezogener Daten, </li>
