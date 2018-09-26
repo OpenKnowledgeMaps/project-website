@@ -222,6 +222,15 @@
                                 <li>OpenAIRE</li>
                             </ul>
                         </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="https://www.zbw.eu/"><img class="hoverlink" src="./img/advisors/klaus.jpg" alt="Advisor OKMaps"></a>
+                            <h3>Klaus Tochtermann</h3>
+                            <ul class="advisor-desc">
+                                <li>Director</li>
+                                <li>ZBW - Leibniz Information Centre for Economics</li>
+                            </ul>
+                        </div>
 
                         <div class="advisor">
                             <a target="_blank" href="http://findresearcher.sdu.dk/portal/da/person/bfd"><img class="hoverlink" src="./img/advisors/bertil.jpg" alt="Advisor OKMaps"></a>
@@ -240,8 +249,6 @@
                                 <li>University of Vienna</li>
                             </ul>
                         </div>
-                        
-                        
 
                         <div class="advisor">
                             <a target="_blank" href="http://oana.at"><img class="hoverlink" src="./img/advisors/falk.jpg" alt="Advisor OKMaps"></a>
@@ -270,7 +277,6 @@
                             </ul>
                         </div>
 
-
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKMaps"></a>
                             <h3>Daniel Mietchen</h3>
@@ -295,6 +301,15 @@
                             <ul class="advisor-desc">
                                 <li>Assistant Professor</li>
                                 <li>Graz University of Technology</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="http://isabella-peters.de/"><img class="hoverlink" src="./img/advisors/isabella.jpg" alt="Advisor OKMaps"></a>
+                            <h3>Isabella Peters</h3>
+                            <ul class="advisor-desc">
+                                <li>Professor of Web Science</li>
+                                <li>ZBW - Leibniz Information Centre for Economics & Kiel University</li>
                             </ul>
                         </div>
 
