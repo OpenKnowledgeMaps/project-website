@@ -440,17 +440,17 @@ var SearchOptions = {
                 , includeSelectAllOption: true
                 , onChange: function (element, checked) {
                     if (checked === true) {
-						if(dropdown_class === ".dropdown_multi_time_range") {
-							if (element.val() !== "user-defined") {
-								self.user_defined_date = false;
-								d3.select("#input-container").style("display", "none");
-							} else {
-								self.user_defined_date = true;
-								d3.select("#input-container").style("display", "block");
-							}
+                        if(dropdown_class === ".dropdown_multi_time_range") {
+                            if (element.val() !== "user-defined") {
+                                self.user_defined_date = false;
+                                d3.select("#input-container").style("display", "none");
+                            } else {
+                                self.user_defined_date = true;
+                                d3.select("#input-container").style("display", "block");
+                            }
 
-							self.setDateRangeFromPreset("#from", "#to", element.val(), data.start_date);
-						}
+                            self.setDateRangeFromPreset("#from", "#to", element.val(), data.start_date);
+                        }
                     }
                 }
             });
