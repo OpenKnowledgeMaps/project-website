@@ -114,6 +114,13 @@ function getLabel($tag) {
         let cookie_button = "Got it!";
         let cookie_href = "https://openknowledgemaps.org/privacy";
 <?php }; ?>
+    function clearCookies (names) {
+      var i = 0, namesLength = names.length;
+      for (i; i < namesLength; i += 1) {
+        document.cookie = names[i] + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
+      }
+    }
+    clearCookies(["cookieconsent_status"]);
 
     window.addEventListener("load", function () {
         window.cookieconsent.initialise({
@@ -136,6 +143,7 @@ function getLabel($tag) {
                 "href": cookie_href
             },
             "cookie": {
+              "name": "priv-update-2018-10",
               "domain": "openknowledgemaps.org"
             }
         })
