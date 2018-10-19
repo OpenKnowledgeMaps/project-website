@@ -93,6 +93,7 @@
                 <p>Wir benutzen für unsere Webseite die Schriftarten (Google Fonts), das Content Distribution Network und Google Analytics, einen Webanalysedienst, der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mehr Informationen hierzu finden Sie im Punkt "Verwendung der Schriftarten von Google", "Verwendung des Content Distribution Networks von Google" und "Verwendung von Google Analytics".
                     Wir nutzen außerdem die Dienste der Firma Twitter. Mehr Informationen hierzu finden Sie unter dem Punkt "Social Plugins".
                     Außerdem verwenden wir den DSGVO-konformen Service MailChimp. Mailchimp ist ein automatisierter Marketing-Service der Firma The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). Mehr Informationen dazu finden Sie unter dem Punkt "Newsletter".
+                    Wir verwenden den GDPR-konformen Service hypothesis.is, einen Web-Annotationsservice der vom HYPOTHES.IS PROJECT (2261 Market Street 632, San Francisco, CA, 94114 Vereinigte Staaten von Amerika) bereitgestellt wird. Für weitere Informationen siehe "Social Plugins" weiter unten.
                 </p>
                 <p>Eine darüber hinausgehende Weitergabe von Daten durch uns an Dritte findet nicht statt.</p>
 
@@ -102,6 +103,7 @@
                 <p>Sie berechtigen uns, die in der E-Mail übertragenen Informationen zum Bearbeiten Ihres Anliegens zu speichern. Eine Weitergabe Ihrer E-Mail-Adresse und der in der E-Mail übertragenen Informationen an Dritte findet nicht ohne Ihre vorherige Zustimmung statt.</p>
                 <p>Sollten Sie Fragen zur Bearbeitung ihrer E-Mail und den darin enthaltenen Daten haben, teilen Sie uns diese bitte in derselben E-Mail mit.
                 </p>
+
                 <h3>Social Plug-ins</h3>
                 <p>Wir verwenden auf dieser Webseiten-Elemente von Twitter, einem Social Network der Firma Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA). Webseiten-Elemente sind z.B. Buttons oder integrierte Inhalte. Wir nutzen Twitter, um Ihnen Posts über und Neuigkeiten von Open Knowledge Maps anzuzeigen.
                     Durch die Nutzung der Elemente von Twitter können auch personenbezogene Daten an Twitter übertragen werden. Wir überwachen diesen Datenaustausch nicht und speichern nichts darüber.
@@ -113,6 +115,14 @@
                      <a class="underline" target="_blank" href="https://twitter.com/settings/account">https://twitter.com/settings/account</a> ändern.</p>
                 <p>Sie können die Funktionalitäten dieser Dienste über browser add-ons deaktivieren.
                 </p>
+
+                <p>Wir verwenden die hypothes.is-Webdienste aus dem "HYPOTHES.IS PROJECT", einem Web-Annotationsprojekt, mit dem Sie Anmerkungen zu PDF-Artikeln von wissenschaftlichen Artikeln anzeigen und übermitteln können, die in Ihrer Open Knowledge Maps-Karte präsent sind. Wenn Sie bei einem der Dienste angemeldet sind, kann der Anbieter den Besuch unserer Website Ihrem Profil direkt bei diesem Anbieter zuordnen (siehe Abschnitt "Cookies"). Durch die Einbindung der Website-Elemente erhält der Anbieter die Information, dass Ihr Browser die entsprechende Seite unserer Website und den entsprechenden Artikel aufgerufen hat, auch wenn Sie kein Profil bei dem Anbieter haben oder zu diesem Zeitpunkt nicht eingeloggt sind. Diese Daten (einschließlich Ihrer IP-Adresse) werden von Ihrem Browser direkt an hypothes.is übermittelt.
+                </p>
+                <p>Open Knowledge Maps hat keinen Einfluss, welche Daten Twitter mit Hilfe der Webseiten-Elemente überträgt. Wenn Sie mehr über die Nutzung Ihrer Daten durch Hypothes.is wissen möchten, finden Sie alle Informationen in der Hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
+                  Sie müssen sich von den Diensten dieses Anbieters abmelden, wenn Sie verhindern möchten, dass dieser Anbieter die über unsere Website gesammelten Daten direkt mit Ihrem Profil in diesem Dienst verknüpft. Sie können das Laden der Website-Elemente mit Browser-Add-Ons vollständig verhindern.
+                </p>
+
+
                 <h3>Links zu anderen Webseiten</h3>
                 <p>Wir übernehmen keinerlei Verantwortung oder Haftung für Inhalte auf Seiten, auf die von dieser Webseite verlinkt werden.  Bitte beachten Sie auch, dass bei einem Wechsel zu einer anderen Webseite eine andere Datenschutzerklärung gilt.
                 </p>
@@ -193,6 +203,10 @@
                  <p>Mehr Information zur Nutzung von Cookies von Google finden Sie unter
                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a> und
                     <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
+
+                <p>Web-Annotation von hypothes.is (siehe auch "Social Plugins") verwendet ebenfalls Cookies. Open Knowledge Maps hat keinen Zugriff auf diese Daten und verarbeitet sie nicht. hypothesis.is beschreibt die Nutzung von Cookies wie folgt: "Der Hauptzweck eines Cookies besteht darin, dem Webserver mitzuteilen, dass Sie zuvor eine bestimmte Seite besucht haben. Wenn Sie beispielsweise die Anmeldung bei unseren Diensten personalisieren, wird mit einem Cookie Ihre Sitzung in verschiedenen Teilen der Website protokolliert.</p>
+                <p>Weitere Informationen finden Sie im Abschnitt Cookies der hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/#collection-your-personal-information">https://web.hypothes.is/privacy/#collection-your-personal-information</a></p> 
+
 
                 <p class="bold">Matomo</p>
 

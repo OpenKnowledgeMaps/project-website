@@ -84,6 +84,7 @@
                 <p>We use Google Fonts, Google Hosted Libraries, a Content Distribution Network (CDN), and Google Analytics, a web analytics service, of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see "Use of Google Fonts", "Use of Content Distribution Network (CDN)", and "Use of Google Analytics" further down.
                     We als use some web services provided by Twitter. For more information please see "Social Plugins" further down.
                     In addition, we use the GDPR-compliant service MailChimp, a marketing automation service provided by The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). For more information please see "Newsletter" further down.
+                    We use the GDPR-compliant service hypothes.is, a web annotation service provided by HYPOTHES IS PROJECT ( 2261 Market Street 632, San Francisco, CA, 94114 United States of America ). For more information please see “Social Plugins” further down.
                 </p>
                 <p>Apart from the aformentioned data processors, we do not transfer your data to any other third parties.</p>
 
@@ -93,6 +94,7 @@
                     If you want to send us personal information via email we advise you to always encrypt your messages beforehand.</p>
                 <p>We will not forward your email or the data included in your email to any third parties without your consent.</p>
                 <p>If you have any questions about the processing of your e-mail and related personal data, do not hesitate to include them in your message.</p>
+
                 <h3>Social Plug-ins</h3>
                 <p>We use website elements from Twitter, a social network of the company Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA), on our website. Website elements are e.g. buttons (so-called "social plug-ins") or integrated content from the provider. You can find an overview of Twitter website elements here:
                     <a class="underline" target="_blank" href="https://dev.twitter.com/web/overview">https://dev.twitter.com/web/overview</a></p>
@@ -104,6 +106,13 @@
                 <p>Open Knowledge Maps has no influence on the parameters of the data that the Twitter lifts out with the help of the website elements. For details on the purpose and extent of the data collection and the further processing and use of the data by the providers as well as your related rights and setting options for protecting your privacy, please refer to the privacy policy of Twitter:
                     <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>
                     You would need to log out of each provider’s services if you want to prevent providers from directly associating the data collected through our website with your profile in that service.</p>
+
+                <p>We use the hypothes.is webservices from the “HYPOTHES.IS PROJECT”, a web annotation project to allow you to view and submit annotations to PDF articles of papers that are included in your Open Knowledge Maps map. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section “Cookies”). By integrating the website elements, the provider gains knowledge that your browser has accessed the corresponding page of our website and the corresponding paper/article, even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to hypothes.is.
+                </p>
+                <p>Open Knowledge Maps has no influence on the parameters of the data that hypothes.is lifts out with the help of the website elements. Hypothes.is has a privacy policy page showing in detail their privacy policy. It can be viewed at: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
+                    You would need to log out of this provider’s services if you want to prevent it from directly associating the data collected through our website with your profile in that service. You can completely prevent the loading of the website elements with browser add-ons.
+                </p>
+
 
                 <p class="bold">How to deactivate social plug-ins</p>
                 <p>You can completely prevent the loading of the website elements with browser add-ons.</p>
@@ -166,6 +175,10 @@
                 <p>Website elements from Twitter embedded on our website (see also "Social plugins") also use cookies. Open Knowledge Maps does not have access to this data and does not process it. Twitter uses these cookies for example to improve its service and to understand, how social plugins are used. Twitter possibly also uses these cookies to identify you as a user, even beyond the scope of this website, and in addition, if you have a Twitter account and are logged in, to link your activity to your account. You can find more information on the use of cookies by Twitter here:
                      <a class="underline" target="_blank" href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> and here:
                       <a class="underline" target="_blank" href="https://twitter.com/privacy">https://twitter.com/privacy</a>.</p>
+
+                <p>The web annotation service provided by hypothes.is (see also “Social Plugins”) also uses cookies. Open Knowledge Maps does not have access to this data and does not process it. hypothes.is reports to use cookies in the following way: “The primary purpose of a cookie is to tell the web server that you have previously visited a specific page. For example, if you personalize login to our services, a cookie tracks your session to various parts of the site.”</p>
+                <p>You can find out more in the cookies section of the hypothes.is privacy policy here: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/#collecting-your-personal-information">https://web.hypothes.is/privacy/#collecting-your-personal-information</a></p>
+
                 <p class="bold">Matomo</p>
 
                 <p>Our website uses Matomo, a web analysis service which uses cookies (text files that are stored on your computer and allow us to analyse the use of our website). For this purpose, the usage information generated by the cookie (including your truncated IP address) is transferred to our server and stored for the purpose of analysing the use of our website, which in turn allows us to optimise the website accordingly. In this process, your IP address is anonymised immediately in order to ensure your anonymity as a user. The site usage information generated by the cookie is not passed on to third parties. You can block the use of cookies in your browser settings; however, you may not be able to use all of the functions offered on this website as a result.</p>
@@ -175,6 +188,8 @@
                 </p>
                 <p class="bold">How to control cookies</p>
                 <p>You can control and/or delete cookies as you wish – for details, see <a class="underline" target="_blank" href="https://aboutcookies.org">aboutcookies.org</a>. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work as expected.</p>
+
+
 
                 <h3>Newsletter</h3>
 
