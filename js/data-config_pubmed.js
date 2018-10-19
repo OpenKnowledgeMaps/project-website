@@ -32,4 +32,7 @@ var data_config = {
     filter_menu_dropdown: true,
     sort_menu_dropdown: true,
     filter_options: ["all", "open_access"],
+    
+    is_evaluation: true,
+    evaluation_service: ["ga", "matomo"],
 };
