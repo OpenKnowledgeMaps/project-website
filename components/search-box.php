@@ -41,7 +41,7 @@
             <!--<label for="q">Search term:</label> -->
             <!--<div class="bg-div">-->
             
-                <span id="base-language-selector-container"></span>
+                <!--<span id="base-language-selector-container"></span>-->
                     <input type="text" name="q" size="89" required class="text-field" 
                         id="searchterm" placeholder="Enter your search term">
                     <button type="submit" class="submit-btn">GO</button>
