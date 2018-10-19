@@ -1,4 +1,3 @@
-<?php include '../config.php' ?>
 <?php
 $available_languages = array("en", "de");
 $default_language = "en";
@@ -122,7 +121,7 @@ function getLabel($tag) {
       }
     }
     clearCookies(["cookieconsent_status"]);
-    var cookie_domain = <?php echo $COOKIE_DOMAIN ?>;
+    var cookie_domain = <?php echo "$COOKIE_DOMAIN" ?>;
     window.addEventListener("load", function () {
         window.cookieconsent.initialise({
             "palette": {
