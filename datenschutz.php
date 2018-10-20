@@ -21,7 +21,7 @@
 
                 <h2>Datenschutzerklärung</h2>
                 <p><b>Stand:</b> 20.10.2018
-                <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben.  Die hier verwendeten Begriffe, wie z.B. "Auftragsverarbeitung" oder "Verantwortlicher", sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert:
+                <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben. Die hier verwendeten Begriffe, wie z.B. "Auftragsverarbeitung" oder "Verantwortlicher", sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert:
                     <a class="underline" target="_blank" href="http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj">http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj</a>
                 </p>
 
@@ -50,15 +50,15 @@
                 </h3>
                 <p>Jeder Abruf von Inhalten unserer Webseite wird automatisch in einer sogenannten Log-Datei aufgezeichnet. Es werden dabei in der Regel folgende Informationen aufgezeichnet:</p>
                 <ul style="list-style: disc; margin-left:20px;">
-                    <li>die IP-Adresse ihres Gerätes, mit dem Sie unsere Webseite besuchen </li>
-                    <li>der Name der abgerufenen Webseite </li>
+                    <li>die IP-Adresse ihres Gerätes, mit dem Sie unsere Webseite besuchen</li>
+                    <li>der Name der abgerufenen Webseite</li>
                     <li>der Name der abgerufenen Datei(en)</li>
-                    <li> Datum und Uhrzeit des Abrufs </li>
-                    <li>die übertragene Datenmenge </li>
-                    <li>die Meldung über Erfolg des Abrufs (OK oder Fehlercode) </li>
+                    <li>Datum und Uhrzeit des Abrufs</li>
+                    <li>die übertragene Datenmenge</li>
+                    <li>die Meldung über Erfolg des Abrufs (OK oder Fehlercode)</li>
                     <li>den Browsertyp und dessen Version</li>
-                    <li> das Betriebssystem Ihres Gerätes</li>
-                    <li>URL der zuvor besuchten Seite  </li>
+                    <li>das Betriebssystem Ihres Gerätes</li>
+                    <li>URL der zuvor besuchten Seite </li>
                 </ul>
                 <p>Diese Informationen sind technisch notwendig, um von Ihnen angeforderte Inhalte von Webseiten korrekt auszuliefern und fallen bei Nutzung des Internets zwingend an. Sie werden insbesondere zu folgenden Zwecken verarbeitet:
                 </p>
@@ -67,12 +67,12 @@
                     </li>
                     <li>Sicherstellung einer reibungslosen Nutzung unserer Webseite
                     </li>
-                    <li>Auswertung der Systemsicherheit und -stabilität sowie  zu weiteren administrativen Zwecken.</li>
-                    <li> Erstellung von aggregierten Nutzungsstatistiken für die Analyse des Nutzungsverhaltens und der Verbesserung unserer Services
+                    <li>Auswertung der Systemsicherheit und -stabilität sowie zu weiteren administrativen Zwecken.</li>
+                    <li>Erstellung von aggregierten Nutzungsstatistiken für die Analyse des Nutzungsverhaltens und der Verbesserung unserer Services
                     </li>
 
                 </ul>
-                <p>Die Verarbeitung dieser Informationen basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Empfänger der Daten ist nur die verantwortliche Stelle.   Diese Informationen dienen z.B. im Falle eines Fehlers der Fehlerbeseitigung, dem Erkennen von Hackerangriffen oder rechtmäßigen Ermittlungen staatlicher Organe.
+                <p>Die Verarbeitung dieser Informationen basiert auf unserem berechtigten Interesse aus den vorgenannten Zwecken zur Datenerhebung. Wir verwenden Ihre Daten nicht, um Rückschlüsse auf Ihre Person zu ziehen. Empfänger der Daten ist nur die verantwortliche Stelle. Diese Informationen dienen z.B. im Falle eines Fehlers der Fehlerbeseitigung, dem Erkennen von Hackerangriffen oder rechtmäßigen Ermittlungen staatlicher Organe.
                 </p>
                 <p>Zugriffsdaten ("Access Logs") werden im Falle normalen Zugriffsverhaltens nach 30 Tagen gelöscht. Zugriffsdaten zum Zweck der Fehlerbeseitigung ("Error Logs") werden nach 90 Tagen gelöscht, sicherheitskritische Zugriffsdaten ("Security Logs") nach 180 Tagen. Zugriffsdaten zum Zweck der Fehlerbeseitigung werden nur angelegt, wenn ein Fehler auftritt. Sicherheitskritische Zugriffsdaten werden nur angelegt, wenn eine unsachgemäße Nutzung der Webseite vermutet wird.
                 </p>
@@ -99,7 +99,7 @@
 
                 <h3>Kontaktaufnahme per E-Mail</h3>
                 <p>Wenn Sie auf openknowledgemaps.org den Link info@openknowledgemaps.org anklicken oder einen unserer anderen Kontakt Buttons anklicken ("pre-register via email", Mail Icon), wird ihre E-Mail Software aktiviert und Sie können eine Nachricht an uns verfassen und an eine spezifische Mailbox senden. </p>
-                <p>Wenn Sie uns eine E-Mail über Ihr E-Mail-Programm zusenden möchten, so gehen Sie bitte davon aus, dass die Informationen, die Sie mit der E-Mail übermitteln, nicht geschützt übertragen werden.  Wenn Sie uns persönliche Daten per E-Mail schicken wollen – somit abseits dieser Webseite – können wir die sichere Übertragung und den Schutz Ihrer Daten nicht garantieren. Wir empfehlen Ihnen, vertrauliche Daten niemals unverschlüsselt per E-Mail zu übermitteln. </p>
+                <p>Wenn Sie uns eine E-Mail über Ihr E-Mail-Programm zusenden möchten, so gehen Sie bitte davon aus, dass die Informationen, die Sie mit der E-Mail übermitteln, nicht geschützt übertragen werden. Wenn Sie uns persönliche Daten per E-Mail schicken wollen – somit abseits dieser Webseite – können wir die sichere Übertragung und den Schutz Ihrer Daten nicht garantieren. Wir empfehlen Ihnen, vertrauliche Daten niemals unverschlüsselt per E-Mail zu übermitteln. </p>
                 <p>Sie berechtigen uns, die in der E-Mail übertragenen Informationen zum Bearbeiten Ihres Anliegens zu speichern. Eine Weitergabe Ihrer E-Mail-Adresse und der in der E-Mail übertragenen Informationen an Dritte findet nicht ohne Ihre vorherige Zustimmung statt.</p>
                 <p>Sollten Sie Fragen zur Bearbeitung ihrer E-Mail und den darin enthaltenen Daten haben, teilen Sie uns diese bitte in derselben E-Mail mit.
                 </p>
@@ -124,7 +124,7 @@
 
 
                 <h3>Links zu anderen Webseiten</h3>
-                <p>Wir übernehmen keinerlei Verantwortung oder Haftung für Inhalte auf Seiten, auf die von dieser Webseite verlinkt werden.  Bitte beachten Sie auch, dass bei einem Wechsel zu einer anderen Webseite eine andere Datenschutzerklärung gilt.
+                <p>Wir übernehmen keinerlei Verantwortung oder Haftung für Inhalte auf Seiten, auf die von dieser Webseite verlinkt werden. Bitte beachten Sie auch, dass bei einem Wechsel zu einer anderen Webseite eine andere Datenschutzerklärung gilt.
                 </p>
 
                 <h3>Löschung bzw. Sperrung der Daten</h3>
@@ -133,11 +133,11 @@
 
                 <h3>Verwendung der Schriftarten von Google</h3>
                 <p>Unsere Webseite benutzt Schriftarten ("Google Fonts") des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
-                    Wir tun das, weil dadurch unsere Webseite überall gleich aussieht, egal mit welchem Gerät - PC, Tablet, Smartphone - Sie sich diese ansehen. </p>
+                    Wir tun das, weil dadurch unsere Webseite überall gleich aussieht, egal mit welchem Gerät - PC, Tablet, Smartphone - Sie sich diese ansehen.</p>
                 <p>Die Verwendung von Google Fonts erfolgt ohne Anmeldung und es werden keine Cookies von Google Fonts gesetzt. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Fonts übermittelt. Google erfasst lediglich die Nutzung der verwendeten Bibliotheken und Darstellungsvorgaben (CSS) und speichert diese Daten sicher.
                 </p>
-                <p>Die Datenschutzerklärung von Google finden sie hier:  
-                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>. 
+                <p>Die Datenschutzerklärung von Google finden sie hier: 
+                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.
                 </p>
                 <p>Weitere Details bezüglich der Google-Schriftarten - bestimmt für Entwickler - finden Sie hier:
                      <a class="underline" target="_blank" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a>
@@ -146,8 +146,8 @@
                 <h3>Verwendung des Content Distribution Networks von Google</h3>
                 <p>Wir verwenden Google Hosted Libraries, ein Content Distribution Network (CDN) der Firma Google LLC (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) auf unserer Webseite. Das CDN stellt sicher, dass für die Ausführung und Darstellung unsere Webseite benötigte Programmbibliotheken und Darstellungsvorgaben (CSS) schnell und zuverlässig geladen werden können, unabhängig von ihrem Standort.</p>
                 <p>Die Verwendung von Google Hosted Libraries erfolgt ohne Anmeldung und es werden keine Cookies von Google Hosted Libraries gesetzt. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Hosted Libraries übermittelt. Google erfasst lediglich die Nutzung der verwendeten Bibliotheken und Darstellungsvorgaben (CSS) und speichert diese Daten sicher.</p>
-                <p>Die Datenschutzerklärung von Google finden sie hier:  
-                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>. </p>
+                <p>Die Datenschutzerklärung von Google finden sie hier: 
+                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.</p>
                 <p>Weitere Details bezüglich der Google Hosted Libraries - bestimmt für Entwickler - finden Sie hier:
                      <a class="underline" target="_blank" href="https://developers.google.com/speed/libraries/">https://developers.google.com/speed/libraries/</a>
                       </p>
@@ -158,8 +158,8 @@
                 <p>
                 <p>Google Analytics verwendet Cookies (siehe Punkt "Cookies"), um eine Analyse der Benutzung der Webseite durch Sie durchzuführen. Die Verwendung von Google Analytics erfolgt ohne Anmeldung. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
                 </p>
-                <p>Die Datenschutzerklärung von Google finden sie hier:  
-                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>. </p>
+                <p>Die Datenschutzerklärung von Google finden sie hier: 
+                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.</p>
                 <p>Weitere Details bezüglich der Google Analytics finden Sie hier:
                      <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
                       </p>
@@ -249,14 +249,14 @@
                 <p>Sie haben das Recht, jederzeit Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu erhalten. Ebenso haben Sie das Recht auf Berichtigung, Sperrung oder, abgesehen von gesetzlich vorgeschriebener Datenspeicherung, Löschung Ihrer personenbezogenen Daten. Bitte wenden Sie sich dazu an uns. Die Kontaktdaten finden Sie weiter oben unter "Verantwortlicher".</p>
                 <p>Damit eine Sperre von Daten jederzeit berücksichtigt werden kann, müssen diese Daten zu Kontrollzwecken in einer Sperrdatei vorgehalten werden. Sie können auch die Löschung der Daten verlangen, soweit keine gesetzliche Archivierungsverpflichtung besteht. Soweit eine solche Verpflichtung besteht, sperren wir Ihre Daten auf Wunsch.
                     Sie können Änderungen oder den Widerruf einer Einwilligung durch entsprechende Mitteilung an uns mit Wirkung für die Zukunft vornehmen.</p>
-                <p>Unter den angegebenen Kontaktdaten unter "Verantwortlicher" können Sie jederzeit folgende Rechte ausüben: </p>
+                <p>Unter den angegebenen Kontaktdaten unter "Verantwortlicher" können Sie jederzeit folgende Rechte ausüben:</p>
                 <ul style="list-style: disc; margin-left:20px;">
-                    <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung, </li>
-                    <li>Berichtigung unrichtiger personenbezogener Daten, </li>
+                    <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung,</li>
+                    <li>Berichtigung unrichtiger personenbezogener Daten,</li>
                     <li>Löschung Ihrer bei uns gespeicherten Daten,</li>
-                    <li> Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen,</li>
-                    <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns und </li>
-                    <li>Datenübertragung, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben.   Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.</li>
+                    <li>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen,</li>
+                    <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns und</li>
+                    <li>Datenübertragung, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben. Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.</li>
 
 
                 </ul>
@@ -268,7 +268,7 @@
 
 
                 <h3>Quellen</h3>
-                <p>Diese Datenschutzerklärung wurde mit Hilfe von Generatoren zum Erzeugen einer Datenschutzerklärung erstellt. Wir danken dafür :
+                <p>Diese Datenschutzerklärung wurde mit Hilfe von Generatoren zum Erzeugen einer Datenschutzerklärung erstellt. Wir danken dafür:
                      https://www.activemind.de/datenschutz/datenschutzhinweis-generator
                     firmenwebseiten.at in Kooperation mit transportly.at
                     firmenwebseiten.at in Kooperation mit elternratgeber.at

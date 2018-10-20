@@ -132,7 +132,7 @@
                     The use of google fonts does not require logging into to google services and google fonts don’t save any cookies on your computer. If you have an account with Google, your google account information is not being transmitted while using google fonts. Google only registers which libraries and style sheets (CSS) are used  and stores this information savely.
                 </p>
                 <p>Google’s privacy policy is available here:
-                   <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a> </p>
+                   <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a></p>
                 <p>More details regarding google fonts are available here:
                      <a class="underline" target="_blank" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a></p>
 
@@ -153,7 +153,7 @@
                  <p>Google Analytics uses cookies (see section "Cookies") to perform analyses of the use of the website by you. The use of Google Analytics takes place without registration. The IP address provided by Google Analytics as part of Google Analytics will not be merged with other Google data.
                  </p>
                  <p>Google's privacy policy can be found here: 
-                      <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>. </p>
+                      <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.</p>
                  <p>More details about Google Analytics can be found here: 
                       <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
                        </p>
