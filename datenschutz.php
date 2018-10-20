@@ -20,7 +20,7 @@
                 </ul>
 
                 <h2>Datenschutzerklärung</h2>
-                <p><b>Stand:</b> 25.05.2018
+                <p><b>Stand:</b> 20.10.2018
                 <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben.  Die hier verwendeten Begriffe, wie z.B. "Auftragsverarbeitung" oder "Verantwortlicher", sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert:
                     <a class="underline" target="_blank" href="http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj">http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj</a>
                 </p>
@@ -116,7 +116,7 @@
                 <p>Sie können die Funktionalitäten dieser Dienste über browser add-ons deaktivieren.
                 </p>
 
-                <p>Wir verwenden die hypothes.is-Webdienste aus dem "HYPOTHES.IS PROJECT", einem Web-Annotationsprojekt, mit dem Sie Anmerkungen zu PDF-Artikeln von wissenschaftlichen Artikeln anzeigen und übermitteln können, die in Ihrer Open Knowledge Maps-Karte präsent sind. Wenn Sie bei einem der Dienste angemeldet sind, kann der Anbieter den Besuch unserer Website Ihrem Profil direkt bei diesem Anbieter zuordnen (siehe Abschnitt "Cookies"). Durch die Einbindung der Website-Elemente erhält der Anbieter die Information, dass Ihr Browser die entsprechende Seite unserer Website und den entsprechenden Artikel aufgerufen hat, auch wenn Sie kein Profil bei dem Anbieter haben oder zu diesem Zeitpunkt nicht eingeloggt sind. Diese Daten (einschließlich Ihrer IP-Adresse) werden von Ihrem Browser direkt an hypothes.is übermittelt.
+                <p>Wir verwenden die Hypothes.is-Webdienste aus dem "HYPOTHES.IS PROJECT", einem Web-Annotationsprojekt, mit dem Sie Anmerkungen zu PDF-Artikeln von wissenschaftlichen Artikeln anzeigen und übermitteln können, die in Ihrer Open Knowledge Maps-Karte präsent sind. Wenn Sie bei einem der Dienste angemeldet sind, kann der Anbieter den Besuch unserer Website Ihrem Profil direkt bei diesem Anbieter zuordnen (siehe Abschnitt "Cookies"). Durch die Einbindung der Website-Elemente erhält der Anbieter die Information, dass Ihr Browser die entsprechende Seite unserer Website und den entsprechenden Artikel aufgerufen hat, auch wenn Sie kein Profil bei dem Anbieter haben oder zu diesem Zeitpunkt nicht eingeloggt sind. Diese Daten (einschließlich Ihrer IP-Adresse) werden von Ihrem Browser direkt an Hypothes.is übermittelt.
                 </p>
                 <p>Open Knowledge Maps hat keinen Einfluss, welche Daten Twitter mit Hilfe der Webseiten-Elemente überträgt. Wenn Sie mehr über die Nutzung Ihrer Daten durch Hypothes.is wissen möchten, finden Sie alle Informationen in der Hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
                   Sie müssen sich von den Diensten dieses Anbieters abmelden, wenn Sie verhindern möchten, dass dieser Anbieter die über unsere Website gesammelten Daten direkt mit Ihrem Profil in diesem Dienst verknüpft. Sie können das Laden der Website-Elemente mit Browser-Add-Ons vollständig verhindern.
@@ -204,8 +204,8 @@
                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a> und
                     <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
 
-                <p>Web-Annotation von hypothes.is (siehe auch "Social Plugins") verwendet ebenfalls Cookies. Open Knowledge Maps hat keinen Zugriff auf diese Daten und verarbeitet sie nicht. hypothesis.is beschreibt die Nutzung von Cookies wie folgt: "Der Hauptzweck eines Cookies besteht darin, dem Webserver mitzuteilen, dass Sie zuvor eine bestimmte Seite besucht haben. Wenn Sie beispielsweise die Anmeldung bei unseren Diensten personalisieren, wird mit einem Cookie Ihre Sitzung in verschiedenen Teilen der Website protokolliert.</p>
-                <p>Weitere Informationen finden Sie im Abschnitt Cookies der hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/#collection-your-personal-information">https://web.hypothes.is/privacy/#collection-your-personal-information</a></p> 
+                <p>Web-Annotation von Hypothes.is (siehe auch "Social Plugins") verwendet ebenfalls Cookies. Open Knowledge Maps hat keinen Zugriff auf diese Daten und verarbeitet sie nicht. hypothesis.is beschreibt die Nutzung von Cookies wie folgt: "Der Hauptzweck eines Cookies besteht darin, dem Webserver mitzuteilen, dass Sie zuvor eine bestimmte Seite besucht haben. Wenn Sie beispielsweise die Anmeldung bei unseren Diensten personalisieren, wird mit einem Cookie Ihre Sitzung in verschiedenen Teilen der Website protokolliert.</p>
+                <p>Weitere Informationen finden Sie im Abschnitt Cookies der Hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/#collection-your-personal-information">https://web.hypothes.is/privacy/#collection-your-personal-information</a></p> 
 
 
                 <p class="bold">Matomo</p>
