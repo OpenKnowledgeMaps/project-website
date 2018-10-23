@@ -32,6 +32,8 @@
         include($COMPONENTS_PATH . 'commentstream.php');
         ?>            
         <?php include($COMPONENTS_PATH . "enthusiasts-program.php") ?>
+        
         <?php include($COMPONENTS_PATH . "program-coordination.php") ?>
+        <?php include($COMPONENTS_PATH . "materials.php") ?>
         <?php /* include($COMPONENTS_PATH . "newsletter.php") */ ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
