@@ -146,10 +146,24 @@
 
                     </p>
                 </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q10</span> I would like to introduce OKMaps to my peers. Do you have any materials available?
+                    </p>
+                    <p>
+                        We do! 
+                        <a class="underline" href="community#training-materials">Check out our training and promotional materials</a> including presentations in English and Spanish and a How-To for running an OKMaps workshop. 
+
+
+                    </p>
+                </div>
+                
+                
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q10</span> Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q11</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         No doubt! Just drop us a line on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
