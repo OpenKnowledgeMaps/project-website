@@ -124,7 +124,7 @@
                         <span id="question-Q">Q8</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
-                        We are a non-profit organization run by a group of dedicated volunteers. 
+                        We are a charitable non-profit organization run by a group of dedicated volunteers. 
                         Currently, we are looking for funding for <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
                         If you are interested in funding this effort, please contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
 

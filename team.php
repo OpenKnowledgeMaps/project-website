@@ -16,7 +16,7 @@
             <div class="background2 bg2">
                 <div class="team">
                     <p>Our Team</p>
-                    <p>We are a non-profit organization run by a dedicated core team.</p>
+                    <p>We are a charitable non-profit organization run by a dedicated core team.</p>
                 </div>
             </div>
 

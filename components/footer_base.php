@@ -4,7 +4,7 @@
 
     <div class="info okm-ngo">
         <h3 style="margin-bottom: 10px;">Open Knowledge Maps</h3>
-        is a non-profit organization dedicated to improving the visibility 
+        is a charitable non-profit organization dedicated to improving the visibility 
         of scientific knowledge for science and society.
         <br><br>
         Unless otherwise noted, all content on openknowledgemaps.org is licensed under a 
