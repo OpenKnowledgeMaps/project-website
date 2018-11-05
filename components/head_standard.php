@@ -26,7 +26,10 @@ function prefered_language($available_languages, $http_accept_language) {
     }
 }
 
-$BROWSER_LANG = prefered_language($available_languages, strtolower($_SERVER["HTTP_ACCEPT_LANGUAGE"]));
+$BROWSER_LANG = $default_language;
+if(isset($_SERVER["HTTP_ACCEPT_LANGUAGE"])) {
+    $BROWSER_LANG = prefered_language($available_languages, strtolower($_SERVER["HTTP_ACCEPT_LANGUAGE"]));
+}
 
 $default_labels = array(
     "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
@@ -185,7 +188,7 @@ function getLabel($tag) {
       gtag('config', '<?php echo $GA_CODE; ?>');
     </script>
 <?php endif; ?>
-
+    
 <?php if ($PIWIK_ENABLED) { ?>
 
     <!-- Matomo -->
