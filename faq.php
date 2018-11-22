@@ -84,10 +84,32 @@
                         More information can be found in <a class="underline" href="http://0277.ch/ojs/index.php/cdrs_0277/article/view/157/355" target="_blank">this article</a>.
                     </p>
                 </div>
+                
+                <a name=faq-automatic-analysis class="anchor"></a>
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q5</span> What does the placement of the bubbles and the papers mean?
+                    </p>
+                    <p>In general, the placement of bubbles can be interpreted as follows:
+                    <ul>
+                        <li>Closeness of bubbles implies subject similarity. The closer two bubbles, the closer they are subject-wise. 
+                            The overlap of two bubbles implies strong subject similarity, but it does not mean that the two bubbles share common papers.
+                            Papers are always assigned to a single bubble only.</li>
+                        <li>Centrality of bubbles implies subject similarity with the rest of the map, not importance. 
+                            The closer a bubble is to the center, the closer it is subject-wise to all the other bubbles in the map.</li>
+                    </ul>
+                        Nevertheless, the placement of the bubbles should only be taken as an indication as the map is untangled in the beginning to
+                        improve readability.
+                        The placement of papers within a bubble has no specific meaning, 
+                        as they are moved around significantly during the initial arrangement of the map to avoid overlap.
+                        More information can be found in <a class="underline" href="https://arxiv.org/abs/1412.6462" target="_blank">this article</a>.
+                    </p>
+                </div>
+                
                 <a name=faq-faulty-map class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q5</span> Why does the overview visualization work better for some research topics than others?
+                        <span id="question-Q">Q6</span> Why does the overview visualization work better for some research topics than others?
                     </p>
                     <p>The visualization depends on the search results that we get for a given query.
                         If there are for example not enough articles on the topic, or if the metadata quality is low, this will impact the visualization.
@@ -98,7 +120,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q6</span> How did Open Knowledge Maps come about?
+                        <span id="question-Q">Q7</span> How did Open Knowledge Maps come about?
                     </p>
                     <p>Open Knowledge Maps was founded by Peter Kraker in 2015. 
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
@@ -110,7 +132,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q7</span> Can Open Knowledge Maps connect to my data source?
+                        <span id="question-Q">Q8</span> Can Open Knowledge Maps connect to my data source?
                     </p>
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
@@ -121,7 +143,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q8</span> How is Open Knowledge Maps funded?
+                        <span id="question-Q">Q9</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
                         We are a charitable non-profit organization run by a group of dedicated volunteers. 
@@ -133,7 +155,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q9</span> How can I contribute?
+                        <span id="question-Q">Q10</span> How can I contribute?
                     </p>
                     <p>
                         You can contribute in a number of ways: 
@@ -149,7 +171,7 @@
                 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q10</span> I would like to introduce OKMaps to my peers. Do you have any materials available?
+                        <span id="question-Q">Q11</span> I would like to introduce OKMaps to my peers. Do you have any materials available?
                     </p>
                     <p>
                         We do! 
@@ -163,7 +185,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q11</span> Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q12</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         No doubt! Just drop us a line on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>

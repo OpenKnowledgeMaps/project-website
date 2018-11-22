@@ -1131,6 +1131,12 @@ a .number:hover {
     color: #e55137;
 }
 
+.faq li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 .cgp li {
     list-style: disc;
     margin-left: 20px;
