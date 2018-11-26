@@ -216,6 +216,23 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-color: white;
 }
 
+.view-project {
+    color:#2D3E52;
+    background-color: white;
+    border: 2px solid #2D3E52;
+    
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 12px;
+}
+
+.view-project:hover, .view-project:active, .view-project:focus {
+    background-color: #2D3E52; 
+    color: white;
+}
+
+
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     border: 2px solid #51c9ae;
     color: white; 
@@ -552,6 +569,15 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .event-description {
     display:inline-block; 
     max-width:500px;
+}
+
+.project-pic {
+    width:40%; 
+    display: inline-block; 
+    vertical-align: top;
+    background-image: url(../img/project-examples/link.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #newsletterdiv #mc_embed_signup div.mce_inline_error {
