@@ -1157,6 +1157,12 @@ a .number:hover {
     color: #e55137;
 }
 
+.faq li {
+    list-style: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
 .cgp li {
     list-style: disc;
     margin-left: 20px;
@@ -1279,7 +1285,7 @@ a .number:hover {
     background-color: #ea9940;
 }
 .community-page .bg4 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/community-bg.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/community-newbg.png);
     background-size:100%;
     background-repeat: no-repeat;
     background-position: 100% 80%;

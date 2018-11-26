@@ -4,7 +4,7 @@
 
     <div class="info okm-ngo">
         <h3 style="margin-bottom: 10px;">Open Knowledge Maps</h3>
-        is a non-profit organization dedicated to improving the visibility 
+        is a charitable non-profit organization dedicated to improving the visibility 
         of scientific knowledge for science and society.
         <br><br>
         Unless otherwise noted, all content on openknowledgemaps.org is licensed under a 
@@ -39,6 +39,7 @@
             <li><a href="privacy"><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
             <li><a href="datenschutz"><span class="awesome">&#xf023;</span> Datenschutzerklärung</a></li>
             <li><a href="community-guidelines"><span class="awesome">&#xf0c0;</span> Community Participation Guidelines</a></li>
+            <li><a href="community#training-materials"><span class="awesome">&#xf03e;</span> Training Materials</a></li>
             <li><a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank"><span class="awesome">&#xf278;</span> Roadmap</a></li>
             <!--<li class="seitenanfang"><a href="#top"><span class="awesome">&#xf106;</span> back to top</a></li>-->
         </ul>

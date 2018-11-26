@@ -259,7 +259,249 @@ var options_base = {
                 , {id: "182", text: "Thesis: master", selected: false}
                 , {id: "52", text: "Video/moving image", selected: false}
             ]}
-    ]
+    ],
+    languages: [
+        {
+          "code": "eng",
+          "lang_in_eng": "English",
+          "lang_in_lang": "English"
+        },
+        {
+          "code": "fre",
+          "lang_in_eng": "French",
+          "lang_in_lang": "français"
+        },
+        {
+          "code": "spa",
+          "lang_in_eng": "Spanish",
+          "lang_in_lang": "español"
+        },
+        {
+          "code": "ger",
+          "lang_in_eng": "German",
+          "lang_in_lang": "Deutsch"
+        },
+        {
+          "code": "por",
+          "lang_in_eng": "Portuguese",
+          "lang_in_lang": "português"
+        },
+        {
+          "code": "pol",
+          "lang_in_eng": "Polish",
+          "lang_in_lang": "Język polski"
+        },
+        {
+          "code": "jpn",
+          "lang_in_eng": "Japanese",
+          "lang_in_lang": "日本語"
+        },
+        {
+          "code": "ita",
+          "lang_in_eng": "Italian",
+          "lang_in_lang": "italiano"
+        },
+        {
+          "code": "chi",
+          "lang_in_eng": "Chinese",
+          "lang_in_lang": "中文"
+        },
+        {
+          "code": "rus",
+          "lang_in_eng": "Russian",
+          "lang_in_lang": "русский язык"
+        },
+        {
+          "code": "ind",
+          "lang_in_eng": "Indonesian",
+          "lang_in_lang": "bahasa Indonesia"
+        },
+        {
+          "code": "ukr",
+          "lang_in_eng": "Ukrainian",
+          "lang_in_lang": "українська мова"
+        },
+        {
+          "code": "gre",
+          "lang_in_eng": "Modern Greek",
+          "lang_in_lang": "Νέα Ελληνικά"
+        },
+        {
+          "code": "cze",
+          "lang_in_eng": "Czech",
+          "lang_in_lang": "čeština"
+        },
+        {
+          "code": "fin",
+          "lang_in_eng": "Finnish",
+          "lang_in_lang": "suomen kieli"
+        },
+        {
+          "code": "swe",
+          "lang_in_eng": "Swedish",
+          "lang_in_lang": "svenska"
+        },
+        {
+          "code": "hun",
+          "lang_in_eng": "Hungarian",
+          "lang_in_lang": "magyar nyelv"
+        },
+        {
+          "code": "tur",
+          "lang_in_eng": "Turkish",
+          "lang_in_lang": "Türkçe"
+        },
+        {
+          "code": "hrv",
+          "lang_in_eng": "Croatian",
+          "lang_in_lang": "hrvatski"
+        },
+        {
+          "code": "geo",
+          "lang_in_eng": "Georgian",
+          "lang_in_lang": "ქართული"
+        },
+        {
+          "code": "grc",
+          "lang_in_eng": "Ancient Greek",
+          "lang_in_lang": "Ἑλληνική"
+        },
+        {
+          "code": "kor",
+          "lang_in_eng": "Korean",
+          "lang_in_lang": "한국어"
+        },
+        {
+          "code": "slv",
+          "lang_in_eng": "Slovenian",
+          "lang_in_lang": "slovenščina"
+        },
+        {
+          "code": "sux",
+          "lang_in_eng": "Sumerian",
+          "lang_in_lang": "𒅴𒂠"
+        },
+        {
+          "code": "nob",
+          "lang_in_eng": "Norwegian Bokmal",
+          "lang_in_lang": "bokmål"
+        },
+        {
+          "code": "rum",
+          "lang_in_eng": "Romanian",
+          "lang_in_lang": "limba română"
+        },
+        {
+          "code": "ara",
+          "lang_in_eng": "Arabic",
+          "lang_in_lang": "العَرَبِيَّة"
+        },
+        {
+          "code": "tha",
+          "lang_in_eng": "Thai",
+          "lang_in_lang": "ภาษาไทย"
+        },
+        {
+          "code": "nor",
+          "lang_in_eng": "Norwegian",
+          "lang_in_lang": "norsk"
+        },
+        {
+          "code": "lat",
+          "lang_in_eng": "Latin",
+          "lang_in_lang": "Lingua latīna"
+        },
+        {
+          "code": "dut",
+          "lang_in_eng": "Dutch",
+          "lang_in_lang": "Nederlands"
+        },
+        {
+          "code": "ice",
+          "lang_in_eng": "Icelandic",
+          "lang_in_lang": "íslenska"
+        },
+        {
+          "code": "lit",
+          "lang_in_eng": "Lithuanian",
+          "lang_in_lang": "lietuvių kalba"
+        },
+        {
+          "code": "srp",
+          "lang_in_eng": "Serbian",
+          "lang_in_lang": "српски"
+        },
+        {
+          "code": "baq",
+          "lang_in_eng": "Basque",
+          "lang_in_lang": "euskara"
+        },
+        {
+          "code": "gle",
+          "lang_in_eng": "Irish",
+          "lang_in_lang": "Gaeilge"
+        },
+        {
+          "code": "afr",
+          "lang_in_eng": "Afrikaans",
+          "lang_in_lang": "Afrikaans"
+        },
+        {
+          "code": "heb",
+          "lang_in_eng": "Hebrew",
+          "lang_in_lang": "עברית"
+        },
+        {
+          "code": "dan",
+          "lang_in_eng": "Danish",
+          "lang_in_lang": "dansk"
+        },
+        {
+          "code": "akk",
+          "lang_in_eng": "Akkadian",
+          "lang_in_lang": "𒀝𒅗𒁺𒌑"
+        },
+        {
+          "code": "slo",
+          "lang_in_eng": "Slovak",
+          "lang_in_lang": "slovenčina"
+        },
+        {
+          "code": "nau",
+          "lang_in_eng": "Nauru",
+          "lang_in_lang": "dorerin Naoero"
+        },
+        {
+          "code": "est",
+          "lang_in_eng": "Estonian",
+          "lang_in_lang": "eesti keel"
+        },
+        {
+          "code": "vie",
+          "lang_in_eng": "Vietnamese",
+          "lang_in_lang": "Tiếng Việt"
+        },
+        {
+          "code": "bel",
+          "lang_in_eng": "Belarusian",
+          "lang_in_lang": "Беларуская мова"
+        },
+        {
+          "code": "glg",
+          "lang_in_eng": "Galician",
+          "lang_in_lang": "galego"
+        },
+        {
+          "code": "ota",
+          "lang_in_eng": "Ottoman Turkish",
+          "lang_in_lang": "لسان عثمانى"
+        },
+        {
+          "code": "per",
+          "lang_in_eng": "Persian",
+          "lang_in_lang": "فارسی"
+        }
+      ]
 }
 
 var options_openaire = {
@@ -429,7 +671,7 @@ var SearchOptions = {
 
         var self = this;
 
-        $(function () {
+         $(function () {
             $(dropdown_class).multiselect({
                 allSelectedText: "All " + entity
                 , nonSelectedText: "No " + entity
@@ -560,5 +802,206 @@ var SearchOptions = {
             self.setDateRangeFromPreset("#from", "#to", init_time_range, start_date);
 
         });
+    },
+    get639_2Frombcp47: function (code) {
+        var lang2to3CodeMapping = {
+            "aa": "aar",
+            "ab": "abk",
+            "af": "afr",
+            "ak": "aka",
+            "sq": "alb",
+            "am": "amh",
+            "ar": "ara",
+            "an": "arg",
+            "hy": "arm",
+            "as": "asm",
+            "av": "ava",
+            "ae": "ave",
+            "ay": "aym",
+            "az": "aze",
+            "ba": "bak",
+            "bm": "bam",
+            "eu": "baq",
+            "be": "bel",
+            "bn": "ben",
+            "bh": "bih",
+            "bi": "bis",
+            "bo": "tib",
+            "bs": "bos",
+            "br": "bre",
+            "bg": "bul",
+            "my": "bur",
+            "ca": "cat",
+            "cs": "cze",
+            "ch": "cha",
+            "ce": "che",
+            "zh": "chi",
+            "cu": "chu",
+            "cv": "chv",
+            "kw": "cor",
+            "co": "cos",
+            "cr": "cre",
+            "cy": "wel",
+            "da": "dan",
+            "de": "ger",
+            "dv": "div",
+            "nl": "dut",
+            "dz": "dzo",
+            "el": "gre",
+            "en": "eng",
+            "eo": "epo",
+            "et": "est",
+            "ee": "ewe",
+            "fo": "fao",
+            "fa": "per",
+            "fj": "fij",
+            "fi": "fin",
+            "fr": "fre",
+            "fy": "fry",
+            "ff": "ful",
+            "ka": "geo",
+            "gd": "gla",
+            "ga": "gle",
+            "gl": "glg",
+            "gv": "glv",
+            "gn": "grn",
+            "gu": "guj",
+            "ht": "hat",
+            "ha": "hau",
+            "he": "heb",
+            "hz": "her",
+            "hi": "hin",
+            "ho": "hmo",
+            "hr": "hrv",
+            "hu": "hun",
+            "ig": "ibo",
+            "is": "ice",
+            "io": "ido",
+            "ii": "iii",
+            "iu": "iku",
+            "ie": "ile",
+            "ia": "ina",
+            "id": "ind",
+            "ik": "ipk",
+            "it": "ita",
+            "jv": "jav",
+            "ja": "jpn",
+            "kl": "kal",
+            "kn": "kan",
+            "ks": "kas",
+            "kr": "kau",
+            "kk": "kaz",
+            "km": "khm",
+            "ki": "kik",
+            "rw": "kin",
+            "ky": "kir",
+            "kv": "kom",
+            "kg": "kon",
+            "ko": "kor",
+            "kj": "kua",
+            "ku": "kur",
+            "lo": "lao",
+            "la": "lat",
+            "lv": "lav",
+            "li": "lim",
+            "ln": "lin",
+            "lt": "lit",
+            "lb": "ltz",
+            "lu": "lub",
+            "lg": "lug",
+            "mk": "mac",
+            "mh": "mah",
+            "ml": "mal",
+            "mi": "mao",
+            "mr": "mar",
+            "ms": "may",
+            "mg": "mlg",
+            "mt": "mlt",
+            "mn": "mon",
+            "na": "nau",
+            "nv": "nav",
+            "nr": "nbl",
+            "nd": "nde",
+            "ng": "ndo",
+            "ne": "nep",
+            "nn": "nno",
+            "nb": "nob",
+            "no": "nor",
+            "ny": "nya",
+            "oc": "oci",
+            "oj": "oji",
+            "or": "ori",
+            "om": "orm",
+            "os": "oss",
+            "pa": "pan",
+            "pi": "pli",
+            "pl": "pol",
+            "pt": "por",
+            "ps": "pus",
+            "qu": "que",
+            "rm": "roh",
+            "ro": "rum",
+            "rn": "run",
+            "ru": "rus",
+            "sg": "sag",
+            "sa": "san",
+            "si": "sin",
+            "sk": "slo",
+            "sl": "slv",
+            "se": "sme",
+            "sm": "smo",
+            "sn": "sna",
+            "sd": "snd",
+            "so": "som",
+            "st": "sot",
+            "es": "spa",
+            "sc": "srd",
+            "sr": "srp",
+            "ss": "ssw",
+            "su": "sun",
+            "sw": "swa",
+            "sv": "swe",
+            "ty": "tah",
+            "ta": "tam",
+            "tt": "tat",
+            "te": "tel",
+            "tg": "tgk",
+            "tl": "tgl",
+            "th": "tha",
+            "ti": "tir",
+            "to": "ton",
+            "tn": "tsn",
+            "ts": "tso",
+            "tk": "tuk",
+            "tr": "tur",
+            "tw": "twi",
+            "ug": "uig",
+            "uk": "ukr",
+            "ur": "urd",
+            "uz": "uzb",
+            "ve": "ven",
+            "vi": "vie",
+            "vo": "vol",
+            "wa": "wln",
+            "wo": "wol",
+            "xh": "xho",
+            "yi": "yid",
+            "yo": "yor",
+            "za": "zha",
+            "zu": "zul"
+          }
+        var parts = code.split('-')
+        if (typeof parts[0] !== 'string') return null // malformed browser language code
+        if ( parts[0].length === 3 ) return parts[0]
+        if ( parts[0].length === 2 ) {
+            if (lang2to3CodeMapping.hasOwnProperty(parts[0])) {
+                return lang2to3CodeMapping[parts[0]]
+            } else {
+                return null // unknown 2 lang code
+            }
+        } else {
+            return null // unknown lang code
+        }
+
     }
 };

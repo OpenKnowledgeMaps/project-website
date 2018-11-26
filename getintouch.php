@@ -19,7 +19,7 @@
             <div class="background2">
                 <div class="team">
                     <p>Get in Touch</p>
-                    <p>We would love to hear from you! We are a non-profit organization run by a team of friendly volunteers.</p>
+                    <p>We would love to hear from you! We are a charitable non-profit organization run by a team of friendly volunteers.</p>
                 </div>
             </div>
 
