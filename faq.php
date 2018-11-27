@@ -91,7 +91,7 @@
                         <span id="question-Q">Q5</span> What does the placement of the bubbles and the papers mean?
                     </p>
                     <p>In general, the placement of bubbles can be interpreted as follows:
-                    <ul>
+                    <ul class="faq-bullet-list">
                         <li>Closeness of bubbles implies subject similarity. The closer two bubbles, the closer they are subject-wise. 
                             The overlap of two bubbles implies strong subject similarity, but it does not mean that the two bubbles share common papers.
                             Papers are always assigned to a single bubble only.</li>

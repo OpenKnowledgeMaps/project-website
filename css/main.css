@@ -1131,7 +1131,7 @@ a .number:hover {
     color: #e55137;
 }
 
-.faq li {
+.faq-bullet-list li {
     list-style: disc;
     margin-left: 20px;
     margin-bottom: 10px;
