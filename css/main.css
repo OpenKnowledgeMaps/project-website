@@ -220,7 +220,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     color:#2D3E52;
     background-color: white;
     border: 2px solid #2D3E52;
-    
+
     padding: 10px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -232,6 +232,41 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     color: white;
 }
 
+.project-examples {
+    max-width:1600px; 
+    width:100%;
+}
+
+.project-card {
+    background-color: white; 
+    max-width:900px; 
+    margin: 0px auto; 
+    margin-bottom: 30px;
+}
+
+.project-description {
+    display: inline-block; 
+    width: 50%; 
+    padding: 3%;
+}
+
+.project-description h3 {
+    text-transform: none; 
+    line-height: 120%; 
+    font-size: 22px;
+}
+
+.project-facts {
+    margin-top: 15px;
+}
+
+.work-with-us {
+    background-color:#eff3f4;
+}
+
+.project-link {
+    margin-top:20px;
+}
 
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     border: 2px solid #51c9ae;
@@ -1384,7 +1419,7 @@ a .number:hover {
     background-color: white;
     vertical-align: top;
     margin: 3px;
-    background-image:url(../img/link.png); 
+    background-image: url(../img/link.png); 
     background-repeat:no-repeat;
     width: 17%;
     background-size: 100%;
@@ -1410,6 +1445,13 @@ a .number:hover {
 
 .background2.bg2 {
     background-color: white;
+}
+
+.projects-page .bg2 {
+    background-image: url(../img/projects-HG.png);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
 }
 
 .advisor a {
