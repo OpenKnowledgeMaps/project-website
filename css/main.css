@@ -1590,8 +1590,13 @@ sup {
 .carousel-inner {
     margin: 0 auto; /* Align slide image horizontally center */
     max-width: 500px;
+    height: 330px;
+}
+
+.carousel-inner.static {
     height: 250px;
 }
+
 .bs-example {
     padding: 100px 0px;
     max-width:1600px;
