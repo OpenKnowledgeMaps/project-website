@@ -40,7 +40,7 @@
     <li><a href="news">News</a></li>
     <li><a href="faq">FAQ</a></li>
     <li><a href="getintouch">Get in touch</a></li>
-    <li><a class="donation-button" href="donate-now"><i class="fa fa-heart" aria-hidden="true"></i> 
+    <li class="donation-menu-entry"><a class="donation-button" href="donate-now"><i class="fa fa-heart" aria-hidden="true"></i> 
             Make a donation</a></li>
     <!--<li><a class="newsletter" href="index#supportus"><i class="fa fa-heart" aria-hidden="true"></i> 
             Support us</a></li>-->
