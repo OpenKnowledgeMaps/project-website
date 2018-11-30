@@ -26,9 +26,11 @@ if ($detect->isMobile()):
         <script>
             $(".donation-menu-entry").css("visibility", "hidden");
         </script>
+    
         <div class="alert alert-warning" id="donation-banner" style="font-size: 18px; max-width:1600px; margin:0px auto 0; background-color: white; padding: 1%;
              -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
              box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+             display: none;
              ">
 <div style="max-width:1200px; margin:0px auto 0;">
             <a href="#" class="close" data-dismiss="alert" style="color: black; font-size: 42px;">&times;</a>
@@ -64,7 +66,7 @@ if ($detect->isMobile()):
 
                 <p class="try-now" style="text-align:left; margin:20px 0 0;">
                     <a target="_blank" class="donate-now" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">Donate now</a>
-                    <a target="_blank" href="http://eepurl.com/dOQynj" class="close" style="font-size: 14px; float:none; display: inline-block; margin-left:30px; text-decoration: underline;">Remind me later!</a>
+                    <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="close" style="font-size: 14px; float:none; display: inline-block; margin-left:30px; text-decoration: underline;">Remind me later!</a>
                 </p>
 
             </div>
@@ -76,6 +78,22 @@ if ($detect->isMobile()):
 <script>
     $('#donation-banner').on('close.bs.alert', function () {
         $(".donation-menu-entry").css("visibility", "visible");
+        if(getCookie("hide_donation_banner_temp") === null) {
+            setCookie("hide_donation_banner_temp", 1, 2);
+        } else {
+            let num_displays = getCookie("hide_donation_banner_temp");
+            setCookie("hide_donation_banner_temp", +num_displays + 1, 2);
+        }
     });
+    
+    if(getCookie("hide_donation_banner_permanent") === null && getCookie("hide_donation_banner_temp") <= 2) {
+        $("#donation-banner").show();
+    } else {
+        $(".donation-menu-entry").css("visibility", "visible");
+    }
+    
+    $("#remind-me-later").on("click", function() {
+        setCookie("hide_donation_banner_temp", 3, 2);
+    })
 </script>
 
