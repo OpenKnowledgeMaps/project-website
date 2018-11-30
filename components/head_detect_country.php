@@ -1,8 +1,8 @@
 <?php
 
-require __DIR__ . ('/../lib/MaxMind/MaxMind-DB-Reader-php/autoload.php');
+require dirname(__FILE__) . ('/../lib/MaxMind/MaxMind-DB-Reader-php/autoload.php');
 use MaxMind\Db\Reader;
-$databaseFile = __DIR__ . '/../lib/MaxMind/GeoLite2-Country.mmdb';
+$databaseFile = dirname(__FILE__) . '/../lib/MaxMind/GeoLite2-Country.mmdb';
 $reader = new MaxMind\Db\Reader($databaseFile);
 
 function get_ip_address() {
@@ -73,6 +73,12 @@ $res = $reader->get($ipAddress);
 $country = $res["country"];
 $country_name_en = $country["names"]["en"];
 $COUNTRY = $country_name_en;
-// print_r($COUNTRY);
 $reader->close();
 ?>
+
+<div>
+  <?php
+  echo $ipAddress;
+  echo (string)$COUNTRY;
+  ?>
+</div>
