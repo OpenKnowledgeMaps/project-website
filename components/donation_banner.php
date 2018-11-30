@@ -1,5 +1,6 @@
 <?php
 require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
+require_once 'head_detect_country.php';
 $detect = new Mobile_Detect;
 if ($detect->isMobile()):
     ?>
@@ -39,7 +40,13 @@ if ($detect->isMobile()):
             </div>
 
             <div style="display:inline-block; max-width:60%;">
-                <p><b>To all our users in <span id="country-donation">country</span>,</b><br>
+                <p><b>To all our  
+                    <?php if($COUNTRY !== null): ?>    
+                        users in <span id="country-donation"><?php echo $COUNTRY ?></span>,
+                    <?php else: ?>
+                        users,
+                    <?php endif ?>
+                    </b><br>
                     We’ll get straight to the point: today, we ask you to help Open Knowledge Maps.
                     As a charitable non-profit, we depend on donations. Only a tiny portion of our users give. 
                 </p>

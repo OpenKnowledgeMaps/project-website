@@ -68,10 +68,61 @@ function validate_ip($ip) {
     return true;
 }
 
+$countries_with_prefix_the = array(
+    "AE"
+    , "AX"
+    , "BS"
+    , "CC"
+    , "CD"
+    , "CF"
+    , "CG"
+    , "CI"
+    , "CK"
+    , "CX"
+    , "DO"
+    , "EH"
+    , "FK"
+    , "GB"
+    , "GS"
+    , "IM"
+    , "IO"
+    , "KY"
+    , "MH"
+    , "MP"
+    , "NL"
+    , "PH"
+    , "PS"
+    , "SB"
+    , "SC"
+    , "TC"
+    , "TF"
+    , "UM"
+    , "US"
+    , "VA"
+    , "VG"
+    , "VI"
+    , "AN"
+);
+
+$countries_with_prefix_The = array(
+    "GM"
+);
+
 $ipAddress = get_ip_address();
-$res = $reader->get($ipAddress);
-$country = $res["country"];
-$country_name_en = $country["names"]["en"];
-$COUNTRY = $country_name_en;
+$ipAddress = "72.229.28.185";
+try {
+    $res = $reader->get($ipAddress);
+    $country = $res["country"];
+    if(in_array($country["iso_code"], $countries_with_prefix_the)) {
+        $country_name_en = "the " . $country["names"]["en"];
+    } else if(in_array($country["iso_code"], $countries_with_prefix_The)) {
+        $country_name_en = "The " . $country["names"]["en"];
+    } else {
+        $country_name_en = $country["names"]["en"];
+    }
+    $COUNTRY = $country_name_en;
+} catch (Exception $e) {
+    $COUNTRY = null;
+}
 $reader->close();
 ?>
