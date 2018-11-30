@@ -22,7 +22,9 @@ if ($detect->isMobile()):
     </div>
 
 <?php else: ?>
-    
+        <script>
+            $(".donation-menu-entry").css("visibility", "hidden");
+        </script>
         <div class="alert alert-warning" id="donation-banner" style="font-size: 18px; max-width:1600px; margin:0px auto 0; background-color: white; padding: 1%;
              -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
              box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
@@ -63,4 +65,10 @@ if ($detect->isMobile()):
         </div>
     </div>
 <?php endif ?>
+
+<script>
+    $('#donation-banner').on('close.bs.alert', function () {
+        $(".donation-menu-entry").css("visibility", "visible");
+    });
+</script>
 
