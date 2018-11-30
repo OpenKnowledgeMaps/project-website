@@ -109,7 +109,6 @@ $countries_with_prefix_The = array(
 );
 
 $ipAddress = get_ip_address();
-$ipAddress = "72.229.28.185";
 try {
     $res = $reader->get($ipAddress);
     $country = $res["country"];
