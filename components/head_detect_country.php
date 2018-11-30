@@ -1,6 +1,6 @@
 <?php
 
-require dirname(__FILE__) . ('/../lib/MaxMind/MaxMind-DB-Reader-php/autoload.php');
+require dirname(__FILE__) . '/../lib/MaxMind/MaxMind-DB-Reader-php/autoload.php';
 use MaxMind\Db\Reader;
 $databaseFile = dirname(__FILE__) . '/../lib/MaxMind/GeoLite2-Country.mmdb';
 $reader = new MaxMind\Db\Reader($databaseFile);
@@ -75,10 +75,3 @@ $country_name_en = $country["names"]["en"];
 $COUNTRY = $country_name_en;
 $reader->close();
 ?>
-
-<div>
-  <?php
-  echo $ipAddress;
-  echo (string)$COUNTRY;
-  ?>
-</div>
