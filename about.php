@@ -16,7 +16,7 @@
         <div id="about-page">
             <div class="background2">
                 <div class="team">
-                    <p>Our Goal</p>
+                    <h2 style="color: #2d3e52;">Our Goal</h2>
                     <p>is to revolutionize discovery of scientific knowledge. 
                         We are building a visual interface that dramatically increases the visibility of 
                         research findings for science and society alike. We are a non-profit organization and we believe that a better way to 

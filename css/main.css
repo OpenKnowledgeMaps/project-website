@@ -201,6 +201,24 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     -moz-border-radius: 5px;
 }
 
+.donation-button {
+    border: 2px solid #f29e00;
+    color:white; 
+    background-color: #f29e00;
+    padding:5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-weight:300;
+}
+
+a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
+    border: 2px solid #f29e00; 
+    color:#f29e00; 
+    background-color: white;
+    font-weight:300;
+    text-decoration: none;
+}
+
 .become-enthusiast {
     border: 2px solid #e55137;
     background-color:#e55137; 
@@ -213,6 +231,26 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 .become-enthusiast:hover, .become-enthusiast:active, .become-enthusiast:focus {
     color:#e55137;
+    background-color: white;
+}
+
+.donate-now {
+    /*text-transform: uppercase;*/
+    text-align: center; 
+    width: 300px; 
+    display: inline-block; 
+    border: 2px solid #f29e00;
+    background-color: #f29e00;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.donate-now:hover, .donate-now:active, .donate-now:focus {
+    color:#f29e00;
     background-color: white;
 }
 
@@ -484,7 +522,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .search-box {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
-        url(../img/start-pagenNEU2017-6-viper-alternative.png);
+        url(../img/neuercomputer-nov2018-2.png);
     background-color: #51c9ae;
     background-repeat: no-repeat; 
     background-position: 100% 100%;
@@ -571,7 +609,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     color: #2D3E52;
 }
 
-.search-box .background2 .team p:last-child {
+.search-box .background2 .team p {
     margin: 0px auto 40px;
 }
 
@@ -589,9 +627,13 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     padding: 0px;
 }
 
-.search-box .background2 .team p:first-child, .search-box .background2 .team p:last-child {
+.search-box .background2 .team h2, .search-box .background2 .team p {
     color: white;
     text-align: center;
+}
+
+.team h2 {
+    text-transform: none;
 }
 
 .background-lamp .mittig {
@@ -1155,7 +1197,7 @@ a .number:hover {
     color:white;
 }
 
-.background2 .team p:first-child {
+.background2 .team h2 {
     max-width:600px;
     font-weight: 800;
     margin: 0px auto;
@@ -1163,7 +1205,7 @@ a .number:hover {
     text-align: center; 
 }
 
-.background2 .team p:last-child {
+.background2 .team p {
     text-align: center;
     font-size: 24px;
     max-width: 750px;
@@ -1187,11 +1229,11 @@ a .number:hover {
 }
 
 .getintouchpage .background2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/getintouch2.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/getintouch-hg.png);
     background-size:100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-color: #ea9940;
-    background-position: 100% 10%;
+    background-position: 100% 40%;
     margin-bottom: 50px;
 }
 
@@ -1204,11 +1246,11 @@ a .number:hover {
 }
 
 .faqx .background2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/faqx.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/faq-hg.png);
     background-size:100%;
     background-repeat: repeat;
     background-color: #5598cc;
-    background-position: 100% 70%;
+    background-position: 100% 80%;
     margin-bottom: 50px;
 }
 
@@ -1920,6 +1962,29 @@ time {
     /*min-width: 360px;*/
 }
 
+#donation-banner {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: white;
+    border-width: 2px;
+    border-color: #f29e00;
+    color: black;
+}
+
+#donation-banner p {
+    max-width: 900px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.donation-image {
+    background-image: url(../img/donate-now-bg.png);
+}
+.donation-image a:hover {
+    opacity: 0.1;
+}
+
 .wtp {
     font-size: 18px;
 }
@@ -2202,11 +2267,11 @@ time {
         min-height: 340px;
     }
 
-    .background2 .team p:first-child {
+    .background2 .team h2 {
         font-size: 36px;
     }
 
-    .background2 .team p:last-child {
+    .background2 .team p {
         font-size: 18px;
     }
 
@@ -2635,10 +2700,10 @@ time {
         font-size: 10px;
     }
 
-    .background2 .team p:first-child {
+    .background2 .team h2 {
         font-size: 20px;
     }
-    .background2 .team p:last-child {
+    .background2 .team p {
         font-size: 16px;
     }
 

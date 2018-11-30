@@ -15,10 +15,10 @@
 
 
         <div id="news">  
-            <div class="headerimage"><img src="./img/faqx2.png"></div>
+            <div class="headerimage"><img src="./img/faq-mobil.png"></div>
             <div class="background2">
                 <div class="team">
-                    <p>FAQ</p>
+                    <h2>FAQ</h2>
                     <p>Answers to the most frequently asked questions about Open Knowledge Maps.</p>
                 </div>
             </div>

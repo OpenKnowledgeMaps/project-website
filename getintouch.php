@@ -15,10 +15,10 @@
 
 
         <div id="news">  
-            <div class="headerimage"><img src="./img/getintouch.png"></div>
+            <div class="headerimage"><img src="./img/getintouch-mobil.png"></div>
             <div class="background2">
                 <div class="team">
-                    <p>Get in Touch</p>
+                    <h2>Get in Touch</h2>
                     <p>We would love to hear from you! We are a charitable non-profit organization run by a team of friendly volunteers.</p>
                 </div>
             </div>
@@ -109,6 +109,12 @@
             </div>
 
         </div>
+        
 
         <?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
+        <?php
+        $TIMELINE_ID = "733358003295035393";
+        $FEEBDACK_TITLE = "What our users say";
+        include($COMPONENTS_PATH . 'twitterstream.php')
+        ?>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

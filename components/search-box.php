@@ -1,14 +1,12 @@
-<div class="search-box">
-    
+<div class="topheader"></div>    
+<?php include ($COMPONENTS_PATH . "donation_banner.php"); ?>
+
+<div class="search-box" style="padding-top:110px;">
         <div class="background2">
             <div class="team">
-                <p>Map a research topic <sup style="color:white;">beta</sup></p>
+                <h2>Map a research topic <sup style="color:white;">beta</sup></h2>
                 <p>Get an overview - Find papers - Identify relevant concepts</p>
-                <!--<p>Faster, more efficient literature search</p>-->
             </div>
-        
-
-    
 
     <form id="searchform" action="#" method="POST" class="mittig2" target="_blank">
         <div style="text-align: left;">

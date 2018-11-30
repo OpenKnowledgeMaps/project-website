@@ -15,7 +15,7 @@
         <div id="team">
             <div class="background2 bg2">
                 <div class="team">
-                    <p>Our Team</p>
+                    <h2 style="color: #2d3e52;">Our Team</h2>
                     <p>We are a charitable non-profit organization run by a dedicated core team.</p>
                 </div>
             </div>
@@ -192,7 +192,7 @@
 
             <div class="background2 bg1">
                 <div class="team" id="advisory-board">
-                    <p>Our Advisors</p>
+                    <h2 style="color: #2d3e52;">Our Advisors</h2>
                     <p>are guiding the development of Open Knowledge Maps</p>
                 </div>
 

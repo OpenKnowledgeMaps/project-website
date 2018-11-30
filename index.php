@@ -17,6 +17,8 @@
     <body id="home">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
+        
+        
 
         <?php
         $default_lib = $DEFAULT_LIB;
@@ -25,7 +27,7 @@
         }
         ?>
 
-        <?php include($COMPONENTS_PATH . 'viper_circle.php') ?>
+        
         <a name="top"></a>
         <a style="padding-top:160px;" name="search"></a>
                      <?php include($COMPONENTS_PATH . 'search-box.php') ?>
@@ -46,7 +48,7 @@
 
         
 
-        <?php include($COMPONENTS_PATH . 'supportus.php') ?>
+        <?php include($COMPONENTS_PATH . 'donations.php') ?>
         <?php include($COMPONENTS_PATH . 'newsletter.php') ?>
 
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>
