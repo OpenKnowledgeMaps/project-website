@@ -112,9 +112,12 @@
         
 
         <?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
+        
+        <!-- this stream is STATIC -->
         <?php
-        $TIMELINE_ID = "733358003295035393";
-        $FEEBDACK_TITLE = "What our users say";
-        include($COMPONENTS_PATH . 'twitterstream.php')
+        $COMMENT_TITLE = "What our users say";
+        $COMMENT_IMAGES_URL = "./img/comments/";
+        include($COMPONENTS_PATH . 'commentstream.php');
         ?>
+        
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

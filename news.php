@@ -101,13 +101,6 @@
                 </article>
             </div>
 
-            <?php
-            $TWITTERSTREAM_TYPE = "profile";
-            $PROFILE_NAME = "OK_Maps";
-            $FEEBDACK_TITLE = "Twitter Stream";
-            include($COMPONENTS_PATH . 'twitterstream.php');
-            ?>
-
             <div class="newscollection">
 
                 <article class="newsitem">

@@ -19,10 +19,10 @@
 
     </div>
 
-    <!--<div class="twitterbutton"><a class="static-button"
-                                  href="mailto:n.shaghaei@openknowledgemaps.org" target="_blank"
-                                  accesskey=""data-size="large" data-show-count="false">
-            Pre-register per email to become an Enthusiast</a></div>-->
+    <div class="twitterbutton"><a class="twitter-follow-button static-button"
+                                  href="https://twitter.com/OK_Maps" target="_blank"
+                                  accesskey=""data-size="large" data-show-count="false" data-dnt="true">
+            Follow @OK_Maps</a></div>
 </div>
 
 <script>
