@@ -61,7 +61,11 @@
     };
 
     var config_twitter = {
+        <?php if ($TWITTERSTREAM_TYPE === "timeline"): ?>
         "id": "<?php echo $TIMELINE_ID; ?>",
+        <?php elseif ($TWITTERSTREAM_TYPE === "profile"): ?>
+        "profile": {"screenName": "<?php echo $PROFILE_NAME; ?>"},
+        <?php endif ?>
         "domId": '',
         "enableLinks": true,
         "showUser": true,

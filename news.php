@@ -102,7 +102,8 @@
             </div>
 
             <?php
-            $TIMELINE_ID = "842456314890584064";
+            $TWITTERSTREAM_TYPE = "profile";
+            $PROFILE_NAME = "OK_Maps";
             $FEEBDACK_TITLE = "Twitter Stream";
             include($COMPONENTS_PATH . 'twitterstream.php');
             ?>

@@ -1,5 +1,5 @@
 /*********************************************************************
-*  #### Twitter Post Fetcher v17.0.0 ####
+*  #### Twitter Post Fetcher v18.0.3 ####
 *  Coded by Jason Mayes 2015. A present to all the developers out there.
 *  www.jasonmayes.com
 *  Please keep this disclaimer with my code if you use it. Thanks. :-)
@@ -35,6 +35,7 @@
   var customCallbackFunction = null;
   var showInteractionLinks = true;
   var showImages = false;
+  var useEmoji = false;
   var targetBlank = true;
   var lang = 'en';
   var permalinks = true;
@@ -69,6 +70,7 @@
     var links = el.getElementsByTagName('a');
     for (var i = links.length - 1; i >= 0; i--) {
       links[i].setAttribute('target', '_blank');
+      links[i].setAttribute('rel', 'noopener');
     }
   }
 
@@ -84,18 +86,22 @@
     return a;
   }
 
-  function extractImageUrl(image_data) {
-    if (image_data !== undefined && image_data.innerHTML.indexOf('data-srcset') >= 0) {
-      var data_src = image_data.innerHTML
-          .match(/data-srcset="([A-z0-9%_\.-]+)/i)[0];
-      return decodeURIComponent(data_src).split('"')[1];
+  function extractImagesUrl(image_data) {
+    if (image_data !== undefined && image_data.innerHTML.indexOf('data-image') >= 0) {
+      var data_src = image_data.innerHTML.match(/data-image=\"([A-z0-9]+:\/\/[A-z0-9]+\.[A-z0-9]+\.[A-z0-9]+\/[A-z0-9]+\/[A-z0-9\-]+)\"/ig);
+      for (var i = 0; i < data_src.length; i++) {
+        data_src[i] = data_src[i].match(/data-image=\"([A-z0-9]+:\/\/[A-z0-9]+\.[A-z0-9]+\.[A-z0-9]+\/[A-z0-9]+\/[A-z0-9\-]+)\"/i)[1];
+        data_src[i] = decodeURIComponent(data_src[i]) + '.jpg';
+      }
+      return data_src;
     }
   }
+ 
 
   var twitterFetcher = {
     fetch: function(config) {
       if (config.maxTweets === undefined) {
-        config.maxTweets = 30;
+        config.maxTweets = 20;
       }
       if (config.enableLinks === undefined) {
         config.enableLinks = true;
@@ -120,6 +126,9 @@
       }
       if (config.showImages === undefined) {
         config.showImages = false;
+      }
+      if (config.useEmoji === undefined) {
+        config.useEmoji = false;
       }
       if (config.linksInNewWindow === undefined) {
         config.linksInNewWindow = true;
@@ -146,6 +155,7 @@
         customCallbackFunction = config.customCallback;
         showInteractionLinks = config.showInteraction;
         showImages = config.showImages;
+	useEmoji = config.useEmoji;
         targetBlank = config.linksInNewWindow;
         permalinks = config.showPermalinks;
         dataOnly = config.dataOnly;
@@ -195,7 +205,10 @@
       }
 
       // Remove emoji and summary card images.
-      data.body = data.body.replace(/(<img[^c]*class="Emoji[^>]*>)|(<img[^c]*class="u-block[^>]*>)/g, '');
+      if(!useEmoji){
+        data.body = data.body.replace(/(<img[^c]*class="Emoji[^>]*>)|(<img[^c]*class="u-block[^>]*>)/g, '');
+      }
+
       // Remove display images.
       if (!showImages) {
         data.body = data.body.replace(/(<img[^c]*class="NaturalImage-image[^>]*>|(<img[^c]*class="CroppedImage-image[^>]*>))/g, '');
@@ -213,7 +226,16 @@
 
       function swapDataSrc(element) {
         var avatarImg = element.getElementsByTagName('img')[0];
-        avatarImg.src = avatarImg.getAttribute('data-src-2x');
+        if (avatarImg) {
+          avatarImg.src = avatarImg.getAttribute('data-src-2x');
+        } else {
+          var screenName = element.getElementsByTagName('a')[0]
+              .getAttribute('href').split('twitter.com/')[1];
+          var img = document.createElement('img');
+          img.setAttribute('src', 'https://twitter.com/' + screenName + 
+              '/profile_image?size=bigger');
+          element.prepend(img);
+        }
         return element;
       }
 
@@ -294,9 +316,18 @@
           arrayTweets.push({
             tweet: tweets[n].innerHTML,
             author: authors[n] ? authors[n].innerHTML : 'Unknown Author',
+            author_data: {
+              profile_url: authors[n] ? authors[n].querySelector('[data-scribe="element:user_link"]').href : null,
+              profile_image: authors[n] ? 
+              'https://twitter.com/' + authors[n].querySelector('[data-scribe="element:screen_name"]').title.split('@')[1] + '/profile_image?size=bigger' : null,
+              profile_image_2x: authors[n] ? 'https://twitter.com/' + authors[n].querySelector('[data-scribe="element:screen_name"]').title.split('@')[1] + '/profile_image?size=original' : null,
+              screen_name: authors[n] ? authors[n].querySelector('[data-scribe="element:screen_name"]').title : null,
+              name: authors[n] ? authors[n].querySelector('[data-scribe="element:name"]').title : null
+            },
             time: times[n].textContent,
             timestamp: times[n].getAttribute('datetime').replace('+0000', 'Z').replace(/([\+\-])(\d\d)(\d\d)/, '$1$2:$3'),
-            image: extractImageUrl(images[n]),
+            image: (extractImagesUrl(images[n]) ? extractImagesUrl(images[n])[0] : undefined),
+            images: extractImagesUrl(images[n]),
             rt: rts[n],
             tid: tids[n],
             permalinkURL: (permalinksURL[n] === undefined) ?
@@ -374,18 +405,21 @@
             op += '<p class="interact"><a href="https://twitter.com/intent/' +
                 'tweet?in_reply_to=' + tids[n] +
                 '" class="twitter_reply_icon"' +
-                (targetBlank ? ' target="_blank">' : '>') +
+                (targetBlank ? ' target="_blank" rel="noopener">' : '>') +
                 'Reply</a><a href="https://twitter.com/intent/retweet?' +
                 'tweet_id=' + tids[n] + '" class="twitter_retweet_icon"' +
-                (targetBlank ? ' target="_blank">' : '>') + 'Retweet</a>' +
+                (targetBlank ? ' target="_blank" rel="noopener">' : '>') + 'Retweet</a>' +
                 '<a href="https://twitter.com/intent/favorite?tweet_id=' +
                 tids[n] + '" class="twitter_fav_icon"' +
-                (targetBlank ? ' target="_blank">' : '>') + 'Favorite</a></p>';
+                (targetBlank ? ' target="_blank" rel="noopener">' : '>') + 'Favorite</a></p>';
           }
-          if (showImages && images[n] !== undefined && extractImageUrl(images[n]) !== undefined) {
-            op += '<div class="media">' +
-                '<img src="' + extractImageUrl(images[n]) +
-                '" alt="Image from tweet" />' + '</div>';
+          if (showImages && images[n] !== undefined && extractImagesUrl(images[n]) !== undefined) {
+            var extractedImages = extractImagesUrl(images[n]);
+            for (var i = 0; i < extractedImages.length; i++) {
+              op += '<div class="media">' +
+                    '<img src="' + extractedImages[i] +
+                    '" alt="Image from tweet" />' + '</div>';
+            }
           }
           if (showImages) {
             arrayTweets.push(op);
@@ -412,3 +446,29 @@
   window.twitterFetcher = twitterFetcher;
   return twitterFetcher;
 }));
+
+
+// Prepend polyfill for IE/Edge.
+(function (arr) {
+  arr.forEach(function (item) {
+    if (item.hasOwnProperty('prepend')) {
+      return;
+    }
+    Object.defineProperty(item, 'prepend', {
+      configurable: true,
+      enumerable: true,
+      writable: true,
+      value: function prepend() {
+        var argArr = Array.prototype.slice.call(arguments),
+          docFrag = document.createDocumentFragment();
+        
+        argArr.forEach(function (argItem) {
+          var isNode = argItem instanceof Node;
+          docFrag.appendChild(isNode ? argItem : document.createTextNode(String(argItem)));
+        });
+        
+        this.insertBefore(docFrag, this.firstChild);
+      }
+    });
+  });
+})([Element.prototype, Document.prototype, DocumentFragment.prototype]);
