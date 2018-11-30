@@ -12,6 +12,9 @@
     <body class="about-page">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
+        <script>
+            setCookie("hide_donation_banner_permanent", 1, 45);
+         </script>
 
         <div id="about-page">
             <div class="background2">
