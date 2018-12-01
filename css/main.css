@@ -201,23 +201,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     -moz-border-radius: 5px;
 }
 
-.donation-button {
-    border: 2px solid #f29e00;
-    color:white; 
-    background-color: #f29e00;
-    padding:5px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    font-weight:300;
-}
 
-a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
-    border: 2px solid #f29e00; 
-    color:#f29e00; 
-    background-color: white;
-    font-weight:300;
-    text-decoration: none;
-}
 
 .become-enthusiast {
     border: 2px solid #e55137;
@@ -231,26 +215,6 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .become-enthusiast:hover, .become-enthusiast:active, .become-enthusiast:focus {
     color:#e55137;
-    background-color: white;
-}
-
-.donate-now {
-    /*text-transform: uppercase;*/
-    text-align: center; 
-    width: 300px; 
-    display: inline-block; 
-    border: 2px solid #f29e00;
-    background-color: #f29e00;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.donate-now:hover, .donate-now:active, .donate-now:focus {
-    color:#f29e00;
     background-color: white;
 }
 
@@ -1059,6 +1023,126 @@ a .number:hover {
 .freeadmission {
     color: #e55137;
     font-size:12px;
+}
+
+/*DONATION*/
+.mobile-donation-banner {
+    display: none;
+}
+
+.desktop-donation-banner {
+    display: block;
+    font-size: 18px; 
+    max-width:1600px; 
+    margin:0px auto 0; 
+    background-color: white; 
+    padding: 1%;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    display: none;
+}
+
+.desktop-donation-banner2 {
+    font-size: 18px; 
+    max-width:1200px; 
+    margin:0px auto 0; 
+    background-color: white; 
+    padding: 2%;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.shadow {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+#donation-banner {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: white;
+    border: 2px solid #f29e00;
+    color: black;
+}
+
+#donation-banner p {
+    max-width: 900px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.donation-image {
+    background-image: url(../img/donate-now-bg.png);
+    display:inline-block; 
+    max-width:25%; 
+    vertical-align:top; 
+    margin-right:30px;
+}
+
+.donation-page .donation-image, .donation-page .donation-text {
+    vertical-align:middle;
+}
+
+.donation-image a:hover {
+    opacity: 0.1;
+}
+
+.donation-text {
+    display:inline-block; 
+    max-width:60%;
+}
+
+.donation-button {
+    border: 2px solid #f29e00;
+    color:white; 
+    background-color: #f29e00;
+    padding:5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-weight:300;
+}
+
+a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
+    border: 2px solid #f29e00; 
+    color:#f29e00; 
+    background-color: white;
+    font-weight:300;
+    text-decoration: none;
+}
+
+.donate-now {
+    /*text-transform: uppercase;*/
+    text-align: center; 
+    max-width: 300px;
+    width:100%;
+    display: inline-block; 
+    border: 2px solid #f29e00;
+    background-color: #f29e00;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.donate-now:hover, .donate-now:active, .donate-now:focus {
+    color:#f29e00;
+    background-color: white;
+}
+
+.donation-image-mobile {
+    display: none;
+}
+
+.additional-info {
+    padding: 0 5%;
+    margin-top: 30px;
+}
+
+.additional-info p {
+    text-align: center;
 }
 
 /*ABOUT*/
@@ -1945,29 +2029,6 @@ time {
     /*min-width: 360px;*/
 }
 
-#donation-banner {
-    margin-bottom: 0px;
-    padding-bottom: 20px;
-    padding-left: 50px;
-    background-color: white;
-    border-width: 2px;
-    border-color: #f29e00;
-    color: black;
-}
-
-#donation-banner p {
-    max-width: 900px;
-    margin-top: 10px;
-    font-size: 16px;
-}
-
-.donation-image {
-    background-image: url(../img/donate-now-bg.png);
-}
-.donation-image a:hover {
-    opacity: 0.1;
-}
-
 .wtp {
     font-size: 18px;
 }
@@ -2564,6 +2625,44 @@ time {
 
 @media screen and (max-width: 535px) {
 
+    .mobile-donation-banner {
+        display: block;
+        padding: 10px;
+        border: 2px solid #f29e00;
+        max-width: 100%;
+    }
+
+    .donate-now {
+        font-size: 18px;
+        width: 80%;
+        /*max-width: 200px;*/
+    }
+
+    .desktop-donation-banner {
+        display: none;
+    }
+
+    .donation-text, .donation-image-mobile {
+        display: block;
+        max-width: 100%;
+    }
+    
+    .donation-image {
+        display: none;
+    }
+    
+    .donation-text {
+        margin-top: 20px;
+    }
+    
+    .desktop-donation-banner2 {
+        padding:5%;
+    }
+    
+    .additional-info p {
+        text-align: left;
+    }
+
     .supportus {
         background-position: 100% 3%;
     }
@@ -2892,7 +2991,7 @@ time {
         display: block;
         width:100%;
     }
-    
+
     .team h2 {
         color: #2D3E52;
     }

@@ -149,7 +149,9 @@
                         We are a charitable non-profit organization run by a group of dedicated volunteers. 
                         Currently, we are looking for funding for <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
                         If you are interested in funding this effort, please contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
-
+                    </p>
+                    
+                    <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
 
@@ -164,8 +166,9 @@
                         We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
                         let us know via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. 
-
-
+                    </p>
+                    
+                    <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
                 

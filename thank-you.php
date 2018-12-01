@@ -14,7 +14,7 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
         <script>
             setCookie("hide_donation_banner_permanent", 1, 45);
-         </script>
+        </script>
 
         <div id="about-page">
             <div class="background2">
@@ -25,11 +25,17 @@
                     </p>
                 </div>
             </div>
+
+            <div style="text-align: center;">
+                <img class="shadow" src="./img/thankyou-donation.jpg">
+            </div>
+            
+            <p style="font-size: 16px; margin: 30px auto; text-align: center; max-width: 650px; padding: 0 20px;">
+                <b>Receipts:</b> If you want to receive a receipt for your donation, please send us an 
+                e-mail with your name and address to 
+                <a  class="underline" target="_blank" href="mailto:donations@openknowledgemaps.org">donations@openknowledgemaps.org</a>
+            </p>
         </div>
 
-        <?php
-        $TIMELINE_ID = "733358003295035393";
-        $FEEBDACK_TITLE = "What our users say";
-        include($COMPONENTS_PATH . 'twitterstream.php')
-        ?>
+
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

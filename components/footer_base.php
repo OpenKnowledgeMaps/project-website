@@ -12,14 +12,23 @@
         Our software is open source and hosted <a class="licenselink" href="https://github.com/OpenKnowledgeMaps" target="_blank">on Github</a>.
         <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img class="licenseimg"src="./img/cc-by.png" alt="licensed under cc by"></a>
     </div>
-    
+
+
     <div class="info">
+        <h3 style="margin-bottom: 10px;">Make a donation</h3>
+        Help sustain OKMaps with a donation.
+        <ul class="nav_bottom">
+            <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url" target="_blank"><span class="awesome">&#xf004;</span> Donate now</a></li>
+        </ul>
+    </div>
+
+    <!--<div class="info">
         <h3 style="margin-bottom: 10px;">Newsletter sign-up</h3>
         Receive regular updates on the newest improvements.
         <ul class="nav_bottom">
         <li><a href="http://eepurl.com/dvQeGP" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
         </ul>
-    </div>
+    </div>-->
 
     <div class="info">
         <address><h3 style="margin-bottom: 10px;">Contact us</h3>
@@ -28,6 +37,7 @@
                 <li><a href="https://twitter.com/ok_maps" target="_blank"><span class="awesome">&#xf099;</span> twitter.com/OK_Maps</a></li>
                 <li><a href="https://facebook.com/OKMaps" target="_blank"><span class="awesome">&#xf09a;</span> facebook.com/OKMaps</a> </li>
                 <li><a href="https://github.com/OpenKnowledgeMaps" target="_blank"><span class="awesome">&#xf09b;</span> github.com/OpenKnowledgeMaps</a> </li>              
+                <li><a href="http://eepurl.com/dvQeGP" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
             </ul>
         </address>
     </div>
