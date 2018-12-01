@@ -13,7 +13,6 @@
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
-
         <div id="news">  
             <div class="headerimage"><img src="./img/getintouch-mobil.png"></div>
             <div class="background2">
@@ -43,7 +42,7 @@
                         <a class="underline" href="https://twitter.com/ok_maps" target="_blank">twitter.com/OK_Maps</a>
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <a style="text-decoration: none;" target="_blank" href="https://www.facebook.com/OKMaps"><span id="question-Q" class="awesome">&#xf09a;</span> Like us on Facebook</a>
@@ -63,14 +62,6 @@
                     </p>
                 </div>
 
-                <!--<div class="faq">
-                    <p class="faquestion">
-                        <span id="question-Q" class="awesome">&#xf27b;</span> Take part in our survey.
-                    </p>
-                    <p>
-                    </p>
-                </div>-->
-
                 <div class="faq">
                     <p class="faquestion">
                         <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf2b5;</span> Collaborate with us</a>
@@ -80,7 +71,7 @@
                         <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf155;</span> Fund our project</a>
@@ -104,20 +95,27 @@
                     </p>
                 </div>
 
-
+                <div class="faq">
+                    <p class="faquestion">
+                        <a style="text-decoration: none;" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url"><span id="question-Q" class="awesome">&#xf004;</span> Make a donation</a>
+                    </p>
+                    <p>
+                        We are a non-profit organization and depend on donations. Help sustain Open Knowledge Maps. <a class="underline" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">Donate now!</a>
+                    </p>
+                </div>
 
             </div>
 
         </div>
-        
+
 
         <?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
-        
+
         <!-- this stream is STATIC -->
         <?php
         $COMMENT_TITLE = "What our users say";
         $COMMENT_IMAGES_URL = "./img/comments/";
         include($COMPONENTS_PATH . 'commentstream.php');
         ?>
-        
+
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>
