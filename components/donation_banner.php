@@ -63,8 +63,15 @@ require_once 'head_detect_country.php';
 </div>
 
 <script>
-    $('#donation-banner').on('close.bs.alert', function () {
+    $('#donation-banner, .mobile-donation-banner').on('close.bs.alert', function (event) {
         $(".donation-menu-entry").css("visibility", "visible");
+        
+        if (event.target.classList.contains("desktop-donation-banner")) {
+            $(".mobile-donation-banner").alert("close");
+        } else if (event.target.classList.contains("mobile-donation-banner")) {
+            $(".desktop-donation-banner").alert("close");
+        }
+        
         if (getCookie("hide_donation_banner_temp") === null) {
             setCookie("hide_donation_banner_temp", 1, 2);
         } else {
@@ -73,10 +80,9 @@ require_once 'head_detect_country.php';
         }
     });
 
-    if (getCookie("hide_donation_banner_permanent") === null && getCookie("hide_donation_banner_temp") <= 2) {
-        $("#donation-banner").show();
-    } else {
+    if (getCookie("hide_donation_banner_permanent") !== null || getCookie("hide_donation_banner_temp") >= 3) {
         $(".donation-menu-entry").css("visibility", "visible");
+        $(".mobile-donation-banner, .desktop-donation-banner").addClass("display");
     }
 
     $("#remind-me-later").on("click", function () {
