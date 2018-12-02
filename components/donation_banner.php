@@ -21,7 +21,7 @@ require_once 'head_detect_country.php';
         <a href="#" class="close" data-dismiss="alert" style="color: black; font-size: 42px;">&times;</a>
         
         <div class="donation-image">
-            <a  target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">
+            <a  target="_blank" href="<?php echo $PAYPAL_URL; ?>">
                 <img src="./img/donation-banner.png"></a>
         </div>
 
@@ -54,7 +54,7 @@ require_once 'head_detect_country.php';
             </p>
 
             <p class="try-now" style="text-align:left; margin:20px 0 0;">
-                <a target="_blank" class="donate-now" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">Donate now</a>
+                <a target="_blank" class="donate-now" href="<?php echo $PAYPAL_URL; ?>">Donate now</a>
                 <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="close" style="font-size: 14px; float:none; display: inline-block; margin-left:30px; text-decoration: underline;">Remind me later!</a>
             </p>
         </div>
