@@ -89,7 +89,9 @@
                     In addition, we use the GDPR-compliant service MailChimp, a marketing automation service provided by The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). For more information please see "Newsletter" further down.
                     We use the GDPR-compliant service Hypothes.is, a web annotation service provided by HYPOTHES IS PROJECT ( 2261 Market Street 632, San Francisco, CA, 94114 United States of America ). For more information please see “Social Plugins” further down.
                 </p>
-                <p>The processing of donations is handled by PayPal, a payments processor of PayPal Inc. (which is a parent company of PayPal (Europe) S.à r.l. et Cie, S.C.A.) located in California, USA. For more information about the data collected please see <a class="underline" target="_blank" href="https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE">https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE</a>.
+                <p>The processing of donations is handled by PayPal, a payments processor of PayPal Inc. (which is a parent company of PayPal (Europe) S.à r.l. et Cie, S.C.A.) located in California, USA. For more information about the data collected please see
+                  <a class="underline" target="_blank" href="https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE">https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE</a>.
+                </p>
                 <p>Apart from the aformentioned data processors, we do not transfer your data to any other third parties.</p>
 
                 <h3>Email communications with us</h3>
