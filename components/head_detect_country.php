@@ -112,6 +112,8 @@ $ipAddress = get_ip_address();
 try {
     $res = $reader->get($ipAddress);
     $country = $res["country"];
+    $country_code = $country["iso_code"];
+    $currency_code = "EUR";
     if(in_array($country["iso_code"], $countries_with_prefix_the)) {
         $country_name_en = "the " . $country["names"]["en"];
     } else if(in_array($country["iso_code"], $countries_with_prefix_The)) {
@@ -119,9 +121,21 @@ try {
     } else {
         $country_name_en = $country["names"]["en"];
     }
+    
+    if($country["iso_code"] === "US") {
+        $currency_code = "USD";
+    }
+    
     $COUNTRY = $country_name_en;
+    $COUNTRY_CODE = ($country_code === null)?("AT"):($country_code);
+    $CURRENCY_CODE = $currency_code;
 } catch (Exception $e) {
     $COUNTRY = null;
+    $COUNTRY_CODE = "AT";
+    $CURRENCY_CODE = "EUR";
 }
+
+$PAYPAL_URL = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url&lc=en_" . $COUNTRY_CODE . "&currency_code=" . $CURRENCY_CODE;
+
 $reader->close();
 ?>
