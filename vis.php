@@ -83,8 +83,9 @@
                 </script>
                 <?php endif; ?>
             <?php
-                //include ($COMPONENTS_PATH . "vis_beta_banner.php"); 
                 include ($COMPONENTS_PATH . "donation_banner.php");
+                //include ($COMPONENTS_PATH . "vis_beta_banner.php"); 
+                
             ?>
        <?php endif; ?>
             <div class="overflow-vis">
