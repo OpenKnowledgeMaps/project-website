@@ -42,21 +42,20 @@
                     <p>As a charitable non-profit organization, <b>we depend on donations.</b>
                     </p>
 
-                    <p><b>If everyone gave 
+                    <p><b>If every user gave 
                             <span id="currency-donation">€3</span>, 
                             we could run Open Knowledge Maps for a full year.</b>
                     </p>
 
-                    <p>Open Knowledge Maps is the world’s largest visual search engine for scientific knowledge. 
+                    <p>Open Knowledge Maps is the world's largest visual search engine for scientific knowledge. 
                         Our open, ad-free service is used by hundreds of thousands of people. But we do not want 
                         to stop there: our goal is to develop Open Knowledge Maps 
                         <a class="underline" target="_blank" href="https://vimeo.com/188647919">into a collaborative system</a>, 
-                        so that we can all build on top of each others’ knowledge.
+                        so that we can all build on top of each others' knowledge.
                     </p>
 
-                    <p>We hope that you’ll think about how useful it is to be able to discover scientific knowledge. 
-                        Not only for select few, but everyone on 
-                        the planet. <b>The price of a coffee is all it takes!</b>
+                    <p>We hope that you'll consider how useful it is to be able to discover scientific knowledge. 
+                        Not only for a select few, but for everyone on the planet.  <b>The price of a coffee is all it takes!</b>
                     </p>
 
                     <p>
@@ -78,7 +77,7 @@
                 <p>
                     <b>Payment:</b> Your donation will be securely processed 
                     <a  class="underline" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">via Paypal</a>. You do not need a Paypal account to make a donation. 
-                    <br>You can also make a donation to our bank account directly Account holder: Open Knowledge Maps IBAN: AT96 2011 1829 6959 9500  BIC: GIBAATWWXXX
+                    <br>You can also make a donation to our bank account directly: Account holder: Open Knowledge Maps, IBAN: AT96 2011 1829 6959 9500, BIC: GIBAATWWXXX
                 </p>
 
                 <p>
