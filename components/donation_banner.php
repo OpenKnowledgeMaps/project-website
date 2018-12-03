@@ -13,7 +13,7 @@ require_once 'head_detect_country.php';
 
 <div class="alert alert-warning desktop-donation-banner" id="donation-banner">
     <div style="max-width:1200px; margin:0px auto 0;">
-        <a href="#" class="close" data-dismiss="alert" style="color: black; font-size: 42px;">&times;</a>
+        <a href="#" class="desktop-donation-banner-close donation-banner-close close" data-dismiss="alert" style="color: black; font-size: 42px;">&times;</a>
         
         <div class="donation-image">
             <a  target="_blank" href="<?php echo $PAYPAL_URL; ?>">
@@ -60,20 +60,22 @@ require_once 'head_detect_country.php';
 <script>
     $(".donation-menu-entry").css("visibility", "hidden");
     
-    $('#donation-banner, .mobile-donation-banner').on('close.bs.alert', function (event) {
-        $(".donation-menu-entry").css("visibility", "visible");
-        
-        if (event.target.classList.contains("desktop-donation-banner")) {
-            $(".mobile-donation-banner").alert("close");
-        } else if (event.target.classList.contains("mobile-donation-banner")) {
-            $(".desktop-donation-banner").alert("close");
-        }
-        
-        if (getCookie("hide_donation_banner_temp") === null) {
-            setCookie("hide_donation_banner_temp", 1, 2);
-        } else {
-            let num_displays = getCookie("hide_donation_banner_temp");
-            setCookie("hide_donation_banner_temp", +num_displays + 1, 2);
+    $(document).on("click", function(event) {
+        if(event.target.classList.contains("donation-banner-close")) {
+            $(".donation-menu-entry").css("visibility", "visible");
+
+            if (event.target.classList.contains("desktop-donation-banner-close")) {
+                $(".mobile-donation-banner").alert("close");
+            } else if (event.target.classList.contains("mobile-donation-banner-close")) {
+                $(".desktop-donation-banner").alert("close");
+            }
+
+            if (getCookie("hide_donation_banner_temp") === null) {
+                setCookie("hide_donation_banner_temp", 1, 2);
+            } else {
+                let num_displays = getCookie("hide_donation_banner_temp");
+                setCookie("hide_donation_banner_temp", +num_displays + 1, 2);
+            }
         }
     });
 
