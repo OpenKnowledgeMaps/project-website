@@ -4,11 +4,11 @@
     <head>
         <base href="<?php echo $SITE_URL ?>">
         <?php
-        $default_labels = array(
+        $override_labels = array(
             "title" => "Make a donation - Open Knowledge Maps"
             , "app-name" => "Open Knowledge Maps"
-            , "description" => "Open Knowledge Maps is the world’s largest visual search engine for scientific knowledge. As a charitable non-profit, OKMaps depends on donations. With your help, we can not only keep Open Knowledge Maps online, but also support its further development!"
-            , "tweet-text" => "Open Knowledge Maps"
+            , "description" => "Support Open Knowledge Maps, the world’s largest visual search engine for scientific knowledge! As a charitable non-profit, OKMaps depends on donations. With your help, we can keep Open Knowledge Maps online and support its further development!"
+            , "tweet-text" => "Support Open Knowledge Maps, the world’s largest visual search engine for scientific knowledge! As a charitable non-profit, OKMaps depends on donations. With your help, we can keep Open Knowledge Maps online and support its further development!"
             , "url" => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"
             , "twitter-type" => "summary"
             , "twitter-image" => "https://openknowledgemaps.org/img/donation-banner.png"
