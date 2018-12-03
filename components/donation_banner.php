@@ -28,8 +28,8 @@ require_once 'head_detect_country.php';
                         users,
                     <?php endif ?>
                 </b><br>
-                We’ll get straight to the point: today, we ask you to help Open Knowledge Maps.
-                As a charitable non-profit, we depend on our community and on donations. 
+                Today, we ask you to help Open Knowledge Maps.
+                As a charitable non-profit, we depend on community support. This is why we have started our first donation campaign.
             </p>
 
             <p><b>If everyone reading this gave <span id="CURRENCY-donation">€3</span>, 
@@ -41,10 +41,10 @@ require_once 'head_detect_country.php';
                 but also develop it further.
             </p> 
 
-            <p>We hope that you’ll think about how useful it is to be able to discover scientific knowledge. 
-                Not only for select few, but everyone on 
-                the planet. <b>The price of a coffee is all it takes!</b>
-                <br><b><i class="fa fa-heart" aria-hidden="true"></i> Thank you.
+            <p>We hope that you'll consider  how useful it is to be able to discover scientific knowledge. 
+                Not only for a select few, but for everyone on the planet.  <b>The price of a coffee is all it takes!</b>
+            </p>
+            <p><i class="fa fa-heart" aria-hidden="true"></i> Thank you.
                 </b> - Peter, Maxi and Chris from the Open Knowledge Maps board.
             </p>
 
