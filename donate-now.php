@@ -3,10 +3,23 @@
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
         <base href="<?php echo $SITE_URL ?>">
-        <?php $title = "Make a donation - Open Knowledge Maps"; ?>
+        <?php
+        $default_labels = array(
+            "title" => "Make a donation - Open Knowledge Maps"
+            , "app-name" => "Open Knowledge Maps"
+            , "description" => "Open Knowledge Maps is the world’s largest visual search engine for scientific knowledge. As a charitable non-profit, OKMaps depends on donations. With your help, we can not only keep Open Knowledge Maps online, but also support its further development!"
+            , "tweet-text" => "Open Knowledge Maps"
+            , "url" => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"
+            , "twitter-type" => "summary"
+            , "twitter-image" => "https://openknowledgemaps.org/img/donation-banner.png"
+            , "fb-image" => "https://openknowledgemaps.org/img/newsletter/donation.png"
+        );
+        
+        ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
+        <?php include($COMPONENTS_PATH . 'head_detect_country.php') ?>
     </head>
 
     <body class="donation-page">
@@ -33,7 +46,7 @@
                 </div>
 
                 <div class="donation-image">
-                    <a  target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">
+                    <a  target="_blank" href="<?php echo $PAYPAL_URL ?>">
                         <img src="./img/donation-banner.png">
                     </a>
                 </div>
@@ -69,14 +82,14 @@
             </div>
 
             <p class="try-now" style="text-align: center; margin:30px 0 0;">
-                <a target="_blank" class="donate-now" style="" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">Donate now</a>
+                <a target="_blank" class="donate-now" style="" href="<?php echo $PAYPAL_URL ?>">Donate now</a>
                 <a target="_blank" href="http://eepurl.com/dOQynj" class="close" style="margin-top: 30px;font-size: 14px; float:none; display: block; margin-left:0px; text-decoration: underline;">Remind me later!</a>
             </p>
 
             <div class="additional-info">
                 <p>
                     <b>Payment:</b> Your donation will be securely processed 
-                    <a  class="underline" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">via Paypal</a>. You do not need a Paypal account to make a donation. 
+                    <a  class="underline" target="_blank" href="<?php echo $PAYPAL_URL ?>">via Paypal</a>. You do not need a Paypal account to make a donation. 
                     <br>You can also make a donation to our bank account directly: Account holder: Open Knowledge Maps, IBAN: AT96 2011 1829 6959 9500, BIC: GIBAATWWXXX
                 </p>
 
