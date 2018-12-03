@@ -7,7 +7,7 @@ require_once 'head_detect_country.php';
 
     <p class="try-now" style="text-align:center; margin:20px 0 0;">
         <a target="_blank" class="donate-now" href="donate-now">Make a donation</a>
-        <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="close" style="font-size: 12px; float:none; display: block; margin:20px 0 10px; text-decoration: underline;">Remind me later!</a>
+        <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="donation-banner-close close" style="font-size: 12px; float:none; display: block; margin:20px 0 10px; text-decoration: underline;">Remind me later!</a>
     </p>
 </div>
 
@@ -50,7 +50,7 @@ require_once 'head_detect_country.php';
 
             <p class="try-now" style="text-align:left; margin:20px 0 0;">
                 <a target="_blank" class="donate-now" href="<?php echo $PAYPAL_URL; ?>">Donate now</a>
-                <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="close" style="font-size: 14px; float:none; display: inline-block; margin-left:30px; text-decoration: underline;">Remind me later!</a>
+                <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="donation-banner-close close" style="font-size: 14px; float:none; display: inline-block; margin-left:30px; text-decoration: underline;">Remind me later!</a>
             </p>
         </div>
 
@@ -60,22 +60,17 @@ require_once 'head_detect_country.php';
 <script>
     $(".donation-menu-entry").css("visibility", "hidden");
     
-    $(document).on("click", function(event) {
-        if(event.target.classList.contains("donation-banner-close")) {
-            $(".donation-menu-entry").css("visibility", "visible");
+    $(".donation-banner-close").on("click", function(event) {
+        $(".donation-menu-entry").css("visibility", "visible");
+        
+        $(".mobile-donation-banner").remove();
+        $(".desktop-donation-banner").remove();
 
-            if (event.target.classList.contains("desktop-donation-banner-close")) {
-                $(".mobile-donation-banner").alert("close");
-            } else if (event.target.classList.contains("mobile-donation-banner-close")) {
-                $(".desktop-donation-banner").alert("close");
-            }
-
-            if (getCookie("hide_donation_banner_temp") === null) {
-                setCookie("hide_donation_banner_temp", 1, 2);
-            } else {
-                let num_displays = getCookie("hide_donation_banner_temp");
-                setCookie("hide_donation_banner_temp", +num_displays + 1, 2);
-            }
+        if (getCookie("hide_donation_banner_temp") === null) {
+            setCookie("hide_donation_banner_temp", 1, 2);
+        } else {
+            let num_displays = getCookie("hide_donation_banner_temp");
+            setCookie("hide_donation_banner_temp", +num_displays + 1, 2);
         }
     });
 
