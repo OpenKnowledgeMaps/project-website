@@ -11,11 +11,6 @@ require_once 'head_detect_country.php';
     </p>
 </div>
 
-
-<script>
-    $(".donation-menu-entry").css("visibility", "hidden");
-</script>
-
 <div class="alert alert-warning desktop-donation-banner" id="donation-banner">
     <div style="max-width:1200px; margin:0px auto 0;">
         <a href="#" class="close" data-dismiss="alert" style="color: black; font-size: 42px;">&times;</a>
@@ -63,6 +58,8 @@ require_once 'head_detect_country.php';
 </div>
 
 <script>
+    $(".donation-menu-entry").css("visibility", "hidden");
+    
     $('#donation-banner, .mobile-donation-banner').on('close.bs.alert', function (event) {
         $(".donation-menu-entry").css("visibility", "visible");
         
@@ -88,5 +85,7 @@ require_once 'head_detect_country.php';
     $("#remind-me-later").on("click", function () {
         setCookie("hide_donation_banner_temp", 3, 2);
     })
+    
+    search_term_focus = false;
 </script>
 
