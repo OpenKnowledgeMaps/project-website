@@ -1,3 +1,6 @@
+<script>
+    var search_term_focus = true;
+</script>
 <div class="topheader"></div>    
 <?php include ($COMPONENTS_PATH . "donation_banner.php"); ?>
 
@@ -221,7 +224,9 @@
                 
                 changeLibrary();
                 
-                $("#searchterm").focus();
+                if (search_term_focus) {
+                    $("#searchterm").focus();
+                }
             })
             
             $("#searchform").submit(function () {
