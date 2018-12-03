@@ -135,7 +135,11 @@ try {
     $CURRENCY_CODE = "EUR";
 }
 
-$PAYPAL_URL = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url&lc=en_" . $COUNTRY_CODE . "&currency_code=" . $CURRENCY_CODE;
+if($COUNTRY_CODE === "US") {
+    $PAYPAL_URL = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NKSVEPJEWL4LN&source=url&lc=en_" . $COUNTRY_CODE . "&currency_code=" . $CURRENCY_CODE;
+} else {
+    $PAYPAL_URL = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url&lc=en_" . $COUNTRY_CODE . "&currency_code=" . $CURRENCY_CODE;
+}
 
 $reader->close();
 ?>
