@@ -31,8 +31,10 @@
                 <p>859648888</p>
                 
                 <h3>Konto</h3>
-                <p>IBAN: AT96 2011 1829 6959 9500<br>
-                BIC: GIBAATWWXXX
+                <p>
+                    Kontoinhaber: Open Knowledge Maps<br>
+                    IBAN: AT96 2011 1829 6959 9500<br>
+                    BIC: GIBAATWWXXX
                 </p>
 
                 <h3>Email</h3>
@@ -100,8 +102,9 @@
                 <p>859648888</p>
                 
                 <h3>Bank account</h3>
-                <p>IBAN: AT96 2011 1829 6959 9500<br>
-                BIC: GIBAATWWXXX
+                <p>Account holder: Open Knowledge Maps<br>
+                    IBAN: AT96 2011 1829 6959 9500<br>
+                    BIC: GIBAATWWXXX
                 </p>
 
                 <h3>Email</h3>
