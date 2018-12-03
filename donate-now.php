@@ -68,12 +68,12 @@
                     </p>
 
                     <p>We hope that you'll consider how useful it is to be able to discover scientific knowledge. 
-                        Not only for a select few, but for everyone on the planet.  <b>The price of a coffee is all it takes!</b>
+                        Not only for a select few, but for everyone on the planet. <b>The price of a coffee is all it takes!</b>
                     </p>
 
                     <p>
                         <b><i class="fa fa-heart" aria-hidden="true"></i> Thank you.</b>
-                        <br>Peter, Maxi and Chris from the Open Knowledge Maps board.
+                        <br>Peter, Maxi and Chris from the Open Knowledge Maps board
                     </p>
                     
                     
