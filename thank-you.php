@@ -21,21 +21,26 @@
                 <div class="team">
                     <h2 style="color:#f29e00;">Thank you for your support!</h2>
                     <p>To stay up-to-date on our activities, you can also <a target="_blank" class="underline" href="http://eepurl.com/dvQeGP">sign up for our newsletter</a>.
-                        With your donation you are helping people from all around the world to discover scientific knowledge.
+                        If you want to receive a receipt for your donation, please send us an 
+                        e-mail with your name and address to <br>
+                        <a  class="underline" target="_blank" href="mailto:donations@openknowledgemaps.org">donations@openknowledgemaps.org</a>.
+                        
+                        
                     </p>
+                     <p style="margin-top: 20px;">
+                         With your donation you are helping people from all around 
+                the world to discover scientific knowledge.
+                         
+            </p>
                 </div>
             </div>
-
+            
+           
+            
             <div style="text-align: center;">
                 <img class="shadow" src="./img/thankyou-donation.jpg">
             </div>
-            
-            <p style="font-size: 16px; margin: 30px auto; text-align: center; max-width: 650px; padding: 0 20px;">
-                <b>Receipts:</b> If you want to receive a receipt for your donation, please send us an 
-                e-mail with your name and address to 
-                <a  class="underline" target="_blank" href="mailto:donations@openknowledgemaps.org">donations@openknowledgemaps.org</a>
-            </p>
-        </div>
 
+        </div>
 
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

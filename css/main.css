@@ -758,6 +758,7 @@ h2 {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
+    padding: 0 20px 20px;
 }
 
 h3 {
@@ -1986,6 +1987,10 @@ time {
 
 .sharebutton a {
     padding-right: 5px;
+}
+
+.sharebutton .orange-btn {
+    color:#f29e00;
 }
 
 /*COOKIEEESSSS*/

@@ -15,10 +15,10 @@
 
 
     <div class="info">
-        <h3 style="margin-bottom: 10px;">Make a donation</h3>
-        Help sustain OKMaps with a donation.
+        <h3 style="margin-bottom: 10px;">Help sustain OKMaps</h3>
+        
         <ul class="nav_bottom">
-            <li><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url" target="_blank"><span class="awesome">&#xf004;</span> Donate now</a></li>
+            <li><a href="donate-now"><span class="awesome">&#xf004;</span> Make a donation</a></li>
         </ul>
     </div>
 

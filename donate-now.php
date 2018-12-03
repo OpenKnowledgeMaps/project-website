@@ -63,6 +63,8 @@
                         <b><i class="fa fa-heart" aria-hidden="true"></i> Thank you.</b>
                         <br>Peter, Maxi and Chris from the Open Knowledge Maps board.
                     </p>
+                    
+                    
                 </div>
 
             </div>
@@ -76,7 +78,7 @@
                 <p>
                     <b>Payment:</b> Your donation will be securely processed 
                     <a  class="underline" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">via Paypal</a>. You do not need a Paypal account to make a donation. 
-                    <br>You can also make a donation to our bank account directly IBAN: AT96 2011 1829 6959 9500  BIC: GIBAATWWXXX
+                    <br>You can also make a donation to our bank account directly Account holder: Open Knowledge Maps IBAN: AT96 2011 1829 6959 9500  BIC: GIBAATWWXXX
                 </p>
 
                 <p>
@@ -88,5 +90,6 @@
 
         </div>
 
-        <?php include($COMPONENTS_PATH . 'donation-purposes.php') ?>
+        <?php include($COMPONENTS_PATH . 'donation-purposes.php'); ?>
+        <?php include($COMPONENTS_PATH . 'donation-pass-it-on.php'); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

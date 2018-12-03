@@ -97,10 +97,11 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <a style="text-decoration: none;" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url"><span id="question-Q" class="awesome">&#xf004;</span> Make a donation</a>
+                        <a style="text-decoration: none;" href="donate-now"><span id="question-Q" class="awesome">&#xf004;</span> Make a donation</a>
                     </p>
                     <p>
-                        We are a non-profit organization and depend on donations. Help sustain Open Knowledge Maps. <a class="underline" target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">Donate now!</a>
+                        We are a non-profit organization and depend on donations. Help sustain Open Knowledge Maps and 
+                        <a class="underline" href="donate-now">make a donation</a>.
                     </p>
                 </div>
 
