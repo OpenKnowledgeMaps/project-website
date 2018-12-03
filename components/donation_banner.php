@@ -45,7 +45,7 @@ require_once 'head_detect_country.php';
                 Not only for a select few, but for everyone on the planet.  <b>The price of a coffee is all it takes!</b>
             </p>
             <p><i class="fa fa-heart" aria-hidden="true"></i> Thank you.
-                </b> - Peter, Maxi and Chris from the Open Knowledge Maps board.
+                </b> - Peter, Maxi and Chris from the Open Knowledge Maps board
             </p>
 
             <p class="try-now" style="text-align:left; margin:20px 0 0;">
