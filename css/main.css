@@ -1025,6 +1025,27 @@ a .number:hover {
 }
 
 /*DONATION*/
+.thankyou-page .background2 .team {
+    padding: 50px 20px;
+}
+
+.donation-page .background2 .team { 
+    padding: 100px 100px 40px;
+}
+
+.thank-you-desktop {
+    text-align: center;
+    display: block;
+}
+
+.thank-you-mobile {
+    display: none;
+}
+
+.thankyou-page #about-page {
+    padding-bottom: 50px;
+}
+
 .mobile-donation-banner {
     display: none;
 }
@@ -2340,6 +2361,15 @@ time {
     .background2 .team {
         padding: 50px;
     }
+
+    .thankyou-page .background2 .team {
+        padding: 50px 20px;
+    }
+
+    .donation-page .background2 .team {
+        padding: 50px 20px 40px;
+    }
+
     .name {
         font-size: 16px;
     }
@@ -2630,10 +2660,22 @@ time {
     #divhow.supportus {
         padding: 50px 20px 20px;
     }
-
 }
 
 @media screen and (max-width: 535px) {
+
+    .thank-you-mobile {
+        text-align: center;
+        display: block;
+    }
+
+    .thank-you-desktop {
+        display: none;
+    }
+
+    .thankyou-page #about-page {
+        padding-bottom: 0px;
+    }
 
     .mobile-donation-banner {
         display: block;
@@ -2922,7 +2964,7 @@ time {
         padding: 0px 0px 20px;
     }
 
-    .background2 .team {
+    .background2 .team, .thankyou-page .background2 .team, .donation-page .background2 .team {
         padding: 20px;
     }
 
