@@ -566,7 +566,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .search-box {
-    padding: 190px 0px 100px;
+    padding: 110px 0px 100px;
 }
 
 .search-box .background2 .team p {
@@ -758,7 +758,7 @@ h2 {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
-    padding: 0 20px 20px;
+    padding: 0px 0px 20px;
 }
 
 h3 {
@@ -1052,7 +1052,7 @@ a .number:hover {
 
 .desktop-donation-banner2 {
     font-size: 18px; 
-    max-width:1200px; 
+    max-width:1100px; 
     margin:0px auto 0; 
     background-color: white; 
     padding: 2%;
@@ -1088,10 +1088,6 @@ a .number:hover {
     margin-right:30px;
 }
 
-.donation-page .donation-image, .donation-page .donation-text {
-    vertical-align:middle;
-}
-
 .donation-image a:hover {
     opacity: 0.1;
 }
@@ -1099,6 +1095,10 @@ a .number:hover {
 .donation-text {
     display:inline-block; 
     max-width:60%;
+}
+
+.donation-page .donation-text {
+    max-width: 67%;
 }
 
 .donation-button {
@@ -2643,11 +2643,11 @@ time {
         border: 2px solid #f29e00;
         max-width: 100%;
     }
-    
+
     .mobile-donation-banner.display {
         display: none;
     }
-    
+
     .desktop-donation-banner.display {
         display: none;
     }
@@ -2662,23 +2662,23 @@ time {
         display: none;
     }
 
-    .donation-text, .donation-image-mobile {
+    .donation-text, .donation-image-mobile, .donation-page .donation-text {
         display: block;
         max-width: 100%;
     }
-    
+
     .donation-image {
         display: none;
     }
-    
+
     .donation-text {
         margin-top: 20px;
     }
-    
+
     .desktop-donation-banner2 {
         padding:5%;
     }
-    
+
     .additional-info p {
         text-align: left;
     }
@@ -2696,7 +2696,7 @@ time {
     }
 
     .search-box {
-        padding: 100px 0px 50px;
+        padding: 50px 0px 50px;
     }
 
 

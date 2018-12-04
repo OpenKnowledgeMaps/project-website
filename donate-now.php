@@ -11,8 +11,8 @@
             , "tweet-text" => "Support Open Knowledge Maps, the world’s largest visual search engine for scientific knowledge! As a charitable non-profit, OKMaps depends on donations. With your help, we can keep Open Knowledge Maps online and support its further development!"
             , "url" => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"
             , "twitter-type" => "summary"
-            , "twitter-image" => "https://openknowledgemaps.org/img/donation-banner.png"
-            , "fb-image" => "https://openknowledgemaps.org/img/newsletter/donation.png"
+            , "twitter-image" => "https://openknowledgemaps.org/img/donation-twittercard.png"
+            , "fb-image" => "https://openknowledgemaps.org/img/newsletter/donation-fbcard.png"
         );
         
         ?>
@@ -40,7 +40,7 @@
             <div class="desktop-donation-banner2">
 
                 <div class="donation-image-mobile">
-                    <a  target="_blank" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=XVK3PKWWDWXHA&source=url">
+                    <a  target="_blank" href="<?php echo $PAYPAL_URL ?>">
                         <img src="./img/donation-banner-mobile.png">
                     </a>
                 </div>
