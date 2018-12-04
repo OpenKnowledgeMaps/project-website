@@ -12,7 +12,7 @@
             , "url" => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"
             , "twitter-type" => "summary"
             , "twitter-image" => "https://openknowledgemaps.org/img/donation-twittercard.png"
-            , "fb-image" => "https://openknowledgemaps.org/img/newsletter/donation-fbcard.png"
+            , "fb-image" => "https://openknowledgemaps.org/img/donation-fbcard.png"
         );
         
         ?>
