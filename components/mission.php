@@ -20,7 +20,7 @@
                 </p>
                 <h2>Revolutionize <br>discovery</h2>
                 <p>We are going to provide a large-scale system of open, interactive and interlinked knowledge maps
-                    for every research topic, every field and every discipline. <br><br><span style="font-weight: bold;">our roadmap</span></p>
+                    for every research topic, every field and every discipline. <br><br><span style="font-weight: bold;">check out our roadmap</span></p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
 
             </div>
