@@ -56,7 +56,7 @@
                     </p>
 
                     <p><b>If every user gave 
-                            <span id="currency-donation">€3</span>, 
+                            <span id="currency-donation"><?php echo (($CURRENCY_CODE === "USD")?("$"):("€")); ?>3</span>, 
                             we could run Open Knowledge Maps for a full year.</b>
                     </p>
 
