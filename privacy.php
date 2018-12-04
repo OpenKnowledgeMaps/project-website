@@ -21,7 +21,7 @@
 
 
                 <h2>Privacy Policy</h2>
-                <p><b>Last updated:</b> 20 October 2018
+                <p><b>Last updated:</b> 04 December 2018
 
                 <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example "personal data" or "third party" are defined in Art. 4 of the General Data Protection Regulation (GDPR):
                     <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a>
@@ -73,7 +73,7 @@
 
                 <p>Access logs are deleted after 30 days in case of regular access behaviour. Access data for debugging ("error logs") are deleted after 90 days, security-relevant access data ("security logs) are deleted after 180 days. Access data is only collected in an error log in case an error occurs. Access data is only collected in a security log in case when an improper use of our website is suspected.</p>
 
-                <h4>Additional personal information</h4>
+                <h3>Additional personal information</h3>
                 <p>Additional personal information are only stored if they are provided by you. This includes data like name, address, and e-mail address in the case you make a donation and require a receipt from us.</p>
                 <h3>Collection and storage of Personally Identifiable Information</h3>
                 <p>"Personally Identifiable Information" means any information that can be used to identify an individual, including, but not limited to, a first and last name, an email address or other contact information, whether at work or at home. </p>

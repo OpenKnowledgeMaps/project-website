@@ -20,7 +20,7 @@
                 </ul>
 
                 <h2>Datenschutzerklärung</h2>
-                <p><b>Stand:</b> 20.10.2018
+                <p><b>Stand:</b> 04.12.2018
                 <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben. Die hier verwendeten Begriffe, wie z.B. "Auftragsverarbeitung" oder "Verantwortlicher", sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert:
                     <a class="underline" target="_blank" href="http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj">http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj</a>
                 </p>
@@ -76,7 +76,7 @@
                 </p>
                 <p>Zugriffsdaten ("Access Logs") werden im Falle normalen Zugriffsverhaltens nach 30 Tagen gelöscht. Zugriffsdaten zum Zweck der Fehlerbeseitigung ("Error Logs") werden nach 90 Tagen gelöscht, sicherheitskritische Zugriffsdaten ("Security Logs") nach 180 Tagen. Zugriffsdaten zum Zweck der Fehlerbeseitigung werden nur angelegt, wenn ein Fehler auftritt. Sicherheitskritische Zugriffsdaten werden nur angelegt, wenn eine unsachgemäße Nutzung der Webseite vermutet wird.
                 </p>
-                <h4>Weitergehende personenbezogene Daten</h4>
+                <h3>Weitergehende personenbezogene Daten</h3>
                 <p>Weitergehende personenbezogene Daten wie Name, Adresse und E-Mail-Adresse werden nur erfasst, wenn Sie diese selbst angeben. Auf unserer Webseite können Sie diese Daten beispielsweise beim Anfordern einer Spendenbestätigung via E-Mail angeben.
                 </p>
                 <h3>Erhebung und Speicherung personenbezogener Daten
