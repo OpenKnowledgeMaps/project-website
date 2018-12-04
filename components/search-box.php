@@ -4,7 +4,7 @@
 <div class="topheader"></div>    
 <?php include ($COMPONENTS_PATH . "donation_banner.php"); ?>
 
-<div class="search-box" style="padding-top:110px;">
+<div class="search-box">
         <div class="background2">
             <div class="team">
                 <h2>Map a research topic <sup style="color:white;">beta</sup></h2>

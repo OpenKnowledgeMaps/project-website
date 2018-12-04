@@ -55,13 +55,6 @@
         </ul>
     </div>
 
-    <!--<div class="info">
-        <h3 style="margin-bottom: 10px;">License</h3>
-        
-    </div>-->
-
-<!--<p style="text-align:center; margin-top: 20px; font-size: 14px;">Open Knowledge Maps is a non-profit organization<br>dedicated to improving the visibility of scientific knowledge for science and society.</p>-->
-    <!--<a class="seitenanfang" style="color:white;" href="#top"><span class="awesome">&#xf106;</span> back to top</a>-->
 </footer>
 
 <script src="./js/menu.js"></script>
