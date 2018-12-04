@@ -107,12 +107,12 @@ function getLabel($tag) {
 <script>
 
 <?php if ($BROWSER_LANG === "de") { ?>
-        let cookie_message = '<strong>Wir haben unsere <a href="./datenschutz" target="_blank" class="underline">Datenschutzerklärung</a> aktualisiert</strong>, um die Einführung von Google Analytics und des Hypothes.is Annotations-Services zu berücksichtigen. Wir verwenden Cookies, um unsere Webseite für Sie möglichst benutzerfreundlich zu gestalten. Wenn Sie fortfahren, nehmen wir an, dass Sie mit der Verwendung von Cookies auf dieser Webseite einverstanden sind. Weitere Informationen entnehmen Sie bitte ';
+        let cookie_message = '<strong>Wir haben unsere <a href="./datenschutz" target="_blank" class="underline">Datenschutzerklärung</a> aktualisiert</strong>, um die Spendenabwicklung zu berücksichtigen. Wir verwenden Cookies, um unsere Webseite für Sie möglichst benutzerfreundlich zu gestalten. Wenn Sie fortfahren, nehmen wir an, dass Sie mit der Verwendung von Cookies auf dieser Webseite einverstanden sind. Weitere Informationen entnehmen Sie bitte ';
         let cookie_link = "unserer Datenschutzerklärung.";
         let cookie_button = "Alles klar!";
         let cookie_href = "https://openknowledgemaps.org/datenschutz";
 <?php } else { ?>
-        let cookie_message = '<strong>We have updated our <a href="./privacy" target="_blank" class="underline">privacy policy</a></strong> to reflect the introduction of Google Analytics and the Hypothes.is annotation service. We use cookies to improve your experience. By your continued use of this site you accept such use. For more information, please see ';
+        let cookie_message = '<strong>We have updated our <a href="./privacy" target="_blank" class="underline">privacy policy</a></strong> to include the processing of donations. We use cookies to improve your experience. By your continued use of this site you accept such use. For more information, please see ';
         let cookie_link = "our privacy policy.";
         let cookie_button = "Got it!";
         let cookie_href = "https://openknowledgemaps.org/privacy";
@@ -123,7 +123,7 @@ function getLabel($tag) {
         document.cookie = names[i] + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
       }
     }
-    clearCookies(["cookieconsent_status"]);
+    clearCookies(["cookieconsent_status", "priv-update-2018-10"]);
     var cookie_domain = "<?php echo $COOKIE_DOMAIN ?>";
     window.addEventListener("load", function () {
         window.cookieconsent.initialise({
@@ -146,7 +146,7 @@ function getLabel($tag) {
                 "href": cookie_href
             },
             "cookie": {
-              "name": "priv-update-2018-10",
+              "name": "priv-update-2018-12",
               "domain": cookie_domain
             }
         })
