@@ -20,7 +20,7 @@
             <div class="background2">
                 <div class="team">
                     <p style="text-align:center;"><img src="./img/donationthankyou2.gif"></p>
-                    <h2 style="color:#f29e00;">Thank you for your support!</h2>
+                    <h2 style="color:#E55137;">Thank you for your support!</h2>
                     <p>To stay up-to-date on our activities, you can also <a target="_blank" class="underline" href="http://eepurl.com/dvQeGP">sign up for our newsletter</a>.
                         If you want to receive a receipt for your donation, please send us an 
                         e-mail with your name and address to <br>
