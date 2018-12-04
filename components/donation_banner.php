@@ -60,7 +60,7 @@ require_once 'head_detect_country.php';
 <script>
     $(".donation-menu-entry").css("visibility", "hidden");
     
-    $(".donation-banner-close").on("click", function(event) {
+    $(".donation-banner-close").on("click", function() {
         $(".donation-menu-entry").css("visibility", "visible");
         
         $(".mobile-donation-banner").remove();
@@ -72,6 +72,8 @@ require_once 'head_detect_country.php';
             let num_displays = getCookie("hide_donation_banner_temp");
             setCookie("hide_donation_banner_temp", +num_displays + 1, 2);
         }
+        
+        recordAction("Donation", "close", "banner");
     });
 
     if (getCookie("hide_donation_banner_permanent") !== null || getCookie("hide_donation_banner_temp") >= 3) {
@@ -81,7 +83,17 @@ require_once 'head_detect_country.php';
 
     $("#remind-me-later").on("click", function () {
         setCookie("hide_donation_banner_temp", 3, 2);
-    })
+    });
+    
+    recordAction("Donation", "start", "banner");
+    
+    $(".donate-now, .donation-image").on("click", function(event) {
+        recordAction("Donation", "click-paypal", event.target.className);
+    });
+    
+    $("#remind-me-later").on("click", function(event) {
+        recordAction("Donation", "click-reminder", event.target.className);
+    });
     
     search_term_focus = false;
 </script>

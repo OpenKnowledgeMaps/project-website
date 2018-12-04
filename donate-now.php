@@ -83,7 +83,7 @@
 
             <p class="try-now" style="text-align: center; margin:30px 0 0;">
                 <a target="_blank" class="donate-now" style="" href="<?php echo $PAYPAL_URL ?>">Donate now</a>
-                <a target="_blank" href="http://eepurl.com/dOQynj" class="close" style="margin-top: 30px;font-size: 14px; float:none; display: block; margin-left:0px; text-decoration: underline;">Remind me later!</a>
+                <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="close" style="margin-top: 30px;font-size: 14px; float:none; display: block; margin-left:0px; text-decoration: underline;">Remind me later!</a>
             </p>
 
             <div class="additional-info">
@@ -104,4 +104,20 @@
 
         <?php include($COMPONENTS_PATH . 'donation-purposes.php'); ?>
         <?php include($COMPONENTS_PATH . 'donation-pass-it-on.php'); ?>
+        
+        <script>
+            $("donation-image-mobile, .donation-image, .donate-now").on("click", function(event) {
+                recordAction("Donation", "click-paypal", event.target.className);
+            });
+
+            $("#remind-me-later").on("click", function(event) {
+                recordAction("Donation", "click-reminder", event.target.className);
+            });
+            
+            $(".share-button").on("click", function(event) {
+                recordAction("Donation", "click-share", event.target.className);
+            });
+    
+        </script>
+        
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

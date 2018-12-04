@@ -162,6 +162,23 @@ function getLabel($tag) {
         d.setTime(d.getTime() + 24*60*60*1000*days);
         document.cookie = name + "=" + value + ";path=/;expires=" + d.toGMTString();
     }
+    
+    function recordAction(category, action, id) {
+        //matomo
+        if(typeof _paq !== "undefined") {
+            _paq.push(['trackEvent', category, action, id]);
+        }
+        //gtag.js
+        if(typeof gtag === "function") {
+            gtag('event', action, {
+              'event_category': category,
+              'event_label': id
+            });
+        //analytics.js
+        } else if (typeof ga === "function") {
+          ga('send', 'event', category, action, id);
+        }  
+    }
 </script>
 
 <link rel="stylesheet" href="./lib/font-awesome.min.css" >
