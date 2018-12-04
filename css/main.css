@@ -290,7 +290,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: white;
 }
 
-#home #partnerdiv, .about-page #partnerdiv {
+#home #partnerdiv, .about-page #partnerdiv, .vis #partnerdiv {
     background-color: #eff3f4;
 }
 
