@@ -83,8 +83,8 @@
                 </script>
                 <?php endif; ?>
             <?php
-                include ($COMPONENTS_PATH . "donation_banner.php");
-                //include ($COMPONENTS_PATH . "vis_beta_banner.php"); 
+                //include ($COMPONENTS_PATH . "donation_banner.php");
+                include ($COMPONENTS_PATH . "vis_beta_banner.php"); 
                 
             ?>
        <?php endif; ?>
@@ -159,9 +159,10 @@
 
 
         <?php
+        include($COMPONENTS_PATH . 'supportus.php');
         //include($COMPONENTS_PATH . 'donation-section.php');
         //include($COMPONENTS_PATH . 'newsletter.php');
-        include($COMPONENTS_PATH . 'footer.php');
+        include($COMPONENTS_PATH . 'footer_base.php');
         ?>
 
         <?php endif ?>  
