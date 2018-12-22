@@ -2,7 +2,7 @@
     var search_term_focus = true;
 </script>
 <div class="topheader"></div>    
-<?php include ($COMPONENTS_PATH . "donation_banner.php"); ?>
+<?php //include ($COMPONENTS_PATH . "donation_banner.php"); ?>
 
 <div class="search-box">
         <div class="background2">

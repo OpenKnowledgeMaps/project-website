@@ -1,4 +1,4 @@
-<div class="builtwith">This is the beta version of Open Knowledge Maps. Created on <?php echo (new DateTime($context->timestamp))->format('j M Y \a\t H:i') ?> 
+<div class="builtwith"><!--This is the beta version of Open Knowledge Maps. -->Created on <?php echo (new DateTime($context->timestamp))->format('j M Y \a\t H:i') ?> 
     with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?> 
 </div>
 <div class="cite-map">
