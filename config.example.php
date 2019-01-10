@@ -2,7 +2,7 @@
 
 
 $SITE_URL = "//localhost/project-website/";
-$HEADSTART_URL = $SITE_URL . "search/";
+$HEADSTART_URL = $SITE_URL . "headstart/";
 $COMPONENTS_PATH = "components/";
 $LIB_PATH = "lib/";
 $SNAPSHOT_PATH = $HEADSTART_URL . "server/storage/";
