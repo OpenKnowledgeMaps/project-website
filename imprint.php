@@ -30,10 +30,10 @@
                 <h3>ZVR</h3>
                 <p>859648888</p>
                 
-                <h3>Konto</h3>
+                <h3>Spendenkonto</h3>
                 <p>
                     Kontoinhaber: Open Knowledge Maps<br>
-                    IBAN: AT96 2011 1829 6959 9500<br>
+                    IBAN: AT96 2011 1829 6959 9501<br>
                     BIC: GIBAATWWXXX
                 </p>
 
@@ -101,7 +101,7 @@
                 <h3>Registration number (ZVR)</h3>
                 <p>859648888</p>
                 
-                <h3>Bank account</h3>
+                <h3>Donation account</h3>
                 <p>Account holder: Open Knowledge Maps<br>
                     IBAN: AT96 2011 1829 6959 9500<br>
                     BIC: GIBAATWWXXX
