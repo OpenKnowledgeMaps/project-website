@@ -103,7 +103,7 @@
                 
                 <h3>Donation account</h3>
                 <p>Account holder: Open Knowledge Maps<br>
-                    IBAN: AT96 2011 1829 6959 9500<br>
+                    IBAN: AT96 2011 1829 6959 9501<br>
                     BIC: GIBAATWWXXX
                 </p>
 
