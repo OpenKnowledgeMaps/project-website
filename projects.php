@@ -16,10 +16,11 @@
         <div id="team">
             <div class="background2 bg2">
                 <div class="team">
-                    <p>Projects</p>
-                    <p>Open Knowledge Maps is a charitable non-profit.
-                        At OKMaps our aim is to improve the visibility of scientific knowledge, that’s why we partner with organizations that 
-                        share our goals to develop innovative projects. <a class="underline" href="./getintouch">Get in touch</a>.</p>
+                    <h2 style="color: #2d3e52;">Projects</h2>
+                    <p>At Open Knowledge Maps, our aim is to improve the visibility of scientific knowledge. 
+                        That’s why we partner with organizations that share our goals to develop innovative projects.
+                        <br><br>Check out our present and past projects below and learn more about how we can work together.
+                        <!--<a class="underline" href="./getintouch">Get in touch</a>.</p>-->
                 </div>
             </div>
         </div>
