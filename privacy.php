@@ -21,7 +21,7 @@
 
 
                 <h2>Privacy Policy</h2>
-                <p><b>Last updated:</b> 20 October 2018
+                <p><b>Last updated:</b> 04 December 2018
 
                 <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example "personal data" or "third party" are defined in Art. 4 of the General Data Protection Regulation (GDPR):
                     <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a>
@@ -72,6 +72,9 @@
                 <p>The processing of this information is based on our legitimate interest in the purposes for data collection mentioned above. We are not using this data to identify you personally. The recipient of the data is only the responsible office. The information is used for example to fix errors, to detect hacker attacks or for legitimate investigations of government bodies.</p>
 
                 <p>Access logs are deleted after 30 days in case of regular access behaviour. Access data for debugging ("error logs") are deleted after 90 days, security-relevant access data ("security logs) are deleted after 180 days. Access data is only collected in an error log in case an error occurs. Access data is only collected in a security log in case when an improper use of our website is suspected.</p>
+
+                <h3>Additional personal information</h3>
+                <p>Additional personal information are only stored if they are provided by you. This includes data like name, address, and e-mail address in the case you make a donation and require a receipt from us.</p>
                 <h3>Collection and storage of Personally Identifiable Information</h3>
                 <p>"Personally Identifiable Information" means any information that can be used to identify an individual, including, but not limited to, a first and last name, an email address or other contact information, whether at work or at home. </p>
 
@@ -85,6 +88,9 @@
                     We als use some web services provided by Twitter. For more information please see "Social Plugins" further down.
                     In addition, we use the GDPR-compliant service MailChimp, a marketing automation service provided by The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). For more information please see "Newsletter" further down.
                     We use the GDPR-compliant service Hypothes.is, a web annotation service provided by HYPOTHES IS PROJECT ( 2261 Market Street 632, San Francisco, CA, 94114 United States of America ). For more information please see “Social Plugins” further down.
+                </p>
+                <p>The processing of donations is handled by PayPal, a payments processor of PayPal Inc. (which is a parent company of PayPal (Europe) S.à r.l. et Cie, S.C.A.) located in California, USA. For more information about the data collected please see
+                  <a class="underline" target="_blank" href="https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE">https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE</a>.
                 </p>
                 <p>Apart from the aformentioned data processors, we do not transfer your data to any other third parties.</p>
 

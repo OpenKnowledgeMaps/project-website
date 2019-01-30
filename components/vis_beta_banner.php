@@ -1,15 +1,4 @@
-<?php
-    require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
-    $detect = new Mobile_Detect;
-    if ($detect->isMobile()):
-    ?>
-
-    <script>
-        //Enable overflow on mobile so you can pinch and zoom
-        $(document).ready(function () {
-            $(".overflow-vis").css("overflow-y", "visible");
-        })
-    </script>
+<?php if ($detect->isMobile()): ?>
 
     <div class="alert alert-warning" id="desktop-warning">
 

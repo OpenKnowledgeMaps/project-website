@@ -15,7 +15,7 @@
         <div id="team">
             <div class="background2 bg2">
                 <div class="team">
-                    <p>Our Team</p>
+                    <h2 style="color: #2d3e52;">Our Team</h2>
                     <p>We are a charitable non-profit organization run by a dedicated core team.</p>
                 </div>
             </div>
@@ -142,19 +142,6 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/jaels.png" alt="Yael">
-                        <ul>
-                            <li class="name">Yael Stein</li>
-                            <li class="job-title">Frontend Developer</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:jaels@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="https://github.com/jaels"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="member">
                         <img src="./img/team/thomas.png" alt="Thomas">
                         <ul>
                             <li class="name">Thomas Arrow</li>
@@ -179,8 +166,10 @@
                         </ul>
                     </div>
 
-                    <!-- list of former members -->
-                    <div class="alumni"><h3>Former team members include:</h3>
+                    
+                    <!-- list of contributors -->
+                    <div class="alumni"><h3>Contributers:</h3>
+                        <a target="_blank" class="underline" href="https://github.com/jaels">Yael Stein</a>,
                         <a target="_blank" class="underline" href="http://www.michaelskaug.com/">Mike Skaug</a>, 
                         <a target="_blank" class="underline" href="http://nthmost.com/">Naomi Most</a>, 
                         <a target="_blank" class="underline" href="http://www.madgik.di.uoa.gr/content/omiros">Omiros Metaxas</a>
@@ -192,7 +181,7 @@
 
             <div class="background2 bg1">
                 <div class="team" id="advisory-board">
-                    <p>Our Advisors</p>
+                    <h2 style="color: #2d3e52;">Our Advisors</h2>
                     <p>are guiding the development of Open Knowledge Maps</p>
                 </div>
 

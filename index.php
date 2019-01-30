@@ -25,28 +25,24 @@
         }
         ?>
 
-        <?php include($COMPONENTS_PATH . 'viper_circle.php') ?>
         <a name="top"></a>
         <a style="padding-top:160px;" name="search"></a>
-                     <?php include($COMPONENTS_PATH . 'search-box.php') ?>
+        <?php include($COMPONENTS_PATH . 'search-box.php') ?>
 
-        <?php include($COMPONENTS_PATH . 'viper.php') ?>
+        
         <span class="anchor" id="okmmission"></span>
 
         <?php include($COMPONENTS_PATH . 'mission.php') ?>
         <?php include($COMPONENTS_PATH . 'featuredin.php') ?>
 
         <span class="anchor" id="feedback"></span>
-
+        
+        <!-- this stream is STATIC -->
         <?php
-        $TIMELINE_ID = "733358003295035393";
-        $FEEBDACK_TITLE = "What our users say";
-        include($COMPONENTS_PATH . 'twitterstream.php')
+        $COMMENT_TITLE = "What our users say";
+        $COMMENT_IMAGES_URL = "./img/comments/";
+        include($COMPONENTS_PATH . 'commentstream.php');
         ?>
 
-        
-
-        <?php include($COMPONENTS_PATH . 'supportus.php') ?>
         <?php include($COMPONENTS_PATH . 'newsletter.php') ?>
-
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

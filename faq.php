@@ -15,10 +15,10 @@
 
 
         <div id="news">  
-            <div class="headerimage"><img src="./img/faqx2.png"></div>
+            <div class="headerimage"><img src="./img/faq-mobil.png"></div>
             <div class="background2">
                 <div class="team">
-                    <p>FAQ</p>
+                    <h2>FAQ</h2>
                     <p>Answers to the most frequently asked questions about Open Knowledge Maps.</p>
                 </div>
             </div>
@@ -91,7 +91,7 @@
                         <span id="question-Q">Q5</span> What does the placement of the bubbles and the papers mean?
                     </p>
                     <p>In general, the placement of bubbles can be interpreted as follows:
-                    <ul>
+                    <ul class="faq-bullet-list">
                         <li>Closeness of bubbles implies subject similarity. The closer two bubbles, the closer they are subject-wise. 
                             The overlap of two bubbles implies strong subject similarity, but it does not mean that the two bubbles share common papers.
                             Papers are always assigned to a single bubble only.</li>
@@ -137,7 +137,7 @@
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
                         <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a>, which is able to create knowledge maps from a wide variety of data, including text, metadata and references. 
-                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started, or contact us on <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> for a joint project.
+                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started, or contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> for a joint project.
                     </p>
                 </div>
 
@@ -149,7 +149,9 @@
                         We are a charitable non-profit organization run by a group of dedicated volunteers. 
                         Currently, we are looking for funding for <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
                         If you are interested in funding this effort, please contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
-
+                    </p>
+                    
+                    <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
 
@@ -164,8 +166,9 @@
                         We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
                         let us know via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. 
-
-
+                    </p>
+                    
+                    <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
                 
