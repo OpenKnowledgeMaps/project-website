@@ -69,7 +69,24 @@
 
         <div class="topheader"></div>
 
-            <?php include ($COMPONENTS_PATH . "vis_beta_banner.php"); ?>
+            <?php 
+                require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
+                $detect = new Mobile_Detect;
+                if ($detect->isMobile()):
+                ?>
+
+                <script>
+                    //Enable overflow on mobile so you can pinch and zoom
+                    $(document).ready(function () {
+                        $(".overflow-vis").css("overflow-y", "visible");
+                    })
+                </script>
+                <?php endif; ?>
+            <?php
+                //include ($COMPONENTS_PATH . "donation_banner.php");
+                include ($COMPONENTS_PATH . "vis_beta_banner.php"); 
+                
+            ?>
        <?php endif; ?>
             <div class="overflow-vis">
  
@@ -143,8 +160,9 @@
 
         <?php
         include($COMPONENTS_PATH . 'supportus.php');
+        //include($COMPONENTS_PATH . 'donation-section.php');
         //include($COMPONENTS_PATH . 'newsletter.php');
-        include($COMPONENTS_PATH . 'footer.php');
+        include($COMPONENTS_PATH . 'footer_base.php');
         ?>
 
         <?php endif ?>  

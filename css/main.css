@@ -285,7 +285,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     text-decoration: none;
 }
 
-.static-button:hover {
+.static-button:hover, .static-button:active, .static-button:focus {
     border-radius: 5px;
     -moz-border-radius: 5px;
     padding:5px;
@@ -342,7 +342,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: white;
 }
 
-#home #partnerdiv, .about-page #partnerdiv {
+#home #partnerdiv, .about-page #partnerdiv, .vis #partnerdiv {
     background-color: #eff3f4;
 }
 
@@ -536,7 +536,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .search-box {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
-        url(../img/start-pagenNEU2017-6-viper-alternative.png);
+        url(../img/neuercomputer-nov2018-2.png);
     background-color: #51c9ae;
     background-repeat: no-repeat; 
     background-position: 100% 100%;
@@ -625,14 +625,14 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .search-box {
-    padding: 190px 0px 100px;
+    padding: 110px 0px 100px;
 }
 
 .search-box .background2 .team p {
     color: #2D3E52;
 }
 
-.search-box .background2 .team p:last-child {
+.search-box .background2 .team p {
     margin: 0px auto 40px;
 }
 
@@ -650,9 +650,13 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     padding: 0px;
 }
 
-.search-box .background2 .team p:first-child, .search-box .background2 .team p:last-child {
+.search-box .background2 .team h2, .search-box .background2 .team p {
     color: white;
     text-align: center;
+}
+
+.team h2 {
+    text-transform: none;
 }
 
 .background-lamp .mittig {
@@ -813,6 +817,7 @@ h2 {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
+    padding: 0px 0px 20px;
 }
 
 h3 {
@@ -1080,6 +1085,154 @@ a .number:hover {
     font-size:12px;
 }
 
+/*DONATION*/
+.thankyou-page .background2 .team {
+    padding: 50px 20px;
+}
+
+.donation-page .background2 .team { 
+    padding: 100px 100px 40px;
+}
+
+.thank-you-desktop {
+    text-align: center;
+    display: block;
+}
+
+.thank-you-mobile {
+    display: none;
+}
+
+.thankyou-page #about-page {
+    padding-bottom: 50px;
+}
+
+.mobile-donation-banner {
+    display: none;
+}
+
+.mobile-donation-banner.display {
+    display: none;
+}
+
+.desktop-donation-banner.display {
+    display: none;
+}
+
+.desktop-donation-banner {
+    display: block;
+    font-size: 18px; 
+    max-width:1600px; 
+    margin:0px auto 0; 
+    background-color: white; 
+    padding: 1%;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.desktop-donation-banner2 {
+    font-size: 18px; 
+    max-width:1100px; 
+    margin:0px auto 0; 
+    background-color: white; 
+    padding: 2%;
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+.shadow {
+    -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+
+#donation-banner {
+    margin-bottom: 0px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    background-color: white;
+    border: 2px solid #f29e00;
+    color: black;
+}
+
+#donation-banner p {
+    max-width: 900px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.donation-image {
+    background-image: url(../img/donate-now-bg.png);
+    display:inline-block; 
+    max-width:25%; 
+    vertical-align:top; 
+    margin-right:30px;
+}
+
+.donation-image a:hover {
+    opacity: 0.1;
+}
+
+.donation-text {
+    display:inline-block; 
+    max-width:60%;
+}
+
+.donation-page .donation-text {
+    max-width: 67%;
+}
+
+.donation-button {
+    border: 2px solid #f29e00;
+    color:white; 
+    background-color: #f29e00;
+    padding:5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-weight:300;
+}
+
+a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
+    border: 2px solid #f29e00; 
+    color:#f29e00; 
+    background-color: white;
+    font-weight:300;
+    text-decoration: none;
+}
+
+.donate-now {
+    /*text-transform: uppercase;*/
+    text-align: center; 
+    max-width: 300px;
+    width:100%;
+    display: inline-block; 
+    border: 2px solid #f29e00;
+    background-color: #f29e00;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.donate-now:hover, .donate-now:active, .donate-now:focus {
+    color:#f29e00;
+    background-color: white;
+}
+
+.donation-image-mobile {
+    display: none;
+}
+
+.additional-info {
+    padding: 0 5%;
+    margin-top: 30px;
+}
+
+.additional-info p {
+    text-align: center;
+}
+
 /*ABOUT*/
 #about-page, #news {
     background-color: white;
@@ -1192,7 +1345,7 @@ a .number:hover {
     color: #e55137;
 }
 
-.faq li {
+.faq-bullet-list li {
     list-style: disc;
     margin-left: 20px;
     margin-bottom: 10px;
@@ -1216,7 +1369,7 @@ a .number:hover {
     color:white;
 }
 
-.background2 .team p:first-child {
+.background2 .team h2 {
     max-width:600px;
     font-weight: 800;
     margin: 0px auto;
@@ -1224,7 +1377,7 @@ a .number:hover {
     text-align: center; 
 }
 
-.background2 .team p:last-child {
+.background2 .team p {
     text-align: center;
     font-size: 24px;
     max-width: 750px;
@@ -1248,11 +1401,11 @@ a .number:hover {
 }
 
 .getintouchpage .background2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/getintouch2.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/getintouch-hg.png);
     background-size:100%;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-color: #ea9940;
-    background-position: 100% 10%;
+    background-position: 100% 40%;
     margin-bottom: 50px;
 }
 
@@ -1265,11 +1418,11 @@ a .number:hover {
 }
 
 .faqx .background2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/faqx.png);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)), url(../img/faq-hg.png);
     background-size:100%;
     background-repeat: repeat;
     background-color: #5598cc;
-    background-position: 100% 70%;
+    background-position: 100% 80%;
     margin-bottom: 50px;
 }
 
@@ -1654,28 +1807,20 @@ sup {
     background: transparent;
     margin-top: 20px;
 }
-.carousel .item img,
 .carousel-inner {
     margin: 0 auto; /* Align slide image horizontally center */
-    max-width: 500px;
-    height: 250px;
+    max-width: 650px;
+    text-align: center;
 }
+
+.carousel-inner img {
+    width: 100%;
+}
+
 .bs-example {
     padding: 100px 0px;
     max-width:1600px;
     background: #51c9ae; /*#4bb2b3;*/
-}
-.bs-example img {
-    width: 580px;
-}
-
-.carousel .carousel-inner.static .item img {
-    height: auto;
-    width: 100%;
-}
-
-.carousel-inner.static .bs-example img {
-    width: auto;
 }
 
 .item {
@@ -1696,16 +1841,7 @@ sup {
 
 .carousel-control.left, .carousel-control.right {
     background:none;
-    height: 220px;
 }
-
-/*.glyphicon-chevron-right::before {
-    content: url(../img/right.png);
-}
-
-.glyphicon-chevron-left::before {
-    content: url(../img/left.png);
-}*/
 
 .glyphicon-chevron-right::before, .glyphicon-chevron-left::before {
     font-size: 60px;
@@ -1938,6 +2074,10 @@ time {
 
 .sharebutton a {
     padding-right: 5px;
+}
+
+.sharebutton .orange-btn {
+    color:#f29e00;
 }
 
 /*COOKIEEESSSS*/
@@ -2204,7 +2344,7 @@ time {
     }
 
     .topheader {
-        padding-top:75px;
+        padding-top:77px;
     }
 
     .description li:last-child {
@@ -2270,11 +2410,11 @@ time {
         min-height: 340px;
     }
 
-    .background2 .team p:first-child {
+    .background2 .team h2 {
         font-size: 36px;
     }
 
-    .background2 .team p:last-child {
+    .background2 .team p {
         font-size: 18px;
     }
 
@@ -2289,6 +2429,15 @@ time {
     .background2 .team {
         padding: 50px;
     }
+
+    .thankyou-page .background2 .team {
+        padding: 50px 20px;
+    }
+
+    .donation-page .background2 .team {
+        padding: 50px 20px 40px;
+    }
+
     .name {
         font-size: 16px;
     }
@@ -2579,10 +2728,68 @@ time {
     #divhow.supportus {
         padding: 50px 20px 20px;
     }
-
 }
 
 @media screen and (max-width: 535px) {
+
+    .thank-you-mobile {
+        text-align: center;
+        display: block;
+    }
+
+    .thank-you-desktop {
+        display: none;
+    }
+
+    .thankyou-page #about-page {
+        padding-bottom: 0px;
+    }
+
+    .mobile-donation-banner {
+        display: block;
+        padding: 10px;
+        border: 2px solid #f29e00;
+        max-width: 100%;
+    }
+
+    .mobile-donation-banner.display {
+        display: none;
+    }
+
+    .desktop-donation-banner.display {
+        display: none;
+    }
+
+    .donate-now {
+        font-size: 18px;
+        width: 80%;
+        /*max-width: 200px;*/
+    }
+
+    .desktop-donation-banner {
+        display: none;
+    }
+
+    .donation-text, .donation-image-mobile, .donation-page .donation-text {
+        display: block;
+        max-width: 100%;
+    }
+
+    .donation-image {
+        display: none;
+    }
+
+    .donation-text {
+        margin-top: 20px;
+    }
+
+    .desktop-donation-banner2 {
+        padding:5%;
+    }
+
+    .additional-info p {
+        text-align: left;
+    }
 
     .supportus {
         background-position: 100% 3%;
@@ -2593,11 +2800,11 @@ time {
     }
 
     .topheader {
-        padding-top: 50px;
+        padding-top: 53px;
     }
 
     .search-box {
-        padding: 100px 0px 50px;
+        padding: 50px 0px 50px;
     }
 
 
@@ -2703,10 +2910,10 @@ time {
         font-size: 10px;
     }
 
-    .background2 .team p:first-child {
+    .background2 .team h2 {
         font-size: 20px;
     }
-    .background2 .team p:last-child {
+    .background2 .team p {
         font-size: 16px;
     }
 
@@ -2825,7 +3032,7 @@ time {
         padding: 0px 0px 20px;
     }
 
-    .background2 .team {
+    .background2 .team, .thankyou-page .background2 .team, .donation-page .background2 .team {
         padding: 20px;
     }
 
@@ -2871,14 +3078,6 @@ time {
         padding-bottom: 70px;
     }
 
-    .carousel-inner {
-        height: 210px;
-    }
-
-    .community-page .carousel-inner, #home .carousel-inner {
-        height: 160px;
-    }
-
     .description-headstart {
         width: 70%;
         border: 0px solid #2d3e52;
@@ -2919,6 +3118,10 @@ time {
     .headerimage {
         display: block;
         width:100%;
+    }
+
+    .team h2 {
+        color: #2D3E52;
     }
 
     .getintouchpage #news .background2 p, .faqx #news .background2 p, .community-page .background2 p,  .community-page .background2 a {

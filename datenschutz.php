@@ -20,7 +20,7 @@
                 </ul>
 
                 <h2>Datenschutzerklärung</h2>
-                <p><b>Stand:</b> 20.10.2018
+                <p><b>Stand:</b> 04.12.2018
                 <p>Diese Datenschutzerklärung erläutert, welche Daten wir erheben, wozu wir diese nutzen und welche Rechte Sie diesbezüglich haben. Die hier verwendeten Begriffe, wie z.B. "Auftragsverarbeitung" oder "Verantwortlicher", sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert:
                     <a class="underline" target="_blank" href="http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj">http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj</a>
                 </p>
@@ -76,6 +76,9 @@
                 </p>
                 <p>Zugriffsdaten ("Access Logs") werden im Falle normalen Zugriffsverhaltens nach 30 Tagen gelöscht. Zugriffsdaten zum Zweck der Fehlerbeseitigung ("Error Logs") werden nach 90 Tagen gelöscht, sicherheitskritische Zugriffsdaten ("Security Logs") nach 180 Tagen. Zugriffsdaten zum Zweck der Fehlerbeseitigung werden nur angelegt, wenn ein Fehler auftritt. Sicherheitskritische Zugriffsdaten werden nur angelegt, wenn eine unsachgemäße Nutzung der Webseite vermutet wird.
                 </p>
+                <h3>Weitergehende personenbezogene Daten</h3>
+                <p>Weitergehende personenbezogene Daten wie Name, Adresse und E-Mail-Adresse werden nur erfasst, wenn Sie diese selbst angeben. Auf unserer Webseite können Sie diese Daten beispielsweise beim Anfordern einer Spendenbestätigung via E-Mail angeben.
+                </p>
                 <h3>Erhebung und Speicherung personenbezogener Daten
                 </h3>
                 <p>Bei personenbezogenen Daten handelt es sich um Informationen, über welche Sie als Person identifiziert werden können. Wir erfassen im Rahmen dieser Webseite nur wenige personenbezogene Daten. Dazu gehört das Speichern von Zugriffsdaten (siehe hierzu Punkt "Automatische Datenspeicherung") und das Speichern von Daten wenn Sie mit uns Kontakt per E-Mail aufnehmen (siehe hierzu Punkt "Kontaktaufnahme per E-Mail").
@@ -94,6 +97,9 @@
                     Wir nutzen außerdem die Dienste der Firma Twitter. Mehr Informationen hierzu finden Sie unter dem Punkt "Social Plugins".
                     Außerdem verwenden wir den DSGVO-konformen Service MailChimp. Mailchimp ist ein automatisierter Marketing-Service der Firma The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). Mehr Informationen dazu finden Sie unter dem Punkt "Newsletter".
                     Wir verwenden den GDPR-konformen Service hypothesis.is, einen Web-Annotationsservice der vom HYPOTHES.IS PROJECT (2261 Market Street 632, San Francisco, CA, 94114 Vereinigte Staaten von Amerika) bereitgestellt wird. Für weitere Informationen siehe "Social Plugins" weiter unten.
+                </p>
+                <p>Zur Verarbeitung von Spenden nutzen wir PayPal, einen Zahlungsabwicklungsservice von PayPal Inc. (dem Mutterkonzern von PayPal (Europe) S.à r.l. et Cie, S.C.A.), verortet in Kalifornien, USA. Mehr Informationen zu den von PayPal verarbeiteten Daten und PayPal's Datenschutzgrundsätzen finden sie hier
+                  <a class="underline" target="_blank" href="https://www.paypal.com/at/webapps/mpp/ua/privacy-full?locale.x=de_AT">https://www.paypal.com/at/webapps/mpp/ua/privacy-full?locale.x=de_AT</a>.
                 </p>
                 <p>Eine darüber hinausgehende Weitergabe von Daten durch uns an Dritte findet nicht statt.</p>
 

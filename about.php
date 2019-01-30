@@ -16,7 +16,7 @@
         <div id="about-page">
             <div class="background2">
                 <div class="team">
-                    <p>Our Goal</p>
+                    <h2 style="color: #2d3e52;">Our Goal</h2>
                     <p>is to revolutionize discovery of scientific knowledge. 
                         We are building a visual interface that dramatically increases the visibility of 
                         research findings for science and society alike. We are a non-profit organization and we believe that a better way to 
@@ -27,11 +27,14 @@
 
         <?php include($COMPONENTS_PATH . "benefits.php") ?>
         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
+        
+       <!-- this stream is STATIC -->
         <?php
-        $TIMELINE_ID = "733358003295035393";
-        $FEEBDACK_TITLE = "What our users say";
-        include($COMPONENTS_PATH . 'twitterstream.php');
+        $COMMENT_TITLE = "What our users say";
+        $COMMENT_IMAGES_URL = "./img/comments/";
+        include($COMPONENTS_PATH . 'commentstream.php');
         ?>
+       
         <?php include($COMPONENTS_PATH . "moreinfo.php") ?>
         <?php include($COMPONENTS_PATH . "newsletter.php") ?>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

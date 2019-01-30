@@ -29,6 +29,13 @@
 
                 <h3>ZVR</h3>
                 <p>859648888</p>
+                
+                <h3>Spendenkonto</h3>
+                <p>
+                    Kontoinhaber: Open Knowledge Maps<br>
+                    IBAN: AT96 2011 1829 6959 9501<br>
+                    BIC: GIBAATWWXXX
+                </p>
 
                 <h3>Email</h3>
                 <p>info@openknowledgemaps.org</p>
@@ -93,6 +100,12 @@
 
                 <h3>Registration number (ZVR)</h3>
                 <p>859648888</p>
+                
+                <h3>Donation account</h3>
+                <p>Account holder: Open Knowledge Maps<br>
+                    IBAN: AT96 2011 1829 6959 9501<br>
+                    BIC: GIBAATWWXXX
+                </p>
 
                 <h3>Email</h3>
                 <p>info@openknowledgemaps.org</p>
