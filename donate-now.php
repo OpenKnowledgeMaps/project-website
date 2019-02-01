@@ -103,7 +103,7 @@
         </div>
 
         <?php include($COMPONENTS_PATH . 'donation-purposes.php'); ?>
-        <?php include($COMPONENTS_PATH . 'donation-pass-it-on.php'); ?>
+        <?php include($COMPONENTS_PATH . 'donation-alternatives.php'); ?>
         
         <script>
             $("donation-image-mobile, .donation-image, .donate-now").on("click", function(event) {

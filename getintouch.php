@@ -83,7 +83,7 @@
                     </p>
                 </div>
 
-                <div class="faq">
+                <!--<div class="faq">
                     <p class="faquestion">
                         <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf005;</span> Become a volunteer</a>
                     </p>
@@ -92,6 +92,17 @@
                         or JavaScript and would be able to spare a few hours a week to work with a team of friendly volunteers, 
                         let us know via<br>
                         <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
+                    </p>
+                </div>-->
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <a style="text-decoration: none;" href="community#enthusiasts-program"><span id="question-Q" class="awesome">&#xf005;</span> Become an enthusiast</a>
+                    </p>
+                    <p>
+                        Help us shape OKMaps. We are driven by our community: only together can we change the way we discover research. Do you also want to make a difference?
+            <br>
+                        <a class="underline" href="community#enthusiasts-program">Consider becoming an enthusiast!</a>
                     </p>
                 </div>
 
