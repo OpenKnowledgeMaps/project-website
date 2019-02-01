@@ -639,8 +639,8 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 
 .background-lamp.gif {
     background-image:
-        linear-gradient(rgba(255, 255, 255, 0), rgba(75, 178, 179, 0.1)), 
-        url(../img/lamp2.gif);
+        linear-gradient(rgba(255, 255, 255, 0), rgba(75, 178, 179, 0.1)); 
+        /*url(../img/lamp2.gif)*/
     background-size: contain;
 }
 
