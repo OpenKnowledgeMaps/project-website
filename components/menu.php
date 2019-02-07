@@ -14,7 +14,7 @@
         <a href="team"><li>Team</li></a>
         <a href="community"><li>Community</li></a>
         <a href="news"><li>News</li></a>
-        <a href="faq"><li>FAQ</li></a>
+        <a href="faq"><li>FAQs</li></a>
         <a href="getintouch"><li>Get in touch</li></a>
         <a href="donate-now" style="color: #f29e00;"><li><i class="fa fa-heart" aria-hidden="true"></i> Make a donation</li></a>
         <!--<a href="index#supportus" style="color: #E55137;"><li><i class="fa fa-heart" aria-hidden="true"></i> Support us</li></a>-->
@@ -38,7 +38,7 @@
     <li><a href="team">Team</a></li>
     <li><a href="community">Community</a></li>
     <li><a href="news">News</a></li>
-    <li><a href="faq">FAQ</a></li>
+    <li><a href="faq">FAQs</a></li>
     <li><a href="getintouch">Get in touch</a></li>
     <li class="donation-menu-entry"><a class="donation-button" href="donate-now"><i class="fa fa-heart" aria-hidden="true"></i> 
             Make a donation</a></li>

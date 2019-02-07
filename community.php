@@ -19,7 +19,9 @@
                 <div class="team">
                     <h2>Our Community</h2>
                     <p>We are driven by our community: only together can we change the way we discover research.
-                        Do you also want to make a difference? Then consider <a class="underline whitelink" href="community#enthusiasts-program">becoming an enthusiast</a>! In any case, <a class="underline whitelink" href="./getintouch">get in touch</a>.</p>
+                        Do you also want to make a difference? Then consider 
+                        <a class="underline whitelink" href="community#enthusiasts-program">becoming an enthusiast</a>! 
+                        Or run your own workshop with our <a class="underline whitelink" href="community#training-materials">training materials</a>.</p>
                 </div>
             </div>
         </div>

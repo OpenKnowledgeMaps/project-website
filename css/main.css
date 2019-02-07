@@ -640,7 +640,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .background-lamp.gif {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0), rgba(75, 178, 179, 0.1)); 
-        /*url(../img/lamp2.gif)*/
+    /*url(../img/lamp2.gif)*/
     background-size: contain;
 }
 
@@ -866,7 +866,7 @@ strong {
     width: 20%;   
 }
 
-#divdiscover h2, #newsletterdiv h2, #divhow h2, #partnerdiv h2, #networkdiv h2 {
+#divdiscover h2, #newsletterdiv h2, #partnerdiv h2, #networkdiv h2 {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
@@ -1156,6 +1156,16 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .donate-now:hover, .donate-now:active, .donate-now:focus {
     color:#f29e00;
+    background-color: white;
+}
+
+.about-page .donate-now {
+    border: 2px solid #2d3e52;
+    background-color: #2d3e52;
+}
+
+.donate-now:hover, .donate-now:active, .donate-now:focus {
+    color: #2d3e52;
     background-color: white;
 }
 
@@ -1642,7 +1652,7 @@ input[type="radio"] {
 
 #divhow {
     /*background-color: white;*/
-    padding: 100px 0px 100px 30px;
+    padding: 100px 0px 100px 0px;
 }
 
 #divhow.supportus {
