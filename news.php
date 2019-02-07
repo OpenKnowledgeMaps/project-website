@@ -24,6 +24,48 @@
                     </p>
                 </div>
             </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="support-okmaps" class="anchor"></a>
+
+                    <a href="https://openknowledgemaps.org/donate-now" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/donation2.png">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2018-12-05">05 December 2018</time>
+
+                        <h3 class="newsitem-headline">A letter to our supporters</h3>
+
+
+                        <p class="newsitem-p">
+                            As a charitable non-profit, we depend on our community. Thanks to your support, Open Knowledge Maps has become the largest visual search engine for scientific knowledge in the world.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                           Today, we ask you for your help with our next challenge: to ensure the sustainability of this platform. This is why we are launching our very first donation campaign. It is pretty simple:
+                <strong>If every user gave €3, we could run Open Knowledge Maps for a whole year.</strong> 
+                        </p>
+
+                        <p class="newsitem-p">
+                            With your help, we can not only keep Open Knowledge Maps online, but also develop it further. With your donation you contribute to an open, ad-free discovery service that is used by hundreds of thousands of people around the world. But we do not want to stop there: our goal is to develop Open Knowledge Maps <a href="https://vimeo.com/188647919" target="_blank">into a collaborative system</a>, so that we can all build on top of each others' knowledge.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            We hope that you’ll consider how useful it is to be able to discover scientific knowledge. Not only for a select few, but for everyone on the planet. <strong>The price of a coffee is all it takes!</strong>
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            <strong>❤️ Thank you.</strong> <br>Peter, Maxi and Chris from the Open Knowledge Maps board.
+                        </p>
+                        
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/donate-now" target="_blank">
+                            Make a donation</a>
+                    </div>
+                </article>
+            </div>
 
             <div class="newscollection">
 
