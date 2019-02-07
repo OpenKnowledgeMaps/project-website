@@ -41,7 +41,7 @@
                         <img src="./img/team/maxi.png" alt="Maxi Schramm">
                         <ul>
                             <li class="name">Maxi Schramm</li>
-                            <li class="job-title">UX Designer</li>
+                            <li class="job-title">UX Designer & Treasurer</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -54,7 +54,7 @@
                         <img src="./img/team/chris.png" alt="Christopher Kittel">
                         <ul>
                             <li class="name">Christopher Kittel</li>
-                            <li class="job-title">Data Scientist</li>
+                            <li class="job-title">Data Scientist & Secretary</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -106,7 +106,7 @@
                         <img src="./img/team/fabian.png" alt="Fabian">
                         <ul>
                             <li class="name">Fabian Kraut</li>
-                            <li class="job-title">Communication</li>
+                            <li class="job-title">Marketing</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -119,7 +119,7 @@
                         <img src="./img/team/najmeh.png" alt="Najmeh">
                         <ul>
                             <li class="name">Najmeh Shaghaei</li>
-                            <li class="job-title">Community Coordination</li>
+                            <li class="job-title">Community Coordinator</li>
                         </ul>
 
                         <ul class="contact-member">
