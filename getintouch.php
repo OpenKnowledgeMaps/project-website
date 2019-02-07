@@ -64,9 +64,10 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf2b5;</span> Collaborate with us</a>
+                        <a style="text-decoration: none;" href="projects"><span id="question-Q" class="awesome">&#xf2b5;</span> Collaborate with us</a>
                     </p>
                     <p>
+                        <a class="underline" href="projects">Check out our present and past collaboration projects</a> and learn more about how we can work together.
                         If you have a collection that you would like to visualize with Open Knowledge Maps, contact us to set up a joint project.<br>
                         <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
@@ -83,7 +84,7 @@
                     </p>
                 </div>
 
-                <div class="faq">
+                <!--<div class="faq">
                     <p class="faquestion">
                         <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf005;</span> Become a volunteer</a>
                     </p>
@@ -93,7 +94,7 @@
                         let us know via<br>
                         <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
-                </div>
+                </div>-->
 
                 <div class="faq">
                     <p class="faquestion">
@@ -108,7 +109,6 @@
             </div>
 
         </div>
-
 
         <?php include($COMPONENTS_PATH . 'newsletter.php'); ?>
 

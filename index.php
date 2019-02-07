@@ -44,5 +44,5 @@
         include($COMPONENTS_PATH . 'commentstream.php');
         ?>
 
-        <?php include($COMPONENTS_PATH . 'newsletter.php') ?>
+        <?php include($COMPONENTS_PATH . 'project-teaser.php') ?>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

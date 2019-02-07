@@ -137,7 +137,10 @@
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
                         <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a>, which is able to create knowledge maps from a wide variety of data, including text, metadata and references. 
-                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started, or contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> for a joint project.
+                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out 
+                        <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started.
+                        If you are interested in a collaboration project <a class="underline" href="projects">check out our present and past collaboration projects</a> and learn more about how we can work together. 
+                        Get in touch with your project proposal ideas at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
 
