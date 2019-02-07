@@ -41,7 +41,7 @@
                         <img src="./img/team/maxi.png" alt="Maxi Schramm">
                         <ul>
                             <li class="name">Maxi Schramm</li>
-                            <li class="job-title">Design & Coordination</li>
+                            <li class="job-title">UX Designer</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -54,7 +54,7 @@
                         <img src="./img/team/chris.png" alt="Christopher Kittel">
                         <ul>
                             <li class="name">Christopher Kittel</li>
-                            <li class="job-title">Data Science</li>
+                            <li class="job-title">Data Scientist</li>
                         </ul>
 
                         <ul class="contact-member">
