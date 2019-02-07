@@ -216,11 +216,28 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-color: white;
 }
 
+/*PROJECT PAGE*/
+
+.projects-page .bs-example {
+    background-color: #2d3e52;
+}
+
+.projects-page #newsletterdiv {
+    background-color: white;
+}
+
+.projects-page .inverseproposal #newsletterdiv {
+    background-color: #eff3f4;
+}
+
+.projects-page #question-Q {
+    color: #2D3E52;
+}
+
 .view-project {
     color:#2D3E52;
     background-color: white;
     border: 2px solid #2D3E52;
-
     padding: 10px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -238,36 +255,135 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 .project-card {
-    background-color: white; 
-    max-width:900px; 
+    max-width: 750px; 
     margin: 0px auto; 
     margin-bottom: 30px;
+    padding: 0 20px;
+}
+
+.project-card ul {
+    padding: 0 5% 5%;
+}
+
+.project-pic {
+    width:100%; 
+    display: block; 
+    vertical-align: top;
+    background-image: url(../img/project-examples/link.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50%;
+    background-color: #cacfd3;
+    text-align: center;
 }
 
 .project-description {
-    display: inline-block; 
-    width: 50%; 
-    padding: 3%;
+    display: block; 
+    width: 100%; 
+    background-color: white;
 }
 
 .project-description h3 {
     text-transform: none; 
     line-height: 120%; 
     font-size: 22px;
+    padding: 5% 5% 3%;
 }
 
 .project-facts {
-    margin-top: 15px;
+    margin-top: 0px;
+    font-size: 18px;
+    padding: 1% 5%;
+}
+
+.project-teaser .become-enthusiast {
+    background-color: #2D3E52;
+    border: 2px solid #2D3E52; 
+}
+
+.project-teaser .become-enthusiast:hover, .project-teaser .become-enthusiast:active, .project-teaser .become-enthusiast:focus {
+    background-color: white;
+    color: #2D3E52;
+}
+
+.project-teaser .h2reverse {
+    text-align: left;
+}
+
+.project-teaser-img {
+    display: inline-block; 
+    width: 30%; 
+    vertical-align: top; 
+    margin-right: 3%;
+    background-image: url(../img/project-examples/link.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50%;
+    background-color: #cacfd3;
+}
+
+.work-with-us-contact {
+    max-width: 750px; 
+    margin: 0px auto; 
+    font-size:18px;
+}
+
+.getintouch-icon {
+    display: inline-block;
+}
+
+.getintouch-text {
+    display: inline-block; 
+    max-width: 410px; 
+    text-align: left;
+}
+
+.desktop-img {
+    display: block;
+}
+
+.mobile-img {
+    display: none;
 }
 
 .work-with-us {
     background-color:#eff3f4;
 }
 
+.collaboratelink {
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.collaboratelink #question-Q {
+    font-size: 100px; 
+    color: #2d3e52;
+}
+
+.collaboratelink #question-Q:hover {
+    color: #e55137;
+}
+
 .project-link {
     margin-top:20px;
 }
 
+.project-flow .howitworks-point h2 {
+    text-align: left; 
+    text-transform: none; 
+    font-size: 18px;
+}
+
+.projects-page .infohow {
+    border-top: 0px;
+}
+
+.projects-page #divhow.project-flow {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*NEWSLETTER*/
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     border: 2px solid #51c9ae;
     color: white; 
@@ -606,14 +722,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     max-width:500px;
 }
 
-.project-pic {
-    width:40%; 
-    display: inline-block; 
-    vertical-align: top;
-    background-image: url(../img/project-examples/link.png);
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
+
 
 #newsletterdiv #mc_embed_signup div.mce_inline_error {
     background-color: transparent !important;
@@ -1312,7 +1421,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .howitworks-point {
-    width:25%; 
+    width:22%; 
     display: inline-block; 
     padding: 0px 2% 2%; 
     vertical-align:top; 
@@ -1600,13 +1709,6 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     background-color: white;
 }
 
-.projects-page .bg2 {
-    background-image: url(../img/projects-HG.png);
-    background-size:100%;
-    background-repeat: no-repeat;
-    background-position: 0% 0%;
-}
-
 .advisor a {
     color: #2d3e52;
 }
@@ -1815,6 +1917,7 @@ sup {
 
 .carousel-inner img {
     width: 100%;
+    max-width:580px;
 }
 
 .bs-example {
@@ -1986,7 +2089,7 @@ time {
 .howitworks-div {
     max-width:100%; 
     text-align:center; 
-    margin-top:2%;
+    margin-top:5%;
 }
 
 .number {
@@ -2582,6 +2685,10 @@ time {
 
 @media screen and (max-width: 640px) {
 
+    .collaboratelink #question-Q {
+        font-size: 40px; 
+    }
+
     .newsitem-text {
         padding: 20px 0px;
     }
@@ -2680,7 +2787,7 @@ time {
         font-size: 16px;
     }
 
-    .description li:first-child {
+    .description li:first-child, .library, .info {
         font-size: 14px;
     } 
 
@@ -2698,10 +2805,6 @@ time {
 
     #ourmission {
         padding-bottom: 20px;
-    }
-
-    .library, .info {
-        font-size: 14px;
     }
 
     .visualize {
@@ -2737,8 +2840,18 @@ time {
         display: block;
     }
 
-    .thank-you-desktop {
+    .mobile-img {
+        display: block;
+    }
+
+    .thank-you-desktop, .desktop-img {
         display: none;
+    }
+
+    .project-teaser-img {
+        display: block;
+        width: 100%;
+        margin-right: 0%;
     }
 
     .thankyou-page #about-page {
@@ -2763,7 +2876,6 @@ time {
     .donate-now {
         font-size: 18px;
         width: 80%;
-        /*max-width: 200px;*/
     }
 
     .desktop-donation-banner {
@@ -2793,10 +2905,6 @@ time {
 
     .supportus {
         background-position: 100% 3%;
-    }
-
-    .wtp {
-        font-size: 14px;
     }
 
     .topheader {
@@ -2844,7 +2952,7 @@ time {
         /*width: 25%;*/
     }
 
-    .name {
+    .name, .try-now .newsitem-button, .wtp {
         font-size: 14px;
     }
 
@@ -2910,10 +3018,10 @@ time {
         font-size: 10px;
     }
 
-    .background2 .team h2 {
+    .background2 .team h2, .project-description h3 {
         font-size: 20px;
     }
-    .background2 .team p {
+    .background2 .team p, .project-facts, .work-with-us-contact {
         font-size: 16px;
     }
 
@@ -2947,10 +3055,6 @@ time {
         width: 80%;
     }
 
-    .try-now .newsitem-button {
-        font-size: 14px;
-    }
-
     .try-now {
         margin-top: 10px;
     }
@@ -2966,6 +3070,10 @@ time {
 }
 
 @media screen and (max-width: 470px) {
+    
+    .collaboratelink {
+        display: none;
+    }
 
     .info {
         margin-right: 0px;
@@ -2975,12 +3083,13 @@ time {
         font-size: 30px;
     }
 
-
     #question-Q {
         font-size: 20px;
     }
 
-    .radio-inline, .try-out-maps, .faquestion {
+    .radio-inline, .try-out-maps, .faquestion, #mission strong, .icon-description, .howitworks-point p, 
+    .faq, .work-with-us-contact, #progress p, #newsletterdiv h3, #newsletterdiv, #partnerdiv, #networkdiv, 
+    .visualize, .supportertext, .description-headstart, .project-facts {
         font-size: 14px;
     }
 
@@ -2996,16 +3105,8 @@ time {
         padding: 0px;
     }
 
-    #newsletterdiv h3, #newsletterdiv, #partnerdiv, #networkdiv {
-        font-size: 14px;
-    }
-
     #partnerdiv, #networkdiv {
         padding: 50px 0px;
-    }
-
-    #progress p {
-        font-size: 14px;
     }
 
     .text-field {
@@ -3014,11 +3115,6 @@ time {
 
     .description-headstart {
         padding: 20px;
-        font-size: 14px;
-    }
-
-    #mission strong, .icon-description, .howitworks-point p, .faq {
-        font-size: 14px;
     }
 
     .discovermaps {
@@ -3083,10 +3179,6 @@ time {
         border: 0px solid #2d3e52;
     }
 
-    .visualize {
-        font-size: 14px;
-    }
-
     .advisor p, .advisor ul {
         padding: 0px 10px 0px 10px;
     }
@@ -3102,10 +3194,6 @@ time {
     .search-box {
         background-image:
             linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
-    }
-
-    .supportertext {
-        font-size: 14px;
     }
 
     .getintouchpage .background2, .faqx #news .background2, .updates #news .background2, .community-page .background2  {
@@ -3139,7 +3227,6 @@ time {
         padding: 50px 0px;
     }
 
-
     .mittig, .background-lamp .mittig {
         padding: 20px;
         width: 100%;
@@ -3148,5 +3235,4 @@ time {
     .mittig2 {
         padding: 10px 20px;
     }
-
 }
