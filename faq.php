@@ -3,7 +3,7 @@
 <html lang="en">
     <head>
         <base href="<?php echo $SITE_URL ?>">
-        <?php $title = "FAQ - Open Knowledge Maps"; ?>
+        <?php $title = "FAQs - Open Knowledge Maps"; ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
@@ -18,7 +18,7 @@
             <div class="headerimage"><img src="./img/faq-mobil.png"></div>
             <div class="background2">
                 <div class="team">
-                    <h2>FAQ</h2>
+                    <h2>FAQs</h2>
                     <p>Answers to the most frequently asked questions about Open Knowledge Maps.</p>
                 </div>
             </div>
