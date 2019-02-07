@@ -1164,7 +1164,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     background-color: #2d3e52;
 }
 
-.donate-now:hover, .donate-now:active, .donate-now:focus {
+.about-page .donate-now:hover, .about-page .donate-now:active, .about-page .donate-now:focus {
     color: #2d3e52;
     background-color: white;
 }
