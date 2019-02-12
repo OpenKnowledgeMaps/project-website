@@ -18,7 +18,7 @@
             <div class="background2">
                 <div class="team">
                     <h2 style="color: #2d3e52;">News</h2>
-                    <p>You can <a class="underline" href="#newslettersignup">sign up for our Newsletter</a> 
+                    <p>You can <a target="_blank" class="underline" href="http://eepurl.com/dvQeGP">sign up for our Newsletter</a> 
                         to receive regular updates. You can also 
                         <a class="underline" href="https://twitter.com/ok_maps" target="_blank">follow us on Twitter</a> and <a class="underline" href="https://facebook.com/OKMaps" target="_blank">Facebook</a>.
                     </p>
@@ -46,19 +46,24 @@
                         
                         <p class="newsitem-p">
                            Today, we ask you for your help with our next challenge: to ensure the sustainability of this platform. This is why we are launching our very first donation campaign. It is pretty simple:
-                <strong>If every user gave €3, we could run Open Knowledge Maps for a whole year.</strong> 
+                <b>If every user gave €3, we could run Open Knowledge Maps for a whole year.</b> 
                         </p>
 
                         <p class="newsitem-p">
-                            With your help, we can not only keep Open Knowledge Maps online, but also develop it further. With your donation you contribute to an open, ad-free discovery service that is used by hundreds of thousands of people around the world. But we do not want to stop there: our goal is to develop Open Knowledge Maps <a href="https://vimeo.com/188647919" target="_blank">into a collaborative system</a>, so that we can all build on top of each others' knowledge.
+                            With your help, we can not only keep Open Knowledge Maps online, but also develop it further. 
+                            With your donation you contribute to an open, ad-free discovery service that is used by hundreds of thousands 
+                            of people around the world. But we do not want to stop there: our goal is to develop Open Knowledge Maps 
+                            <a href="https://vimeo.com/188647919" target="_blank">into a collaborative system</a>, so that we can all 
+                            build on top of each others' knowledge.
                         </p>
                         
                         <p class="newsitem-p">
-                            We hope that you’ll consider how useful it is to be able to discover scientific knowledge. Not only for a select few, but for everyone on the planet. <strong>The price of a coffee is all it takes!</strong>
+                            We hope that you’ll consider how useful it is to be able to discover scientific knowledge. 
+                            Not only for a select few, but for everyone on the planet. <b>The price of a coffee is all it takes!</b>
                         </p>
                         
                         <p class="newsitem-p">
-                            <strong>❤️ Thank you.</strong> <br>Peter, Maxi and Chris from the Open Knowledge Maps board.
+                            <b>❤️ Thank you.</b> <br>Peter, Maxi and Chris from the Open Knowledge Maps board.
                         </p>
                         
                         <a class="newsitem-button" href="https://openknowledgemaps.org/donate-now" target="_blank">
@@ -164,9 +169,9 @@
                             Here’s the the good news: Now you can!
                         </p>
                         <ul class="newsitem-p">
-                            <li><strong>Step 1:</strong> Click on the embed button next to a map.</li>
-                            <li><strong>Step 2:</strong> Copy the code snippet.</li>
-                            <li><strong>Step 3:</strong> And finally include it on your website. That’s it!</li>
+                            <li><b>Step 1:</b> Click on the embed button next to a map.</li>
+                            <li><b>Step 2:</b> Copy the code snippet.</li>
+                            <li><b>Step 3:</b> And finally include it on your website. That’s it!</li>
 
                         </ul>
 
@@ -302,7 +307,7 @@
                         <time datetime="2018-03-20">20 March 2018</time>
                         <h3 class="newsitem-headline">Open Knowledge Maps wins OpenAIRE tender to create a tool that lets you visualize any research project</h3>
                         <p class="newsitem-p">
-                            What do snakes and the visualization of research projects have in common? The answer is: <strong>VIPER</strong>. VIPER stands for <strong>VI</strong>sual <strong>P</strong>roject <strong>E</strong>xplore<strong>R</strong>, a unique open science application that focuses on the discovery of research project results. VIPER will enable you to systematically explore a project's output and to understand its impact in different areas.
+                            What do snakes and the visualization of research projects have in common? The answer is: <b>VIPER</b>. VIPER stands for <b>VI</b>sual <b>P</b>roject <b>E</b>xplore<b>R</b>, a unique open science application that focuses on the discovery of research project results. VIPER will enable you to systematically explore a project's output and to understand its impact in different areas.
                         </p>
                         <p class="newsitem-p">
                             VIPER is made possible thanks to <a href="http://openaire.eu" target="_blank">OpenAIRE</a>, a key infrastructure that enables the European transition to open science.
