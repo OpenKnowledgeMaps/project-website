@@ -46,7 +46,7 @@
 
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:maxi@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            
+
                         </ul>
                     </div>
 
@@ -166,6 +166,16 @@
                         </ul>
                     </div>
 
+
+                    <!-- list of supporting members -->
+                    <div class="alumni"><h3>Supporting members:</h3>
+
+                        <div class="partners">
+
+                            <a href="https://lbg.ac.at/" target="_blank"><img src="./img/partners/lbg-oisc.png" alt="LBG"></a>
+
+                        </div>
+                    </div>
                     
                     <!-- list of contributors -->
                     <div class="alumni"><h3>Contributers:</h3>
@@ -174,8 +184,8 @@
                         <a target="_blank" class="underline" href="http://nthmost.com/">Naomi Most</a>, 
                         <a target="_blank" class="underline" href="http://www.madgik.di.uoa.gr/content/omiros">Omiros Metaxas</a>
                     </div>
-                </div> 
 
+                </div> 
 
             </div>
 
@@ -211,7 +221,7 @@
                                 <li>OpenAIRE</li>
                             </ul>
                         </div>
-                        
+
                         <div class="advisor">
                             <a target="_blank" href="https://www.zbw.eu/"><img class="hoverlink" src="./img/advisors/klaus.jpg" alt="Advisor OKMaps"></a>
                             <h3>Klaus Tochtermann</h3>
@@ -292,7 +302,7 @@
                                 <li>Graz University of Technology</li>
                             </ul>
                         </div>
-                        
+
                         <div class="advisor">
                             <a target="_blank" href="http://isabella-peters.de/"><img class="hoverlink" src="./img/advisors/isabella.jpg" alt="Advisor OKMaps"></a>
                             <h3>Isabella Peters</h3>

@@ -31,7 +31,7 @@
             $credit = '<a href="https://github.com/ropensci/rentrez " target="_blank ">rentrez</a>. All content retrieved from <a href="http://www.ncbi.nlm.nih.gov/pubmed " target="_blank ">PubMed</a>.';
             echo '<script type="text/javascript" src="./js/data-config_pubmed.js"></script>';
             $service_name = "PubMed";
-            $description = '<a href="http://www.ncbi.nlm.nih.gov/pubmed" target="_blank ">PubMed</a> comprises more '
+            $description = '<a class="underline" href="http://www.ncbi.nlm.nih.gov/pubmed" target="_blank ">PubMed</a> comprises more '
                     . 'than 26 million citations for biomedical literature from MEDLINE, life science journals, and online books.';
         } else if ($service === "doaj") {
             $credit = '<a href="https://github.com/ropenscilabs/jaod " target="_blank ">jaod</a>. All content retrieved from <a href="http://doaj.org " target="_blank ">DOAJ</a>.';
@@ -42,7 +42,7 @@
             $credit = '<a href="https://github.com/ropenscilabs/rbace" target="_blank ">rbace</a>. All content retrieved from <a href="http://base-search.net" target="_blank ">BASE</a>.';
             echo '<script type="text/javascript" src="./js/data-config_base.js"></script>';
             $service_name = "BASE";
-            $description = '<a href="http://base-search.net" target="_blank ">BASE</a> provides access to over 100 million documents from '
+            $description = '<a class="underline" href="http://base-search.net" target="_blank ">BASE</a> provides access to over 100 million documents from '
                     . 'more than 5,200 content sources in all disciplines.';
         }
 
@@ -157,12 +157,16 @@
 
         <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>
 
-
+<div style="border-top: 0px solid #cacfd3; padding: 50px 20px;">
+    <p class="try-now" style="text-align: center; margin:0px 0 0;">
+        <a target="_blank" class="donate-now" href="index">Create a new map</a>
+    </p>
+</div>
         <?php
-        include($COMPONENTS_PATH . 'create-map.php');
-        include($COMPONENTS_PATH . 'supportus.php');
+        
+        //include($COMPONENTS_PATH . 'supportus.php');
         //include($COMPONENTS_PATH . 'donation-section.php');
-        //include($COMPONENTS_PATH . 'newsletter.php');
+        include($COMPONENTS_PATH . 'newsletter.php');
         include($COMPONENTS_PATH . 'footer_base.php');
         ?>
 

@@ -42,7 +42,7 @@
                             description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a class="underline" href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
                     </p>
                 </div>
-                
+
                 <a name=faq-top-100 class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
@@ -56,7 +56,7 @@
                         One way to do this is to expand your query with the topic of a sub-area.
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q3</span> Why are there important papers missing in my map?
@@ -70,7 +70,7 @@
                         In the meantime, please let us know of cases of major omissions via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
-                
+
                 <a name=faq-automatic-analysis class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
@@ -84,7 +84,7 @@
                         More information can be found in <a class="underline" href="http://0277.ch/ojs/index.php/cdrs_0277/article/view/157/355" target="_blank">this article</a>.
                     </p>
                 </div>
-                
+
                 <a name=faq-automatic-analysis class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
@@ -98,14 +98,14 @@
                         <li>Centrality of bubbles implies subject similarity with the rest of the map, not importance. 
                             The closer a bubble is to the center, the closer it is subject-wise to all the other bubbles in the map.</li>
                     </ul>
-                        Nevertheless, the placement of the bubbles should only be taken as an indication as the map is untangled in the beginning to
-                        improve readability.
-                        The placement of papers within a bubble has no specific meaning, 
-                        as they are moved around significantly during the initial arrangement of the map to avoid overlap.
-                        More information can be found in <a class="underline" href="https://arxiv.org/abs/1412.6462" target="_blank">this article</a>.
+                    Nevertheless, the placement of the bubbles should only be taken as an indication as the map is untangled in the beginning to
+                    improve readability.
+                    The placement of papers within a bubble has no specific meaning, 
+                    as they are moved around significantly during the initial arrangement of the map to avoid overlap.
+                    More information can be found in <a class="underline" href="https://arxiv.org/abs/1412.6462" target="_blank">this article</a>.
                     </p>
                 </div>
-                
+
                 <a name=faq-faulty-map class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
@@ -137,7 +137,10 @@
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
                         <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Head Start</a>, which is able to create knowledge maps from a wide variety of data, including text, metadata and references. 
-                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started, or contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a> for a joint project.
+                        If you have a collection that you would like to visualize with Open Knowledge Maps, check out 
+                        <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart#getting-started" target="_blank">our docs</a> to get started.
+                        If you are interested in a collaboration project <a class="underline" href="projects">check out our present and past collaboration projects</a> and learn more about how we can work together. 
+                        Get in touch with your project proposal ideas at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
 
@@ -150,7 +153,7 @@
                         Currently, we are looking for funding for <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
                         If you are interested in funding this effort, please contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
-                    
+
                     <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
@@ -160,18 +163,19 @@
                         <span id="question-Q">Q10</span> How can I contribute?
                     </p>
                     <p>
-                        You can contribute in a number of ways: 
+                        <a class="underline" href="http://localhost/WEBPACK-OKM/project-website/donate-now">You can contribute in a number of ways</a>: 
                         we love to hear <a class="underline" href="getintouch">your feedback and ideas</a> as this helps us to improve 
-                        Open Knowledge Maps. If you like the project, please spread the word as far as you can :) <br>
-                        We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
+                        Open Knowledge Maps. If you like the project, please spread the word as far as you can.<br>
+                        <!--We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
-                        let us know via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. 
+                        let us know via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>-->
+
                     </p>
-                    
+
                     <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
-                
+
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q11</span> I would like to introduce OKMaps to my peers. Do you have any materials available?
@@ -183,16 +187,16 @@
 
                     </p>
                 </div>
-                
-                
+
+
 
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q12</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
-                        No doubt! Just drop us a line on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>
-
+                        No doubt! 
+                        <a class="underline" href="projects">Check out our present and past collaboration projects</a> and learn more about how we can work together. 
                     </p>
                 </div>
 
