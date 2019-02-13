@@ -246,6 +246,12 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-color: transparent;
 }
 
+/*COOKIE & PRIVACY UPDATE MESSAGE*/
+.cc-color-override-446009254.cc-window {
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
 /*PROJECT PAGE*/
 
 .projects-page .bs-example {
@@ -462,12 +468,13 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     width: 100%;
     margin:0px auto; 
     background-color: transparent;
+    text-align: center;
 }
 
 #signup-pic {
     display:inline-block; 
     vertical-align: middle; 
-    max-width:250px; 
+    max-width: 150px; 
     margin-right: 10px;
 }
 
@@ -1865,7 +1872,8 @@ input[type="radio"] {
 
 #divhow.supportus {
     /*background-color: white;*/
-    padding: 100px 0px 50px 30px;
+    padding: 100px 0px 50px 0px;
+    text-align: center;
 }
 
 sup {
@@ -2446,7 +2454,7 @@ time {
     .searchheader {
         padding: 0px 0px 10px 50px;
     }
-    
+
     .icon-menu {
         display: inline-block;
     }
