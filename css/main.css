@@ -1920,6 +1920,7 @@ sup {
     font-size: 15px;
     text-decoration: none;
     text-transform: uppercase;
+    display: block;
 }
 
 .icon-close {
@@ -1938,13 +1939,14 @@ sup {
     margin: 10px 0px 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
-    border: 2px solid #e55137;
+    border: 2px solid #2d3e52;
     padding: 5px;
     vertical-align: middle;
     text-align:left;
-    color: #e55137;
+    background-color: #2d3e52;
     border-radius: 5px;
     -moz-border-radius: 5px;
+    color: white;
 }
 
 .searchheader .icon-menu {
@@ -2419,7 +2421,7 @@ time {
         padding-top: 120px;
     }
 
-    .searchheader .menu {
+    .searchheader .menu, .menu {
         display: block;
     }
 
@@ -2431,12 +2433,16 @@ time {
         display:none;
     }
 
-    .searchheader .imglogo{
+    .searchheader .imglogo, .imglogo{
         display: none;
     }
 
     .searchheader .icon-menu {
         margin-right: 10px;
+    }
+    
+    .description {
+        margin-left: 10px;
     }
 
     .searchheader .description li:last-child {
@@ -2478,10 +2484,6 @@ time {
     .search-waiting-page header {
         padding: 10px 0;
         text-align: center;
-    }
-
-    .description {
-        padding: 0px 10px 0px 10px;
     }
 
     .vision h2 {
@@ -2616,6 +2618,11 @@ time {
 
     .supportus .howitworks-point p {
         font-size: 12px;
+    }
+    
+    .icon-description {
+        display: block;
+        width: 100%;
     }
 }
 
@@ -2829,7 +2836,7 @@ time {
         font-size: 16px;
     }
 
-    .icon-description, .icon {
+    .icon {
         display: block;
         width: 100%;
     }
