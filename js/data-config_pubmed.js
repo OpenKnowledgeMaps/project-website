@@ -37,4 +37,7 @@ var data_config = {
     evaluation_service: ["ga", "matomo"],
     
     use_hypothesis: true,
+    
+    faqs_button: true,
+    faqs_url: "https://openknowledgemaps.org/faq",
 };

@@ -18,5 +18,8 @@ var data_config = {
     content_based: false,
 	
     show_context: false,
-    create_title_from_context: false
+    create_title_from_context: false,
+    
+    faqs_button: true,
+    faqs_url: "https://openknowledgemaps.org/faq",
 };

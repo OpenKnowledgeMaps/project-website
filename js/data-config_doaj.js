@@ -23,6 +23,9 @@ var data_config = {
     content_based: true,
     url_prefix: "https://doaj.org/article/",
 	
-	show_context: true,
-	create_title_from_context: true
+    show_context: true,
+    create_title_from_context: true,
+    
+    faqs_button: true,
+    faqs_url: "https://openknowledgemaps.org/faq",
 };
