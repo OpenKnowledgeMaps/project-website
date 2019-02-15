@@ -1622,6 +1622,10 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     max-width: 165px;
 }
 
+.member img {
+    width: 100%;
+}
+
 .community-page #members {
     max-width: 1000px;
 }
@@ -1785,8 +1789,12 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     max-height: 50px;
 }
 
+.alumni h3 {
+    font-size: 18px;
+}
+
 .featuredin img {
-    max-height: 40px;
+    max-height: 50px;
 }
 
 /*Networks*/
@@ -1799,6 +1807,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     margin: 0px 15px 10px 0px;
     height: 100%;
     max-height: 75px;
+    background-color: white;
 }
 
 /*SEARCH PHP*/
@@ -2410,6 +2419,10 @@ time {
 
 @media screen and (max-width: 1030px) {
 
+    .featuredin img {
+        max-height: 40px;
+    }
+
     #team, #about-page, #news {
         padding-top: 70px;
     }
@@ -2440,7 +2453,7 @@ time {
     .searchheader .icon-menu {
         margin-right: 10px;
     }
-    
+
     .description {
         margin-left: 10px;
     }
@@ -2619,7 +2632,7 @@ time {
     .supportus .howitworks-point p {
         font-size: 12px;
     }
-    
+
     .icon-description {
         display: block;
         width: 100%;
@@ -2703,16 +2716,18 @@ time {
 
 @media screen and (max-width: 700px) {
 
-    /*.radio-inline input[type=radio] {
-    position: absolute;
-    margin-top: 10px;
-}*/
-
     .okm-icon {
         max-width: 35%;
     }
 
-    .job-title {
+    .contact-icon {
+        border-radius: 34px;
+        width: 34px;
+        height: 34px;
+        -moz-border-radius: 34px;
+    }
+
+    .advisorsdiv .member li {
         font-size: 12px;
     }
 
@@ -3020,14 +3035,14 @@ time {
 
     .member {
         margin: 10px 10px;
-        /*width: 25%;*/
+        width: 33%;
     }
 
     .name, .try-now .newsitem-button, .wtp {
         font-size: 14px;
     }
 
-    .job-title {
+    .advisorsdiv .member li {
         font-size: 10px;
     }
 
@@ -3160,7 +3175,7 @@ time {
 
     .radio-inline, .try-out-maps, .faquestion, #mission strong, .icon-description, .howitworks-point p, 
     .faq, .work-with-us-contact, #progress p, #newsletterdiv h3, #newsletterdiv, #partnerdiv, #networkdiv, 
-    .visualize, .supportertext, .description-headstart, .project-facts {
+    .visualize, .supportertext, .description-headstart, .project-facts, .alumni h3 {
         font-size: 14px;
     }
 
