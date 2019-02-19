@@ -28,30 +28,30 @@
              <div class="newscollection">
 
                 <article class="newsitem">
-                    <a name="support-okmaps" class="anchor"></a>
+                    <a name="project-page" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/projects" target="_blank">
                         <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/projects-teaser.png">
                     </a> 
                     <div class="newsitem-text">
 
-                        <time datetime="2018-12-05">19 February 2019</time>
+                        <time datetime="2019-02-20">20 February 2019</time>
 
-                        <h3 class="newsitem-headline">Innovative collaboration projects to improve the visibility of scientific knowledge</h3>
+                        <h3 class="newsitem-headline">Our innovative collaboration projects</h3>
 
 
-                        <p class="newsitem-p">Our third pillar when it comes to sustainability are <a target="_blank" href="https://openknowledgemaps.org/projects">collaboration projects</a>. At Open Knowledge Maps, our aim is to improve the visibility of scientific knowledge. That’s why we partner with organizations that share our goals to develop innovative open science projects that make it easier for you to discover and benefit from scientific knowledge. In addition, these collaborations enable organizations to make their collections more accessible to their users.
+                        <p class="newsitem-p">At Open Knowledge Maps, our aim is to improve the visibility of scientific knowledge. That’s why we partner with organizations that share our goals to develop innovative open science projects that make it easier for you to discover and benefit from scientific knowledge. In addition, these collaborations enable organizations to make their collections more accessible to their users.
             </p>
                         
                         <p class="newsitem-p">
 
               
           Do you have public, openly accessible collections, but you do not know how to present these collections to your users? Or do you simply want to check out our present and past collaboration projects to find out about the cool services we have developed?
-          
+          Then check out our brand new project page!
                         </p>
 
                         
-                        <a class="newsitem-button" href="https://openknowledgemaps.org/projects" target="_blank">Then check out our brand new projects page!</a>
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/projects" target="_blank">View project page</a>
                     </div>
                 </article>
             </div>
@@ -59,20 +59,20 @@
             <div class="newscollection">
 
                 <article class="newsitem">
-                    <a name="support-okmaps" class="anchor"></a>
+                    <a name="welcome-lbg" class="anchor"></a>
 
                     <a href="https://www.lbg.ac.at/" target="_blank">
                         <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/lbg-supportingmember.jpg">
                     </a> 
                     <div class="newsitem-text">
 
-                        <time datetime="2018-12-05">19 February 2019</time>
+                        <time datetime="2019-02-20">20 February 2019</time>
 
                         <h3 class="newsitem-headline">Welcome to our first supporting member</h3>
 
 
                         <p class="newsitem-p">
-In addition to donations, we are also working on a <a target="_blank" href="https://openknowledgemaps.org/supporting-membership">membership-based funding model</a>. In this model, organisations become supporting members of
+                We are working on a <a target="_blank" href="https://openknowledgemaps.org/supporting-membership">membership-based funding model</a>. In this model, organisations become supporting members of
                 Open Knowledge Maps and provide an annual contribution. We are happy to announce that our very first supporting member, the <a href="https://www.lbg.ac.at/" target="_blank">Ludwig Boltzmann Gesellschaft (LBG)</a>, has joined us. LBG is a longtime collaborator and is now also pioneering this promising path to sustainability with us. Welcome on board!
                                         </p>
                         
@@ -84,7 +84,7 @@ In addition to donations, we are also working on a <a target="_blank" href="http
                         </p>
 
                         
-                        <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">More about the supporting membership</a>
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">Become a supporting member</a>
                     </div>
                 </article>
             </div>
@@ -93,14 +93,14 @@ In addition to donations, we are also working on a <a target="_blank" href="http
             <div class="newscollection">
 
                 <article class="newsitem">
-                    <a name="support-okmaps" class="anchor"></a>
+                    <a name="successful-donation-campaign" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/donate-now" target="_blank">
                         <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/thanks-donations.jpg">
                     </a> 
                     <div class="newsitem-text">
 
-                        <time datetime="2018-12-05">19 February 2019</time>
+                        <time datetime="2019-02-20">20 February 2019</time>
 
                         <h3 class="newsitem-headline">Successful donation campaign</h3>
 
@@ -116,7 +116,7 @@ In addition to donations, we are also working on a <a target="_blank" href="http
 
                         
                         <a class="newsitem-button" href="https://openknowledgemaps.org/donate-now" target="_blank">
-                            Find out how you can suport us</a>
+                            Find out how you can support us</a>
                     </div>
                 </article>
             </div>
