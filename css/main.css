@@ -2680,10 +2680,7 @@ time {
 
     #signup-box, #mc_embed_signup {
         max-width: 650px;
-    }
-
-    #mc_embed_signup {
-        padding: 20px;
+        padding: 0px;
     }
 }
 
@@ -3104,10 +3101,10 @@ time {
         font-size: 10px;
     }
 
-    .background2 .team h2, .project-description h3 {
+    .background2 .team h2 {
         font-size: 20px;
     }
-    .background2 .team p, .project-facts, .work-with-us-contact {
+    .background2 .team p, .project-facts, .work-with-us-contact, .project-description h3 {
         font-size: 16px;
     }
 

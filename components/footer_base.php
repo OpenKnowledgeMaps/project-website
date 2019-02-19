@@ -20,6 +20,7 @@
         <ul class="nav_bottom">
             <li><a href="donate-now"><span class="awesome">&#xf004;</span> Make a donation</a></li>
             <li><a href="community#training-materials"><span class="awesome">&#xf03e;</span> Introduce OKMaps to your community</a></li>
+            <li><a href="supporting-membership"><span class="awesome">&#xf0c1;</span> Become a supporting member</a></li>
         </ul>
     </div>
 
