@@ -19,7 +19,7 @@
 
                 <a name="impressum" class="anchor"></a><h2 style="text-align:left; margin-top: 30px;">Membership-based Funding Model</h2>
 
-                <p><b>Open Knowledge Maps is a charitable non-profit</b> - we provide a free and open resource that dramatically increases 
+                <p>Open Knowledge Maps is a charitable non-profit - we provide a free and open resource that dramatically increases 
                     the visibility of research findings for science and society alike. 
                 </p>
 
@@ -30,7 +30,7 @@
                 </p>
 
                 <p>
-                    Open Knowledge Maps <b>serves both users from the Global South and the Global North:</b> 
+                    Open Knowledge Maps serves both users from the Global South and the Global North: 
                     most of our users are from Indonesia, followed by the US, Germany, Austria, India, the UK, 
                     Canada, China and Australia.
                 </p>
@@ -44,7 +44,7 @@
                 <p>
                     Nevertheless, Open Knowledge Maps is still very much a volunteer effort. To provide a sustainable platform for open discovery, 
                     we propose to fund Open Knowledge Maps in a collective effort. 
-                    <b>In this membership-based funding model, supporting organisations become members of Open Knowledge Maps and provide an annual contribution.</b> 
+                    In this membership-based funding model, supporting organisations become members of Open Knowledge Maps and provide an annual contribution. 
                 </p>
 
                 <p>
