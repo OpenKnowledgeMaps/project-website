@@ -46,7 +46,6 @@
 
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:maxi@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-
                         </ul>
                     </div>
 
