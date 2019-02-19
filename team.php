@@ -38,7 +38,7 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/maxi.png" alt="Maxi Schramm">
+                        <img src="./img/team/maxi2.png" alt="Maxi Schramm">
                         <ul>
                             <li class="name">Maxi Schramm</li>
                             <li class="job-title">UX Designer & Treasurer</li>
