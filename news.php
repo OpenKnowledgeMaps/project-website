@@ -25,6 +25,102 @@
                 </div>
             </div>
             
+             <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="support-okmaps" class="anchor"></a>
+
+                    <a href="https://openknowledgemaps.org/projects" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/projects-teaser.png">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2018-12-05">19 February 2019</time>
+
+                        <h3 class="newsitem-headline">Innovative collaboration projects to improve the visibility of scientific knowledge</h3>
+
+
+                        <p class="newsitem-p">Our third pillar when it comes to sustainability are <a target="_blank" href="https://openknowledgemaps.org/projects">collaboration projects</a>. At Open Knowledge Maps, our aim is to improve the visibility of scientific knowledge. That’s why we partner with organizations that share our goals to develop innovative open science projects that make it easier for you to discover and benefit from scientific knowledge. In addition, these collaborations enable organizations to make their collections more accessible to their users.
+            </p>
+                        
+                        <p class="newsitem-p">
+
+              
+          Do you have public, openly accessible collections, but you do not know how to present these collections to your users? Or do you simply want to check out our present and past collaboration projects to find out about the cool services we have developed?
+          
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/projects" target="_blank">Then check out our brand new projects page!</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="support-okmaps" class="anchor"></a>
+
+                    <a href="https://www.lbg.ac.at/" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/lbg-supportingmember.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2018-12-05">19 February 2019</time>
+
+                        <h3 class="newsitem-headline">Welcome to our first supporting member</h3>
+
+
+                        <p class="newsitem-p">
+In addition to donations, we are also working on a <a target="_blank" href="https://openknowledgemaps.org/supporting-membership">membership-based funding model</a>. In this model, organisations become supporting members of
+                Open Knowledge Maps and provide an annual contribution. We are happy to announce that our very first supporting member, the <a href="https://www.lbg.ac.at/" target="_blank">Ludwig Boltzmann Gesellschaft (LBG)</a>, has joined us. LBG is a longtime collaborator and is now also pioneering this promising path to sustainability with us. Welcome on board!
+                                        </p>
+                        
+                        <p class="newsitem-p">
+
+              The <a href="https://www.lbg.ac.at/" target="_blank">Ludwig Boltzmann Gesellschaft (LBG)</a> is a research institution with a thematic focus on medicine, life sciences and the humanities, and is specifically targeting new research topics in Austria. Together with academic and implementing partners, the LBG is currently running 21 institutes and develops and tests new forms of collaboration between science and non-scientific actors such as companies, the public sector and civil society. Socially relevant challenges, to which research can contribute, are to be recognized at an early stage and taken up.
+              The <a href="https://ois.lbg.ac.at/" target="_blank">LBG Open Innovation in Science Center</a>, which unlocks the potential of open innovation for science, and the LBG Career Center, which supports 200 PhD students and postdocs, are part of the LBG. The LBG employs 550 people.
+              
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">More about the supporting membership</a>
+                    </div>
+                </article>
+            </div>
+            
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="support-okmaps" class="anchor"></a>
+
+                    <a href="https://openknowledgemaps.org/donate-now" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/thanks-donations.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2018-12-05">19 February 2019</time>
+
+                        <h3 class="newsitem-headline">Successful donation campaign</h3>
+
+
+                        <p class="newsitem-p">
+                  To provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort. Donations are part of this plan, which is why we ran our first donation campaign last December. The results make us very happy; with the funds donated, we are able to cover our server costs for 2019. Many thanks for your contributions and all the supportive messages!
+                        </p>
+                        
+                        <p class="newsitem-p">
+                                           Of course, we also accept donations throughout the year.
+
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/donate-now" target="_blank">
+                            Find out how you can suport us</a>
+                    </div>
+                </article>
+            </div>
+            
             <div class="newscollection">
 
                 <article class="newsitem">
