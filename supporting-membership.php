@@ -36,9 +36,7 @@
                 </p>
 
                 <p>
-                    In addition, <b>Open Knowledge Maps is an open infrastructure in a space that is dominated by closed and proprietary systems.</b> 
-                    (In a recent analysis by Bianca Kramer and Jeroen Bosman, Open Knowledge Maps was one of just three scholarly 
-                    commons-compliant infrastructures in the area of discovery.)
+                    In addition, <b>Open Knowledge Maps is an open infrastructure in a space that is dominated by closed and proprietary systems </b>[1].
                     These proprietary systems are often expensive and hinder innovation due to their closed nature. 
                     In contrast, Open Knowledge Maps software, content, and data can be easily reused - it is therefore community-owned.
                 </p>
@@ -54,8 +52,13 @@
                     which participates in a yearly vote on what features and sources to implement. This establishes a true community-driven solution for the 
                     discovery of scientific knowledge.
                 </p>
+                
+                <p>
+                    <i>[1] <a href="https://docs.google.com/spreadsheets/d/1h0Aq6NYIeVnLDw33vx1SGnv1jbE2B7widbHhU7tpiUw/edit#gid=2141288902" class="underline" target="_blank">In a recent analysis by Bianca Kramer and Jeroen Bosman</a>, 
+                        Open Knowledge Maps was one of just three scholarly commons-compliant infrastructures in the area of discovery.</i>
+                </p>
 
-                <h2 style="text-align:left; margin-top: 30px;">Categories</h2>
+                <h3 style="text-align:left; margin-top: 30px; font-size:22px;">Categories</h3>
                 <p>To become a supporter of Open Knowledge Maps, please select one of these categories:</p>
 
                 <h3>Supporting members</h3>
@@ -71,7 +74,7 @@
                 <h3>Sustaining members - higher support</h3>
                 <p class="underline">Membership fee: EUR 9,800/year or more</p>
                 <p>Members in this category contribute towards Open Knowledge Maps’ long-term sustainability. Their higher support is acknowledged on the Open Knowledge Maps website and in selected other materials, where they are listed with their logo in a special category. In addition, sustaining members in this category have 3 seats on the Board of Supporters.</p>
-                <h3 style="color:#e55137;">Get in touch</h3>
+                <h3 style="color:#e55137; margin-top: 30px; font-size:22px;">Get in touch</h3>
                 <p>If your organization is interested in becoming a supporting member,
                     please get in touch with Open Knowledge Maps founder and chairman Peter Kraker at:
                     <a class="underline" style="color:#e55137;" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
