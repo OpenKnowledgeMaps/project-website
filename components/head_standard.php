@@ -96,6 +96,7 @@ function getLabel($tag) {
 <meta name="twitter:image" content="<?php echo getLabel("twitter-image") ?>" />
 
 <!-- OPEN GRAPH OG -->
+<meta property="og:title" content="<?php echo getLabel("title") ?>"/>
 <meta property="og:description" content="<?php echo getLabel("description") ?>"/>
 <meta property="og:url" content="<?php echo getLabel("url") ?>"/>
 <meta property="og:image" content="<?php echo getLabel("fb-image") ?>"/>
