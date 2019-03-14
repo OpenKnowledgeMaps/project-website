@@ -25,6 +25,118 @@
                 </div>
             </div>
             
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="osc-keynote" class="anchor"></a>
+
+                    <a href="https://www.open-science-conference.eu/" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/keynote.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-03-14">14 March 2019</time>
+
+                        <h3 class="newsitem-headline">OKMaps founder Peter Kraker speaks at the Open Science Conference 2019</h3>
+
+
+                        <p class="newsitem-p">
+                            The Open Science Conference in Berlin is an international conference dedicated to the Open Science movement and provides a unique forum for a wide variety of stakeholders
+                to discuss the present and the future of Open Science.
+            </p>
+                        
+                        <p class="newsitem-p">
+
+              
+        Open Knowledge Maps founder Peter Kraker will give an invited talk at the conference about his <strong>#DontLeaveItToGoogle</strong> campaign.
+              Peter will show that closed and proprietary infrastructures do not only limit the accessibility of research, but also prevent discoverability.
+              He will discuss how open source services and non-profit frontends such as Open Knowledge Maps help overcome this issue and provide continuous innovation along the research workflow.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            <a href="https://www.open-science-conference.eu/registration/" target="_blank" class="underline">Register for the conference now</a> to attend the talk on March 20th at 11:20am (CET).
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://www.open-science-conference.eu/programme/" target="_blank">Check out the programme</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="discovery-in" class="anchor"></a>
+
+                    <a href="https://www.go-fair.org/implementation-networks/overview/discovery/" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/gofair-discovery.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-03-14">14 March 2019</time>
+
+                        <h3 class="newsitem-headline">Open Knowledge Maps coordinates new network to improve research data discovery</h3>
+
+
+                        <p class="newsitem-p">
+                        Research data are among the fastest growing openly accessible scientific outputs on the web. Unfortunately,
+            the discoverability of this data is seriously lacking, leaving up to 85% of datasets unused.
+            </p>
+                        
+                        <p class="newsitem-p">
+
+              
+        This is why Open Knowledge Maps has started a new implementation network (IN) that aims to change this.
+          The main purpose of the Discovery IN is to provide open interfaces and other user-facing services for data discovery across disciplines.
+          It brings together many well-known organisation and projects working on FAIR data (short for findable, accessible, interoperable and reusable data),
+          including DataCite, OpenAIRE, EUDAT, OPERAS, BASE, CORE, ZBW, and Know-Center.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            The network is part of the <strong>GO FAIR</strong> initiative, a bottom-up international approach for the practical implementation of infrastructures for FAIR data, such as the EOSC (European Open Science Cloud).
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://www.go-fair.org/implementation-networks/overview/discovery/" target="_blank">Learn more</a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="discovery-workshop" class="anchor"></a>
+
+                    <a href="https://openknowledgemaps.eventbrite.de" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/academicseo.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-03-14">14 March 2019</time>
+
+                        <h3 class="newsitem-headline">Workshop on academic literature search: "Finding and getting found" (free admission, limited capacity)</h3>
+
+
+                        <p class="newsitem-p">
+                        We have developed a brand new workshop to help you improving the visibility of your research online.
+            </p>
+                        
+                        <p class="newsitem-p">
+In this workshop you'll learn how search engines and discovery tools work and how you can use this knowledge to make your outputs more discoverable.
+    We will give practical tips to finally answer the question: "How do I get my research to show up in search engines and discovery tools?"
+    To round things out, we will play a fun and fast-paced game to get to know Open Knowledge Maps better and improve your personal discovery skills.
+                        
+                        <p class="newsitem-p">
+                            This workshop will be hosted by the working group “Open Science Trainings” of the Open Science Network Austria (OANA), Österreich forscht, and the Ludwig Boltzmann Gesellschaft.
+  Join us <strong>in Vienna on April 26 at 10:00 (CET).</strong>
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://openknowledgemaps.eventbrite.de" target="_blank">More info &amp; RSVP here</a>
+                    </div>
+                </article>
+            </div>
+            
              <div class="newscollection">
 
                 <article class="newsitem">
