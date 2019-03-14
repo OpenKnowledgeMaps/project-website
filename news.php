@@ -89,7 +89,7 @@
         This is why Open Knowledge Maps has started a new implementation network (IN) that aims to change this.
           The main purpose of the Discovery IN is to provide open interfaces and other user-facing services for data discovery across disciplines.
           It brings together many well-known organisation and projects working on FAIR data (short for findable, accessible, interoperable and reusable data),
-          including DataCite, OpenAIRE, EUDAT, OPERAS, BASE, CORE, ZBW, and Know-Center.
+          including DataCite, OpenAIRE, EUDAT, OPERAS, CESSDA, BASE, CORE, ZBW, and Know-Center.
                         </p>
                         
                         <p class="newsitem-p">
