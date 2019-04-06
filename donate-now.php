@@ -90,7 +90,7 @@
                 <p>
                     <b>Payment:</b> Your donation will be securely processed 
                     <a  class="underline" target="_blank" href="<?php echo $PAYPAL_URL ?>">via Paypal</a>. You do not need a Paypal account to make a donation. 
-                    <br>You can also make a donation to our bank account directly: Account holder: Open Knowledge Maps, IBAN: AT96 2011 1829 6959 9501, BIC: GIBAATWWXXX
+                    <br>You can also make a donation to our bank account directly: Account holder: Open Knowledge Maps, IBAN: AT69 2011 1829 6959 9501, BIC: GIBAATWWXXX
                 </p>
 
                 <p>
