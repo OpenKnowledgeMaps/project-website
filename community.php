@@ -27,7 +27,7 @@
         </div>
 
         <?php include($COMPONENTS_PATH . "current-enthusiasts.php") ?>
-        <?php include($COMPONENTS_PATH . "enthusiasts-events.php") ?>
+        
         <?php
         $COMMENT_TITLE = "What our enthusiasts say";
         $COMMENT_IMAGES_URL = "./img/enthusiasts/ep-statements/";
