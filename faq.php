@@ -117,10 +117,22 @@
                         If you come across a map that needs improvement, we'd love to hear from you at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
-
+                
+                
+                    <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q7</span> How can I include my research / data source on Open Knowledge Maps?
+                    </p>
+                    <p>
+                        
+                        plus link to Academic SEO <a class="underline" href="https://www.youtube.com/watch?v=kjKZxZmEXAU">youtube link</a>
+                        and <a class="underline" href="https://openknowledgemaps.org/community#training-materials">training materials</a>
+                    </p>
+                </div>
+                
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q7</span> How did Open Knowledge Maps come about?
+                        <span id="question-Q">Q8</span> How did Open Knowledge Maps come about?
                     </p>
                     <p>Open Knowledge Maps was founded by Peter Kraker in 2015. 
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
@@ -132,7 +144,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q8</span> Can Open Knowledge Maps connect to my data source?
+                        <span id="question-Q">Q9</span> Can Open Knowledge Maps connect to my data source?
                     </p>
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
@@ -146,7 +158,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q9</span> How is Open Knowledge Maps funded?
+                        <span id="question-Q">Q10</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
                         We are a charitable non-profit organization run by a group of dedicated volunteers. 
@@ -160,7 +172,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q10</span> How can I contribute?
+                        <span id="question-Q">Q11</span> How can I contribute?
                     </p>
                     <p>
                         <a class="underline" href="http://localhost/WEBPACK-OKM/project-website/donate-now">You can contribute in a number of ways</a>: 
@@ -169,7 +181,6 @@
                         <!--We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
                         a few hours a week to work with a team of friendly people, 
                         let us know via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>-->
-
                     </p>
 
                     <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
@@ -178,21 +189,18 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q11</span> I would like to introduce OKMaps to my peers. Do you have any materials available?
+                        <span id="question-Q">Q12</span> I would like to introduce Open Knowledge Maps to my peers. Do you have any materials available?
                     </p>
                     <p>
                         We do! 
-                        <a class="underline" href="community#training-materials">Check out our training and promotional materials</a> including presentations in English and Spanish and a How-To for running an OKMaps workshop. 
-
-
+                        <a class="underline" href="community#training-materials">Check out our training and promotional materials</a> 
+                        including presentations in English and Spanish and a How-To for running an Open Knowledge Maps workshop.
                     </p>
                 </div>
 
-
-
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q12</span> Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q13</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         No doubt! 
@@ -201,7 +209,8 @@
                 </div>
 
                 <p class="faq">
-                    You couldn't find an answer to your question? <a class="underline" href="getintouch">Get in touch</a> and we will get back to you as soon as we can.
+                    You couldn't find an answer to your question? <a class="underline" href="getintouch">Get in touch</a> 
+                    and we will get back to you as soon as we can.
                 </p>
 
             </div>
