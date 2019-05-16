@@ -166,7 +166,7 @@
                     </p>
                     <p>Open Knowledge Maps was founded by Peter Kraker in 2015. 
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
-                        <a class="underline" href="https://github.com/OpenKnowledgeMaps/Headstart">the  open source visualization framework Headstart</a> out of frustration with the existing discovery tools for scientific knowledge.
+                        <a class="underline" target="_blank" href="https://github.com/OpenKnowledgeMaps/Headstart">the  open source visualization framework Headstart</a> out of frustration with the existing discovery tools for scientific knowledge.
                         In January 2016, Peter posted a <a class="underline" href="https://science20.wordpress.com/2016/01/27/call-for-collaborators-open-science-prize-project-on-open-discovery/" target="_blank">Call for Collaborators</a> 
                         on his blog, which brought a first team of volunteers together. Since 2016 Open Knowledge Maps is a <a class="underline" href="imprint">registered non-profit organization</a>. 
                     </p>
@@ -233,8 +233,8 @@
                         <span id="question-Q">Q15</span> How do I increase the visibility of my research online?
                     </p>
                     <p>
-                        We have created an own workshop for this topic entitled "Academic SEO". You can find a recording of this workshop <a class="underline" href="https://www.youtube.com/watch?v=kjKZxZmEXAU" target="_blank">on Youtube</a>. 
-                        We have also published the presentation including speaker notes and an introductory How-To <a class="underline" href="https://openknowledgemaps.org/community#training-materials" target="_blank">in our training materials</a>.
+                        We have created a workshop for this topic entitled "Academic SEO". You can find a recording of this workshop <a class="underline" target="_blank" href="https://www.youtube.com/watch?v=kjKZxZmEXAU" target="_blank">on Youtube</a>. 
+                        We have also published the presentation including speaker notes and a short introduction <a class="underline" href="https://openknowledgemaps.org/community#training-materials" target="_blank">in our training materials</a>.
                     </p>
                 </div>
 
