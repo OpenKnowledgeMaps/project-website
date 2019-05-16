@@ -33,11 +33,11 @@
                         depending on your choice - either the 
 
                         <a class="underline pointer" data-toggle="popover" title="PubMed" data-content="Comprises more 
-                           than 26 million citations for biomedical literature from MEDLINE, life science 
+                           than 29 million citations for biomedical literature from MEDLINE, life science 
                            journals, and online books. Citations may include links to full-text content from 
                            PubMed Central and publisher web sites.">PubMed</a> API or the <a class="underline pointer" data-toggle="popover" title="Bielefeld Academic Search Engine 
-                           (BASE)" data-content="Provides access to over 100 million documents from 
-                           more than 5,200 content sources in all disciplines.">BASE</a> API. 
+                           (BASE)" data-content="Provides access to over 140 million documents from 
+                           more than 7,100 content sources in all disciplines.">BASE</a> API. 
                         Both of them mainly use text similarity between your query and the article metadata to determine the relevance. PubMed has a detailed <a class="underline" href="https://www.ncbi.nlm.nih.gov/books/NBK3827/#pubmedhelp.Computation_of_Weighted_Relev" target="_blank">
                             description of their relevance ranking</a>. BASE uses Lucene (via Solr), which describe their ranking as well <a class="underline" href="http://lucene.apache.org/core/6_4_2/core/org/apache/lucene/search/package-summary.html#scoring" target="_blank">on this page</a>. 
                     </p>
@@ -118,21 +118,51 @@
                     </p>
                 </div>
                 
-                
-                    <div class="faq">
+                <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q7</span> How can I include my research / data source on Open Knowledge Maps?
+                        <span id="question-Q">Q7</span> How should I cite Open Knowledge Maps?
+                    </p>
+                    <ul class="faq-bullet-list">
+                        <li>To cite an individual map, please use the citation provided under each map. 
+                        <li>To cite the open source software Head Start, please see the read-me <a href="https://github.com/OpenKnowledgeMaps/Headstart#citation" target="_blank" class="underline"> on Github</a>. It also includes relevant research papers. 
+                        <li>To reference the website and the search, please use the following citation:
+                       <br><span class="citation">Open Knowledge Maps (2019). Open Knowledge Maps: A Visual Interface to the World's Scientific Knowledge. 
+                           <a href="https://openknowledgemaps.org" target="_blank" class="underline">https://openknowledgemaps.org</a></span>
+                    </ul>
+                </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q8</span> Where can I find more information on the background of Open Knowledge Maps?
+                    </p>
+                    <p>Please see <a href="https://github.com/OpenKnowledgeMaps/Headstart#Background" target="_blank" class="underline"> our Github page</a> for a list of relevant research papers and project reports.</p>
+                </div>
+                
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q9</span> How can I include my repository / data source on Open Knowledge Maps?
                     </p>
                     <p>
-                        
-                        plus link to Academic SEO <a class="underline" href="https://www.youtube.com/watch?v=kjKZxZmEXAU">youtube link</a>
-                        and <a class="underline" href="https://openknowledgemaps.org/community#training-materials">training materials</a>
+                        Open Knowledge Maps uses <a class="underline pointer" data-toggle="popover" title="Bielefeld Academic Search Engine 
+                           (BASE)" data-content="Provides access to over 140 million documents from 
+                           more than 7,100 content sources in all disciplines.">BASE</a> as its main data source. 
+                           You can check if your data source is already indexed by BASE <a href="https://www.base-search.net/about/en/suggest.php" class="underline" target="blank">on this page</a>. 
+                           If not, you can suggest it as a new source <a href="https://www.base-search.net/about/en/suggest_form.php?mainpage=suggest.php" class="underline" target="_blank">using this form</a>.
+                           <br>To get included in <a class="underline pointer" data-toggle="popover" title="PubMed" data-content="Comprises more 
+                           than 29 million citations for biomedical literature from MEDLINE, life science 
+                           journals, and online books. Citations may include links to full-text content from 
+                           PubMed Central and publisher web sites.">PubMed</a>, check if your journal is already included using information 
+                           <a href="https://www.nlm.nih.gov/bsd/serfile_addedinfo.html" class="underline" target="_blank">on this page</a>. If not, you can suggest it as a new title for MEDLINE
+                           <a href="https://wwwcf.nlm.nih.gov/lstrc/lstrcform/med/index.html" class="underline" target="_blank">on this page</a>.
+                           
+                          
                     </p>
                 </div>
                 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q8</span> How did Open Knowledge Maps come about?
+                        <span id="question-Q">Q10</span> How did Open Knowledge Maps come about?
                     </p>
                     <p>Open Knowledge Maps was founded by Peter Kraker in 2015. 
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
@@ -144,7 +174,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q9</span> Can Open Knowledge Maps connect to my data source?
+                        <span id="question-Q">Q11</span> Can I use Open Knowledge Maps to visualize my own collection(s)?
                     </p>
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
@@ -158,7 +188,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q10</span> How is Open Knowledge Maps funded?
+                        <span id="question-Q">Q12</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
                         We are a charitable non-profit organization run by a group of dedicated volunteers. 
@@ -172,7 +202,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q11</span> How can I contribute?
+                        <span id="question-Q">Q13</span> How can I contribute?
                     </p>
                     <p>
                         <a class="underline" href="http://localhost/WEBPACK-OKM/project-website/donate-now">You can contribute in a number of ways</a>: 
@@ -189,7 +219,7 @@
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q12</span> I would like to introduce Open Knowledge Maps to my peers. Do you have any materials available?
+                        <span id="question-Q">Q14</span> I would like to introduce Open Knowledge Maps to my peers. Do you have any materials available?
                     </p>
                     <p>
                         We do! 
@@ -197,13 +227,23 @@
                         including presentations in English and Spanish and a How-To for running an Open Knowledge Maps workshop.
                     </p>
                 </div>
+                
+                 <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q15</span> How do I increase the visibility of my research online?
+                    </p>
+                    <p>
+                        We have created an own workshop for this topic entitled "Academic SEO". You can find a recording of this workshop <a class="underline" href="https://www.youtube.com/watch?v=kjKZxZmEXAU" target="_blank">on Youtube</a>. 
+                        We have also published the presentation including speaker notes and an introductory How-To <a class="underline" href="https://openknowledgemaps.org/community#training-materials" target="_blank">in our training materials</a>.
+                    </p>
+                </div>
 
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q13</span> Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q16</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
-                        No doubt! 
+                        Absolutely! 
                         <a class="underline" href="projects">Check out our present and past collaboration projects</a> and learn more about how we can work together. 
                     </p>
                 </div>
