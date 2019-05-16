@@ -2,6 +2,7 @@
 <div class="featuredin" id="partnerdiv">
     <h2>Featured in</h2>
     <div class="partners">
+        <a href="https://open-access.net/startseite" target="_blank"><img src="https://open-access.net/fileadmin/logos/oa.svg" alt="Open Access Tage"></a>
         <a href="https://www.open-science-conference.eu/" target="_blank"><img src="./img/featuredin/openscienceconference.png" alt="Open Sciene Conference"></a>
         <a href="https://www.openminds.at/" target="_blank"><img src="./img/featuredin/openmindsaward.png" alt="Open Minds Award Austria"></a>
         <a href="http://reddit.com/" target="_blank"><img src="./img/featuredin/reddit.png" alt="reddit"></a>

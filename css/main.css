@@ -355,7 +355,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-repeat: no-repeat;
     background-size: auto;
     background-position: 50%;
-    background-color: #cacfd3;
+    background-color: white;
 }
 
 .work-with-us-contact {
@@ -2935,6 +2935,7 @@ time {
         display: block;
         width: 100%;
         margin-right: 0%;
+        background-color: #cacfd3;
     }
 
     .thankyou-page #about-page {
