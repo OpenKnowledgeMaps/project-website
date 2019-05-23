@@ -28,6 +28,119 @@
             <div class="newscollection">
 
                 <article class="newsitem">
+                    <a name="welcome-new-enthusiasts" class="anchor"></a>
+
+                    <a href="https://openknowledgemaps.org/community" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/ep-iteration2.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-05-23">23 May 2019</time>
+
+                        <h3 class="newsitem-headline">Welcome our new enthusiasts!</h3>
+
+
+                        <p class="newsitem-p">
+                             Our enthusiasts program continues and we are happy to announce this year's participants. The enthusiasts are power users and ambassadors from all over the world. They will give workshops on open discovery in their communities and collect feedback on how to better integrate Open Knowledge Maps into user workflows.
+                Our new enthusiasts are from 5 different countries that we haven't covered in our previous iteration. And for the first time we are going east to Indonesia - our largest growing user base.
+            </p>
+                        
+                        <p class="newsitem-p">
+                                Please welcome with us Dasapta Erwin Irawan, Georgia Bayliss-Brown, Justin Sègbédji Ahinon, Jeannette Ekstrøm, and Marcin Stępień!
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/community" target="_blank">
+                            Find out more about the program
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="new-partner-africarxiv" class="anchor"></a>
+
+                    <a href="http://info.africarxiv.org/" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/partner-africarxiv.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-05-23">23 May 2019</time>
+
+                        <h3 class="newsitem-headline">Welcome to our new partner AfricArXiv</h3>
+
+
+                        <p class="newsitem-p">
+                            At Open Knowledge Maps, our goal is that everyone can benefit from scientific knowledge, 
+                            regardless of origin and location. AfricArXiv (African Science Archive) is a free open access repository 
+                            for African scientists to share their research outputs in all scientific fields. We partner with AfricArxiv 
+                            to increase the visibility of African research and to help enable its discovery and reuse by researchers in 
+                            Africa and around the world.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            Justin Sègbédji Ahinon and Johanna Havemann, co-founders of AfricArxiv, say: 
+                            "We see Open Knowledge Maps as a strong partner to advance Open Science and Open Access 
+                            for African researchers and across the African continent. We look forward to collaborating 
+                            with Open Knowledge Maps in joint initiatives towards accelerated discoverability of 
+                            African scholars' achievements"
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="http://info.africarxiv.org/" target="_blank">
+                            Learn more about AfricArXiv
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="academic-seo-materials" class="anchor"></a>
+
+                    <a href="https://openknowledgemaps.org/community#training-materials" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/academic-seo-materials.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-05-23">23 May 2019</time>
+
+                        <h3 class="newsitem-headline">Available now: Training materials for our brand new workshop on Academic SEO</h3>
+
+
+                        <p class="newsitem-p">
+                            Earlier this year, Open Knowledge Maps founder Peter Kraker presented our new workshop on Academic SEO in a webinar 
+                            for the <a href="https://en.wikiversity.org/wiki/Wikimedia_Deutschland/Open_Science_Fellows_Program" target="_blank">Open Science Fellows Program</a> 
+                            of our partner Wikimedia Germany. A recording of the webinar is now 
+                            <a style="font-weight:bold;" href="https://www.youtube.com/watch?v=kjKZxZmEXAU" target="_blank">available here</a>.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            The workshop focuses on improving the visibility of your research online. You'll gain 
+                            a better understanding about how search engines and discovery tools work. Check out all 
+                            the practical tips to finally answer the question: 
+                            "How do I get my research to show up in search engines and discovery tools?"
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            The presentation slides, speaker notes and a short intro to Academic SEO are available on our website. You can use these materials to run your own workshops on the topic.
+    Or <a href="mailto:maxi@openknowledgemaps.org">get in touch</a> if you’d like to invite us to do a webinar or workshop at your institution.
+                        </p>
+
+                        
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/community#training-materials" target="_blank">
+                            Check out the materials
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
                     <a name="osc-keynote" class="anchor"></a>
 
                     <a href="https://www.open-science-conference.eu/" target="_blank">
