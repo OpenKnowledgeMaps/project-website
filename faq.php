@@ -118,6 +118,7 @@
                     </p>
                 </div>
                 
+                <a name=faq-cite-okmaps class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q7</span> How should I cite Open Knowledge Maps?
@@ -131,6 +132,7 @@
                     </ul>
                 </div>
                 
+                <a name=faq-info-background class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q8</span> Where can I find more information on the background of Open Knowledge Maps?
@@ -138,7 +140,7 @@
                     <p>Please see <a href="https://github.com/OpenKnowledgeMaps/Headstart#Background" target="_blank" class="underline"> our Github page</a> for a list of relevant research papers and project reports.</p>
                 </div>
                 
-                
+                <a name=faq-source-inclusion class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q9</span> How can I include my repository / data source on Open Knowledge Maps?
@@ -160,6 +162,7 @@
                     </p>
                 </div>
                 
+                <a name=faq-okmaps-history class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q10</span> How did Open Knowledge Maps come about?
@@ -171,7 +174,8 @@
                         on his blog, which brought a first team of volunteers together. Since 2016 Open Knowledge Maps is a <a class="underline" href="imprint">registered non-profit organization</a>. 
                     </p>
                 </div>
-
+                
+                <a name=faq-custom-solution class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q11</span> Can I use Open Knowledge Maps to visualize my own collection(s)?
@@ -185,7 +189,8 @@
                         Get in touch with your project proposal ideas at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
-
+               
+                <a name=faq-funding class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q12</span> How is Open Knowledge Maps funded?
@@ -199,7 +204,8 @@
                     <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
-
+                
+                <a name=faq-contribution class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q13</span> How can I contribute?
@@ -216,7 +222,8 @@
                     <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
                 </div>
-
+                
+                <a name=faq-introduction-training class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q14</span> I would like to introduce Open Knowledge Maps to my peers. Do you have any materials available?
@@ -228,6 +235,7 @@
                     </p>
                 </div>
                 
+                <a name=faq-increase-visibility class="anchor"></a>
                  <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q15</span> How do I increase the visibility of my research online?
@@ -237,7 +245,8 @@
                         We have also published the presentation including speaker notes and a short introduction <a class="underline" href="https://openknowledgemaps.org/community#training-materials" target="_blank">in our training materials</a>.
                     </p>
                 </div>
-
+                
+                <a name=faq-collaboration-availability class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
                         <span id="question-Q">Q16</span> Are you available for collaborations and joint projects?
