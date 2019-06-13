@@ -205,7 +205,7 @@
                         <span id="question-Q">Q13</span> How can I contribute?
                     </p>
                     <p>
-                        <a class="underline" href="http://localhost/WEBPACK-OKM/project-website/donate-now">You can contribute in a number of ways</a>: 
+                        <a class="underline" href="donate-now">You can contribute in a number of ways</a>: 
                         we love to hear <a class="underline" href="getintouch">your feedback and ideas</a> as this helps us to improve 
                         Open Knowledge Maps. If you like the project, please spread the word as far as you can.<br>
                         <!--We are also looking for open source programmers. If you know your way around PHP, R, or JavaScript and would be able to spare
