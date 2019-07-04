@@ -2,7 +2,7 @@
 
     <div class="alert alert-warning" id="desktop-warning">
 
-        <a href="#" class="close" data-dismiss="alert">&times;</a>
+        <a class="close" data-dismiss="alert">&times;</a>
 
         Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps.
         <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">More info on this map</a>. 
