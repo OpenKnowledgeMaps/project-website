@@ -71,7 +71,7 @@
                     Members in this category make a more substantial impact on Open Knowledge Maps’ sustainability. Sustaining members’ contribution is acknowledged on the Open Knowledge Maps website and in selected other materials, where they are listed with their logo. In addition, sustaining members have 2 seats on the Board of Supporters.
                 </p>
 
-                <h3>Sustaining members - higher support</h3>
+                <h3>Sustaining members PLUS</h3>
                 <p class="underline">Membership fee: EUR 9,800/year or more</p>
                 <p>Members in this category contribute towards Open Knowledge Maps’ long-term sustainability. Their higher support is acknowledged on the Open Knowledge Maps website and in selected other materials, where they are listed with their logo in a special category. In addition, sustaining members in this category have 3 seats on the Board of Supporters.</p>
                 <h3 style="color:#e55137; margin-top: 30px; font-size:22px;">Get in touch</h3>
