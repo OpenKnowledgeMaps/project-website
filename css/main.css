@@ -220,16 +220,15 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 .landscape-teaser {
     text-align:center; 
     font-size:18px;
-    padding: 100px 20px;
     background-image:url(../img/enthusiasts/workshop-teaser-desktop2.png);
-    background-size: 100%;
+    background-size: cover;
     background-color: #eff3f4;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .landscape-teaser-text {
-    padding:30px; 
+    padding: 100px 20px; 
     max-width:550px; 
     background-color: transparent; 
     text-align:center; 
@@ -250,6 +249,16 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 .cc-color-override-446009254.cc-window {
     max-width: 1600px;
     margin: 0px auto;
+}
+
+/*Become a supporting Member*/
+.membership .vision:hover {
+    cursor: auto;
+    opacity: 1;
+    border-bottom: 0px solid #2c3e52;
+}
+.membership .vision {
+    border-bottom: 0px solid #2c3e52;
 }
 
 /*PROJECT PAGE*/
@@ -380,6 +389,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 .mobile-img {
     display: none;
+    margin: 0px auto;
 }
 
 .work-with-us {
@@ -495,7 +505,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: white;
 }
 
-#home #partnerdiv, .about-page #partnerdiv, .vis #partnerdiv {
+.about-page #partnerdiv, .vis #partnerdiv {
     background-color: #eff3f4;
 }
 /*.vis #newsletterdiv {
@@ -558,6 +568,11 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     max-width:1600px;
     width:100%;
     margin: 0px auto;
+}
+
+.membership .partners img {
+    max-height: 40px;
+    margin: 0px 30px 30px 0px;
 }
 
 #networkdiv {
@@ -932,7 +947,7 @@ address a:hover, address a:focus, address a:active {
 .getintouch {    
     background-color: #2d3e52;
     font-size: 16px;
-    padding: 50px;
+    padding: 4%;
     color: white;
 }
 
@@ -1159,8 +1174,8 @@ a .number:hover {
 .info {
     display:inline-block; 
     vertical-align:top;
-    margin-right: 40px;
-    max-width: 300px;
+    margin-right: 3%;
+    max-width: 20%;
     font-size: 16px;
     margin-bottom: 20px;
     text-align: left;
@@ -1171,7 +1186,8 @@ a .number:hover {
 }
 
 .okm-ngo {
-    max-width: 400px;
+    max-width: 28%;
+    margin-left: 0%;
 }
 
 .partners {
@@ -2925,6 +2941,10 @@ time {
     .landscape-teaser {
         background-image: none;
         padding: 20px 20px 50px;
+    }
+    
+    .landscape-teaser-text {
+        padding: 0px 20px;
     }
 
     .thank-you-desktop, .desktop-img {

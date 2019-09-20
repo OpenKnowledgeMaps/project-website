@@ -15,7 +15,7 @@
         <li><a href="news">News</a></li>
         <li><a href="faq">FAQs</a></li>
         <li><a href="getintouch">Get in touch</a></li>
-        <li><a href="donate-now" style="color: #f29e00;"><i class="fa fa-heart" aria-hidden="true"></i> Support us</a></li>
+        <li><a href="supporting-membership" style="color: #f29e00;"><!--<i class="fa fa-heart" aria-hidden="true"></i>--> Become a supporting member</a></li>
         <!--<a href="index#supportus" style="color: #E55137;"><li><i class="fa fa-heart" aria-hidden="true"></i> Support us</li></a>-->
     </ul>
 </div>
@@ -42,11 +42,7 @@
     <li><a href="news">News</a></li>
     <li><a href="faq">FAQs</a></li>
     <li><a href="getintouch">Get in touch</a></li>
-    <li class="donation-menu-entry">
-        <a class="donation-button" href="donate-now">
-            <i class="fa fa-heart" aria-hidden="true"></i> 
-            Support us</a>
-    </li>
+    <li class="donation-menu-entry"><a class="donation-button" href="supporting-membership">Become a supporting member</a></li>
 </ul>
 
 <script type="text/javascript">

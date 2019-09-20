@@ -66,7 +66,7 @@
                         <img src="./img/team/asura.png" alt="Asura">
                         <ul>
                             <li class="name">Asura Enkhbayar</li>
-                            <li class="job-title">Software Architect</li>
+                            <li class="job-title">Frontend Developer</li>
                         </ul>
 
                         <ul class="contact-member">
