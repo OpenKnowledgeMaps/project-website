@@ -38,6 +38,5 @@
         //include($COMPONENTS_PATH . 'commentstream.php');
         ?>            
         <?php include($COMPONENTS_PATH . "project-work-with-us.php"); ?>
-        <div class="inverseproposal"><?php include($COMPONENTS_PATH . "getintouch-box.php"); ?></div>
         <?php include($COMPONENTS_PATH . "project-team.php"); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

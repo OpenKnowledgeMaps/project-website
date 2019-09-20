@@ -24,7 +24,7 @@
                 </div>
             </div>
         </div>
-
+        <a name="advantages"></a>
         <?php include($COMPONENTS_PATH . "benefits.php") ?>
         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
         
