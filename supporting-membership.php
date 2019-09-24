@@ -13,7 +13,7 @@
         <div id="news">
             <div class="background2" style="background-color: #eff3f4;">
                 <div class="team">
-                    <h2 style="color: #2d3e52;">Become a Supporting Member
+                    <h2 style="color: #2d3e52;">Supporting Membership for Organizations
                     </h2>
                     <p>Open Knowledge Maps is a charitable non-profit.
                         All of our services are free and open. There are no license fees and no lock-in effects. To provide a sustainable platform for open discovery, 
@@ -91,7 +91,7 @@
 
                 <div style="display: inline-block; max-width:46%; vertical-align: middle; text-align:left;">
                     <p class="project-facts" style="font-size: 22px;">
-                        <b style="color:#51c9ae;">With your membership you support our openly licensed services, content, data and software. 
+                        <b style="color:#51c9ae;">With your membership, you support our openly licensed services, content, data, and software. 
                             Our offering includes:
                         </b>
                     </p>
@@ -126,11 +126,11 @@
 
             <div id="mission">
                 <div id="more-info">
-                    <h2 class="h2reverse" style="padding: 0 20px 20px;">How to become a supporting member?</h2>
+                    <h2 class="h2reverse" style="padding: 0 20px 20px;">How to become a supporting member</h2>
 
                     <p style="text-align: center; font-size: 18px; max-width:750px; margin: 0px auto;">
                         We currently offer supporting memberships in three categories. 
-                        If your organization is interested to become a member please contact Open Knowledge Maps founder and chairman 
+                        If your organization is interested in becoming a member, please contact Open Knowledge Maps founder and chairman 
                         Dr. Peter Kraker at: <a class="underline" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
                     </p>
 
@@ -151,7 +151,7 @@
                     <div class="vision" style="min-height: 20px;">
                         <p style="text-align: center;"><i class="fa fa-user"></i><i class="fa fa-user"></i></p>
                         <h2 style="text-transform: none; font-size: 18px;">                            
-                            Sustaining members
+                            Sustaining member
                         </h2>
 
                         <ul class="project-facts" style="list-style: circle; margin-left: 10px;">
@@ -166,7 +166,7 @@
                     <div class="vision" style="min-height: 20px;">
                         <p style="text-align: center;"><i class="fa fa-user"></i><i class="fa fa-user"></i><i class="fa fa-user"></i></p>
                         <h2 style="text-transform: none; font-size: 18px;">
-                            Sustaining members PLUS
+                            Sustaining member PLUS
                         </h2>
 
                         <ul class="project-facts" style="list-style: circle; margin-left: 10px;">
