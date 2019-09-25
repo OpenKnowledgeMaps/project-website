@@ -4,7 +4,7 @@
 
     <div class="info okm-ngo">
         <h3 style="margin-bottom: 10px;">Open Knowledge Maps</h3>
-        is a charitable non-profit organization dedicated to improving the visibility 
+        We are a charitable non-profit organization dedicated to improving the visibility 
         of scientific knowledge for science and society.
         <br><br>
         Unless otherwise noted, all content on openknowledgemaps.org is licensed under a 
@@ -12,25 +12,17 @@
         Our software is open source and hosted <a class="licenselink" href="https://github.com/OpenKnowledgeMaps" target="_blank">on Github</a>.
         <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img class="licenseimg"src="./img/cc-by.png" alt="licensed under cc by"></a>
     </div>
-
-
+    
     <div class="info">
-        <h3 style="margin-bottom: 10px;">Help sustain OKMaps</h3>
+        <h3 style="margin-bottom: 10px;">Support us</h3>
         
         <ul class="nav_bottom">
             <li><a href="donate-now"><span class="awesome">&#xf004;</span> Make a donation</a></li>
             <li><a href="supporting-membership"><span class="awesome">&#xf0c1;</span> Become a supporting member</a></li>
+            <li><a href="community#training-materials"><span class="awesome">&#xf03e;</span> Training Materials</a></li>
         </ul>
     </div>
-
-    <!--<div class="info">
-        <h3 style="margin-bottom: 10px;">Newsletter sign-up</h3>
-        Receive regular updates on the newest improvements.
-        <ul class="nav_bottom">
-        <li><a href="http://eepurl.com/dvQeGP" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
-        </ul>
-    </div>-->
-
+    
     <div class="info">
         <address><h3 style="margin-bottom: 10px;">Contact us</h3>
             <ul class="nav_bottom">
@@ -50,7 +42,6 @@
             <li><a href="privacy"><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
             <li><a href="datenschutz"><span class="awesome">&#xf023;</span> Datenschutzerklärung</a></li>
             <li><a href="community-guidelines"><span class="awesome">&#xf0c0;</span> Community Participation Guidelines</a></li>
-            <li><a href="community#training-materials"><span class="awesome">&#xf03e;</span> Training Materials</a></li>
             <li><a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank"><span class="awesome">&#xf278;</span> Roadmap</a></li>
             <!--<li class="seitenanfang"><a href="#top"><span class="awesome">&#xf106;</span> back to top</a></li>-->
         </ul>
