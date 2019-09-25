@@ -15,7 +15,7 @@
         <li><a href="news">News</a></li>
         <li><a href="faq">FAQs</a></li>
         <li><a href="getintouch">Get in touch</a></li>
-        <li><a href="supporting-membership" style="color: #f29e00;"><!--<i class="fa fa-heart" aria-hidden="true"></i>--> Become a supporting member</a></li>
+        <li><a href="supporting-membership" style="color: #51c9ae;"><!--<i class="fa fa-heart" aria-hidden="true"></i>--> Become a supporting member</a></li>
         <!--<a href="index#supportus" style="color: #E55137;"><li><i class="fa fa-heart" aria-hidden="true"></i> Support us</li></a>-->
     </ul>
 </div>

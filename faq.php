@@ -200,6 +200,10 @@
                         Currently, we are looking for funding for <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">our roadmap</a> to realize the full potential of the idea.
                         If you are interested in funding this effort, please contact us on <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
+                    
+                    <p>We propose to fund Open Knowledge Maps in a collective effort. Organizations are invited to <a class="underline" href="supporting-membership">become supporting members</a> and co-create the platform with us. 
+                        If your organization is interested to become a supporting member please get in touch with founder Peter Kraker at: 
+                        <a class="underline" href="mailto:info@openknowledgemaps.org">pkraker@openknowledgemaps.org</a></p>
 
                     <p>You can also help sustain Open Knowledge Maps by <a class="underline" href="donate-now"> making a donation</a>.
                     </p>
