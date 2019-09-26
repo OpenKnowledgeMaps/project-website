@@ -84,20 +84,18 @@
                 <h2 class="h2reverse">What does a membership entail?</h2>
 
                 <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
-                    <p class="project-facts">
+                     <p class="project-facts">
                         <b>As a member you have a say in the future of Open Knowledge Maps!</b>
-                        Our supporting members are directly involved in the decision-making process by way of the Board of Supporters.                       
+                        Our supporting members are directly involved in the decision-making process by way of the Board of Supporters. 
                     </p>
 
-                    <p class="project-facts">
-                        <b>The Board of Supporters provides input on the technical roadmap</b>
-                        and has one third of the vote on what features and sources are implemented on Open Knowledge Maps. 
-                        To acknowledge their contribution, members are listed on our website and in select materials. Take a look at our <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md">current roadmap</a>.
+                    <p class="project-facts""><b>The Board of Supporters provides input on the technical roadmap</b>
+                        and has one third of the vote on what features and sources are implemented on Open Knowledge Maps.
+                        This is done in a lightweight way via two short web forms. It is up to the members to which extent they choose to engage with this process.
+                        
                     </p>
-
-                    <p class="project-facts">
-                        <a class="underline" href=""><i class="fa fa-download"></i> Download a PDF</a> 
-                        which contains all the necessary information displayed on this page.
+                    
+                    <p class="project-facts"><b>To acknowledge our members' contribution,</b> they are listed on our website and in select materials. For more information on this, please consult the membership categories below.
                     </p>
                 </div>
             </div>
@@ -150,10 +148,10 @@
                     </div>
 
                     <p class="try-now" style="text-align: center; margin:30px 0;">
-                        <a target="_blank" class="donate-now" style="" href="mailto:maxi@openknowledgemaps.org">Get in touch via email</a>
+                        <a target="_blank" class="donate-now" style="" href="mailto:pkraker@openknowledgemaps.org">Get in touch via email</a>
                     </p>
 
-                    <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
+                    <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">                        
                         <p class="project-facts" style="text-align: center;">
                             All membership enquiries are handled by
                             Dr. Peter Kraker. Please get in touch at:
@@ -168,6 +166,15 @@
                             <li class="job-title">Founder & Chairman</li>
                         </ul>
                     </div>
+                    
+                    <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">  
+                    
+                        <p class="project-facts">
+                            <a class="underline" href=""><i class="fa fa-download"></i> Download our flyer</a>, 
+                            which contains a summary of the information displayed on this page.
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
