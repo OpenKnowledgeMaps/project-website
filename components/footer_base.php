@@ -5,7 +5,7 @@
     <div class="info okm-ngo">
         <h3 style="margin-bottom: 10px;">Open Knowledge Maps</h3>
         We are a charitable non-profit organization dedicated to improving the visibility 
-        of scientific knowledge for science and society.
+        of scientific knowledge for science and society. <a class="underline" style="color: white;" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">Check out our <!--<span class="awesome">&#xf278;</span>--> roadmap</a> to find out more.
         <br><br>
         Unless otherwise noted, all content on openknowledgemaps.org is licensed under a 
         <a class="licenselink" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.
@@ -36,13 +36,14 @@
     </div>
 
     <div class="info" style="margin-right: 0px;">
-        <h3 style="margin-bottom: 10px;">Details</h3>
+        <h3 style="margin-bottom: 10px;">Legal & Privacy</h3>
         <ul class="nav_bottom">
-            <li><a href="imprint"><span class="awesome">&#xf0c1;</span> Impressum / Legal Notice</a></li>
+            <li><a href="imprint#legalnotice"><span class="awesome">&#xf0c1;</span> Legal Notice</a></li>
             <li><a href="privacy"><span class="awesome">&#xf023;</span> Privacy Policy</a></li>
+            <li><a href="imprint#impressum"><span class="awesome">&#xf0c1;</span> Impressum</a></li>
             <li><a href="datenschutz"><span class="awesome">&#xf023;</span> Datenschutzerklärung</a></li>
-            <li><a href="community-guidelines"><span class="awesome">&#xf0c0;</span> Community Participation Guidelines</a></li>
-            <li><a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank"><span class="awesome">&#xf278;</span> Roadmap</a></li>
+            <li><a href="community-guidelines"><span class="awesome">&#xf0c0;</span> Community Guidelines</a></li>
+            
             <!--<li class="seitenanfang"><a href="#top"><span class="awesome">&#xf106;</span> back to top</a></li>-->
         </ul>
     </div>
