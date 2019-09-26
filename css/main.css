@@ -216,6 +216,15 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-color: transparent;
 }
 
+/*Graph vis*/
+.graphvis .landscape-teaser-text {
+    max-width: 750px;
+}
+
+.graphvis .landscape-teaser {
+    background-image: none;
+}
+
 /*WORKSHOP TEASER*/
 .landscape-teaser {
     text-align:center; 

@@ -157,16 +157,18 @@
 
         <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>
 
-<div style="border-top: 0px solid #cacfd3; padding: 50px 20px;">
-    <p class="try-now" style="text-align: center; margin:0px 0 0;">
-        <a target="_blank" class="donate-now" href="index">Create a new map</a>
-    </p>
-</div>
+        <!--<div style="border-top: 0px solid #cacfd3; padding: 50px 20px;">
+            <p class="try-now" style="text-align: center; margin:0px 0 0;">
+                <a target="_blank" class="donate-now" href="index">Create a new map</a>
+            </p>
+        </div>-->
+            
         <?php
         
         //include($COMPONENTS_PATH . 'supportus.php');
         //include($COMPONENTS_PATH . 'donation-section.php');
-        include($COMPONENTS_PATH . 'newsletter.php');
+        //include($COMPONENTS_PATH . 'newsletter.php');
+        include($COMPONENTS_PATH . 'graph-vis-teaser.php');
         include($COMPONENTS_PATH . 'footer_base.php');
         ?>
 
