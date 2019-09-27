@@ -13,9 +13,9 @@
         <div id="imprint">
             <div style="max-width: 750px; width:100%; margin: 0px auto;">
 
-                <ul>
-                    <li><a class="underline" target="_blank" class="underline" href="privacy">Privacy policy in English</a></li>
-                </ul>
+                <p>
+                    <a class="underline" target="_blank" class="underline" href="privacy">Privacy policy in English</a>
+                </p>
 
                 <h2>Datenschutzerklärung</h2>
                 <p>
