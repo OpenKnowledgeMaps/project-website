@@ -6,8 +6,8 @@
                 <p>
                     <img class="okm-icon" src="./img/icons/visual-interface.png">
                 </p>
-                <h2>Visual interface</h2>
-                <p>We are creating a visual interface to the world's scientific knowledge that dramatically increases the visibility of research findings for science and society alike.
+                <h2>Revolutionizing discovery</h2>
+                <p>Open Knowledge Maps is the world's largest visual search engine for scientific knowledge. We dramatically increase the visibility of research findings for science and society alike.
                     <br><br><span style="font-weight: bold;">learn more about us</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
@@ -18,9 +18,9 @@
                 <p>
                     <img class="okm-icon" src="./img/icons/discovery.png">
                 </p>
-                <h2>Revolutionize discovery</h2>
-                <p>We are going to provide a large-scale system of open, interactive and interlinked knowledge maps
-                    for every research topic, every field and every discipline. <br><br><span style="font-weight: bold;">check out our roadmap</span></p>
+                <h2>Open and nonprofit</h2>
+                <p>We are a charitable non-profit organization based on the principles of open science. Our aim is to create an inclusive, sustainable and equitable infrastructure that can be used by anyone.
+                    <br><br><span style="font-weight: bold;">check out our roadmap</span></p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
 
             </div>

@@ -93,7 +93,7 @@
 
                     <p class="project-facts"><b>The Board of Supporters provides input on the technical roadmap</b>
                         and has one third of the vote on what features and sources are implemented on Open Knowledge Maps.
-                        This is done in a lightweight way via two short web forms. It is up to the members to which extent they choose 
+                        This is done in a lightweight process via two short web forms. It is up to the members to which extent they choose 
                         to engage with this process.
                     </p>
 
