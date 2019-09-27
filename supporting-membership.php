@@ -22,7 +22,7 @@
                         we propose to fund Open Knowledge Maps in a collective effort: 
                         organizations become supporting members and provide a yearly contribution. 
                         In return, our supporting members are invited to co-create the platform with us.      
-                        Find more details below or <a class="underline" href=""><i class="fa fa-download"></i> download our flyer</a>, 
+                        Find more details below or <a class="underline" href="./img/supporting-members/open-knowledge-maps-supporting-membership.pdf"><i class="fa fa-download"></i> download our flyer</a>, 
                         which contains a summary of the information displayed on this page.
                     </p>
                 </div>
@@ -101,7 +101,7 @@
                     </p>
 
                     <p class="project-facts">
-                        <a class="underline" href=""><i class="fa fa-download"></i> Download our flyer</a>, 
+                        <a class="underline" href="./img/supporting-members/open-knowledge-maps-supporting-membership.pdf"><i class="fa fa-download"></i> Download our flyer</a>, 
                         which contains a summary of the information displayed on this page.
                     </p>
                 </div>
