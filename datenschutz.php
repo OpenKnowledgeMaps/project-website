@@ -123,10 +123,16 @@
                     einen Webanalysedienst, der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). 
                     Mehr Informationen hierzu finden Sie im Punkt "Verwendung der Schriftarten von Google", "Verwendung des Content Distribution 
                     Networks von Google" und "Verwendung von Google Analytics".
+                </p>
+                <p>
                     Wir nutzen außerdem die Dienste der Firma Twitter. Mehr Informationen hierzu finden Sie unter dem Punkt "Social Plugins".
+                </p>
+                <p>
                     Außerdem verwenden wir den DSGVO-konformen Service MailChimp. Mailchimp ist ein automatisierter Marketing-Service der Firma 
                     The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). Mehr Informationen dazu 
                     finden Sie unter dem Punkt "Newsletter".
+                </p>
+                <p>
                     Wir verwenden den GDPR-konformen Service hypothesis.is, einen Web-Annotationsservice der 
                     vom HYPOTHES.IS PROJECT (2261 Market Street 632, San Francisco, CA, 94114 Vereinigte Staaten von Amerika) bereitgestellt wird. 
                     Für weitere Informationen siehe "Social Plugins" weiter unten.
@@ -136,6 +142,10 @@
                     (dem Mutterkonzern von PayPal (Europe) S.à r.l. et Cie, S.C.A.), verortet in Kalifornien, USA. 
                     Mehr Informationen zu den von PayPal verarbeiteten Daten und PayPal's Datenschutzgrundsätzen finden sie hier
                     <a class="underline" target="_blank" href="https://www.paypal.com/at/webapps/mpp/ua/privacy-full?locale.x=de_AT">https://www.paypal.com/at/webapps/mpp/ua/privacy-full?locale.x=de_AT</a>.
+                </p>
+                <p>
+                    Wir verwenden auf dieser Seite Funktionen des Videodienstes Vimeo, der Firma Vimeo, Inc. (555 West 18th Street, New York, New York 10011, USA). 
+                    Mehr Information finden Sie unter dem Punkt “Videos”.
                 </p>
                 <p>
                     Eine darüber hinausgehende Weitergabe von Daten durch uns an Dritte findet nicht statt.
@@ -331,11 +341,20 @@
                 </p>
 
                 <p>
-                    Auch auf unseren Seiten eingebettete Webseiten-Elemente von Twitter (siehe auch "Social Plugins") verwenden Cookies. 
+                    Auf unseren Seiten eingebettete Webseiten-Elemente von Twitter (siehe auch "Social Plugins") verwenden Cookies. 
                     Open Knowledge Maps hat keinen Zugriff auf diese Daten und wertet Sie nicht aus. Twitter verwendet diese Cookies unter anderem zur Optimierung des Services und zum Verständnis, wie Social Plugins genutzt werden. Twitter verwendet diese Cookies möglicherweise auch, um Nutzer zu identifizieren, auch über die Grenzen dieser Webseite hinaus, und - falls Sie einen Twitter Account besitzen und eingeloggt sind - um ihre Aktivitäten mit diesem Account zu verknüpfen.
                     Mehr Information zur Nutzung von Cookies von Twitter finden Sie unter
                     <a class="underline" target="_blank" href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> und unter
                     <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>.
+                </p>
+                <p>Auch auf unseren Seiten eingebettete Webseiten-Elemente von Vimeo (siehe auch “Videos”) verwenden Cookies. Vimeo 
+                    verwendet diese Cookies unter anderem zur Optimierung ihres Service und zum Verständnis, wie Videos genutzt werden. 
+                    Vimeo verwendet diese Cookies möglicherweise auch, um Nutzer zu identifizieren, auch über die Grenzen dieser Webseite hinaus, 
+                    und – falls Sie einen Vimeo-Account besitzen und eingeloggt sind – um ihre Aktivitäten mit diesem Account zu verknüpfen. 
+                    Open Knowledge Maps hat keinen Einfluss, welche Daten Vimeo mit Hilfe der Webseiten-Elemente überträgt. 
+                    Mehr Information zur Nutzung von Cookies finden Sie hier: 
+                    <a class="underline" target="_blank" href="https://vimeo.com/cookie_policy">https://vimeo.com/cookie_policy</a> und 
+                    <a class="underline" target="_blank" href="https://vimeo.com/privacy">https://vimeo.com/privacy</a>
                 </p>
 
                 <h3>Google Analytics</h3>

@@ -21,7 +21,9 @@
                         To provide a sustainable platform for open discovery, 
                         we propose to fund Open Knowledge Maps in a collective effort: 
                         organizations become supporting members and provide a yearly contribution. 
-                        In return, our supporting members are invited to co-create the platform with us.
+                        In return, our supporting members are invited to co-create the platform with us.      
+                        Find more details below or <a class="underline" href=""><i class="fa fa-download"></i> download our flyer</a>, 
+                        which contains a summary of the information displayed on this page.
                     </p>
                 </div>
             </div>
@@ -37,7 +39,7 @@
                         With more than 2.5 million papers published every year, discovery becomes increasingly difficult. 
                         Our revolutionary search engine enables researchers, students, and practitioners to quickly identify relevant resources. 
                         Instead of long, unstructured lists of search results, we create rich visual overviews of research topics, 
-                        so-called knowledge maps. <a class="underline" href="about#advantages">Find out more</a>
+                        so-called knowledge maps. <a class="underline" href="about#advantages">Find out more about our discovery tool here.</a>
                     </p>
 
                     <p class="project-facts">
@@ -84,18 +86,23 @@
                 <h2 class="h2reverse">What does a membership entail?</h2>
 
                 <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
-                     <p class="project-facts">
+                    <p class="project-facts">
                         <b>As a member you have a say in the future of Open Knowledge Maps!</b>
                         Our supporting members are directly involved in the decision-making process by way of the Board of Supporters. 
                     </p>
 
-                    <p class="project-facts""><b>The Board of Supporters provides input on the technical roadmap</b>
+                    <p class="project-facts"><b>The Board of Supporters provides input on the technical roadmap</b>
                         and has one third of the vote on what features and sources are implemented on Open Knowledge Maps.
-                        This is done in a lightweight way via two short web forms. It is up to the members to which extent they choose to engage with this process.
-                        
+                        This is done in a lightweight way via two short web forms. It is up to the members to which extent they choose 
+                        to engage with this process.
                     </p>
-                    
+
                     <p class="project-facts"><b>To acknowledge our members' contribution,</b> they are listed on our website and in select materials. For more information on this, please consult the membership categories below.
+                    </p>
+
+                    <p class="project-facts">
+                        <a class="underline" href=""><i class="fa fa-download"></i> Download our flyer</a>, 
+                        which contains a summary of the information displayed on this page.
                     </p>
                 </div>
             </div>
@@ -158,7 +165,7 @@
                             <a class="underline" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
                         </p>
                     </div>
-                    
+
                     <div class="member">
                         <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
                         <ul>
@@ -166,17 +173,17 @@
                             <li class="job-title">Founder & Chairman</li>
                         </ul>
                     </div>
-                    
-                    <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">  
+
+                    <!--<div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">  
                     
                         <p class="project-facts">
                             <a class="underline" href=""><i class="fa fa-download"></i> Download our flyer</a>, 
                             which contains a summary of the information displayed on this page.
                         </p>
-                    </div>
-                    
+                    </div>-->
                 </div>
             </div>
         </div>
-
+        
+        <?php include($COMPONENTS_PATH . "newsletter.php"); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
