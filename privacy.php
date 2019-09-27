@@ -138,6 +138,8 @@
                     <a class="underline" target="_blank" href="https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE">https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE</a>.
                 </p>
 
+                <p>We use web services of the video hosting service Vimeo, provided by the company Vimeo, Inc. (555 West 18th Street, New York, New York 10011, USA). For more information please see the section “Videos” further down.</p>
+
                 <p>
                     Apart from the aformentioned data processors, we do not transfer your data to any other third parties.
                 </p>
@@ -298,7 +300,7 @@
                     period of time, so you don’t have to keep re-entering them whenever you come back to the site or browse 
                     from one page to another.
                 </p>
-                
+
                 <h3>How do we use cookies?</h3>
                 <p>
                     We use cookies on our website to
@@ -334,6 +336,16 @@
                     You can find out more in the cookies section of the Hypothes.is privacy policy here: 
                     <a class="underline" target="_blank" href="https://web.Hypothes.is/privacy/#collecting-your-personal-information">
                         https://web.Hypothes.is/privacy/#collecting-your-personal-information</a>
+                </p>
+
+                <p>
+                    Website elements from Vimeo embedded on our website (see also “Videos”) also use cookies. 
+                    Vimeo uses these cookies for example to improve its service and to understand, how videos are used. 
+                    Vimeo possibly also uses these cookies to identify you as a user, even beyond the scope of this website, and in addition, 
+                    if you have a Vimeo account and are logged in, to link your activity to your account. You can find more information on 
+                    Vimeos use of cookies here:
+                    <a class="underline" target="_blank" href="https://vimeo.com/cookie_policy">https://vimeo.com/cookie_policy</a> and 
+                    <a class="underline" target="_blank" href="https://vimeo.com/privacy">https://vimeo.com/privacy</a>
                 </p>
 
                 <h3>Google Analytics</h3>
@@ -390,97 +402,97 @@
                 <p>                
                     <iframe style="border: 0; width: 600px; font-family: 'Open Sans';" src="https://openknowledgemaps.org/piwik_stats/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
                 </p>
-                <h3>How to control cookies</3>
-                <p>
-                    You can control and/or delete cookies as you wish – for details, see 
-                    <a class="underline" target="_blank" href="https://aboutcookies.org">aboutcookies.org</a>. 
-                    You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. 
-                    If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services 
-                    and functionalities may not work as expected.
-                </p>
-                
-                <h3>Newsletter</h3>
-                <p>
-                    If you subscribe to our newsletter you submit your personal data (email and name) and you give us permission to 
-                    contact you via email.
-                    We use the data provided to send you periodic updates on our services and other news concerning our organization 
-                    Open Knowledge Maps via email.
-                </p>
+                <h3>How to control cookies</h3>
+                    <p>
+                        You can control and/or delete cookies as you wish – for details, see 
+                        <a class="underline" target="_blank" href="https://aboutcookies.org">aboutcookies.org</a>. 
+                        You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. 
+                        If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services 
+                        and functionalities may not work as expected.
+                    </p>
 
-                <p>
-                    You can unsubscribe at any time by clicking on a dedicated link in the newsletter, in which case we will also delete your data.
-                </p>
-                <p>
-                    You can also view and update your data by clicking on a dedicated link in the newsletter.
-                </p>
-                <p>
-                    We use a GDPR-compliant service such as MailChimp to manage your data, to send out emails and to conduct statistical 
-                    analysis of our newsletter use. MailChimp is a marketing automation service provided by The Rocket Science Group, LLC
-                    675 Ponce de Leon Ave NE
-                    Suite 5000
-                    Atlanta, GA 30308 USA
-                    By signing up for our newsletter you acknowledge that the information you provide will be transferred to MailChimp for processing in accordance with their Privacy Policy and Terms:
-                    <a class="underline" target="_blank" href="https://mailchimp.com/legal/privacy/">https://mailchimp.com/legal/privacy/</a>
-                    <a class="underline" target="_blank" href="https://mailchimp.com/legal/terms/">https://mailchimp.com/legal/terms/</a>
-                </p>
+                    <h3>Newsletter</h3>
+                    <p>
+                        If you subscribe to our newsletter you submit your personal data (email and name) and you give us permission to 
+                        contact you via email.
+                        We use the data provided to send you periodic updates on our services and other news concerning our organization 
+                        Open Knowledge Maps via email.
+                    </p>
 
-
-                <h3>Rights of the data subject - right of access, rectification, blocking, erasure, right to object</h3>
-                <p>You have the right to obtain from us free information about your personal data stored at any time. 
-                    You also have the right to rectification, blocking and, with the exception of legally mandated data storage. 
-                    Please contact us if you want to exercise these right. You can find the contact data above in the section "Controller".
-                </p>
-                <p>
-                    To fulfil your right to blocking of data, we need to store these data in a blocking file. 
-                    You can demand erasure of data, unless data archival is not legally mandated. If data storage is 
-                    legally mandated, we will block your data, if this is your wish. You can submit changes or a revocation 
-                    of a granted consent, with effect for the future.
-                </p>
-                <p>
-                    By contacting us using the contact data under "Processor", you can exercise the following rights at any time:
-                </p>
-                <ul style="list-style: disc; margin-left:20px;">
-                    <li>Access to your personal data stored by us and their processing</li>
-                    <li>Rectification of inaccurate personal data</li>
-                    <li>Erasure of your personal data stored by us</li>
-                    <li>Restriction of processing of personal data, should we be legally bound to store data</li>
-
-                    <li>Object to processing of your personal data by us</li>
-                    <li>Data transfer, provided that you have consented to the data processing or have entered into a contract with us. If you have given consent, you can revoke consent at any time, with effect for the future.</li>
-                </ul>
-                <p>
-                    You can submit a complaint to the competent regulators at any time.
-                </p>
-
-                <h3>Changes to our privacy policy</h3>
-                <p>
-                    Our privacy policy is subject to change. We will adapt our privacy policy in order to comply with current legal requirements or to notify you of changes to our services.
-                    If you revisit our website make sure to read the changes to our privacy policy.
-                </p>
-                <!--<div id="imprint">
-                    <h2>Privacy Policy</h2>
-                    <p style="max-width:600px; margin:0px auto;">
-                        <br>
-                        <span class="bold">Analysis service</span>
-                        <br>Our website uses Piwik, a web analysis service which uses cookies (text files that are stored on your computer and allow us to analyse the use of our website). For this purpose, the usage information generated by the cookie (including your truncated IP address) is transferred to our server and stored for the purpose of analysing the use of our website, which in turn allows us to optimise the website accordingly. In this process, your IP address is anonymised immediately in order to ensure your anonymity as a user. The site usage information generated by the cookie is not passed on to third parties. You can block the use of cookies in your browser settings; however, you may not be able to use all of the functions offered on this website as a result.
-                        <br><br>
-                        If you do not consent to the storage and analysis of data on your visit to our website, you can block these actions at any time by clicking below. In such a case, an opt-out cookie will be stored on your device, meaning that Piwik will not collect session data from your visit.
-                        <br>
-                        <i>Note:</i> If you delete your cookies, your opt-out cookie will also be deleted, meaning that you will have to reactivate the cookie for your next visit to the site.
-                        <br><br>
-                        <span class="bold">Opt-out</span>
-                        <br>
-                        <iframe style="border: 0; width: 600px; font-family: 'Open Sans';" src="https://openknowledgemaps.org/piwik_stats/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
+                    <p>
+                        You can unsubscribe at any time by clicking on a dedicated link in the newsletter, in which case we will also delete your data.
+                    </p>
+                    <p>
+                        You can also view and update your data by clicking on a dedicated link in the newsletter.
+                    </p>
+                    <p>
+                        We use a GDPR-compliant service such as MailChimp to manage your data, to send out emails and to conduct statistical 
+                        analysis of our newsletter use. MailChimp is a marketing automation service provided by The Rocket Science Group, LLC
+                        675 Ponce de Leon Ave NE
+                        Suite 5000
+                        Atlanta, GA 30308 USA
+                        By signing up for our newsletter you acknowledge that the information you provide will be transferred to MailChimp for processing in accordance with their Privacy Policy and Terms:
+                        <a class="underline" target="_blank" href="https://mailchimp.com/legal/privacy/">https://mailchimp.com/legal/privacy/</a>
+                        <a class="underline" target="_blank" href="https://mailchimp.com/legal/terms/">https://mailchimp.com/legal/terms/</a>
+                    </p>
 
 
-                        <span class="bold">"Addthis" Bookmarking Tool</span>
-                        <br>
-                        This website contains "Addthis" plugins, which enable you to place bookmarks or share interesting contents of the website. "Addthis" uses cookies.
-                        The files thus created (such as the time of usage or the browser language) are passed on to the Add This LLC in the USA and are processed there. For more information on data processing by Add This LLC and the data protection provided by Add This LLC, please go to <a class="underline" target="_blank" href="www.addthis.com/privacy" target="_blank" class="underline" target="_blank">www.addthis.com/privacy</a>.
-                        <br><br>
-                        This website contains specific information about the type of processed data and their purpose. We do not process this data. By using the "Addthis" field you consent to data processing by Add This LLC to the extent specified on the web page of <a class="underline" target="_blank" href="www.addthis.com" target="_blank" class="underline" target="_blank">www.addthis.com</a>.
-                        You may withdraw your consent to the processing of your data at any time by the use of a  "Opt-Out cookie" that you can download here: <a class="underline" target="_blank" href="www.addthis.com/privacy/opt-out" target="_blank" class="underline" target="_blank">www.addthis.com/privacy/opt-out</a>
-                    </p>-->
+                    <h3>Rights of the data subject - right of access, rectification, blocking, erasure, right to object</h3>
+                    <p>You have the right to obtain from us free information about your personal data stored at any time. 
+                        You also have the right to rectification, blocking and, with the exception of legally mandated data storage. 
+                        Please contact us if you want to exercise these right. You can find the contact data above in the section "Controller".
+                    </p>
+                    <p>
+                        To fulfil your right to blocking of data, we need to store these data in a blocking file. 
+                        You can demand erasure of data, unless data archival is not legally mandated. If data storage is 
+                        legally mandated, we will block your data, if this is your wish. You can submit changes or a revocation 
+                        of a granted consent, with effect for the future.
+                    </p>
+                    <p>
+                        By contacting us using the contact data under "Processor", you can exercise the following rights at any time:
+                    </p>
+                    <ul style="list-style: disc; margin-left:20px;">
+                        <li>Access to your personal data stored by us and their processing</li>
+                        <li>Rectification of inaccurate personal data</li>
+                        <li>Erasure of your personal data stored by us</li>
+                        <li>Restriction of processing of personal data, should we be legally bound to store data</li>
+
+                        <li>Object to processing of your personal data by us</li>
+                        <li>Data transfer, provided that you have consented to the data processing or have entered into a contract with us. If you have given consent, you can revoke consent at any time, with effect for the future.</li>
+                    </ul>
+                    <p>
+                        You can submit a complaint to the competent regulators at any time.
+                    </p>
+
+                    <h3>Changes to our privacy policy</h3>
+                    <p>
+                        Our privacy policy is subject to change. We will adapt our privacy policy in order to comply with current legal requirements or to notify you of changes to our services.
+                        If you revisit our website make sure to read the changes to our privacy policy.
+                    </p>
+                    <!--<div id="imprint">
+                        <h2>Privacy Policy</h2>
+                        <p style="max-width:600px; margin:0px auto;">
+                            <br>
+                            <span class="bold">Analysis service</span>
+                            <br>Our website uses Piwik, a web analysis service which uses cookies (text files that are stored on your computer and allow us to analyse the use of our website). For this purpose, the usage information generated by the cookie (including your truncated IP address) is transferred to our server and stored for the purpose of analysing the use of our website, which in turn allows us to optimise the website accordingly. In this process, your IP address is anonymised immediately in order to ensure your anonymity as a user. The site usage information generated by the cookie is not passed on to third parties. You can block the use of cookies in your browser settings; however, you may not be able to use all of the functions offered on this website as a result.
+                            <br><br>
+                            If you do not consent to the storage and analysis of data on your visit to our website, you can block these actions at any time by clicking below. In such a case, an opt-out cookie will be stored on your device, meaning that Piwik will not collect session data from your visit.
+                            <br>
+                            <i>Note:</i> If you delete your cookies, your opt-out cookie will also be deleted, meaning that you will have to reactivate the cookie for your next visit to the site.
+                            <br><br>
+                            <span class="bold">Opt-out</span>
+                            <br>
+                            <iframe style="border: 0; width: 600px; font-family: 'Open Sans';" src="https://openknowledgemaps.org/piwik_stats/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
+    
+    
+                            <span class="bold">"Addthis" Bookmarking Tool</span>
+                            <br>
+                            This website contains "Addthis" plugins, which enable you to place bookmarks or share interesting contents of the website. "Addthis" uses cookies.
+                            The files thus created (such as the time of usage or the browser language) are passed on to the Add This LLC in the USA and are processed there. For more information on data processing by Add This LLC and the data protection provided by Add This LLC, please go to <a class="underline" target="_blank" href="www.addthis.com/privacy" target="_blank" class="underline" target="_blank">www.addthis.com/privacy</a>.
+                            <br><br>
+                            This website contains specific information about the type of processed data and their purpose. We do not process this data. By using the "Addthis" field you consent to data processing by Add This LLC to the extent specified on the web page of <a class="underline" target="_blank" href="www.addthis.com" target="_blank" class="underline" target="_blank">www.addthis.com</a>.
+                            You may withdraw your consent to the processing of your data at any time by the use of a  "Opt-Out cookie" that you can download here: <a class="underline" target="_blank" href="www.addthis.com/privacy/opt-out" target="_blank" class="underline" target="_blank">www.addthis.com/privacy/opt-out</a>
+                        </p>-->
             </div>
         </div>
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>
