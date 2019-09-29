@@ -111,6 +111,7 @@
                 </p>
 
                 <h3>Social Plug-ins</h3>
+                <h4>Twitter</h4>
                 <p>Wir verwenden auf dieser Webseiten-Elemente von Twitter, einem Social Network der Firma Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA). Webseiten-Elemente sind z.B. Buttons oder integrierte Inhalte. Wir nutzen Twitter, um Ihnen Posts über und Neuigkeiten von Open Knowledge Maps anzuzeigen.
                     Durch die Nutzung der Elemente von Twitter können auch personenbezogene Daten an Twitter übertragen werden. Wir überwachen diesen Datenaustausch nicht und speichern nichts darüber.
                 </p>
@@ -119,12 +120,18 @@
                      <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>.
                     Sollten Sie ein Konto bei Twitter haben, können Sie Ihre Datenschutzeinstellungen in den Konto- Einstellungen unter
                      <a class="underline" target="_blank" href="https://twitter.com/settings/account">https://twitter.com/settings/account</a> ändern.</p>
-                <p>Sie können die Funktionalitäten dieser Dienste über browser add-ons deaktivieren.
+                <p>Sie können die Funktionalitäten dieser Dienste über Browser Add-ons deaktivieren.
                 </p>
-
+                <h4>Hypothes.is</h4>
                 <p>Wir verwenden die Hypothes.is-Webdienste aus dem "HYPOTHES.IS PROJECT", einem Web-Annotationsprojekt, mit dem Sie Anmerkungen zu PDF-Artikeln von wissenschaftlichen Artikeln anzeigen und übermitteln können, die in Ihrer Open Knowledge Maps-Karte präsent sind. Wenn Sie bei einem der Dienste angemeldet sind, kann der Anbieter den Besuch unserer Website Ihrem Profil direkt bei diesem Anbieter zuordnen (siehe Abschnitt "Cookies"). Durch die Einbindung der Website-Elemente erhält der Anbieter die Information, dass Ihr Browser die entsprechende Seite unserer Website und den entsprechenden Artikel aufgerufen hat, auch wenn Sie kein Profil bei dem Anbieter haben oder zu diesem Zeitpunkt nicht eingeloggt sind. Diese Daten (einschließlich Ihrer IP-Adresse) werden von Ihrem Browser direkt an Hypothes.is übermittelt.
                 </p>
-                <p>Open Knowledge Maps hat keinen Einfluss, welche Daten Twitter mit Hilfe der Webseiten-Elemente überträgt. Wenn Sie mehr über die Nutzung Ihrer Daten durch Hypothes.is wissen möchten, finden Sie alle Informationen in der Hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
+                <p>Open Knowledge Maps hat keinen Einfluss, welche Daten Hypothes.is bei Nutzung des Annotationsdienstes überträgt. Wenn Sie mehr über die Nutzung Ihrer Daten durch Hypothes.is wissen möchten, finden Sie alle Informationen in der Hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
+                  Sie müssen sich von den Diensten dieses Anbieters abmelden, wenn Sie verhindern möchten, dass dieser Anbieter die über unsere Website gesammelten Daten direkt mit Ihrem Profil in diesem Dienst verknüpft. Sie können das Laden der Website-Elemente mit Browser-Add-Ons vollständig verhindern.
+                </p>
+                <h4>Vimeo</h4>
+                <p>Wir verwenden den Video-Hostingdienst Vimeo der Firma Vimeo Inc. (555 West 18th Street, New York, New York 10011, USA). Durch das Aufrufen von Seiten unserer Webseite, die Vimeo Videos integriert haben, werden Daten an Vimeo übertragen und von Vimeo gespeichert und ausgewertet. Dies trifft auch zu sollten Sie nicht bei Vimeo eingelogged sein oder keinen Vimeo Account besitzen. Sollten Sie ein Vimeo-Konto haben und angemeldet sein, werden diese Daten Ihrem persönlichen Konto und den darin gespeicherten Daten zugeordnet.
+                </p>
+                <p>Open Knowledge Maps hat keinen Einfluss, welche Daten Vimeo sammelt. Welche Daten von Vimeo erfasst werden und wofür diese Daten verwendet werden, können Sie auf <a class="underline" target="_blank" href="https://vimeo.com/privacy">https://vimeo.com/privacy</a> nachlesen.
                   Sie müssen sich von den Diensten dieses Anbieters abmelden, wenn Sie verhindern möchten, dass dieser Anbieter die über unsere Website gesammelten Daten direkt mit Ihrem Profil in diesem Dienst verknüpft. Sie können das Laden der Website-Elemente mit Browser-Add-Ons vollständig verhindern.
                 </p>
 
@@ -142,7 +149,7 @@
                     Wir tun das, weil dadurch unsere Webseite überall gleich aussieht, egal mit welchem Gerät - PC, Tablet, Smartphone - Sie sich diese ansehen.</p>
                 <p>Die Verwendung von Google Fonts erfolgt ohne Anmeldung und es werden keine Cookies von Google Fonts gesetzt. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Fonts übermittelt. Google erfasst lediglich die Nutzung der verwendeten Bibliotheken und Darstellungsvorgaben (CSS) und speichert diese Daten sicher.
                 </p>
-                <p>Die Datenschutzerklärung von Google finden sie hier: 
+                <p>Die Datenschutzerklärung von Google finden sie hier:
                      <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.
                 </p>
                 <p>Weitere Details bezüglich der Google-Schriftarten - bestimmt für Entwickler - finden Sie hier:
@@ -152,7 +159,7 @@
                 <h3>Verwendung des Content Distribution Networks von Google</h3>
                 <p>Wir verwenden Google Hosted Libraries, ein Content Distribution Network (CDN) der Firma Google LLC (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) auf unserer Webseite. Das CDN stellt sicher, dass für die Ausführung und Darstellung unsere Webseite benötigte Programmbibliotheken und Darstellungsvorgaben (CSS) schnell und zuverlässig geladen werden können, unabhängig von ihrem Standort.</p>
                 <p>Die Verwendung von Google Hosted Libraries erfolgt ohne Anmeldung und es werden keine Cookies von Google Hosted Libraries gesetzt. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Hosted Libraries übermittelt. Google erfasst lediglich die Nutzung der verwendeten Bibliotheken und Darstellungsvorgaben (CSS) und speichert diese Daten sicher.</p>
-                <p>Die Datenschutzerklärung von Google finden sie hier: 
+                <p>Die Datenschutzerklärung von Google finden sie hier:
                      <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.</p>
                 <p>Weitere Details bezüglich der Google Hosted Libraries - bestimmt für Entwickler - finden Sie hier:
                      <a class="underline" target="_blank" href="https://developers.google.com/speed/libraries/">https://developers.google.com/speed/libraries/</a>
@@ -164,7 +171,7 @@
                 <p>
                 <p>Google Analytics verwendet Cookies (siehe Punkt "Cookies"), um eine Analyse der Benutzung der Webseite durch Sie durchzuführen. Die Verwendung von Google Analytics erfolgt ohne Anmeldung. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
                 </p>
-                <p>Die Datenschutzerklärung von Google finden sie hier: 
+                <p>Die Datenschutzerklärung von Google finden sie hier:
                      <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.</p>
                 <p>Weitere Details bezüglich der Google Analytics finden Sie hier:
                      <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
@@ -211,7 +218,7 @@
                     <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
 
                 <p>Web-Annotation von Hypothes.is (siehe auch "Social Plugins") verwendet ebenfalls Cookies. Open Knowledge Maps hat keinen Zugriff auf diese Daten und verarbeitet sie nicht. hypothesis.is beschreibt die Nutzung von Cookies wie folgt: "Der Hauptzweck eines Cookies besteht darin, dem Webserver mitzuteilen, dass Sie zuvor eine bestimmte Seite besucht haben. Wenn Sie beispielsweise die Anmeldung bei unseren Diensten personalisieren, wird mit einem Cookie Ihre Sitzung in verschiedenen Teilen der Website protokolliert.</p>
-                <p>Weitere Informationen finden Sie im Abschnitt Cookies der Hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/#collection-your-personal-information">https://web.hypothes.is/privacy/#collection-your-personal-information</a></p> 
+                <p>Weitere Informationen finden Sie im Abschnitt Cookies der Hypothes.is Datenschutzrichtlinie: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/#collection-your-personal-information">https://web.hypothes.is/privacy/#collection-your-personal-information</a></p>
 
 
                 <p class="bold">Matomo</p>
