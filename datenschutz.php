@@ -177,6 +177,13 @@
                      <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
                       </p>
 
+                <h3>Nutzung von Google Drive</h3>
+                <p>Wir nutzen Google Drive, ein Service von Google LLC (1600 Amphitheater Parkway, Mountain View, CA 94043, USA), um Trainingsmaterialien und andere Dokumente bereitzustellen. Der Zugriff auf Google Drive kann ohne Registrierung geschehen, Information über Ihren Brower und IP-Addresse ist dennoch für Google zugänglich. Sollten Sie in Ihren Google Drive Account einglogged sein, kann dieser Zugriff Ihrem Account zugeordnet werden. Um dies zu verhindern, können Sie aus Ihrem Account ausloggen.
+                <p>Die Datenschutzerklärung von Google finden sie hier:
+                     <a class="underline" target="_blank" href="https://policies.google.com/privacy?hl=de">https://policies.google.com/privacy?hl=de</a>.</p>
+                <p>Weitere Details bezüglich Google Drive finden Sie hier:
+                     <a class="underline" target="_blank" href="https://support.google.com/drive/answer/2450387?hl=de">https://support.google.com/drive/answer/2450387?hl=de</a>
+                </p>
 
                 <p>
                 <h3>Cookies</h3>
