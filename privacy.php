@@ -169,7 +169,14 @@
                       <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.</p>
                  <p>More details about Google Analytics can be found here:
                       <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
-                       </p>
+                 </p>
+                 <h3>Use of Google Drive</h3>
+                 <p>We use Google Drive, a service provided by Google LLC (1600 Amphitheater Parkway, Mountain View, CA 94043, USA), to share training material and other documents. Accessing documents on Google Drive may take place without registration, information about your Browser and IP address is still transferred to Google. If you have a Google Drive account and are logged in, the access can be associated with your account. To prevent this, you need to log out of your Google Drive account.
+                 <p>Google's privacy policy can be found here:
+                      <a class="underline" target="_blank" href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+                 <p>More details about Google Drive can be found here:
+                      <a class="underline" target="_blank" href="https://support.google.com/drive/answer/2450387?hl=en">https://support.google.com/drive/answer/2450387?hl=en</a>
+                 </p>
 
                 <h3>Cookies</h3>
                 <p>To make this site work properly, we sometimes place small data files called cookies on your device. Most big websites do this too.</p>
