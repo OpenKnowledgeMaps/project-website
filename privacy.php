@@ -21,7 +21,7 @@
 
 
                 <h2>Privacy Policy</h2>
-                <p><b>Last updated:</b> 04 December 2018
+                <p><b>Last updated:</b> 02 October 2019
 
                 <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example "personal data" or "third party" are defined in Art. 4 of the General Data Protection Regulation (GDPR):
                     <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a>
@@ -84,7 +84,7 @@
                     If you want to send us personal information via email, we advise you to always encrypt your messages beforehand. Please see the section "Email communication with us" for more information.</p>
 
                 <h3>Collaboration with Data Processors and Third Parties</h3>
-                <p>We use Google Fonts, Google Hosted Libraries, a Content Distribution Network (CDN), and Google Analytics, a web analytics service, of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see "Use of Google Fonts", "Use of Content Distribution Network (CDN)", and "Use of Google Analytics" further down.
+                <p>We use Google Fonts, Google Hosted Libraries, a Content Distribution Network (CDN), Google Analytics, a web analytics service, and Google Drive, a filesharing service, of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see "Use of Google Fonts", "Use of Content Distribution Network (CDN)", "Use of Google Analytics", and "Use of Google Drive" further down.
                     We als use some web services provided by Twitter. For more information please see "Social Plugins" further down.
                     In addition, we use the GDPR-compliant service MailChimp, a marketing automation service provided by The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). For more information please see "Newsletter" further down.
                     We use the GDPR-compliant service Hypothes.is, a web annotation service provided by HYPOTHES IS PROJECT ( 2261 Market Street 632, San Francisco, CA, 94114 United States of America ). For more information please see “Social Plugins” further down.
@@ -102,6 +102,7 @@
                 <p>If you have any questions about the processing of your e-mail and related personal data, do not hesitate to include them in your message.</p>
 
                 <h3>Social Plug-ins</h3>
+                <h4>Twitter</h4>
                 <p>We use website elements from Twitter, a social network of the company Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA), on our website. Website elements are e.g. buttons (so-called "social plug-ins") or integrated content from the provider. You can find an overview of Twitter website elements here:
                     <a class="underline" target="_blank" href="https://dev.twitter.com/web/overview">https://dev.twitter.com/web/overview</a></p>
                 <p>We use Twitter elements to display posts and news about and by Open Knowledge Maps.
@@ -112,10 +113,16 @@
                 <p>Open Knowledge Maps has no influence on the parameters of the data that the Twitter lifts out with the help of the website elements. For details on the purpose and extent of the data collection and the further processing and use of the data by the providers as well as your related rights and setting options for protecting your privacy, please refer to the privacy policy of Twitter:
                     <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>
                     You would need to log out of each provider’s services if you want to prevent providers from directly associating the data collected through our website with your profile in that service.</p>
-
-                <p>We use the Hypothes.is webservices from the "HYPOTHES.IS PROJECT", a web annotation project to allow you to view and submit annotations to PDF articles of papers that are included in your Open Knowledge Maps map. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section “Cookies”). By integrating the website elements, the provider gains knowledge that your browser has accessed the corresponding page of our website and the corresponding paper/article, even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to Hypothes.is.
+                <h4>Hypothes.is</h4>
+                <p>We use the Hypothes.is webservices from the "HYPOTHES.IS PROJECT", a web annotation project to allow you to view and submit annotations to PDF articles of papers that are included in your Open Knowledge Maps map. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section “Cookies”). By integrating the web annotation service, the provider gains knowledge that your browser has accessed the corresponding page of our website and the corresponding paper/article, even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to Hypothes.is.
                 </p>
-                <p>Open Knowledge Maps has no influence on the parameters of the data that Hypothes.is lifts out with the help of the website elements. Hypothes.is has a privacy policy page showing in detail their privacy policy. It can be viewed at: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
+                <p>Open Knowledge Maps has no influence on the parameters of the data that Hypothes.is lifts out during the use of the annotation service. Hypothes.is has a privacy policy page showing in detail their privacy policy. It can be viewed at: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
+                    You would need to log out of this provider’s services if you want to prevent it from directly associating the data collected through our website with your profile in that service. You can completely prevent the loading of the website elements with browser add-ons.
+                </p>
+                <h4>Vimeo</h4>
+                <p>We use the video webhosting service Vimeo, a platform for online video sharing and related services of the company Vimeo Inc. (555 West 18th Street, New York, New York 10011, USA). When you visit a page on our website that contains a Vimeo video, data is transferred to Vimeo and stored and analysed by Vimeo. This also applies if you are not logged in to Vimeo when you visit our website or do not have a Vimeo account. If you have a Vimeo account and are logged in, this data is associated with your personal account.
+                </p>
+                <p>Open Knowledge Maps has no influence on the parameters of the data that Vimeo collects. For more information which data Vimeo collects and how this data is used, please refer to <a class="underline" target="_blank" href="https://vimeo.com/privacy">https://vimeo.com/privacy</a>
                     You would need to log out of this provider’s services if you want to prevent it from directly associating the data collected through our website with your profile in that service. You can completely prevent the loading of the website elements with browser add-ons.
                 </p>
 
@@ -153,16 +160,23 @@
                      <a class="underline" target="_blank" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a></p>
 
                  <h3>Use of Google Analytics</h3>
-                 <p>This website uses Google Analytics, a web analytics service provided by Google LLC, 1600 Amphitheater Parkway, Mountain View, CA 94043, USA. We use Google Analytics to compile reports about user activity on the site. 
+                 <p>This website uses Google Analytics, a web analytics service provided by Google LLC, 1600 Amphitheater Parkway, Mountain View, CA 94043, USA. We use Google Analytics to compile reports about user activity on the site.
                      These reports serve as a basis for analyzing user behavior, improving our services, and developing new services.
                  <p>
                  <p>Google Analytics uses cookies (see section "Cookies") to perform analyses of the use of the website by you. The use of Google Analytics takes place without registration. The IP address provided by Google Analytics as part of Google Analytics will not be merged with other Google data.
                  </p>
-                 <p>Google's privacy policy can be found here: 
+                 <p>Google's privacy policy can be found here:
                       <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a>.</p>
-                 <p>More details about Google Analytics can be found here: 
+                 <p>More details about Google Analytics can be found here:
                       <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
-                       </p>
+                 </p>
+                 <h3>Use of Google Drive</h3>
+                 <p>We use Google Drive, a service provided by Google LLC (1600 Amphitheater Parkway, Mountain View, CA 94043, USA), to share training material and other documents. Accessing documents on Google Drive may take place without registration, information about your Browser and IP address is still available to Google. If you have a Google Drive account and are logged in, the access can be associated with your account. To prevent this, you need to log out of your Google Drive account.
+                 <p>Google's privacy policy can be found here:
+                      <a class="underline" target="_blank" href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>.</p>
+                 <p>More details about Google Drive can be found here:
+                      <a class="underline" target="_blank" href="https://support.google.com/drive/answer/2450387?hl=en">https://support.google.com/drive/answer/2450387?hl=en</a>
+                 </p>
 
                 <h3>Cookies</h3>
                 <p>To make this site work properly, we sometimes place small data files called cookies on your device. Most big websites do this too.</p>
@@ -184,22 +198,22 @@
 
                 <p>The web annotation service provided by Hypothes.is (see also "Social Plugins") also uses cookies. Open Knowledge Maps does not have access to this data and does not process it. Hypothes.is reports to use cookies in the following way: “The primary purpose of a cookie is to tell the web server that you have previously visited a specific page. For example, if you personalize login to our services, a cookie tracks your session to various parts of the site.”</p>
                 <p>You can find out more in the cookies section of the Hypothes.is privacy policy here: <a class="underline" target="_blank" href="https://web.Hypothes.is/privacy/#collecting-your-personal-information">https://web.Hypothes.is/privacy/#collecting-your-personal-information</a></p>
-                
+
                 <p class="bold">Google Analytics</p>
-                
-                <p>Google Analytics uses cookies to analyze your use of the website. The information generated by the cookie about your use of this website is usually transmitted to a Google server in the USA and stored there securely. However, due to the activation of IP anonymization on these websites, your IP address will be shortened beforehand by Google, within any member state of the European Union or in other contracting states of the Agreement on the European Economic Area. 
+
+                <p>Google Analytics uses cookies to analyze your use of the website. The information generated by the cookie about your use of this website is usually transmitted to a Google server in the USA and stored there securely. However, due to the activation of IP anonymization on these websites, your IP address will be shortened beforehand by Google, within any member state of the European Union or in other contracting states of the Agreement on the European Economic Area.
                    On behalf of the operator of this website, Google will use this information to evaluate your use of the website, to compile reports on website activity and to provide other services related to website activity and internet usage to the website operator. Only in exceptional cases will the full IP address be sent to a Google server in the US and shortened there. The IP address provided by Google Analytics as part of Google Analytics will not be merged with other Google data.
-                <p>You can prevent the storage of cookies by a corresponding setting of your browser software. In addition, you may prevent Google from collecting the data generated by the cookie (including your IP address) as well as the processing of this data by downloading and installing the browser plug-in available under the following link: 
+                <p>You can prevent the storage of cookies by a corresponding setting of your browser software. In addition, you may prevent Google from collecting the data generated by the cookie (including your IP address) as well as the processing of this data by downloading and installing the browser plug-in available under the following link:
                    <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" class="underline">https://tools.google.com/dlpage/gaoptout</a>
-                   
-                <p>In addition or as an alternative to the browser add-on, you can prevent tracking by Google Analytics on our pages by clicking <a href="javascript:gaOptout()" class="underline">this link</a>. An opt-out cookie will be installed on your device. 
+
+                <p>In addition or as an alternative to the browser add-on, you can prevent tracking by Google Analytics on our pages by clicking <a href="javascript:gaOptout()" class="underline">this link</a>. An opt-out cookie will be installed on your device.
                    This will prevent the collection by Google Analytics for this website and for this browser in the future, as long as the cookie remains installed in your browser.
-                
-                <p>More information about the use of cookies by Google can be found at 
+
+                <p>More information about the use of cookies by Google can be found at
                     <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a> and
                     <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
 
-                   
+
                 <p class="bold">Matomo</p>
 
                 <p>Our website uses Matomo, a web analysis service which uses cookies (text files that are stored on your computer and allow us to analyse the use of our website). For this purpose, the usage information generated by the cookie (including your truncated IP address) is transferred to our server and stored for the purpose of analysing the use of our website, which in turn allows us to optimise the website accordingly. In this process, your IP address is anonymised immediately in order to ensure your anonymity as a user. The site usage information generated by the cookie is not passed on to third parties. You can block the use of cookies in your browser settings; however, you may not be able to use all of the functions offered on this website as a result.</p>
