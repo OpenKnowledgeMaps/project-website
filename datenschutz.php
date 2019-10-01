@@ -93,7 +93,7 @@
 
                 <h3>Zusammenarbeit mit Auftragsdatenverarbeitern und Dritten
                 </h3>
-                <p>Wir benutzen für unsere Webseite die Schriftarten (Google Fonts), das Content Distribution Network und Google Analytics, einen Webanalysedienst, der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mehr Informationen hierzu finden Sie im Punkt "Verwendung der Schriftarten von Google", "Verwendung des Content Distribution Networks von Google" und "Verwendung von Google Analytics".
+                <p>Wir benutzen für unsere Webseite die Schriftarten (Google Fonts), das Content Distribution Network, Google Analytics, einen Webanalysedienst, und Google Drive, einen Filesharingdienst, der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mehr Informationen hierzu finden Sie im Punkt "Verwendung der Schriftarten von Google", "Verwendung des Content Distribution Networks von Google", "Verwendung von Google Analytics", und "Verwendung von Google Drive".
                     Wir nutzen außerdem die Dienste der Firma Twitter. Mehr Informationen hierzu finden Sie unter dem Punkt "Social Plugins".
                     Außerdem verwenden wir den DSGVO-konformen Service MailChimp. Mailchimp ist ein automatisierter Marketing-Service der Firma The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). Mehr Informationen dazu finden Sie unter dem Punkt "Newsletter".
                     Wir verwenden den GDPR-konformen Service hypothesis.is, einen Web-Annotationsservice der vom HYPOTHES.IS PROJECT (2261 Market Street 632, San Francisco, CA, 94114 Vereinigte Staaten von Amerika) bereitgestellt wird. Für weitere Informationen siehe "Social Plugins" weiter unten.
