@@ -157,33 +157,33 @@
                     <p class="try-now" style="text-align: center; margin:30px 0;">
                         <a target="_blank" class="donate-now" style="" href="mailto:pkraker@openknowledgemaps.org">Get in touch via email</a>
                     </p>
-
-                    <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">                        
-                        <p class="project-facts" style="text-align: center;">
-                            All membership enquiries are handled by
-                            Dr. Peter Kraker. Please get in touch at:
-                            <a class="underline" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
-                        </p>
-                    </div>
-
-                    <div class="member">
-                        <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
-                        <ul>
-                            <li class="name">Peter Kraker</li>
-                            <li class="job-title">Founder & Chairman</li>
-                        </ul>
-                    </div>
-
-                    <!--<div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">  
-                    
-                        <p class="project-facts">
-                            <a class="underline" href=""><i class="fa fa-download"></i> Download our flyer</a>, 
-                            which contains a summary of the information displayed on this page.
-                        </p>
-                    </div>-->
                 </div>
             </div>
         </div>
         
+        <div class="advisorsdiv eprunby" style="text-align:center; border-top: 1px solid #cacfd3; background-color: #eff3f4;">
+                        <div class="faq">
+                            <h2 class="h2reverse">Supporting memberships team</h2>
+                        </div>
+
+                        <div class="member">
+                            <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
+                            <ul>
+                                <li class="name">Peter Kraker</li>
+                                <li class="job-title">Founder & Chairman</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="member">
+                            <a href="https://www.knowledge.services" target="_blank"><img src="./img/supporting-members/sks-membership-recruitment-partner.png" alt="Scientific Knowledge Services"></a>
+                            <ul>
+                                <li class="name">Scientific Knowledge Services</li>
+                                <li class="job-title">Official Membership Recruitment Partner</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
         <?php include($COMPONENTS_PATH . "newsletter.php"); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
