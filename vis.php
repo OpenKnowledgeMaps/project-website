@@ -168,7 +168,7 @@
         //include($COMPONENTS_PATH . 'supportus.php');
         //include($COMPONENTS_PATH . 'donation-section.php');
         //include($COMPONENTS_PATH . 'newsletter.php');
-        include($COMPONENTS_PATH . 'graph-vis-teaser.php');
+        include($COMPONENTS_PATH . 'concept-graph-teaser.php');
         include($COMPONENTS_PATH . 'footer_base.php');
         ?>
 
