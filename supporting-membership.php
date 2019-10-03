@@ -21,7 +21,9 @@
                         To provide a sustainable platform for open discovery, 
                         we propose to fund Open Knowledge Maps in a collective effort: 
                         organizations become supporting members and provide a yearly contribution. 
-                        In return, our supporting members are invited to co-create the platform with us.
+                        In return, our supporting members are invited to co-create the platform with us.      
+                        Find more details below or <a class="underline" target="_blank" href="./img/supporting-members/open-knowledge-maps-supporting-membership.pdf"><i class="fa fa-download"></i> download our flyer</a>, 
+                        which contains a summary of the information displayed on this page.
                     </p>
                 </div>
             </div>
@@ -37,7 +39,7 @@
                         With more than 2.5 million papers published every year, discovery becomes increasingly difficult. 
                         Our revolutionary search engine enables researchers, students, and practitioners to quickly identify relevant resources. 
                         Instead of long, unstructured lists of search results, we create rich visual overviews of research topics, 
-                        so-called knowledge maps. <a class="underline" href="about#advantages">Find out more</a>
+                        so-called knowledge maps. <a class="underline" href="about#advantages">Find out more about our discovery tool here.</a>
                     </p>
 
                     <p class="project-facts">
@@ -46,7 +48,7 @@
                         Our services have been used by more than half a million users from all around the world. 
                         In addition, we have had more than 1,500 participants in 80 training events worldwide.
                     </p>
-                    
+
                     <p class="project-facts">
                         <b>We have a strong partnership with libraries.</b>
                         Librarians are among <a class="underline" href="team#advisors">our most important advisors</a>. 
@@ -83,18 +85,24 @@
             <div id="divhow" class="bg-circle">                
                 <h2 class="h2reverse">What does a membership entail?</h2>
 
-                 <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
+                <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
                     <p class="project-facts">
                         <b>As a member you have a say in the future of Open Knowledge Maps!</b>
-                        Our supporting members are directly involved in the decision-making process by way of the Board of Supporters.                       
+                        Our supporting members are directly involved in the decision-making process by way of the Board of Supporters. 
                     </p>
 
-                    <p class="project-facts""><b>The Board of Supporters provides input on the technical roadmap</b>
-                        and has one third of the vote on what features and sources are implemented on Open Knowledge Maps. 
-                        To acknowledge their contribution, members are listed on our website and in select materials.
+                    <p class="project-facts"><b>The Board of Supporters provides input on the technical roadmap</b>
+                        and has one third of the vote on what features and sources are implemented on Open Knowledge Maps.
+                        This is done in a lightweight process via two short web forms. It is up to the members to which extent they choose 
+                        to engage with this process.
                     </p>
-                    
-                    <p class="project-facts"><a class="underline" href="">Download a PDF</a> which contains all the necessary information displayed on this page.
+
+                    <p class="project-facts"><b>To acknowledge our members' contribution,</b> they are listed on our website and in select materials. For more information on this, please consult the membership categories below.
+                    </p>
+
+                    <p class="project-facts">
+                        <a class="underline" target="_blank" href="./img/supporting-members/open-knowledge-maps-supporting-membership.pdf"><i class="fa fa-download"></i> Download our flyer</a>, 
+                        which contains a summary of the information displayed on this page.
                     </p>
                 </div>
             </div>
@@ -104,17 +112,15 @@
                     <h2 class="h2reverse" style="padding: 0 20px 20px;">How to become a supporting member</h2>
 
                     <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
-                    <p class="project-facts" style="text-align: center;">
-                        We currently offer supporting memberships in three categories. 
-                        If your organization is interested in becoming a member, please contact Open Knowledge Maps founder and chairman 
-                        Dr. Peter Kraker at: <a class="underline" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
-                    </p>
+                        <p class="project-facts" style="text-align: center;">
+                            We currently offer supporting memberships in three categories. 
+                            If your organization is interested in becoming a member, please contact Open Knowledge Maps founder and chairman 
+                            Dr. Peter Kraker at: <a class="underline" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
+                        </p>
                     </div>
 
                     <div class="vision">
-                        <h2>
-                            <i class="fa fa-user"></i><br>Supporting member
-                        </h2>
+                        <h2><i class="fa fa-user"></i><br>Supporting member</h2>
 
                         <ul class="project-facts">
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 1 seat</b> on the Board of Supporters</li>
@@ -125,9 +131,7 @@
                     </div>
 
                     <div class="vision">
-                        <h2>                            
-                            <i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member
-                        </h2>
+                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member</h2>
 
                         <ul class="project-facts">
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 2 seats</b> on the Board of Supporters</li>
@@ -139,9 +143,7 @@
                     </div>
 
                     <div class="vision">
-                        <h2>
-                            <i class="fa fa-user"></i><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member PLUS
-                        </h2>
+                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member PLUS</h2>
 
                         <ul class="project-facts">
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 3 seats</b> on the Board of Supporters</li>
@@ -153,25 +155,35 @@
                     </div>
 
                     <p class="try-now" style="text-align: center; margin:30px 0;">
-                        <a target="_blank" class="donate-now" style="" href="mailto:maxi@openknowledgemaps.org">Get in touch via email</a>
+                        <a target="_blank" class="donate-now" style="" href="mailto:pkraker@openknowledgemaps.org">Get in touch via email</a>
                     </p>
-
-                    <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
-                    <p class="project-facts" style="text-align: center;">
-                        All membership enquiries are handled by
-                        Dr. Peter Kraker. Please get in touch at:
-                        <a class="underline" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
-                    </p>
-                    </div>
-                    <div class="member">
-                        <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
-                        <ul>
-                            <li class="name">Peter Kraker</li>
-                            <li class="job-title">Founder & Chairman</li>
-                        </ul>
-                    </div>
                 </div>
             </div>
         </div>
+        
+        <div class="advisorsdiv eprunby" style="text-align:center; border-top: 1px solid #cacfd3; background-color: #eff3f4;">
+                        <div class="faq">
+                            <h2 class="h2reverse">Supporting memberships team</h2>
+                        </div>
 
+                        <div class="member">
+                            <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
+                            <ul>
+                                <li class="name">Peter Kraker</li>
+                                <li class="job-title">Founder & Chairman</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="member">
+                            <a href="https://www.knowledge.services" target="_blank"><img src="./img/supporting-members/sks-membership-recruitment-partner.png" alt="Scientific Knowledge Services"></a>
+                            <ul>
+                                <li class="name">Scientific Knowledge Services</li>
+                                <li class="job-title">Official Membership Recruitment Partner</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+        <?php include($COMPONENTS_PATH . "newsletter.php"); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

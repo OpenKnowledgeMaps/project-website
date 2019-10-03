@@ -1,0 +1,141 @@
+
+<html lang="en" style="background: #E5E6F1; color:gray">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GVF - OKMaps</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <!-- ##################################################################################### -->
+    <!-- Please include these both scripts -->
+    <script src="lib/graphVis/OKMapsGraphVis/gvfapi.js"></script>
+    <script src="lib/graphVis/OKMapsGraphVis/OKMapsdataconverter.js"></script>
+    <!-- ------------------------------------------------------------------------------------- -->
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0px;
+        }
+
+        #iframecontainer {
+            margin-top:10px; 
+            position:relative;
+            height: calc(100% - 35px);
+            width: calc(100% - 2px);
+        }
+
+
+
+        .graphVisIFrame > iframe {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            border: 1px solid red;
+        }
+        .graphVisIFrame {
+        
+            width: 100%;
+            height: 100%;
+        }
+
+        p {
+            line-height: 8px;
+            vertical-align: middle;
+            padding-left: 10px;
+        }
+    </style>
+
+</head>
+<body>
+        OKMapJsonData: <select id="okmapDataSelectionBox"></select>
+
+<!-- ##################################################################################### -->
+<!-- Please define your Iframe and include gvf.html as source file-->
+<div id="iframecontainer">
+    <div class="graphVisIFrame" style="width: 100%; height: 100%; position: absolute; border:1px solid red;",>
+        <iframe src="lib/graphVis/OKMapsGraphVis/gvf.html" style="width: 100%; height: 100%"></iframe>
+    </div>
+</div>
+<!-- ------------------------------------------------------------------------------------- -->
+
+<script>
+  
+        
+        // ##################################################################################### 
+        window.gvfapi = new GVFApi();
+        // the event "initready" is fired once the appplication is ready  
+        gvfapi.registerEvent("initready", function (d) {
+       
+            // define the url of logging server 
+            var serverConfig = {
+                loggingServerUrl : "YOUR_LOGGING_SERVER_URL"
+            }
+            // the application is ready send your server-configuration to the logging-service 
+            gvfapi.sendLoggingServerConfig(serverConfig);
+        });
+        //---------------------------------------------------------------------------------------
+
+
+        
+        var okmapJsonFolder = "lib/graphVis/example/OKMaps_mapjson";
+        var $okmapSelectionBox = $("#okmapDataSelectionBox"); 
+        $okmapSelectionBox .on('change', function() {
+            var filename = okmapJsonFolder + "/" + this.value; 
+
+            gvfapi.registerEvent("initready", function (d) {
+                let okmapsData = {
+                    data: [],
+                    nodeType: "Document"
+                }
+                gvfapi.sendLoggingServerConfig("config");
+            });
+            
+            var jqxhr = $.getJSON( filename, function(okmapNewdataToRender) {
+
+                // ##################################################################################### 
+                // Render the graphVis with new data as following
+                gvfapi.sendOKMapDataToGvf(okmapNewdataToRender);
+                //---------------------------------------------------------------------------------------
+            })
+            
+        });
+        createSelectionBox(); 
+
+
+    
+        function createSelectionBox() {
+            var OKmapsJsonFiles =[];
+            var i = 0; 
+            $.ajax({
+                url: "lib/graphVis/example/OKMaps_mapjson/",
+                success: function(data){
+                    $(data).find("td > a").each(function(){
+                        i++; 
+                        if(i > 1 ) {
+                            var filename = $(this).attr("href");
+                            $okmapSelectionBox.append($('<option>',
+                            {
+                                value: filename,
+                                text : filename
+                            }));
+                            if(i == 2) {
+                                var jqxhr = $.getJSON( okmapJsonFolder + "/" + filename, function(okmapNewdataToRender) {
+                                // ##################################################################################### 
+                                // Render the graphVis with new data as following
+                                    gvfapi.sendOKMapDataToGvf(okmapNewdataToRender);
+                                //---------------------------------------------------------------------------------------
+                                })
+                            }
+                        }
+                            
+                    });
+                }
+            }); 
+
+        }
+</script>
+
+
+</body>
+</html>

@@ -216,6 +216,17 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-color: transparent;
 }
 
+.about-page .become-enthusiast {
+    border: 2px solid #2d3e52;
+    background-color:#2d3e52; 
+    color: white;
+}
+
+.about-page .become-enthusiast:hover, .about-page .become-enthusiast:active, .about-page .become-enthusiast:focus {
+    background-color: transparent;
+    color: #2d3e52;
+}
+
 /*Graph vis*/
 .graphvis .landscape-teaser-text {
     max-width: 750px;
@@ -261,6 +272,10 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 /*Become a supporting Member*/
+.membership #newsletterdiv {
+    background-color: white;
+}
+
 .membership .vision:hover {
     cursor: auto;
     opacity: 1;
@@ -569,7 +584,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: white;
 }
 
-.about-page #partnerdiv, .vis #partnerdiv {
+.vis #partnerdiv {
     background-color: #eff3f4;
 }
 /*.vis #newsletterdiv {
@@ -1437,24 +1452,25 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     padding: 10px;
     border-radius: 5px;
     -moz-border-radius: 5px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .donate-now:hover, .donate-now:active, .donate-now:focus {
     color:#f29e00;
-    background-color: white;
+    background-color: transparent;
 }
 
-.about-page .donate-now, .vis .donate-now {
+.about-page .donate-now, .vis .donate-now, .landscape-teaser .donate-now, .projects-page .donate-now  {
     border: 2px solid #2d3e52;
     background-color: #2d3e52;
 }
 
 .about-page .donate-now:hover, .about-page .donate-now:active, .about-page .donate-now:focus,
-.vis .donate-now:hover, .vis .donate-now:active, .vis .donate-now:focus {
+.vis .donate-now:hover, .vis .donate-now:active, .vis .donate-now:focus, .landscape-teaser .donate-now:hover, .landscape-teaser .donate-now:active, 
+.landscape-teaser .donate-now:focus, .projects-page .donate-now:hover, .projects-page .donate-now:active, .projects-page .donate-now:focus {
     color: #2d3e52;
-    background-color: white;
+    background-color: transparent;
 }
 
 .donation-image-mobile {
@@ -1857,13 +1873,13 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .partners img {
-    margin: 0px 10px 10px 0px;
     height: 100%;
     max-height: 80px;
+    margin: 0px 30px 30px 0px;
 }
 
 .partners-small .partners img {
-    max-height: 50px;
+    max-height: 40px;
 }
 
 .alumni h3 {
@@ -3070,7 +3086,7 @@ time {
     }
 
     .donate-now {
-        font-size: 18px;
+        font-size: 14px;
         width: 80%;
     }
 
