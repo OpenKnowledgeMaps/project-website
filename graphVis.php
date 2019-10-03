@@ -5,9 +5,10 @@
         <?php
         include($COMPONENTS_PATH . 'head_graphvis.php');
         
-        $id = (isset($_GET['id'])) ? ($_GET['id']) : ('');
+        $vis_id = (isset($_GET['vis_id'])) ? ($_GET['vis_id']) : ('');
+        $doc_id = (isset($_GET['doc_id'])) ? ($_GET['doc_id']) : ('');
         $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
-        $url = $protocol . $HEADSTART_URL . "server/services/getLatestRevision.php?vis_id=$id";    
+        $url = $protocol . $HEADSTART_URL . "server/services/getLatestRevision.php?vis_id=$vis_id";    
         ?>
 
         <!-- ##################################################################################### -->
@@ -91,6 +92,12 @@
                 var jqxhr = $.getJSON( filename, function(okmapNewdataToRender) {
 
                     okmapNewdataToRender.data = JSON.parse(okmapNewdataToRender.data);
+                    
+                    let start_id = '<?php echo $doc_id ?>';
+                    
+                    if(start_id !== '') {
+                        okmapNewdataToRender.startingNodeId = start_id;
+                    }
 
                     // ##################################################################################### 
                     // Render the graphVis with new data as following
