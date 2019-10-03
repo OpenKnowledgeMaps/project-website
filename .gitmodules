@@ -1,3 +1,6 @@
 [submodule "headstart"]
 	path = headstart
 	url = https://github.com/OpenKnowledgeMaps/Headstart
+[submodule "lib/OKMapsGraphVis"]
+	path = lib/OKMapsGraphVis
+	url = https://git.know-center.tugraz.at//r/~ssingh/OKMapsGraphVis.git

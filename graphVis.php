@@ -12,8 +12,8 @@
 
         <!-- ##################################################################################### -->
         <!-- Please include these both scripts -->
-        <script src="lib/graphVis/OKMapsGraphVis/gvfapi.js"></script>
-        <script src="lib/graphVis/OKMapsGraphVis/OKMapsdataconverter.js"></script>
+        <script src="lib/OKMapsGraphVis/gvfapi.js"></script>
+        <script src="lib/OKMapsGraphVis/OKMapsdataconverter.js"></script>
         <!-- ------------------------------------------------------------------------------------- -->
 
         <style>
@@ -56,7 +56,7 @@
     <!-- Please define your Iframe and include gvf.html as source file-->
     <div id="iframecontainer">
         <div class="graphVisIFrame" style="width: 100%; height: 100%; position: absolute; border:1px solid red;",>
-            <iframe src="lib/graphVis/OKMapsGraphVis/gvf.html" style="width: 100%; height: 100%"></iframe>
+            <iframe src="lib/OKMapsGraphVis/gvf.html" style="width: 100%; height: 100%"></iframe>
         </div>
     </div>
     <!-- ------------------------------------------------------------------------------------- -->
