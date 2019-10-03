@@ -6,80 +6,184 @@
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
-    <body id="imprint-page">
-
-
+    <body class="membership">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
+        <div id="news">
+            <div class="background2" style="background-color: #eff3f4;">
+                <div class="team">
+                    <h2 style="color: #2d3e52;">
+                        Supporting Membership for Organizations
+                    </h2>
+                    <p>Open Knowledge Maps is a charitable non-profit.
+                        All of our services are free and open. There are no license fees and no lock-in effects. 
+                        To provide a sustainable platform for open discovery, 
+                        we propose to fund Open Knowledge Maps in a collective effort: 
+                        organizations become supporting members and provide a yearly contribution. 
+                        In return, our supporting members are invited to co-create the platform with us.      
+                        Find more details below or <a class="underline" target="_blank" href="./img/supporting-members/open-knowledge-maps-supporting-membership.pdf"><i class="fa fa-download"></i> download our flyer</a>, 
+                        which contains a summary of the information displayed on this page.
+                    </p>
+                </div>
+            </div>
 
-        <div id="imprint">
-            <div style="max-width: 750px; width:100%; margin: 0px auto;">
+            <div id="divhow" style="text-align:center;">
+                <h2 class="h2reverse">What is Open Knowledge Maps?</h2>
+                <a href="https://openknowledgemaps.org/map/f1d8f46827575c5da9f2e42159e23671" target="_blank">
+                    <img class="membership-img" src="./img/supporting-members/knowledgemaps-community-owned2.png">
+                </a>
 
+                <div class="member-text">
+                    <p class="project-facts"><b>Open Knowledge Maps is discovery for an open science.</b> 
+                        With more than 2.5 million papers published every year, discovery becomes increasingly difficult. 
+                        Our revolutionary search engine enables researchers, students, and practitioners to quickly identify relevant resources. 
+                        Instead of long, unstructured lists of search results, we create rich visual overviews of research topics, 
+                        so-called knowledge maps. <a class="underline" href="about#advantages">Find out more about our discovery tool here.</a>
+                    </p>
 
-                <a name="impressum" class="anchor"></a><h2 style="text-align:left; margin-top: 30px;">Membership-based Funding Model</h2>
+                    <p class="project-facts">
+                        <b>Our free and open search engine enables users to create knowledge maps</b> 
+                        in any discipline based on 150+ million scientific outputs. 
+                        Our services have been used by more than half a million users from all around the world. 
+                        In addition, we have had more than 1,500 participants in 80 training events worldwide.
+                    </p>
 
-                <p>Open Knowledge Maps is a charitable non-profit - we provide a free and open resource that dramatically increases 
-                    the visibility of research findings for science and society alike. 
-                </p>
+                    <p class="project-facts">
+                        <b>We have a strong partnership with libraries.</b>
+                        Librarians are among <a class="underline" href="team#advisors">our most important advisors</a>. 
+                        We build on library content and we dramatically increase the visibility and discoverability of this content by including 
+                        sources and languages that many commercial products (including Google Scholar) do not index. 
+                        Additionally, we collaborate with libraries 
+                        in innovative open discovery projects.
+                    </p>
+                </div>
+            </div>
 
-                <p>
-                    In the last 2.5 years, <b>Open Knowledge Maps has become the largest visual search engine for scientific knowledge in the world:</b> 
-                    we have had more than half a million visits on the website, and more than 100,000 maps were created. In addition, we organized workshops 
-                    with more than 1,000 participants worldwide.
-                </p>
+            <div id="divhow" style="text-align:center; background-color: #eff3f4;">
+                <h2 class="h2reverse">What does a membership support?</h2>
 
-                <p>
-                    Open Knowledge Maps serves both users from the Global South and the Global North: 
-                    most of our users are from Indonesia, followed by the US, Germany, Austria, India, the UK, 
-                    Canada, China and Australia.
-                </p>
+                <img class="membership-img" src="./img/supporting-members/offering.png">
 
-                <p>
-                    In addition, <b>Open Knowledge Maps is an open infrastructure in a space that is dominated by closed and proprietary systems </b>[1].
-                    These proprietary systems are often expensive and hinder innovation due to their closed nature. 
-                    In contrast, Open Knowledge Maps software, content, and data can be easily reused - it is therefore community-owned.
-                </p>
+                <div class="member-text">
+                    <p class="project-facts" style="">
+                        <b>With your membership, you support our openly licensed services, content, data, and software. 
+                            Our offering includes:
+                        </b>
+                    </p>
 
-                <p>
-                    Nevertheless, Open Knowledge Maps is still very much a volunteer effort. To provide a sustainable platform for open discovery, 
-                    we propose to fund Open Knowledge Maps in a collective effort. 
-                    In this membership-based funding model, supporting organisations become members of Open Knowledge Maps and provide an annual contribution. 
-                </p>
+                    <ul class="project-facts" style="line-height: 180%;">
+                        <li><i class="fa fa-check" style="color:#51c9ae;"></i> Innovative search and discovery services</li>
+                        <li><i class="fa fa-check" style="color:#51c9ae;"></i> Integrations for BASE, PubMed, and OpenAIRE</li>
+                        <li><i class="fa fa-check" style="color:#51c9ae;"></i> A wide range of training activities and materials</li>
+                        <li><i class="fa fa-check" style="color:#51c9ae;"></i> Our award-winning visualization software</li>
+                        <li><i class="fa fa-check" style="color:#51c9ae;"></i> Community support & engagement programs</li>
+                    </ul>
+                </div>
+            </div>
 
-                <p>
-                    <b>In return, members get a say in the future development of Open Knowledge Maps.</b> As a member, you are invited to join the Board of Supporters, 
-                    which participates in a yearly vote on what features and sources to implement. This establishes a true community-driven solution for the 
-                    discovery of scientific knowledge.
-                </p>
-                
-                <p>
-                    <i>[1] <a href="https://docs.google.com/spreadsheets/d/1h0Aq6NYIeVnLDw33vx1SGnv1jbE2B7widbHhU7tpiUw/edit#gid=2141288902" class="underline" target="_blank">In a recent analysis by Bianca Kramer and Jeroen Bosman</a>, 
-                        Open Knowledge Maps was one of just three scholarly commons-compliant infrastructures in the area of discovery.</i>
-                </p>
+            <div id="divhow" class="bg-circle">                
+                <h2 class="h2reverse">What does a membership entail?</h2>
 
-                <h3 style="text-align:left; margin-top: 30px; font-size:22px;">Categories</h3>
-                <p>To become a supporter of Open Knowledge Maps, please select one of these categories:</p>
+                <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
+                    <p class="project-facts">
+                        <b>As a member you have a say in the future of Open Knowledge Maps!</b>
+                        Our supporting members are directly involved in the decision-making process by way of the Board of Supporters. 
+                    </p>
 
-                <h3>Supporting members</h3>
-                <p class="underline">Membership fee: EUR 2,800/year</p>
-                <p>Members in this category support Open Knowledge Maps with an annual membership fee. All supporting members are listed on the Open Knowledge Maps website and they have 1 seat on the Board of Supporters.</p>
+                    <p class="project-facts"><b>The Board of Supporters provides input on the technical roadmap</b>
+                        and has one third of the vote on what features and sources are implemented on Open Knowledge Maps.
+                        This is done in a lightweight process via two short web forms. It is up to the members to which extent they choose 
+                        to engage with this process.
+                    </p>
 
-                <h3>Sustaining members</h3>
-                <p class="underline">Membership fee: EUR 4,800/year or more</p>
-                <p>
-                    Members in this category make a more substantial impact on Open Knowledge Maps’ sustainability. Sustaining members’ contribution is acknowledged on the Open Knowledge Maps website and in selected other materials, where they are listed with their logo. In addition, sustaining members have 2 seats on the Board of Supporters.
-                </p>
+                    <p class="project-facts"><b>To acknowledge our members' contribution,</b> they are listed on our website and in select materials. For more information on this, please consult the membership categories below.
+                    </p>
 
-                <h3>Sustaining members PLUS</h3>
-                <p class="underline">Membership fee: EUR 9,800/year or more</p>
-                <p>Members in this category contribute towards Open Knowledge Maps’ long-term sustainability. Their higher support is acknowledged on the Open Knowledge Maps website and in selected other materials, where they are listed with their logo in a special category. In addition, sustaining members in this category have 3 seats on the Board of Supporters.</p>
-                <h3 style="color:#e55137; margin-top: 30px; font-size:22px;">Get in touch</h3>
-                <p>If your organization is interested in becoming a supporting member,
-                    please get in touch with Open Knowledge Maps founder and chairman Peter Kraker at:
-                    <a class="underline" style="color:#e55137;" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
-                </p>
+                    <p class="project-facts">
+                        <a class="underline" target="_blank" href="./img/supporting-members/open-knowledge-maps-supporting-membership.pdf"><i class="fa fa-download"></i> Download our flyer</a>, 
+                        which contains a summary of the information displayed on this page.
+                    </p>
+                </div>
+            </div>
 
+            <div id="mission">
+                <div id="more-info">
+                    <h2 class="h2reverse" style="padding: 0 20px 20px;">How to become a supporting member</h2>
+
+                    <div style="display: block; max-width:750px; text-align: center; margin: 0px auto;">
+                        <p class="project-facts" style="text-align: center;">
+                            We currently offer supporting memberships in three categories. 
+                            If your organization is interested in becoming a member, please contact Open Knowledge Maps founder and chairman 
+                            Dr. Peter Kraker at: <a class="underline" href="mailto:pkraker@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>.
+                        </p>
+                    </div>
+
+                    <div class="vision">
+                        <h2><i class="fa fa-user"></i><br>Supporting member</h2>
+
+                        <ul class="project-facts">
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 1 seat</b> on the Board of Supporters</li>
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing on website</li>
+                        </ul>
+
+                        <p class="project-facts" style="text-align: center; padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 2,800</span> / year</p>
+                    </div>
+
+                    <div class="vision">
+                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member</h2>
+
+                        <ul class="project-facts">
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 2 seats</b> on the Board of Supporters</li>
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing on website</li> 
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing in select materials with logo</li>                            
+                        </ul>
+
+                        <p class="project-facts" style="text-align: center; padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 4,800</span> / year</p>
+                    </div>
+
+                    <div class="vision">
+                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member PLUS</h2>
+
+                        <ul class="project-facts">
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 3 seats</b> on the Board of Supporters</li>
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing on website</li> 
+                            <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing in select materials with logo</li>
+                        </ul>
+
+                        <p class="project-facts" style="text-align: center; padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 9,800</span> / year</p>
+                    </div>
+
+                    <p class="try-now" style="text-align: center; margin:30px 0;">
+                        <a target="_blank" class="donate-now" style="" href="mailto:pkraker@openknowledgemaps.org">Get in touch via email</a>
+                    </p>
+                </div>
             </div>
         </div>
-        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
+        
+        <div class="advisorsdiv eprunby" style="text-align:center; border-top: 1px solid #cacfd3; background-color: #eff3f4;">
+                        <div class="faq">
+                            <h2 class="h2reverse">Supporting memberships team</h2>
+                        </div>
+
+                        <div class="member">
+                            <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
+                            <ul>
+                                <li class="name">Peter Kraker</li>
+                                <li class="job-title">Founder & Chairman</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="member">
+                            <a href="https://www.knowledge.services" target="_blank"><img src="./img/supporting-members/sks-membership-recruitment-partner.png" alt="Scientific Knowledge Services"></a>
+                            <ul>
+                                <li class="name">Scientific Knowledge Services</li>
+                                <li class="job-title">Official Membership Recruitment Partner</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+        <?php include($COMPONENTS_PATH . "newsletter.php"); ?>
+        <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

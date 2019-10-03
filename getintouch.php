@@ -61,6 +61,17 @@
                         <a class="underline" href="https://github.com/OpenKnowledgeMaps" target="_blank">github.com/OpenKnowledgeMaps</a>
                     </p>
                 </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf155;</span> Fund our project</a>
+                    </p>
+                    <p>
+                        Organizations are invited to <a class="underline" href="supporting-membership">become supporting members</a> and co-create the platform with us. 
+                        If your organization is interested to become a supporting member please get in touch with founder Peter Kraker at:<br>
+                        <a class="underline" href="mailto:info@openknowledgemaps.org">pkraker@openknowledgemaps.org</a>
+                    </p>
+                </div>
 
                 <div class="faq">
                     <p class="faquestion">
@@ -68,18 +79,7 @@
                     </p>
                     <p>
                         <a class="underline" href="projects">Check out our present and past collaboration projects</a> and learn more about how we can work together.
-                        If you have a collection that you would like to visualize with Open Knowledge Maps, contact us to set up a joint project.<br>
-                        <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
-                    </p>
-                </div>
-
-                <div class="faq">
-                    <p class="faquestion">
-                        <a style="text-decoration: none;" href="mailto:info@openknowledgemaps.org"><span id="question-Q" class="awesome">&#xf155;</span> Fund our project</a>
-                    </p>
-                    <p>
-                        We are a non-profit organization currently looking for funding. 
-                        Drop us a line if you are interested in changing the way we discover research!<br>
+                        If you have a collection that you would like to visualize with Open Knowledge Maps, contact us at:<br>
                         <a class="underline" href="mailto:info@openknowledgemaps.org"> info@openknowledgemaps.org</a>
                     </p>
                 </div>

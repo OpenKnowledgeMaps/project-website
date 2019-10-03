@@ -120,7 +120,7 @@ header #logo a:hover {
     text-align: left;
     color:white;
     background-color: transparent;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 80%;
     margin: 0px 0px 10px 50px !important;
     vertical-align: bottom;
@@ -216,20 +216,30 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-color: transparent;
 }
 
+.about-page .become-enthusiast {
+    border: 2px solid #2d3e52;
+    background-color:#2d3e52; 
+    color: white;
+}
+
+.about-page .become-enthusiast:hover, .about-page .become-enthusiast:active, .about-page .become-enthusiast:focus {
+    background-color: transparent;
+    color: #2d3e52;
+}
+
 /*WORKSHOP TEASER*/
 .landscape-teaser {
     text-align:center; 
     font-size:18px;
-    padding: 100px 20px;
     background-image:url(../img/enthusiasts/workshop-teaser-desktop2.png);
-    background-size: 100%;
+    background-size: cover;
     background-color: #eff3f4;
     background-repeat: no-repeat;
     background-position: 50%;
 }
 
 .landscape-teaser-text {
-    padding:30px; 
+    padding: 100px 20px; 
     max-width:550px; 
     background-color: transparent; 
     text-align:center; 
@@ -250,6 +260,75 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 .cc-color-override-446009254.cc-window {
     max-width: 1600px;
     margin: 0px auto;
+}
+
+/*Become a supporting Member*/
+.membership #newsletterdiv {
+    background-color: white;
+}
+
+.membership .vision:hover {
+    cursor: auto;
+    opacity: 1;
+    border-bottom: 0px solid #2c3e52;
+}
+.membership .vision {
+    border-bottom: 0px solid #2c3e52;
+    padding: 1% 2%;
+}
+
+.membership #more-info .vision h2 {
+    margin: 0 0 5%;
+    font-size: 18px;
+    text-transform: none; 
+    text-align: center;
+    border-bottom: 2px solid #eff3f4;
+}
+
+.membership #more-info .vision {
+    max-width: 22%;
+}
+
+.member-text {
+    display: inline-block; 
+    max-width:50%; 
+    vertical-align: middle; 
+    text-align:left;
+}
+
+.bg-circle {
+    text-align:center; 
+    background-image: url(../img/supporting-members/pfeil-rund.png);
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    background-position: 30% 40%;
+}
+
+.membership .partners img {
+    max-height: 40px;
+    margin: 0px 30px 30px 0px;
+}
+
+.membership-img {
+    max-width: 35%; 
+    display: inline-block; 
+    vertical-align: middle;
+    padding-bottom: 20px;
+}
+
+.membership .donate-now {
+    border: 2px solid #51c9ae;
+    background-color: #51c9ae;
+    color: white;
+}
+
+.membership .donate-now:hover, .membership .donate-now:active, .membership .donate-now:focus {
+    color: #51c9ae;
+    background-color: transparent;
+}
+
+.membership .vision ul {
+    text-align: center;
 }
 
 /*PROJECT PAGE*/
@@ -380,6 +459,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 .mobile-img {
     display: none;
+    margin: 0px auto;
 }
 
 .work-with-us {
@@ -495,7 +575,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-color: white;
 }
 
-#home #partnerdiv, .about-page #partnerdiv, .vis #partnerdiv {
+.vis #partnerdiv {
     background-color: #eff3f4;
 }
 /*.vis #newsletterdiv {
@@ -610,7 +690,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .searchheader .nav_top {
-    font-size: 14px;
+    font-size: 13px;
     margin: 0px;
 }
 
@@ -889,7 +969,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     display: block;
     color: white;
     background-color: transparent;
-    line-height: 180%;
+    line-height: 230%;
     padding: 0px 0px 0px;
 }
 
@@ -932,8 +1012,9 @@ address a:hover, address a:focus, address a:active {
 .getintouch {    
     background-color: #2d3e52;
     font-size: 16px;
-    padding: 50px;
+    padding: 4%;
     color: white;
+    text-align: center;
 }
 
 .anchor{
@@ -1159,8 +1240,8 @@ a .number:hover {
 .info {
     display:inline-block; 
     vertical-align:top;
-    margin-right: 40px;
-    max-width: 300px;
+    margin-right: 2%;
+    max-width: 22%;
     font-size: 16px;
     margin-bottom: 20px;
     text-align: left;
@@ -1171,7 +1252,8 @@ a .number:hover {
 }
 
 .okm-ngo {
-    max-width: 400px;
+    max-width: 28%;
+    margin-left: 0%;
 }
 
 .partners {
@@ -1331,9 +1413,9 @@ a .number:hover {
 }
 
 .donation-button {
-    border: 2px solid #f29e00;
-    color:white; 
-    background-color: #f29e00;
+    border: 2px solid #51c9ae;
+    color: #51c9ae; 
+    background-color: white;
     padding:5px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -1341,9 +1423,10 @@ a .number:hover {
 }
 
 a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
-    border: 2px solid #f29e00; 
-    color:#f29e00; 
-    background-color: white;
+    border: 2px solid #51c9ae;
+    color:white; 
+    background-color: #51c9ae;
+
     font-weight:300;
     text-decoration: none;
 }
@@ -1360,24 +1443,25 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     padding: 10px;
     border-radius: 5px;
     -moz-border-radius: 5px;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
 }
 
 .donate-now:hover, .donate-now:active, .donate-now:focus {
     color:#f29e00;
-    background-color: white;
+    background-color: transparent;
 }
 
-.about-page .donate-now, .vis .donate-now {
+.about-page .donate-now, .vis .donate-now, .landscape-teaser .donate-now, .projects-page .donate-now  {
     border: 2px solid #2d3e52;
     background-color: #2d3e52;
 }
 
 .about-page .donate-now:hover, .about-page .donate-now:active, .about-page .donate-now:focus,
-.vis .donate-now:hover, .vis .donate-now:active, .vis .donate-now:focus {
+.vis .donate-now:hover, .vis .donate-now:active, .vis .donate-now:focus, .landscape-teaser .donate-now:hover, .landscape-teaser .donate-now:active, 
+.landscape-teaser .donate-now:focus, .projects-page .donate-now:hover, .projects-page .donate-now:active, .projects-page .donate-now:focus {
     color: #2d3e52;
-    background-color: white;
+    background-color: transparent;
 }
 
 .donation-image-mobile {
@@ -1780,13 +1864,13 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .partners img {
-    margin: 0px 10px 10px 0px;
     height: 100%;
     max-height: 80px;
+    margin: 0px 30px 30px 0px;
 }
 
 .partners-small .partners img {
-    max-height: 50px;
+    max-height: 40px;
 }
 
 .alumni h3 {
@@ -2369,11 +2453,23 @@ time {
         font-size: 18px;
     }
 
-    .vision p {
+    .vision p, .membership .vision ul, .membership #more-info .vision h2 {
         font-size: 14px;
     }
 
     .nav_top {
+        font-size: 11px;
+    }
+
+    .nav_top li {
+        margin-right: 15px;
+    }
+
+    .description li:last-child {
+        font-size: 12px;
+    }
+
+    .info {
         font-size: 12px;
     }
 
@@ -2482,9 +2578,22 @@ time {
         display:none;
     }
 
+    .membership-img { 
+        max-width: 80%;
+        display: block;
+        margin: 0px auto;
+    }
+
+    .member-text {
+        max-width: 100%;
+    }
 }
 
 @media screen and (max-width: 960px) {
+    
+    .getintouch {  
+        text-align: left;
+    }
 
     .background-lamp {
         padding: 50px 0px;
@@ -2664,7 +2773,6 @@ time {
     .enthusiast-bg {
         background-image: none;
     }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -2681,6 +2789,13 @@ time {
     #signup-box, #mc_embed_signup {
         max-width: 650px;
         padding: 0px;
+    }
+
+    .info {
+        max-width: 32%;
+    }
+    .okm-ngo {
+        max-width: 100%;
     }
 }
 
@@ -2708,6 +2823,10 @@ time {
     .carousel-control .icon-prev {
         top: 100%;
         margin-top: 0px;
+    }
+
+    .membership #more-info .vision {
+        max-width: 100%;
     }
 }
 
@@ -2829,10 +2948,6 @@ time {
         margin-right: 15px;
     }
 
-    .info {
-        font-size: 16px;
-    }
-
     #divdiscover, #divhow {
         padding-left: 0px;
     }
@@ -2865,7 +2980,7 @@ time {
         font-size: 16px;
     }
 
-    .description li:first-child, .library, .info {
+    .description li:first-child, .library {
         font-size: 14px;
     } 
 
@@ -2927,6 +3042,10 @@ time {
         padding: 20px 20px 50px;
     }
 
+    .landscape-teaser-text {
+        padding: 0px 20px;
+    }
+
     .thank-you-desktop, .desktop-img {
         display: none;
     }
@@ -2958,7 +3077,7 @@ time {
     }
 
     .donate-now {
-        font-size: 18px;
+        font-size: 14px;
         width: 80%;
     }
 
@@ -2999,7 +3118,6 @@ time {
         padding: 50px 0px 50px;
     }
 
-
     .about-page .background-lamp .mittig {
         padding: 30px 20px 80px;
     }
@@ -3029,6 +3147,10 @@ time {
 
     .vision h2 {
         margin: 10px 0px 0px !important;
+    }
+
+    .membership .vision h2 {
+        margin: 0 0 5% !important;
     }
 
     .member {
@@ -3085,7 +3207,8 @@ time {
     }
 
     .info {
-        width: 100%;
+        max-width: 100%;
+        font-size: 14px;
     }
 
     .advisor {
@@ -3150,7 +3273,6 @@ time {
     .getintouchpage .background2 {
         margin-bottom: 30px;
     }
-
 }
 
 @media screen and (max-width: 470px) {
