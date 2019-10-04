@@ -72,7 +72,7 @@
 
                 // define the url of logging server 
                 var serverConfig = {
-                    loggingServerUrl : "YOUR_LOGGING_SERVER_URL"
+                    loggingServerUrl : "<?php if(isset($GRAPHVIS_LOGGING_SERVER)) { echo $GRAPHVIS_LOGGING_SERVER; } ?>"
                 }
                 // the application is ready send your server-configuration to the logging-service 
                 gvfapi.sendLoggingServerConfig(serverConfig);

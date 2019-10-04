@@ -6,6 +6,7 @@ $HEADSTART_URL = $SITE_URL . "headstart/";
 $COMPONENTS_PATH = "components/";
 $LIB_PATH = "lib/";
 $SNAPSHOT_PATH = $HEADSTART_URL . "server/storage/";
+$GRAPHVIS_LOGGING_SERVER = "";
 
 $PIWIK_ENABLED = false;
 $PIWIK_PATH = "piwik/";
