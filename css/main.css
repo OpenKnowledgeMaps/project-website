@@ -236,6 +236,15 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-image: none;
 }
 
+.vis .graphvis .donate-now {
+    border: 2px solid #f29e00;
+    background-color: #f29e00;
+}
+
+.vis .graphvis .donate-now:hover, .vis .graphvis .donate-now:active, .vis .graphvis .donate-now:focus {
+    color: #f29e00;
+}
+
 /*WORKSHOP TEASER*/
 .landscape-teaser {
     text-align:center; 
