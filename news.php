@@ -70,7 +70,7 @@
 
 
                         <p class="newsitem-p">
-                             At Open Knowledge Maps, we strive to foster and grow our community. We are therefore excited to announce a partnership with Scientific Knowledge Services (SKS), the European service provider for research and research support organizations. We collaborate with SKS to raise awareness for discovery infrastructures for open science and to highlight the importance of investing in their future. SKS becomes official membership recruitment partner of Open Knowledge Maps and will support us in implementing our collaborative funding model.
+                            At Open Knowledge Maps, we strive to foster and grow our community. We are therefore excited to announce a partnership with <a href="https://www.knowledge.services/" target="_blank" class="underline">Scientific Knowledge Services (SKS)</a>, the European service provider for research and research support organizations. We collaborate with SKS to raise awareness for discovery infrastructures for open science and to highlight the importance of investing in their future. SKS becomes official membership recruitment partner of Open Knowledge Maps and will support us in implementing our collaborative funding model.
             </p>
             
             <p class="newsitem-p">
@@ -81,8 +81,8 @@
                 <em>“Open Science is a movement that reflects a magnificent cultural change in research and in society. Research activities should be discoverable across the research landscape. Open Knowledge Maps is an organization that demonstrated to have a fundamental role in increasing the visibility of research outputs and improving collaboration between researchers and institutions. They challenge the traditional discovery tools, based on SERPs (search engine results pages) and propose to create maps of knowledge that provide more comprehensive overviews. Like all nonprofit organizations, Open Knowledge Maps needs support to reach sustainability, which is yet to be found. In my opinion, such support is part of the Open Science Responsibility; to make science irreversibly open, more reliable and to leave it in good shape for our next generations. As a small company, we enter with humbleness and ambition in this partnership with Open Knowledge Maps and we invite the research community to support their efforts,”</em> says Tiberius Ignat, the director of Scientific Knowledge Services.
             </p>
                                                 
-                        <a class="newsitem-button" href="https://www.knowledge.services/" target="_blank">
-                            Learn more about SKS
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/doc/20191004_press-release_sks-okmaps.pdf" target="_blank">
+                            Read the press release
                         </a>
                     </div>
                 </article>
