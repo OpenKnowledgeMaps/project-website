@@ -28,6 +28,99 @@
             <div class="newscollection">
 
                 <article class="newsitem">
+                    <a name="okmaps-participates-in-triple" class="anchor"></a>
+
+                    <a href="https://operas.hypotheses.org/2644" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/triple-euproject.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-10-08">08 October 2019</time>
+
+                        <h3 class="newsitem-headline">Open Knowledge Maps participates in EU project TRIPLE</h3>
+
+                        <p class="newsitem-p">
+                             We are excited to announce that we are part of TRIPLE, an EU project funded under the Horizon 2020 framework. TRIPLE's goal is to create a comprehensive free and open discovery solution for the social sciences and humanities (SSH). Under the lead of Huma-Num (CNRS), a consortium of 18 partners from 12 countries will develop TRIPLE as a core service of OPERAS and the European Open Science Cloud (EOSC). Starting this month, TRIPLE will run for 3.5 years.
+            </p>
+            
+                        <p class="newsitem-p">
+                             Open Knowledge Maps will provide the textual and visual search components of the platform. We are excited to contribute to a project that will enable better discovery for disciplines that are usually neglected by mainstream discovery tools. TRIPLE will also benefit our users from all disciplines, as features developed in the project will also be included on <a href="https://openknowledgemaps.org" target="_blank" class="underline">openknowledgemaps.org</a>.
+            </p>
+                                                
+                        <a class="newsitem-button" href="https://operas.hypotheses.org/2644" target="_blank">
+                            Find out more about TRIPLE
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="welcome-new-partner-sks" class="anchor"></a>
+
+                    <a href="https://www.knowledge.services/" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/sks-partner.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-10-08">08 October 2019</time>
+
+                        <h3 class="newsitem-headline">Welcome to our new partner Scientific Knowledge Services</h3>
+
+
+                        <p class="newsitem-p">
+                             At Open Knowledge Maps, we strive to foster and grow our community. We are therefore excited to announce a partnership with Scientific Knowledge Services (SKS), the European service provider for research and research support organizations. We collaborate with SKS to raise awareness for discovery infrastructures for open science and to highlight the importance of investing in their future. SKS becomes official membership recruitment partner of Open Knowledge Maps and will support us in implementing our collaborative funding model.
+            </p>
+            
+            <p class="newsitem-p">
+            <em>“We are delighted to partner with Scientific Knowledge Services. SKS are a trusted partner in the scholarly communication system, and their activities in the areas of open science and citizen science strongly align with Open Knowledge Maps' vision and goals,”</em> says Peter Kraker, founder and chairman of Open Knowledge Maps. <em>“At Open Knowledge Maps, we believe that everyone should be able to benefit from scientific knowledge. We are confident that the partnership with SKS will help us to grow our organization so that we can achieve this goal.”</em>
+            </p>
+            
+            <p class="newsitem-p">
+                <em>“Open Science is a movement that reflects a magnificent cultural change in research and in society. Research activities should be discoverable across the research landscape. Open Knowledge Maps is an organization that demonstrated to have a fundamental role in increasing the visibility of research outputs and improving collaboration between researchers and institutions. They challenge the traditional discovery tools, based on SERPs (search engine results pages) and propose to create maps of knowledge that provide more comprehensive overviews. Like all nonprofit organizations, Open Knowledge Maps needs support to reach sustainability, which is yet to be found. In my opinion, such support is part of the Open Science Responsibility; to make science irreversibly open, more reliable and to leave it in good shape for our next generations. As a small company, we enter with humbleness and ambition in this partnership with Open Knowledge Maps and we invite the research community to support their efforts,”</em> says Tiberius Ignat, the director of Scientific Knowledge Services.
+            </p>
+                                                
+                        <a class="newsitem-button" href="https://www.knowledge.services/" target="_blank">
+                            Learn more about SKS
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+                        <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="become-a-supporting-member" class="anchor"></a>
+
+                    <a href="https://openknowledgemaps.org/supporting-membership" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/community-owned.jpg">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-10-08">08 October 2019</time>
+
+                        <h3 class="newsitem-headline">We invite organizations to become supporting members</h3>
+
+
+                        <p class="newsitem-p">
+                             Open Knowledge Maps is a charitable non-profit. All of our services are free and open. There are no license fees and no lock-in effects. To provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort: organizations become supporting members and provide a yearly contribution.  In return, our supporting members are invited to co-create the platform with us.
+            </p>
+            
+            <p class="newsitem-p">
+                             <strong>Have your say in the future of Open Knowledge Maps!</strong> Our supporting members are directly involved in the decision-making process by way of the Board of Supporters (BoS). The BoS provides input on the technical roadmap and has one third of the vote on what features and sources are implemented on Open Knowledge Maps. To acknowledge their contribution, members are listed on our website and in select materials.
+            </p>
+                                                
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">
+                            Become a supporting member
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
                     <a name="welcome-new-enthusiasts" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/community" target="_blank">
