@@ -82,7 +82,7 @@
             </p>
                                                 
                         <a class="newsitem-button" href="https://openknowledgemaps.org/doc/20191004_press-release_sks-okmaps.pdf" target="_blank">
-                            Read the press release
+                            Read the full press release
                         </a>
                     </div>
                 </article>
