@@ -274,6 +274,15 @@
                                 <li>Göttingen State and University Library</li>
                             </ul>
                         </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="https://www.oa.unito.it/"><img class="hoverlink" src="./img/advisors/elena.jpg" alt="Advisor OKMaps"></a>
+                            <h3>Elena Giglia</h3>
+                            <ul class="advisor-desc">
+                                <li>Head of Open Access office</li>
+                                <li>University of Turin</li>
+                            </ul>
+                        </div>
 
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKMaps"></a>
@@ -405,16 +414,7 @@
                                 <li>Postdoc</li>
                                 <li>Netherlands Institute of Ecology (NIOO-KNAW)</li>
                             </ul>
-                        </div> 
-
-                        <div class="advisor">
-                            <a target="_blank" href="https://forschung.boku.ac.at/fis/suchen.person_uebersicht?sprache_in=en&ansicht_in=&menue_id_in=101&id_in=113247"><img class="hoverlink" src="./img/advisors/florian.jpg" alt="Advisor OKMaps"></a>
-                            <h3>Florian Heigl</h3>
-                            <ul class="advisor-desc">
-                                <li>PhD Student</li>
-                                <li>BOKU Vienna</li>
-                            </ul>
-                        </div> 
+                        </div>
 
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKMaps"></a>
