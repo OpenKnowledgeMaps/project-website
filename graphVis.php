@@ -2,13 +2,19 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <base href="<?php echo $SITE_URL ?>">
+        
         <?php
         include($COMPONENTS_PATH . 'head_graphvis.php');
 
         $vis_id = (isset($_GET['vis_id'])) ? ($_GET['vis_id']) : ('');
         $doc_id = (isset($_GET['doc_id'])) ? ($_GET['doc_id']) : ('');
+        $search_term = (isset($_GET['search_term'])) ? ($_GET['search_term']) : ('');
         $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
         $url = $protocol . $HEADSTART_URL . "server/services/getLatestRevision.php?vis_id=$vis_id";
+        
+        $conceptgraph_title = "This concept graph is based on the knowledge map for "
+                . "<a href=\"map/$vis_id\" target=\"_blank\">$search_term</a>";
         ?>
 
         <!-- ##################################################################################### -->
@@ -53,9 +59,7 @@
         <!-- ##################################################################################### -->
         <!-- Please define your Iframe and include gvf.html as source file-->
         <h2 class="conceptgraph-title">
-            This concept Graph is based on 
-            <span>)insert title of paper(</span> OR 
-            <span>the top 10 papers of the knowledge map for )insert title of map(</span>
+            <?php echo $conceptgraph_title ?>
         </h2>
         <div id="iframecontainer">
             <div class="graphVisIFrame" style="width: 100%; height: 100%; position: absolute; border:1px solid red;">
@@ -66,8 +70,8 @@
         <footer>
             <ul>
                 <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Impressum</a></li>
-                <li><a href="https://openknowledgemaps.org/">back to Open Knowledge Maps</a></li>
+                <li><a href="imprint">Impressum - Legal Notice</a></li>
+                <li><a href="index">back to Open Knowledge Maps</a></li>
             </ul>
         </footer>
         <!-- ------------------------------------------------------------------------------------- -->
