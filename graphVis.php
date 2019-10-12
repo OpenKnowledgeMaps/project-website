@@ -2,13 +2,19 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+        <base href="<?php echo $SITE_URL ?>">
+        
         <?php
         include($COMPONENTS_PATH . 'head_graphvis.php');
-        
+
         $vis_id = (isset($_GET['vis_id'])) ? ($_GET['vis_id']) : ('');
         $doc_id = (isset($_GET['doc_id'])) ? ($_GET['doc_id']) : ('');
+        $search_term = (isset($_GET['search_term'])) ? ($_GET['search_term']) : ('');
         $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
-        $url = $protocol . $HEADSTART_URL . "server/services/getLatestRevision.php?vis_id=$vis_id";    
+        $url = $protocol . $HEADSTART_URL . "server/services/getLatestRevision.php?vis_id=$vis_id";
+        
+        $conceptgraph_title = "This concept graph is based on the knowledge map for "
+                . "<a href=\"map/$vis_id\" target=\"_blank\">$search_term</a>";
         ?>
 
         <!-- ##################################################################################### -->
@@ -30,8 +36,6 @@
                 width: calc(100% - 2px);
             }
 
-
-
             .graphVisIFrame > iframe {
                 width: 100%;
                 height: 100%;
@@ -39,7 +43,6 @@
                 border: 1px solid red;
             }
             .graphVisIFrame {
-
                 width: 100%;
                 height: 100%;
             }
@@ -52,17 +55,28 @@
         </style>
 
     </head>
-    <body>
-    <!-- ##################################################################################### -->
-    <!-- Please define your Iframe and include gvf.html as source file-->
-    <div id="iframecontainer">
-        <div class="graphVisIFrame" style="width: 100%; height: 100%; position: absolute; border:1px solid red;",>
-            <iframe src="lib/OKMapsGraphVis/gvf.html" style="width: 100%; height: 100%"></iframe>
+    <body class="conceptgraph-page">
+        <!-- ##################################################################################### -->
+        <!-- Please define your Iframe and include gvf.html as source file-->
+        <h2 class="conceptgraph-title">
+            <?php echo $conceptgraph_title ?>
+        </h2>
+        <div id="iframecontainer">
+            <div class="graphVisIFrame" style="width: 100%; height: 100%; position: absolute; border:1px solid red;">
+                <iframe src="lib/OKMapsGraphVis/gvf.html" style="width: 100%; height: 100%"></iframe>
+            </div>
         </div>
-    </div>
-    <!-- ------------------------------------------------------------------------------------- -->
 
-    <script>
+        <footer>
+            <ul>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="imprint">Impressum - Legal Notice</a></li>
+                <li><a href="index">back to Open Knowledge Maps</a></li>
+            </ul>
+        </footer>
+        <!-- ------------------------------------------------------------------------------------- -->
+
+        <script>
 
 
             // ##################################################################################### 
@@ -72,39 +86,41 @@
 
                 // define the url of logging server 
                 var serverConfig = {
-                    loggingServerUrl : "<?php if(isset($GRAPHVIS_LOGGING_SERVER)) { echo $GRAPHVIS_LOGGING_SERVER; } ?>"
+                    loggingServerUrl: "<?php if (isset($GRAPHVIS_LOGGING_SERVER)) {
+            echo $GRAPHVIS_LOGGING_SERVER;
+        } ?>"
                 }
                 // the application is ready send your server-configuration to the logging-service 
                 gvfapi.sendLoggingServerConfig(serverConfig);
             });
             //---------------------------------------------------------------------------------------
 
-                var filename = encodeURI('<?php echo $url ?>&context=true'); 
+            var filename = encodeURI('<?php echo $url ?>&context=true');
 
-                gvfapi.registerEvent("initready", function (d) {
-                    let okmapsData = {
-                        data: [],
-                        nodeType: "Document"
-                    }
-                    gvfapi.sendLoggingServerConfig("config");
-                });
+            gvfapi.registerEvent("initready", function (d) {
+                let okmapsData = {
+                    data: [],
+                    nodeType: "Document"
+                }
+                gvfapi.sendLoggingServerConfig("config");
+            });
 
-                var jqxhr = $.getJSON( filename, function(okmapNewdataToRender) {
+            var jqxhr = $.getJSON(filename, function (okmapNewdataToRender) {
 
-                    okmapNewdataToRender.data = JSON.parse(okmapNewdataToRender.data);
-                    
-                    let start_id = '<?php echo $doc_id ?>';
-                    
-                    if(start_id !== '') {
-                        okmapNewdataToRender.startingNodeId = start_id;
-                    }
+                okmapNewdataToRender.data = JSON.parse(okmapNewdataToRender.data);
 
-                    // ##################################################################################### 
-                    // Render the graphVis with new data as following
-                    gvfapi.sendOKMapDataToGvf(okmapNewdataToRender);
-                    //---------------------------------------------------------------------------------------
-                })
-    </script>
+                let start_id = '<?php echo $doc_id ?>';
+
+                if (start_id !== '') {
+                    okmapNewdataToRender.startingNodeId = start_id;
+                }
+
+                // ##################################################################################### 
+                // Render the graphVis with new data as following
+                gvfapi.sendOKMapDataToGvf(okmapNewdataToRender);
+                //---------------------------------------------------------------------------------------
+            })
+        </script>
 
 
     </body>

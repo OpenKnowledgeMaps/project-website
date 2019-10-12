@@ -245,6 +245,64 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     color: #f29e00;
 }
 
+.conceptgraph-page .cc-message, .conceptgraph-page {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+}
+
+.conceptgraph-page .cc-color-override-446009254.cc-window {
+    background-color: #E5E6F1;
+    color: black;
+}
+
+.conceptgraph-page .cc-color-override-446009254 .cc-btn {
+    color: black;
+    background-color: #e3e3e3;
+    border: 1px solid #ccc;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.conceptgraph-page .cc-color-override-446009254 .cc-btn:hover {
+    background-color: lightgray;
+}
+
+.conceptgraph-page .cc-color-override-446009254 .cc-link {
+    color: black;
+}
+
+.conceptgraph-page .cc-window.cc-banner {
+    width: 70%;
+}
+
+.conceptgraph-page footer ul li {
+    display: inline;
+    padding: 0px 10px;
+    font-size: 12px;
+}
+
+.conceptgraph-page footer {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.conceptgraph-page a {
+    color: black;
+    text-decoration: underline;
+}
+
+.conceptgraph-title {
+    color: black;
+    text-transform: none;
+    font-size: 12px;
+    padding: 10px 10px 0px;
+    font-weight: normal;
+}
+
+.conceptgraph-page {
+    max-width: 100%;
+}
+
 /*WORKSHOP TEASER*/
 .landscape-teaser {
     text-align:center; 
