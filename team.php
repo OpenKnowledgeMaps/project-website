@@ -279,7 +279,7 @@
                             <a target="_blank" href="https://www.oa.unito.it/"><img class="hoverlink" src="./img/advisors/elena.jpg" alt="Advisor OKMaps"></a>
                             <h3>Elena Giglia</h3>
                             <ul class="advisor-desc">
-                                <li>Head of Open Access office</li>
+                                <li>Head of Open Access Office</li>
                                 <li>University of Turin</li>
                             </ul>
                         </div>
