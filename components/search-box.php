@@ -242,7 +242,7 @@
                 
                 if (!(browser === "Firefox" || browser === "Safari" || browser === "Chrome")) {
                     let alert_message = 'You are using an unsupported browser.'
-                                        + ' We strongly suggest to switch to one of the supported browsers '
+                                        + ' We strongly suggest to switch to one of the supported browsers'
                                         + ' before continuing. Otherwise, the search may not work as expected.'
                                         + '\n\nSupported browsers are the latest versions of Edge, Firefox, Chrome, Safari, and Opera.'
                                         + '\n\nDo you still want to continue?';
