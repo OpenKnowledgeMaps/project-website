@@ -3,15 +3,15 @@
 <script>
 
 <?php if ($BROWSER_LANG === "de") { ?>
-        let cookie_message = 'GraphVis Privacy Note ';
+        let cookie_message = 'Wir verwenden Cookies, um Concept Graph für Sie möglichst benutzerfreundlich zu gestalten. Wenn Sie fortfahren, nehmen wir an, dass Sie mit der Verwendung von Cookies auf dieser Webseite einverstanden sind. Weitere Informationen entnehmen Sie bitte ';
         let cookie_link = "GraphVis Privacy Link";
         let cookie_button = "Alles klar!";
-        let cookie_href = "https://openknowledgemaps.org/datenschutz";
+        let cookie_href = "https://openknowledgemaps.org/datenschutz-conceptgraph";
 <?php } else { ?>
-        let cookie_message = 'GraphVis Privacy Note ';
+        let cookie_message = 'We use cookies to improve your experience. By your continued use of this site you accept such use. For more information, please see ';
         let cookie_link = "GraphVis Privacy Link";
         let cookie_button = "Got it!";
-        let cookie_href = "https://openknowledgemaps.org/privacy";
+        let cookie_href = "https://openknowledgemaps.org/privacy-conceptgraph";
 <?php }; ?>
     function clearCookies (names) {
       var i = 0, namesLength = names.length;
