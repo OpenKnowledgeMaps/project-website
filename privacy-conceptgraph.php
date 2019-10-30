@@ -88,8 +88,6 @@
                     <li>type of browser you are using and browser version</li>
                     <li>operation system of your device</li>
                     <li>URL of the previously visited site</li>
-
-
                 </ul>
 
                 <p>This information is technically necessary in order to display the content of our website and services correctly and is imperative when you use the internet. The data is collected to:
@@ -115,6 +113,13 @@
                 <p>If you use your email software to send us a message, please be aware that the message you send is not encrypted by default.
                     If you want to send us personal information via email, we advise you to always encrypt your messages beforehand. Please see the section "Email communication with us" for more information.</p>
 
+                <h3>Email communications with us</h3>
+                <p>If you click on our dedicated contact buttons: info@openknowledgemaps.org or any other contact buttons ("pre-register via email", email icon) your email software will be activated and invites you to send your comments to a specific functional mailbox. When you send such a message, your personal data is collected only to the extent necessary to reply.
+                    If you use your email software to send us a message, please be aware that the message you send is not encrypted by default.
+                    If you want to send us personal information via email we advise you to always encrypt your messages beforehand.</p>
+                <p>We will not forward your email or the data included in your email to any third parties without your consent.</p>
+                <p>If you have any questions about the processing of your e-mail and related personal data, do not hesitate to include them in your message.</p>
+
                 <h3>Collaboration with Data Processors and Third Parties</h3>
                 <p>We use Google Fonts, Google Hosted Libraries, a Content Distribution Network (CDN), Google Analytics, a web analytics service, and Google Drive, a filesharing service, of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see "Use of Google Fonts", "Use of Content Distribution Network (CDN)", "Use of Google Analytics", and "Use of Google Drive" further down.
                     We als use some web services provided by Twitter. For more information please see "Social Plugins" further down.
@@ -125,45 +130,6 @@
                   <a class="underline" target="_blank" href="https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE">https://www.paypal.com/ie/webapps/mpp/ua/privacy-full?locale.x=en_IE</a>.
                 </p>
                 <p>Apart from the aformentioned data processors, we do not transfer your data to any other third parties.</p>
-
-                <h3>Email communications with us</h3>
-                <p>If you click on our dedicated contact buttons: info@openknowledgemaps.org or any other contact buttons ("pre-register via email", email icon) your email software will be activated and invites you to send your comments to a specific functional mailbox. When you send such a message, your personal data is collected only to the extent necessary to reply.
-                    If you use your email software to send us a message, please be aware that the message you send is not encrypted by default.
-                    If you want to send us personal information via email we advise you to always encrypt your messages beforehand.</p>
-                <p>We will not forward your email or the data included in your email to any third parties without your consent.</p>
-                <p>If you have any questions about the processing of your e-mail and related personal data, do not hesitate to include them in your message.</p>
-
-                <h3>Social Plug-ins</h3>
-                <h4>Twitter</h4>
-                <p>We use website elements from Twitter, a social network of the company Twitter Inc. (1355 Market St, Suite 900, San Francisco, CA 94103, USA), on our website. Website elements are e.g. buttons (so-called "social plug-ins") or integrated content from the provider. You can find an overview of Twitter website elements here:
-                    <a class="underline" target="_blank" href="https://dev.twitter.com/web/overview">https://dev.twitter.com/web/overview</a></p>
-                <p>We use Twitter elements to display posts and news about and by Open Knowledge Maps.
-
-
-                    When you visit a page on our website that contains such a website element, your browser establishes a direct connection to the server of the provider. The content of the website element is transmitted by the provider directly to your browser and integrated into the Open Knowledge Maps page. By integrating the website elements, the provider gains knowledge that your browser has accessed the corresponding page of our website, and even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to Twitter. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section "Cookies").
-                </p>
-                <p>Open Knowledge Maps has no influence on the parameters of the data that the Twitter lifts out with the help of the website elements. For details on the purpose and extent of the data collection and the further processing and use of the data by the providers as well as your related rights and setting options for protecting your privacy, please refer to the privacy policy of Twitter:
-                    <a class="underline" target="_blank" href="https://twitter.com/de/privacy">https://twitter.com/de/privacy</a>
-                    You would need to log out of each provider’s services if you want to prevent providers from directly associating the data collected through our website with your profile in that service.</p>
-                <h4>Hypothes.is</h4>
-                <p>We use the Hypothes.is webservices from the "HYPOTHES.IS PROJECT", a web annotation project to allow you to view and submit annotations to PDF articles of papers that are included in your Open Knowledge Maps map. If you are logged into one of the services, the provider can directly assign the visit to our website to your profile with this provider (see section “Cookies”). By integrating the web annotation service, the provider gains knowledge that your browser has accessed the corresponding page of our website and the corresponding paper/article, even if you do not have a profile with the provider or are not logged in at the time. This data (including your IP address) is transmitted by your browser directly to Hypothes.is.
-                </p>
-                <p>Open Knowledge Maps has no influence on the parameters of the data that Hypothes.is lifts out during the use of the annotation service. Hypothes.is has a privacy policy page showing in detail their privacy policy. It can be viewed at: <a class="underline" target="_blank" href="https://web.hypothes.is/privacy/">https://web.hypothes.is/privacy/</a>
-                    You would need to log out of this provider’s services if you want to prevent it from directly associating the data collected through our website with your profile in that service. You can completely prevent the loading of the website elements with browser add-ons.
-                </p>
-                <h4>Vimeo</h4>
-                <p>We use the video webhosting service Vimeo, a platform for online video sharing and related services of the company Vimeo Inc. (555 West 18th Street, New York, New York 10011, USA). When you visit a page on our website that contains a Vimeo video, data is transferred to Vimeo and stored and analysed by Vimeo. This also applies if you are not logged in to Vimeo when you visit our website or do not have a Vimeo account. If you have a Vimeo account and are logged in, this data is associated with your personal account.
-                </p>
-                <p>Open Knowledge Maps has no influence on the parameters of the data that Vimeo collects. For more information which data Vimeo collects and how this data is used, please refer to <a class="underline" target="_blank" href="https://vimeo.com/privacy">https://vimeo.com/privacy</a>
-                    You would need to log out of this provider’s services if you want to prevent it from directly associating the data collected through our website with your profile in that service. You can completely prevent the loading of the website elements with browser add-ons.
-                </p>
-
-
-                <p class="bold">How to deactivate social plug-ins</p>
-                <p>You can completely prevent the loading of the website elements with browser add-ons.</p>
-
-                <h3>Links to third party websites and services</h3>
-                <p>Open Knowledge Maps is not responsible for the contents of websites that are maintained by third parties and therefore waives its liability for any links from this website to other websites. When you leave our website the privacy policies of that other website apply.</p>
 
                 <h3>Routine erasure and blocking of personal data</h3>
                 <p>The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.</p>
@@ -219,20 +185,13 @@
                 <p>We use cookies on our website to</p>
                 <ul>
                     <li>store your acknowledgement of the use of cookies on this website</li>
-                    <li>to create aggregated usage statistics and anonymised analysis of user behaviour (see section "Matomo")</li>
+                    <li>to create aggregated usage statistics</li>
+                    <li>analysis of anonymised user behaviour</li>
                 </ul>
                 <p>The cookies for the purposes mentioned above are not used to personally identify you. These cookies are stored permanently and are not used for any other purpose.
                 </p>
 
-                <p>Website elements from Twitter embedded on our website (see also "Social plugins") also use cookies. Open Knowledge Maps does not have access to this data and does not process it. Twitter uses these cookies for example to improve its service and to understand, how social plugins are used. Twitter possibly also uses these cookies to identify you as a user, even beyond the scope of this website, and in addition, if you have a Twitter account and are logged in, to link your activity to your account. You can find more information on the use of cookies by Twitter here:
-                     <a class="underline" target="_blank" href="https://help.twitter.com/rules-and-policies/twitter-cookies">https://help.twitter.com/rules-and-policies/twitter-cookies</a> and here:
-                      <a class="underline" target="_blank" href="https://twitter.com/privacy">https://twitter.com/privacy</a>.</p>
-
-                <p>The web annotation service provided by Hypothes.is (see also "Social Plugins") also uses cookies. Open Knowledge Maps does not have access to this data and does not process it. Hypothes.is reports to use cookies in the following way: “The primary purpose of a cookie is to tell the web server that you have previously visited a specific page. For example, if you personalize login to our services, a cookie tracks your session to various parts of the site.”</p>
-                <p>You can find out more in the cookies section of the Hypothes.is privacy policy here: <a class="underline" target="_blank" href="https://web.Hypothes.is/privacy/#collecting-your-personal-information">https://web.Hypothes.is/privacy/#collecting-your-personal-information</a></p>
-
                 <p class="bold">Google Analytics</p>
-
                 <p>Google Analytics uses cookies to analyze your use of the website. The information generated by the cookie about your use of this website is usually transmitted to a Google server in the USA and stored there securely. However, due to the activation of IP anonymization on these websites, your IP address will be shortened beforehand by Google, within any member state of the European Union or in other contracting states of the Agreement on the European Economic Area.
                    On behalf of the operator of this website, Google will use this information to evaluate your use of the website, to compile reports on website activity and to provide other services related to website activity and internet usage to the website operator. Only in exceptional cases will the full IP address be sent to a Google server in the US and shortened there. The IP address provided by Google Analytics as part of Google Analytics will not be merged with other Google data.
                 <p>You can prevent the storage of cookies by a corresponding setting of your browser software. In addition, you may prevent Google from collecting the data generated by the cookie (including your IP address) as well as the processing of this data by downloading and installing the browser plug-in available under the following link:
@@ -287,10 +246,11 @@
 
                     <li>Object to processing of your personal data by us</li>
                     <li>Data transfer, provided that you have consented to the data processing or have entered into a contract with us. If you have given consent, you can revoke consent at any time, with effect for the future.</li>
-
-
                 </ul>
                 <p>You can submit a complaint to the competent regulators at any time.</p>
+
+                <h3>Links to third party websites and services</h3>
+                <p>Open Knowledge Maps is not responsible for the contents of websites that are maintained by third parties and therefore waives its liability for any links from this website to other websites. When you leave our website the privacy policies of that other website apply.</p>
 
                 <h3>Changes to our privacy policy</h3>
                 <p>Our privacy policy is subject to change. We will adapt our privacy policy in order to comply with current legal requirements or to notify you of changes to our services.
