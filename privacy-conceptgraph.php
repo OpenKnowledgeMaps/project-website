@@ -16,33 +16,65 @@
             <div style="max-width: 750px; width:100%; margin: 0px auto;">
 
                 <ul>
-                    <li><a class="underline" href="datenschutz">Datenschutzerklärung auf Deutsch</a></li>
+                    <li><a class="underline" href="datenschutz-conceptgraph">Datenschutzerklärung auf Deutsch</a></li>
                 </ul>
-
-
+                <p>This privacy policy only applies for the website of Concept Graph. For the other websites of Open Knowledge Maps refer to <a class="underline" target="_blank" href="https://openknowledgemaps.org/privacy">Privacy policy of openknowledgemaps.org
+                </p>
                 <h2>Privacy Policy</h2>
-                <p><b>Last updated:</b> 02 October 2019
+                <p><b>Last updated:</b> 30 October 2019
 
-                <p>This privacy policy explains what kind of data we collect, what we use this data for and what your rights are. The terms used in this privacy policy for example "personal data" or "third party" are defined in Art. 4 of the General Data Protection Regulation (GDPR):
+                <p>Open Knowledge Maps and Know-Center GmbH are joint controllers for Concept Graph. This privacy statement explains what data is collected and in what way, how it is used, and what rights you have in relation to it. The terms used herein, such as "data processing" or "controller" are defined in Art. 4 of the General Data Protection Regulation (GDPR):
                     <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a>
                 </p>
-                <h3>Purpose of processing</h3>
-                <p>We use the data for provision, maintenance, security and improvement of services, for the analysis of user behaviour and development of new services, and to protect Open Knowledge Maps and our users. We also use the data to fulfil the purpose of our association (for more info seeour Legal Notice:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>)</p>
 
-                <h3>Controller
-                </h3>
-                <p>Open Knowledge Maps - Verein zur Förderung
-                    der Sichtbarkeit wissenschaftlichen Wissens<br>
+                <h3>Joint Controllers</h3>
+                <p> Know-Center GmbH -Research Center for Data Driven Business & Big Data Analytics<br>
+                    Inffeldgasse 13/6, 8010 Graz<br>
+                    Contact:
+                    <a class="underline" target="_blank" class="underline" href="mailto:datenschutz@know-center.at">datenschutz@know-center.at</a><br>
+                </p>
+                <p>Open Knowledge Maps - Verein zur Förderung der Sichtbarkeit wissenschaftlichen Wissens<br>
                     1030 Wien, Keilgasse 11/20 Austria<br>
-                    Registration number (ZVR):
-                    859648888<br>
-                    Email:
+                    ZVR: 859648888<br>
+                    Contact:
                     <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a><br>
                     Please find further details in our Legal Notice:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>
                 </p>
 
+                <h4>Joint point of contact</h4>
+                <p>
+                Know-Center GmbH Research Center for Data Driven Business & Big Data Analytics, Inffeldgasse 13/6, 8010 Graz<br>
+                Kontakt: <a class="underline" target="_blank" class="underline" href="mailto:datenschutz@know-center.at">datenschutz@know-center.at</a><br>
+                </p>
+
+                <h3>Purpose of processing</h3>
+                <p>We use the information collected through our website to provide, maintain, protect and improve our services, analyze usage patterns and develop new services, and protect open knowledge maps and our users. In addition, we use the collected data for the achievement of our association's purpose (see imprint:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>).
+                </p>
+
                 <p>If you have any question about our privacy policy, or data protection at Open Knowledge Maps in general, please send an email to <a class="underline" href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a>
                 </p>
+
+                <h3>What type of data is collected</h3>
+                <p>Collected data includes</p>
+                <ul style="list-style: disc; margin-left:20px;">
+                  <li>Cookie information in order to be able to deduce multiple accesses of the same user (s. Cookies).</li>
+                  <li>Click data; these describe which visualization elements (e.g. nodes, textual elements or filter functions) the user has interacted with, mainly by mouse clicks, and allow identification of typical or unintended interaction patterns.</li>
+                  <li>Timestamps; these describe the times of the user interactions in order to be able to conclude interaction sequences.</li>
+                </ul>
+
+                <h3>How is the data used?</h3>
+                <p>
+                The initially pseudo-anonymized data is collected to evaluate the performance, usability and usage patterns of a graph visualization integrated into the Open Knowledge Maps search platform. At the end of the one-month experiment time window and before further processing, the data is completely anonymized. The data and the resulting results will be used for scientific purposes (including scientific publication), teaching and improving the visualization and similar services that promote the discoverability of scientific knowledge for the production of new knowledge and its use in teaching.
+                </p>
+
+                <h3>Where is the data stored?</h3>
+                <p>Collected data is stored in data centers in Germany and Austria. There is no disclosure, or order processing by third parties.
+                </p>
+
+                <h3>How long is the data stored?</h3>
+                <p>The storage takes place until the exhaustion of the processing purpose, unless in addition there are legal or (contractual) storage requirements or (predominantly) legitimate interests which justify a longer storage (e.g. for the assertion or defense of legal claims).
+                </p>
+
                 <h3>Collection and storage of general data and information</h3>
                 <p>Every visit to our website general data is automatically collected and stored in a log file.
                     The following information is being recorded:</p>
