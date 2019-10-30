@@ -16,7 +16,7 @@
             <div style="max-width: 750px; width:100%; margin: 0px auto;">
 
                 <ul>
-                    <li><a class="underline" target="_blank" class="underline" href="privacy">Privacy policy in English</a></li>
+                    <li><a class="underline" target="_blank" class="underline" href="privacy-conceptgraph">Privacy policy in English</a></li>
                 </ul>
                 <p>Diese Datenschutzerklärung trifft nur auf die Webseite zu Concept Graph zu. Für die restliche Webseite von Open Knowledge Maps gilt die <a class="underline" target="_blank" href="https://openknowledgemaps.org/datenschutz">Datenschutzerklärung für openknowledgemaps.org</a>.
                 </p>
@@ -40,11 +40,12 @@
 
                     Weitere Details finden Sie im Impressum:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#impressum">https://openknowledgemaps.org/imprint#impressum</a>
                 </p>
-                <h4>Gemeinsame Anlaufstelle</h4>
 
+                <h4>Gemeinsame Anlaufstelle</h4>
+                <p>
                 Know-Center GmbH Research Center for Data Driven Business & Big Data Analytics, Inffeldgasse 13/6, 8010 Graz<br>
                 Kontakt: <a class="underline" target="_blank" class="underline" href="mailto:datenschutz@know-center.at">datenschutz@know-center.at</a><br>
-
+                </p>
 
                 <h3>Zweck der Verarbeitung</h3>
                 <p>Wir nutzen die im Rahmen unserer Webseite erhobenen Daten zur Bereitstellung, zur Wartung, zum Schutz und zur Verbesserung unserer Dienste, zur Analyse des Nutzungsverhaltens und zur Entwicklung neuer Dienste sowie zum Schutz von Open Knowledge Maps und unseren Nutzern. Zudem nutzen wir die erhobenen Daten für die Erreichung unseres Vereinszwecks (siehe Impressum:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#impressum">https://openknowledgemaps.org/imprint#impressum</a>).
