@@ -3,6 +3,7 @@
 </script>
 <div class="topheader"></div>    
 <?php //include ($COMPONENTS_PATH . "donation_banner.php"); ?>
+<?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
 
 <div class="search-box">
         <div class="background2">
@@ -229,7 +230,7 @@
                 }
             })
             
-            $("#searchform").submit(function () {
+            $("#searchform").submit(function (e) {
                 var ua = window.navigator.userAgent;
                 var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
                 var webkit = !!ua.match(/WebKit/i);
@@ -237,6 +238,18 @@
                 
                 if(iOSSafari) {
                     $("#searchform").attr("target", "");
+                }
+                
+                if (!(browser === "Firefox" || browser === "Safari" || browser === "Chrome")) {
+                    let alert_message = 'You are using an unsupported browser.'
+                                        + ' We strongly suggest to switch to one of the supported browsers'
+                                        + ' before continuing. Otherwise, the search may not work as expected.'
+                                        + '\n\nSupported browsers are the latest versions of Edge, Firefox, Chrome, Safari, and Opera.'
+                                        + '\n\nDo you still want to continue?';
+                    if (!confirm(alert_message)) {
+                        $("#searchform").attr("target", "");
+                        e.preventDefault();
+                    }
                 }
                 
             })
