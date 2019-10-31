@@ -121,7 +121,7 @@
                 <p>If you have any questions about the processing of your e-mail and related personal data, do not hesitate to include them in your message.</p>
 
                 <h3>Collaboration with Data Processors and Third Parties</h3>
-                <p>We use Google Fonts, Google Hosted Libraries, a Content Distribution Network (CDN), Google Analytics, a web analytics service, and Google Drive, a filesharing service, of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see "Use of Google Fonts", "Use of Content Distribution Network (CDN)", "Use of Google Analytics", and "Use of Google Drive" further down.
+                <p>We use Google Hosted Libraries, Google Analytics, and Google Drive of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) for our website and web services. For more information please see, "Use of Content Distribution Network (CDN)", "Use of Google Analytics", and "Use of Google Drive" further down.
                     We als use some web services provided by Twitter. For more information please see "Social Plugins" further down.
                     In addition, we use the GDPR-compliant service MailChimp, a marketing automation service provided by The Rocket Science Group, LLC (675 Ponce de Leon Ave NE, Suite 5000, Atlanta, GA 30308, USA). For more information please see "Newsletter" further down.
                     We use the GDPR-compliant service Hypothes.is, a web annotation service provided by HYPOTHES IS PROJECT ( 2261 Market Street 632, San Francisco, CA, 94114 United States of America ). For more information please see “Social Plugins” further down.
@@ -135,19 +135,7 @@
                 <p>The data controller shall process and store the personal data of the data subject only for the period necessary to achieve the purpose of storage, or as far as this is granted by the European legislator or other legislators in laws or regulations to which the controller is subject to.</p>
                 <p>If the storage purpose is not applicable, or if a storage period prescribed by the European legislator or another competent legislator expires, the personal data are routinely blocked or erased in accordance with legal requirements.</p>
 
-                <h3>Use of Google Fonts</h3>
-                <p>Our website uses fonts (Google Fonts) by Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.
-
-                    We are using these fonts to ensure that our website looks the same, regardless of which device - PC, tablet, smartphone - you are viewing our website on.
-
-                    The use of google fonts does not require logging into to google services and google fonts don’t save any cookies on your computer. If you have an account with Google, your google account information is not being transmitted while using google fonts. Google only registers which libraries and style sheets (CSS) are used  and stores this information savely.
-                </p>
-                <p>Google’s privacy policy is available here:
-                   <a class="underline" target="_blank" href="https://www.google.com/policies/privacy/">https://www.google.com/policies/privacy/</a></p>
-                <p>More details regarding google fonts are available here:
-                     <a class="underline" target="_blank" href="https://developers.google.com/fonts/faq">https://developers.google.com/fonts/faq</a></p>
-
-                <h3>Use of Content Distribution Networks by Google</h3>
+                <h3>Use of Google Hosted Libraries</h3>
                 <p>On our website we use Google Hosted Libraries a Content Distribution Network (CDN) of the company Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA).
                     A CDN ensures that all program libraries and style sheets (CSS) that are necessary for the correct display of our website and services are being loaded as efficiently and securely as possible, independent of their location.
                     The use of google hosted libraries does not require logging into to google services and google hosted libraries does not save any cookies on your computer. If you have an account with Google, your google account information is not being transmitted while using google hosted libraries. Google only registers which libraries and style sheets (CSS) are used  and stores this information savely.</p>
@@ -212,26 +200,9 @@
                 <p>Note: If you delete your cookies, your opt-out cookie will also be deleted, meaning that you will have to reactivate the cookie for your next visit to the site.</p>
                 <p>                <iframe style="border: 0; width: 600px; font-family: 'Open Sans';" src="https://openknowledgemaps.org/piwik_stats/index.php?module=CoreAdminHome&action=optOut&language=en"></iframe>
                 </p>
+
                 <p class="bold">How to control cookies</p>
                 <p>You can control and/or delete cookies as you wish – for details, see <a class="underline" target="_blank" href="https://aboutcookies.org">aboutcookies.org</a>. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site and some services and functionalities may not work as expected.</p>
-
-
-
-                <h3>Newsletter</h3>
-
-                <p>If you subscribe to our newsletter you submit your personal data (email and name) and you give us permission to contact you via email.
-                    We use the data provided to send you periodic updates on our services and other news concerning our organization Open Knowledge Maps via email.</p>
-
-                <p>You can unsubscribe at any time by clicking on a dedicated link in the newsletter, in which case we will also delete your data.</p>
-                <p>You can also view and update your data by clicking on a dedicated link in the newsletter.</p>
-                <p>We use a GDPR-compliant service such as MailChimp to manage your data, to send out emails and to conduct statistical analysis of our newsletter use. MailChimp is a marketing automation service provided by The Rocket Science Group, LLC
-                    675 Ponce de Leon Ave NE
-                    Suite 5000
-                    Atlanta, GA 30308 USA
-                    By signing up for our newsletter you acknowledge that the information you provide will be transferred to MailChimp for processing in accordance with their Privacy Policy and Terms:
-                     <a class="underline" target="_blank" href="https://mailchimp.com/legal/privacy/">https://mailchimp.com/legal/privacy/</a>
-                     <a class="underline" target="_blank" href="https://mailchimp.com/legal/terms/">https://mailchimp.com/legal/terms/</a>
-                </p>
 
 
                 <h3>Rights of the data subject - right of access, rectification, blocking, erasure, right to object</h3>

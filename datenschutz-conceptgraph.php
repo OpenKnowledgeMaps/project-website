@@ -181,7 +181,7 @@
 
                 <h3>Zusammenarbeit mit Auftragsdatenverarbeitern und Dritten
                 </h3>
-                <p>Wir benutzen für unsere Webseite das Content Distribution Network, Google Analytics, und Google Drive der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mehr Informationen hierzu finden Sie im Punkt "Verwendung des Content Distribution Networks von Google", "Verwendung von Google Analytics", und "Verwendung von Google Drive".
+                <p>Wir benutzen für unsere Webseite Google Hosted Libraries, Google Analytics, und Google Drive der Firma Google Inc. (1600 Amphitheatre Parkway Mountain View, CA 94043, USA). Mehr Informationen hierzu finden Sie im Punkt "Verwendung des Content Distribution Networks von Google", "Verwendung von Google Analytics", und "Verwendung von Google Drive".
 
                 <h3>Verwendung von Google Analytics</h3>
                 <p>Google Analytics verwendet Cookies, um eine Analyse der Benutzung der Webseite durch Sie durchzuführen. Die durch das Cookie erzeugten Informationen über Ihre Benutzung dieser Webseite werden in der Regel an einen Server von Google in den USA übertragen und dort sicher gespeichert. Aufgrund der Aktivierung der IP-Anonymisierung auf diesen Webseiten, wird Ihre IP-Adresse von Google jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor gekürzt. Im Auftrag des Betreibers dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der Webseite auszuwerten, um Reports über die Webseitenaktivitäten zusammenzustellen und um weitere mit der Websitenutzung und der Internetnutzung verbundene Dienstleistungen gegenüber dem Webseitenbetreiber zu erbringen. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von Google in den USA übertragen und dort gekürzt. Die im Rahmen von Google Analytics von Ihrem Browser übermittelte IP-Adresse wird nicht mit anderen Daten von Google zusammengeführt.
@@ -196,7 +196,7 @@
                      <a class="underline" target="_blank" href="https://support.google.com/analytics/answer/6004245">https://support.google.com/analytics/answer/6004245</a>
                       </p>
 
-                <h3>Verwendung des Content Distribution Networks von Google</h3>
+                <h3>Verwendung von Google Hosted Libraries</h3>
                 <p>Wir verwenden Google Hosted Libraries, ein Content Distribution Network (CDN) der Firma Google LLC (1600 Amphitheatre Parkway Mountain View, CA 94043, USA) auf unserer Webseite. Das CDN stellt sicher, dass für die Ausführung und Darstellung unsere Webseite benötigte Programmbibliotheken und Darstellungsvorgaben (CSS) schnell und zuverlässig geladen werden können, unabhängig von ihrem Standort.</p>
                 <p>Die Verwendung von Google Hosted Libraries erfolgt ohne Anmeldung und es werden keine Cookies von Google Hosted Libraries gesetzt. Sollten Sie ein Konto bei Google haben, werden keine Ihrer Google-Kontodaten an Google während der Nutzung von Google Hosted Libraries übermittelt. Google erfasst lediglich die Nutzung der verwendeten Bibliotheken und Darstellungsvorgaben (CSS) und speichert diese Daten sicher.</p>
                 <p>Die Datenschutzerklärung von Google finden sie hier:
