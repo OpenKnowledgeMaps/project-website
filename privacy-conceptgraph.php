@@ -18,7 +18,7 @@
                 <ul>
                     <li><a class="underline" href="datenschutz-conceptgraph">Datenschutzerklärung auf Deutsch</a></li>
                 </ul>
-                <p>This privacy policy only applies for the website of Concept Graph. For the other websites of Open Knowledge Maps refer to <a class="underline" target="_blank" href="https://openknowledgemaps.org/privacy">Privacy policy of openknowledgemaps.org
+                <p>This privacy policy only applies for the website of Concept Graph. For the other websites of Open Knowledge Maps refer to <a class="underline" target="_blank" href="https://openknowledgemaps.org/privacy">Privacy policy of openknowledgemaps.org</a>.
                 </p>
                 <h2>Privacy Policy</h2>
                 <p><b>Last updated:</b> 30 October 2019
