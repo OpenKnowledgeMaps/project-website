@@ -214,17 +214,17 @@
                 </p>
 
                 <h3>Was sind Ihre Datenschutzrechte?</h3>
-                <p>Sie haben das Recht, jederzeit Auskunft über Ihre bei uns gespeicherten personenbezogenen Daten zu erhalten. Ebenso haben Sie das Recht auf Berichtigung, Sperrung oder, abgesehen von gesetzlich vorgeschriebener Datenspeicherung, Löschung Ihrer personenbezogenen Daten. Bitte wenden Sie sich dazu an uns. Die Kontaktdaten finden Sie weiter oben unter "Verantwortlicher".</p>
-                <p>Damit eine Sperre von Daten jederzeit berücksichtigt werden kann, müssen diese Daten zu Kontrollzwecken in einer Sperrdatei vorgehalten werden. Sie können auch die Löschung der Daten verlangen, soweit keine gesetzliche Archivierungsverpflichtung besteht. Soweit eine solche Verpflichtung besteht, sperren wir Ihre Daten auf Wunsch.
-                    Sie können Änderungen oder den Widerruf einer Einwilligung durch entsprechende Mitteilung an uns mit Wirkung für die Zukunft vornehmen.</p>
-                <p>Unter den angegebenen Kontaktdaten unter "Verantwortlicher" können Sie jederzeit folgende Rechte ausüben:</p>
+                <p>Sie haben ein Recht auf:
+                </p>
                 <ul style="list-style: disc; margin-left:20px;">
-                    <li>Auskunft über Ihre bei uns gespeicherten Daten und deren Verarbeitung,</li>
-                    <li>Berichtigung unrichtiger personenbezogener Daten,</li>
-                    <li>Löschung Ihrer bei uns gespeicherten Daten,</li>
-                    <li>Einschränkung der Datenverarbeitung, sofern wir Ihre Daten aufgrund gesetzlicher Pflichten noch nicht löschen dürfen,</li>
-                    <li>Widerspruch gegen die Verarbeitung Ihrer Daten bei uns und</li>
-                    <li>Datenübertragung, sofern Sie in die Datenverarbeitung eingewilligt haben oder einen Vertrag mit uns abgeschlossen haben. Sofern Sie uns eine Einwilligung erteilt haben, können Sie diese jederzeit mit Wirkung für die Zukunft widerrufen.</li>
+                  <li>Auskunft, um zu überprüfen, ob und welche personenbezogenen Daten wir über Sie gespeichert haben</li>
+                  <li>Berichtigung/Vervollständigung Ihrer personenbezogenen Daten, die falsch oder unvollständig sind</li>
+                  <li>Löschung Ihrer personenbezogenen Daten, die nicht (mehr) rechtskonform verarbeitet werden </li>
+                  <li>Einschränkung der Verarbeitung </li>
+                  <li>Datenübertragbarkeit</li>
+                  <li>Freie Widerruflichkeit einer erteilten Einwilligung mit Wirkung für die Zukunft; d.h. die Verarbeitung der davon betroffenen Daten wird – wenn nicht ein anderer Rechtfertigungsgrund vorliegt – ab diesem Zeitpunkt unzulässig</li>
+                  <li>Recht auf Widerspruch, soweit sich die die gemeinsamen Verantwortlichen auf ein überwiegendes berechtigtes Interesse stützen</li>
+
                 </ul>
                 <p>Sie können sich jederzeit mit einer Beschwerde an die für Sie zuständige Aufsichtsbehörde wenden.</p>
 
@@ -234,16 +234,6 @@
 
                 <h3>Änderung unserer Datenschutzbestimmungen</h3>
                 <p>Wir behalten uns vor, diese Datenschutzerklärung gelegentlich anzupassen, damit sie stets den aktuellen rechtlichen Anforderungen entspricht oder um Änderungen unserer Leistungen in der Datenschutzerklärung umzusetzen, z. B. bei der Einführung neuer Services. Für Ihren erneuten Besuch auf unserer Webseite gilt dann die neue Datenschutzerklärung.</p>
-
-
-                <h3>Quellen</h3>
-                <p>Diese Datenschutzerklärung wurde mit Hilfe von Generatoren zum Erzeugen einer Datenschutzerklärung erstellt. Wir danken dafür:
-                     https://www.activemind.de/datenschutz/datenschutzhinweis-generator
-                    firmenwebseiten.at in Kooperation mit transportly.at
-                    firmenwebseiten.at in Kooperation mit elternratgeber.at
-
-                    Zudem nutzten wir Teile einer Datenschutzerklärung. Für die Erlaubnis dazu danken wir: https://www.synercon.at/datenschutz
-                </p>
 
                 <!--<div id="imprint">
                     <h2>Privacy Policy</h2>
