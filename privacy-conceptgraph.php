@@ -64,7 +64,9 @@
 
                 <h3>How is the data used?</h3>
                 <p>
-                The initially pseudo-anonymized data is collected to evaluate the performance, usability and usage patterns of a graph visualization integrated into the Open Knowledge Maps search platform. At the end of the one-month experiment time window and before further processing, the data is completely anonymized. The data and the resulting results will be used for scientific purposes (including scientific publication), teaching and improving the visualization and similar services that promote the discoverability of scientific knowledge for the production of new knowledge and its use in teaching.
+                The initially pseudo-anonymized data[1] is collected to evaluate the performance, usability and usage patterns of a graph visualization integrated into the Open Knowledge Maps search platform. At the end of the one-month experiment time window and before further processing, the data is completely anonymized. The data and the resulting results will be used for scientific purposes (including scientific publication), teaching and improving the visualization and similar services that promote the discoverability of scientific knowledge for the production of new knowledge and its use in teaching.
+                </p>
+                <p>[1] In the case of pseudonymization, the identification feature of the user is replaced by a code in order to exclude or substantially hinder the determination of the identity.
                 </p>
 
                 <h3>Where is the data stored?</h3>
