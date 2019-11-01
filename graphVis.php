@@ -27,12 +27,14 @@
             html, body {
                 height: 100%;
                 margin: 0px;
+                background-color: lightgray;
+                min-width: 450px;
             }
 
             #iframecontainer {
                 margin-top:10px; 
                 position:relative;
-                height: calc(100% - 35px);
+                height: calc(100% - 73px);
                 width: calc(100% - 2px);
             }
 
