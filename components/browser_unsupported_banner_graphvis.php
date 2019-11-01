@@ -4,7 +4,7 @@ $detect = new Mobile_Detect;
 if ($detect->isMobile()):
 ?>
 
-<div class="alert alert-warning" id="desktop-warning" style="display:none">
+<div class="alert alert-warning" id="desktop-warning">
 
     <a class="close" data-dismiss="alert">&times;</a>
 
