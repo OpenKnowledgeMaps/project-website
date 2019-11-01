@@ -56,6 +56,7 @@
 
     </head>
     <body class="conceptgraph-page">
+        <?php include ($COMPONENTS_PATH . "browser_unsupported_banner_graphvis.php"); ?>
         <!-- ##################################################################################### -->
         <!-- Please define your Iframe and include gvf.html as source file-->
         <h2 class="conceptgraph-title">

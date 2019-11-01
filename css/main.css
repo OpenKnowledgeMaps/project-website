@@ -297,10 +297,20 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     font-size: 12px;
     padding: 10px 10px 0px;
     font-weight: normal;
+    margin: 0;
 }
 
 .conceptgraph-page {
     max-width: 100%;
+    background-color: lightgray;
+}
+
+.conceptgraph-page #desktop-warning .close {
+    text-decoration: none;
+}
+
+.conceptgraph-page ul {
+    margin: 0;
 }
 
 /*WORKSHOP TEASER*/
