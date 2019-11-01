@@ -28,7 +28,7 @@
                 height: 100%;
                 margin: 0px;
                 background-color: lightgray;
-                min-width: 450px;
+                min-width: 475px;
             }
 
             #iframecontainer {
