@@ -391,13 +391,13 @@ In this workshop you'll learn how search engines and discovery tools work and ho
 
                         <p class="newsitem-p">
                 We are working on a <a target="_blank" href="https://openknowledgemaps.org/supporting-membership">membership-based funding model</a>. In this model, organisations become supporting members of
-                Open Knowledge Maps and provide an annual contribution. We are happy to announce that our very first supporting member, the <a href="https://www.lbg.ac.at/" target="_blank">Ludwig Boltzmann Gesellschaft (LBG)</a>, has joined us. LBG is a longtime collaborator and is now also pioneering this promising path to sustainability with us. Welcome on board!
+                Open Knowledge Maps and provide an annual contribution. We are happy to announce that our very first supporting member, the <a href="https://www.lbg.ac.at/" target="_blank" class="underline">Ludwig Boltzmann Gesellschaft (LBG)</a>, has joined us. LBG is a longtime collaborator and is now also pioneering this promising path to sustainability with us. Welcome on board!
                                         </p>
                         
                         <p class="newsitem-p">
 
-              The <a href="https://www.lbg.ac.at/" target="_blank">Ludwig Boltzmann Gesellschaft (LBG)</a> is a research institution with a thematic focus on medicine, life sciences and the humanities, and is specifically targeting new research topics in Austria. Together with academic and implementing partners, the LBG is currently running 21 institutes and develops and tests new forms of collaboration between science and non-scientific actors such as companies, the public sector and civil society. Socially relevant challenges, to which research can contribute, are to be recognized at an early stage and taken up.
-              The <a href="https://ois.lbg.ac.at/" target="_blank">LBG Open Innovation in Science Center</a>, which unlocks the potential of open innovation for science, and the LBG Career Center, which supports 200 PhD students and postdocs, are part of the LBG. The LBG employs 550 people.
+              The <a href="https://www.lbg.ac.at/" target="_blank" class="underline">Ludwig Boltzmann Gesellschaft (LBG)</a> is a research institution with a thematic focus on medicine, life sciences and the humanities, and is specifically targeting new research topics in Austria. Together with academic and implementing partners, the LBG is currently running 21 institutes and develops and tests new forms of collaboration between science and non-scientific actors such as companies, the public sector and civil society. Socially relevant challenges, to which research can contribute, are to be recognized at an early stage and taken up.
+              The <a href="https://ois.lbg.ac.at/" target="_blank" class="underline">LBG Open Innovation in Science Center</a>, which unlocks the potential of open innovation for science, and the LBG Career Center, which supports 200 PhD students and postdocs, are part of the LBG. The LBG employs 550 people.
               
                         </p>
 
