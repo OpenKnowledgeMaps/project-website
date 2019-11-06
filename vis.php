@@ -134,7 +134,7 @@
                 }]
 
                 data_config.options = options_<?php echo $service ?>.dropdowns;
-                data_config.external_vis_url = '<?php echo $SITE_URL ?>graphVis'
+                data_config.external_vis_url = '<?php echo $SITE_URL ?>conceptgraph'
                                     
             </script>
             <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
