@@ -72,7 +72,7 @@
 
         <footer>
             <ul>
-                <li><a href="">Privacy Policy</a></li>
+                <li><a href="privacy-conceptgraph">Privacy Policy</a></li>
                 <li><a href="imprint">Impressum - Legal Notice</a></li>
                 <li><a href="index">back to Open Knowledge Maps</a></li>
             </ul>
