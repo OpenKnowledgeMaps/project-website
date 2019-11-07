@@ -66,7 +66,7 @@
                 <p>
                 Die vorerst pseudo-anonymisierten Daten[1] werden gesammelt um die Performance, die Benutzbarkeit und die Verwendungsmuster einer in der Open Knowledge Maps Suchplattform integrierten Graph-Visualisierung zu evaluieren. Nach Ablauf des einmonatigen Experiment-Zeitfensters und vor weiterer Verarbeitung werden die Daten vollständig anonymisiert. Die Daten und daraus folgende Ergebnisse werden für wissenschaftliche Zwecke (inkl. einer wissenschaftlichen Publikation), für die Lehre und zur Verbesserung der Visualisierung und ähnlicher Angebote, die die Auffindbarkeit wissenschaftlichen Wissens für die Produktion neuen Wissens und dessen Nutzung in der Lehre befördern, verwendet.
                 </p>
-                <p>Bei der Pseudonymisierung wird das Identifikationsmerkmal des Benutzers durch einen Code ersetzt, um die Feststellung der Identität auszuschließen oder wesentlich zu erschweren.
+                <p>[1] Bei der Pseudonymisierung wird das Identifikationsmerkmal des Benutzers durch einen Code ersetzt, um die Feststellung der Identität auszuschließen oder wesentlich zu erschweren.
                 </p>
 
                 <h3>Wo werden Daten gespeichert?</h3>
