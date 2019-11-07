@@ -5,7 +5,7 @@
         <base href="<?php echo $SITE_URL ?>">
         
         <?php
-        include($COMPONENTS_PATH . 'head_graphvis.php');
+        include($COMPONENTS_PATH . 'head_conceptgraph.php');
 
         $vis_id = (isset($_GET['vis_id'])) ? ($_GET['vis_id']) : ('');
         $doc_id = (isset($_GET['doc_id'])) ? ($_GET['doc_id']) : ('');
@@ -58,7 +58,7 @@
 
     </head>
     <body class="conceptgraph-page">
-        <?php include ($COMPONENTS_PATH . "browser_unsupported_banner_graphvis.php"); ?>
+        <?php include ($COMPONENTS_PATH . "browser_unsupported_banner_conceptgraph.php"); ?>
         <!-- ##################################################################################### -->
         <!-- Please define your Iframe and include gvf.html as source file-->
         <h2 class="conceptgraph-title">
