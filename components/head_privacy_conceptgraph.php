@@ -41,7 +41,7 @@
                 "href": cookie_href
             },
             "cookie": {
-              "name": "privacy-graphvis",
+              "name": "privacy-conceptgraph",
               "domain": cookie_domain
             }
         })
