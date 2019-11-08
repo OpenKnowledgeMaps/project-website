@@ -3,12 +3,12 @@
 <script>
 
 <?php if ($BROWSER_LANG === "de") { ?>
-        let cookie_message = 'Der Datenschutz bei Concept Graph fällt unter die gemeinsame Verantwortlichkeit von Open Knowledge Maps und Know-Center.  Um Concept Graph evaluieren und verbessern zu können, werden pseudonymisiert Daten über Ihr Nutzungsverhalten (Clicks) gesammelt. Zu diesem Zweck verwenden wir auch Cookies, um auf mehrfache Zugriffe des gleichen Benutzers schließen zu können. Wenn Sie fortfahren, nehmen wir an, dass Sie mit der Datenerhebung und Verwendung von Cookies auf dieser Webseite einverstanden sind. Weitere Informationen entnehmen Sie bitte der ';
+        let cookie_message = 'Der Datenschutz bei Concept Graph fällt unter die gemeinsame Verantwortlichkeit von Open Knowledge Maps und Know-Center.  Um Concept Graph evaluieren und verbessern zu können, werden pseudonymisiert Daten über Ihr Nutzungsverhalten (Clicks) gesammelt. Zu diesem Zweck verwenden wir auch Cookies, um auf mehrfache Zugriffe des gleichen Benutzers schließen zu können. Wenn Sie fortfahren, nehmen wir an, dass Sie mit der Datenerhebung und Verwendung von Cookies auf dieser Webseite einverstanden sind. Weitere Informationen entnehmen Sie bitte der';
         let cookie_link = "Datenschutzerklärung für Concept Graph";
         let cookie_button = "Alles klar!";
         let cookie_href = "https://openknowledgemaps.org/datenschutz-conceptgraph";
 <?php } else { ?>
-        let cookie_message = 'Concept Graph falls under the Joint Data Controllership of Open Knowledge Maps and Know-Center. To evaluate and improve Concept Graph, we collect pseudonymised usage data (clicks). For the same purpose, we also use cookies to detect multiple visits by the same user. By your continued use of Concept Graph you accept such data collection and cookie use. For more information, please see the ';
+        let cookie_message = 'Concept Graph falls under the Joint Data Controllership of Open Knowledge Maps and Know-Center. To evaluate and improve Concept Graph, we collect pseudonymised usage data (clicks). For the same purpose, we also use cookies to detect multiple visits by the same user. By your continued use of Concept Graph you accept such data collection and cookie use. For more information, please see the';
         let cookie_link = "privacy policy for Concept Graph";
         let cookie_button = "Got it!";
         let cookie_href = "https://openknowledgemaps.org/privacy-conceptgraph";
