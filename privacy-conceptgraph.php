@@ -124,11 +124,11 @@
                <p>A cookie is a small text file that a website saves on your computer or mobile device when you visit the site. It enables the website to remember your actions and preferences over a period of time, so you don’t have to keep re-entering them whenever you come back to the site or browse from one page to another.</p>
                <p class="bold">How do we use cookies?</p>
 
-               <p>We use cookies on our website to</p>
+               <p>We use cookies on our website</p>
                <ul style="list-style: disc; margin-left:20px;">
-                   <li>store your acknowledgement of the use of cookies on this website</li>
+                   <li>to store your acknowledgement of the use of cookies on this website</li>
                    <li>to create aggregated usage statistics</li>
-                   <li>analysis of anonymised user behaviour</li>
+                   <li>for analysis of anonymised user behaviour</li>
                </ul>
                <p>The cookies for the purposes mentioned above are not used to personally identify you. These cookies are stored permanently and are not used for any other purpose.
                </p>
