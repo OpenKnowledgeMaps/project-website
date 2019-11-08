@@ -125,7 +125,7 @@
                <p class="bold">How do we use cookies?</p>
 
                <p>We use cookies on our website to</p>
-               <ul>
+               <ul style="list-style: disc; margin-left:20px;">
                    <li>store your acknowledgement of the use of cookies on this website</li>
                    <li>to create aggregated usage statistics</li>
                    <li>analysis of anonymised user behaviour</li>
