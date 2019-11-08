@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
-        <?php $title = "Privacy Policy - Open Knowledge Maps"; ?>
+        <?php $title = "Privacy Policy - Concept Graph"; ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
@@ -20,8 +20,8 @@
                 </ul>
                 <p>This privacy policy only applies for the website of Concept Graph. For the other websites of Open Knowledge Maps refer to <a class="underline" target="_blank" href="https://openknowledgemaps.org/privacy">Privacy policy of openknowledgemaps.org</a>.
                 </p>
-                <h2>Privacy Policy</h2>
-                <p><b>Last updated:</b> 30 October 2019
+                <h2>Privacy Policy for Concept Graph</h2>
+                <p><b>Last updated:</b> 11 November 2019
 
                 <p>Open Knowledge Maps and Know-Center GmbH are joint controllers for Concept Graph. This privacy statement explains what data is collected and in what way, how it is used, and what rights you have in relation to it. The terms used herein, such as "data processing" or "controller" are defined in Art. 4 of the General Data Protection Regulation (GDPR):
                     <a class="underline" target="_blank" href="http://data.europa.eu/eli/reg/2016/679/oj">http://data.europa.eu/eli/reg/2016/679/oj</a>
@@ -48,7 +48,10 @@
                 </p>
 
                 <h3>Purpose of processing</h3>
-                <p>We use the information collected through our website to provide, maintain, protect and improve our services, analyze usage patterns and develop new services, and protect open knowledge maps and our users. In addition, we use the collected data for the achievement of our association's purpose (see imprint:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#legalnotice">https://openknowledgemaps.org/imprint#legalnotice</a>).
+                <p>
+                The initially pseudo-anonymized data[1] is collected to evaluate the performance, usability and usage patterns of a graph visualization integrated into the Open Knowledge Maps search platform. At the end of the one-month experiment time window and before further processing, the data is completely anonymized. The data and the resulting results will be used for scientific purposes (including scientific publication), teaching and improving the visualization and similar services that promote the discoverability of scientific knowledge for the production of new knowledge and its use in teaching.
+                </p>
+                <p>[1] In the case of pseudonymization, the identification feature of the user is replaced by a code in order to exclude or substantially hinder the determination of the identity.
                 </p>
 
                 <p>If you have any question about our privacy policy, or data protection at Open Knowledge Maps in general, please send an email to <a class="underline" href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a>
@@ -61,13 +64,6 @@
                   <li>Click data; these describe which visualization elements (e.g. nodes, textual elements or filter functions) the user has interacted with, mainly by mouse clicks, and allow identification of typical or unintended interaction patterns.</li>
                   <li>Timestamps; these describe the times of the user interactions in order to be able to conclude interaction sequences.</li>
                 </ul>
-
-                <h3>How is the data used?</h3>
-                <p>
-                The initially pseudo-anonymized data[1] is collected to evaluate the performance, usability and usage patterns of a graph visualization integrated into the Open Knowledge Maps search platform. At the end of the one-month experiment time window and before further processing, the data is completely anonymized. The data and the resulting results will be used for scientific purposes (including scientific publication), teaching and improving the visualization and similar services that promote the discoverability of scientific knowledge for the production of new knowledge and its use in teaching.
-                </p>
-                <p>[1] In the case of pseudonymization, the identification feature of the user is replaced by a code in order to exclude or substantially hinder the determination of the identity.
-                </p>
 
                 <h3>Where is the data stored?</h3>
                 <p>Collected data is stored in data centers in Germany and Austria. There is no disclosure, or order processing by third parties.

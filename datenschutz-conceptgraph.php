@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="de" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
-        <?php $title = "Datenschutzerklärung - Open Knowledge Maps"; ?>
+        <?php $title = "Datenschutzerklärung - Concept Graph"; ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
@@ -21,7 +21,7 @@
                 <p>Diese Datenschutzerklärung trifft nur auf die Webseite zu Concept Graph zu. Für die restliche Webseite von Open Knowledge Maps gilt die <a class="underline" target="_blank" href="https://openknowledgemaps.org/datenschutz">Datenschutzerklärung für openknowledgemaps.org</a>.
                 </p>
                 <h2>Datenschutzerklärung für Concept Graph</h2>
-                <p><b>Stand:</b> 30.10.2019
+                <p><b>Stand:</b> 11.11.2019
                 <p>Open Knowledge Maps und Know-Center GmbH sind gemeinsam Verantwortliche (Joint Controller) für Concept Graph. Diese Datenschutzinformation erklärt welche Daten auf welche Art und Weise erhoben werden, und wie sie genutzt werden, und welche Rechte Sie diesbezüglich haben. Die hier verwendeten Begriffe, wie z.B. "Auftragsverarbeitung" oder "Verantwortlicher", sind im Art. 4 der Datenschutzgrundverordnung (DSGVO) definiert:
                     <a class="underline" target="_blank" href="http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj">http://eur-lex.europa.eu/legal-content/DE/TXT/ELI/?eliuri=eli:reg:2016:679:oj</a>
                 </p>
@@ -48,7 +48,10 @@
                 </p>
 
                 <h3>Zweck der Verarbeitung</h3>
-                <p>Wir nutzen die im Rahmen unserer Webseite erhobenen Daten zur Bereitstellung, zur Wartung, zum Schutz und zur Verbesserung unserer Dienste, zur Analyse des Nutzungsverhaltens und zur Entwicklung neuer Dienste sowie zum Schutz von Open Knowledge Maps und unseren Nutzern. Zudem nutzen wir die erhobenen Daten für die Erreichung unseres Vereinszwecks (siehe Impressum:  <a class="underline" target="_blank" href="https://openknowledgemaps.org/imprint#impressum">https://openknowledgemaps.org/imprint#impressum</a>).
+                <p>
+                Die vorerst pseudo-anonymisierten Daten[1] werden gesammelt um die Performance, die Benutzbarkeit und die Verwendungsmuster einer in der Open Knowledge Maps Suchplattform integrierten Graph-Visualisierung zu evaluieren. Nach Ablauf des einmonatigen Experiment-Zeitfensters und vor weiterer Verarbeitung werden die Daten vollständig anonymisiert. Die Daten und daraus folgende Ergebnisse werden für wissenschaftliche Zwecke (inkl. einer wissenschaftlichen Publikation), für die Lehre und zur Verbesserung der Visualisierung und ähnlicher Angebote, die die Auffindbarkeit wissenschaftlichen Wissens für die Produktion neuen Wissens und dessen Nutzung in der Lehre befördern, verwendet.
+                </p>
+                <p>[1] Bei der Pseudonymisierung wird das Identifikationsmerkmal des Benutzers durch einen Code ersetzt, um die Feststellung der Identität auszuschließen oder wesentlich zu erschweren.
                 </p>
 
                 <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail unter <a class="underline" target="_blank" class="underline" href="mailto:privacy@openknowledgemaps.org">privacy@openknowledgemaps.org</a>
@@ -61,13 +64,6 @@
                   <li>Click-Daten; diese beschreiben mit welchen Visualisierungselementen (z.B. Knoten, Textelemente oder Filterfunktionen) der Benutzer – hauptsächlich durch Mausklicks - interagiert hat und erlauben die Identifikation von typischen oder nicht vorgesehenen Interaktionsmustern.  </li>
                   <li>Zeitstempel; diese beschreiben die Zeitpunkte der Benutzer-Interaktionen um daraus auf Interaktionssequenzen schließen zu können.</li>
                 </ul>
-
-                <h3>Wie werden Ihre Daten genutzt?</h3>
-                <p>
-                Die vorerst pseudo-anonymisierten Daten[1] werden gesammelt um die Performance, die Benutzbarkeit und die Verwendungsmuster einer in der Open Knowledge Maps Suchplattform integrierten Graph-Visualisierung zu evaluieren. Nach Ablauf des einmonatigen Experiment-Zeitfensters und vor weiterer Verarbeitung werden die Daten vollständig anonymisiert. Die Daten und daraus folgende Ergebnisse werden für wissenschaftliche Zwecke (inkl. einer wissenschaftlichen Publikation), für die Lehre und zur Verbesserung der Visualisierung und ähnlicher Angebote, die die Auffindbarkeit wissenschaftlichen Wissens für die Produktion neuen Wissens und dessen Nutzung in der Lehre befördern, verwendet.
-                </p>
-                <p>[1] Bei der Pseudonymisierung wird das Identifikationsmerkmal des Benutzers durch einen Code ersetzt, um die Feststellung der Identität auszuschließen oder wesentlich zu erschweren.
-                </p>
 
                 <h3>Wo werden Daten gespeichert?</h3>
                 <p>Gesammelte Daten werden in Rechenzentren in Deutschland und Österreich gespeichert. Es erfolgt keine Weitergabe an, oder Auftragsverarbeitung durch dritte Parteien.
