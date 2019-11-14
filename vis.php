@@ -152,6 +152,7 @@
             <script>
                 data_config.credit_embed = true;
                 data_config.canonical_url = "<?php echo $canonical_url; ?>";
+                data_config.list_show_external_vis = false;
             </script>
 
         <?php else: ?>
