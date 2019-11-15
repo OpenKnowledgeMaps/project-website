@@ -51,12 +51,12 @@
             <!--</div>-->
             <!--<div class="filter-btn" style="display: inline-block"><a href="#" id="submit-btn" class="frontend-btn">Submit</a></div>-->
             <script type="text/javascript">
-              localStorage.setItem("status", "failed");
-              localStorage.setItem("error_type", Math.floor(Math.random() * (5 - 0) ) + 0);
+              localStorage.setItem("status", "insufficient results");
+              localStorage.setItem("q", "asdfasdfasdfasdf");
+              localStorage.setItem("error_type", "typo");
             </script>
-              <?php
-                  include ($COMPONENTS_PATH . "error-modal.php");
-              ?>
+            <button id="error_info_button">Try a different search term (more info)</button>
+            <?php include ($COMPONENTS_PATH . "error-modal.php"); ?>
         </div>
             <p class="try-out-maps">Try out:
                 <span class="map-examples base">

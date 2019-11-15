@@ -1,26 +1,23 @@
 <link rel="stylesheet" href="./css/error-modal.css">
-<!-- Trigger/Open The Modal -->
-<button id="error_info_button">Try a different search term (more info)</button>
 
 <!-- The Modal -->
 <div id="error_modal" class="modal">
    <!-- Modal content -->
   <div class="modal-content">
-    <div class="modal-header">
-      <h2>Modal Header</h2>
-    </div>
     <div class="modal-body">
+      <p>Sorry! We could not create a map for <span class="error-modal-q"></span>.</p>
+    </div>
+    <div class"error-message-body">
       <p>Default error text</p>
     </div>
-    <div class="modal-footer">
-      <h3>Modal Footer</h3>
-        <span id="error_modal_close" class="close">&times;</span>
+    <span id="error_modal_close" class="close">Try again</span>
     </div>
   </div>
 </div>
 
 <script type="text/javascript">
   var error_type = localStorage.getItem("error_type");
+  var q = localStorage.getItem("q");
   // Get the modal
   var modal = document.getElementById("error_modal");
 
@@ -30,23 +27,24 @@
   // Get the <span> element that closes the modal
   var span = document.getElementById("error_modal_close");
 
+
   $(function() {
     var modal = $('#error_modal');
     modal_btn.style.visibility="hidden";
-    if ( error_type == 1) {
-      modal.find('.modal-body p').text('Error type 1 detected.');
+    if ( error_type == "typo") {
+      modal.find('.error-message-body p').text('Error type 1 detected.');
       modal_btn.style.visibility="visible";
     }
     if ( error_type == 2) {
-      modal.find('.modal-body p').text('Error type 2 detected.');
+      modal.find('.error-message-body p').text('Error type 2 detected.');
       modal_btn.style.visibility="visible";
     }
     if ( error_type == 3) {
-      modal.find('.modal-body p').text('Error type 3 detected.');
+      modal.find('.error-message-body p').text('Error type 3 detected.');
       modal_btn.style.visibility="visible";
     }
     if ( error_type == 4) {
-      modal.find('.modal-body p').text('Error type 4 detected.');
+      modal.find('.error-message-body p').text('Error type 4 detected.');
       modal_btn.style.visibility="visible";
     }
   });
