@@ -15,6 +15,9 @@
     <div id="service-outlink" class="error-message-body">
     </div>
     <span id="error_modal_close" class="close">Try again</span>
+    <div>
+    <p>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a></p>
+    </div>
   </div>
 </div>
 
@@ -62,8 +65,7 @@
     $("#service-outlink").html("Sorry! We could not create a map for your search term. Most likely there were not enough results."
             + ((search_string !== "")
                 ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")) + "</a> or <a href=\"index.php\">go back and try again.</a>")
-                :("<br> Please <a href=\"index.php\">go back and try again.</a>"))
-            + "<br><br>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>");
+                :("<br> Please <a href=\"index.php\">go back and try again.</a>")));
     }
   });
   // When the user clicks on the button, open the modal
