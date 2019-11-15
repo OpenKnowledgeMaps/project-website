@@ -179,7 +179,7 @@ echo "var post_data = " . $post_data . ";\n";
              <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
 
             <div id="progress" class="mittig">
-                <h3 class="visualize">Your knowledge map is being created!</h3>
+                <h3 class="visualize">Your knowledge map for <span class="progressbar-search-query"><?php echo(htmlspecialchars( $_POST['q'] )) ?></span> is being created!</h3>
 
                 <div id="progressbar"></div>
 
