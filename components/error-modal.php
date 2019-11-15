@@ -65,7 +65,7 @@
     }
     $("#service-outlink").html(
         ((search_string !== "")
-                ?("You can check out your search on <a href=\"" + search_string + "\" target=\"_blank\">" + ((service === "base") ? ("BASE") : ("PubMed")) + ".")
+                ?("<br>You can also check out your search on <a href=\"" + search_string + "\" target=\"_blank\">" + ((service === "base") ? ("BASE") : ("PubMed")) + ".")
                 : ""
           ));
   });
