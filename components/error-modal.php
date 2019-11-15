@@ -59,7 +59,7 @@
     } else if ( error_type === "toomanytokens") {
       $('#error-message-text').text('Your search might be too long.');
       modal_btn.style.visibility="visible";
-    } else if ( error_type == "shorttimedelta") {
+    } else if ( error_type === "shorttimedelta") {
       $('#error-message-text').text('The timeframe may be too short, please choose one longer than 60 days.');
       modal_btn.style.visibility="visible";
     }
@@ -75,7 +75,7 @@
     return false;
   }
 
-  if (status == "insufficient_results") {
+  if (status === "insufficient_results") {
     modal.style.display = "block";
   }
 
