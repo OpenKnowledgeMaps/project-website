@@ -50,19 +50,19 @@
 
   $(function() {
     var modal = $('#error_modal');
-    modal.getElementById('error-modal-q').text(queryString);
+    document.getElementById('error-modal-q').text(queryString);
     modal_btn.style.visibility="hidden";
     if ( error_type === "toospecific") {
-      modal.getElementById('error-message-text').text('Your keywords were too specific or contained a typo.');
+      document.getElementById('error-message-text').text('Your keywords were too specific or contained a typo.');
       modal_btn.style.visibility="visible";
     } else if ( error_type === "toomanytokens") {
-      modal.getElementById('error-message-text').text('Your search might be too long.');
+      document.getElementById('error-message-text').text('Your search might be too long.');
       modal_btn.style.visibility="visible";
     } else if ( error_type == "shorttimedelta") {
-      modal.getElementById('error-message-text').text('The timeframe may be too short, please choose one longer than 60 days.');
+      document.getElementById('error-message-text').text('The timeframe may be too short, please choose one longer than 60 days.');
       modal_btn.style.visibility="visible";
     } else {
-      modal.getElementById('error-message-text').text('Error type 4 detected.');
+      document.getElementById('error-message-text').text('Error type 4 detected.');
       modal_btn.style.visibility="visible";
     $("#service-outlink").html(
         ((search_string !== "")
