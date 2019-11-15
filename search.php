@@ -89,6 +89,11 @@ echo "var post_data = " . $post_data . ";\n";
                                 console.log("An error ocurred when creating the search string");
                             }
 
+                            window.sessionStorage.setItem( 'status', 'insufficient_results' );
+                            window.sessionStorage.setItem( 'q', post_data['q'] );
+                            window.sessionStorage.setItem( 'from', post_data['from'] );
+                            window.sessionStorage.setItem( 'to', post_data['to'] );
+
                             $("#progress").html("Sorry! We could not create a map for your search term. Most likely there were not enough results."
                                     + ((search_string !== "")
                                         ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")) + "</a> or <a href=\"index.php\">go back and try again.</a>")
