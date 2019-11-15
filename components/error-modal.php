@@ -25,33 +25,33 @@
   var modal = document.getElementById("error_modal");
 
   // Get the button that opens the modal
-  var btn = document.getElementById("error_info_button");
+  var modal_btn = document.getElementById("error_info_button");
 
   // Get the <span> element that closes the modal
   var span = document.getElementById("error_modal_close");
 
   $(function() {
     var modal = $('#error_modal');
-    btn.style.visibility="hidden";
+    modal_btn.style.visibility="hidden";
     if ( error_type == 1) {
       modal.find('.modal-body p').text('Error type 1 detected.');
-      btn.style.visibility="visible";
+      modal_btn.style.visibility="visible";
     }
     if ( error_type == 2) {
       modal.find('.modal-body p').text('Error type 2 detected.');
-      btn.style.visibility="visible";
+      modal_btn.style.visibility="visible";
     }
     if ( error_type == 3) {
       modal.find('.modal-body p').text('Error type 3 detected.');
-      btn.style.visibility="visible";
+      modal_btn.style.visibility="visible";
     }
     if ( error_type == 4) {
       modal.find('.modal-body p').text('Error type 4 detected.');
-      btn.style.visibility="visible";
+      modal_btn.style.visibility="visible";
     }
   });
   // When the user clicks on the button, open the modal
-  btn.onclick = function() {
+  modal_btn.onclick = function() {
     modal.style.display = "block";
   }
 
