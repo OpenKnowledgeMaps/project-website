@@ -21,7 +21,6 @@
             }
 
         </style>
-        <script type="text/javascript" src="./js/search_string.js"></script>
         <script type="text/javascript">
 <?php
 $post_array = $_POST;
@@ -82,24 +81,12 @@ echo "var post_data = " . $post_data . ";\n";
                             window.location.replace("map/" + output.id);
 
                         } else {
-                            let search_string = "";
-
-                            try {
-                                search_string = getServiceSearchString(post_data, service);
-                            } catch(e) {
-                                console.log("An error ocurred when creating the search string");
-                            }
-
+                            // Set session storage to help the user understand why the lack of success
                             window.sessionStorage.setItem( 'status', 'insufficient_results' );
                             window.sessionStorage.setItem( 'post_data', JSON.stringify(post_data) );
                             window.sessionStorage.setItem( 'service', service );
-
-                            $("#progress").html("Sorry! We could not create a map for your search term. Most likely there were not enough results."
-                                    + ((search_string !== "")
-                                        ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")) + "</a> or <a href=\"index.php\">go back and try again.</a>")
-                                        :("<br> Please <a href=\"index.php\">go back and try again.</a>"))
-                                    + "<br><br>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>");
-
+                            // Redirect back to search screen
+                            window.location.href="<?php echo($SITE_URL); ?>";
                         }
 
                     })
