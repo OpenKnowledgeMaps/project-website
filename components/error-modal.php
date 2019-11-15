@@ -61,9 +61,7 @@
     } else if ( error_type == "shorttimedelta") {
       $('#error-message-text').text('The timeframe may be too short, please choose one longer than 60 days.');
       modal_btn.style.visibility="visible";
-    } else {
-      $('#error-message-text').text('Error type 4 detected.');
-      modal_btn.style.visibility="visible";
+    }
     $("#service-outlink").html(
         ((search_string !== "")
                 ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")))
