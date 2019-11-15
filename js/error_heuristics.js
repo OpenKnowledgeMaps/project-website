@@ -8,7 +8,7 @@ var getTooFewPapersHeuristic = function ( post_data ) {
     }
     if( post_data.q ) {
         var tokens = post_data.q.split(' ')
-        return tokens.length < 4 ? 'toofewtokens' : 'toomanytokens';
+        return tokens.length < 4 ? 'toospecific' : 'toomanytokens';
     }
     return 'unknown';
 }

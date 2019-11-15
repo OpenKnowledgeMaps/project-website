@@ -8,7 +8,7 @@ QUnit.test( "returns shorttimedelta error if timeframe is 60 or less days", func
     assert.strictEqual( getTooFewPapersHeuristic( post_data ), 'toomanytokens' );
   });
 
-  QUnit.test( "returns toofewtokens error if querystring has less than 4 words", function( assert ) {
+  QUnit.test( "returns toospecific error if querystring has less than 4 words", function( assert ) {
     var post_data  = { q: 'the quick brown' }
-    assert.strictEqual( getTooFewPapersHeuristic( post_data ), 'toofewtokens' );
+    assert.strictEqual( getTooFewPapersHeuristic( post_data ), 'toospecific' );
   });
