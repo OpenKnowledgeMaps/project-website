@@ -18,6 +18,8 @@
 <script type="text/javascript">
   var error_type = localStorage.getItem("error_type");
   var q = localStorage.getItem("q");
+  // Get the modal
+  var modal = document.getElementById("error_modal");
 
   // Get the button that opens the modal
   var modal_btn = document.getElementById("error_info_button");
