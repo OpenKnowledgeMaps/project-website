@@ -15,7 +15,7 @@
     </div>
     <div class="modal-footer">
       <h3>Modal Footer</h3>
-        <span class="close">&times;</span>
+        <span id="error_modal_close" class="close">&times;</span>
     </div>
   </div>
 </div>
@@ -29,7 +29,7 @@
   var btn = document.getElementById("error_info_button");
 
   // Get the <span> element that closes the modal
-  var span = document.getElementsByClassName("close")[0];
+  var span = document.getElementById("error_modal_close");
 
   $(function() {
     var modal = $('#error_modal');
