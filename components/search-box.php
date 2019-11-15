@@ -50,11 +50,6 @@
 
             <!--</div>-->
             <!--<div class="filter-btn" style="display: inline-block"><a href="#" id="submit-btn" class="frontend-btn">Submit</a></div>-->
-            <script type="text/javascript">
-              localStorage.setItem("status", "insufficient results");
-              localStorage.setItem("q", "asdfasdfasdfasdf");
-              localStorage.setItem("error_type", "typo");
-            </script>
             <button id="error_info_button">Try a different search term (more info)</button>
             <?php include ($COMPONENTS_PATH . "error-modal.php"); ?>
         </div>
