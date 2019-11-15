@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="./css/error-modal.css">
 <script type="text/javascript" src="./js/search_string.js"></script>
 <script type="text/javascript" src="./js/error_heuristics.js"></script>
-<script type="text/javascript" src="./js/error_heuristics.js"></script>
 
 <!-- The Modal -->
 <div id="error_modal" class="modal">
@@ -14,7 +13,9 @@
     </div>
     <div id="service-outlink">
     </div>
+    <div>
     <span id="error_modal_close" class="close">Try again</span>
+    </div>
     <div>
     <p>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a></p>
     </div>
@@ -67,7 +68,6 @@
                 ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")))
                 : ""
           ));
-    }
   });
   // When the user clicks on the button, open the modal
   modal_btn.onclick = function() {
