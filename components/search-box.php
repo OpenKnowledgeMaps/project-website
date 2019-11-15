@@ -50,7 +50,7 @@
 
             <!--</div>-->
             <!--<div class="filter-btn" style="display: inline-block"><a href="#" id="submit-btn" class="frontend-btn">Submit</a></div>-->
-            <button id="error_info_button">Try a different search term (more info)</button>
+            <button id="error-info-button">Try a different search term (more info)</button>
             <?php include ($COMPONENTS_PATH . "error-modal.php"); ?>
         </div>
             <p class="try-out-maps">Try out:

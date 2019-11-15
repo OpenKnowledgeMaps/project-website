@@ -30,7 +30,7 @@
   var modal = document.getElementById("error_modal");
 
   // Get the button that opens the modal
-  var modal_btn = document.getElementById("error_info_button");
+  var modal_btn = document.getElementById("error-info-button");
 
   // Get the <span> element that closes the modal
   var span = document.getElementById("error_modal_close");
@@ -68,12 +68,15 @@
                 ?("<br> You can check out your search on <a href=\"" + search_string + "\" target=\"_blank\">" + ((service === "base") ? ("BASE") : ("PubMed")))
                 : ""
           ));
-    modal.style.display = "block";
   });
   // When the user clicks on the button, open the modal
   modal_btn.onclick = function() {
     modal.style.display = "block";
     return false;
+  }
+
+  if (status == "insufficient_results") {
+    modal.style.display = "block";
   }
 
   // When the user clicks on <span> (x), close the modal
