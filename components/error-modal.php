@@ -74,6 +74,7 @@
   // When the user clicks on the button, open the modal
   modal_btn.onclick = function() {
     modal.style.display = "block";
+    return false;
   }
 
   // When the user clicks on <span> (x), close the modal
