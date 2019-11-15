@@ -14,7 +14,7 @@
     <div id="service-outlink">
     </div>
     <div>
-    <p>If you think that there is something wrong with our site, please let us know at:<br> <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a></p>
+    <p><br>If you think that there is something wrong with our site, please let us know at:<br> <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a></p>
     </div>
     <div>
     <span id="error_modal_close" class="close">Try again</span>
@@ -65,7 +65,7 @@
     }
     $("#service-outlink").html(
         ((search_string !== "")
-                ?("<br> You can check out your search on <a href=\"" + search_string + "\" target=\"_blank\">" + ((service === "base") ? ("BASE") : ("PubMed")))
+                ?("You can check out your search on <a href=\"" + search_string + "\" target=\"_blank\">" + ((service === "base") ? ("BASE") : ("PubMed")) + ".")
                 : ""
           ));
   });
