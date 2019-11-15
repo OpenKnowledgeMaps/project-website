@@ -50,11 +50,13 @@
 
             <!--</div>-->
             <!--<div class="filter-btn" style="display: inline-block"><a href="#" id="submit-btn" class="frontend-btn">Submit</a></div>-->
-            <?php
-                //include ($COMPONENTS_PATH . "donation_banner.php");
-                include ($COMPONENTS_PATH . "error-modal.php");
-
-            ?>
+            <script type="text/javascript">
+              localStorage.setItem("status", "failed");
+              localStorage.setItem("error_type", Math.floor(Math.random() * (5 - 0) ) + 0);
+            </script>
+              <?php
+                  include ($COMPONENTS_PATH . "error-modal.php");
+              ?>
         </div>
             <p class="try-out-maps">Try out:
                 <span class="map-examples base">

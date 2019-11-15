@@ -5,30 +5,23 @@
 
 <!-- The Modal -->
 <div id="error_modal" class="modal">
-
- <!-- Modal content -->
- <!-- Modal content -->
-<div class="modal-content">
-  <div class="modal-header">
-    <h2>Modal Header</h2>
-  </div>
-  <div class="modal-body">
-    <p>Default error text</p>
-  </div>
-  <div class="modal-footer">
-    <h3>Modal Footer</h3>
-      <span class="close">&times;</span>
+   <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Default error text</p>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+        <span class="close">&times;</span>
+    </div>
   </div>
 </div>
 
-</div>
-
 <script type="text/javascript">
-  localStorage.setItem("status", "failed");
-  localStorage.setItem("error_type", Math.floor(Math.random() * (5 - 0) ) + 0);
-</script>
-
-<script type="text/javascript">
+  var error_type = localStorage.getItem("error_type");
   // Get the modal
   var modal = document.getElementById("error_modal");
 
@@ -37,24 +30,25 @@
 
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
-  var error_type = localStorage.getItem("error_type");
 
   $(function() {
+    var modal = $('#error_modal');
+    btn.style.visibility="hidden";
     if ( error_type == 1) {
-      var modal = $('#error_modal');
       modal.find('.modal-body p').text('Error type 1 detected.');
+      btn.style.visibility="visible";
     }
     if ( error_type == 2) {
-      var modal = $('#error_modal');
       modal.find('.modal-body p').text('Error type 2 detected.');
+      btn.style.visibility="visible";
     }
     if ( error_type == 3) {
-      var modal = $('#error_modal');
       modal.find('.modal-body p').text('Error type 3 detected.');
+      btn.style.visibility="visible";
     }
     if ( error_type == 4) {
-      var modal = $('#error_modal');
       modal.find('.modal-body p').text('Error type 4 detected.');
+      btn.style.visibility="visible";
     }
   });
   // When the user clicks on the button, open the modal
