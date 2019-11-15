@@ -1,4 +1,6 @@
 <link rel="stylesheet" href="./css/error-modal.css">
+<script type="text/javascript" src="./js/search_string.js"></script>
+<script type="text/javascript" src="./js/error_heuristics.js"></script>
 
 <!-- The Modal -->
 <div id="error_modal" class="modal">
@@ -11,13 +13,15 @@
       <p>Default error text</p>
     </div>
     <span id="error_modal_close" class="close">Try again</span>
-    </div>
   </div>
 </div>
 
 <script type="text/javascript">
-  var error_type = localStorage.getItem("error_type");
   var q = localStorage.getItem("q");
+  var from = localStorage.getItem("q");
+  var to = localStorage.getItem("q");
+  var service = localStorage.getItem("q");
+  var error_type = localStorage.getItem("error_type");
   // Get the modal
   var modal = document.getElementById("error_modal");
 
