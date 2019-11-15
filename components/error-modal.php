@@ -14,10 +14,10 @@
     <div id="service-outlink">
     </div>
     <div>
-    <span id="error_modal_close" class="close">Try again</span>
+    <p>If you think that there is something wrong with our site, please let us know at:<br> <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a></p>
     </div>
     <div>
-    <p>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a></p>
+    <span id="error_modal_close" class="close">Try again</span>
     </div>
   </div>
 </div>
@@ -65,9 +65,10 @@
     }
     $("#service-outlink").html(
         ((search_string !== "")
-                ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")))
+                ?("<br> You can check out your search on <a href=\"" + search_string + "\" target=\"_blank\">" + ((service === "base") ? ("BASE") : ("PubMed")))
                 : ""
           ));
+    modal.style.display = "block";
   });
   // When the user clicks on the button, open the modal
   modal_btn.onclick = function() {
