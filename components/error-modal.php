@@ -9,7 +9,7 @@
     <div class="modal-body">
       <p>Sorry! We could not create a map for <span class="error-modal-q"></span>.</p>
     </div>
-    <div class"error-message-body">
+    <div class="error-message-body">
       <p>Default error text</p>
     </div>
     <span id="error_modal_close" class="close">Try again</span>
