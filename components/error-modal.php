@@ -1,5 +1,4 @@
 <link rel="stylesheet" href="./css/error-modal.css">
-<script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 <!-- Trigger/Open The Modal -->
 <button id="error_info_button">Try a different search term (more info)</button>
 
