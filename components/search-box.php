@@ -1,7 +1,7 @@
 <script>
     var search_term_focus = true;
 </script>
-<div class="topheader"></div>    
+<div class="topheader"></div>
 <?php //include ($COMPONENTS_PATH . "donation_banner.php"); ?>
 <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
 
@@ -16,48 +16,53 @@
         <div style="text-align: left;">
             <p class="library">
                 <label class="radio-inline"><input type="radio" name="optradio" value="pubmed" <?php if ($default_lib == "pubmed") echo 'checked="checked"'; ?>>
-                    <span class="bold">PubMed</span> (life sciences) <!--<a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more 
-                                            than 26 million citations for biomedical literature from MEDLINE, life science 
-                                            journals, and online books. Citations may include links to full-text content from 
+                    <span class="bold">PubMed</span> (life sciences) <!--<a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more
+                                            than 26 million citations for biomedical literature from MEDLINE, life science
+                                            journals, and online books. Citations may include links to full-text content from
                                             PubMed Central and publisher web sites."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a>--></label>
-                
+
             <?php if($DOAJ_FALLBACK): ?>
                 <label class="radio-inline"><input type="radio" name="optradio" value="doaj" <?php if ($default_lib == "doaj") echo 'checked="checked"'; ?>>
                 <span class="bold">DOAJ</span> (all disciplines, only open access)</label>
             <?php endif; ?>
-                
-                <label class="radio-inline"><input type="radio" name="optradio" value="base" 
+
+                <label class="radio-inline"><input type="radio" name="optradio" value="base"
                     <?php if ($default_lib == "base") echo 'checked="checked"'; ?> <?php if ($BASE_DOWN == true) echo 'disabled'; ?>
                 >
                     <span class="bold <?php if ($BASE_DOWN == true) echo 'greyed_out'; ?>">BASE</span> <span class="<?php if ($BASE_DOWN == true) echo 'greyed_out'; ?>">(all disciplines)</span>
                     <?php if ($BASE_DOWN == true) echo ' <span class="error-message"> Undergoing downtime - please try again later!</span>'; ?>
-                        <!--<a href="#" data-toggle="popover" title="Bielefeld Academic Search Engine 
-                                              (BASE)" data-content="Provides access to over 100 million documents from 
+                        <!--<a href="#" data-toggle="popover" title="Bielefeld Academic Search Engine
+                                              (BASE)" data-content="Provides access to over 100 million documents from
                                               more than 5,200 content sources in all disciplines."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a>--></label>
             </p>
-            
+
             <!--<p class="library">
                 <span class="library-choice">Refine your search:</span></p>-->
             <div id="filter-container"></div>
-            
+
             <!--<label for="q">Search term:</label> -->
             <!--<div class="bg-div">-->
-            
+
                 <span id="base-language-selector-container" style="display:none"></span>
-                    <input type="text" name="q" size="89" required class="text-field" 
+                    <input type="text" name="q" size="89" required class="text-field"
                         id="searchterm" placeholder="Enter your search term">
                     <button type="submit" class="submit-btn">GO</button>
 
             <!--</div>-->
             <!--<div class="filter-btn" style="display: inline-block"><a href="#" id="submit-btn" class="frontend-btn">Submit</a></div>-->
+            <?php
+                //include ($COMPONENTS_PATH . "donation_banner.php");
+                include ($COMPONENTS_PATH . "error-modal.php");
+
+            ?>
         </div>
-            <p class="try-out-maps">Try out: 
+            <p class="try-out-maps">Try out:
                 <span class="map-examples base">
-                    <a class="underline" target="_blank" href="./map/df6a58e07f66344e42a5a5d1aa54bb66">sugar</a> 
+                    <a class="underline" target="_blank" href="./map/df6a58e07f66344e42a5a5d1aa54bb66">sugar</a>
                     <a class="underline" target="_blank" href="./map/685deae1c00a6c5ca9fe91fdef67229c">digital education </a>
                 </span>
                 <span class="map-examples pubmed" style="display:none">
-                    <a class="underline" target="_blank" href="./map/feb3c2d3c7e9a61a5ccbe9ddf9e96ced">heart disease</a> 
+                    <a class="underline" target="_blank" href="./map/feb3c2d3c7e9a61a5ccbe9ddf9e96ced">heart disease</a>
                     <a class="underline" target="_blank" href="./map/381c96aded59683bb14cbe047cb6f701">dental hygiene </a>
                 </span>
             </p>
@@ -134,7 +139,7 @@
             }
 
             var bringLanguageCodeToTop = function (code) {
-                var languageIdx = config.options.languages.findIndex(function (language) { 
+                var languageIdx = config.options.languages.findIndex(function (language) {
                     return language.code == code;
                 })
 
@@ -154,7 +159,7 @@
                     .attr("class", "dropdown_multi_language_selector")
                     .style("vertical-align", "top")
                     .attr("name","lang_id")
-                
+
                 // set "all languages" option
                 select.append("option")
                     .attr("value", "all")
@@ -198,8 +203,8 @@
             var config = {};
 
             $(document).ready(function () {
-                $('[data-toggle="popover"]').popover({trigger: "hover", placement: "top"}); 
-                
+                $('[data-toggle="popover"]').popover({trigger: "hover", placement: "top"});
+
                 var changeLibrary = function () {
                     config.service = $("input[name='optradio']:checked").val();
                     //var radio_val = $(this).val();
@@ -208,38 +213,38 @@
 
                     search_options.user_defined_date = false;
                     $("#filter-container").html("");
-                    
+
                     $(".map-examples").css("display", "none");
                     $(".map-examples." + config.service).css("display", "inline-block");
 
                     chooseOptions();
 
 
-                }; 
-                
+                };
+
                 $("input[name='optradio']").change(changeLibrary);
 
                 chooseOptions();
 
                 $("#searchform").attr("action", "search?service=" + config.service);
-                
+
                 changeLibrary();
-                
+
                 if (search_term_focus) {
                     $("#searchterm").focus();
                 }
             })
-            
+
             $("#searchform").submit(function (e) {
                 var ua = window.navigator.userAgent;
                 var iOS = !!ua.match(/iPad/i) || !!ua.match(/iPhone/i);
                 var webkit = !!ua.match(/WebKit/i);
                 var iOSSafari = iOS && webkit && !ua.match(/CriOS/i);
-                
+
                 if(iOSSafari) {
                     $("#searchform").attr("target", "");
                 }
-                
+
                 if (!(browser === "Firefox" || browser === "Safari" || browser === "Chrome")) {
                     let alert_message = 'You are using an unsupported browser.'
                                         + ' We strongly suggest to switch to one of the supported browsers'
@@ -251,7 +256,7 @@
                         e.preventDefault();
                     }
                 }
-                
+
             })
-            
+
         </script>
