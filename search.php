@@ -91,9 +91,8 @@ echo "var post_data = " . $post_data . ";\n";
                             }
 
                             window.sessionStorage.setItem( 'status', 'insufficient_results' );
-                            window.sessionStorage.setItem( 'q', post_data['q'] );
-                            window.sessionStorage.setItem( 'from', post_data['from'] );
-                            window.sessionStorage.setItem( 'to', post_data['to'] );
+                            window.sessionStorage.setItem( 'post_data', JSON.stringify(post_data) );
+                            window.sessionStorage.setItem( 'service', service );
 
                             $("#progress").html("Sorry! We could not create a map for your search term. Most likely there were not enough results."
                                     + ((search_string !== "")
