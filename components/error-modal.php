@@ -7,13 +7,12 @@
 <div id="error_modal" class="modal">
    <!-- Modal content -->
   <div class="modal-content">
-    <div class="modal-body">
-      <p>Sorry! We could not create a map for <span class="error-modal-q"></span>.</p>
+    <div>
+      <p>Sorry! We could not create a map for <span id="error-modal-q"></span>.</p>
     </div>
-    <div class="error-message-body">
-      <p>Default error text</p>
+    <div id="error-message-text">
     </div>
-    <div id="service-outlink" class="error-message-body">
+    <div id="service-outlink">
     </div>
     <span id="error_modal_close" class="close">Try again</span>
     <div>
@@ -51,24 +50,22 @@
 
   $(function() {
     var modal = $('#error_modal');
-    modal.find('.error-modal-q').text(queryString);
+    modal.getElementById('error-modal-q').text(queryString);
     modal_btn.style.visibility="hidden";
     if ( error_type === "toospecific") {
-      modal.find('.error-message-body p').text('Your search was too specific');
+      modal.getElementById('error-message-text').text('Your keywords were too specific or contained a typo.');
       modal_btn.style.visibility="visible";
     } else if ( error_type === "toomanytokens") {
-      modal.find('.error-message-body p').text('Your search might be too long');
+      modal.getElementById('error-message-text').text('Your search might be too long.');
       modal_btn.style.visibility="visible";
     } else if ( error_type == "shorttimedelta") {
-      modal.find('.error-message-body p').text('The timeframe is too small choose longer than 60 days');
+      modal.getElementById('error-message-text').text('The timeframe may be too short, please choose one longer than 60 days.');
       modal_btn.style.visibility="visible";
     } else {
-      modal.find('.error-message-body p').text('Error type 4 detected.');
+      modal.getElementById('error-message-text').text('Error type 4 detected.');
       modal_btn.style.visibility="visible";
-    $("#service-outlink").html("Sorry! We could not create a map for your search term. Most likely there were not enough results."
-            + ((search_string !== "")
-                ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")) + "</a> or <a href=\"index.php\">go back and try again.</a>")
-                :("<br> Please <a href=\"index.php\">go back and try again.</a>")));
+    $("#service-outlink").html(((search_string !== "")
+                ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")))));
     }
   });
   // When the user clicks on the button, open the modal
