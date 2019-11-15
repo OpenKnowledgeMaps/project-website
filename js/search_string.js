@@ -1,4 +1,4 @@
-function unboxPostData(post_data, service) {
+function getServiceSearchString(post_data, service) {
     if (service === "base") {
         var base_search_string = "https://base-search.net/Search/Results?"
                 + ((getPostData(post_data, "sorting", "string") === "most-recent") ? ("sort=dcyear_sort+desc&") : (""))

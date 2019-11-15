@@ -85,7 +85,7 @@ echo "var post_data = " . $post_data . ";\n";
                             let search_string = "";
 
                             try {
-                                search_string = unboxPostData(post_data, service);
+                                search_string = getServiceSearchString(post_data, service);
                             } catch(e) {
                                 console.log("An error ocurred when creating the search string");
                             }
