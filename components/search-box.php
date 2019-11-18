@@ -19,6 +19,12 @@
                     <span class="bold">PubMed</span> (life sciences) <!--<a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more
                                             than 26 million citations for biomedical literature from MEDLINE, life science
                                             journals, and online books. Citations may include links to full-text content from
+                <label class="radio-inline"><input type="radio" name="optradio" value="pubmed" <?php if ($default_lib == "pubmed") echo 'checked="checked"'; ?> <?php if ($PUBMED_DOWN == true) echo 'disabled'; ?>>
+                    <span class="bold"<?php if ($PUBMED_DOWN == true) echo 'greyed_out'; ?>">PubMed</span> <span class="<?php if ($PUBMED_DOWN == true) echo 'greyed_out'; ?>">(life sciences)</span>
+                    <?php if ($PUBMED_DOWN == true) echo ' <span class="error-message"> Undergoing downtime - please try again later!</span>'; ?>
+                    <!--<a href="#" data-toggle="popover" title="PubMed" data-content="Comprises more
+                                            than 26 million citations for biomedical literature from MEDLINE, life science
+                                            journals, and online books. Citations may include links to full-text content from
                                             PubMed Central and publisher web sites."><i class="fa fa-info-circle source-info" aria-hidden="true"></i></a>--></label>
 
             <?php if($DOAJ_FALLBACK): ?>
