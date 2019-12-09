@@ -28,7 +28,7 @@
         <?php include($COMPONENTS_PATH . "benefits.php") ?>
         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
         
-
+        <a name="our-vision"></a>
         <div id="divhow" style="background-color: #eff3f4;">                
             <h2 class="h2reverse">In the future...</h2>
 
