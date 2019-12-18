@@ -58,4 +58,4 @@
         ?>
         <?php include($COMPONENTS_PATH . "moreinfo.php"); ?>
 
-        <?php include($COMPONENTS_PATH . 'footer.php'); ?>
+        <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
