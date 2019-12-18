@@ -27,7 +27,7 @@
         <a name="advantages"></a>
         <?php include($COMPONENTS_PATH . "benefits.php") ?>
         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
-        
+
         <a name="our-vision"></a>
         <div id="divhow" style="background-color: #eff3f4;">                
             <h2 class="h2reverse">In the future...</h2>
@@ -49,6 +49,7 @@
                 </p>    
             </div>
         </div>
+        <?php include($COMPONENTS_PATH . 'supporting-members-all.php'); ?>
         <!-- this stream is STATIC -->
         <?php
         $COMMENT_TITLE = "What our users say";
@@ -56,5 +57,5 @@
         include($COMPONENTS_PATH . 'commentstream.php');
         ?>
         <?php include($COMPONENTS_PATH . "moreinfo.php"); ?>
-        
+
         <?php include($COMPONENTS_PATH . 'footer.php'); ?>

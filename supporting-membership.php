@@ -193,6 +193,22 @@
 
                         </div>
                     </div>
+        <a name="supporting-members"></a>
 
+
+    <div id="partnerdiv" style="padding-bottom: 0px;">
+    <h2>Our current Sustaining Members PLUS</h2>
+    <div class="partners">
+        <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
+    </div>
+    </div>
+       <div id="partnerdiv">
+    <h2>Our current Supporting Members</h2>
+    <div class="partners">
+        <?php include($COMPONENTS_PATH . 'supporting-members.php'); ?>
+    </div>
+    </div>
+
+      
         <?php include($COMPONENTS_PATH . "newsletter.php"); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

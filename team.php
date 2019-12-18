@@ -166,7 +166,7 @@
                     </div>
 
 
-                    <!-- list of supporting members -->
+                    <!-- list of supporting members 
                     <div class="alumni"><h3>Supporting members:</h3>
 
                         <div class="partners">
@@ -174,10 +174,12 @@
                             <a href="https://lbg.ac.at/" target="_blank"><img src="./img/partners/lbg-oisc.png" alt="LBG"></a>
 
                         </div>
-                    </div>
+                    </div>-->
                     
-                    <!-- list of contributors -->
-                    <div class="alumni"><h3>Contributers:</h3>
+                   
+            
+             <!-- list of contributors -->
+                    <div class="alumni" style=""><h3>Special thanks to former contributers:</h3>
                         <a target="_blank" class="underline" href="https://github.com/jaels">Yael Stein</a>,
                         <a target="_blank" class="underline" href="http://www.michaelskaug.com/">Mike Skaug</a>, 
                         <a target="_blank" class="underline" href="http://nthmost.com/">Naomi Most</a>, 
@@ -187,7 +189,31 @@
                 </div> 
 
             </div>
+            
+            <a name="supporting-members"></a>
+<div class="background2 bg1" style="background-color:white; border-top: 1px solid #cacfd3;">
+    <div class="team" id="advisory-board">
+        <h2 style="color: #2d3e52;">Our Supporting Members</h2>
+        <p>are contributing to the financial sustainability of Open Knowledge Maps. <a class="underline" href="supporting-membership">Find out more</a> on how to become a supporting member.</p>
+    </div>
 
+    <div class="partners" style="padding-bottom: 20px;">
+        <h2 class="h2reverse">Category "Sustaining members PLUS"</h2>
+        <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
+    </div>
+    <div class="partners" style="padding-bottom: 50px;">
+        <h2 class="h2reverse">Category "Supporting members"</h2>
+        <?php include($COMPONENTS_PATH . 'supporting-members.php'); ?>
+    </div>
+
+</div>     
+            
+           
+             
+            <!--<div style="padding-bottom: 50px;"> <p class="try-now" style="text-align: center; margin:30px 0 0;">
+        <a class="donate-now" href="supporting-membership">Become a supporting member</a>
+    </p> 
+            </div>-->
             <div class="background2 bg1">
                 <div class="team" id="advisory-board">
                     <h2 style="color: #2d3e52;">Our Advisors</h2>
