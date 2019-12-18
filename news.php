@@ -24,7 +24,78 @@
                     </p>
                 </div>
             </div>
-            
+
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="okmaps-roadmap-update" class="anchor"></a>
+
+                    <a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/roadmap-update2.png">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-12-18">18 December 2019</time>
+
+                        <h3 class="newsitem-headline">What's  next for Open Knowledge Maps?</h3>
+
+                        <p class="newsitem-p">
+                            It’s been a busy year at Open Knowledge Maps! We made two major updates to our software that led to a considerable increase in user engagement. We launched our supporting membership model and we initiated the GO FAIR Discovery network. We continued our Enthusiasts program and we developed a new workshop format to help researchers improve the visibility of their research online - and <a class="underline" href="https://openknowledgemaps.org/news" target="_blank">so much more</a>.
+                        </p>
+
+                        <p class="newsitem-p">
+                            We also realized that our roadmap doesn’t reflect the complexity of Open Knowledge Maps’ vision any longer. We have grown as an organisation and improved our services considerably since we last updated the document in 2017.
+                        </p>
+
+                        <p class='newsitem-p'>
+                            Following a complete overhaul of our roadmap, we are now happy to announce the <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">new and improved version</a>. As always, the feedback from our community was front and center when considering what’s coming next for Open Knowledge Maps.
+                        </p>
+
+                        <p class='newsitem-p'>
+                            Let’s take a look at some of the highlights:
+
+                        </p>
+
+                        <p class='newsitem-p'>
+                            <strong> Firstly, better connect OKMaps to the services you already use and love:
+                            </strong>
+                        
+                        </p>
+                        
+                        <ul class='newsitem-p' style='list-style: disc; margin-left: 20px;'>
+                            <li>Enable exporting citations to Zotero</li>
+                            <li>Include links to additional open access copies (via unpaywall)</li>
+                            <li>Include Open Access Button for papers you still can’t access</li>
+                            <li>Include the DOAJ Seal of Approval and links to ORCiDs</li>
+                        </ul>
+                        
+                        <p class='newsitem-p'>
+                 
+                        These features will improve access to research documents, provide more context to individual outputs and better integrate Open Knowledge Maps into your discovery workflow.
+                        </p>
+
+                        <p class='newsitem-p'>
+                            <strong>Secondly, improve our capabilities for data discovery:</strong>
+                            
+                            Our role as lead in the GO FAIR Implementation Network "Discovery" puts us in a unique position to work closely with the community on better solutions for discovering data sets.
+                        </p>
+
+                        <p class='newsitem-p'>
+                            <strong>And finally:</strong>
+                            We are going to improve our financial, technical and organisational sustainability. We will provide access to our underlying data sets and continue our community, training &amp; networking activities.
+                        </p>
+
+                        <p class='newsitem-p'>
+                            Thank you for your continued support and please let us know what you think of our new roadmap via <a class="underline" href="mailto:info@openknowledgemaps.org" target="_blank">email</a>, <a class="underline" href="https://twitter.com/OK_Maps" target="_blank">Twitter</a> or <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/issues" target="_blank">Github</a>. And if you would like to help us financially in achieving our goals, <a class="underline" href="https://openknowledgemaps.org/donate-now" target="_blank">consider making a donation</a>.
+                        </p>
+
+                        <a class="newsitem-button" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">
+                            Check out our roadmap
+                        </a>
+                    </div>
+                </article>
+            </div>
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -40,20 +111,20 @@
                         <h3 class="newsitem-headline">Open Knowledge Maps participates in EU project TRIPLE</h3>
 
                         <p class="newsitem-p">
-                             We are excited to announce that we are part of TRIPLE, an EU project funded under the Horizon 2020 framework. TRIPLE's goal is to create a comprehensive free and open discovery solution for the social sciences and humanities (SSH). Under the lead of Huma-Num (CNRS), a consortium of 18 partners from 12 countries will develop TRIPLE as a core service of OPERAS and the European Open Science Cloud (EOSC). Starting this month, TRIPLE will run for 3.5 years.
-            </p>
-            
+                            We are excited to announce that we are part of TRIPLE, an EU project funded under the Horizon 2020 framework. TRIPLE's goal is to create a comprehensive free and open discovery solution for the social sciences and humanities (SSH). Under the lead of Huma-Num (CNRS), a consortium of 18 partners from 12 countries will develop TRIPLE as a core service of OPERAS and the European Open Science Cloud (EOSC). Starting this month, TRIPLE will run for 3.5 years.
+                        </p>
+
                         <p class="newsitem-p">
-                             Open Knowledge Maps will provide the textual and visual search components of the platform. We are excited to contribute to a project that will enable better discovery for disciplines that are usually neglected by mainstream discovery tools. TRIPLE will also benefit our users from all disciplines, as features developed in the project will also be included on <a href="https://openknowledgemaps.org" target="_blank" class="underline">openknowledgemaps.org</a>.
-            </p>
-                                                
+                            Open Knowledge Maps will provide the textual and visual search components of the platform. We are excited to contribute to a project that will enable better discovery for disciplines that are usually neglected by mainstream discovery tools. TRIPLE will also benefit our users from all disciplines, as features developed in the project will also be included on <a href="https://openknowledgemaps.org" target="_blank" class="underline">openknowledgemaps.org</a>.
+                        </p>
+
                         <a class="newsitem-button" href="https://operas.hypotheses.org/2644" target="_blank">
                             Find out more about TRIPLE
                         </a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -71,24 +142,24 @@
 
                         <p class="newsitem-p">
                             At Open Knowledge Maps, we strive to foster and grow our community. We are therefore excited to announce a partnership with <a href="https://www.knowledge.services/" target="_blank" class="underline">Scientific Knowledge Services (SKS)</a>, the European service provider for research and research support organizations. We collaborate with SKS to raise awareness for discovery infrastructures for open science and to highlight the importance of investing in their future. SKS becomes official membership recruitment partner of Open Knowledge Maps and will support us in implementing our collaborative funding model.
-            </p>
-            
-            <p class="newsitem-p">
-            <em>“We are delighted to partner with Scientific Knowledge Services. SKS are a trusted partner in the scholarly communication system, and their activities in the areas of open science and citizen science strongly align with Open Knowledge Maps' vision and goals,”</em> says Peter Kraker, founder and chairman of Open Knowledge Maps. <em>“At Open Knowledge Maps, we believe that everyone should be able to benefit from scientific knowledge. We are confident that the partnership with SKS will help us to grow our organization so that we can achieve this goal.”</em>
-            </p>
-            
-            <p class="newsitem-p">
-                <em>“Open Science is a movement that reflects a magnificent cultural change in research and in society. Research activities should be discoverable across the research landscape. Open Knowledge Maps is an organization that demonstrated to have a fundamental role in increasing the visibility of research outputs and improving collaboration between researchers and institutions. They challenge the traditional discovery tools, based on SERPs (search engine results pages) and propose to create maps of knowledge that provide more comprehensive overviews. Like all nonprofit organizations, Open Knowledge Maps needs support to reach sustainability, which is yet to be found. In my opinion, such support is part of the Open Science Responsibility; to make science irreversibly open, more reliable and to leave it in good shape for our next generations. As a small company, we enter with humbleness and ambition in this partnership with Open Knowledge Maps and we invite the research community to support their efforts,”</em> says Tiberius Ignat, the director of Scientific Knowledge Services.
-            </p>
-                                                
+                        </p>
+
+                        <p class="newsitem-p">
+                            <em>“We are delighted to partner with Scientific Knowledge Services. SKS are a trusted partner in the scholarly communication system, and their activities in the areas of open science and citizen science strongly align with Open Knowledge Maps' vision and goals,”</em> says Peter Kraker, founder and chairman of Open Knowledge Maps. <em>“At Open Knowledge Maps, we believe that everyone should be able to benefit from scientific knowledge. We are confident that the partnership with SKS will help us to grow our organization so that we can achieve this goal.”</em>
+                        </p>
+
+                        <p class="newsitem-p">
+                            <em>“Open Science is a movement that reflects a magnificent cultural change in research and in society. Research activities should be discoverable across the research landscape. Open Knowledge Maps is an organization that demonstrated to have a fundamental role in increasing the visibility of research outputs and improving collaboration between researchers and institutions. They challenge the traditional discovery tools, based on SERPs (search engine results pages) and propose to create maps of knowledge that provide more comprehensive overviews. Like all nonprofit organizations, Open Knowledge Maps needs support to reach sustainability, which is yet to be found. In my opinion, such support is part of the Open Science Responsibility; to make science irreversibly open, more reliable and to leave it in good shape for our next generations. As a small company, we enter with humbleness and ambition in this partnership with Open Knowledge Maps and we invite the research community to support their efforts,”</em> says Tiberius Ignat, the director of Scientific Knowledge Services.
+                        </p>
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/doc/20191004_press-release_sks-okmaps.pdf" target="_blank">
                             Read the full press release
                         </a>
                     </div>
                 </article>
             </div>
-            
-                        <div class="newscollection">
+
+            <div class="newscollection">
 
                 <article class="newsitem">
                     <a name="become-a-supporting-member" class="anchor"></a>
@@ -104,20 +175,20 @@
 
 
                         <p class="newsitem-p">
-                             Open Knowledge Maps is a charitable non-profit. All of our services are free and open. There are no license fees and no lock-in effects. To provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort: organizations become supporting members and provide a yearly contribution.  In return, our supporting members are invited to co-create the platform with us.
-            </p>
-            
-            <p class="newsitem-p">
-                             <strong>Have your say in the future of Open Knowledge Maps!</strong> Our supporting members are directly involved in the decision-making process by way of the Board of Supporters (BoS). The BoS provides input on the technical roadmap and has one third of the vote on what features and sources are implemented on Open Knowledge Maps. To acknowledge their contribution, members are listed on our website and in select materials.
-            </p>
-                                                
+                            Open Knowledge Maps is a charitable non-profit. All of our services are free and open. There are no license fees and no lock-in effects. To provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort: organizations become supporting members and provide a yearly contribution.  In return, our supporting members are invited to co-create the platform with us.
+                        </p>
+
+                        <p class="newsitem-p">
+                            <strong>Have your say in the future of Open Knowledge Maps!</strong> Our supporting members are directly involved in the decision-making process by way of the Board of Supporters (BoS). The BoS provides input on the technical roadmap and has one third of the vote on what features and sources are implemented on Open Knowledge Maps. To acknowledge their contribution, members are listed on our website and in select materials.
+                        </p>
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">
                             Become a supporting member
                         </a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -134,22 +205,22 @@
 
 
                         <p class="newsitem-p">
-                             Our enthusiasts program continues and we are happy to announce this year's participants. The enthusiasts are power users and ambassadors from all over the world. They will give workshops on open discovery in their communities and collect feedback on how to better integrate Open Knowledge Maps into user workflows.
-                Our new enthusiasts are from 5 different countries that we haven't covered in our previous iteration. And for the first time we are going east to Indonesia - our largest growing user base.
-            </p>
-                        
-                        <p class="newsitem-p">
-                                Please welcome with us Dasapta Erwin Irawan, Georgia Bayliss-Brown, Justin Sègbédji Ahinon, Jeannette Ekstrøm, and Marcin Stępień!
+                            Our enthusiasts program continues and we are happy to announce this year's participants. The enthusiasts are power users and ambassadors from all over the world. They will give workshops on open discovery in their communities and collect feedback on how to better integrate Open Knowledge Maps into user workflows.
+                            Our new enthusiasts are from 5 different countries that we haven't covered in our previous iteration. And for the first time we are going east to Indonesia - our largest growing user base.
                         </p>
 
-                        
+                        <p class="newsitem-p">
+                            Please welcome with us Dasapta Erwin Irawan, Georgia Bayliss-Brown, Justin Sègbédji Ahinon, Jeannette Ekstrøm, and Marcin Stępień!
+                        </p>
+
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/community" target="_blank">
                             Find out more about the program
                         </a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -172,7 +243,7 @@
                             to increase the visibility of African research and to help enable its discovery and reuse by researchers in 
                             Africa and around the world.
                         </p>
-                        
+
                         <p class="newsitem-p">
                             Justin Sègbédji Ahinon and Johanna Havemann, co-founders of AfricArxiv, say: 
                             "We see Open Knowledge Maps as a strong partner to advance Open Science and Open Access 
@@ -181,14 +252,14 @@
                             African scholars' achievements"
                         </p>
 
-                        
+
                         <a class="newsitem-button" href="http://info.africarxiv.org/" target="_blank">
                             Learn more about AfricArXiv
                         </a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -210,27 +281,27 @@
                             of our partner Wikimedia Germany. A recording of the webinar is now 
                             <a style="font-weight:bold;" href="https://www.youtube.com/watch?v=kjKZxZmEXAU" target="_blank">available here</a>.
                         </p>
-                        
+
                         <p class="newsitem-p">
                             The workshop focuses on improving the visibility of your research online. You'll gain 
                             a better understanding about how search engines and discovery tools work. Check out all 
                             the practical tips to finally answer the question: 
                             "How do I get my research to show up in search engines and discovery tools?"
                         </p>
-                        
+
                         <p class="newsitem-p">
                             The presentation slides, speaker notes and a short intro to Academic SEO are available on our website. You can use these materials to run your own workshops on the topic.
-    Or <a href="mailto:maxi@openknowledgemaps.org">get in touch</a> if you’d like to invite us to do a webinar or workshop at your institution.
+                            Or <a href="mailto:maxi@openknowledgemaps.org">get in touch</a> if you’d like to invite us to do a webinar or workshop at your institution.
                         </p>
 
-                        
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/community#training-materials" target="_blank">
                             Check out the materials
                         </a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -248,27 +319,27 @@
 
                         <p class="newsitem-p">
                             The Open Science Conference in Berlin is an international conference dedicated to the Open Science movement and provides a unique forum for a wide variety of stakeholders
-                to discuss the present and the future of Open Science.
-            </p>
-                        
+                            to discuss the present and the future of Open Science.
+                        </p>
+
                         <p class="newsitem-p">
 
-              
-        Open Knowledge Maps founder Peter Kraker will give an invited talk at the conference about his <strong>#DontLeaveItToGoogle</strong> campaign.
-              Peter will show that closed and proprietary infrastructures do not only limit the accessibility of research, but also prevent discoverability.
-              He will discuss how open source services and non-profit frontends such as Open Knowledge Maps help overcome this issue and provide continuous innovation along the research workflow.
+
+                            Open Knowledge Maps founder Peter Kraker will give an invited talk at the conference about his <strong>#DontLeaveItToGoogle</strong> campaign.
+                            Peter will show that closed and proprietary infrastructures do not only limit the accessibility of research, but also prevent discoverability.
+                            He will discuss how open source services and non-profit frontends such as Open Knowledge Maps help overcome this issue and provide continuous innovation along the research workflow.
                         </p>
-                        
+
                         <p class="newsitem-p">
                             <a href="https://www.open-science-conference.eu/registration/" target="_blank" class="underline">Register for the conference now</a> to attend the talk on March 20th at 11:20am (CET).
                         </p>
 
-                        
+
                         <a class="newsitem-button" href="https://www.open-science-conference.eu/programme/" target="_blank">Check out the programme</a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -285,29 +356,29 @@
 
 
                         <p class="newsitem-p">
-                        Research data are among the fastest growing openly accessible scientific outputs on the web. Unfortunately,
-            the discoverability of this data is seriously lacking, leaving up to 85% of datasets unused.
-            </p>
-                        
+                            Research data are among the fastest growing openly accessible scientific outputs on the web. Unfortunately,
+                            the discoverability of this data is seriously lacking, leaving up to 85% of datasets unused.
+                        </p>
+
                         <p class="newsitem-p">
 
-              
-        This is why Open Knowledge Maps has started a new implementation network (IN) that aims to change this.
-          The main purpose of the Discovery IN is to provide open interfaces and other user-facing services for data discovery across disciplines.
-          It brings together many well-known organisation and projects working on FAIR data (short for findable, accessible, interoperable and reusable data),
-          including DataCite, OpenAIRE, EUDAT, OPERAS, CESSDA, BASE, CORE, ZBW, and Know-Center.
+
+                            This is why Open Knowledge Maps has started a new implementation network (IN) that aims to change this.
+                            The main purpose of the Discovery IN is to provide open interfaces and other user-facing services for data discovery across disciplines.
+                            It brings together many well-known organisation and projects working on FAIR data (short for findable, accessible, interoperable and reusable data),
+                            including DataCite, OpenAIRE, EUDAT, OPERAS, CESSDA, BASE, CORE, ZBW, and Know-Center.
                         </p>
-                        
+
                         <p class="newsitem-p">
                             The network is part of the <strong>GO FAIR</strong> initiative, a bottom-up international approach for the practical implementation of infrastructures for FAIR data, such as the EOSC (European Open Science Cloud).
                         </p>
 
-                        
+
                         <a class="newsitem-button" href="https://www.go-fair.org/implementation-networks/overview/discovery/" target="_blank">Learn more</a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -324,26 +395,26 @@
 
 
                         <p class="newsitem-p">
-                        We have developed a brand new workshop to help you improving the visibility of your research online.
-            </p>
-                        
-                        <p class="newsitem-p">
-In this workshop you'll learn how search engines and discovery tools work and how you can use this knowledge to make your outputs more discoverable.
-    We will give practical tips to finally answer the question: "How do I get my research to show up in search engines and discovery tools?"
-    To round things out, we will play a fun and fast-paced game to get to know Open Knowledge Maps better and improve your personal discovery skills.
-                        
-                        <p class="newsitem-p">
-                            This workshop will be hosted by the working group “Open Science Trainings” of the Open Science Network Austria (OANA), Österreich forscht, and the Ludwig Boltzmann Gesellschaft.
-  Join us <strong>in Vienna on April 26 at 10:00 (CET).</strong>
+                            We have developed a brand new workshop to help you improving the visibility of your research online.
                         </p>
 
-                        
+                        <p class="newsitem-p">
+                            In this workshop you'll learn how search engines and discovery tools work and how you can use this knowledge to make your outputs more discoverable.
+                            We will give practical tips to finally answer the question: "How do I get my research to show up in search engines and discovery tools?"
+                            To round things out, we will play a fun and fast-paced game to get to know Open Knowledge Maps better and improve your personal discovery skills.
+
+                        <p class="newsitem-p">
+                            This workshop will be hosted by the working group “Open Science Trainings” of the Open Science Network Austria (OANA), Österreich forscht, and the Ludwig Boltzmann Gesellschaft.
+                            Join us <strong>in Vienna on April 26 at 10:00 (CET).</strong>
+                        </p>
+
+
                         <a class="newsitem-button" href="https://openknowledgemaps.eventbrite.de" target="_blank">More info &amp; RSVP here</a>
                     </div>
                 </article>
             </div>
-            
-             <div class="newscollection">
+
+            <div class="newscollection">
 
                 <article class="newsitem">
                     <a name="project-page" class="anchor"></a>
@@ -359,21 +430,21 @@ In this workshop you'll learn how search engines and discovery tools work and ho
 
 
                         <p class="newsitem-p">At Open Knowledge Maps, our aim is to improve the visibility of scientific knowledge. That’s why we partner with organizations that share our goals to develop innovative open science projects that make it easier for you to discover and benefit from scientific knowledge. In addition, these collaborations enable organizations to make their collections more accessible to their users.
-            </p>
-                        
-                        <p class="newsitem-p">
-
-              
-          Do you have public, openly accessible collections, but you do not know how to present these collections to your users? Or do you simply want to check out our present and past collaboration projects to find out about the cool services we have developed?
-          Then check out our brand new project page!
                         </p>
 
-                        
+                        <p class="newsitem-p">
+
+
+                            Do you have public, openly accessible collections, but you do not know how to present these collections to your users? Or do you simply want to check out our present and past collaboration projects to find out about the cool services we have developed?
+                            Then check out our brand new project page!
+                        </p>
+
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/projects" target="_blank">View project page</a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -390,24 +461,24 @@ In this workshop you'll learn how search engines and discovery tools work and ho
 
 
                         <p class="newsitem-p">
-                We are working on a <a target="_blank" href="https://openknowledgemaps.org/supporting-membership">membership-based funding model</a>. In this model, organisations become supporting members of
-                Open Knowledge Maps and provide an annual contribution. We are happy to announce that our very first supporting member, the <a href="https://www.lbg.ac.at/" target="_blank" class="underline">Ludwig Boltzmann Gesellschaft (LBG)</a>, has joined us. LBG is a longtime collaborator and is now also pioneering this promising path to sustainability with us. Welcome on board!
-                                        </p>
-                        
-                        <p class="newsitem-p">
-
-              The <a href="https://www.lbg.ac.at/" target="_blank" class="underline">Ludwig Boltzmann Gesellschaft (LBG)</a> is a research institution with a thematic focus on medicine, life sciences and the humanities, and is specifically targeting new research topics in Austria. Together with academic and implementing partners, the LBG is currently running 21 institutes and develops and tests new forms of collaboration between science and non-scientific actors such as companies, the public sector and civil society. Socially relevant challenges, to which research can contribute, are to be recognized at an early stage and taken up.
-              The <a href="https://ois.lbg.ac.at/" target="_blank" class="underline">LBG Open Innovation in Science Center</a>, which unlocks the potential of open innovation for science, and the LBG Career Center, which supports 200 PhD students and postdocs, are part of the LBG. The LBG employs 550 people.
-              
+                            We are working on a <a target="_blank" href="https://openknowledgemaps.org/supporting-membership">membership-based funding model</a>. In this model, organisations become supporting members of
+                            Open Knowledge Maps and provide an annual contribution. We are happy to announce that our very first supporting member, the <a href="https://www.lbg.ac.at/" target="_blank" class="underline">Ludwig Boltzmann Gesellschaft (LBG)</a>, has joined us. LBG is a longtime collaborator and is now also pioneering this promising path to sustainability with us. Welcome on board!
                         </p>
 
-                        
+                        <p class="newsitem-p">
+
+                            The <a href="https://www.lbg.ac.at/" target="_blank" class="underline">Ludwig Boltzmann Gesellschaft (LBG)</a> is a research institution with a thematic focus on medicine, life sciences and the humanities, and is specifically targeting new research topics in Austria. Together with academic and implementing partners, the LBG is currently running 21 institutes and develops and tests new forms of collaboration between science and non-scientific actors such as companies, the public sector and civil society. Socially relevant challenges, to which research can contribute, are to be recognized at an early stage and taken up.
+                            The <a href="https://ois.lbg.ac.at/" target="_blank" class="underline">LBG Open Innovation in Science Center</a>, which unlocks the potential of open innovation for science, and the LBG Career Center, which supports 200 PhD students and postdocs, are part of the LBG. The LBG employs 550 people.
+
+                        </p>
+
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">Become a supporting member</a>
                     </div>
                 </article>
             </div>
-            
-            
+
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -424,21 +495,21 @@ In this workshop you'll learn how search engines and discovery tools work and ho
 
 
                         <p class="newsitem-p">
-                  To provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort. Donations are part of this plan, which is why we ran our first donation campaign last December. The results make us very happy; with the funds donated, we are able to cover our server costs for 2019. Many thanks for your contributions and all the supportive messages!
+                            To provide a sustainable platform for open discovery, we propose to fund Open Knowledge Maps in a collective effort. Donations are part of this plan, which is why we ran our first donation campaign last December. The results make us very happy; with the funds donated, we are able to cover our server costs for 2019. Many thanks for your contributions and all the supportive messages!
                         </p>
-                        
+
                         <p class="newsitem-p">
-                                           Of course, we also accept donations throughout the year.
+                            Of course, we also accept donations throughout the year.
 
                         </p>
 
-                        
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/donate-now" target="_blank">
                             Find out how you can support us</a>
                     </div>
                 </article>
             </div>
-            
+
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -457,10 +528,10 @@ In this workshop you'll learn how search engines and discovery tools work and ho
                         <p class="newsitem-p">
                             As a charitable non-profit, we depend on our community. Thanks to your support, Open Knowledge Maps has become the largest visual search engine for scientific knowledge in the world.
                         </p>
-                        
+
                         <p class="newsitem-p">
-                           Today, we ask you for your help with our next challenge: to ensure the sustainability of this platform. This is why we are launching our very first donation campaign. It is pretty simple:
-                <b>If every user gave €3, we could run Open Knowledge Maps for a whole year.</b> 
+                            Today, we ask you for your help with our next challenge: to ensure the sustainability of this platform. This is why we are launching our very first donation campaign. It is pretty simple:
+                            <b>If every user gave €3, we could run Open Knowledge Maps for a whole year.</b> 
                         </p>
 
                         <p class="newsitem-p">
@@ -470,16 +541,16 @@ In this workshop you'll learn how search engines and discovery tools work and ho
                             <a href="https://vimeo.com/188647919" target="_blank">into a collaborative system</a>, so that we can all 
                             build on top of each others' knowledge.
                         </p>
-                        
+
                         <p class="newsitem-p">
                             We hope that you’ll consider how useful it is to be able to discover scientific knowledge. 
                             Not only for a select few, but for everyone on the planet. <b>The price of a coffee is all it takes!</b>
                         </p>
-                        
+
                         <p class="newsitem-p">
                             <b>❤️ Thank you.</b> <br>Peter, Maxi and Chris from the Open Knowledge Maps board.
                         </p>
-                        
+
                         <a class="newsitem-button" href="https://openknowledgemaps.org/donate-now" target="_blank">
                             Make a donation</a>
                     </div>
@@ -506,7 +577,7 @@ In this workshop you'll learn how search engines and discovery tools work and ho
                             community to discover all the great open access content out there. To help you with this, 
                             we have created training materials for Open Knowledge Maps.
                         </p>
-                        
+
                         <p class="newsitem-p">
                             This includes presentations with extensive speaker notes, making it easy to introduce Open Knowledge Maps in 
                             English and Spanish. We have also put all materials for the Scientific Scavenger Hunt, our workshop concept, online. 
