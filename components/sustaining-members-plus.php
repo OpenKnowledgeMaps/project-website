@@ -1,0 +1,1 @@
+<a href="https://www.unibe.ch/" target="_blank"><img class="member-logo-large" src="./img/supporting-members/bos/Unibe_Logo.png" alt="Logo University Bern"></a>

@@ -165,19 +165,8 @@
                         </ul>
                     </div>
 
-
-                    <!-- list of supporting members -->
-                    <div class="alumni"><h3>Supporting members:</h3>
-
-                        <div class="partners">
-
-                            <a href="https://lbg.ac.at/" target="_blank"><img src="./img/partners/lbg-oisc.png" alt="LBG"></a>
-
-                        </div>
-                    </div>
-                    
-                    <!-- list of contributors -->
-                    <div class="alumni"><h3>Contributers:</h3>
+                    <!-- list of former contributors -->
+                    <div class="alumni" style=""><h3>Special thanks to former contributers:</h3>
                         <a target="_blank" class="underline" href="https://github.com/jaels">Yael Stein</a>,
                         <a target="_blank" class="underline" href="http://www.michaelskaug.com/">Mike Skaug</a>, 
                         <a target="_blank" class="underline" href="http://nthmost.com/">Naomi Most</a>, 
@@ -185,9 +174,30 @@
                     </div>
 
                 </div> 
-
             </div>
 
+            <a name="supporting-members"></a>
+            <div class="background2 bg1" style="background-color:white; border-top: 1px solid #cacfd3;">
+                <div class="team" id="advisory-board">
+                    <h2 style="color: #2d3e52;">Our Supporting Members</h2>
+                    <p>are contributing to the financial sustainability of Open Knowledge Maps. <a class="underline" href="supporting-membership">Find out more</a> on how to become a supporting member.</p>
+                </div>
+
+                <div id="partnerdiv" style="padding-bottom: 0px; padding-top: 20px;">
+                    <h2>cateogry "Sustaining Members PLUS"</h2>
+                    <div class="partners">
+                        <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
+                    </div>
+                </div>
+
+                <div id="partnerdiv">
+                    <h2>Category "Supporting Members"</h2>
+                    <div class="partners">
+                        <?php include($COMPONENTS_PATH . 'supporting-members.php'); ?>
+                    </div>
+                </div>
+            </div>     
+            
             <div class="background2 bg1">
                 <div class="team" id="advisory-board">
                     <h2 style="color: #2d3e52;">Our Advisors</h2>
@@ -274,7 +284,7 @@
                                 <li>Göttingen State and University Library</li>
                             </ul>
                         </div>
-                        
+
                         <div class="advisor">
                             <a target="_blank" href="https://www.oa.unito.it/"><img class="hoverlink" src="./img/advisors/elena.jpg" alt="Advisor OKMaps"></a>
                             <h3>Elena Giglia</h3>
@@ -444,9 +454,10 @@
                         </div>
 
                     </div>
-                </div></div>
-
+                </div>
+            </div>
         </div>
+        
         <?php include($COMPONENTS_PATH . 'partners.php'); ?>
         <?php include($COMPONENTS_PATH . 'networks.php'); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
