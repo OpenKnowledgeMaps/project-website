@@ -24,6 +24,40 @@
                     </p>
                 </div>
             </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
+                    <a name="okmaps-wins-austrian-prize-for-free-knowledge" class="anchor"></a>
+
+                    <a href="https://freieswissen.net/einreichung.html" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/austrian-prize-for-free-knowledge.png">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-01-27">27 January 2020</time>
+
+                        <h3 class="newsitem-headline">Open Knowledge Maps wins Austrian Prize for Free Knowledge</h3>
+
+                        <p class="newsitem-p">
+                            We are delighted to announce that Open Knowledge Maps has won the <a class="underline" href="https://freieswissen.net/einreichung.html" target="_blank">Austrian Prize for Free Knowledge</a> of Wikimedia Austria in the category civic engagement. The prize is awarded to individuals and organisations that make outstanding contributions to free knowledge. In their rationale, the jury appreciated Open Knowledge Maps for making scientific knowledge better discoverable and more reusable - also for those who are not employed at an academic institution.
+                        </p>
+
+                        <p class="newsitem-p">
+                            The prize was awarded by <a class="underline" href="https://wikimedia.at" target="_blank">Wikimedia Austria</a> on January 25th at the <a class="underline" href="https://www.wissenschaftsball.at/en/" target="_blank">Vienna Ball of Sciences</a> in attendance of the Mayor of Vienna, Michael Ludwig, and the Austrian Federal Minister for Transport, Innovation and Technology, Leonore Gewessler. 
+                            Our fellow prize winners are also strongly related to open science: the <a class="underline" href="https://fwf.ac.at/en/" target="_blank">Austrian Science Fund (FWF)</a>, one of the most progressive funding organisations when it comes to open science (organisation of the year), and early open access pioneer <a class="underline" href="https://www2.isds.tugraz.at/maurer" target="_blank">Hermann Maurer</a> (lifetime achievement prize).
+                        </p>
+
+                        <p class='newsitem-p'>
+                            We are honored to be recognized with this prize. We want to thank our team and community for their hard work and for their continued support. Without you, none of this would be possible. We are very happy and thankful to have you with us!
+                        </p>
+
+                        <a class="newsitem-button" href="https://freieswissen.net/einreichung.html" target="_blank">
+                            More about the Prize (in German)
+                        </a>
+                    </div>
+                </article>
+            </div>
 
             <div class="newscollection">
 
