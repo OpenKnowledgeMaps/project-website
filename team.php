@@ -118,7 +118,7 @@
                         <img src="./img/team/najmeh.png" alt="Najmeh">
                         <ul>
                             <li class="name">Najmeh Shaghaei</li>
-                            <li class="job-title">Community Coordinator</li>
+                            <li class="job-title">Library Liaison</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -150,6 +150,19 @@
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:tom@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://github.com/tarrow/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="member">
+                        <img src="./img/team/michela.png" alt="Michela">
+                        <ul>
+                            <li class="name">Michela Vignoli</li>
+                            <li class="job-title">Community Coordinator</li>
+                        </ul>
+
+                        <ul class="contact-member">
+                            <li><a class="contact-icon" target="_blank" href="mailto:mvignoli@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 
@@ -345,15 +358,6 @@
                             <ul class="advisor-desc">
                                 <li>Librarian</li>
                                 <li>German National Library of S&T (TIB)</li>
-                            </ul>
-                        </div>
-
-                        <div class="advisor">
-                            <a target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><img class="hoverlink" src="./img/advisors/michaela.jpg" alt="Advisor OKMaps"></a>
-                            <h3>Michela Vignoli</h3>
-                            <ul class="advisor-desc">
-                                <li>Junior Scientist</li>
-                                <li>Austrian Institute of Technology (AIT)</li>
                             </ul>
                         </div>
 
