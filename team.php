@@ -123,7 +123,7 @@
 
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:n.shaghaei@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="http://findresearcher.sdu.dk:8080/portal/en/person/nas"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="https://portal.findresearcher.sdu.dk/da/persons/nas"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 
@@ -162,7 +162,7 @@
 
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:mvignoli@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="http://open-research.ait.ac.at/confluence/display/AORW/Austrian+Open+Research+Wiki"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="https://twitter.com/iea_ioi"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 
