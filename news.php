@@ -28,6 +28,75 @@
             <div class="newscollection">
 
                 <article class="newsitem">
+                    <a name="welcome-new-supporting-members" class="anchor"></a>
+
+                    <a href="http://openknowledgemaps.org/supporting-membership" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/logos-supporting-members.png">
+                    </a> 
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-01-29">29 January 2020</time>
+
+                        <h3 class="newsitem-headline">Open Knowledge Maps welcomes new supporting members</h3>
+
+                        <p class="newsitem-p">
+                            We are excited to announce that our supporting membership program has grown to five organisations. 
+                            We welcome <a href="https://www.unibe.ch/" class="underline" target="_blank">University Library Bern</a> in the category "Sustaining Member PLUS" as well as <a href="https://www.akbild.ac.at/" class="underline" target="_blank">Academy of Fine Arts Vienna</a>, <a href="https://publications.copernicus.org/" class="underline" target="_blank">Copernicus Publications</a> and <a href="https://www.zbw.eu/" class="underline" target="_blank">ZBW - Leibniz Information Centre for Economics</a> in the category "Supporting Member". Together with <a href="https://www.lbg.ac.at/" class="underline" target="_blank">Ludwig Boltzmann Gesellschaft</a>, who joined us at the beginning of 2019, this group represents five trailblazers establishing this promising path to sustainability with us.
+                        </p>
+
+                        <p class="newsitem-p">
+                            The supporting membership program is a model to sustain Open Knowledge Maps, the world’s largest visual search engine for research. Supporting members provide a yearly contribution and in return, they are invited to co-create the platform with us. In an annual crowdsourcing process, they have one third of the vote on what features and sources are implemented on Open Knowledge Maps.
+                        </p>
+                        
+                        <h4 class="newsitem-h4">
+                            Why they joined us
+                        </h4>
+
+                        <p class='newsitem-p'>
+                            We asked our members to briefly explain why they support us. We will publish their full statements in a series of supporting member spotlights in the upcoming weeks. But here's already a sneak peek of what they said (emphasis ours):
+                        </p>
+                        
+                        
+                        <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps is a considerable reinforcement in the areas of open science and open access, which are <strong>central to our research services</strong>."</em>
+                            <span class="blockquote-citation">Dr. Andrea Hacker, Open Access and Bern Open Publishing (BOP)</span></blockquote>
+            
+                        
+                        <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps is one of these initiatives we consider to be a <strong>visionary innovator</strong> in the field of discovery in open spaces."</em>
+                            <span class="blockquote-citation">Prof. Dr. Klaus Tochtermann, Director, ZBW</span></blockquote>
+
+                        
+                            <blockquote class="newsitem-blockquote"><em>"On the one side the Open Science/Open Scholarship movement has increased the accessibility of academic knowledge, but on the other hand there is a discoverability crisis that in a lot of cases negatively affects Scholarly Communication. Open Knowledge Maps <strong>intends to close this gap</strong> and that's why it deserves to be supported with our best efforts."</em>
+                            <span class="blockquote-citation">Mag. MSc. Andreas Ferus, Interim Library Director, Academy of Fine Arts Vienna    </span></blockquote>
+
+                        
+                        
+                            <blockquote class="newsitem-blockquote"><em>"As <strong>a truly open discovery tool</strong>, Open Knowledge Maps revolutionize the way scientific knowledge can be revealed."</em>
+                            <span class="blockquote-citation">Dr. Xenia van Edig, Senior Business Development, Copernicus Publications </span>   </blockquote>
+
+                            
+                            <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps <strong>opens up science in a unique way</strong> to researchers as well as to practitioners and the public."</em>
+                            <span class="blockquote-citation">Mag. Patrick Lehner, Director OIS Center, Ludwig Boltzmann Gesellschaft</span></blockquote>
+                        
+                        <h4 class="newsitem-h4">
+                            <strong>How to become a member</strong>
+                        </h4>
+                        
+                        <p class="newsitem-p">
+                            Are you interested to become a member as well? We invite further organisations to join us and shape the future of discovery together with us. Click on the button below to find out more.
+                        </p>
+
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">
+                              Learn more about the membership
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
                     <a name="okmaps-wins-austrian-prize-for-free-knowledge" class="anchor"></a>
 
                     <a href="https://freieswissen.net/einreichung.html" target="_blank">
@@ -42,12 +111,12 @@
                         <p class="newsitem-p">
                             We are delighted to announce that Open Knowledge Maps has won the <a class="underline" href="https://freieswissen.net/einreichung.html" target="_blank">Austrian Prize for Free Knowledge</a> of Wikimedia Austria in the category civic engagement. The prize is awarded to individuals and organisations that make outstanding contributions to free knowledge. In their rationale, the jury appreciated Open Knowledge Maps for making scientific knowledge better discoverable and more reusable - also for those who are not employed at an academic institution.
                         </p>
-
+                        
                         <p class="newsitem-p">
                             The prize was awarded by <a class="underline" href="https://wikimedia.at" target="_blank">Wikimedia Austria</a> on January 25th at the <a class="underline" href="https://www.wissenschaftsball.at/en/" target="_blank">Vienna Ball of Sciences</a> in attendance of the Mayor of Vienna, Michael Ludwig, and the Austrian Federal Minister for Transport, Innovation and Technology, Leonore Gewessler. 
                             Our fellow prize winners are also strongly related to open science: the <a class="underline" href="https://fwf.ac.at/en/" target="_blank">Austrian Science Fund (FWF)</a>, one of the most progressive funding organisations when it comes to open science (organisation of the year), and early open access pioneer <a class="underline" href="https://www2.isds.tugraz.at/maurer" target="_blank">Hermann Maurer</a> (lifetime achievement prize).
                         </p>
-
+                        
                         <p class='newsitem-p'>
                             We are honored to be recognized with this prize. We want to thank our team and community for their hard work and for their continued support. Without you, none of this would be possible. We are very happy and thankful to have you with us!
                         </p>
@@ -55,6 +124,8 @@
                         <a class="newsitem-button" href="https://freieswissen.net/einreichung.html" target="_blank">
                             More about the Prize (in German)
                         </a>
+
+                
                     </div>
                 </article>
             </div>

@@ -2181,6 +2181,22 @@ time {
     color: black;
 }
 
+.newsitem-blockquote {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.blockquote-citation {
+    display:block; 
+    padding-top: 10px
+}
+
+.newsitem-h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #2c3e52;
+}
+
 .newsitem-button {
     border: 2px solid #2c3e52;
     color: #2c3e52;
