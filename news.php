@@ -58,7 +58,7 @@
                         
                         
                         <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps is a considerable reinforcement in the areas of open science and open access, which are <strong>central to our research services</strong>."</em>
-                            <span class="blockquote-citation">Dr. Andrea Hacker, Open Access and Bern Open Publishing (BOP)</span></blockquote>
+                            <span class="blockquote-citation">Dr. Andrea Hacker, Open Access and Bern Open Publishing (BOP), University Library Bern</span></blockquote>
             
                         
                         <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps is one of these initiatives we consider to be a <strong>visionary innovator</strong> in the field of discovery in open spaces."</em>
