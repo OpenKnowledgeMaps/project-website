@@ -434,7 +434,7 @@
                             <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKMaps"></a>
                             <h3>Robert Gutounig</h3>
                             <ul class="advisor-desc">
-                                <li>Researcher and Lecturer</li>
+                                <li>Head of Degree Programme "Content Strategy"</li>
                                 <li>FH JOANNEUM</li>
                             </ul>
                         </div>
