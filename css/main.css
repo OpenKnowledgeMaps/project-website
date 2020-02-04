@@ -1654,11 +1654,11 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .updates .background2 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)), url(../img/newsbg.png);
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0)), url(../img/newsbg.png);*/
     background-size:100%;
     background-repeat: repeat;
     background-position: 100% 10%;
-    background-color: #eff3f4;
+    background-color: white;
 }
 
 .faqx .background2 {
@@ -1864,7 +1864,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .partners img.member-logo-large {
-    max-height: 110px;
+    max-height: 150px;
 }
 
 .partners img {
@@ -2036,18 +2036,18 @@ sup {
     display:none;
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
+    font-size: 18px;
     margin: 10px 0px 10px 20px;
     text-decoration: none;
     text-transform: uppercase;
     border: 2px solid #2d3e52;
-    padding: 5px;
+    padding: 5px 10px;
     vertical-align: middle;
     text-align:left;
-    background-color: #2d3e52;
+    background-color: none;
     border-radius: 5px;
     -moz-border-radius: 5px;
-    color: white;
+    color: #2d3e52;
 }
 
 .searchheader .icon-menu {
@@ -2566,21 +2566,21 @@ time {
         display:none;
     }
 
-    .searchheader .imglogo, .imglogo{
+    .searchheader .imglogo, .imglogo, .searchheader .description li:last-child, .description li:last-child {
         display: none;
+    }
+    
+    .description {
+        display: inline-block;
+        margin-top: 0px;
+        vertical-align: middle;
+        margin-left: 10px;
     }
 
     .searchheader .icon-menu {
         margin-right: 10px;
     }
 
-    .description {
-        margin-left: 10px;
-    }
-
-    .searchheader .description li:last-child {
-        display:none;
-    }
     .searchheader .description li:first-child {
         font-size: 14px;
         padding: 5px;
@@ -2664,16 +2664,6 @@ time {
 
     .topheader {
         padding-top:77px;
-    }
-
-    .description li:last-child {
-        display:none;
-    }
-
-    .description {
-        display: inline-block;
-        margin-top: 0px;
-        vertical-align: middle;
     }
 
     .imglogo {
