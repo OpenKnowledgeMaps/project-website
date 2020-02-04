@@ -21,7 +21,7 @@
 </div>
 
 <div class="icon-menu">
-    <span class="awesome">&#xf0c9;</span> MENU
+    <span class="awesome">&#xf0c9;</span>
 </div>
 
 <div class="imglogo">
