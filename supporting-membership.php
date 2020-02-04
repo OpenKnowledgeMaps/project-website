@@ -5,6 +5,7 @@
         <?php $title = "Supporting Membership - Open Knowledge Maps"; ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
+        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
     </head>
     <body class="membership">
 
@@ -106,6 +107,12 @@
                     </p>
                 </div>
             </div>
+            
+            <?php
+        $COMMENT_TITLE = "What our supporting members say";
+        $COMMENT_IMAGES_URL = "./img/supporting-members/member-statements/";
+        include($COMPONENTS_PATH . 'commentstream.php');
+        ?>  
 
             <div id="mission">
                 <div id="more-info">
