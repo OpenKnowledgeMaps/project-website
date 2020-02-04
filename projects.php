@@ -25,7 +25,7 @@
                     <h2 style="color: #2d3e52;">Projects</h2>
                     <p>At Open Knowledge Maps, our aim is to improve the visibility of scientific knowledge. 
                         That’s why we partner with organizations that share our goals to develop innovative open science projects.
-                        <br><br>Check out our present and past collaboration projects below and <a class="underline" href="projects#work-with-us">learn more about how we can work together</a>.
+                       Check out our present and past collaboration projects below <!--and <a class="underline" href="projects#work-with-us">learn more about how we can work together</a>-->.</p>
                 </div>
             </div>
         </div>
