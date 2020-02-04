@@ -264,7 +264,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 /*Become a supporting Member*/
 .membership #newsletterdiv {
-    background-color: white;
+    /*background-color: white;*/
 }
 
 .membership .vision:hover {
@@ -304,10 +304,10 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-position: 30% 40%;
 }
 
-.membership .partners img {
+/*.membership .partners img {
     max-height: 40px;
     margin: 0px 30px 30px 0px;
-}
+}*/
 
 .membership-img {
     max-width: 35%; 
@@ -1863,6 +1863,10 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     opacity: 0.5;
 }
 
+.partners img.member-logo-large {
+    max-height: 110px;
+}
+
 .partners img {
     height: 100%;
     max-height: 80px;
@@ -1871,6 +1875,10 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .partners-small .partners img {
     max-height: 40px;
+}
+
+.partners-small .partners img.member-logo-large {
+    max-height: 100px;
 }
 
 .alumni h3 {
@@ -2171,6 +2179,22 @@ time {
     font-style: normal;
     font-weight: 100;
     color: black;
+}
+
+.newsitem-blockquote {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.blockquote-citation {
+    display:block; 
+    padding-top: 10px
+}
+
+.newsitem-h4 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #2c3e52;
 }
 
 .newsitem-button {
@@ -3180,6 +3204,10 @@ time {
 
     .partners img {
         height:30px;
+    }
+    
+    .partners img.member-logo-large {
+        height:60px;
     }
 
     .networks img {

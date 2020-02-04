@@ -120,39 +120,48 @@
                     </div>
 
                     <div class="vision">
-                        <h2><i class="fa fa-user"></i><br>Supporting member</h2>
+                        <h2><i class="fa fa-user"></i><br>Supporting Member</h2>
 
-                        <ul class="project-facts">
+                        <p class="project-facts">With your contribution, you facilitate the <span style="font-weight: 800;">maintenance</span> of Open Knowledge Maps. This makes sure that the platform will be available now and in the future*.</p>
+
+                        <ul class="project-facts" style="text-align: left;">
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 1 seat</b> on the Board of Supporters</li>
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing on website</li>
                         </ul>
 
-                        <p class="project-facts" style="text-align: center; padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 2,800</span> / year</p>
+                        <p class="project-facts" style="padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 2,800</span> / year</p>
                     </div>
 
                     <div class="vision">
-                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member</h2>
+                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining Member</h2>
+                        <p class="project-facts">With your contribution, you support the maintenance, but also the <span style="font-weight: 800;">development of substantial new features</span> on Open Knowledge Maps. This makes sure that we can improve Open Knowledge Maps going forward*.</p>
 
-                        <ul class="project-facts">
+                        <ul class="project-facts" style="text-align: left;">
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 2 seats</b> on the Board of Supporters</li>
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing on website</li> 
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing in select materials with logo</li>                            
                         </ul>
 
-                        <p class="project-facts" style="text-align: center; padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 4,800</span> / year</p>
+                        <p class="project-facts" style="padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 4,800</span> / year</p>
                     </div>
 
                     <div class="vision">
-                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining member PLUS</h2>
+                        <h2><i class="fa fa-user"></i><i class="fa fa-user"></i><i class="fa fa-user"></i><br>Sustaining Member PLUS</h2>
+                        <p class="project-facts">With your contribution, you support us in <span style="font-weight:800;">achieving our vision</span> of turning discovery into a collaborative process. This makes sure that we can work towards a large-scale collaborative discovery system (see <a href="about#our-vision" class="underline" target="_blank">our video</a> for more details)*.</p>
 
-                        <ul class="project-facts">
+
+                        <ul class="project-facts" style="text-align: left;">
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i><b> 3 seats</b> on the Board of Supporters</li>
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing on website</li> 
                             <li><i class="fa fa-check" style="color:#51c9ae;"></i> listing in select materials with logo</li>
                         </ul>
 
-                        <p class="project-facts" style="text-align: center; padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 9,800</span> / year</p>
+                        <p class="project-facts" style="padding-top: 4%;">starting at <span style="font-weight: 800;">EUR 9,800</span> / year</p>
                     </div>
+
+                    <p class="project-facts" style="text-align:center">
+                        * given that we have 100 members in this category
+                    </p>
 
                     <p class="try-now" style="text-align: center; margin:30px 0;">
                         <a target="_blank" class="donate-now" style="" href="mailto:pkraker@openknowledgemaps.org">Get in touch via email</a>
@@ -160,30 +169,44 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="advisorsdiv eprunby" style="text-align:center; border-top: 1px solid #cacfd3; background-color: #eff3f4;">
-                        <div class="faq">
-                            <h2 class="h2reverse">Supporting memberships team</h2>
-                        </div>
+            <div class="faq">
+                <h2 class="h2reverse">Supporting memberships team</h2>
+            </div>
 
-                        <div class="member">
-                            <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
-                            <ul>
-                                <li class="name">Peter Kraker</li>
-                                <li class="job-title">Founder & Chairman</li>
-                            </ul>
+            <div class="member">
+                <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
+                <ul>
+                    <li class="name">Peter Kraker</li>
+                    <li class="job-title">Founder & Chairman</li>
+                </ul>
 
-                        </div>
+            </div>
 
-                        <div class="member">
-                            <a href="https://www.knowledge.services" target="_blank"><img src="./img/supporting-members/sks-membership-recruitment-partner.png" alt="Scientific Knowledge Services"></a>
-                            <ul>
-                                <li class="name">Scientific Knowledge Services</li>
-                                <li class="job-title">Official Membership Recruitment Partner</li>
-                            </ul>
+            <div class="member">
+                <a href="https://www.knowledge.services" target="_blank"><img src="./img/supporting-members/sks-membership-recruitment-partner.png" alt="Scientific Knowledge Services"></a>
+                <ul>
+                    <li class="name">Scientific Knowledge Services</li>
+                    <li class="job-title">Official Membership Recruitment Partner</li>
+                </ul>
 
-                        </div>
-                    </div>
+            </div>
+        </div>
+
+        <div id="partnerdiv" style="padding-bottom: 0px;">
+            <h2>Our current Sustaining Members PLUS</h2>
+            <div class="partners">
+                <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
+            </div>
+        </div>
+        
+        <div id="partnerdiv">
+            <h2>Our current Supporting Members</h2>
+            <div class="partners">
+                <?php include($COMPONENTS_PATH . 'supporting-members.php'); ?>
+            </div>
+        </div>
 
         <?php include($COMPONENTS_PATH . "newsletter.php"); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
