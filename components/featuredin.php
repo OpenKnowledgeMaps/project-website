@@ -3,8 +3,11 @@
     <h2>Featured in</h2>
     <div class="partners">
         <a href="https://freieswissen.net/einreichung.html" target="_blank"><img src="./img/featuredin/austrian-prize-for-free-knowledge.png" alt="Austrian Prize for Free Knowledge"></a>
-        <a href="https://open-access.net/startseite" target="_blank"><img src="https://open-access.net/fileadmin/logos/oa.svg" alt="Open Access Tage"></a>
+        <a href="https://futurezone.at/" target="_blank"><img src="./img/featuredin/fuzo-logo.png" alt="Futurezone"></a>
+        <a href="https://open-access.net/startseite" target="_blank"><img src="./img/featuredin/oa-tage.png" alt="Open Access Tage"></a>
         <a href="https://www.open-science-conference.eu/" target="_blank"><img src="./img/featuredin/openscienceconference.png" alt="Open Sciene Conference"></a>
+        <a href="https://www.focusopenscience.org/" target="_blank"><img src="./img/featuredin/focus-open-science.jpg" alt="Focus on Open Science"></a>
+        <a href="http://aims.fao.org/" target="_blank"><img src="./img/featuredin/aims.png" alt="The Agricultural Information Management Standards Portal"></a>
         <a href="https://www.openminds.at/" target="_blank"><img src="./img/featuredin/openmindsaward.png" alt="Open Minds Award Austria"></a>
         <a href="http://reddit.com/" target="_blank"><img src="./img/featuredin/reddit.png" alt="reddit"></a>
         <a href="https://www.heise.de/ct/ausgabe/2016-25-Fundstuecke-im-Web-Wissen-Messaging-Galaxie-3492805.html" target="_blank"><img src="./img/featuredin/ctmagazin.png" alt="ct magazin"></a>
