@@ -159,7 +159,7 @@
 
 <div style="border-top: 0px solid #cacfd3; padding: 50px 20px;">
     <p class="try-now" style="text-align: center; margin:0px 0 0;">
-        <a target="_blank" class="donate-now" href="index">Create a new map</a>
+        <a target="_blank" class="donate-now" href="index">Create a new knowledge map</a>
     </p>
 </div>
         <?php
