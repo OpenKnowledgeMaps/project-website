@@ -316,17 +316,6 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     padding-bottom: 20px;
 }
 
-.membership .donate-now {
-    border: 2px solid #51c9ae;
-    background-color: #51c9ae;
-    color: white;
-}
-
-.membership .donate-now:hover, .membership .donate-now:active, .membership .donate-now:focus {
-    color: #51c9ae;
-    background-color: transparent;
-}
-
 .membership .vision ul {
     text-align: center;
 }
@@ -1437,30 +1426,19 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     max-width: 300px;
     width:100%;
     display: inline-block; 
-    border: 2px solid #f29e00;
-    background-color: #f29e00;
+    border: 2px solid #2d3e52;
+    background-color: #2d3e52;
     color: white;
     padding: 10px;
     border-radius: 5px;
     -moz-border-radius: 5px;
     font-size: 18px;
     font-weight: 700;
+    text-decoration: none !important;
 }
 
 .donate-now:hover, .donate-now:active, .donate-now:focus {
-    color:#f29e00;
-    background-color: transparent;
-}
-
-.about-page .donate-now, .vis .donate-now, .landscape-teaser .donate-now, .projects-page .donate-now  {
-    border: 2px solid #2d3e52;
-    background-color: #2d3e52;
-}
-
-.about-page .donate-now:hover, .about-page .donate-now:active, .about-page .donate-now:focus,
-.vis .donate-now:hover, .vis .donate-now:active, .vis .donate-now:focus, .landscape-teaser .donate-now:hover, .landscape-teaser .donate-now:active, 
-.landscape-teaser .donate-now:focus, .projects-page .donate-now:hover, .projects-page .donate-now:active, .projects-page .donate-now:focus {
-    color: #2d3e52;
+    color:#2d3e52;
     background-color: transparent;
 }
 
@@ -2011,16 +1989,16 @@ sup {
 .menu li {
     border-bottom: 1px solid #cacfd3;
     font-family: 'Open Sans', sans-serif;
-    line-height: 45px;
+    line-height: 150%;
     padding-bottom: 3px;
     padding-left: 20px;
     padding-top: 3px;
 }
 
 .menu a {
-    font-size: 15px;
+    font-size: 18px;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: none;
     display: block;
 }
 
