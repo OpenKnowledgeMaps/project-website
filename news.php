@@ -28,6 +28,39 @@
             <div class="newscollection">
 
                 <article class="newsitem">
+                    <a name="job-opportunity-frontend-dev" class="anchor"></a>
+
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-02-11">11 February 2020</time>
+
+                        <h3 class="newsitem-headline">Job opportunity: UX-minded frontend developer (f/x/m)</h3>
+
+                        <p class="newsitem-p">
+                           Open Knowledge Maps is currently looking for a UX-minded frontend developer. If you know your way around reactive JavaScript frameworks and are interested in a position where your work positively affects people all around the world, then this job might be for you! This is a fixed-term, entry-level position for 20 hours/week in the Open Knowledge Maps office in Vienna.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Open Knowledge Maps is a young and growing nonprofit organization in the field of scientific knowledge discovery. We are building a visual interface that dramatically increases the visibility of research findings for science and society alike.
+                        </p>
+
+                        <p class="newsitem-p">
+                            For more information, please see <a class="underline" href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">the full job ad</a>.
+                        </p>
+
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">
+                              Check out the full job ad
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+
+                <article class="newsitem">
                     <a name="welcome-new-supporting-members" class="anchor"></a>
 
                     <a href="http://openknowledgemaps.org/supporting-membership" target="_blank">
