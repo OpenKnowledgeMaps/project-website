@@ -1924,18 +1924,18 @@ input[type="radio"] {
     margin: 4px 0 0;
 }
 
-.popover {
+.search-box, .faq .popover {
     max-width:400px;
     width: 100%;
     font-size: 14px;
     font-family: inherit;
 }
 
-.popover-content {
+.search-box, .faq .popover-content {
     padding: 0px 20px 20px 20px;
 }
 
-.popover-title {
+.search-box, .faq .popover-title {
     padding: 10px 20px;
     background-color: white;
     color: #2d3e52;
