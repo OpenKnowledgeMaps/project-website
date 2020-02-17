@@ -2164,6 +2164,11 @@ time {
     margin-bottom: 30px;
 }
 
+.newsitem-blockquote-single {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 .blockquote-citation {
     display:block; 
     padding-top: 10px

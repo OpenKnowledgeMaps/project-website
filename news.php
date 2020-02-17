@@ -25,8 +25,47 @@
                 </div>
             </div>
             
-            <div class="newscollection">
+              <div class="newscollection">
+                
+                <article class="newsitem">
+                    <a name="membership-spotlight-unibe" class="anchor"></a>
+                    <a href="http://unibe.ch" target="_blank">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/unibe.png">
+                    </a> 
+   
+                    <div class="newsitem-text">
 
+                        <time datetime="2019-02-17">17 February 2020</time>
+
+                        <h3 class="newsitem-headline">Membership spotlight: University Library Bern</h3>
+
+                        <p class="newsitem-p">
+                           This is part one of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Today, it's University Library Bern:
+                        </p>
+                        
+                         
+                        
+                        <blockquote class="newsitem-blockquote"><em>"The University Library of Bern (UB Bern) supports research, teaching and education at the University of Bern. We guarantee the open and sustainable access to scholarly information. Open Knowledge Maps is a considerable reinforcement in the areas of open science and open access, which are central to our research services."</em>
+                        <span class="blockquote-citation">Dr. Andrea Hacker, Open Access and Bern Open Publishing (BOP), University Library Bern</span></blockquote>
+                        
+                        <p class="newsitem-p">
+                            For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
+                        </p>
+
+                        <a class="newsitem-button" href="https://unibe.ch" target="_blank">
+                              More about University Library Bern
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
                 <article class="newsitem">
                     <a name="job-opportunity-frontend-dev" class="anchor"></a>
 
