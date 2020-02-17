@@ -56,7 +56,7 @@
                             For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
                         </p>
 
-                        <a class="newsitem-button" href="https://unibe.ch" target="_blank">
+                        <a class="newsitem-button" href="https://www.unibe.ch" target="_blank">
                               More about University Library Bern
                         </a>
 
