@@ -24,6 +24,45 @@
                     </p>
                 </div>
             </div>
+            <div class="newscollection">
+                
+                <article class="newsitem">
+                    <a name="membership-spotlight-zbw" class="anchor"></a>
+                    <a href="http://zbw.eu" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/zbw.png">
+                    </a> 
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-02-18">18 February 2020</time>
+
+                        <h3 class="newsitem-headline">Membership spotlight:  ZBW – Leibniz Information Centre for Economics</h3>
+
+                        <p class="newsitem-p">
+                           This is part two of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Today, it's ZBW – Leibniz Information Centre for Economics:
+                        </p>
+                        
+                         
+                        
+                        <blockquote class="newsitem-blockquote"><em>"As one of the world's largest information infrastructures for scientific literature in economics, ZBW has a clear commitment to openness, e.g. to open access, open source, open/fair data. To promote the openness movement we also engage in relevant open science initiatives and help them to ensure their sustainability. Open Knowledge Maps is one of these initiatives we consider to be a visionary innovator in the field of discovery in open spaces. We are proud to be a member of this initiative and support it with our best efforts."</em>
+                        <span class="blockquote-citation">Prof. Dr. Klaus Tochtermann, Director, ZBW</span></blockquote>
+                        
+                        <p class="newsitem-p">
+                            For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
+                        </p>
+
+                        <a class="newsitem-button" href="https://www.zbw.eu" target="_blank">
+                            More about ZBW
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
             
               <div class="newscollection">
                 
