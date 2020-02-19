@@ -24,6 +24,45 @@
                     </p>
                 </div>
             </div>
+             <div class="newscollection">
+                
+                <article class="newsitem">
+                    <a name="membership-spotlight-akbild" class="anchor"></a>
+                    <a href="https://www.akbild.ac.at/" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/akbild.png">
+                    </a> 
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-02-19">19 February 2020</time>
+
+                        <h3 class="newsitem-headline">Membership spotlight:  Academy of Fine Arts Vienna</h3>
+
+                        <p class="newsitem-p">
+                           This is part three of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Today, it's Academy of Fine Arts Vienna:
+                        </p>
+                        
+                         
+                        
+                        <blockquote class="newsitem-blockquote"><em>"The Academy of Fine Arts Vienna was founded in 1692 by the court painter Peter Strudel as a private academy and is considered to be the oldest art school in Central Europe. Since 2015 the Academy has an explicit commitment to the promotion of Openness in the Arts & Sciences, whereas the main focus is on supporting community-led Open Science infrastructures and services (OSIS) and helping to create a truly open and inclusive Scholarly Communication ecosystem in the near future, and Open Knowledge Maps is one of these initiatives. On the one side the Open Science/Open Scholarship movement has increased the accessibility of academic knowledge, but on the other hand there is a discoverability crisis that in a lot of cases negatively affects Scholarly Communication. Open Knowledge Maps intends to close this gap and that's why it deserves to be supported with our best efforts."</em>
+                        <span class="blockquote-citation">Mag. MSc. Andreas Ferus, Interim Library Director, Academy of Fine Arts Vienna</span></blockquote>
+                        
+                        <p class="newsitem-p">
+                            For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
+                        </p>
+
+                        <a class="newsitem-button" href="https://www.akbild.ac.at/" target="_blank">
+                            More about AKBild
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
             <div class="newscollection">
                 
                 <article class="newsitem">
