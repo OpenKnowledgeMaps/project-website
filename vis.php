@@ -51,9 +51,13 @@
             , "title" => "Overview of research on $query - Open Knowledge Maps"
             , "app-name" => "Open Knowledge Maps"
             , "description" => "Get an overview of $query, find relevant papers, and identify important concepts."
-            , "twitter-type" => "summary_large_image"
-            , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
-            , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
+            // Hotfix until snapshot issue is fixed
+            //, "twitter-type" => "summary_large_image"
+            //, "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
+            //, "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
+            , "twitter-type" => "summary"
+            , "twitter-image" => "https://openknowledgemaps.org/img/card.png"
+            , "fb-image" => "https://openknowledgemaps.org/img/cardfb.png"
         );
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');
