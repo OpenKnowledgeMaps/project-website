@@ -27,6 +27,45 @@
              <div class="newscollection">
                 
                 <article class="newsitem">
+                    <a name="membership-spotlight-copernicus" class="anchor"></a>
+                    <a href="https://publications.copernicus.org/" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/copernicus.png">
+                    </a> 
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-02-20">20 February 2020</time>
+
+                        <h3 class="newsitem-headline">Membership spotlight: Copernicus Publications</h3>
+
+                        <p class="newsitem-p">
+                           This is part four of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Today, it's Copernicus Publications:
+                        </p>
+                        
+                         
+                        
+                        <blockquote class="newsitem-blockquote"><em>"Copernicus Publications has been publishing open-access journals since 2001. Among many others, one advantage of open access is increased the visibility and discoverability of the published works. As a truly open discovery tool, Open Knowledge Maps revolutionize the way scientific knowledge can be revealed. We are very happy to support this great endeavour."</em>
+                        <span class="blockquote-citation">Dr. Xenia van Edig, Senior Business Development, Copernicus Publications</span></blockquote>
+                        
+                        <p class="newsitem-p">
+                            For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
+                        </p>
+
+                        <a class="newsitem-button" href="https://publications.copernicus.org/" target="_blank">
+                            More about Copernicus Publications
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+             <div class="newscollection">
+                
+                <article class="newsitem">
                     <a name="membership-spotlight-akbild" class="anchor"></a>
                     <a href="https://www.akbild.ac.at/" target="_blank">
                         <img style="width:100%;" src="img/newsletter/akbild.png">
