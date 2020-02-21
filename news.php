@@ -24,6 +24,79 @@
                     </p>
                 </div>
             </div>
+            
+            <div class="newscollection">
+                <article class="newsitem">
+                    <a name="job-opportunity-frontend-dev" class="anchor"></a>
+
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-02-11">11 February 2020</time> - <span style="color:#e55137;">Pinned Post 📌</span>
+
+                        <h3 class="newsitem-headline">Job opportunity: UX-minded frontend developer (f/x/m)</h3>
+
+                        <p class="newsitem-p">
+                           Open Knowledge Maps is currently looking for a UX-minded frontend developer. If you know your way around reactive JavaScript frameworks and are interested in a position where your work positively affects people all around the world, then this job might be for you! This is a fixed-term, entry-level position for 20 hours/week in the Open Knowledge Maps office in Vienna.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Open Knowledge Maps is a young and growing nonprofit organization in the field of scientific knowledge discovery. We are building a visual interface that dramatically increases the visibility of research findings for science and society alike.
+                        </p>
+
+                        <p class="newsitem-p">
+                            For more information, please see <a class="underline" href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">the full job ad</a>.
+                        </p>
+
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">
+                              Check out the full job ad
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
+             <div class="newscollection">
+                
+                <article class="newsitem">
+                    <a name="membership-spotlight-lbg" class="anchor"></a>
+                    <a href="https://www.lbg.ac.at/" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/lbg.png">
+                    </a> 
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-02-21">21 February 2020</time>
+
+                        <h3 class="newsitem-headline">Membership spotlight: Ludwig Boltzmann Gesellschaft</h3>
+
+                        <p class="newsitem-p">
+                           This is the final part of our five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Today, it's Ludwig Boltzmann Gesellschaft:
+                        </p>
+                        
+                         
+                        
+                        <blockquote class="newsitem-blockquote"><em>"The LBG OIS Center is an international hub for investigating and experimenting with open research practices. The LBG OIS Center generates and disseminates insights into the use of Open Innovation principles and methods in science, along the entire process to originate new scientific research. As a visual interface to the world's scientific knowledge, Open Knowledge Maps opens up science in a unique way to researchers as well as to practitioners and the public. We are proud to be a supporting member of Open Knowledge Maps."</em>
+                        <span class="blockquote-citation">Mag. Patrick Lehner, Director OIS Center, Ludwig Boltzmann Gesellschaft</span></blockquote>
+                        
+                        <p class="newsitem-p">
+                            For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
+                        </p>
+
+                        <a class="newsitem-button" href="https://www.lbg.ac.at/" target="_blank">
+                            More about LBG
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
              <div class="newscollection">
                 
                 <article class="newsitem">
@@ -182,37 +255,6 @@
                 </article>
             </div>
             
-            <div class="newscollection">
-                <article class="newsitem">
-                    <a name="job-opportunity-frontend-dev" class="anchor"></a>
-
-   
-                    <div class="newsitem-text">
-
-                        <time datetime="2019-02-11">11 February 2020</time>
-
-                        <h3 class="newsitem-headline">Job opportunity: UX-minded frontend developer (f/x/m)</h3>
-
-                        <p class="newsitem-p">
-                           Open Knowledge Maps is currently looking for a UX-minded frontend developer. If you know your way around reactive JavaScript frameworks and are interested in a position where your work positively affects people all around the world, then this job might be for you! This is a fixed-term, entry-level position for 20 hours/week in the Open Knowledge Maps office in Vienna.
-                        </p>
-
-                        <p class="newsitem-p">
-                            Open Knowledge Maps is a young and growing nonprofit organization in the field of scientific knowledge discovery. We are building a visual interface that dramatically increases the visibility of research findings for science and society alike.
-                        </p>
-
-                        <p class="newsitem-p">
-                            For more information, please see <a class="underline" href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">the full job ad</a>.
-                        </p>
-
-                        <a class="newsitem-button" href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">
-                              Check out the full job ad
-                        </a>
-
-                        
-                    </div>
-                </article>
-            </div>
             
             <div class="newscollection">
 
