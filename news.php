@@ -57,6 +57,49 @@
                 </article>
             </div>
             
+            <div class="newscollection">
+                
+                <article class="newsitem">
+                    <a name="elife-partnership-announcement" class="anchor"></a>
+                    <a href="" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/refactoring.png">
+                    </a> 
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-02-26">26 February 2020</time>
+
+                        <h3 class="newsitem-headline">Announcing a new partnership with eLife</h3>
+
+                        <p class="newsitem-p">
+                           We are excited to announce a new partnership with <a href="https://elifesciences.org/" target="_blank" class="underline">eLife</a> to improve our technology platform.  With eLife's backing, we will perform a necessary refactoring of the Open Knowledge Maps frontend.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                          The refactoring will improve the serviceability, reusability and structure of our frontend. The aim is to make it easier to introduce new functionality crucial to fulfilling important use cases, such as integrating Open Knowledge Maps into user workflows, enabling future integrations (e.g. of dataset indices), and reaching our goal of a <a href="https://openknowledgemaps.org/about#our-vision" target="_blank" class="underline">collaborative discovery environment</a>.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                          This is the latest collaboration under eLife's <a href="https://elifesciences.org/about/innovation" target="_blank" class="underline">Innovation Initiative</a>, aimed at supporting open-source projects in the research discovery and communication space.
+              eLife and Open Knowledge Maps have come together through a common commitment to speed up research dissemination and curation.
+                        </p>
+                        
+                        <blockquote class="newsitem-blockquote"><em>"We are proud to be able to endorse an organisation whose ethos encompasses our core values of openness, collaboration and reuse,"</em> says Emmy Tsang, eLife Innovation Community Manager. <em>"We understand the importance of open-source project maintenance, as well as the lack of funding and support in this area, and are excited to contribute to the continuity of this innovative initiative. It will be great to work with the Open Knowledge Maps team and exchange ideas on the use of machine-learning and web technologies to drive forward research discovery, sharing and consumption."</em></blockquote>
+                        <blockquote class="newsitem-blockquote"><em>"We're very excited to have eLife’s support for this project,"</em> adds Peter Kraker, Founder and Chairman of Open Knowledge Maps. <em>"This work is crucial for implementing new features, which is in turn important for the success of our supporting membership program. eLife’s backing gives us a unique opportunity to improve our growth and sustainability that might have been difficult to come by elsewhere."</em></blockquote>
+                        
+                        <p class="newsitem-p">
+                            More insight into the refactoring project can be found in the accompanying <a href="" target="_blank" class="underline">blog post</a> on eLife Labs. As part of this project, we are currently looking for a <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank" class="underline">UX-minded frontend developer (f/x/m)</a> to join our team in Vienna. For more information, please see <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank" class="underline">our job advert</a>.
+                        </p>
+
+                        <a class="newsitem-button" href="" target="_blank">
+                            Read the press release
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
              <div class="newscollection">
                 
                 <article class="newsitem">
