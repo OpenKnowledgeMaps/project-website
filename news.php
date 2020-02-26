@@ -61,7 +61,7 @@
                 
                 <article class="newsitem">
                     <a name="elife-partnership-announcement" class="anchor"></a>
-                    <a href="" target="_blank">
+                    <a href="https://elifesciences.org/for-the-press/ddc42473/elife-and-open-knowledge-maps-partner-to-upgrade-visual-research-discovery-platform" target="_blank">
                         <img style="width:100%;" src="img/newsletter/refactoring.png">
                     </a> 
    
@@ -91,7 +91,7 @@
                             More insight into the refactoring project can be found in the accompanying <a href="https://elifesciences.org/labs/ef274c83/open-knowledge-maps-a-visual-interface-to-the-world-s-scientific-knowledge" target="_blank" class="underline">blog post</a> on eLife Labs. As part of this project, we are currently looking for a <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank" class="underline">UX-minded frontend developer (f/x/m)</a> to join our team in Vienna. For more information, please see <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank" class="underline">our job advert</a>.
                         </p>
 
-                        <a class="newsitem-button" href="" target="_blank">
+                        <a class="newsitem-button" href="https://elifesciences.org/for-the-press/ddc42473/elife-and-open-knowledge-maps-partner-to-upgrade-visual-research-discovery-platform" target="_blank">
                             Read the press release
                         </a>
 
