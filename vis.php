@@ -4,7 +4,7 @@
     <head>
         <base href="<?php echo $SITE_URL ?>">
         <?php
-        $id = (isset($_GET['id'])) ? ($_GET['id']) : ("zika");
+        $id = (isset($_GET['id']) && $_GET['id'] !== "") ? ($_GET['id']) : ("zika");
 
         $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
         
