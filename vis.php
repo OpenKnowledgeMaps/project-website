@@ -13,14 +13,14 @@
         $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
         $context = json_decode($context_json);
 
-        $query = ($context->query == null) ? ("zika") : ($context->query);
+        $query = (isset($context) && $context->query !== null) ? ($context->query) : ("zika");
         $query = preg_replace("/\\\\\"/", "&quot;", $query);
 
         $credit = "";
 
         $service_name = "";
 
-        $service = (substr($context->service, 0, 4) == "PLOS") ? ("plos") : ($context->service);
+        $service = (isset($context) && substr($context->service, 0, 4) !== "PLOS") ? ($context->service) : ("plos");
 
         if ($service == "plos") {
             $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
