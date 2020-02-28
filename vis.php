@@ -54,9 +54,6 @@
             , "twitter-type" => "summary_large_image"
             , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
             , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
-            , "twitter-type" => "summary"
-            , "twitter-image" => "https://openknowledgemaps.org/img/card.png"
-            , "fb-image" => "https://openknowledgemaps.org/img/cardfb.png"
         );
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');
