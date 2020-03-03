@@ -33,7 +33,7 @@
                 </h3>
                 <p>Open Knowledge Maps - Verein zur Förderung
                     der Sichtbarkeit wissenschaftlichen Wissens<br>
-                    1030 Wien, Keilgasse 11/20 Austria<br>
+                    Gumpendorfer Straße 16/1/8, 1060 Vienna, Austria<br>
                     Registration number (ZVR):
                     859648888<br>
                     Email:
