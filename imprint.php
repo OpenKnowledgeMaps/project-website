@@ -41,7 +41,7 @@
                 <p>info@openknowledgemaps.org</p>
 
                 <h3>Adresse</h3>
-                <p>Keilgasse 11/20, AT-1030 Wien</p>
+                <p>Gumpendorfer Straße 16/1/8, AT-1060 Wien</p>
 
                 <h3>Land</h3>
                 <p>Österreich</p>
@@ -111,7 +111,7 @@
                 <p>info@openknowledgemaps.org</p>
 
                 <h3>Address</h3>
-                <p>Keilgasse 11/20, AT-1030 Vienna</p>
+                <p>Gumpendorfer Straße 16/1/8, AT-1060 Vienna</p>
 
                 <h3>Country</h3>
                 <p>Austria</p>
