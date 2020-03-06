@@ -16,7 +16,7 @@
             <div class="background2 bg2">
                 <div class="team">
                     <h2 style="color: #2d3e52;">Our Team</h2>
-                    <p>We are a charitable non-profit organization run by a dedicated core team.</p>
+                    <p>We are a charitable non-profit organization run by a dedicated core team in Vienna with contributions from volunteers around the world.</p>
                 </div>
             </div>
 
@@ -29,6 +29,7 @@
                         <ul>
                             <li class="name">Peter Kraker</li>
                             <li class="job-title">Founder & Chairman</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -41,7 +42,8 @@
                         <img src="./img/team/maxi.png" alt="Maxi Schramm">
                         <ul>
                             <li class="name">Maxi Schramm</li>
-                            <li class="job-title">UX Designer & Treasurer</li>
+                            <li class="job-title">UX/UI Designer & Treasurer</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -54,6 +56,7 @@
                         <ul>
                             <li class="name">Christopher Kittel</li>
                             <li class="job-title">Data Scientist & Secretary</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna</li>
                         </ul>
 
                         <ul class="contact-member">
@@ -62,18 +65,6 @@
                         </ul>
                     </div>
 
-                    <div class="member">
-                        <img src="./img/team/asura.png" alt="Asura">
-                        <ul>
-                            <li class="name">Asura Enkhbayar</li>
-                            <li class="job-title">Frontend Developer</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:asura@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="https://twitter.com/asuraenkhbayar"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
 
                     <div class="member">
                         <img src="./img/team/scott.png" alt="Scott Chamberlain">
@@ -85,32 +76,6 @@
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:scott@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="http://ropensci.org"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="member">
-                        <img src="./img/team/rainer.png" alt="Rainer">
-                        <ul>
-                            <li class="name">Rainer Bachleitner</li>
-                            <li class="job-title">Frontend Developer</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:rbachleitner@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="https://twitter.com/rabachleitner"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="member">
-                        <img src="./img/team/fabian.png" alt="Fabian">
-                        <ul>
-                            <li class="name">Fabian Kraut</li>
-                            <li class="job-title">Marketing</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" class="contact-icon" target="_blank" href="mailto:fkraut@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" class="contact-icon" target="_blank" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 
@@ -128,19 +93,6 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/bjorn.png" alt="Bjorn">
-                        <ul>
-                            <li class="name">Björn Brembs</li>
-                            <li class="job-title">Requirements & Evaluation</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:brembs@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="http://brembs.net"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="member">
                         <img src="./img/team/thomas.png" alt="Thomas">
                         <ul>
                             <li class="name">Thomas Arrow</li>
@@ -152,7 +104,7 @@
                             <li><a class="contact-icon" target="_blank" href="https://github.com/tarrow/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="member">
                         <img src="./img/team/michela.png" alt="Michela">
                         <ul>
@@ -163,6 +115,19 @@
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:mvignoli@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://twitter.com/iea_ioi"><i class="fa fa-link" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+
+                    <div class="member">
+                        <img src="./img/team/bjorn.png" alt="Bjorn">
+                        <ul>
+                            <li class="name">Björn Brembs</li>
+                            <li class="job-title">Resident User</li>
+                        </ul>
+
+                        <ul class="contact-member">
+                            <li><a class="contact-icon" target="_blank" href="mailto:brembs@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                            <li><a class="contact-icon" target="_blank" href="http://brembs.net"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 
@@ -180,12 +145,14 @@
 
                     <!-- list of former contributors -->
                     <div class="alumni" style=""><h3>Special thanks to former contributers:</h3>
+                        <a target="_blank" class="underline" href="https://twitter.com/asuraenkhbayar">Asura Enkhbayar</a>,
+                        <a target="_blank" class="underline" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9">Fabian Kraut</a>,
+                        <a target="_blank" class="underline" href="https://twitter.com/rabachleitner">Rainer Bachleitner</a>,
                         <a target="_blank" class="underline" href="https://github.com/jaels">Yael Stein</a>,
                         <a target="_blank" class="underline" href="http://www.michaelskaug.com/">Mike Skaug</a>, 
                         <a target="_blank" class="underline" href="http://nthmost.com/">Naomi Most</a>, 
                         <a target="_blank" class="underline" href="http://www.madgik.di.uoa.gr/content/omiros">Omiros Metaxas</a>
                     </div>
-
                 </div> 
             </div>
 
@@ -210,7 +177,7 @@
                     </div>
                 </div>
             </div>     
-            
+
             <div class="background2 bg1">
                 <div class="team" id="advisory-board">
                     <h2 style="color: #2d3e52;">Our Advisors</h2>
@@ -221,7 +188,7 @@
                     <div id="advisors">
 
                         <div class="advisor">
-                            <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/advisors/pmr.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://contentmine.org"><img class="hoverlink" src="./img/advisors/pmr.jpg" alt="Open Knowledge Maps Advisor Peter Murray-Rust"></a>
                             <h3>Peter Murray-Rust</h3> 
                             <ul class="advisor-desc"><a target="_blank" href="http://contentmine.org">
                                     <li>Founder</li> 
@@ -230,13 +197,13 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://know-center.at"><img class="hoverlink" src="./img/advisors/stefanie.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://know-center.at"><img class="hoverlink" src="./img/advisors/stefanie.jpg" alt="Open Knowledge Maps Advisor Stefanie Lindstaedt"></a>
                             <h3>Stefanie Lindstaedt</h3>
                             <p class="advisor-desc">CEO <br>Know-Center</p>
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.madgik.di.uoa.gr/content/natalia"><img class="hoverlink" src="./img/advisors/natalia.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://www.madgik.di.uoa.gr/content/natalia"><img class="hoverlink" src="./img/advisors/natalia.jpg" alt="Open Knowledge Maps Advisor Natalia Manola"></a>
                             <h3>Natalia Manola</h3>
                             <ul class="advisor-desc">
                                 <li>Project Director</li>
@@ -245,7 +212,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.zbw.eu/"><img class="hoverlink" src="./img/advisors/klaus.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://www.zbw.eu/"><img class="hoverlink" src="./img/advisors/klaus.jpg" alt="Open Knowledge Maps Advisor Klaus Tochtermann"></a>
                             <h3>Klaus Tochtermann</h3>
                             <ul class="advisor-desc">
                                 <li>Director</li>
@@ -254,7 +221,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://findresearcher.sdu.dk/portal/da/person/bfd"><img class="hoverlink" src="./img/advisors/bertil.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://findresearcher.sdu.dk/portal/da/person/bfd"><img class="hoverlink" src="./img/advisors/bertil.jpg" alt="Open Knowledge Maps Advisor Bertil F. Dorch"></a>
                             <h3>Bertil F. Dorch</h3>
                             <ul class="advisor-desc">
                                 <li>Director</li>
@@ -263,7 +230,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://homepage.univie.ac.at/katja.mayer/"><img class="hoverlink" src="./img/advisors/katja.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://homepage.univie.ac.at/katja.mayer/"><img class="hoverlink" src="./img/advisors/katja.jpg" alt="Open Knowledge Maps Advisor Katja Mayer"></a>
                             <h3>Katja Mayer</h3>
                             <ul class="advisor-desc">
                                 <li>Researcher and Lecturer</li>
@@ -272,7 +239,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://oana.at"><img class="hoverlink" src="./img/advisors/falk.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://oana.at"><img class="hoverlink" src="./img/advisors/falk.jpg" alt="Open Knowledge Maps Advisor Falk Reckling"></a>
                             <h3>Falk Reckling</h3>
                             <ul class="advisor-desc">
                                 <li>Head of Strategy</li>
@@ -281,7 +248,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.wikimedia.at/"><img class="hoverlink" src="./img/advisors/claudia.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://www.wikimedia.at/"><img class="hoverlink" src="./img/advisors/claudia.jpg" alt="Open Knowledge Maps Advisor Claudia Gar&aacute;d"></a>
                             <h3>Claudia Gar&aacute;d</h3>
                             <ul class="advisor-desc">
                                 <li>Executive Director</li>
@@ -290,7 +257,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/birgit-schmidt/"><img class="hoverlink" src="./img/advisors/birgit.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://www.sub.uni-goettingen.de/en/contact/staff-a-z/staff-details/person/birgit-schmidt/"><img class="hoverlink" src="./img/advisors/birgit.jpg" alt="Open Knowledge Maps Advisor Birgit Schmidt"></a>
                             <h3>Birgit Schmidt</h3>
                             <ul class="advisor-desc">
                                 <li>Scientific Manager/Project Coordinator</li>
@@ -299,7 +266,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.oa.unito.it/"><img class="hoverlink" src="./img/advisors/elena.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://www.oa.unito.it/"><img class="hoverlink" src="./img/advisors/elena.jpg" alt="Open Knowledge Maps Advisor Elena Giglia"></a>
                             <h3>Elena Giglia</h3>
                             <ul class="advisor-desc">
                                 <li>Head of Open Access Office</li>
@@ -308,7 +275,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Open Knowledge Maps Advisor Daniel Mietchen"></a>
                             <h3>Daniel Mietchen</h3>
                             <ul class="advisor-desc">
                                 <li>Senior Researcher</li>
@@ -317,7 +284,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Open Knowledge Maps Advisor Michael E. Karpeles"></a>
                             <h3>Michael E. Karpeles</h3>
                             <ul class="advisor-desc">
                                 <li>Citizen of the world</li>
@@ -326,7 +293,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Open Knowledge Maps Advisor Elisabeth Lex"></a>
                             <h3>Elisabeth Lex</h3>
                             <ul class="advisor-desc">
                                 <li>Assistant Professor</li>
@@ -335,7 +302,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://isabella-peters.de/"><img class="hoverlink" src="./img/advisors/isabella.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://isabella-peters.de/"><img class="hoverlink" src="./img/advisors/isabella.jpg" alt="Open Knowledge Maps Advisor Isabella Peters"></a>
                             <h3>Isabella Peters</h3>
                             <ul class="advisor-desc">
                                 <li>Professor of Web Science</li>
@@ -344,7 +311,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://aldirdiri.strikingly.com/"><img class="hoverlink" src="./img/advisors/osman.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://aldirdiri.strikingly.com/"><img class="hoverlink" src="./img/advisors/osman.jpg" alt="Open Knowledge Maps Advisor Osman Aldirdiri"></a>
                             <h3>Osman Aldirdiri</h3>
                             <ul class="advisor-desc">
                                 <li>Executive Committee Member</li>
@@ -353,7 +320,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/Lambo"><img class="hoverlink" src="./img/advisors/lambert.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://twitter.com/Lambo"><img class="hoverlink" src="./img/advisors/lambert.jpg" alt="Open Knowledge Maps Advisor Lambert Heller"></a>
                             <h3>Lambert Heller</h3>
                             <ul class="advisor-desc">
                                 <li>Librarian</li>
@@ -362,7 +329,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://tonyr-h.github.io/"><img class="hoverlink" src="./img/advisors/tony.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://tonyr-h.github.io/"><img class="hoverlink" src="./img/advisors/tony.jpg" alt="Open Knowledge Maps Advisor Tony Ross-Hellauer"></a>
                             <h3>Tony Ross-Hellauer</h3>
                             <ul class="advisor-desc">
                                 <li>Senior Researcher</li>
@@ -371,13 +338,22 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://twitter.com/asuraenkhbayar"><img class="hoverlink" src="./img/advisors/asura.jpg" alt="Open Knowledge Maps Advisor Asura Enkhbayar"></a>
+                            <h3>Asura Enkhbayar</h3>
+                            <ul class="advisor-desc">
+                                <li>PhD student</li>
+                                <li>Simon Fraser University</li>
+                            </ul>
+                        </div>
+
+                        <div class="advisor">
+                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Open Knowledge Maps Advisor Christian Schlögl"></a>
                             <h3>Christian Schlögl</h3>
                             <p class="advisor-desc">Associate Professor<br>University of Graz</p>
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.stefankasberger.at/"><img class="hoverlink" src="./img/advisors/stefan.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://www.stefankasberger.at/"><img class="hoverlink" src="./img/advisors/stefan.jpg" alt="Open Knowledge Maps Advisor Stefan Kasberger"></a>
                             <h3>Stefan Kasberger</h3>
                             <ul class="advisor-desc">
                                 <li>Board Member</li>
@@ -386,7 +362,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://stefaniehaustein.com/"><img class="hoverlink" src="./img/advisors/stefanieh.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="http://stefaniehaustein.com/"><img class="hoverlink" src="./img/advisors/stefanieh.jpg" alt="Open Knowledge Maps Advisor Stefanie Haustein"></a>
                             <h3>Stefanie Haustein</h3>
                             <ul class="advisor-desc">
                                 <li>Assistant professor</li>
@@ -395,7 +371,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Open Knowledge Maps Advisor Andreas Ferus"></a>
                             <h3>Andreas Ferus</h3>
                             <ul class="advisor-desc">
                                 <li>Dept. Director</li>
@@ -404,7 +380,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/christinezhang"><img class="hoverlink" src="./img/advisors/christine.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://twitter.com/christinezhang"><img class="hoverlink" src="./img/advisors/christine.jpg" alt="Open Knowledge Maps Advisor Christine Zhang"></a>
                             <h3>Christine Zhang</h3>
                             <ul class="advisor-desc">
                                 <li>OpenNews Fellow</li>
@@ -413,7 +389,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/sdennerlein"><img class="hoverlink" src="./img/advisors/sebastian.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://twitter.com/sdennerlein"><img class="hoverlink" src="./img/advisors/sebastian.jpg" alt="Open Knowledge Maps Advisor Sebastian Dennerlein"></a>
                             <h3>Sebastian Dennerlein</h3>
                             <ul class="advisor-desc">
                                 <li>PhD Student</li>
@@ -422,7 +398,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/antica.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://nioo.knaw.nl/en/employees/antica-culina"><img class="hoverlink" src="./img/advisors/antica.jpg" alt="Open Knowledge Maps Advisor Antica Culina"></a>
                             <h3>Antica Culina</h3>
                             <ul class="advisor-desc">
                                 <li>Postdoc</li>
@@ -431,7 +407,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Open Knowledge Maps Advisor Robert Gutounig"></a>
                             <h3>Robert Gutounig</h3>
                             <ul class="advisor-desc">
                                 <li>Head of Degree Programme "Content Strategy"</li>
@@ -440,7 +416,7 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://online.boku.ac.at/BOKUonline/visitenkarte.show_vcard?pPersonenId=51947CF9F7441FEF&pPersonenGruppe=3"><img class="hoverlink" src="./img/advisors/daniel.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href="https://online.boku.ac.at/BOKUonline/visitenkarte.show_vcard?pPersonenId=51947CF9F7441FEF&pPersonenGruppe=3"><img class="hoverlink" src="./img/advisors/daniel.jpg" alt="Open Knowledge Maps Advisor Daniel Dörler"></a>
                             <h3>Daniel Dörler</h3>
                             <ul class="advisor-desc">
                                 <li>PhD Student</li>
@@ -449,7 +425,7 @@
                         </div> 
 
                         <div class="advisor">
-                            <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Advisor OKMaps"></a>
+                            <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Open Knowledge Maps Advisor Christian Kaier"></a>
                             <h3>Christian Kaier</h3>
                             <ul class="advisor-desc">
                                 <li>Open Access Office</li>
@@ -461,7 +437,7 @@
                 </div>
             </div>
         </div>
-        
+
         <?php include($COMPONENTS_PATH . 'partners.php'); ?>
         <?php include($COMPONENTS_PATH . 'networks.php'); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

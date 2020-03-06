@@ -1996,7 +1996,7 @@ sup {
 }
 
 .menu a {
-    font-size: 18px;
+    font-size: 16px;
     text-decoration: none;
     text-transform: none;
     display: block;
@@ -2448,10 +2448,6 @@ time {
         font-size: 16px;
     }
 
-    .newsitem-p, .newsitem-button, blockquote, .become-enthusiast {
-        font-size: 14px;
-    }
-
     .imglogo {
         margin-top: 0px;
     }
@@ -2552,7 +2548,7 @@ time {
     .searchheader .imglogo, .imglogo, .searchheader .description li:last-child, .description li:last-child {
         display: none;
     }
-    
+
     .description {
         display: inline-block;
         margin-top: 0px;
@@ -2597,7 +2593,7 @@ time {
 }
 
 @media screen and (max-width: 960px) {
-    
+
     .getintouch {  
         text-align: left;
     }
@@ -2622,9 +2618,9 @@ time {
     .vision p {
         font-size: 14px;
     }
-
-    .newsitem-p, .newsitem-button, .abstract, blockquote, .become-enthusiast {
-        font-size: 12px;
+    
+    .newsitem-p, .newsitem-button, blockquote, .become-enthusiast, .newsitem-blockquote, .newsitem-blockquote-single, .abstract {
+        font-size: 14px;
     }
 
     html {
@@ -3178,7 +3174,7 @@ time {
     .partners img {
         height:30px;
     }
-    
+
     .partners img.member-logo-large {
         height:60px;
     }
@@ -3442,4 +3438,5 @@ time {
     .mittig2 {
         padding: 10px 20px;
     }
+
 }
