@@ -4,7 +4,7 @@
 
         <a href="./about"><div class="vision">
                 <p>
-                    <img class="okm-icon" src="./img/icons/visual-interface.png">
+                    <img class="okm-icon" src="./img/icons/visual-interface.png" alt=''>
                 </p>
                 <h2>Revolutionizing discovery</h2>
                 <p>Open Knowledge Maps is the world's largest visual search engine for scientific knowledge. We dramatically increase the visibility of research findings for science and society alike.
@@ -16,7 +16,7 @@
 
         <a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md " target="_blank"><div class="vision">
                 <p>
-                    <img class="okm-icon" src="./img/icons/discovery.png">
+                    <img class="okm-icon" src="./img/icons/discovery.png" alt=''>
                 </p>
                 <h2>Open and nonprofit</h2>
                 <p>We are a charitable non-profit organization based on the principles of open science. Our aim is to create an inclusive, sustainable and equitable infrastructure that can be used by anyone.
@@ -26,7 +26,7 @@
             </div>
         </a>
 
-        <a href="supporting-membership"><div class="vision">
+        <a href="supporting-membership"><div class="vision" alt=''>
                 <p>
                     <img class="okm-icon" src="./img/icons/openscience.png">
                 </p>

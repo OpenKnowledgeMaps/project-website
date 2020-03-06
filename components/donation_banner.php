@@ -17,7 +17,7 @@ require_once 'head_detect_country.php';
         
         <div class="donation-image">
             <a  target="_blank" href="<?php echo $PAYPAL_URL; ?>">
-                <img src="./img/donation-banner.png"></a>
+                <img src="./img/donation-banner.png" alt='Donate to Open Knowledge Maps via Paypal'></a>
         </div>
 
         <div class="donation-text">

@@ -25,7 +25,7 @@
 </div>
 
 <div class="imglogo">
-    <a href="index"><img src="./img/logo-okmaps.png"></a>
+    <a href="index"><img src="./img/logo-okmaps.png" al='Open Knowledge Maps Logo'></a>
 </div>
 
 <ul class="description">

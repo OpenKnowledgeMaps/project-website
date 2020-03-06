@@ -10,5 +10,5 @@
             <a class="create-map" style="font-size:14px;" href="index">Try out VIPER</a>
         </p>
     </div>
-    <p class="viperfunding">Viper was funded by:<img src="./img/openaire-logo.png" alt="Open Aire"></p>
+    <p class="viperfunding">Viper was funded by:<img src="./img/openaire-logo.png" alt="Open Aire Logo"></p>
 </div>       

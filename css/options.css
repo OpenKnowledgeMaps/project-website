@@ -257,6 +257,8 @@ button {
 
     .submit-btn {
         font-size: 14px;
+        display: block;
+        width: 100%;
     }
 
     #filter-container {
@@ -265,5 +267,12 @@ button {
 
     input {
         font-size: 12px;
+    }
+    
+    .mittig2 .text-field {
+        margin-left: -5px;
+        width: 99%;
+        display:block;
+        margin-bottom: 10px;
     }
 }

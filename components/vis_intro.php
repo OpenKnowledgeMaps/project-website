@@ -14,8 +14,8 @@
             <p class="wtp">This map was created by <strong><a href="https://openknowledgemaps.org" target="_blank" class="underline">Open Knowledge Maps</a></strong>. It presents you with a topical overview of research on                <strong><?php echo $query; ?></strong>. The map is based on 100 papers on the topic retrieved from <?php echo $service_name ?>. <?php echo $description; ?></p>\n\
 <p class="intro_underline">This map was created on <?php echo (new DateTime($context->timestamp))->format("j M Y \a\t H:i") ?> with <a href="http://github.com/pkraker/Headstart" target="_blank">Headstart</a> and <?php echo $credit ?></p>      <h3>Cite this map</h3><p>Please cite this map as follows: <?php echo "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth($query, 0, 100, "[..]") .". " . "Retrieved from " . '<a class="underline" target="_blank" href="' . $canonical_url . '">' . $canonical_url . '</a>'.  "/ [" . date ("d M Y") . "]."; ?>     \n\
 <h3>Get in touch</h3><p>For more information and to view this map on Open Knowledge Maps, please <strong><a href="<?php echo $canonical_url; ?>" target="_blank" class="underline">click here</a></strong>. If you have questions or feedback, please send an e-mail to <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.</p> \n\
-<a href="<?php echo $canonical_url; ?>" target="_blank"><img style="border: 2px solid #f6f6f6;" src="./img/benefits-OKM/benefits-all3.png"></img>\n\
-            <div style="text-align: center; margin: 0px 0px !important; background-color: #f6f6f6;"><img src="./img/okmaps-logo-round.png" style="height:30px; padding:0px;"></div></a></div></div>'
+<a href="<?php echo $canonical_url; ?>" target="_blank"><img style="border: 2px solid #f6f6f6;" src="./img/benefits-OKM/benefits-all3.png" alt=""></img>\n\
+            <div style="text-align: center; margin: 0px 0px !important; background-color: #f6f6f6;"><img src="./img/okmaps-logo-round.png" style="height:30px; padding:0px;" alt="Open Knowledge Maps Logo"></div></a></div></div>'
                 }
 </script>
 
