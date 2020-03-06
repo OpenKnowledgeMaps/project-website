@@ -32,7 +32,7 @@
             <div id="divhow" style="text-align:center;">
                 <h2 class="h2reverse">What is Open Knowledge Maps?</h2>
                 <a href="https://openknowledgemaps.org/map/f1d8f46827575c5da9f2e42159e23671" target="_blank">
-                    <img class="membership-img" src="./img/supporting-members/knowledgemaps-community-owned2.png">
+                    <img class="membership-img" src="./img/supporting-members/knowledgemaps-community-owned2.png" alt='Open Knowledge Maps is community owned'>
                 </a>
 
                 <div class="member-text">
@@ -64,7 +64,7 @@
             <div id="divhow" style="text-align:center; background-color: #eff3f4;">
                 <h2 class="h2reverse">What does a membership support?</h2>
 
-                <img class="membership-img" src="./img/supporting-members/offering.png">
+                <img class="membership-img" src="./img/supporting-members/offering.png" alt='Open Knowledge Maps offer openly licensed services, content, data, and software'>
 
                 <div class="member-text">
                     <p class="project-facts" style="">
@@ -183,7 +183,7 @@
             </div>
 
             <div class="member">
-                <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker"></a>
+                <a href="mailto:pkraker@openknowledgemaps.org"><img src="./img/team/peter.png" alt="Peter Kraker Founder of Open Knowledge Maps"></a>
                 <ul>
                     <li class="name">Peter Kraker</li>
                     <li class="job-title">Founder & Chairman</li>
