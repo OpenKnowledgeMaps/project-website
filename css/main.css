@@ -236,6 +236,9 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-color: #eff3f4;
     background-repeat: no-repeat;
     background-position: 50%;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: 100%;
 }
 
 .landscape-teaser-text {
@@ -2618,7 +2621,7 @@ time {
     .vision p {
         font-size: 14px;
     }
-    
+
     .newsitem-p, .newsitem-button, blockquote, .become-enthusiast, .newsitem-blockquote, .newsitem-blockquote-single, .abstract {
         font-size: 14px;
     }
