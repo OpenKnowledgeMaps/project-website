@@ -80,7 +80,7 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/najmeh.png" alt="Najmeh">
+                        <img src="./img/team/najmeh.png" alt="Najmeh Shaghaei">
                         <ul>
                             <li class="name">Najmeh Shaghaei</li>
                             <li class="job-title">Library Liaison</li>
@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/thomas.png" alt="Thomas">
+                        <img src="./img/team/thomas.png" alt="Thomas Arrow">
                         <ul>
                             <li class="name">Thomas Arrow</li>
                             <li class="job-title">Frontend Developer</li>
@@ -106,7 +106,7 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/michela.png" alt="Michela">
+                        <img src="./img/team/michela.png" alt="Michela Vignoli">
                         <ul>
                             <li class="name">Michela Vignoli</li>
                             <li class="job-title">Community Coordinator</li>
@@ -119,7 +119,7 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/bjorn.png" alt="Bjorn">
+                        <img src="./img/team/bjorn.png" alt="Bjorn Brembs">
                         <ul>
                             <li class="name">Björn Brembs</li>
                             <li class="job-title">Resident User</li>
@@ -132,7 +132,7 @@
                     </div>
 
                     <div class="organizational-member">
-                        <img src="./img/team/knowcenter.png" alt="Know Center">
+                        <img src="./img/team/knowcenter.png" alt="Organizational member Know Center">
                         <ul>
                             <li class="name">Know Center</li>
                             <li class="job-title">Organizational member</li>
