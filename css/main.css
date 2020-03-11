@@ -764,11 +764,13 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .search-box {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
-        url(../img/neuercomputer-nov2018-2.png);
+        url(../img/startseite-desktop.png);
     background-color: #51c9ae;
     background-repeat: no-repeat; 
-    background-position: 100% 100%;
+    background-position: 100% 0%;
     background-size: 100%;
+    /*background-attachment: fixed;*/
+    padding: 110px 0px 100px;
 }
 
 .enthusiast-bg {
@@ -843,10 +845,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 
 #newsletterdiv #mc_embed_signup_scroll .asterisk {
     color: #e55137 !important;
-}
-
-.search-box {
-    padding: 110px 0px 100px;
 }
 
 .search-box .background2 .team p {
@@ -2445,6 +2443,7 @@ time {
 /*MEDIA BREAK POINTS*/
 
 /*quick fix for search header bug*/
+
 @media screen and (max-width: 1340px) {
 
     .newsitem-headline {
@@ -2481,7 +2480,17 @@ time {
 
 }
 
+@media screen and (max-width: 1150px) {
+
+    .search-box {
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
+            url(../img/startseite-desktop-1150px.png);
+    }
+}
+
 @media screen and (max-width: 1120px) {
+
     .nav_top li {
         margin-right: 10px;
     }
@@ -2742,6 +2751,7 @@ time {
         display: block;
         width: 100%;
     }
+
 }
 
 @media screen and (max-width: 865px) {
@@ -2749,6 +2759,12 @@ time {
     .howimg {
         width: auto;
         max-height: 40px; 
+    }
+
+    .search-box {
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
+            url(../img/startseite-desktop-800px.png);
     }
 
     .nav_top {
@@ -2793,6 +2809,7 @@ time {
     .okm-ngo {
         max-width: 100%;
     }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -3112,6 +3129,8 @@ time {
 
     .search-box {
         padding: 50px 0px 50px;
+        background-image:
+            linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
     }
 
     .about-page .background-lamp .mittig {
@@ -3395,11 +3414,6 @@ time {
 
     .source-info {
         display: none;
-    }
-
-    .search-box {
-        background-image:
-            linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6));
     }
 
     .getintouchpage .background2, .faqx #news .background2, .updates #news .background2, .community-page .background2  {
