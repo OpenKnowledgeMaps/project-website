@@ -32,12 +32,12 @@
    
                     <div class="newsitem-text">
 
-                        <time datetime="2019-02-11">11 February 2020</time> - <span style="color:#e55137;">Pinned Post 📌</span>
+                        <time datetime="2019-03-11">11 March 2020</time> - <span style="color:#e55137;">Pinned Post 📌</span>
 
-                        <h3 class="newsitem-headline">Job opportunity: UX-minded frontend developer (f/x/m)</h3>
+                        <h3 class="newsitem-headline">Job opportunity: Frontend developer (f/x/m) in Vienna</h3>
 
                         <p class="newsitem-p">
-                           Open Knowledge Maps is currently looking for a UX-minded frontend developer. If you know your way around reactive JavaScript frameworks and are interested in a position where your work positively affects people all around the world, then this job might be for you! This is a fixed-term, entry-level position for 20 hours/week in the Open Knowledge Maps office in Vienna.
+                           Open Knowledge Maps is currently looking for a frontend developer. If you know your way around reactive JavaScript frameworks and are interested in a position where your work positively affects people all around the world, then this job might be for you! This is a fixed-term, entry-level position for 20 hours/week in the Open Knowledge Maps office in Vienna.
                         </p>
 
                         <p class="newsitem-p">
