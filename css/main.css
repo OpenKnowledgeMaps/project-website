@@ -1009,8 +1009,7 @@ address a:hover, address a:focus, address a:active {
 
 .anchor{
     display: block;
-    height: 110px; /*same height as header*/
-    margin-top: -116px; /*same height as header*/
+    padding-top: 116px; /*same height as header*/
     visibility: hidden;
 }
 
