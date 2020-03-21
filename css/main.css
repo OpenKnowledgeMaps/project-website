@@ -3295,6 +3295,12 @@ time {
 }
 
 @media screen and (max-width: 470px) {
+    
+    /*TODO: fix this so that the full item is in view */
+    .anchor {
+        height: 44px;
+        margin-top: -44px;
+    }
 
     .collaboratelink {
         display: none;
