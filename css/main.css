@@ -702,33 +702,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     opacity:0.3;
 }
 
-@keyframes ellipsis-animation {
-    0% {
-      opacity: .2;
-    }
-    20% {
-      opacity: 1;
-    }
-    100% {
-      opacity: .2;
-    }
-}
-
-.animated-ellipsis span {
-    animation-name: ellipsis-animation;
-    animation-duration: 1.4s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: both;
-}
-
-.animated-ellipsis span:nth-child(2) {
-    animation-delay: .2s;
-}
-
-.animated-ellipsis span:nth-child(3) {
-    animation-delay: .4s;
-}
-
 .visualize {
     font-weight: 800;
     text-align: left; 
