@@ -14,7 +14,7 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
         <div id="news">  
-            <div class="headerimage"><img src="./img/newsbg-mobil.png"></div>
+            <div class="headerimage"><img src="./img/newsbg-mobil.png" alt=""></div>
             <div class="background2">
                 <div class="team">
                     <h2 style="color: #2d3e52;">News</h2>
@@ -29,7 +29,7 @@
                 <article class="newsitem">
                     <a name="job-opportunity-frontend-dev" class="anchor"></a>
                     <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">
-                        <img style="width:100%;" src="img/newsletter/wehire.png">
+                        <img style="width:100%;" src="img/newsletter/wehire.png" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -62,7 +62,7 @@
                 <article class="newsitem">
                     <a name="elife-partnership-announcement" class="anchor"></a>
                     <a href="https://elifesciences.org/for-the-press/ddc42473/elife-and-open-knowledge-maps-partner-to-upgrade-visual-research-discovery-platform" target="_blank">
-                        <img style="width:100%;" src="img/newsletter/refactoring.png">
+                        <img style="width:100%;" src="img/newsletter/refactoring.png" alt="">
                     </a> 
 
                     <div class="newsitem-text">
@@ -105,7 +105,7 @@
                 <article class="newsitem">
                     <a name="membership-spotlight-lbg" class="anchor"></a>
                     <a href="https://www.lbg.ac.at/" target="_blank">
-                        <img style="width:100%;" src="img/newsletter/lbg.png">
+                        <img style="width:100%;" src="img/newsletter/lbg.png" alt="">
                     </a> 
 
                     <div class="newsitem-text">
@@ -145,7 +145,7 @@
                 <article class="newsitem">
                     <a name="membership-spotlight-copernicus" class="anchor"></a>
                     <a href="https://publications.copernicus.org/" target="_blank">
-                        <img style="width:100%;" src="img/newsletter/copernicus.png">
+                        <img style="width:100%;" src="img/newsletter/copernicus.png" alt="">
                     </a> 
 
                     <div class="newsitem-text">
@@ -184,7 +184,7 @@
                 <article class="newsitem">
                     <a name="membership-spotlight-akbild" class="anchor"></a>
                     <a href="https://www.akbild.ac.at/" target="_blank">
-                        <img style="width:100%;" src="img/newsletter/akbild.png">
+                        <img style="width:100%;" src="img/newsletter/akbild.png" alt="">
                     </a> 
 
                     <div class="newsitem-text">
@@ -223,7 +223,7 @@
                 <article class="newsitem">
                     <a name="membership-spotlight-zbw" class="anchor"></a>
                     <a href="http://zbw.eu" target="_blank">
-                        <img style="width:100%;" src="img/newsletter/zbw.png">
+                        <img style="width:100%;" src="img/newsletter/zbw.png" alt="">
                     </a> 
 
                     <div class="newsitem-text">
@@ -263,7 +263,7 @@
                 <article class="newsitem">
                     <a name="membership-spotlight-unibe" class="anchor"></a>
                     <a href="http://unibe.ch" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/unibe.png">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/unibe.png" alt="">
                     </a> 
 
                     <div class="newsitem-text">
@@ -305,7 +305,7 @@
                     <a name="welcome-new-supporting-members" class="anchor"></a>
 
                     <a href="http://openknowledgemaps.org/supporting-membership" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/logos-supporting-members.png">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/logos-supporting-members.png" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -374,7 +374,7 @@
                     <a name="okmaps-wins-austrian-prize-for-free-knowledge" class="anchor"></a>
 
                     <a href="https://freieswissen.net/einreichung.html" target="_blank">
-                        <img style="width:100%;" src="img/newsletter/austrian-prize-for-free-knowledge.png">
+                        <img style="width:100%;" src="img/newsletter/austrian-prize-for-free-knowledge.png" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -410,7 +410,7 @@
                     <a name="okmaps-roadmap-update" class="anchor"></a>
 
                     <a href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/roadmap-update2.png">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/roadmap-update2.png" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -481,7 +481,7 @@
                     <a name="okmaps-participates-in-triple" class="anchor"></a>
 
                     <a href="https://operas.hypotheses.org/2644" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/triple-euproject.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/triple-euproject.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -510,7 +510,7 @@
                     <a name="welcome-new-partner-sks" class="anchor"></a>
 
                     <a href="https://www.knowledge.services/" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/sks-partner.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/sks-partner.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -544,7 +544,7 @@
                     <a name="become-a-supporting-member" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/supporting-membership" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/community-owned.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/community-owned.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -574,7 +574,7 @@
                     <a name="welcome-new-enthusiasts" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/community" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/ep-iteration2.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/ep-iteration2.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -606,7 +606,7 @@
                     <a name="new-partner-africarxiv" class="anchor"></a>
 
                     <a href="http://info.africarxiv.org/" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/partner-africarxiv.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/partner-africarxiv.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -645,7 +645,7 @@
                     <a name="academic-seo-materials" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/community#training-materials" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/academic-seo-materials.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/academic-seo-materials.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -687,7 +687,7 @@
                     <a name="osc-keynote" class="anchor"></a>
 
                     <a href="https://www.open-science-conference.eu/" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/keynote.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/keynote.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -725,7 +725,7 @@
                     <a name="discovery-in" class="anchor"></a>
 
                     <a href="https://www.go-fair.org/implementation-networks/overview/discovery/" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/gofair-discovery.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/gofair-discovery.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -764,7 +764,7 @@
                     <a name="discovery-workshop" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.eventbrite.de" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/academicseo.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/academicseo.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -799,7 +799,7 @@
                     <a name="project-page" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/projects" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/projects-teaser.png">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/projects-teaser.png" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -830,7 +830,7 @@
                     <a name="welcome-lbg" class="anchor"></a>
 
                     <a href="https://www.lbg.ac.at/" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/lbg-supportingmember.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/lbg-supportingmember.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -864,7 +864,7 @@
                     <a name="successful-donation-campaign" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/donate-now" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/thanks-donations.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/thanks-donations.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -895,7 +895,7 @@
                     <a name="support-okmaps" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/donate-now" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/donation2.png">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/donation2.png" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -942,7 +942,7 @@
                     <a name="oaweek-2018" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/community#training-materials" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/community-oaweek.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/community-oaweek.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -979,7 +979,7 @@
                     <a name="successful-enthusiasts-program" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/community" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/scavengerhuntevent.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/scavengerhuntevent.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -1018,7 +1018,7 @@
                     <a name="viper-launch" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/embed-all-maps.jpg">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/embed-all-maps.jpg" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -1066,7 +1066,7 @@
                     <a name="viper-launch" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/team#partners" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/partners-072018.png">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/partners-072018.png" alt="">
                     </a> 
                     <div class="newsitem-text">
 
@@ -1101,7 +1101,7 @@
                     <a name="viper-launch" class="anchor"></a>
 
                     <a href="https://openknowledgemaps.org/viper/" target="_blank">
-                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/viperhere.png">
+                        <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/viperhere.png" alt="">
                     </a> 
                     <div class="newsitem-text">
                         <time datetime="2018-05-16">16 May 2018</time>
@@ -1124,7 +1124,7 @@
                 <article class="newsitem">
                     <a name="welcome-enthusiasts" class="anchor"></a>
 
-                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/eps.jpg">
+                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/eps.jpg" alt="">
                     <div class="newsitem-text">
                         <time datetime="2018-04-17">17 April 2018</time>
                         <h3 class="newsitem-headline">A warm welcome to our enthusiasts</h3>
@@ -1166,7 +1166,7 @@
                 <article class="newsitem">
                     <a name="okmaps-openaire" class="anchor"></a>
 
-                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/openairetender.png">
+                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/openairetender.png" alt="">
                     <div class="newsitem-text">
                         <time datetime="2018-03-20">20 March 2018</time>
                         <h3 class="newsitem-headline">Open Knowledge Maps wins OpenAIRE tender to create a tool that lets you visualize any research project</h3>
@@ -1192,7 +1192,7 @@
 
                 <article class="newsitem">
 
-                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/feedback2.png">
+                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/feedback2.png" alt="">
                     <div class="newsitem-text">
                         <time datetime="2018-03-20">20 March 2018</time>
                         <h3 class="newsitem-headline">We ❤ user feedback!</h3>
@@ -1240,7 +1240,7 @@
                 <article class="newsitem">
                     <a name="know-center-joins-okmaps-as-team-member" class="anchor"></a>
 
-                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/knowcenter.jpg">
+                    <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/knowcenter.jpg" alt="">
                     <div class="newsitem-text">
                         <time datetime="2018-02-20">20 February 2018</time>
                         <h3 class="newsitem-headline">Know-Center joins the Open Knowledge Maps core team</h3>
@@ -1270,7 +1270,7 @@
                     <a name="stayupdated" class="anchor"></a>
 
                     <a href="https://www.openknowledgemaps.org/" 
-                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/happynewyear.png"></a>
+                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/happynewyear.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2018-01-09">9 January 2018</time>
                         <h3 class="newsitem-headline">How to stay up-to-date in your research field</h3>
@@ -1317,7 +1317,7 @@
                     <a name="oaweek2017" class="anchor"></a>
 
                     <a href="https://www.oaweek.org/" 
-                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/oaweek.png"></a>
+                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/oaweek.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-10-23">23 October 2017</time>
                         <h3 class="newsitem-headline">Meet us at FORCE2017 &amp; other #OAWeek events</h3>
@@ -1359,7 +1359,7 @@
                     <a name="openminds-award" class="anchor"></a>
 
                     <a href="https://www.openminds.at/" 
-                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/openmindsaward.png"></a>
+                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/openmindsaward.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-09-27">27 September 2017</time>
                         <h3 class="newsitem-headline">Open Knowledge Maps wins Open Minds Award</h3>
@@ -1388,7 +1388,7 @@
                     <!-- CHANGE BG IMAGE HERE-->  
 
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMwTfyoIUCHHtYeyD5k-yfi3Hb_Uaza3R4pY3XvnKMwl8lBg/viewform" 
-                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/survey.png"></a>
+                       target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/survey.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-09-18">18 September 2017</time>
                         <h3 class="newsitem-headline">Your feedback on Open Knowledge Maps</h3>
@@ -1427,7 +1427,7 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://openknowledgemaps.org/#search" target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/sharing.png"></a>
+                    <a href="https://openknowledgemaps.org/#search" target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/sharing.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-09-06">06 September 2017</time>
                         <h3 class="newsitem-headline">Share your favorite maps with the world</h3>
@@ -1468,7 +1468,7 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://openknowledgemaps.org/#search" target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/cool.png"></a>
+                    <a href="https://openknowledgemaps.org/#search" target="_blank"><img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/cool.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-06-12">12 June 2017</time>
                         <h3 class="newsitem-headline">It all started at #mozsprint...</h3>
@@ -1516,7 +1516,7 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank"><img style="width:100%;" src="./img/newsletter/republica2.png"></a>
+                    <a href="https://re-publica.com/en/17/session/open-knowledge-maps-visual-interface-worlds-scientific-knowledge" target="_blank"><img style="width:100%;" src="./img/newsletter/republica2.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-05-07">7 May 2017</time>
                         <h3 class="newsitem-headline">Meet us at re:publica 2017</h3>
@@ -1537,7 +1537,7 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsletter/baseintegration.png"></a>
+                    <a href="https://openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsletter/baseintegration.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-03-22">22 March 2017</time>
                         <h3 class="newsitem-headline">New: Visualize a research topic based on 100 million scientific documents</h3>
@@ -1560,7 +1560,7 @@
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
 
-                    <a href="https://vimeo.com/207449056" target="_blank"><img style="width:100%;" src="./img/newsletter/openscienceconference2017.png"></a>
+                    <a href="https://vimeo.com/207449056" target="_blank"><img style="width:100%;" src="./img/newsletter/openscienceconference2017.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2017-03-14">14 March 2017</time>
                         <h3 class="newsitem-headline">Meet us at the Open Science Barcamp &amp; Conference in Berlin</h3>
@@ -1579,7 +1579,7 @@
             <div class="newscollection">
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
-                    <a href="//openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsletter/newsthankyou2.jpg"></a>
+                    <a href="//openknowledgemaps.org" target="_blank"><img style="width:100%;" src="./img/newsletter/newsthankyou2.jpg" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2016-12-16">16 Dezember 2016</time>
                         <h3 class="newsitem-headline">A BIG THANK YOU to our community!</h3>
@@ -1597,7 +1597,7 @@
             <div class="newscollection">
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
-                    <a href="//openknowledgemaps.org/index#search" target="_blank"><img style="width:100%;" src="./img/newsletter/news2-integration.png" ?>"></a>
+                    <a href="//openknowledgemaps.org/index#search" target="_blank"><img style="width:100%;" src="./img/newsletter/news2-integration.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2016-11-02">2 November 2016</time>
                         <h3 class="newsitem-headline">PubMed and DOAJ integration is here!</h3>
@@ -1619,7 +1619,7 @@
             <div class="newscollection">
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
-                    <a href="https://vimeo.com/186403196" target="_blank"><img style="width:100%;" src="./img/news.png"></a>
+                    <a href="https://vimeo.com/186403196" target="_blank"><img style="width:100%;" src="./img/news.png" alt=""></a>
 
 
 
@@ -1646,7 +1646,7 @@
 
                 <article class="newsitem">
                     <!-- CHANGE BG IMAGE HERE-->  
-                    <a href="https://www.meetup.com/de-DE/Open-Knowledge-Oesterreich/events/234317794/" target="_blank"><img style="width:100%;" src="./img/oaw2.png"></a>
+                    <a href="https://www.meetup.com/de-DE/Open-Knowledge-Oesterreich/events/234317794/" target="_blank"><img style="width:100%;" src="./img/oaw2.png" alt=""></a>
                     <div class="newsitem-text">
                         <time datetime="2016-10-20">20 October 2016</time>
                         <h3 class="newsitem-headline">OK Maps Meetup at the Austrian Academy of Sciences
