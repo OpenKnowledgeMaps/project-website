@@ -783,7 +783,8 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     background-image: url(../img/share-heart.png);
     background-color: white;
     background-repeat: no-repeat; 
-    background-position: 90% 40%;
+    background-attachment: fixed;
+    background-position: 85% 40%;
     /*background-size: 100%;*/
 }
 
