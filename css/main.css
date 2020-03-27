@@ -266,6 +266,10 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 /*Become a supporting Member*/
+.membership .member {
+    max-width: 265px;
+}
+
 .membership #newsletterdiv {
     /*background-color: white;*/
 }
@@ -307,10 +311,11 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     background-position: 30% 40%;
 }
 
-/*.membership .partners img {
-    max-height: 40px;
-    margin: 0px 30px 30px 0px;
-}*/
+.membership .partners img {
+    max-height: 60px;
+    margin: 0px;
+    padding: 30px 20px;
+}
 
 .membership-img {
     max-width: 35%; 
@@ -776,8 +781,9 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .enthusiast-bg {
     background-image: url(../img/share-heart.png);
     background-color: white;
-    background-repeat: no-repeat; 
-    background-position: 90% 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 85% 40%;
     /*background-size: 100%;*/
 }
 
@@ -3295,6 +3301,17 @@ time {
 }
 
 @media screen and (max-width: 470px) {
+    
+    .membership .partners img {
+        max-height: 40px;
+        padding: 10px;
+    }
+
+
+    .member-logo-large {
+        max-height: 80px !important;
+        padding: !important;
+    }
     
     /*TODO: fix this so that the full item is in view */
     .anchor {
