@@ -962,6 +962,12 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     max-width:38%;
 }
 
+.download_links {
+    line-height: 230%;
+    padding: 0px 0px 0px;
+    font-size: 16px;
+}
+
 .nav_bottom {
     display: block;
     color: white;
@@ -1239,7 +1245,7 @@ a .number:hover {
     vertical-align:top;
     margin-right: 2%;
     max-width: 22%;
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 20px;
     text-align: left;
 }
@@ -2049,6 +2055,25 @@ sup {
     margin-right: 5px;
 }
 
+/*Logo Page*/
+
+.image-logo {
+    display: inline-block; 
+    max-width: 400px;
+}
+
+.logo-links {
+    display: inline-block; 
+    margin-left: 2%; 
+    vertical-align: top;
+}
+
+.tile {
+    max-width: 750px; 
+    padding: 2%; 
+    margin: 0px auto;
+}
+
 /*TWITTER CAROUSEL*/
 .carousel{
     background: transparent;
@@ -2487,12 +2512,23 @@ time {
 
 }
 
+@media screen and (max-width: 1230px) {
+
+    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig, .mittig2 {
+        width: 70%;
+    }
+}
+
 @media screen and (max-width: 1150px) {
 
     .search-box {
         background-image:
             linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
             url(../img/startseite-desktop-1150px.png);
+    }
+
+    .getintouch {
+        text-align: left;
     }
 }
 
@@ -2503,15 +2539,6 @@ time {
     }
 
 }
-
-@media screen and (max-width: 1230px) {
-
-    .mittig, .background-lamp .mittig, .about-page .background-lamp .mittig, .mittig2 {
-        width: 70%;
-    }
-}
-
-
 
 @media screen and (max-width: 1060px) {
 
@@ -2847,6 +2874,10 @@ time {
 
     .membership #more-info .vision {
         max-width: 100%;
+    }
+    
+    .logo-links {
+        display: block;
     }
 }
 
@@ -3307,7 +3338,7 @@ time {
         max-height: 40px;
         padding: 10px;
     }
-    
+
     .member-logo-large {
         max-height: 80px !important;
         padding: !important;
@@ -3325,6 +3356,7 @@ time {
 
     .info {
         margin-right: 0px;
+        display: block;
     }
 
     .glyphicon-chevron-right::before, .glyphicon-chevron-left::before {

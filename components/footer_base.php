@@ -19,7 +19,19 @@
         <ul class="nav_bottom">
             <li><a href="donate-now"><span class="awesome">&#xf004;</span> Make a donation</a></li>
             <li><a href="supporting-membership"><span class="awesome">&#xf0c1;</span> Become a supporting member</a></li>
+            <li><a href="community"><span class="awesome">&#xf0c1;</span> Join our community of enthusiasts</a></li>
+            <li><a href="http://eepurl.com/dvQeGP" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
+        </ul>
+    </div>
+    
+    <div class="info">
+        <h3 style="margin-bottom: 10px;">Materials</h3>
+        
+        <ul class="nav_bottom">
             <li><a href="community#training-materials"><span class="awesome">&#xf03e;</span> Training Materials</a></li>
+            <li><a href="logos"><span class="awesome">&#xf03e;</span> Logos</a></li>
+            <li><a href="https://drive.google.com/open?id=1mIHWkbmnNIE22FbZ40zfqYhbgSMvoKoh" target="_blank"><span class="awesome">&#xf03e;</span> Poster</a></li>
+            <li><a href="https://openknowledgemaps.org/staging/project-website/doc/open-knowledge-maps-supporting-membership.pdf" target="_blank"><span class="awesome">&#xf019</span> Flyer</a></li>
         </ul>
     </div>
     
@@ -30,7 +42,6 @@
                 <li><a href="https://twitter.com/ok_maps" target="_blank"><span class="awesome">&#xf099;</span> twitter.com/OK_Maps</a></li>
                 <li><a href="https://facebook.com/OKMaps" target="_blank"><span class="awesome">&#xf09a;</span> facebook.com/OKMaps</a> </li>
                 <li><a href="https://github.com/OpenKnowledgeMaps" target="_blank"><span class="awesome">&#xf09b;</span> github.com/OpenKnowledgeMaps</a> </li>              
-                <li><a href="http://eepurl.com/dvQeGP" target="_blank"><span class="awesome">&#xf003;</span> Sign-up for our Newsletter</a></li>
             </ul>
         </address>
     </div>

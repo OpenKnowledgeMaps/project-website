@@ -13,8 +13,7 @@
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
-        <div id="news">  
-            <div class="headerimage"><img src="./img/newsbg-mobil.png" alt=""></div>
+        <div id="news"> 
             <div class="background2">
                 <div class="team">
                     <h2 style="color: #2d3e52;">News</h2>
