@@ -23,13 +23,14 @@
                     </p>
                 </div>
             </div>
-
+            
             <div class="newscollection">
                 <article class="newsitem">
                     <a name="job-opportunity-frontend-dev" class="anchor"></a>
                     <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">
                         <img style="width:100%;" src="img/newsletter/wehire.png" alt="">
                     </a> 
+   
                     <div class="newsitem-text">
 
                         <time datetime="2019-03-11">11 March 2020</time> - <span style="color:#e55137;">Pinned Post 📌</span>
@@ -37,7 +38,7 @@
                         <h3 class="newsitem-headline">Job opportunity: Frontend developer (f/x/m) in Vienna</h3>
 
                         <p class="newsitem-p">
-                            Open Knowledge Maps is currently looking for a frontend developer. If you know your way around reactive JavaScript frameworks and are interested in a position where your work positively affects people all around the world, then this job might be for you! This is a fixed-term, entry-level position for 20 hours/week in the Open Knowledge Maps office in Vienna.
+                           Open Knowledge Maps is currently looking for a frontend developer. If you know your way around reactive JavaScript frameworks and are interested in a position where your work positively affects people all around the world, then this job might be for you! This is a fixed-term, entry-level position for 20 hours/week in the Open Knowledge Maps office in Vienna.
                         </p>
 
                         <p class="newsitem-p">
@@ -49,21 +50,22 @@
                         </p>
 
                         <a class="newsitem-button" href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">
-                            Check out the full job ad
+                              Check out the full job ad
                         </a>
 
+                        
                     </div>
                 </article>
             </div>
-
+            
             <div class="newscollection">
-
+                
                 <article class="newsitem">
                     <a name="elife-partnership-announcement" class="anchor"></a>
                     <a href="https://elifesciences.org/for-the-press/ddc42473/elife-and-open-knowledge-maps-partner-to-upgrade-visual-research-discovery-platform" target="_blank">
                         <img style="width:100%;" src="img/newsletter/refactoring.png" alt="">
                     </a> 
-
+   
                     <div class="newsitem-text">
 
                         <time datetime="2019-02-26">26 February 2020</time>
@@ -71,21 +73,21 @@
                         <h3 class="newsitem-headline">Announcing a new partnership with eLife</h3>
 
                         <p class="newsitem-p">
-                            We are excited to announce a new partnership with <a href="https://elifesciences.org/" target="_blank" class="underline">eLife</a> to improve our technology platform.  With eLife's backing, we will perform a necessary refactoring of the Open Knowledge Maps frontend.
+                           We are excited to announce a new partnership with <a href="https://elifesciences.org/" target="_blank" class="underline">eLife</a> to improve our technology platform.  With eLife's backing, we will perform a necessary refactoring of the Open Knowledge Maps frontend.
                         </p>
-
+                        
                         <p class="newsitem-p">
-                            The refactoring will improve the serviceability, reusability and structure of our frontend. The aim is to make it easier to introduce new functionality crucial to fulfilling important use cases, such as integrating Open Knowledge Maps into user workflows, enabling future integrations (e.g. of dataset indices), and reaching our goal of a <a href="https://openknowledgemaps.org/about#our-vision" target="_blank" class="underline">collaborative discovery environment</a>.
+                          The refactoring will improve the serviceability, reusability and structure of our frontend. The aim is to make it easier to introduce new functionality crucial to fulfilling important use cases, such as integrating Open Knowledge Maps into user workflows, enabling future integrations (e.g. of dataset indices), and reaching our goal of a <a href="https://openknowledgemaps.org/about#our-vision" target="_blank" class="underline">collaborative discovery environment</a>.
                         </p>
-
+                        
                         <p class="newsitem-p">
-                            This is the latest collaboration under eLife's <a href="https://elifesciences.org/about/innovation" target="_blank" class="underline">Innovation Initiative</a>, aimed at supporting open-source projects in the research discovery and communication space.
-                            eLife and Open Knowledge Maps have come together through a common commitment to speed up research dissemination and curation.
+                          This is the latest collaboration under eLife's <a href="https://elifesciences.org/about/innovation" target="_blank" class="underline">Innovation Initiative</a>, aimed at supporting open-source projects in the research discovery and communication space.
+              eLife and Open Knowledge Maps have come together through a common commitment to speed up research dissemination and curation.
                         </p>
-
+                        
                         <blockquote class="newsitem-blockquote"><em>"We are proud to be able to endorse an organisation whose ethos encompasses our core values of openness, collaboration and reuse,"</em> says Emmy Tsang, eLife Innovation Community Manager. <em>"We understand the importance of open-source project maintenance, as well as the lack of funding and support in this area, and are excited to contribute to the continuity of this innovative initiative. It will be great to work with the Open Knowledge Maps team and exchange ideas on the use of machine-learning and web technologies to drive forward research discovery, sharing and consumption."</em></blockquote>
                         <blockquote class="newsitem-blockquote"><em>"We're very excited to have eLife’s support for this project,"</em> adds Peter Kraker, Founder and Chairman of Open Knowledge Maps. <em>"This work is crucial for implementing new features, which is in turn important for the success of our supporting membership program. eLife’s backing gives us a unique opportunity to improve our growth and sustainability that might have been difficult to come by elsewhere."</em></blockquote>
-
+                        
                         <p class="newsitem-p">
                             More insight into the refactoring project can be found in the accompanying <a href="https://elifesciences.org/labs/ef274c83/open-knowledge-maps-a-visual-interface-to-the-world-s-scientific-knowledge" target="_blank" class="underline">blog post</a> on eLife Labs. As part of this project, we are currently looking for a <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank" class="underline">UX-minded frontend developer (f/x/m)</a> to join our team in Vienna. For more information, please see <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank" class="underline">our job advert</a>.
                         </p>
@@ -94,19 +96,19 @@
                             Read the press release
                         </a>
 
-
+                        
                     </div>
                 </article>
             </div>
-
-            <div class="newscollection">
-
+            
+             <div class="newscollection">
+                
                 <article class="newsitem">
                     <a name="membership-spotlight-lbg" class="anchor"></a>
                     <a href="https://www.lbg.ac.at/" target="_blank">
                         <img style="width:100%;" src="img/newsletter/lbg.png" alt="">
                     </a> 
-
+   
                     <div class="newsitem-text">
 
                         <time datetime="2019-02-21">21 February 2020</time>
@@ -114,18 +116,18 @@
                         <h3 class="newsitem-headline">Membership spotlight: Ludwig Boltzmann Gesellschaft</h3>
 
                         <p class="newsitem-p">
-                            This is the final part of our five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                           This is the final part of our five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
                         </p>
 
                         <p class="newsitem-p">
                             Today, it's Ludwig Boltzmann Gesellschaft:
                         </p>
-
-
-
+                        
+                         
+                        
                         <blockquote class="newsitem-blockquote"><em>"The LBG OIS Center is an international hub for investigating and experimenting with open research practices. The LBG OIS Center generates and disseminates insights into the use of Open Innovation principles and methods in science, along the entire process to originate new scientific research. As a visual interface to the world's scientific knowledge, Open Knowledge Maps opens up science in a unique way to researchers as well as to practitioners and the public. We are proud to be a supporting member of Open Knowledge Maps."</em>
-                            <span class="blockquote-citation">Mag. Patrick Lehner, Director OIS Center, Ludwig Boltzmann Gesellschaft</span></blockquote>
-
+                        <span class="blockquote-citation">Mag. Patrick Lehner, Director OIS Center, Ludwig Boltzmann Gesellschaft</span></blockquote>
+                        
                         <p class="newsitem-p">
                             For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
                         </p>
@@ -134,19 +136,19 @@
                             More about LBG
                         </a>
 
-
+                        
                     </div>
                 </article>
             </div>
-
-            <div class="newscollection">
-
+            
+             <div class="newscollection">
+                
                 <article class="newsitem">
                     <a name="membership-spotlight-copernicus" class="anchor"></a>
                     <a href="https://publications.copernicus.org/" target="_blank">
                         <img style="width:100%;" src="img/newsletter/copernicus.png" alt="">
                     </a> 
-
+   
                     <div class="newsitem-text">
 
                         <time datetime="2019-02-20">20 February 2020</time>
@@ -154,18 +156,18 @@
                         <h3 class="newsitem-headline">Membership spotlight: Copernicus Publications</h3>
 
                         <p class="newsitem-p">
-                            This is part four of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                           This is part four of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
                         </p>
 
                         <p class="newsitem-p">
                             Today, it's Copernicus Publications:
                         </p>
-
-
-
+                        
+                         
+                        
                         <blockquote class="newsitem-blockquote"><em>"Copernicus Publications has been publishing open-access journals since 2001. Among many others, one advantage of open access is increased the visibility and discoverability of the published works. As a truly open discovery tool, Open Knowledge Maps revolutionize the way scientific knowledge can be revealed. We are very happy to support this great endeavour."</em>
-                            <span class="blockquote-citation">Dr. Xenia van Edig, Senior Business Development, Copernicus Publications</span></blockquote>
-
+                        <span class="blockquote-citation">Dr. Xenia van Edig, Senior Business Development, Copernicus Publications</span></blockquote>
+                        
                         <p class="newsitem-p">
                             For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
                         </p>
@@ -174,18 +176,18 @@
                             More about Copernicus Publications
                         </a>
 
-
+                        
                     </div>
                 </article>
             </div>
-            <div class="newscollection">
-
+             <div class="newscollection">
+                
                 <article class="newsitem">
                     <a name="membership-spotlight-akbild" class="anchor"></a>
                     <a href="https://www.akbild.ac.at/" target="_blank">
                         <img style="width:100%;" src="img/newsletter/akbild.png" alt="">
                     </a> 
-
+   
                     <div class="newsitem-text">
 
                         <time datetime="2019-02-19">19 February 2020</time>
@@ -193,18 +195,18 @@
                         <h3 class="newsitem-headline">Membership spotlight:  Academy of Fine Arts Vienna</h3>
 
                         <p class="newsitem-p">
-                            This is part three of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                           This is part three of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
                         </p>
 
                         <p class="newsitem-p">
                             Today, it's Academy of Fine Arts Vienna:
                         </p>
-
-
-
+                        
+                         
+                        
                         <blockquote class="newsitem-blockquote"><em>"The Academy of Fine Arts Vienna was founded in 1692 by the court painter Peter Strudel as a private academy and is considered to be the oldest art school in Central Europe. Since 2015 the Academy has an explicit commitment to the promotion of Openness in the Arts & Sciences, whereas the main focus is on supporting community-led Open Science infrastructures and services (OSIS) and helping to create a truly open and inclusive Scholarly Communication ecosystem in the near future, and Open Knowledge Maps is one of these initiatives. On the one side the Open Science/Open Scholarship movement has increased the accessibility of academic knowledge, but on the other hand there is a discoverability crisis that in a lot of cases negatively affects Scholarly Communication. Open Knowledge Maps intends to close this gap and that's why it deserves to be supported with our best efforts."</em>
-                            <span class="blockquote-citation">Mag. MSc. Andreas Ferus, Interim Library Director, Academy of Fine Arts Vienna</span></blockquote>
-
+                        <span class="blockquote-citation">Mag. MSc. Andreas Ferus, Interim Library Director, Academy of Fine Arts Vienna</span></blockquote>
+                        
                         <p class="newsitem-p">
                             For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
                         </p>
@@ -213,18 +215,18 @@
                             More about AKBild
                         </a>
 
-
+                        
                     </div>
                 </article>
             </div>
             <div class="newscollection">
-
+                
                 <article class="newsitem">
                     <a name="membership-spotlight-zbw" class="anchor"></a>
                     <a href="http://zbw.eu" target="_blank">
                         <img style="width:100%;" src="img/newsletter/zbw.png" alt="">
                     </a> 
-
+   
                     <div class="newsitem-text">
 
                         <time datetime="2019-02-18">18 February 2020</time>
@@ -232,18 +234,18 @@
                         <h3 class="newsitem-headline">Membership spotlight:  ZBW – Leibniz Information Centre for Economics</h3>
 
                         <p class="newsitem-p">
-                            This is part two of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                           This is part two of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
                         </p>
 
                         <p class="newsitem-p">
                             Today, it's ZBW – Leibniz Information Centre for Economics:
                         </p>
-
-
-
+                        
+                         
+                        
                         <blockquote class="newsitem-blockquote"><em>"As one of the world's largest information infrastructures for scientific literature in economics, ZBW has a clear commitment to openness, e.g. to open access, open source, open/fair data. To promote the openness movement we also engage in relevant open science initiatives and help them to ensure their sustainability. Open Knowledge Maps is one of these initiatives we consider to be a visionary innovator in the field of discovery in open spaces. We are proud to be a member of this initiative and support it with our best efforts."</em>
-                            <span class="blockquote-citation">Prof. Dr. Klaus Tochtermann, Director, ZBW</span></blockquote>
-
+                        <span class="blockquote-citation">Prof. Dr. Klaus Tochtermann, Director, ZBW</span></blockquote>
+                        
                         <p class="newsitem-p">
                             For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
                         </p>
@@ -252,19 +254,19 @@
                             More about ZBW
                         </a>
 
-
+                        
                     </div>
                 </article>
             </div>
-
-            <div class="newscollection">
-
+            
+              <div class="newscollection">
+                
                 <article class="newsitem">
                     <a name="membership-spotlight-unibe" class="anchor"></a>
                     <a href="http://unibe.ch" target="_blank">
                         <img style="width:100%;" src="https://openknowledgemaps.org/img/newsletter/unibe.png" alt="">
                     </a> 
-
+   
                     <div class="newsitem-text">
 
                         <time datetime="2019-02-17">17 February 2020</time>
@@ -272,32 +274,32 @@
                         <h3 class="newsitem-headline">Membership spotlight: University Library Bern</h3>
 
                         <p class="newsitem-p">
-                            This is part one of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
+                           This is part one of a five-part series where we give the floor to representatives of our initial supporting members to introduce their institutions and to tell us why they chose to support Open Knowledge Maps.
                         </p>
 
                         <p class="newsitem-p">
                             Today, it's University Library Bern:
                         </p>
-
-
-
+                        
+                         
+                        
                         <blockquote class="newsitem-blockquote"><em>"The University Library of Bern (UB Bern) supports research, teaching and education at the University of Bern. We guarantee the open and sustainable access to scholarly information. Open Knowledge Maps is a considerable reinforcement in the areas of open science and open access, which are central to our research services."</em>
-                            <span class="blockquote-citation">Dr. Andrea Hacker, Open Access and Bern Open Publishing (BOP), University Library Bern</span></blockquote>
-
+                        <span class="blockquote-citation">Dr. Andrea Hacker, Open Access and Bern Open Publishing (BOP), University Library Bern</span></blockquote>
+                        
                         <p class="newsitem-p">
                             For more information about our supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>
                         </p>
 
                         <a class="newsitem-button" href="https://www.unibe.ch" target="_blank">
-                            More about University Library Bern
+                              More about University Library Bern
                         </a>
 
-
+                        
                     </div>
                 </article>
             </div>
-
-
+            
+            
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -320,7 +322,7 @@
                         <p class="newsitem-p">
                             The supporting membership program is a model to sustain Open Knowledge Maps, the world’s largest visual search engine for research. Supporting members provide a yearly contribution and in return, they are invited to co-create the platform with us. In an annual crowdsourcing process, they have one third of the vote on what features and sources are implemented on Open Knowledge Maps.
                         </p>
-
+                        
                         <h4 class="newsitem-h4">
                             Why they joined us
                         </h4>
@@ -328,45 +330,45 @@
                         <p class='newsitem-p'>
                             We asked our members to briefly explain why they support us. We will publish their full statements in a series of supporting member spotlights in the upcoming weeks. But here's already a sneak peek of what they said (emphasis ours):
                         </p>
-
-
+                        
+                        
                         <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps is a considerable reinforcement in the areas of open science and open access, which are <strong>central to our research services</strong>."</em>
                             <span class="blockquote-citation">Dr. Andrea Hacker, Open Access and Bern Open Publishing (BOP), University Library Bern</span></blockquote>
-
-
+            
+                        
                         <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps is one of these initiatives we consider to be a <strong>visionary innovator</strong> in the field of discovery in open spaces."</em>
                             <span class="blockquote-citation">Prof. Dr. Klaus Tochtermann, Director, ZBW</span></blockquote>
 
-
-                        <blockquote class="newsitem-blockquote"><em>"On the one side the Open Science/Open Scholarship movement has increased the accessibility of academic knowledge, but on the other hand there is a discoverability crisis that in a lot of cases negatively affects Scholarly Communication. Open Knowledge Maps <strong>intends to close this gap</strong> and that's why it deserves to be supported with our best efforts."</em>
+                        
+                            <blockquote class="newsitem-blockquote"><em>"On the one side the Open Science/Open Scholarship movement has increased the accessibility of academic knowledge, but on the other hand there is a discoverability crisis that in a lot of cases negatively affects Scholarly Communication. Open Knowledge Maps <strong>intends to close this gap</strong> and that's why it deserves to be supported with our best efforts."</em>
                             <span class="blockquote-citation">Mag. MSc. Andreas Ferus, Interim Library Director, Academy of Fine Arts Vienna    </span></blockquote>
 
-
-
-                        <blockquote class="newsitem-blockquote"><em>"As <strong>a truly open discovery tool</strong>, Open Knowledge Maps revolutionize the way scientific knowledge can be revealed."</em>
+                        
+                        
+                            <blockquote class="newsitem-blockquote"><em>"As <strong>a truly open discovery tool</strong>, Open Knowledge Maps revolutionize the way scientific knowledge can be revealed."</em>
                             <span class="blockquote-citation">Dr. Xenia van Edig, Senior Business Development, Copernicus Publications </span>   </blockquote>
 
-
-                        <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps <strong>opens up science in a unique way</strong> to researchers as well as to practitioners and the public."</em>
+                            
+                            <blockquote class="newsitem-blockquote"><em>"Open Knowledge Maps <strong>opens up science in a unique way</strong> to researchers as well as to practitioners and the public."</em>
                             <span class="blockquote-citation">Mag. Patrick Lehner, Director OIS Center, Ludwig Boltzmann Gesellschaft</span></blockquote>
-
+                        
                         <h4 class="newsitem-h4">
                             <strong>How to become a member</strong>
                         </h4>
-
+                        
                         <p class="newsitem-p">
                             Are you interested to become a member as well? We invite further organisations to join us and shape the future of discovery together with us. Click on the button below to find out more.
                         </p>
 
                         <a class="newsitem-button" href="https://openknowledgemaps.org/supporting-membership" target="_blank">
-                            Learn more about the membership
+                              Learn more about the membership
                         </a>
 
-
+                        
                     </div>
                 </article>
             </div>
-
+            
             <div class="newscollection">
 
                 <article class="newsitem">
@@ -384,12 +386,12 @@
                         <p class="newsitem-p">
                             We are delighted to announce that Open Knowledge Maps has won the <a class="underline" href="https://freieswissen.net/einreichung.html" target="_blank">Austrian Prize for Free Knowledge</a> of Wikimedia Austria in the category civic engagement. The prize is awarded to individuals and organisations that make outstanding contributions to free knowledge. In their rationale, the jury appreciated Open Knowledge Maps for making scientific knowledge better discoverable and more reusable - also for those who are not employed at an academic institution.
                         </p>
-
+                        
                         <p class="newsitem-p">
                             The prize was awarded by <a class="underline" href="https://wikimedia.at" target="_blank">Wikimedia Austria</a> on January 25th at the <a class="underline" href="https://www.wissenschaftsball.at/en/" target="_blank">Vienna Ball of Sciences</a> in attendance of the Mayor of Vienna, Michael Ludwig, and the Austrian Federal Minister for Transport, Innovation and Technology, Leonore Gewessler. 
                             Our fellow prize winners are also strongly related to open science: the <a class="underline" href="https://fwf.ac.at/en/" target="_blank">Austrian Science Fund (FWF)</a>, one of the most progressive funding organisations when it comes to open science (organisation of the year), and early open access pioneer <a class="underline" href="https://www2.isds.tugraz.at/maurer" target="_blank">Hermann Maurer</a> (lifetime achievement prize).
                         </p>
-
+                        
                         <p class='newsitem-p'>
                             We are honored to be recognized with this prize. We want to thank our team and community for their hard work and for their continued support. Without you, none of this would be possible. We are very happy and thankful to have you with us!
                         </p>
@@ -398,7 +400,7 @@
                             More about the Prize (in German)
                         </a>
 
-
+                
                     </div>
                 </article>
             </div>
@@ -437,24 +439,24 @@
                         <p class='newsitem-p'>
                             <strong> Firstly, better connect OKMaps to the services you already use and love:
                             </strong>
-
+                        
                         </p>
-
+                        
                         <ul class='newsitem-p' style='list-style: disc; margin-left: 20px;'>
                             <li>Enable exporting citations to Zotero</li>
                             <li>Include links to additional open access copies (via unpaywall)</li>
                             <li>Include Open Access Button for papers you still can’t access</li>
                             <li>Include the DOAJ Seal of Approval and links to ORCiDs</li>
                         </ul>
-
+                        
                         <p class='newsitem-p'>
-
-                            These features will improve access to research documents, provide more context to individual outputs and better integrate Open Knowledge Maps into your discovery workflow.
+                 
+                        These features will improve access to research documents, provide more context to individual outputs and better integrate Open Knowledge Maps into your discovery workflow.
                         </p>
 
                         <p class='newsitem-p'>
                             <strong>Secondly, improve our capabilities for data discovery:</strong>
-
+                            
                             Our role as lead in the GO FAIR Implementation Network "Discovery" puts us in a unique position to work closely with the community on better solutions for discovering data sets.
                         </p>
 

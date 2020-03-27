@@ -266,7 +266,6 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 }
 
 /*Become a supporting Member*/
-
 .membership .member {
     max-width: 265px;
 }
@@ -782,7 +781,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .enthusiast-bg {
     background-image: url(../img/share-heart.png);
     background-color: white;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 85% 40%;
     /*background-size: 100%;*/
@@ -3333,17 +3332,18 @@ time {
 }
 
 @media screen and (max-width: 470px) {
-
+    
     .membership .partners img {
         max-height: 40px;
         padding: 10px;
     }
 
+
     .member-logo-large {
         max-height: 80px !important;
         padding: !important;
     }
-
+    
     /*TODO: fix this so that the full item is in view */
     .anchor {
         height: 44px;
