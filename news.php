@@ -26,6 +26,44 @@
             
             <div class="newscollection">
                 <article class="newsitem">
+                    <a name="covid-update" class="anchor"></a>
+                    <a href="https://openknowledgemaps.org/map/54fc08a6e8f059ae89df4d38b0093720" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/covid-map.png" alt="">
+                    </a> 
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-03-31">31 March 2020</time>
+
+                        <h3 class="newsitem-headline">COVID-19 update</h3>
+                        <p class="newsitem-p">
+                            Open Knowledge Maps continues its work during the pandemic, albeit in a fully remote setting and at lower capacity to accommodate the needs of our team members in these trying times.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            Our enthusiast <a href="https://www.serdarbalci.com/" target="_blank" class="underline">Serdar Balci</a> has created a great PubMed query to find research related to COVID-19, SARS-CoV-2 and 2019-nCoV.
+
+                            Check out his query and the <a href="https://openknowledgemaps.org/map/54fc08a6e8f059ae89df4d38b0093720" target="_blank" class="underline">resulting map</a> below. 
+
+                            If you are looking to stay on top of the latest research, you can use the same query with the "most recent" option (see <a href="https://openknowledgemaps.org/map/292a4cfb70b62753b6e3a7cc96b047ad" target="_blank" class="underline">here</a> for an example).
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            Should you have any specific needs with respect to your research on the coronavirus, we encourage you to <a href="./getintouch" target="_blank", class="underline">get in touch</a>.
+                            The Open Knowledge Maps team wishes you all good health during this pandemic ❤️ <strong>#StayStrong</strong>
+                        </p>
+
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/map/54fc08a6e8f059ae89df4d38b0093720" target="_blank">
+                              Check out the map
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
+                <article class="newsitem">
                     <a name="job-opportunity-frontend-dev" class="anchor"></a>
                     <a href="https://openknowledgemaps.org/doc/job-frontend-dev.pdf" target="_blank">
                         <img style="width:100%;" src="img/newsletter/wehire.png" alt="">
@@ -33,7 +71,7 @@
    
                     <div class="newsitem-text">
 
-                        <time datetime="2019-03-11">11 March 2020</time> - <span style="color:#e55137;">Pinned Post 📌</span>
+                        <time datetime="2019-03-11">11 March 2020</time> <!--- <span style="color:#e55137;">Pinned Post 📌</span>-->
 
                         <h3 class="newsitem-headline">Job opportunity: Frontend developer (f/x/m) in Vienna</h3>
 
