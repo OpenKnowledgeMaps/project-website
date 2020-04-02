@@ -24,6 +24,49 @@
                 </div>
             </div>
             
+             <div class="newscollection">
+                
+                <article class="newsitem">
+                    <a name="supporting-member-vul" class="anchor"></a>
+                    <a href="https://bibliothek.univie.ac.at/en/" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/uni-wien.png" alt="">
+                    </a> 
+   
+                    <div class="newsitem-text">
+
+                        <time datetime="2019-04-02">2 April 2020</time>
+
+                        <h3 class="newsitem-headline">New supporting member: Vienna University Library</h3>
+
+                        <p class="newsitem-p">
+                            We are delighted to announce that Vienna University Library (VUL), Austria's largest library and the oldest university library in the German-speaking area, has joined Open Knowledge Maps as a supporting member.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            Brigitte Kromp, Head of Central Library for Physics and Chemistry at VUL, says: 
+                        </p> 
+                        
+                        <blockquote class="newsitem-blockquote"><em>"The Vienna University Library is a long-standing advocate of Open Access and Open Science among University affiliates, but also nationally and globally. In order to provide the best possible services in these areas, we deem it absolutely critical to support innovative and visionary infrastructures such as arXiv, the DOAJ, OLH and now Open Knowledge Maps. We are delighted to be able to contribute to Open Knowledge Maps' sustainability, and, thusly, to its long-term independence."</em>
+                            <span class="blockquote-citation">HR Mag. Brigitte Kromp, Head of Central Library for Physics and Chemistry, Vienna University Library</span>
+                        </blockquote>
+                        
+                        <p class="newsitem-p">
+                            VUL joins <a href="https://openknowledgemaps.org/team#supporting-members" target="_blank" class="underline">a growing list of organisations</a> in the Open Knowledge Maps supporting membership program, a model to sustain the world's largest visual search engine for research.  Supporting members provide a yearly contribution and in return, they are invited to co-create the platform with us. In an annual crowdsourcing process, they have one third of the vote on what features and sources are implemented on Open Knowledge Maps. 
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            We warmly welcome VUL and we invite further organisations to join and shape the future of discovery together with us. For more information about the supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>.
+                        </p>
+
+                        <a class="newsitem-button" href="https://bibliothek.univie.ac.at/en/" target="_blank">
+                            More about Vienna University Library
+                        </a>
+
+                        
+                    </div>
+                </article>
+            </div>
+            
             <div class="newscollection">
                 <article class="newsitem">
                     <a name="covid-update" class="anchor"></a>
