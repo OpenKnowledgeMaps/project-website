@@ -2477,10 +2477,6 @@ time {
 
 @media screen and (max-width: 1340px) {
 
-    .newsitem-headline {
-        font-size: 16px;
-    }
-
     .imglogo {
         margin-top: 0px;
     }
@@ -2662,6 +2658,10 @@ time {
 
     .vision p {
         font-size: 14px;
+    }
+    
+    .newsitem-headline {
+        font-size: 16px;
     }
 
     .newsitem-p, .newsitem-button, blockquote, .become-enthusiast, .newsitem-blockquote, .newsitem-blockquote-single, .abstract {
