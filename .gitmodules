@@ -1,3 +1,6 @@
 [submodule "headstart"]
 	path = headstart
 	url = https://github.com/OpenKnowledgeMaps/Headstart
+[submodule "covis"]
+	path = covis
+	url = https://github.com/OpenKnowledgeMaps/CoVis
