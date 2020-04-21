@@ -89,7 +89,7 @@
                         </p>
 
                         <p class="newsitem-p">
-                            In addition to their role as ambassadors, the enthusiasts provide translations for our training materials and innovative use cases of our software.
+                            In addition to their role as ambassadors, the enthusiasts provide translations for our training materials and innovative use cases of our software (see for example <a href="https://openknowledgemaps.org/news#covid-update" class="underline">this coronavirus map</a> by Serdar Balci).
                             Find out more about our enthusiasts and the program itself here: <a href="https://openknowledgemaps.org/community" class="underline">https://openknowledgemaps.org/community</a>
                         </p>
 
