@@ -4,24 +4,39 @@
     <head>
         <base href="<?php echo $SITE_URL ?>">
         <?php
-        $id = (isset($_GET['id']) && $_GET['id'] !== "") ? ($_GET['id']) : ("zika");
+        $id_get = filter_input(INPUT_GET, "id", FILTER_SANITIZE_STRING);
+        $id = ($id_get !== false && $id_get !== null && $id_get !== "") ? ($id_get) : ("zika");
 
         $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
         
-        $canonical_url = "$protocol//openknowledgemaps.org/map/$id";
+        $custom_title = filter_input(INPUT_GET, "custom_title", FILTER_SANITIZE_STRING);
+        $has_custom_title = ($custom_title !== false && $custom_title !== null)?(true):(false);
+        
+        $embed_get = filter_input(INPUT_GET, "embed", FILTER_VALIDATE_BOOLEAN);
+        $is_embed = ($embed_get !== null)?($embed_get):(false);
+        
+        $canonical_url = "$protocol//openknowledgemaps.org/map/$id" 
+                . (($has_custom_title)?(urlencode("custom_title=" . $custom_title)):(""));
 
         $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
         $context = json_decode($context_json);
 
         $query = (isset($context) && $context->query !== null) ? ($context->query) : ("zika");
         $query = preg_replace("/\\\\\"/", "&quot;", $query);
+        $query = preg_replace("/\\\'/", "&apos;", $query);
+        
+        $citation = "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth(($has_custom_title)?($custom_title):($query), 0, 100, "[..]") .". " 
+    . "Retrieved from " . '<a href="' . $canonical_url . '">' . $canonical_url . '</a>'
+    . " [" . date ("d M Y") . "].";
 
         $credit = "";
 
         $service_name = "";
 
         $service = (isset($context) && substr($context->service, 0, 4) !== "PLOS") ? ($context->service) : ("plos");
-
+        
+        $query_description = ($has_custom_title)?("This map has a custom title and was created using the following query: <b>$query</b>"):('');
+        
         if ($service == "plos") {
             $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
             echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
@@ -63,7 +78,7 @@
     </head>
 
     <body class="vis">
-        <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
+        <?php if (!$is_embed): ?>
         
             <?php include ($COMPONENTS_PATH . "header.php"); ?>
 
@@ -117,7 +132,7 @@
 
                 var div_height = calcDivHeight();
 
-                <?php if (!isset($_GET['embed']) || $_GET['embed'] === 'false'): ?>
+                <?php if (!$is_embed): ?>
                     $(".overflow-vis").css("min-height", div_height + "px")
                     $("#visualization").css("min-height", div_height + "px")
                 
@@ -146,8 +161,15 @@
             
             <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
             <link rel="stylesheet" href="./css/main.css">
+        
+        <?php if($has_custom_title): ?>
+            <script>
+                data_config.create_title_from_context_style = "custom";
+                data_config.custom_title = "<?php echo $custom_title?>";
+            </script>          
+        <?php endif; ?>
             
-        <?php if (isset($_GET['embed']) && $_GET['embed'] === 'true'): ?>
+        <?php if ($is_embed): ?>
             <script>
                 data_config.credit_embed = true;
                 data_config.canonical_url = "<?php echo $canonical_url; ?>";
