@@ -4,11 +4,7 @@
 <div class="cite-map">
     <p>Please cite this map as follows:
     <div class="citation">
-        <?php echo 
-    "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth($query, 0, 100, "[..]") .". " 
-    . "Retrieved from " . '<a href="' . $canonical_url . '">' . $canonical_url . '</a>'
-    .  "/ [" . date ("d M Y") . "]."; 
-        ?>
+        <?php echo $citation ?>
     </div>
 </div>
 <!--<div id="faulty-map">Not what you expected? 
