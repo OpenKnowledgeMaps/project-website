@@ -62,10 +62,10 @@
         }
 
         $override_labels = array(
-            "tweet-text" => "Check out this visual overview of research on $query by @OK_Maps!"
-            , "title" => "Overview of research on $query - Open Knowledge Maps"
+            "tweet-text" => "Check out this visual overview of research on " . (($has_custom_title)?($custom_title):($query)) . " by @OK_Maps!"
+            , "title" => "Overview of research on " . (($has_custom_title)?($custom_title):($query)) . " - Open Knowledge Maps"
             , "app-name" => "Open Knowledge Maps"
-            , "description" => "Get an overview of $query, find relevant papers, and identify important concepts."
+            , "description" => "Get an overview of " . (($has_custom_title)?($custom_title):($query)) . ", find relevant papers, and identify important concepts."
             , "twitter-type" => "summary_large_image"
             , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
             , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
