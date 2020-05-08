@@ -47,10 +47,9 @@
                 <p>Österreich</p>
 
                 <h3>Vereinszweck</h3>
-                <p>Der Verein bezweckt, wissenschaftliches Wissen für alle Mitglieder der Gesellschaft auffindbar und
-                    nutzbar zu machen und die daraus gewonnenen Erkenntnisse mit anderen zu teilen. Der Verein verfolgt 
-                    ausschließlich und unmittelbar gemeinnützige Ziele und ist nicht gewinnorientiert ausgerichtet. Der 
-                    Verein ist politisch und konfessionell unabhängig und handelt danach.</p>
+                <p>Der Verein, dessen Tätigkeit nicht auf Gewinn gerichtet ist, bezweckt die Förderung der Allgemeinheit auf den Gebieten der Wissenschaft und Forschung sowie der Schul- und Erwachsenenbildung (Volksbildung) mit den Schwerpunkten offener Zugang zu Wissenschaft (Open Science), neue Technologien zum Transfer von Wissen, offene, wiederverwendbare Infrastruktur (Open Infrastructure, im speziellen Open Discovery Infrastructure), Wissenskuratierung, -strukturierung und -verwaltung, interdisziplinäres Denken sowie Qualität, Effizienz und Effektivität in Forschung und bei praktischer Anwendung wissenschaftlicher Erkenntnisse.<br>
+                Der Verein verfolgt ausschließlich und unmittelbar gemeinnützige Ziele und ist nicht gewinnorientiert ausgerichtet. Der Verein ist politisch und konfessionell unabhängig und handelt danach.
+                </p>
 
                 <h3>Organschaftliche Vertreter</h3>
                 <p>Obmann: Dr. Peter Kraker<br>
@@ -117,10 +116,9 @@
                 <p>Austria</p>
 
                 <h3>Purpose of the association</h3>
-                <p>The purpose of the association is to enable all members of society to find and reuse scientific knowledge, 
-                    and to share the insights gained in this process with others. The association exclusively and directly 
-                    pursues charitable objectives and is a non-profit. The association is politically and confessionally 
-                    independent and acts accordingly.</p>
+                <p>The association, which is a nonprofit organisation, aims to benefit the general public in the fields of science and research as well as formal education and adult education (popular education) with a focus on open access to science (Open Science), new technologies for the transfer of knowledge, open, reusable infrastructure (Open Infrastructure, in particular Open Discovery Infrastructure), knowledge curation, knowledge organisation and knowledge management, interdisciplinary thinking as well as quality, efficiency and effectiveness in research and in the practical application of scientific knowledge.<br>
+                The association exclusively and directly pursues charitable goals and is not profit-oriented. The association is politically and denominationally independent and acts accordingly.
+                </p>
 
                 <h3>Open Knowledge Maps Board</h3>
                 <p>Chairman: Dr. Peter Kraker<br>
