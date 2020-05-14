@@ -164,7 +164,7 @@
                 </div>
 
                 <div id="partnerdiv" style="padding-bottom: 0px; padding-top: 20px;">
-                    <h2>cateogry "Sustaining Members PLUS"</h2>
+                    <h2>Category "Sustaining Members PLUS"</h2>
                     <div class="partners">
                         <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
                     </div>

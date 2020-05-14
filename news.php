@@ -43,7 +43,7 @@
                         <p class="newsitem-p">
                             Our enthusiast <a href="https://www.serdarbalci.com/" target="_blank" class="underline">Serdar Balci</a> has created a great PubMed query to find research related to COVID-19, SARS-CoV-2 and 2019-nCoV.
 
-                            Check out his query and the <a href="https://openknowledgemaps.org/map/54fc08a6e8f059ae89df4d38b0093720" target="_blank" class="underline">resulting map</a> below. 
+                            Check out his query and the resulting map <a href="https://openknowledgemaps.org/map/54fc08a6e8f059ae89df4d38b0093720" target="_blank" class="underline">here</a>. 
 
                             If you are looking to stay on top of the latest research, you can use the same query with the "most recent" option (see <a href="https://openknowledgemaps.org/map/292a4cfb70b62753b6e3a7cc96b047ad" target="_blank" class="underline">here</a> for an example).
                         </p>
