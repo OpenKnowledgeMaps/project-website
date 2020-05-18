@@ -64,7 +64,7 @@
             
             <div class="newscollection">
                 <article class="newsitem">
-                    <a name="openpublishingfest" class="anchor"></a>
+                    <a name="opf-call-for-contributions" class="anchor"></a>
                     <a href="https://openpublishingfest.org/calendar.html#event-178" target="_blank">
                         <img style="width:100%;" src="img/newsletter/opf.png" alt="">
                     </a> 
@@ -84,17 +84,17 @@ Covid-19 has exposed a host of issues with the current scholarly communication s
                         </p>
                         
                         <p class="newsitem-p">
-                            The two-hour online event will be divided into three sections: we will kick off with reports from researchers, librarians and practitioners on real-life discovery workflows in the Covid-19 pandemic and the problems associated with it. Second, <strong>we invite open infrastructures and open source toolmakers to present potential solutions.</strong> Third, we will host a discussion on what is needed from a systemic point of view to overcoming the discoverability crisis.
+                            The two-hour online event will be divided into three sections: we will kick off with reports from researchers, librarians and practitioners on real-life discovery workflows in the Covid-19 pandemic and the problems associated with it. Second, we invite open infrastructures and open source toolmakers to present potential solutions. Third, we will host a discussion on what is needed from a systemic point of view to overcoming the discoverability crisis.
                         </p>
                         
                         <p class="newsitem-p">
-                            We invite contributions to all three parts. Those interested in either
+                            <strong>We invite contributions to all three parts. Those interested in either</strong>
                         </p>
                         
                         <ul class="news-list">
-                            <li>(1) giving a report on current discovery workflows,</li>
-                            <li>(2) presenting a tool or infrastructure, or</li> 
-                            <li>(3) giving a short input on the systemic problems of discovery,</li>
+                            <li><strong>(1) giving a report on current discovery workflows,</strong></li>
+                            <li><strong>(2) presenting a tool or infrastructure, or</strong></li> 
+                            <li><strong>(3) giving a short input on the systemic problems of discovery,</strong></li>
                         </ul>
                         
                         <p class="newsitem-p">
