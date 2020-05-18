@@ -2191,6 +2191,11 @@ time {
     color: black;
 }
 
+.news-list {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
 .newsitem-blockquote {
     font-size: 20px;
     margin-bottom: 30px;
@@ -2664,7 +2669,7 @@ time {
         font-size: 16px;
     }
 
-    .newsitem-p, .newsitem-button, blockquote, .become-enthusiast, .newsitem-blockquote, .newsitem-blockquote-single, .abstract {
+    .newsitem-p, .news-list, .newsitem-button, blockquote, .become-enthusiast, .newsitem-blockquote, .newsitem-blockquote-single, .abstract {
         font-size: 14px;
     }
 
