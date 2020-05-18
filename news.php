@@ -33,7 +33,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-03-31">31 March 2020</time> <span style="color:#e55137;">Pinned Post 📌</span>
+                        <time datetime="2020-03-31">31 March 2020</time> <span style="color:#e55137;">Pinned Post 📌</span>
 
                         <h3 class="newsitem-headline">COVID-19 update</h3>
                         <p class="newsitem-p">
@@ -61,6 +61,62 @@
                     </div>
                 </article>
             </div>
+            
+            <div class="newscollection">
+                <article class="newsitem">
+                    <a name="openpublishingfest" class="anchor"></a>
+                    <a href="https://openpublishingfest.org/calendar.html#event-178" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/opf.png" alt="">
+                    </a> 
+
+                    <div class="newsitem-text">
+
+                        <time datetime="2020-03-31">18 May 2020</time>
+
+                        <h3 class="newsitem-headline">Call for Contributions: "Overcoming the Discoverability Crisis"</h3>
+                        
+                        <p class="newsitem-p">
+Covid-19 has exposed a host of issues with the current scholarly communication system, also with regard to the discoverability of scientific knowledge. Many research groups have pivoted to coronavirus research without prior experience or adequate preparation. They were immediately confronted with having to identify relevant knowledge from unfamiliar (sub-)disciplines, while needing to keep up with the rapid growth of data and publications. Both challenges currently pose big problems for researchers, leading to delays, duplicated work, and findings that are based on questionable results. Observing the many shortcomings of discovery workflows in the course of Covid-19 confirms that discoverability itself is in crisis.
+                        </p>
+
+                        <p class="newsitem-p">
+                            That’s why Open Knowledge Maps and <a href="https://refigure.org/ReFigure" target="_blank" class="underline">Refigure</a> are hosting an Open Publishing Fest session entitled “Overcoming the discoverability crisis”. On <strong>May 27th at 10:00 EDT (=16:00 CEST, 21:00 WIB)</strong>, we want to discuss the issues and challenges, but also highlight various discovery approaches that have emerged in the course of the Covid-19 pandemic (or already before). In particular, we want to showcase the potential of open infrastructures for the development of innovative discovery solutions.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            The two-hour online event will be divided into three sections: we will kick off with reports from researchers, librarians and practitioners on real-life discovery workflows in the Covid-19 pandemic and the problems associated with it. Second, <strong>we invite open infrastructures and open source toolmakers to present potential solutions.</strong> Third, we will host a discussion on what is needed from a systemic point of view to overcoming the discoverability crisis.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            We invite contributions to all three parts. Those interested in either
+                        </p>
+                        
+                        <ul class="news-list">
+                            <li>(1) giving a report on current discovery workflows,</li>
+                            <li>(2) presenting a tool or infrastructure, or</li> 
+                            <li>(3) giving a short input on the systemic problems of discovery,</li>
+                        </ul>
+                        
+                        <p class="newsitem-p">
+                            <strong>please send a brief outline on the proposed contribution to Peter Kraker (<a href="mailto:pkraker@openknowledgemaps.org" class="underline">pkraker@openknowledgemaps.org</a>) until May 22nd.</strong>
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            Depending on the number of interested contributors, we may have to cap the number of presentations at a certain point. We will, however, provide a collaborative document where everyone can give their input. For more information on the event, please visit <a href="https://openpublishingfest.org/calendar.html#event-178" target="_blank" class="underline">https://openpublishingfest.org/calendar.html#event-178</a>. The link to the video conference will be announced there in due course. 
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            
+                        </p>
+
+                        <a class="newsitem-button" href="https://openpublishingfest.org/calendar.html#event-178" target="_blank">
+                            Find out more about the event
+                        </a>
+
+
+                    </div>
+                </article>
+            </div>
 
             <div class="newscollection">
 
@@ -72,7 +128,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-04-20">20 April 2020</time>
+                        <time datetime="2020-04-20">20 April 2020</time>
 
                         <h3 class="newsitem-headline">Meet our 2020 enthusiasts</h3>
 
@@ -115,7 +171,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-04-02">2 April 2020</time>
+                        <time datetime="2020-04-02">2 April 2020</time>
 
                         <h3 class="newsitem-headline">New supporting member: Vienna University Library</h3>
 
@@ -157,7 +213,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-03-11">11 March 2020</time> 
+                        <time datetime="2020-03-11">11 March 2020</time> 
 
                         <h3 class="newsitem-headline">Job opportunity: Frontend developer (f/x/m) in Vienna</h3>
 
@@ -192,7 +248,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-02-26">26 February 2020</time>
+                        <time datetime="2020-02-26">26 February 2020</time>
 
                         <h3 class="newsitem-headline">Announcing a new partnership with eLife</h3>
 
@@ -235,7 +291,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-02-21">21 February 2020</time>
+                        <time datetime="2020-02-21">21 February 2020</time>
 
                         <h3 class="newsitem-headline">Membership spotlight: Ludwig Boltzmann Gesellschaft</h3>
 
@@ -275,7 +331,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-02-20">20 February 2020</time>
+                        <time datetime="2020-02-20">20 February 2020</time>
 
                         <h3 class="newsitem-headline">Membership spotlight: Copernicus Publications</h3>
 
@@ -314,7 +370,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-02-19">19 February 2020</time>
+                        <time datetime="2020-02-19">19 February 2020</time>
 
                         <h3 class="newsitem-headline">Membership spotlight:  Academy of Fine Arts Vienna</h3>
 
@@ -353,7 +409,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-02-18">18 February 2020</time>
+                        <time datetime="2020-02-18">18 February 2020</time>
 
                         <h3 class="newsitem-headline">Membership spotlight:  ZBW – Leibniz Information Centre for Economics</h3>
 
@@ -393,7 +449,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-02-17">17 February 2020</time>
+                        <time datetime="2020-02-17">17 February 2020</time>
 
                         <h3 class="newsitem-headline">Membership spotlight: University Library Bern</h3>
 
@@ -434,7 +490,7 @@
                     </a> 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-01-29">29 January 2020</time>
+                        <time datetime="2020-01-29">29 January 2020</time>
 
                         <h3 class="newsitem-headline">Open Knowledge Maps welcomes new supporting members</h3>
 
@@ -503,7 +559,7 @@
                     </a> 
                     <div class="newsitem-text">
 
-                        <time datetime="2019-01-27">27 January 2020</time>
+                        <time datetime="2020-01-27">27 January 2020</time>
 
                         <h3 class="newsitem-headline">Open Knowledge Maps wins Austrian Prize for Free Knowledge</h3>
 
