@@ -56,7 +56,49 @@
                         <a class="newsitem-button" href="https://openknowledgemaps.org/map/54fc08a6e8f059ae89df4d38b0093720" target="_blank">
                             Check out the map
                         </a>
+                        
+                    </div>
+                </article>
+            </div>
+            
+            <div class="newscollection">
 
+                <article class="newsitem">
+                    <a name="supporting-member-tugraz" class="anchor"></a>
+                    <a href="https://www.tugraz.at/home/" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/tugraz.png" alt="">
+                    </a> 
+
+                    <div class="newsitem-text">
+
+                        <time datetime="2020-06-05">5 June 2020</time>
+
+                        <h3 class="newsitem-headline">New supporting member: TU Graz</h3>
+
+                        <p class="newsitem-p">
+                            We are delighted to announce that TU Graz has joined Open Knowledge Maps as a supporting member.
+                        </p>
+
+                        <p class="newsitem-p">
+                            Ulrike Krießmann, Head of Library and Archive, Graz University of Technology, says: 
+                        </p> 
+
+                        <blockquote class="newsitem-blockquote"><em>"As a longstanding innovator in digital librarianship, we are proud to support one of the most forward-thinking open infrastructures in scholarly communication."</em>
+                            <span class="blockquote-citation">Mag. Dr. Ulrike Krießmann, Head of Library and Archive, Graz University of Technology</span>
+                        </blockquote>
+
+                        <!-- Please check if you want to reuse this bit - if not please delete:
+                        <p class="newsitem-p">
+                            TU Graz joins <a href="https://openknowledgemaps.org/team#supporting-members" target="_blank" class="underline">a growing list of organisations</a> in the Open Knowledge Maps supporting membership program, a model to sustain the world's largest visual search engine for research.  Supporting members provide a yearly contribution and in return, they are invited to co-create the platform with us. In an annual crowdsourcing process, they have one third of the vote on what features and sources are implemented on Open Knowledge Maps. -->
+                        </p>
+
+                        <p class="newsitem-p">
+                            We warmly welcome TU Graz and we invite further organisations to join and shape the future of discovery together with us. For more information about the supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>.
+                        </p>
+
+                        <a class="newsitem-button" href="https://www.tugraz.at/home/" target="_blank">
+                            More about TU Graz
+                        </a>
 
                     </div>
                 </article>
@@ -112,7 +154,6 @@ Covid-19 has exposed a host of issues with the current scholarly communication s
                         <a class="newsitem-button" href="https://openpublishingfest.org/calendar.html#event-178" target="_blank">
                             Find out more about the event
                         </a>
-
 
                     </div>
                 </article>
