@@ -64,8 +64,8 @@
             <div class="newscollection">
 
                 <article class="newsitem">
-                    <a name="supporting-member-tugraz" class="anchor"></a>
-                    <a href="https://www.tugraz.at/home/" target="_blank">
+                    <a name="supporting-member-tugraz-library" class="anchor"></a>
+                    <a href="https://www.tugraz.at/en/tu-graz/services/tu-graz-library/tu-graz-library/" target="_blank">
                         <img style="width:100%;" src="img/newsletter/tugraz.png" alt="">
                     </a> 
 
@@ -73,17 +73,17 @@
 
                         <time datetime="2020-06-05">5 June 2020</time>
 
-                        <h3 class="newsitem-headline">New supporting member: TU Graz</h3>
+                        <h3 class="newsitem-headline">New supporting member: TU Graz Library</h3>
 
                         <p class="newsitem-p">
-                            We are delighted to announce that TU Graz has joined Open Knowledge Maps as a supporting member.
+                            We are delighted to announce that TU Graz Library has joined Open Knowledge Maps as a supporting member. TU Graz Library is a knowledge repository, a place of learning and a modern service department of TU Graz. It is open to the public and supports its users in their research, teaching and studies.
                         </p>
 
                         <p class="newsitem-p">
-                            Ulrike Krießmann, Head of Library and Archive, Graz University of Technology, says: 
+                            Ulrike Krießmann, Head of TU Graz Library, says: 
                         </p> 
 
-                        <blockquote class="newsitem-blockquote"><em>"As a longstanding innovator in digital librarianship, we are proud to support one of the most forward-thinking open infrastructures in scholarly communication."</em>
+                        <blockquote class="newsitem-blockquote"><em>"We share a commitment with Open Knowledge Maps to open up science and transfer knowledge beyond academia. As a longstanding innovator in digital librarianship, as shown by initiatives like the Digital TU Graz project, we are proud to support one of the most forward-thinking open infrastructures in scholarly communication."</em>
                             <span class="blockquote-citation">Mag. Dr. Ulrike Krießmann, Head of Library and Archive, Graz University of Technology</span>
                         </blockquote>
 
@@ -93,11 +93,11 @@
                         </p>
 
                         <p class="newsitem-p">
-                            We warmly welcome TU Graz and we invite further organisations to join and shape the future of discovery together with us. For more information about the supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>.
+                            We warmly welcome TU Graz Library and we invite further organisations to join and shape the future of discovery together with us. For more information about the supporting membership program, please <a class="underline" href="https://openknowledgemaps.org/supporting-membership" target="_blank">click here</a>.
                         </p>
 
-                        <a class="newsitem-button" href="https://www.tugraz.at/home/" target="_blank">
-                            More about TU Graz
+                        <a class="newsitem-button" href="https://www.tugraz.at/en/tu-graz/services/tu-graz-library/tu-graz-library/" target="_blank">
+                            More about TU Graz Library
                         </a>
 
                     </div>
