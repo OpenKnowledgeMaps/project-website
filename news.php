@@ -71,7 +71,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2020-06-05">5 June 2020</time>
+                        <time datetime="2020-06-09">9 June 2020</time>
 
                         <h3 class="newsitem-headline">New supporting member: TU Graz Library</h3>
 
