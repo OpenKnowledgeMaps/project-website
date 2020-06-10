@@ -700,7 +700,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .topheader {
-    padding-top:88px;
+    padding-top: 88px !important;
 }
 
 .hoverlink:hover {
@@ -1402,7 +1402,7 @@ a .number:hover {
 }
 
 .donation-image a:hover {
-    opacity: 0.1;
+    opacity: 0.4;
 }
 
 .donation-text {
@@ -1428,7 +1428,6 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     border: 2px solid #51c9ae;
     color:white; 
     background-color: #51c9ae;
-
     font-weight:300;
     text-decoration: none;
 }
@@ -1453,6 +1452,26 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 .donate-now:hover, .donate-now:active, .donate-now:focus {
     color:#2d3e52;
     background-color: transparent;
+}
+
+.covis-banner .donation-image, .covis-banner .donation-text {
+    vertical-align: middle !important;
+}
+
+.covis-banner .donate-now { 
+    border: 2px solid #1e6662;
+    background-color: #1e6662;
+}
+
+.covis-banner .donate-now:hover, .covis-banner .donate-now:active, .covis .donate-now:focus {
+    color:#1e6662;
+    background-color: transparent;
+}
+
+.covis-banner .donation-image {
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
 }
 
 .donation-image-mobile {
