@@ -16,7 +16,7 @@
             <div class="background2 bg2">
                 <div class="team">
                     <h2 style="color: #2d3e52;">Our Team</h2>
-                    <p>We are a charitable non-profit organization run by a dedicated core team in Vienna with contributions from volunteers around the world.</p>
+                    <p>We are a charitable non-profit organization run by a dedicated core team based in Vienna with contributions from volunteers around the world.</p>
                 </div>
             </div>
 
@@ -42,7 +42,7 @@
                         <img src="./img/team/maxi.png" alt="Maxi Schramm">
                         <ul>
                             <li class="name">Maxi Schramm</li>
-                            <li class="job-title">UX/UI Designer & Treasurer</li>
+                            <li class="job-title">UX Designer & Treasurer</li>
                             <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna</li>
                         </ul>
 
@@ -64,7 +64,19 @@
                             <li><a class="contact-icon" target="_blank" href="http://www.christopherkittel.eu/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
+                    
+                    <div class="member">
+                        <img src="./img/team/jan.png" alt="Jan Konstant">
+                        <ul>
+                            <li class="name">Jan Konstant</li>
+                            <li class="job-title">Frontend Developer</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna</li>
+                        </ul>
 
+                        <ul class="contact-member">
+                            <li><a class="contact-icon" target="_blank" href="mailto:jkonstant@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
 
                     <div class="member">
                         <img src="./img/team/scott.png" alt="Scott Chamberlain">
