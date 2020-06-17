@@ -2658,6 +2658,10 @@ time {
     .icon-menu {
         display: inline-block;
     }
+    
+    header {
+        padding: 0px 0px;
+    }
 
     .nav_top {
         display:none;
@@ -2672,10 +2676,14 @@ time {
     .member-text {
         max-width: 100%;
     }
+    
+    .topheader {
+        padding-top:60px !important;
+    }
 }
 
 @media screen and (max-width: 960px) {
-
+    
     .getintouch {  
         text-align: left;
     }
@@ -2727,16 +2735,8 @@ time {
         display: block;
     }
 
-    .topheader {
-        padding-top:77px !important;
-    }
-
     .imglogo {
         display:none;
-    }
-
-    header {
-        padding: 12px 0px;
     }
 
     .background1 {
