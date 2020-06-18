@@ -700,7 +700,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 }
 
 .topheader {
-    padding-top:88px;
+    padding-top: 88px !important;
 }
 
 .hoverlink:hover {
@@ -1402,7 +1402,7 @@ a .number:hover {
 }
 
 .donation-image a:hover {
-    opacity: 0.1;
+    opacity: 0.4;
 }
 
 .donation-text {
@@ -1428,7 +1428,6 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     border: 2px solid #51c9ae;
     color:white; 
     background-color: #51c9ae;
-
     font-weight:300;
     text-decoration: none;
 }
@@ -1453,6 +1452,43 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 .donate-now:hover, .donate-now:active, .donate-now:focus {
     color:#2d3e52;
     background-color: transparent;
+}
+
+.covis-banner .donation-image, .covis-banner .donation-text {
+    vertical-align: middle !important;
+}
+
+.covis-banner .donate-now { 
+    font-size: 16px;
+    /*border: 2px solid #1e6662;
+    background-color: #1e6662;*/
+}
+/*
+.covis-banner .donate-now:hover, .covis-banner .donate-now:active, .covis .donate-now:focus {
+    color:#1e6662;
+    background-color: transparent;
+}*/
+
+.covis-banner .donation-image {
+    background-image: url(../img/link.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+.covis-banner .donation-text {
+    max-width: 70%;
+    font-size: 16px;
+}
+
+.covis-banner {
+    background-color: #eff3f4; 
+    text-align: center;
+}
+
+.banner-headline {
+    text-align: left; 
+    text-transform: none; 
+    line-height: 120%;
 }
 
 .donation-image-mobile {
@@ -2625,6 +2661,10 @@ time {
     .icon-menu {
         display: inline-block;
     }
+    
+    header {
+        padding: 0px 0px;
+    }
 
     .nav_top {
         display:none;
@@ -2639,10 +2679,14 @@ time {
     .member-text {
         max-width: 100%;
     }
+    
+    .topheader {
+        padding-top:60px !important;
+    }
 }
 
 @media screen and (max-width: 960px) {
-
+    
     .getintouch {  
         text-align: left;
     }
@@ -2694,16 +2738,8 @@ time {
         display: block;
     }
 
-    .topheader {
-        padding-top:77px;
-    }
-
     .imglogo {
         display:none;
-    }
-
-    header {
-        padding: 12px 0px;
     }
 
     .background1 {
@@ -2791,6 +2827,17 @@ time {
     .icon-description {
         display: block;
         width: 100%;
+    }
+    
+    .mobile-donation-banner {
+        display: block;
+        padding: 20px;
+        /*border: 2px solid #f29e00;*/
+        max-width: 100%;
+    }
+
+    .desktop-donation-banner {
+        display: none;
     }
 
 }
@@ -3119,17 +3166,6 @@ time {
         padding-bottom: 0px;
     }
 
-    .mobile-donation-banner {
-        display: block;
-        padding: 10px;
-        border: 2px solid #f29e00;
-        max-width: 100%;
-    }
-
-    .mobile-donation-banner.display {
-        display: none;
-    }
-
     .desktop-donation-banner.display {
         display: none;
     }
@@ -3169,7 +3205,7 @@ time {
     }
 
     .topheader {
-        padding-top: 53px;
+        padding-top: 53px !important;
     }
 
     .search-box {

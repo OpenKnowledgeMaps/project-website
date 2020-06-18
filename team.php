@@ -13,6 +13,7 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
         <div id="team">
+            <?php include('./components/covis_banner.php'); ?>
             <div class="background2 bg2">
                 <div class="team">
                     <h2 style="color: #2d3e52;">Our Team</h2>

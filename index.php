@@ -26,6 +26,7 @@
         ?>
 
         <a name="top"></a>
+        
         <a style="padding-top:160px;" name="search"></a>
         <?php include($COMPONENTS_PATH . 'search-box.php') ?>
 
