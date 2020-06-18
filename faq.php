@@ -14,7 +14,8 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
 
-        <div id="news">  
+        <div id="news">
+            <?php include('./components/covis_banner.php'); ?>
             <div class="headerimage"><img src="./img/faq-mobil.png"></div>
             <div class="background2">
                 <div class="team">

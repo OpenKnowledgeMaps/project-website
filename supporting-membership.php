@@ -12,7 +12,8 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
         <div id="news">
-            <div class="background2" style="background-color: #eff3f4;">
+            <?php include('./components/covis_banner.php'); ?>
+            <div class="background2" style="background-color: white;"> <!--style="background-color: #eff3f4;"-->
                 <div class="team">
                     <h2 style="color: #2d3e52;">
                         Supporting Membership for Organizations

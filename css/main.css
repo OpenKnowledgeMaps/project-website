@@ -1473,6 +1473,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     background-image: url(../img/link.png);
     background-repeat: no-repeat;
     background-position: 50%;
+    max-width: 20%;
 }
 
 .covis-banner .donation-text {

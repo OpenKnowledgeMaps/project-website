@@ -24,6 +24,42 @@
                 </div>
             </div>
             
+            
+            <div class="newscollection">
+                <article class="newsitem">
+                    <a name="covid-update" class="anchor"></a>
+                    <a href="https://openknowledgemaps.org/covis" target="_blank">
+                        <img style="width:100%;" src="img/newsletter/covis-tool.jpg" alt="">
+                    </a> 
+
+                    <div class="newsitem-text">
+
+                        <time datetime="2020-06-23">23 June 2020</time> <span style="color:#e55137;">Pinned Post</span>
+
+                        <h3 class="newsitem-headline">COVID-19: New tool "CoVis" puts coronavirus research on a secure footing</h3>
+                        
+                        <p class="newsitem-p">
+                            For the development of therapeutics and vaccines for COVID-19, scientists need valid knowledge on the coronavirus. But finding reliable research results is often difficult: as the renowned journal "Science" reports in its May issue, scientists are faced with a flood of research articles. With over 20,000 papers published, scientists spend a lot of valuable time reviewing the literature.
+                        </p>
+
+                        <p class="newsitem-p">
+                            The new tool CoVis enables scientists to kick-start their COVID-19 research. In the EU-funded project, experts compile valid research results in a freely accessible database. In addition, a knowledge map provides a quick overview of research articles from nine particularly relevant areas of biomedical research. When key issues are not answered by a single research source, data and images from multiple sources are compiled into a visual dashboard called a ReFigure. CoVis makes it easier to get started on the topic - but also to stay up-to-date. In order to do justice to the rapid development of COVID-19 research, the database is extended regularly by a dedicated team of curators. 
+                        </p>
+
+                        <p class="newsitem-p">
+                           <a href="https://openknowledgemaps.org/covis" target="_blank">
+                        CoVis
+                    </a> was developed in cooperation between Open Knowledge Maps (Austria) and ReFigure (USA). The tool is financially supported by the EU project EOSCsecretariat as part of the COVID-19 Fast-Track Funding.
+                        </p>
+
+                        <a class="newsitem-button" href="https://openknowledgemaps.org/covis" target="_blank">
+                            Try out CoVis
+                        </a>
+                        
+                    </div>
+                </article>
+            </div>
+            
             <div class="newscollection">
                 <article class="newsitem">
                     <a name="covid-update" class="anchor"></a>
@@ -33,7 +69,7 @@
 
                     <div class="newsitem-text">
 
-                        <time datetime="2020-03-31">31 March 2020</time> <span style="color:#e55137;">Pinned Post 📌</span>
+                        <time datetime="2020-03-31">31 March 2020</time> <!--<span style="color:#e55137;">Pinned Post 📌</span>-->
 
                         <h3 class="newsitem-headline">COVID-19 update</h3>
                         <p class="newsitem-p">
