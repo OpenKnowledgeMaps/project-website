@@ -1,8 +1,8 @@
 <div class="covis-banner">
     <div class="mobile-donation-banner">
-        <h3 class="banner-headline"><a target="_blank" class="underline" href="https://openknowledgemaps.org/covis/"><i class="fa fa-bell" style="color: #e65238; font-size: 20px;"></i> CoVis: A new tool to kick-start your COVID-19 literature research</a></h3>
+        <h3 class="banner-headline"><a target="_blank" class="underline" href="https://openknowledgemaps.org/covis/"><i class="fa fa-bell" style="color: #e65238; font-size: 20px;"></i> CoVis: A new tool to discover reliable COVID-19 research</a></h3>
 
-                <p style="padding-top:10px;">For the development of therapeutics and vaccines for COVID-19, scientists need reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a curated &amp; constantly evolving knowledge map of seminal works on COVID-19.
+                <p style="padding-top:10px;">For the development of therapeutics and vaccines for COVID-19, scientists depend on reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a curated &amp; constantly evolving knowledge map of seminal works on COVID-19.
                 <a target="_blank" style="font-weight: 800;" class="underline" href="https://openknowledgemaps.org/covis/">Try out CoVis</a></p>
     </div>
 
@@ -15,9 +15,9 @@
             </div>
 
             <div class="donation-text">
-                <h3 class="banner-headline">CoVis: A new tool to kick-start your COVID-19 literature research</h3>
+                <h3 class="banner-headline">CoVis: A new tool to discover reliable COVID-19 research</h3>
 
-                <p>For the development of therapeutics and vaccines for COVID-19, scientists need reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a curated &amp; constantly evolving knowledge map of seminal works on COVID-19.
+                <p>For the development of therapeutics and vaccines for COVID-19, scientists depend on reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a curated &amp; constantly evolving knowledge map of seminal works on COVID-19.
                 </p> 
                 
                 <p class="try-now" style="text-align:left; margin:20px 0 0;">
