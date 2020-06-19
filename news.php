@@ -78,8 +78,8 @@
         $current_article->appendChild($backlink_div);
         
         $override_labels = array(
-            "title" => $article_properties["title"] . " - Open Knowledge Maps"
-            , "description" => $article_properties["description"]
+            "title" => htmlspecialchars($article_properties["title"], ENT_QUOTES) . " - Open Knowledge Maps"
+            , "description" => htmlspecialchars($article_properties["description"], ENT_QUOTES)
         );
         
         if($article_properties["image"] !== "") {

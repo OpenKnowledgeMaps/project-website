@@ -4,13 +4,12 @@ function getLabel($tag) {
 
     if (isset($override_labels) && isset($override_labels[$tag])) {
         return $override_labels[$tag];
-    } else if (isset($title)) {
+    } else if ($tag === "title" && isset($title)) {
         return $title;
-    } else {
-        if (isset($default_labels[$tag]))
-            return $default_labels[$tag];
-        else
-            return "Not set";
+    } else if (isset($default_labels[$tag])) {
+        return $default_labels[$tag];
+    }  else {
+        return "Not set";
     }
 }
 ?>
