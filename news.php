@@ -1,10 +1,12 @@
 <?php include 'config.php'; ?>
 <?php
+    $ENTRIES_PER_PAGE = 10;
+
     function getElementsByClassName($document, $classname) {
         $finder = new DomXPath($document);
         return $finder->query("//*[contains(concat(' ', normalize-space(@class), ' '), ' $classname ')]");
     }
-    
+       
     function getArticleProperties($article) {
         global $SITE_URL;
         
@@ -56,11 +58,60 @@
 
         }
     }
+    
+    function getPageLink($paginated_nodes, $link, $link_text) {
+        $new_node = $paginated_nodes->createElement("div");
+        $new_node->setAttribute("class", "news-backlink");
+        $backlink = $paginated_nodes->createElement("a", $link_text);
+        $backlink->setAttribute("class", "underline");
+        $backlink->setAttribute("href", $link);
+        $new_node->appendChild($backlink);
+        return $new_node;
+    }
+    
+    function getPaginatedEntries($document, $page) {
+        global $ENTRIES_PER_PAGE;
+        
+        $nodes = getElementsByClassName($document, "newscollection");
+        $paginated_nodes = new DOMDocument('1.0', 'UTF-8');
+        
+        $page_nulled = $page - 1;
+        $nodes_start = $page_nulled * $ENTRIES_PER_PAGE;
+        $nodes_length = ($ENTRIES_PER_PAGE * $page < $nodes->count())
+                            ? ($ENTRIES_PER_PAGE * $page)
+                            : ($nodes->count());
+        
+        for ($i = $nodes_start; $i < $nodes_length; $i++) {
+            $new_node = $nodes->item($i)->cloneNode(true);
+            $imported_node = $paginated_nodes->importNode($new_node, true);
+            
+            if ($imported_node) {
+                $paginated_nodes->appendChild($imported_node);
+            }
+        }
+        
+        if ($ENTRIES_PER_PAGE * $page < $nodes->count()) {
+            $previous_articles = getPageLink($paginated_nodes, "news?page=".($page + 1), "<- Show previous articles");
+            $paginated_nodes->appendChild($previous_articles);
+        }
+        
+        if ($page !== 1) {
+            $newer_articles = getPageLink($paginated_nodes, "news?page=".($page - 1), "Show newer articles ->");
+            $paginated_nodes->appendChild($newer_articles);
+        }
+        
+        
+        return $paginated_nodes;
+    }
 
     $document = new DOMDocument();
     @$document->loadHTMLFile($COMPONENTS_PATH . "newsentries.html");
 
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_STRING);
+    $page = filter_input(INPUT_GET, 'page', FILTER_SANITIZE_STRING);
+    if($page === null) {
+        $page = 1;
+    }
     
     $single_entry = $id !== null;
     $current_article = null;
@@ -89,6 +140,7 @@
         }
     } else {
         addLinksToTitles($document);
+        $paginated_doc = getPaginatedEntries($document, $page);
     }
     
     ?>
@@ -127,7 +179,7 @@
                     echo $document->saveHTML($current_article);
                     
                 } else {
-                    echo $document->saveHTML();
+                    echo $paginated_doc->saveHTML();
                 }
             ?>
         </div>
