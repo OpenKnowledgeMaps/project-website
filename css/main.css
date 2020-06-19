@@ -1508,7 +1508,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 /*ABOUT*/
 #about-page, #news {
     background-color: white;
-    padding-top: 80px;
+    padding-top: 88px;
 }
 
 #about-page {
@@ -2617,7 +2617,7 @@ time {
     }
 
     #team, #about-page, #news {
-        padding-top: 70px;
+        padding-top: 60px;
     }
     .mittig {
         margin: 50px auto 0;
