@@ -1544,6 +1544,14 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     font-size: 26px;
 }
 
+.newstitle-link:hover {
+                text-decoration: underline;
+            }
+            
+.news-backlink {
+    text-align: center;
+}
+
 #more-info .vision h2 {
     font-size: 20px;
 }

@@ -13,5 +13,7 @@ ErrorDocument 404 /404.php
 RewriteRule ^maps/([^/\.]*)$ vis.php?id=$1 [L,QSA,NC]
 RewriteRule ^map/([^/\.]*)$ vis.php?id=$1 [L,QSA,NC]
 
+RewriteRule ^news/([0-9]+)/([0-9]+)/([0-9]+)/([^/]+)$ news.php?year=$1&month=$2&day=$3&id=$4 [L,QSA,NC]
+
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteRule ^([^.]+)$ $1.php [NC,L]
