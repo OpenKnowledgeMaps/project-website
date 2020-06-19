@@ -11,7 +11,7 @@
 
             <div class="donation-image">
                 <a  target="_blank" href="https://openknowledgemaps.org/covis/">
-                    <img src="./img/project-examples/covis-banner.png" alt='Check out CoVis a knowledge base for Covid-19 research curated by subject-matter experts'></a>
+                    <img src="./img/project-examples/covis-teaser.png" alt='Check out CoVis a knowledge base for Covid-19 research curated by subject-matter experts'></a>
             </div>
 
             <div class="donation-text">
