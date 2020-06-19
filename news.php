@@ -27,29 +27,35 @@
             
             <div class="newscollection">
                 <article class="newsitem">
-                    <a name="covid-update" class="anchor"></a>
+                    <a name="announcing-covis" class="anchor"></a>
                     <a href="https://openknowledgemaps.org/covis" target="_blank">
                         <img style="width:100%;" src="img/newsletter/covis-tool.jpg" alt="">
                     </a> 
 
                     <div class="newsitem-text">
 
-                        <time datetime="2020-06-23">23 June 2020</time> <span style="color:#e55137;">Pinned Post</span>
+                        <time datetime="2020-06-23">23 June 2020</time> <span style="color:#e55137;">📌 Pinned Post</span>
 
-                        <h3 class="newsitem-headline">COVID-19: New tool "CoVis" puts coronavirus research on a secure footing</h3>
+                        <h3 class="newsitem-headline">Announcing CoVis - a new tool to discover reliable COVID-19 research</h3>
                         
                         <p class="newsitem-p">
-                            For the development of therapeutics and vaccines for COVID-19, scientists need valid knowledge on the coronavirus. But finding reliable research results is often difficult: as the renowned journal "Science" reports in its May issue, scientists are faced with a flood of research articles. With over 20,000 papers published, scientists spend a lot of valuable time reviewing the literature.
+                            For the development of therapeutics and vaccines for COVID-19, scientists depend on valid knowledge on the coronavirus. But finding reliable research results is often difficult: with over 20,000 papers published on the topic, scientists spend a lot of valuable time reviewing the literature.
                         </p>
 
                         <p class="newsitem-p">
-                            The new tool CoVis enables scientists to kick-start their COVID-19 research. In the EU-funded project, experts compile valid research results in a freely accessible database. In addition, a knowledge map provides a quick overview of research articles from nine particularly relevant areas of biomedical research. When key issues are not answered by a single research source, data and images from multiple sources are compiled into a visual dashboard called a ReFigure. CoVis makes it easier to get started on the topic - but also to stay up-to-date. In order to do justice to the rapid development of COVID-19 research, the database is extended regularly by a dedicated team of curators. 
+                            Today, we are excited to announce the release of CoVis: a curated knowledge map of seminal works on COVID-19. Developed in collaboration with our partner <a href="https://refigure.org" target="_blank" class="underline">ReFigure</a>, CoVis provides a quick overview of research articles from eight particularly relevant areas of biomedical research. When key issues are not answered by a single research source, data and images from multiple sources are compiled into a visual dashboard called a ReFigure. 
                         </p>
 
                         <p class="newsitem-p">
-                           <a href="https://openknowledgemaps.org/covis" target="_blank">
+                           <a href="https://openknowledgemaps.org/covis" target="_blank" class="underline">
                         CoVis
-                    </a> was developed in cooperation between Open Knowledge Maps (Austria) and ReFigure (USA). The tool is financially supported by the EU project EOSCsecretariat as part of the COVID-19 Fast-Track Funding.
+                    </a> makes it easier to get started on the topic - but also helps you to stay up-to-date. In order to do justice to the rapid development of COVID-19 research, the database is extended regularly by a dedicated team of curators led by immunologists and ReFigure founders Dr. Girija Goyal and Dr. James Akin. 
+                           We are also inviting subject-matter experts to contribute to CoVis. Find out more about <a href="covis/contact-us" target="_blank" class="underline">the contribution process here</a>.
+                        </p>
+                        
+                        <p class="newsitem-p">
+                            The tool is financially supported by the EU project <a href="https://eoscsecretariat.eu" target="_blank" class="underline">EOSCSecretariat</a> as part of the COVID-19 Fast-Track Funding.
+                            For the further information, please see the full press release. As always, we look forward to your input and feedback!
                         </p>
 
                         <a class="newsitem-button" href="https://openknowledgemaps.org/covis" target="_blank">
