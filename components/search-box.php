@@ -229,7 +229,7 @@
                 changeLibrary();
                 
                 if (search_term_focus) {
-                    $("#searchterm").focus();
+                    document.getElementById("searchterm").focus({preventScroll: true});
                 }
             })
             
