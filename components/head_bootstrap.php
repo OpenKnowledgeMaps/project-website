@@ -1,1 +1,1 @@
-<link rel="stylesheet" href="./lib/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo $LIB_PATH ?>bootstrap.min.css">

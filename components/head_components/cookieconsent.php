@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="./lib/cookieconsent.min.css" />
-<script src="./lib/cookieconsent.min.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo $LIB_PATH ?>cookieconsent.min.css" />
+<script src="<?php echo $LIB_PATH ?>cookieconsent.min.js"></script>
 <script>
 
 <?php if ($BROWSER_LANG === "de") { ?>

@@ -7,7 +7,7 @@
     We strongly suggest <strong>to switch to one of the supported browsers.</strong>
 
 </div>
-<script type="text/javascript" src="./lib/browser-detect.js"></script>
+<script type="text/javascript" src="<?php echo $LIB_PATH ?>browser-detect.js"></script>
 <script>
     var browser = BrowserDetect.browser;
     if (!(browser === "Firefox" || browser === "Safari" || browser === "Chrome")) {
