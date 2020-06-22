@@ -1,5 +1,5 @@
 <div class="covis-banner">
-    <div class="mobile-donation-banner">
+    <div class="mobile-covis-banner">
         <h3 class="banner-headline"><a target="_blank" class="underline" href="./covis/"><i class="fa fa-bell" style="color: #e65238; font-size: 20px;"></i> CoVis: A new tool to discover reliable COVID-19 research</a></h3>
 
                 <p style="padding-top:10px;">For the development of therapeutics and vaccines for COVID-19, scientists depend on reliable research results. To support them, Open Knowledge Maps and ReFigure have launched CoVis: a curated &amp; constantly evolving knowledge map of seminal works on COVID-19.
@@ -9,7 +9,7 @@
     <div class="desktop-donation-banner" style="background-color: #eff3f4;">
         <div style="max-width:1200px; margin:0px auto 0;">
 
-            <div class="donation-image">
+            <div class="covis-banner-image">
                 <a  target="_blank" href="./covis/">
                     <img src="./img/project-examples/covis-teaser.png" alt='Check out CoVis a knowledge base for Covid-19 research curated by subject-matter experts'></a>
             </div>
