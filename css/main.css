@@ -1545,11 +1545,13 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .newstitle-link:hover {
-                text-decoration: underline;
-            }
-            
+    text-decoration: underline;
+}
+
 .news-backlink {
     text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
 }
 
 #more-info .vision h2 {
@@ -2227,6 +2229,7 @@ time {
     line-height: 120%;
     margin-bottom: 16px;
     color: #2c3e52;
+    text-transform: none;
 }
 
 .newsitem-p {
@@ -2670,7 +2673,7 @@ time {
     .icon-menu {
         display: inline-block;
     }
-    
+
     header {
         padding: 0px 0px;
     }
@@ -2688,14 +2691,14 @@ time {
     .member-text {
         max-width: 100%;
     }
-    
+
     .topheader {
         padding-top:60px !important;
     }
 }
 
 @media screen and (max-width: 960px) {
-    
+
     .getintouch {  
         text-align: left;
     }
@@ -2720,12 +2723,12 @@ time {
     .vision p {
         font-size: 14px;
     }
-    
+
     .newsitem-headline {
         font-size: 16px;
     }
 
-    .newsitem-p, .news-list, .newsitem-button, blockquote, .become-enthusiast, .newsitem-blockquote, .newsitem-blockquote-single, .abstract {
+    .newsitem-p, .news-list, .newsitem-button, blockquote, .become-enthusiast, .newsitem-blockquote, .newsitem-blockquote-single, .abstract, .news-backlink {
         font-size: 14px;
     }
 
@@ -2837,7 +2840,7 @@ time {
         display: block;
         width: 100%;
     }
-    
+
     .mobile-donation-banner {
         display: block;
         padding: 20px;
@@ -2938,7 +2941,7 @@ time {
     .membership #more-info .vision {
         max-width: 100%;
     }
-    
+
     .logo-links {
         display: block;
     }
@@ -3385,7 +3388,7 @@ time {
 }
 
 @media screen and (max-width: 470px) {
-    
+
     .membership .partners img {
         max-height: 40px;
         padding: 10px;
@@ -3396,7 +3399,7 @@ time {
         max-height: 80px !important;
         padding: !important;
     }
-    
+
     /*TODO: fix this so that the full item is in view */
     .anchor {
         height: 44px;
