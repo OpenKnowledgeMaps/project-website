@@ -1382,7 +1382,7 @@ a .number:hover {
     margin-bottom: 0px;
     padding-bottom: 20px;
     padding-left: 50px;
-    background-color: white;
+    /*background-color: white;*/
     border: 2px solid #f29e00;
     color: black;
 }
@@ -1394,8 +1394,8 @@ a .number:hover {
 }
 
 .donation-image {
-    background-image: url(../img/donate-now-bg.png);
-    display:inline-block; 
+    /*background-image: url(../img/donate-now-bg.png);*/
+    display: inline-block; 
     max-width:25%; 
     vertical-align:top; 
     margin-right:30px;
@@ -1459,7 +1459,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .covis-banner .donate-now { 
-    font-size: 16px;
+    font-size: 16px !important;
     /*border: 2px solid #1e6662;
     background-color: #1e6662;*/
 }
@@ -1470,7 +1470,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }*/
 
 .covis-banner .donation-image {
-    background-image: url(../img/link.png);
+    background-image: url(../img/link.png) !important;
     background-repeat: no-repeat;
     background-position: 50%;
     max-width: 20%;
