@@ -61,13 +61,25 @@
     @$document->loadHTMLFile($COMPONENTS_PATH . "newsentries.html");
 
     $id = filter_input(INPUT_GET, 'id', FILTER_SANITIZE_STRING);
-    
-    $single_entry = $id !== null;
-    $current_article = null;
+    $year = filter_input(INPUT_GET, 'year', FILTER_SANITIZE_NUMBER_INT);
+    $month = filter_input(INPUT_GET, 'month', FILTER_SANITIZE_NUMBER_INT);
+    $day = filter_input(INPUT_GET, 'day', FILTER_SANITIZE_NUMBER_INT);
+  
+    $current_article = $document->getElementById($id);
+    $single_entry = ($id !== null && $current_article !== null);
     
     if($single_entry) {
         $current_article = $document->getElementById($id);
         $article_properties = getArticleProperties($current_article);
+        if($year === null || $month === null || $day === null) {
+            try {
+                @header("Location: http://localhost/project-website/news/"
+                        . $article_properties["year"] . "/" . $article_properties["month"]
+                        . "/" . $article_properties["day"] . "/" . $id);
+            } catch (Exception $e) {
+                error_log("Failed rewriting header of single news article. Please remove newlines at the end of your config.php.");
+            }
+        }
         
         $backlink_div = $document->createElement("div");
         $backlink_div->setAttribute("class", "news-backlink");
@@ -95,6 +107,16 @@
 <!DOCTYPE HTML>
 <html lang="en">
     <head>
+        <script>
+            //Replace old-style hash news entry designations
+            let article_id = location.hash.replace('#', '');
+            if(article_id !== '') {
+                location.replace(location.protocol + '//' 
+                            + location.host + location.pathname 
+                            + '?id=' + article_id);
+            }
+        </script>
+        
         <base href="<?php echo $SITE_URL ?>">
         <?php $title = "News - Open Knowledge Maps"; ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
