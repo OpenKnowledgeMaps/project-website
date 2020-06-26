@@ -73,7 +73,7 @@
         $article_properties = getArticleProperties($current_article);
         if($year === null || $month === null || $day === null) {
             try {
-                @header("Location: http://localhost/project-website/news/"
+                @header("Location: " . parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH) . "/"
                         . $article_properties["year"] . "/" . $article_properties["month"]
                         . "/" . $article_properties["day"] . "/" . $id);
             } catch (Exception $e) {
