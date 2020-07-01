@@ -43,7 +43,13 @@
     </script>
 <?php endif; ?>
     
-<?php if ($PIWIK_ENABLED) { ?>
+<?php 
+    if ($PIWIK_ENABLED) {
+        
+        $piwik_site_id = 
+            (isset($PIWIK_SITE_ID) && $PIWIK_SITE_ID !== null)
+            ? ($PIWIK_SITE_ID)
+            : ("1"); ?>
 
     <!-- Matomo -->
     <script type="text/javascript">
@@ -54,7 +60,7 @@
         (function () {
             var u = "<?php echo $SITE_URL . $PIWIK_PATH ?>";
             _paq.push(['setTrackerUrl', u + 'piwik.php']);
-            _paq.push(['setSiteId', '1']);
+            _paq.push(['setSiteId', '<?php echo $piwik_site_id ?>']);
             var d = document, g = d.createElement('script'), s = d.getElementsByTagName('script')[0];
             g.type = 'text/javascript';
             g.async = true;
