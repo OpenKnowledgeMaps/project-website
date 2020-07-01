@@ -1,5 +1,6 @@
 <?php
-
+# IMPORTANT: For the news entry URL rewrite to work, do not add more than one
+# newline to the end of your config.php file!
 
 $SITE_URL = "//localhost/project-website/";
 $HEADSTART_URL = $SITE_URL . "headstart/";
