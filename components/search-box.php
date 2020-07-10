@@ -56,12 +56,12 @@
         </div>
             <p class="try-out-maps">Try out: 
                 <span class="map-examples base">
-                    <a class="underline" target="_blank" href="./map/df6a58e07f66344e42a5a5d1aa54bb66">sugar</a> 
-                    <a class="underline" target="_blank" href="./map/685deae1c00a6c5ca9fe91fdef67229c">digital education </a>
+                    <a class="underline" target="_blank" href="./map/aa9750e49a9e9139baf2ff37af17a8c4">"climate change impact"</a> 
+                    <a class="underline" target="_blank" href="./map/530133cf1768e6606f63c641a1a96768">digital education</a>
                 </span>
                 <span class="map-examples pubmed" style="display:none">
-                    <a class="underline" target="_blank" href="./map/feb3c2d3c7e9a61a5ccbe9ddf9e96ced">heart disease</a> 
-                    <a class="underline" target="_blank" href="./map/381c96aded59683bb14cbe047cb6f701">dental hygiene </a>
+                    <a class="underline" target="_blank" href="./map/9c13731dc8cd3de25b4eb29cd8c55244">covid-19</a> 
+                    <a class="underline" target="_blank" href="./map/96a8f56b533aac696e9f3ea67713ed0a">"climate change"</a>
                 </span>
             </p>
     </form>
