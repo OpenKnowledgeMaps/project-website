@@ -56,8 +56,8 @@
         </div>
             <p class="try-out-maps">Try out: 
                 <span class="map-examples base">
-                    <a class="underline" target="_blank" href="./map/aa9750e49a9e9139baf2ff37af17a8c4">"climate change impact"</a> 
                     <a class="underline" target="_blank" href="./map/530133cf1768e6606f63c641a1a96768">digital education</a>
+                    <a class="underline" target="_blank" href="./map/aa9750e49a9e9139baf2ff37af17a8c4">"climate change impact"</a> 
                 </span>
                 <span class="map-examples pubmed" style="display:none">
                     <a class="underline" target="_blank" href="./map/9c13731dc8cd3de25b4eb29cd8c55244">covid-19</a> 
