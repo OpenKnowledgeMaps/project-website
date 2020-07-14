@@ -3,7 +3,30 @@ if (session_status() == PHP_SESSION_NONE) {
     session_start();
 }
 
-include 'config.php' 
+include 'config.php';
+
+// This fixes a bug in iOS Safari where an inactive tab would forget the post 
+// parameters - usually when the user opens a different tab while waiting for
+// a map to be created.
+if(isset($_POST["q"])) {
+    $_SESSION['post'] = $_POST;
+} else if(isset($_SESSION['post'])) {
+    $_POST = $_SESSION['post'];
+}
+
+if(!empty($_POST)) {
+    $post_array = $_POST;
+    $date = new DateTime();
+    $post_array["today"] = $date->format('Y-m-d');
+
+    $dirty_query = $post_array["q"];
+    $post_array["q"] = addslashes(trim(strtolower(strip_tags($dirty_query))));
+
+    $unique_id = md5(json_encode($post_array));
+    $post_array["unique_id"] = $unique_id;
+
+    $post_data = json_encode($post_array);
+}
 
 ?>
 <!DOCTYPE HTML>
@@ -38,122 +61,45 @@ include 'config.php'
 
         </style>
 
-        <script type="text/javascript">
-<?php
-if(isset($_POST["q"])) {
-    $_SESSION['post'] = $_POST;
-} else if(isset($_SESSION['post'])) {
-    $_POST = $_SESSION['post'];
-}
+    </head>
 
-if(!empty($_POST)) {
-    $post_array = $_POST;
-    $date = new DateTime();
-    $post_array["today"] = $date->format('Y-m-d');
+    <body class="about-page search-waiting-page">
 
-    $dirty_query = $post_array["q"];
-    $post_array["q"] = addslashes(trim(strtolower(strip_tags($dirty_query))));
+        <?php include($COMPONENTS_PATH . 'header_light.php'); ?>
 
-    $unique_id = md5(json_encode($post_array));
-    $post_array["unique_id"] = $unique_id;
+        <a name="top"></a>
 
-    $post_data = json_encode($post_array);
+        <a style="padding-top:160px;" name="search"></a>
 
-    echo "var post_data = " . $post_data . ";\n";
-    echo 'var unique_id = "' . $unique_id . '";';
-}
-?>
-    
-            var script = "";
-            var vis_page = "";
-            var service = "<?php echo (isset($_GET["service"])?($_GET["service"]):("")) ?>";
+        <div class="background-lamp gif">
+             <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
 
-            var tick_interval = 1;
-            var tick_increment = 2;
-            var milliseconds = 500;
+            <div id="progress" class="mittig">
+                <h3 class="visualize">Your knowledge map on <span id="search_term"></span> is being created!</h3>
+
+                <div id="progressbar"></div>
+
+                <p id="status" class="animated-ellipsis">Please be patient, this takes about 20 seconds.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div id="discover" style="margin-top:-75px;">
             
-            var search_request = null;
-            var search_aborted = false;
+            <!-- this stream is STATIC -->
+        <?php
+        $COMMENT_TITLE = "What our users say";
+        $COMMENT_IMAGES_URL = "./img/comments/";
+        include($COMPONENTS_PATH . 'commentstream.php');
+        ?>
+            
+        </div>
 
-            switch (service) {
-                case "doaj":
-                    script = "searchDOAJ.php";
-                    break;
-
-                case "plos":
-                    script = "searchPLOS.php";
-                    milliseconds = 600;
-                    break;
-
-                case "pubmed":
-                    script = "searchPubmed.php";
-                    milliseconds = 800;
-                    break;
-
-                case "base":
-                    script = "searchBASE.php";
-                    milliseconds = 800;
-                    break;
-
-                default:
-                    script = "searchDOAJ.php"
-            }
-
-            search_request = 
-                    $.ajax({
-                        url: "<?php echo $HEADSTART_URL ?>server/services/" + script,
-                        type: "POST",
-                        data: post_data,
-                        dataType: "json",
-                        timeout: 120000,
-
-                    })
-
-                    .done(function (output) {
-
-                        if (output.status == "success") {
-
-                            redirectToMap(output.id);
-
-                        } else {
-                            clearFallbackInterval();
-                            
-                            let search_string = "";
-                            
-                            try {
-                                search_string = unboxPostData(post_data, service);
-                            } catch(e) {
-                                console.log("An error ocurred when creating the search string");
-                            }
-
-                            $("#progress").html("Sorry! We could not create a knowledge map for your search term. Most likely there were not enough results."
-                                    + ((search_string !== "")
-                                        ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")) + "</a> or <a href=\"index.php\">go back and try again.</a>")
-                                        :("<br> Please <a href=\"index.php\">go back and try again.</a>"))
-                                    + "<br><br>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>");
-
-                        }
-
-                    })
-
-                    .fail(function (xhr, status, error) {
-                        
-                        //do not carry out if request is aborted
-                        if(search_aborted)
-                            return;
-                        
-                        clearFallbackInterval();
-
-                        console.log("error");
-                        if(xhr.status === 0) {
-                            $("#progress")
-                                    .html('Error connecting to the server. It seems that you have lost your Internet connection or the connection was reset. You can try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.');
-                        } else {
-                            $("#progress").html("Sorry! Something went wrong. Please <a href=\"index.php\">try again</a> in a few minutes. <br><br>If the error persists, please let us know at <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>.");
-                        }
-
-                    })
-                    
+        <script>
+            //Everything related to the request
+            
             function fallbackCheck() {
                 $.getJSON("<?php echo $HEADSTART_URL ?>server/services/getLastVersion.php?vis_id=" + unique_id,
                             function(output) {
@@ -165,7 +111,8 @@ if(!empty($_POST)) {
             }
             
             function clearFallbackInterval () {
-                if(check_fallback_interval !== null) {
+                if(typeof check_fallback_interval !== 'undefined' 
+                        && check_fallback_interval !== null) {
                     window.clearInterval(check_fallback_interval);
                 }
             }
@@ -238,82 +185,159 @@ if(!empty($_POST)) {
                 });
                 return doctypes_string;
             }
+            
+            var getSearchTermShort = function (search_term) {
+                return search_term.length > max_length_search_term_short 
+                            ? search_term.substr(0, max_length_search_term_short) + "..." 
+                            : search_term;
+            }
+            
+            function writeSearchTerm(search_term_short) {
+                $('#search_term').text(search_term_short);
+            }
+            
+            function executeSearchRequest(script, post_data, service) {
+                $.ajax({
+                        url: "<?php echo $HEADSTART_URL ?>server/services/" + script,
+                        type: "POST",
+                        data: post_data,
+                        dataType: "json",
+                        timeout: 120000,
 
+                    })
+
+                    .done(function (output) {
+
+                        if (output.status == "success") {
+
+                            redirectToMap(output.id);
+
+                        } else {
+                            clearFallbackInterval();
+                            
+                            let search_string = "";
+                            
+                            try {
+                                search_string = unboxPostData(post_data, service);
+                            } catch(e) {
+                                console.log("An error ocurred when creating the search string");
+                            }
+
+                            $("#progress").html("Sorry! We could not create a knowledge map for your search term. Most likely there were not enough results."
+                                    + ((search_string !== "")
+                                        ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")) + "</a> or <a href=\"index.php\">go back and try again.</a>")
+                                        :("<br> Please <a href=\"index.php\">go back and try again.</a>"))
+                                    + "<br><br>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>");
+
+                        }
+
+                    })
+
+                    .fail(function (xhr, status, error) {
+                        
+                        //do not carry out if request is aborted
+                        if(search_aborted)
+                            return;
+                        
+                        clearFallbackInterval();
+
+                        console.log("error");
+                        if(xhr.status === 0) {
+                            $("#progress")
+                                    .html('Error connecting to the server. It seems that you have lost your Internet connection or the connection was reset. You can try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.');
+                        } else {
+                            $("#progress").html("Sorry! Something went wrong. Please <a href=\"index.php\">try again</a> in a few minutes. <br><br>If the error persists, please let us know at <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>.");
+                        }
+
+                    })
+            
+            }
+            
+            <?php
+                if(isset($post_data)) {
+                    echo "var post_data = " . $post_data . ";\n";
+                }
+                
+                if(isset($unique_id)) {
+                    echo 'var unique_id = "' . $unique_id . '";';
+                }
+            ?>
+            
+            //If the page is called without any data, redirect to index page
+            if(typeof post_data === "undefined") {
+                redirectToIndex();
+            }
+
+            var script = "";
+            var vis_page = "";
+            var service = "<?php echo (isset($_GET["service"])?($_GET["service"]):("")) ?>";
+            var milliseconds = 500;
+
+            var search_aborted = false;
+
+            switch (service) {
+                case "doaj":
+                    script = "searchDOAJ.php";
+                    break;
+
+                case "plos":
+                    script = "searchPLOS.php";
+                    milliseconds = 600;
+                    break;
+
+                case "pubmed":
+                    script = "searchPubmed.php";
+                    milliseconds = 800;
+                    break;
+
+                case "base":
+                    script = "searchBASE.php";
+                    milliseconds = 800;
+                    break;
+
+                default:
+                    script = "searchDOAJ.php"
+            }
+
+            const max_length_search_term_short = 115;
+            var search_term = getPostData(post_data, "q", "string");
+            var search_term_short = getSearchTermShort(search_term);
+
+            writeSearchTerm(search_term_short);
+
+            executeSearchRequest(script, post_data, service);
+
+            var check_fallback_interval = null;
+            var check_fallback_timeout = 
+                            window.setTimeout(function () {
+                                check_fallback_interval = window.setInterval(fallbackCheck, 4000);
+                            }, 10000);
         </script>
+        
+        <script>
+            // Everything related to the progress bar
 
-
-    </head>
-
-    <body class="about-page search-waiting-page">
-
-        <?php include($COMPONENTS_PATH . 'header_light.php'); ?>
-
-        <a name="top"></a>
-
-        <a style="padding-top:160px;" name="search"></a>
-
-        <div class="background-lamp gif">
-             <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
-
-            <div id="progress" class="mittig">
-                <h3 class="visualize">Your knowledge map is being created!</h3>
-
-                <div id="progressbar"></div>
-
-                <p id="status" class="animated-ellipsis">Please be patient, this takes about 20 seconds.
-                </p>
-
-            </div>
-
-        </div>
-
-        <div id="discover" style="margin-top:-75px;">
-            
-            <!-- this stream is STATIC -->
-        <?php
-        $COMMENT_TITLE = "What our users say";
-        $COMMENT_IMAGES_URL = "./img/comments/";
-        include($COMPONENTS_PATH . 'commentstream.php');
-        ?>
-            
-        </div>
-
-        <script type="text/javascript">
-
-            $("#progressbar").progressbar();
-            $("#progressbar").progressbar("value", 2);
-
-            var tick_function = function () {
+            function tick_function() {
 
                 var value = $("#progressbar").progressbar("option", "value");
-
                 value += tick_increment;
-
                 $("#progressbar").progressbar("option", "value", value);
-
                 progessbar_timeout = window.setTimeout(tick_function, tick_interval * milliseconds);
 
                 if (value >= 100) {
-
                     $("#status").html("<span style='color:red'>Creating your visualization takes longer than expected. Please stay tuned!</span>")
-
                     $("#progressbar").progressbar("value", 5);
-
                 }
 
             };
-
+            
+            var tick_interval = 1;
+            var tick_increment = 2;
+            
+            $("#progressbar").progressbar();
+            $("#progressbar").progressbar("value", 2);
+                       
             var progessbar_timeout = window.setTimeout(tick_function, tick_interval * milliseconds);
-            var check_fallback_interval = null;
-            var check_fallback_timeout = 
-                window.setTimeout(function () {
-                                    check_fallback_interval = window.setInterval(fallbackCheck, 4000);
-                                }, 10000);
-                                
-            $(document).ready(function() {
-                if(typeof post_data === "undefined") {
-                    redirectToIndex();
-                }
-            })
-
+           
         </script>
+                                                
