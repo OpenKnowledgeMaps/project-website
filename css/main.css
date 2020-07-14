@@ -1943,6 +1943,10 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 /*SEARCH PHP*/
+.nodisplay {
+    display: none;
+}
+
 .waitforit {
     font-size: 30px;
     color:#2d3e52;
