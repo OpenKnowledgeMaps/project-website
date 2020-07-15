@@ -682,9 +682,12 @@ var SearchOptions = {
                 , nonSelectedText: "No " + entity
                 , nSelectedText: entity
                 , buttonWidth: width
-                , numberDisplayed: 2
                 , maxHeight: 250
                 , includeSelectAllOption: true
+                , numberDisplayed: function () {
+                    let is_multiple = $(dropdown_class).prop("multiple");
+                    return is_multiple ? 0 : 1;
+                }()
                 , onChange: function (element, checked) {
                     if (checked === true) {
                         if(dropdown_class === ".dropdown_multi_time_range") {
