@@ -86,7 +86,10 @@ if(!empty($_POST)) {
                 break;
             
             case "pubmed":
-                $params_array = array("from", "to", "sorting", "article_types");
+                $params_array = array("from", "to", "sorting");
+                if(isset($post_array["article_types"])) {
+                    $params_array[] = "article_types";
+                }
                 break;
             
             case "doaj":
