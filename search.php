@@ -43,31 +43,6 @@ if(!empty($_POST)) {
         include($COMPONENTS_PATH . 'head_headstart.php');
         ?>
 
-        <script>
-            //Set JavaScript values influenced by PHP & error code translations
-            const error_code_translation =
-                    {
-                        
-                    }
-            
-            <?php
-                if(isset($post_data)) {
-                    echo "var post_data = " . $post_data . ";\n";
-                }
-                
-                if(isset($unique_id)) {
-                    echo 'var unique_id = "' . $unique_id . '";';
-                }
-                
-                $service_get = filter_input(INPUT_GET, "service", FILTER_SANITIZE_STRING);
-                $service = (isset($service_get)?($service_get):(""))
-                
-            ?>
-            
-            var service = "<?php echo $service ?>";
-            
-        </script>
-
         <style>
 
             .ui-widget-header {
@@ -130,6 +105,61 @@ if(!empty($_POST)) {
         ?>
             
         </div>
+        
+        <script>
+            const error_texts = {
+                not_enough_results: {
+                    title: "Sorry! We could not create a knowledge map for your search term(s)."
+                    , reason: "Most likely there were not enough results. You can <a href=\"index.php\">go back and try again.</a>"
+                    , remedy: "Here are some tips:"
+                    , more_info: 'You can <a id="more-info-link_na" target="_blank">check out your search on <span id="more-info-link_service"></span></a>'
+                    , contact: 'If you think that there is something wrong with our site, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                },
+                connection_error: {
+                    title: "Error connecting to the server."
+                    , reason: "It seems that you have lost your Internet connection or the connection was reset."
+                    , remedy: 'You can try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
+                    
+                },
+                server_error: {
+                    title: "Sorry! Something went wrong."
+                    , reason: "Please <a href=\"index.php\">try again</a> in a few minutes."
+                    , remedy: "If the error persists, please let us know at <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>."
+                    
+                },
+                no_post_data: {
+                    title: "Your search request did not contain any data."
+                    , reason: 'Please use the search box on the <a class="underline" href="index">index page</a> to search/create a map. You will be redirected there in 10 seconds.'
+                    , contact: 'If you think that there is something wrong with our site, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    
+                }
+            }
+            
+            //Set JavaScript values influenced by PHP & error code translations
+            const error_code_translation = {
+                        'timeframe too short': 'Increase your time range'
+                        , 'query length': 'Shorten your query'
+                        , 'too specific': 'Use more general search terms'
+                        , 'typo': 'Check if you have a typo in your query'
+            }
+            
+            <?php
+                if(isset($post_data)) {
+                    echo "var post_data = " . $post_data . ";\n";
+                }
+                
+                if(isset($unique_id)) {
+                    echo 'var unique_id = "' . $unique_id . '";';
+                }
+                
+                $service_get = filter_input(INPUT_GET, "service", FILTER_SANITIZE_STRING);
+                $service = (isset($service_get)?($service_get):(""))
+                
+            ?>
+            
+            var service = "<?php echo $service ?>";
+            
+        </script>
 
         <script>
             // Everything related to the request to the server
@@ -230,13 +260,32 @@ if(!empty($_POST)) {
                             } catch(e) {
                                 console.log("An error ocurred when creating the search string");
                             }
-
-                            $("#error-title").html("Sorry! We could not create a knowledge map for your search term. Most likely there were not enough results."
-                                    + ((search_string !== "")
-                                        ?("<br> You can <a href=\"" + search_string + "\" target=\"_blank\">check out your search on " + ((service === "base") ? ("BASE") : ("PubMed")) + "</a> or <a href=\"index.php\">go back and try again.</a>")
-                                        :("<br> Please <a href=\"index.php\">go back and try again.</a>"))
-                                    + "<br><br>If you think that there is something wrong with our site, please let us know at <br><a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>");
-
+                            
+                            let current_error_texts = error_texts.not_enough_results;
+                            
+                            setErrorTitle(current_error_texts.title);
+                            setErrorReason(current_error_texts.reason);
+                            if(output.hasOwnProperty("reason") && output.reason.length > 0) {
+                                let list_array = (Array.isArray(output.reason)) 
+                                                    ? output.reason
+                                                    : [output.reason];
+                                
+                                let list_array_translated = [];
+                                for (let item of list_array) {
+                                    if(error_code_translation.hasOwnProperty(item)) {
+                                        list_array_translated.push(error_code_translation[item]);
+                                    } else {
+                                        console.log("Unrecognized error code: " + item);
+                                    }
+                                }
+                                setErrorRemedy(current_error_texts.remedy, list_array_translated)
+                            }
+                            if(search_string !== "") {
+                                setErrorMoreInfo(current_error_texts.more_info);
+                                $("#more-info-link_na").attr("href", search_string);
+                                $("#more-info-link_service").text((service === "base") ? ("BASE") : ("PubMed"))
+                            }
+                            setErrorContact(current_error_texts.contact)
                         }
 
                     })
@@ -248,13 +297,11 @@ if(!empty($_POST)) {
                             return;
                         
                         errorOccurred();
-
-                        
+ 
                         if(xhr.status === 0) {
-                            $("#error-title")
-                                    .html('Error connecting to the server. It seems that you have lost your Internet connection or the connection was reset. You can try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.');
+                            setErrorTexts(error_texts.connection_error);
                         } else {
-                            $("#error-title").html("Sorry! Something went wrong. Please <a href=\"index.php\">try again</a> in a few minutes. <br><br>If the error persists, please let us know at <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>.");
+                            setErrorTexts(error_texts.server_error);
                         }
 
                     })
@@ -262,8 +309,7 @@ if(!empty($_POST)) {
             }
             
             function redirectToIndex() {
-                $("#error-title")
-                        .html('Your search request did not contain any data. Please use the search box on the <a class="underline" href="index">index page</a> to search/create a map. You will be redirected there in 10 seconds.<br><br>If you think that there is something wrong with our site, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>');
+                setErrorTexts(error_texts.no_post_data);
                 window.setTimeout(function() { window.location = "index"; }, 10000);
                 
             }
@@ -323,6 +369,66 @@ if(!empty($_POST)) {
         <script>
             // Everything related to error messaging apart from translating 
             // error descriptions/possible reasons
+            
+            function setErrorTexts(text_object) {
+                if(text_object.hasOwnProperty("title")) {
+                    setErrorTitle(text_object.title);
+                }
+                if(text_object.hasOwnProperty("reason")) {
+                    setErrorReason(text_object.reason);
+                }
+                if(text_object.hasOwnProperty("remedy")) {
+                    setErrorMoreInfo(text_object.remedy);
+                }
+                if(text_object.hasOwnProperty("more_info")) {
+                    setErrorMoreInfo(text_object.more_info);
+                }
+                if(text_object.hasOwnProperty("title")) {
+                    setErrorContact(text_object.contact);
+                }
+            }
+            
+            function setErrorTitle(html_string) {
+                writeErrorFieldHTML("error-title", html_string);
+            }
+            
+            function setErrorReason(html_string) {
+                writeErrorFieldHTML("error-reason", html_string);
+            }
+            
+            function setErrorRemedy(html_string, list_array) {
+                writeErrorFieldList("error-remedy", list_array, html_string);
+            }
+            
+            function setErrorMoreInfo(html_string) {
+                writeErrorFieldHTML("error-more-info", html_string);
+            }
+            
+            function setErrorContact(html_string) {
+                writeErrorFieldHTML("error-contact", html_string);
+            }
+            
+            function writeErrorFieldHTML(field, html_string) {
+                $("#" + field).html(html_string);
+            }
+            
+            function writeErrorFieldText(field, text_string) {
+                $("#" + field).text(text_string);
+            }
+            
+            function writeErrorFieldList(field, list_array, text) {
+                if(typeof text !== "undefined" && text !== null) {
+                   $("#" + field).append($("<p>", { html: text }))
+                }
+                
+                if(typeof list_array !== "undefined" && list_array !== null) {
+                    let list_id = field + "_list";
+                    $("#" + field).append($("<ul>", { id: list_id }))
+                    for (let item of list_array) {
+                        $("#" + list_id).append($("<li>", { text: item }))
+                    }
+                }
+            }
             
             function unboxPostData(post_data, service) {
                 if (service === "base") {
