@@ -46,16 +46,67 @@ if(isset($_POST["q"])) {
     $_POST = $_SESSION['post'];
 }
 
+function packParamsJSON($params_array, $post_params) {
+
+    if($params_array === null) {
+        return null;
+    }
+
+    $output_array = array();
+
+    foreach ($params_array as $entry) {
+        $current_params = $post_params[$entry];
+        $output_array[$entry] = $current_params;
+    }
+
+    return json_encode($output_array);
+}
+
+function createID($string_array) {
+    $string_to_hash = implode(" ", $string_array);
+    return md5($string_to_hash);
+}
+
 if(!empty($_POST)) {
     $post_array = $_POST;
-    $date = new DateTime();
-    $post_array["today"] = $date->format('Y-m-d');
+    
+    if(!isset($post_array["unique_id"])) {
+        $dirty_query = $post_array["q"];
+        $query = addslashes(trim(strtolower(strip_tags($dirty_query))));
+        
+        $date = new DateTime();
+        $post_array["today"] = $date->format('Y-m-d');
+        
+        $service_get = filter_input(INPUT_GET, "service", FILTER_SANITIZE_STRING);
+        $service = ($service_get !== false && $service_get !== null) ? ($service_get) : ("");
+        $params_array = array();
+        switch ($service) {
+            case "base":
+                $params_array = array("from", "to", "document_types", "sorting");
+                break;
+            
+            case "pubmed":
+                $params_array = array("from", "to", "sorting");
+                if(isset($post_array["article_types"])) {
+                    $params_array[] = "article_types";
+                }
+                break;
+            
+            case "doaj":
+                $params_array = array("from", "to", "today", "sorting");
+                break;
+            
+            case "plos":
+                $params_array = array("article_types", "journals", "from", "to", "sorting");
+                break;
+        }
 
-    $dirty_query = $post_array["q"];
-    $post_array["q"] = addslashes(trim(strtolower(strip_tags($dirty_query))));
+        $params_json = packParamsJSON($params_array, $post_array);
+        $unique_id = createID(array($query, $params_json));
 
-    $unique_id = md5(json_encode($post_array));
-    $post_array["unique_id"] = $unique_id;
+        $post_array["q"] = $query;
+        $post_array["unique_id"] = $unique_id;
+    }
 
     $post_data = json_encode($post_array);
 
