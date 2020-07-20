@@ -30,16 +30,13 @@
         <a style="padding-top:160px;" name="search"></a>
         <?php include($COMPONENTS_PATH . 'search-box.php') ?>
 
-
         <span class="anchor" id="okmmission"></span>
-
         <?php include($COMPONENTS_PATH . 'mission.php') ?>
+
         <?php include($COMPONENTS_PATH . 'featuredin.php') ?>
-
-
+        <?php include($COMPONENTS_PATH . 'integrations.php') ?>
 
         <span class="anchor" id="feedback"></span>
-        <?php include($COMPONENTS_PATH . 'integrations.php') ?>
         <!-- this stream is STATIC -->
         <?php
         $COMMENT_TITLE = "What our users say";
