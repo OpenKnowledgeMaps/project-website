@@ -14,7 +14,6 @@
             , "twitter-image" => "https://openknowledgemaps.org/img/donation-twittercard.png"
             , "fb-image" => "https://openknowledgemaps.org/img/donation-fbcard.png"
         );
-        
         ?>
         <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
@@ -26,7 +25,7 @@
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
-        <div id="about-page">
+        <div id="about-page" style="padding-bottom: 0px;">
 
             <div class="background2">
                 <div class="team">
@@ -37,87 +36,118 @@
                 </div>
             </div>
 
-            <div class="desktop-donation-banner2">
+            <div id="divhow" style="text-align:center;">
 
-                <div class="donation-image-mobile">
-                    <a  target="_blank" href="<?php echo $PAYPAL_URL ?>">
-                        <img src="./img/donation-banner-mobile.png">
-                    </a>
-                </div>
+                <a href="<?php echo $PAYPAL_URL ?>" target="_blank">
+                    <img class="membership-img" style="vertical-align: top;" src="./img/donation-banner.png" alt='Open Knowledge Maps is community owned'>
+                </a>
 
-                <div class="donation-image">
-                    <a  target="_blank" href="<?php echo $PAYPAL_URL ?>">
-                        <img src="./img/donation-banner.png">
-                    </a>
-                </div>
+                <div class="member-text" style="vertical-align: top;">
 
-                <div class="donation-text">
-                    <p>As a charitable non-profit organization, <b>we depend on donations.</b>
+                    <p class="project-facts">
+                        Dear supporter,
                     </p>
-
-                    <p><b>If every user gave 
-                            <span id="currency-donation"><?php echo (($CURRENCY_CODE === "USD")?("$"):("€")); ?>3</span>, 
+                    <p class="project-facts">As a charitable non-profit organization, we depend on donations.
+                        <b>If every user gave 
+                            <span id="currency-donation"><?php echo (($CURRENCY_CODE === "USD") ? ("$") : ("€")); ?>3</span>, 
                             we could run Open Knowledge Maps for a full year.</b>
                     </p>
 
-                    <p>Open Knowledge Maps is the world's largest visual search engine for scientific knowledge. 
-                        Our open, ad-free service is used by hundreds of thousands of people. But we do not want 
-                        to stop there: our goal is to develop Open Knowledge Maps 
-                        <a class="underline" target="_blank" href="https://vimeo.com/188647919">into a collaborative system</a>, 
-                        so that we can all build on top of each others' knowledge.
+                    <p class="project-facts">
+                        Open Knowledge Maps is the world's largest visual search engine for scientific knowledge. 
+                        Our open, ad-free service is used by hundreds of thousands of people.
+                        We hope that you'll consider how useful it is to be able to discover scientific knowledge. 
+                        Not only for a select few, but for everyone on the planet. <!--<b>The price of a coffee is all it takes!</b>-->
                     </p>
 
-                    <p>We hope that you'll consider how useful it is to be able to discover scientific knowledge. 
-                        Not only for a select few, but for everyone on the planet. <b>The price of a coffee is all it takes!</b>
-                    </p>
-
-                    <p>
+                    <p class="project-facts">
                         <b><i class="fa fa-heart" aria-hidden="true"></i> Thank you.</b>
                         <br>Peter, Maxi and Chris from the Open Knowledge Maps board
                     </p>
-                    
-                    
+
+                </div>
+
+                <!--<div class="desktop-donation-banner2">
+    
+                    <div class="donation-image-mobile2">
+                        <a  target="_blank" href="<?php echo $PAYPAL_URL ?>">
+                            <img src="./img/donation-banner-mobile.png">
+                        </a>
+                    </div>
+    
+                    <div class="donation-image3">
+                        <a  target="_blank" href="<?php echo $PAYPAL_URL ?>">
+                            <img src="./img/donation-banner.png">
+                        </a>
+                    </div>
+    
+                    <div class="donation-text">
+                        <p>As a charitable non-profit organization, <b>we depend on donations.</b>
+                        </p>
+    
+                        <p><b>If every user gave 
+                                <span id="currency-donation"><?php echo (($CURRENCY_CODE === "USD") ? ("$") : ("€")); ?>3</span>, 
+                                we could run Open Knowledge Maps for a full year.</b>
+                        </p>
+    
+                        <p>Open Knowledge Maps is the world's largest visual search engine for scientific knowledge. 
+                            Our open, ad-free service is used by hundreds of thousands of people. <!--But we do not want 
+                            to stop there: our goal is to develop Open Knowledge Maps 
+                            <a class="underline" target="_blank" href="https://vimeo.com/188647919">into a collaborative system</a>, 
+                            so that we can all build on top of each others' knowledge.-->
+                <!-- </p>
+
+                 <p>We hope that you'll consider how useful it is to be able to discover scientific knowledge. 
+                     Not only for a select few, but for everyone on the planet. <b>The price of a coffee is all it takes!</b>
+                 </p>
+
+                 <p>
+                     <b><i class="fa fa-heart" aria-hidden="true"></i> Thank you.</b>
+                     <br>Peter, Maxi and Chris from the Open Knowledge Maps board
+                 </p>
+                 
+             </div>
+
+         </div>-->
+
+                <p class="try-now" style="text-align: center; margin:30px 0 0;">
+                    <a target="_blank" class="donate-now" style="" href="<?php echo $PAYPAL_URL ?>">Donate now</a>
+                    <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="close" style="margin-top: 30px;font-size: 14px; float:none; display: block; margin-left:0px; text-decoration: underline;">Remind me later!</a>
+                </p>
+
+                <div class="additional-info">
+                    <p>
+                        <b>Payment:</b> Your donation will be securely processed 
+                        <a  class="underline" target="_blank" href="<?php echo $PAYPAL_URL ?>">via Paypal</a>. You do not need a Paypal account to make a donation. 
+                        <br>You can also make a donation to our bank account directly: Account holder: Open Knowledge Maps, IBAN: AT69 2011 1829 6959 9501, BIC: GIBAATWWXXX
+                    </p>
+
+                    <p>
+                        <b>Receipts:</b> If you want to receive a receipt for your donation, please send us an 
+                        e-mail with your name and address to 
+                        <a  class="underline" target="_blank" href="mailto:donations@openknowledgemaps.org">donations@openknowledgemaps.org</a>
+                    </p>
                 </div>
 
             </div>
-
-            <p class="try-now" style="text-align: center; margin:30px 0 0;">
-                <a target="_blank" class="donate-now" style="" href="<?php echo $PAYPAL_URL ?>">Donate now</a>
-                <a target="_blank" href="http://eepurl.com/dOQynj" id="remind-me-later" class="close" style="margin-top: 30px;font-size: 14px; float:none; display: block; margin-left:0px; text-decoration: underline;">Remind me later!</a>
-            </p>
-
-            <div class="additional-info">
-                <p>
-                    <b>Payment:</b> Your donation will be securely processed 
-                    <a  class="underline" target="_blank" href="<?php echo $PAYPAL_URL ?>">via Paypal</a>. You do not need a Paypal account to make a donation. 
-                    <br>You can also make a donation to our bank account directly: Account holder: Open Knowledge Maps, IBAN: AT69 2011 1829 6959 9501, BIC: GIBAATWWXXX
-                </p>
-
-                <p>
-                    <b>Receipts:</b> If you want to receive a receipt for your donation, please send us an 
-                    e-mail with your name and address to 
-                    <a  class="underline" target="_blank" href="mailto:donations@openknowledgemaps.org">donations@openknowledgemaps.org</a>
-                </p>
-            </div>
-
         </div>
 
         <?php include($COMPONENTS_PATH . 'donation-purposes.php'); ?>
         <?php include($COMPONENTS_PATH . 'donation-alternatives.php'); ?>
-        
+
         <script>
-            $("donation-image-mobile, .donation-image, .donate-now").on("click", function(event) {
+            $("donation-image-mobile, .donation-image, .donate-now").on("click", function (event) {
                 recordAction("Donation", "click-paypal", event.target.className);
             });
 
-            $("#remind-me-later").on("click", function(event) {
+            $("#remind-me-later").on("click", function (event) {
                 recordAction("Donation", "click-reminder", event.target.className);
             });
-            
-            $(".share-button").on("click", function(event) {
+
+            $(".share-button").on("click", function (event) {
                 recordAction("Donation", "click-share", event.target.className);
             });
-    
+
         </script>
-        
+
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>
