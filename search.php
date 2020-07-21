@@ -402,7 +402,7 @@ if(!empty($_POST)) {
             }
 
             const max_length_search_term_short = 115;
-            var search_term = getPostData(post_data, "q", "string");
+            var search_term = getPostData(post_data, "q", "string").replace(/[\\]/g, "");
             var search_term_short = getSearchTermShort(search_term);
 
             writeSearchTerm(search_term_short);
