@@ -113,7 +113,7 @@ if(!empty($_POST)) {
 
         <a style="padding-top:160px;" name="search"></a>
 
-        <div class="background-lamp">
+        <div class="background-lamp" style="background-color: #eff3f4 !important;">
              <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
 
             <div id="progress" class="mittig">
@@ -124,7 +124,8 @@ if(!empty($_POST)) {
 
                     <div id="progressbar"></div>
 
-                    <p id="status" class="animated-ellipsis">Please be patient, this takes about 20 seconds.
+                    <p id="status" class="animated-ellipsis">Please be patient, this can take up to 20 seconds.<br>
+                        While you are waiting, find out how the knowledge map is being created below.
                     </p>
                 </div>
                 
@@ -143,9 +144,12 @@ if(!empty($_POST)) {
 
             </div>
         </div>
+         <?php include($COMPONENTS_PATH . "howitworks.php") ?>
 
-        <div id="discover" style="margin-top:-75px;">
+        <div id="discover">
             
+       
+      
             <!-- this stream is STATIC -->
         <?php
         $COMMENT_TITLE = "What our users say";

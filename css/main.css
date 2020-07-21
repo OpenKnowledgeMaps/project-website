@@ -1999,6 +1999,10 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     margin: 0px;
 }
 
+.search-waiting-page .infohow {
+    border-top: 0px solid #cacfd3;
+}
+
 /**/
 .library {
     font-size: 18px;
