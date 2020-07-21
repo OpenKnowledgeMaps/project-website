@@ -707,17 +707,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     opacity:0.3;
 }
 
-.visualize {
-    font-weight: 800;
-    text-align: left; 
-    padding: 0px;
-    font-size: 26px; 
-    color: #2d3e52; 
-    background-color:transparent; 
-    text-transform: uppercase; 
-    margin: 0px;
-}
-
 .wrapper {
     clear:both;
     position: relative;
@@ -728,27 +717,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     text-align: left;
     height:auto;
     margin: 0px auto 0;    
-} 
-
-.mittig {
-    max-width: 560px;
-    width: 100%;
-    margin: 0px auto;
-    background-color: white;
-    padding: 65px 70px 50px;
-    -webkit-box-shadow: 0px 2px 4px 0px #cacfd3;
-    -moz-box-shadow: 0px 2px 4px 0px #cacfd3;
-    box-shadow: 0px 2px 4px 0px #cacfd3;
-}
-
-.mittig2 {
-    max-width: 560px;
-    width: 100%;
-    margin: 0px auto;
-    background-color: white;
-    padding: 30px 50px;
-    border-radius: 5px;
-    -moz-border-radius: 5px;
 }
 
 .try-out-maps {
@@ -842,8 +810,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     max-width:500px;
 }
 
-
-
 #newsletterdiv #mc_embed_signup div.mce_inline_error {
     background-color: transparent !important;
     color: #e55137 !important;
@@ -884,20 +850,6 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     text-transform: none;
 }
 
-.background-lamp .mittig {
-    width:50%;
-    margin: 0px auto;
-    background-color: transparent;
-    padding: 50px;
-    -webkit-box-shadow: 0px 0px 0px 0px #cacfd3;
-    -moz-box-shadow: 0px 0px 0px 0px #cacfd3;
-    box-shadow: 0px 0px 0px 0px #cacfd3;
-}
-
-.about-page .background-lamp .mittig {
-    padding: 112px 50px;
-}
-
 .background1 {
     background-image: url(../img/start-page1.png);
     background-color: white; /*#f7f7f7;*/
@@ -910,11 +862,10 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 
 .background-lamp {
     background-color: white;
-
     background-image: url(../img/pixellampe_test_50044.png);
     background-repeat: no-repeat; 
     background-size: 80%;
-    text-align: center;
+    /*text-align: center;*/
     padding: 88px 0px;
     background-position: 50%;
 }
@@ -1163,10 +1114,6 @@ strong {
     background-color: transparent;
     color: #2d3e52;
     font-weight: 800;
-}
-
-.background-lamp .visualize {
-    font-size: 20px;
 }
 
 #divdiscover {
@@ -1942,7 +1889,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     background-color: white;
 }
 
-/*SEARCH PHP*/
+/*SEARCH PHP and error messages*/
 .nodisplay {
     display: none;
 }
@@ -1961,10 +1908,95 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 #progress p {
     font-size:18px;
+    /*text-align: center;*/
+}
+
+.search_active_state p {
+    text-align: center;
 }
 
 #progress a {
     text-decoration: underline;
+}
+
+#progressbar {
+    height: 10px;
+    max-width: 400px;
+    margin: 10px auto;
+}
+
+#error-remedy_list li {
+    list-style: disc;
+}
+
+#error-remedy_list {
+    margin-left: 20px;
+}
+
+.background-lamp .visualize, .waiting-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.waiting-title {
+    text-transform: none;
+    font-weight: 800;
+}
+
+.waiting-title2 {
+    font-weight: 300;
+    font-size: 24px;
+    text-transform: none;
+    color: black;
+}
+
+.waiting-title2 strong {
+    font-weight: 800;
+}
+
+.background-lamp .mittig {
+    width:50%;
+    margin: 0px auto;
+    background-color: transparent;
+    padding: 50px;
+    -webkit-box-shadow: 0px 0px 0px 0px #cacfd3;
+    -moz-box-shadow: 0px 0px 0px 0px #cacfd3;
+    box-shadow: 0px 0px 0px 0px #cacfd3;
+}
+
+.about-page .background-lamp .mittig {
+    padding: 112px 50px;
+}
+
+.mittig {
+    max-width: 750px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    padding: 65px 70px 50px;
+    -webkit-box-shadow: 0px 2px 4px 0px #cacfd3;
+    -moz-box-shadow: 0px 2px 4px 0px #cacfd3;
+    box-shadow: 0px 2px 4px 0px #cacfd3;
+}
+
+.mittig2 {
+    max-width: 560px;
+    width: 100%;
+    margin: 0px auto;
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.visualize {
+    font-weight: 800; 
+    padding: 0px;
+    font-size: 18px; 
+    color: #2d3e52; 
+    background-color:transparent; 
+    text-transform: none; 
+    margin: 0px;
 }
 
 /**/
@@ -3120,7 +3152,7 @@ time {
         padding-bottom: 20px;
     }
 
-    .visualize {
+    .visualize, .waiting-title, .waiting-title2 {
         font-size: 18px;
     }
 
@@ -3428,7 +3460,7 @@ time {
 
     .radio-inline, .try-out-maps, .faquestion, #mission strong, .icon-description, .howitworks-point p, 
     .faq, .work-with-us-contact, #progress p, #newsletterdiv h3, #newsletterdiv, #partnerdiv, #networkdiv, 
-    .visualize, .supportertext, .description-headstart, .project-facts, .alumni h3 {
+    .visualize, .supportertext, .description-headstart, .project-facts, .alumni h3, .waiting-title, .waiting-title2 {
         font-size: 14px;
     }
 

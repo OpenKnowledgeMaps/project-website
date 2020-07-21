@@ -96,17 +96,11 @@ if(!empty($_POST)) {
         <style>
 
             .ui-widget-header {
-
                 background: #e55137;
-
                 border: 1px solid #DDDDDD;
-
                 color: #333333;
-
                 font-weight: bold;
-
             }
-
         </style>
 
     </head>
@@ -119,13 +113,14 @@ if(!empty($_POST)) {
 
         <a style="padding-top:160px;" name="search"></a>
 
-        <div class="background-lamp gif">
+        <div class="background-lamp">
              <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
 
             <div id="progress" class="mittig">
-                <div id="active_state" class="search_active_state">
+                <!-- screen while knowledge map is loading -->
+                <div id="active_state" class="search_active_state" style="text-align: center;">
 
-                    <h3 class="visualize">Your knowledge map on <span id="search_term"></span> is being created!</h3>
+                    <h3 class="waiting-title2">Your knowledge map on <strong id="search_term"></strong> is being created!</h3>
 
                     <div id="progressbar"></div>
 
@@ -133,16 +128,20 @@ if(!empty($_POST)) {
                     </p>
                 </div>
                 
-                <div id="error_state" class="search_error_state nodisplay">
-                    <div id="error-title"></div>
-                    <div id="error-reason"></div>
-                    <div id="error-remedy"></div>
-                    <div id="error-more-info"></div>
-                    <div id="error-contact"></div>
+                <!-- screen when knowledge map has failed -->
+                <div id="error_state" class="search_error_state nodisplay" style="text-align: left !important;">
+                    <h3 class="waiting-title" id="error-title" style="color: #e55137;"></h3>
+                    <p id="error-reason"></p>
+                    <p id="error-remedy"></p>
+                    <p id="error-more-info"></p>
+                    <p id="error-contact"></p>
+                    
+                    <p class="try-now" style="text-align: left !important; margin:30px 0 0;">
+                    <a class="donate-now" href="index">Try again / Refresh this page</a>
+                </p>
                 </div>
 
             </div>
-
         </div>
 
         <div id="discover" style="margin-top:-75px;">
@@ -159,11 +158,11 @@ if(!empty($_POST)) {
         <script>
             const error_texts = {
                 not_enough_results: {
-                    title: "Sorry! We could not create a knowledge map for your search term(s)."
-                    , reason: "Most likely there were not enough results. You can <a href=\"index.php\">go back and try again.</a>"
-                    , remedy: "Here are some tips:"
-                    , more_info: 'You can <a id="more-info-link_na" target="_blank">check out your search on <span id="more-info-link_service"></span></a>'
-                    , contact: 'If you think that there is something wrong with our site, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    title: "Sorry! We could not create a knowledge map."
+                    , reason: "Most likely there were not enough results for your search query: <strong>add actual query here</strong>."
+                    , remedy: "<strong>Here are some tips to improve your query:</strong>"
+                    , more_info: 'Alternatively you can <a id="more-info-link_na" target="_blank">check out results for your search query on <span id="more-info-link_service"></span></a>'
+                    , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Make sure you include the search query in your message.'
                 },
                 connection_error: {
                     title: "Error connecting to the server."
@@ -178,9 +177,9 @@ if(!empty($_POST)) {
                     
                 },
                 no_post_data: {
-                    title: "Your search request did not contain any data."
-                    , reason: 'Please use the search box on the <a class="underline" href="index">index page</a> to search/create a map. You will be redirected there in 10 seconds.'
-                    , contact: 'If you think that there is something wrong with our site, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    title: "Oooups! You should not be here..."
+                    , reason: 'Sorry about that. You will be redirected to <a class="underline" href="index">our service</a> in 10 seconds.'
+                    , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     
                 }
             }
@@ -189,7 +188,7 @@ if(!empty($_POST)) {
             const error_code_translation = {
                         'timeframe too short': 'Increase your time range'
                         , 'query length': 'Shorten your query'
-                        , 'too specific': 'Use more general search terms'
+                        , 'too specific': 'Try more general search terms'
                         , 'typo': 'Check if you have a typo in your query'
             }
             
@@ -209,9 +208,7 @@ if(!empty($_POST)) {
             
             var service = "<?php echo $service ?>";
             
-        </script>
-
-        <script>
+        
             // Everything related to the request to the server
             
             function getPostData(post_data, field, type) {
@@ -414,9 +411,7 @@ if(!empty($_POST)) {
                             window.setTimeout(function () {
                                 check_fallback_interval = window.setInterval(fallbackCheck, 4000);
                             }, 10000);
-        </script>
         
-        <script>
             // Everything related to error messaging apart from translating 
             // error descriptions/possible reasons
             
