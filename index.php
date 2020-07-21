@@ -34,7 +34,7 @@
         <?php include($COMPONENTS_PATH . 'mission.php') ?>
 
         <?php include($COMPONENTS_PATH . 'featuredin.php') ?>
-        <?php include($COMPONENTS_PATH . 'integrations.php') ?>
+        <?php include($COMPONENTS_PATH . 'integrations-v2.php') ?>
 
         <span class="anchor" id="feedback"></span>
         <!-- this stream is STATIC -->
