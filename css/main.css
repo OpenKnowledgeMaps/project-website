@@ -1397,7 +1397,7 @@ a .number:hover {
     display: inline-block; 
     max-width:25%; 
     vertical-align:top; 
-    margin-right:30px;
+    margin-right: 20px;
 }
 
 .covis-banner-image a:hover {
@@ -1469,14 +1469,14 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }*/
 
 .covis-banner .covis-banner-image {
-    background-image: url(../img/link.png) !important;
+    /*background-image: url(../img/link.png) !important;*/
     background-repeat: no-repeat;
     background-position: 50%;
     max-width: 20%;
 }
 
 .covis-banner .donation-text {
-    max-width: 70%; 
+    /*max-width: 70%;*/ 
     font-size: 16px;
 }
 
@@ -1487,7 +1487,8 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .banner-headline {
     text-align: left; 
-    text-transform: none; 
+    text-transform: none;
+    font-weight: 800;
     line-height: 120%;
 }
 
@@ -2641,7 +2642,7 @@ time {
     }
 
     #team, #about-page, #news {
-        padding-top: 60px;
+        padding-top: 50px;
     }
     .mittig {
         margin: 50px auto 0;
@@ -2714,7 +2715,7 @@ time {
     }
 
     .topheader {
-        padding-top:60px !important;
+        padding-top:50px !important;
     }
 }
 
