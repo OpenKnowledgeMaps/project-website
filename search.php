@@ -94,7 +94,6 @@ if(!empty($_POST)) {
         ?>
 
         <style>
-
             .ui-widget-header {
                 background: #e55137;
                 border: 1px solid #DDDDDD;
@@ -136,7 +135,6 @@ if(!empty($_POST)) {
                     <p id="error-remedy"></p>
                     <p id="error-more-info"></p>
                     <p id="error-contact"></p>
-                    
                     <p class="try-now" style="text-align: left !important; margin:30px 0 0;">
                     <a class="donate-now" href="index">Try again / Refresh this page</a>
                 </p>
@@ -144,19 +142,16 @@ if(!empty($_POST)) {
 
             </div>
         </div>
+        
          <?php include($COMPONENTS_PATH . "howitworks.php") ?>
 
         <div id="discover">
-            
-       
-      
             <!-- this stream is STATIC -->
         <?php
         $COMMENT_TITLE = "What our users say";
         $COMMENT_IMAGES_URL = "./img/comments/";
         include($COMPONENTS_PATH . 'commentstream.php');
         ?>
-            
         </div>
         
         <script>
