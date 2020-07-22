@@ -34,7 +34,8 @@
         <?php include($COMPONENTS_PATH . 'mission.php') ?>
 
         <?php include($COMPONENTS_PATH . 'featuredin.php') ?>
-        <?php include($COMPONENTS_PATH . 'integrations-v2.php') ?>
+        <div class="desktop-img"><?php include($COMPONENTS_PATH . 'integrations-v2.php') ?></div>
+        <div class="mobile-img"><?php include($COMPONENTS_PATH . 'integrations.php') ?></div>
 
         <span class="anchor" id="feedback"></span>
         <!-- this stream is STATIC -->
