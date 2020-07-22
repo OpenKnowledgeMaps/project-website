@@ -11,7 +11,7 @@
                     
                     <a target="_blank" href="https://openknowledgemaps.org/covis/">
                         <!--<img class="hoverlink mobile-img" style="margin-bottom: 20px;" src="./img/integrations/covis-mobil.png">-->
-                        <img class="hoverlink" src="./img/integrations/covis-round.png">
+                        <img class="hoverlink" src="./img/integrations/covis-round.png" alt="">
                     </a>
                 </div>
 
@@ -28,7 +28,7 @@
                 <div class="project-round">
                     <a target="_blank" href="https://openknowledgemaps.org/viper">
                         <!--<img class="hoverlink mobile-img" style="margin-bottom: 20px;" src="./img/integrations/viper.png">-->
-                        <img class="hoverlink" style="" src="./img/integrations/viper-round.png">
+                        <img class="hoverlink" style="" src="./img/integrations/viper-round.png" alt="">
                     </a>
                 </div>
 
@@ -44,7 +44,7 @@
 
                 <div class="project-round">
                     <a href="./projects">
-                        <img class="hoverlink" src="./img/integrations/all-projects-round.png">
+                        <img class="hoverlink" src="./img/integrations/all-projects-round.png" alt="">
                         <!--<img class="hoverlink mobile-img" style="margin-bottom: 20px;" src="./img/integrations/all-projects-mobile.png">-->
                     </a>
                 </div>
