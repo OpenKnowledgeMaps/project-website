@@ -1476,7 +1476,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .covis-banner .donation-text {
-    max-width: 70%;
+    max-width: 70%; 
     font-size: 16px;
 }
 
@@ -1491,8 +1491,30 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     line-height: 120%;
 }
 
-.donation-image-mobile {
+.donation-image-mobile, .donation-image-mobile2 {
     display: none;
+}
+
+.donation-image3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 20px;
+    background-image: url(../img/donate-now-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.donation-image3 img:hover, .donation-image-mobile2 img:hover {
+    background-image: url(../img/donate-now-bg.png);
+    opacity: 0.1;
+}
+
+.donation-page .donation-text {
+    vertical-align: top;
+}
+
+.donation-page #divhow {
+    
 }
 
 .additional-info {
@@ -2081,11 +2103,11 @@ sup {
     cursor: pointer;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
-    margin: 10px 0px 10px 20px;
+    margin: 8px 0px 8px 20px;
     text-decoration: none;
     text-transform: uppercase;
     border: 2px solid #2d3e52;
-    padding: 5px 10px;
+    padding: 3px 8px;
     vertical-align: middle;
     text-align:left;
     background-color: none;
@@ -3194,9 +3216,13 @@ time {
         display: none;
     }
 
-    .donation-text, .donation-image-mobile, .donation-page .donation-text {
+    .donation-text, .donation-image-mobile, .donation-page .donation-text, .donation-image-mobile2 {
         display: block;
         max-width: 100%;
+    }
+
+    .donation-image3 {
+        display: none;
     }
 
     .covis-banner-image {
