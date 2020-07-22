@@ -1,13 +1,13 @@
 <div id="mission">
     <div id="more-info">
         
-        <h2 class="h2reverse" style="padding: 0 20px 20px;">Further discovery services and projects</h2>
+        <h2 class="h2reverse" style="padding: 0 20px 20px;">More discovery services</h2>
 
         <a target="_blank" href="https://openknowledgemaps.org/covis/">
             <div class="vision" style="min-height: 20px;">
                 <img src="./img/integrations/covis.png" style="margin-bottom: 20px;">
-                <h2 style="text-transform: none;">CoVis: A new tool to discover reliable COVID-19 research</h2>
-                <p>Open Knowledge Maps and ReFigure have launched CoVis: a curated & constantly evolving knowledge map of seminal works on COVID-19. 
+                <h2 style="text-transform: none;">CoVis: Discover reliable COVID-19 research</h2>
+                <p>CoVis provides a curated knowledge map of seminal works on COVID-19 research. The knowledge map is constantly evolving thanks to the collective editing of subject-matter experts.  
                     <br><br><span style="font-weight: bold;">try out CoVis</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>        
@@ -17,8 +17,8 @@
         <a target="_blank" href="https://openknowledgemaps.org/viper">
             <div class="vision" style="min-height: 20px;">
                 <img src="./img/integrations/viper.png" style="margin-bottom: 20px;">
-                <h2 style="text-transform: none;">The visual project explorer</h2>
-                <p>Viper provides overviews of research projects indexed by OpenAIRE. With Viper you can systematically explore a project’s output, and understand its impact in different areas.
+                <h2 style="text-transform: none;">The Visual Project Explorer</h2>
+                <p>VIPER provides overviews of research projects indexed by OpenAIRE. With VIPER, you can systematically explore a project’s output, and understand its impact in different areas. 
                     <br><br><span style="font-weight: bold;">try out Viper</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
@@ -28,9 +28,9 @@
         <a href="./projects">
             <div class="vision" style="min-height: 20px;">
                 <img src="./img/integrations/all-projects.png" style="margin-bottom: 20px;">
-                <h2 style="text-transform: none;">Open Science Projects</h2>
-                <p>We partner with organizations that share our goals to develop innovative open science projects to improve the visibility of scientific knowledge.
-                    <br><br><span style="font-weight: bold;">check out all our projects</span>
+                <h2 style="text-transform: none;">All projects and services</h2>
+                <p>Explore our discovery projects and collaboratively developed services, all of them free and open. 
+                    <br><br><span style="font-weight: bold;">view all projects</span>
                 </p>
                 <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
             </div>
