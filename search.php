@@ -158,7 +158,7 @@ if(!empty($_POST)) {
             const error_texts = {
                 not_enough_results: {
                     title: "Sorry! We could not create a knowledge map."
-                    , reason: "Most likely there were not enough results for your search query: <strong>add actual query here</strong>."
+                    , reason: 'Most likely there were not enough results for your search query: <strong id="search_term_fail"></strong>'
                     , remedy: "<strong>Here are some tips to improve your query:</strong>"
                     , more_info: 'Alternatively you can <a id="more-info-link_na" target="_blank">check out results for your search query on <span id="more-info-link_service"></span></a>'
                     , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Make sure you include the search query in your message.'
@@ -171,8 +171,8 @@ if(!empty($_POST)) {
                 },
                 server_error: {
                     title: "Sorry! Something went wrong."
-                    , reason: "Please <a href=\"index.php\">try again</a> in a few minutes."
-                    , remedy: "If the error persists, please let us know at <a href=\"mailto:info@openknowledgemaps.org\">info@openknowledgemaps.org</a>."
+                    , reason: 'Please <a href="index.php">try again</a> in a few minutes.'
+                    , remedy: 'If the error persists, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.'
                     
                 },
                 no_post_data: {
@@ -248,9 +248,9 @@ if(!empty($_POST)) {
             let search_term = getPostData(post_data, "q", "string").replace(/[\\]/g, "");
             let search_term_short = getSearchTermShort(search_term);
 
-            writeSearchTerm(search_term_short);
+            writeSearchTerm('search_term', search_term_short);
 
-            executeSearchRequest("<?php echo $HEADSTART_URL ?>server/services/" + script, post_data, service);
+            executeSearchRequest("<?php echo $HEADSTART_URL ?>server/services/" + script, post_data, service, search_term_short);
 
             var check_fallback_interval = null;
             var check_fallback_timeout = 

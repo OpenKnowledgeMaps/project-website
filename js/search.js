@@ -66,11 +66,11 @@ var getSearchTermShort = function (search_term) {
                 : search_term;
 }
 
-function writeSearchTerm(search_term_short) {
-    $('#search_term').text(search_term_short);
+function writeSearchTerm(id, search_term_short) {
+    $('#' + id).text(search_term_short);
 }
 
-function executeSearchRequest(service_url, post_data, service) {
+function executeSearchRequest(service_url, post_data, service, search_term_short) {
     $.ajax({
             url: service_url,
             type: "POST",
@@ -121,7 +121,8 @@ function executeSearchRequest(service_url, post_data, service) {
                     $("#more-info-link_na").attr("href", search_string);
                     $("#more-info-link_service").text((service === "base") ? ("BASE") : ("PubMed"))
                 }
-                setErrorContact(current_error_texts.contact)
+                setErrorContact(current_error_texts.contact);
+                writeSearchTerm("search_term_fail", search_term_short);
             }
 
         })
@@ -153,7 +154,7 @@ function redirectToIndex() {
 // Everything related to error messaging apart from translating 
 // error descriptions/possible reasons
 
-function setErrorTexts(text_object) {
+function setErrorTexts(text_object, search_term_short) {
     if(text_object.hasOwnProperty("title")) {
         setErrorTitle(text_object.title);
     }
@@ -168,6 +169,9 @@ function setErrorTexts(text_object) {
     }
     if(text_object.hasOwnProperty("title")) {
         setErrorContact(text_object.contact);
+    }
+    if(typeof search_term_short !== "undefined" && search_term_short !== null) {
+        writeSearchTerm('search_term_fail', search_term_short);
     }
 }
 
