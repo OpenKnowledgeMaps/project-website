@@ -496,6 +496,30 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
     padding-right: 20px;
 }
 
+/*Project examples Index Page*/
+
+.project-round {
+    background-image: url(../img/link.png); 
+    background-repeat: no-repeat; 
+    display:inline-block; 
+    vertical-align: middle; 
+    margin-right: 20px; 
+    background-size: 100%;
+}
+
+.project-d {
+    display: inline-block; 
+    max-width: 65%; 
+    vertical-align: middle;
+}
+
+.item-title {
+    text-transform: none; 
+    text-align: left; 
+    font-size: 18px; 
+    font-weight: 800;
+}
+
 /*NEWSLETTER*/
 a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
     border: 2px solid #51c9ae;
@@ -1397,7 +1421,7 @@ a .number:hover {
     display: inline-block; 
     max-width:25%; 
     vertical-align:top; 
-    margin-right:30px;
+    margin-right: 20px;
 }
 
 .covis-banner-image a:hover {
@@ -1469,14 +1493,14 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }*/
 
 .covis-banner .covis-banner-image {
-    background-image: url(../img/link.png) !important;
+    /*background-image: url(../img/link.png) !important;*/
     background-repeat: no-repeat;
     background-position: 50%;
     max-width: 20%;
 }
 
 .covis-banner .donation-text {
-    max-width: 70%; 
+    /*max-width: 70%;*/ 
     font-size: 16px;
 }
 
@@ -1487,7 +1511,8 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .banner-headline {
     text-align: left; 
-    text-transform: none; 
+    text-transform: none;
+    font-weight: 800;
     line-height: 120%;
 }
 
@@ -1514,7 +1539,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .donation-page #divhow {
-    
+
 }
 
 .additional-info {
@@ -2641,7 +2666,7 @@ time {
     }
 
     #team, #about-page, #news {
-        padding-top: 60px;
+        padding-top: 50px;
     }
     .mittig {
         margin: 50px auto 0;
@@ -2714,7 +2739,7 @@ time {
     }
 
     .topheader {
-        padding-top:60px !important;
+        padding-top:50px !important;
     }
 }
 
@@ -3175,6 +3200,16 @@ time {
         display: block;
     }
 
+    .project-round {
+        display: block;
+        background-image: none;
+    }
+    
+    .project-d {
+        max-width: 100%;
+        display: block;
+    }
+
     .landscape-teaser {
         background-image: none;
         padding: 20px 20px 50px;
@@ -3365,7 +3400,7 @@ time {
     .background2 .team h2 {
         font-size: 20px;
     }
-    .background2 .team p, .project-facts, .work-with-us-contact, .project-description h3 {
+    .background2 .team p, .project-facts, .work-with-us-contact, .project-description h3, .item-title {
         font-size: 16px;
     }
 
