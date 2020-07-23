@@ -45,10 +45,21 @@ function clearFallbackInterval () {
     }
 }
 
+function stopAndResetProgressbar () {
+    if(typeof progessbar_timeout !== 'undefined' 
+            && progessbar_timeout !== null) {
+        window.clearTimeout(progessbar_timeout);
+        $("#progressbar").progressbar("option", "value", 0);
+    } else {
+        console.log("Progressbar timeout not defined");
+    }
+}
+
 // An error occurred
 function errorOccurred() {
     error_occurred = true;
     console.log("An error occurred while creating the map");
+    stopAndResetProgressbar();
     clearFallbackInterval();
     $("#active_state").addClass("nodisplay");
     $("#error_state").removeClass("nodisplay")
