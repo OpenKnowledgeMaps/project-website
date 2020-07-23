@@ -13,7 +13,7 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
         <div id="team">
-            <?php include('./components/covis_banner.php'); ?>
+            
             <div class="background2 bg2">
                 <div class="team">
                     <h2 style="color: #2d3e52;">Our Team</h2>
@@ -65,7 +65,7 @@
                             <li><a class="contact-icon" target="_blank" href="http://www.christopherkittel.eu/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
-                    
+
                     <div class="member">
                         <img src="./img/team/jan.png" alt="Jan Konstant">
                         <ul>
@@ -180,6 +180,13 @@
                     <h2>Category "Sustaining Members PLUS"</h2>
                     <div class="partners">
                         <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
+                    </div>
+                </div>
+
+                <div id="partnerdiv" style="padding-bottom: 0px;">
+                    <h2>Our current Sustaining Members</h2>
+                    <div class="partners">
+                        <?php include($COMPONENTS_PATH . 'sustaining-members.php'); ?>
                     </div>
                 </div>
 

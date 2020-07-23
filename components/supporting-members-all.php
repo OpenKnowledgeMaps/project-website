@@ -2,6 +2,7 @@
     <h2>Our Supporting Members</h2>
     <div class="partners">
         <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
+        <?php include($COMPONENTS_PATH . 'sustaining-members.php'); ?>
         <?php include($COMPONENTS_PATH . 'supporting-members.php'); ?>
     </div>
 </div>       

@@ -12,7 +12,7 @@
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
         <div id="news">
-            <?php include('./components/covis_banner.php'); ?>
+            
             <div class="background2" style="background-color: white;"> <!--style="background-color: #eff3f4;"-->
                 <div class="team">
                     <h2 style="color: #2d3e52;">
@@ -206,6 +206,13 @@
             <h2>Our current Sustaining Members PLUS</h2>
             <div class="partners">
                 <?php include($COMPONENTS_PATH . 'sustaining-members-plus.php'); ?>
+            </div>
+        </div>
+        
+        <div id="partnerdiv" style="padding-bottom: 0px;">
+            <h2>Our current Sustaining Members</h2>
+            <div class="partners">
+                <?php include($COMPONENTS_PATH . 'sustaining-members.php'); ?>
             </div>
         </div>
         

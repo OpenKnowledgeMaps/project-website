@@ -1,7 +1,7 @@
 <div id="mission">
     <!--<h2 class="h2reverse"> Our Mission</h2>-->
     <div >
-
+<h2 class="h2reverse" style="padding: 0 20px 20px;">Our mission</h2>
         <a href="./about"><div class="vision">
                 <p>
                     <img class="okm-icon" src="./img/icons/visual-interface.png" alt=''>

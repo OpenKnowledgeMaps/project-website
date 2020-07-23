@@ -85,11 +85,12 @@
                         <a  class="underline" target="_blank" href="mailto:donations@openknowledgemaps.org">donations@openknowledgemaps.org</a>
                     </p>
                 </div>
-
             </div>
         </div>
 
-        <?php include($COMPONENTS_PATH . 'donation-purposes.php'); ?>
+        <div class="desktop-img"><?php include($COMPONENTS_PATH . 'donation-purposes.php'); ?></div>
+        <div class="mobile-img"><?php include($COMPONENTS_PATH . 'donation-purposes_mobile.php'); ?></div>
+        
         <?php include($COMPONENTS_PATH . 'donation-alternatives.php'); ?>
 
         <script>
