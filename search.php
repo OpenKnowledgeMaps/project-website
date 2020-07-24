@@ -23,7 +23,7 @@ $id_param = getParam("id");
 
 if(isset($_SESSION['post']) && isset($_SESSION['post'][$id_param]) && isset($_SESSION['post'][$id_param]["unique_id"]) 
         && $_SESSION['post'][$id_param]["unique_id"] === $id_param) {
-    $_POST = $_SESSION['post'];
+    $_POST = $_SESSION['post'][$id_param];
 }
 
 function packParamsJSON($params_array, $post_params) {
@@ -46,6 +46,8 @@ function createID($string_array) {
     $string_to_hash = implode(" ", $string_array);
     return md5($string_to_hash);
 }
+
+$unique_id = "";
 
 if(!empty($_POST)) {
     $post_array = $_POST;
@@ -85,6 +87,8 @@ if(!empty($_POST)) {
         $post_array["q"] = $query;
         $post_array["unique_id"] = $unique_id;
         $_SESSION['post'][$unique_id] = $post_array;
+    } else {
+        $unique_id = $post_array["unique_id"];
     }
     
     $post_data = json_encode($post_array);
