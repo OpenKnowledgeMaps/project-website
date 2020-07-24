@@ -5,12 +5,24 @@ if (session_status() == PHP_SESSION_NONE) {
 
 include 'config.php';
 
+// Returns parameter or false in case of error/filter failure
+function getParam($param, $where = INPUT_GET, $sanitizer = FILTER_SANITIZE_STRING
+                    , $return_empty_string_error = false) {
+    $return_param = filter_input($where, $param, $sanitizer);
+    
+    return ($return_param === null || $return_param === false)
+            ? ($return_empty_string_error)?(""):(false)
+            : $return_param;
+}
+
 // This fixes a bug in iOS Safari where an inactive tab would forget the post 
 // parameters - usually when the user opens a different tab while waiting for
 // a map to be created.
-if(isset($_POST["q"])) {
-    $_SESSION['post'] = $_POST;
-} else if(isset($_SESSION['post'])) {
+$service = getParam("service", INPUT_GET, FILTER_SANITIZE_STRING, true);
+$id_param = getParam("id");
+
+if(isset($_SESSION['post']) && isset($_SESSION['post'][$id_param]) && isset($_SESSION['post'][$id_param]["unique_id"]) 
+        && $_SESSION['post'][$id_param]["unique_id"] === $id_param) {
     $_POST = $_SESSION['post'];
 }
 
@@ -44,9 +56,7 @@ if(!empty($_POST)) {
         
         $date = new DateTime();
         $post_array["today"] = $date->format('Y-m-d');
-        
-        $service_get = filter_input(INPUT_GET, "service", FILTER_SANITIZE_STRING);
-        $service = ($service_get !== false && $service_get !== null) ? ($service_get) : ("");
+
         $params_array = array();
         switch ($service) {
             case "base":
@@ -74,6 +84,7 @@ if(!empty($_POST)) {
 
         $post_array["q"] = $query;
         $post_array["unique_id"] = $unique_id;
+        $_SESSION['post'][$unique_id] = $post_array;
     }
     
     $post_data = json_encode($post_array);
@@ -180,7 +191,14 @@ if(!empty($_POST)) {
                     , reason: 'Sorry about that. You will be redirected to <a class="underline" href="index">our service</a> in 10 seconds.'
                     , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     
-                }
+                },
+                timeout: {
+                    title: "Your request timed out."
+                    , reason: "It seems that you have lost your Internet connection or the request to the data source is taking longer than expected."
+                    , remedy: 'You can try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
+                    , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    
+                },
             }
             
             //Set JavaScript values influenced by PHP & error code translations
@@ -196,22 +214,21 @@ if(!empty($_POST)) {
                     echo "var post_data = " . $post_data . ";\n";
                 }
                 
-                if(isset($unique_id)) {
-                    echo 'var unique_id = "' . $unique_id . '";';
-                }
-                
-                $service_get = filter_input(INPUT_GET, "service", FILTER_SANITIZE_STRING);
-                $service = (isset($service_get)?($service_get):(""))
-                
             ?>
             
             var service = "<?php echo $service ?>";
+            var unique_id = "<?php echo (isset($unique_id)?($unique_id):("")) ?>";
             
-            //If the page is called without any data, redirect to index page
-            if(typeof post_data === "undefined") {
+            //If the page is called without any data or the ID is missing, redirect to index page
+            if(typeof post_data === "undefined" || unique_id === "") {
                 errorOccurred();
                 redirectToIndex();
+                throw new Error("No post data or ID missing");
             }
+            
+            const params = new URLSearchParams(location.search);
+            params.set('id', unique_id);
+            window.history.replaceState({}, '', `${location.pathname}?${params}`);
 
             var script = "";
             var vis_page = "";

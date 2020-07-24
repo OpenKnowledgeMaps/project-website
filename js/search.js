@@ -146,7 +146,9 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
 
             errorOccurred();
 
-            if(xhr.status === 0) {
+            if (status === "timeout") {
+                setErrorTexts(error_texts.timeout);
+            } else if(xhr.status === 0) {
                 setErrorTexts(error_texts.connection_error);
             } else {
                 setErrorTexts(error_texts.server_error);
