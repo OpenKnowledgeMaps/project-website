@@ -134,6 +134,7 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                 }
                 setErrorContact(current_error_texts.contact);
                 writeSearchTerm("search_term_fail", search_term_short);
+                setErrorResolution(current_error_texts.resolution, current_error_texts.resolution_link);
             }
 
         })
