@@ -189,7 +189,7 @@ if(!empty($_POST)) {
                     
                 },
                 server_error: {
-                    title: "Sorry! Something went wrong."
+                    title: "Sorry! An unknown server error occurred."
                     , reason: 'Please <a href="index.php">try again</a> in a few minutes.'
                     , remedy: 'If the error persists, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.'
                     , "resolution": "Try again"
