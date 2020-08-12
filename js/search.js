@@ -186,6 +186,10 @@ function setErrorTexts(text_object, search_term_short) {
     if(typeof search_term_short !== "undefined" && search_term_short !== null) {
         writeSearchTerm('search_term_fail', search_term_short);
     }
+    
+    if(text_object.hasOwnProperty("resolution") && text_object.hasOwnProperty("resolution_link")) {
+        setErrorResolution(text_object.resolution, text_object.resolution_link);
+    }
 }
 
 function setErrorTitle(html_string) {
@@ -206,6 +210,10 @@ function setErrorMoreInfo(html_string) {
 
 function setErrorContact(html_string) {
     writeErrorFieldHTML("error-contact", html_string);
+}
+function setErrorResolution(resolution, resolution_link) {
+        $("#error-resolution").text(resolution);
+        $("#error-resolution").attr("href", resolution_link);
 }
 
 function writeErrorFieldHTML(field, html_string) {
