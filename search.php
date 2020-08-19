@@ -48,12 +48,13 @@ function createID($string_array) {
 }
 
 $unique_id = "";
+$dirty_query = "";
 
 if(!empty($_POST)) {
     $post_array = $_POST;
+    $dirty_query = $post_array["q"];
     
     if(!isset($post_array["unique_id"])) {
-        $dirty_query = $post_array["q"];
         $query = addslashes(trim(strtolower(strip_tags($dirty_query))));
         
         $date = new DateTime();
@@ -117,6 +118,14 @@ if(!empty($_POST)) {
             }
         </style>
         <script src="./js/search.js"></script>
+        <script>
+            <?php
+                if(isset($post_data)) {
+                    echo "var post_data = " . $post_data . ";\n";
+                }
+                
+            ?>
+        </script>
     </head>
 
     <body class="about-page search-waiting-page">
@@ -157,6 +166,15 @@ if(!empty($_POST)) {
 
             </div>
         </div>
+        
+        <script>
+            var search_term_focus = true;
+        </script>
+        <?php
+            $default_lib = $service;
+            $search_query = $dirty_query;
+            include($COMPONENTS_PATH . 'search-form.php') 
+        ?>
         
          <?php include($COMPONENTS_PATH . "howitworks.php") ?>
 
@@ -222,13 +240,6 @@ if(!empty($_POST)) {
                         , 'too specific': 'Try more general search terms'
                         , 'typo': 'Check if you have a typo in your query'
             }
-            
-            <?php
-                if(isset($post_data)) {
-                    echo "var post_data = " . $post_data . ";\n";
-                }
-                
-            ?>
             
             var service = "<?php echo $service ?>";
             var unique_id = "<?php echo (isset($unique_id)?($unique_id):("")) ?>";
