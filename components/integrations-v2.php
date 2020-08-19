@@ -1,7 +1,7 @@
 <div id="mission" class="open-free-bg">
     <div id="more-info">
 
-        <h2 class="h2reverse" style="padding: 0 20px 20px;">More discovery services (free and open)</h2>
+        <h2 class="h2reverse" style="padding: 0 20px 20px;">More discovery services</h2>
 
         <div style="margin: 0px auto; max-width: 900px; width: 100%;">
 
