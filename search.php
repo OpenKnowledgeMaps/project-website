@@ -160,21 +160,25 @@ if(!empty($_POST)) {
                     <p id="error-more-info"></p>
                     <p id="error-contact"></p>
                     <p class="try-now" style="text-align: left !important; margin:30px 0 0;">
-                    <a id="error-resolution" class="donate-now"></a>                
-                </p>
+                        <a id="error-resolution" class="donate-now" style="display:none"></a>
+                    </p>
+                    <div id="new_search_form">
+                        <script>
+                            var search_term_focus = true;
+                        </script>
+                        <?php
+                            $default_lib = $service;
+                            $search_query = $dirty_query;
+                            include($COMPONENTS_PATH . 'search-form.php') 
+                        ?>
+                        <script>
+                            $("#searchform").attr("target", "");
+                        </script>
+                    </div>
                 </div>
 
             </div>
         </div>
-        
-        <script>
-            var search_term_focus = true;
-        </script>
-        <?php
-            $default_lib = $service;
-            $search_query = $dirty_query;
-            include($COMPONENTS_PATH . 'search-form.php') 
-        ?>
         
          <?php include($COMPONENTS_PATH . "howitworks.php") ?>
 

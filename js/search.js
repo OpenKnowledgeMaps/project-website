@@ -213,8 +213,12 @@ function setErrorContact(html_string) {
     writeErrorFieldHTML("error-contact", html_string);
 }
 function setErrorResolution(resolution, resolution_link) {
-        $("#error-resolution").text(resolution);
-        $("#error-resolution").attr("href", resolution_link);
+        if(resolution === "Try again") {
+            $("#new_search_form").show();
+        } else {
+            $("#error-resolution").text(resolution);
+            $("#error-resolution").attr("href", resolution_link);
+        }
 }
 
 function writeErrorFieldHTML(field, html_string) {
