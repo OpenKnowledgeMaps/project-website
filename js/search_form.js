@@ -8,7 +8,13 @@ var updateOptions = function(post_data) {
                 for (let dropdown_field of dropdown.fields) {
                     if(dropdown_field.id === post_field || post_field.includes(dropdown_field.id)) {
                         dropdown_field.selected = true;
-                        //TODO: solution for time input
+                        if(dropdown.id === "time_range" && dropdown_field.id === "user-defined") {
+                            for(let input of dropdown_field.inputs) {
+                                if(post_data.hasOwnProperty(input.id)) {
+                                    input.text = post_data[input.id];
+                                }
+                            }
+                        }
                     }
                 }
                 break;
@@ -43,7 +49,6 @@ var chooseOptions = function () {
 
 
     if(typeof post_data !== "undefined") {
-        console.log("inhere")
         updateOptions(post_data);
     }
     search_options.init("#filter-container", config.options);
@@ -58,22 +63,66 @@ var chooseOptions = function () {
     var valueExists = function (key, value) {
         var find = config.options.dropdowns.filter(
                 function (data) {
-                    return data[key] == value
+                    return data[key] === value;
                 }
         );
 
         return (find.length > 0) ? (true) : (false);
     }
-    if (valueExists("id", "time_range")) {
-        if (config.service === "pubmed") {
-            search_options.addDatePickerFromTo("#from", "#to", "any-time", "1809-01-01");
-        } else if (config.service === "base") {
-            search_options.addDatePickerFromTo("#from", "#to", "any-time", "1665-01-01");
-        } else {
-            search_options.addDatePickerFromTo("#from", "#to", "any-time", "1809-01-01");
+    
+    var getFirstSelectedOption = function(id) {
+        for(let dropdown of config.options.dropdowns) {
+            if(dropdown.id === id && dropdown.hasOwnProperty("fields")) {
+                for(let field of dropdown.fields) {
+                    if (field.selected === true) {
+                        return field.id;
+                    }
+                }
+                return dropdown.fields[0].id;
+            } else {
+                return "";
+            }
         }
+    }
+    
+    var getInputDate = function(id) {
+        for(let dropdown of config.options.dropdowns) {
+            if(dropdown.id === "time_range") {
+                for(let field of dropdown.fields) {
+                    if (field.id === "user-defined") {
+                        for(let input of field.inputs) {
+                            if(input.id === id) {
+                                return input.text;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    if (valueExists("id", "time_range")) {
+        let value = getFirstSelectedOption("time_range");
+        if(value !== "user-defined") {
+            let start_date = (config.service === "base")?("1665-01-01"):("1809-01-01");
+            search_options.addDatePickerFromTo("#from", "#to", value, start_date);
+        } else {
+            let start_date = getInputDate("from");
+            let end_date = getInputDate("to");
+            search_options.addDatePickerFromTo("#from", "#to", value, start_date, end_date, true);
+        }
+        
     } else if (valueExists("id", "year_range")) {
-        search_options.setDateRangeFromPreset("#from", "#to", "any-time-years", "1809");
+        let value = getFirstSelectedOption("time_range");
+        
+        if(value !== "user-defined") {
+            let start_year = "1809";
+            search_options.setDateRangeFromPreset("#from", "#to", value, start_year);
+        } else {
+            let start_year = getInputDate("from");
+            let end_year = getInputDate("to");
+            search_options.setDateRangeFromPreset("#from", "#to", value, start_year, end_year, true);
+        }
     }
 
     // if languages are set in options do the populate here

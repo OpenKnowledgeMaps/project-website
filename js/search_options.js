@@ -707,7 +707,9 @@ var SearchOptions = {
 
         })
     },
-    setDateRangeFromPreset: function (from, to, val, start_date) {
+    setDateRangeFromPreset: function (from, to, val, start_date, end_date, hide_inputs) {
+        var self = this;
+        
         var current_date = new Date();
         var current_year = current_date.getFullYear();
         
@@ -717,6 +719,7 @@ var SearchOptions = {
         //set ranges for date picker
         var start_date_object = new Date(start_date);
         var start_year = start_date_object.getFullYear();
+        
         var range = start_year + ":" + current_year;
         $(from).datepicker("option", "yearRange", range);
         $(to).datepicker("option", "yearRange", range);
@@ -725,7 +728,12 @@ var SearchOptions = {
 
             case "user-defined":
                 self.user_defined_date = true;
-                d3.select("#input-container").style("display", "block");
+                if(typeof end_date !== "undefined") {
+                    this.setDateFields(from, to, start_date, end_date);
+                }
+                if(typeof hide_inputs === "undefined" || hide_inputs === false) {
+                    d3.select("#input-container").style("display", "block");
+                }
                 break;
 
                 //full date
@@ -779,7 +787,7 @@ var SearchOptions = {
     initDateFields: function (from, to) {
         setDateFields(from, to);
     },
-    addDatePickerFromTo: function (from, to, init_time_range, start_date) {
+    addDatePickerFromTo: function (from, to, init_time_range, start_date, end_date, hide_inputs) {
 
         var self = this;
 
@@ -807,7 +815,7 @@ var SearchOptions = {
                 firstDay: 1
             });
 
-            self.setDateRangeFromPreset("#from", "#to", init_time_range, start_date);
+            self.setDateRangeFromPreset("#from", "#to", init_time_range, start_date, end_date, hide_inputs);
 
         });
     },
