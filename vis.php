@@ -184,11 +184,12 @@
         <a target="_blank" class="donate-now" href="index">Create a new knowledge map</a>
     </p>
 </div>
+            
+        <div class="desktop-img"><?php include($COMPONENTS_PATH . 'integrations-v2.php') ?></div>
+        <div class="mobile-img"><?php include($COMPONENTS_PATH . 'integrations.php') ?></div>
         <?php
-        
         //include($COMPONENTS_PATH . 'supportus.php');
         //include($COMPONENTS_PATH . 'donation-section.php');
-        include($COMPONENTS_PATH . 'integrations.php');
         include($COMPONENTS_PATH . 'footer_base.php');
         ?>
 

@@ -8,9 +8,9 @@
             </div>
 
             <div class="donation-text">
-                <h3 class="banner-headline" style="margin-bottom: 10px;">CoVis: A new tool to discover reliable COVID-19 research</h3>
+                <h3 class="banner-headline" style="margin-bottom: 10px;"><a target="_blank" class="underline bold" href="./covis/">CoVis: A new tool to discover reliable COVID-19 research</a></h3>
 
-                <p>Open Knowledge Maps and ReFigure have launched CoVis: a curated &amp; constantly evolving knowledge map of seminal works on COVID-19. <a target="_blank" class="underline bold" href="./covis/">Try out CoVis</a>
+                <p>Open Knowledge Maps and ReFigure have launched CoVis: a curated &amp; constantly evolving knowledge map of seminal works on COVID-19. <!--<a target="_blank" class="underline" href="./covis/">Try out CoVis</a>-->
                 </p> 
                 
                 <!--<p class="try-now" style="text-align:left; margin:20px 0 0;">

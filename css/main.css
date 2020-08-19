@@ -773,6 +773,13 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .enthusiast-bg {
     background-image: url(../img/share-heart.png);
     background-color: white;
+}
+
+.open-free-bg {
+    background-image: url(../img/open-free2.png);
+}
+
+.enthusiast-bg, .open-free-bg {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 85% 40%;
@@ -2967,7 +2974,7 @@ time {
         width: 100%;
     }
 
-    .enthusiast-bg {
+    .enthusiast-bg, .open-free-bg {
         background-image: none;
     }
 }
