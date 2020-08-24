@@ -1295,6 +1295,18 @@ a .number:hover {
     font-size:12px;
 }
 
+.tag {
+    background-color: #2D3E52;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.tag-div {
+    margin: 20px 0 10px 0;
+}
+
 /*DONATION*/
 .thankyou-page .background2 .team {
     padding: 50px 20px;
