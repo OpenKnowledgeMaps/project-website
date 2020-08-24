@@ -138,7 +138,7 @@ if(!empty($_POST)) {
 
                     <div id="progressbar"></div>
 
-                    <p id="status" class="animated-ellipsis">Please be patient, this can take up to 20 seconds.<br>
+                    <p id="status" class="animated-ellipsis">Please be patient, this takes around 20 seconds.<br>
                         While you are waiting, find out how the knowledge map is being created below.
                     </p>
                 </div>
