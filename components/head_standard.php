@@ -7,7 +7,7 @@ $default_labels = array(
     , "description" => "Our Goal is to revolutionize discovery of scientific knowledge. We are building a visual interface that dramatically increases the visibility of research findings for science and society alike. We are a non-profit organization and we believe that a better way to explore and discover scientific knowledge will benefit us all."
     , "tweet-text" => "Check out Open Knowledge Maps"
     , "url" => (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]"
-    , "twitter-type" => "summary"
+    , "twitter-type" => "summary_large_image"
     , "twitter-image" => "https://openknowledgemaps.org/img/card.png"
     , "fb-image" => "https://openknowledgemaps.org/img/cardfb.png"
 );
