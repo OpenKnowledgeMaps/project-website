@@ -77,11 +77,12 @@ var getSearchTermShort = function (search_term) {
                 : search_term;
 }
 
-function writeSearchTerm(id, search_term_short) {
+function writeSearchTerm(id, search_term_short, search_term) {
     $('#' + id).text(search_term_short);
+    $('#' + id).attr("title", search_term);
 }
 
-function executeSearchRequest(service_url, post_data, service, search_term_short) {
+function executeSearchRequest(service_url, post_data, service, search_term_short, search_term) {
     $.ajax({
             url: service_url,
             type: "POST",
@@ -133,7 +134,7 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                     $("#more-info-link_service").text((service === "base") ? ("BASE") : ("PubMed"))
                 }
                 setErrorContact(current_error_texts.contact);
-                writeSearchTerm("search_term_fail", search_term_short);
+                writeSearchTerm("search_term_fail", search_term_short, search_term);
                 setErrorResolution(current_error_texts.resolution, current_error_texts.resolution_link);
             }
 
@@ -168,7 +169,7 @@ function redirectToIndex() {
 // Everything related to error messaging apart from translating 
 // error descriptions/possible reasons
 
-function setErrorTexts(text_object, search_term_short) {
+function setErrorTexts(text_object, search_term_short, search_term) {
     if(text_object.hasOwnProperty("title")) {
         setErrorTitle(text_object.title);
     }
@@ -184,8 +185,9 @@ function setErrorTexts(text_object, search_term_short) {
     if(text_object.hasOwnProperty("title")) {
         setErrorContact(text_object.contact);
     }
-    if(typeof search_term_short !== "undefined" && search_term_short !== null) {
-        writeSearchTerm('search_term_fail', search_term_short);
+    if(typeof search_term_short !== "undefined" && search_term_short !== null
+            && typeof search_term !== "undefined" && search_term !== null) {
+        writeSearchTerm('search_term_fail', search_term_short, search_term);
     }
     
     if(text_object.hasOwnProperty("resolution") && text_object.hasOwnProperty("resolution_link")) {

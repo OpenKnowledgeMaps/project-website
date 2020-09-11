@@ -168,7 +168,7 @@ if(!empty($_POST)) {
                         </script>
                         <?php
                             $default_lib = $service;
-                            $search_query = $dirty_query;
+                            $search_query = htmlspecialchars(stripslashes($dirty_query));
                             include($COMPONENTS_PATH . 'search-form.php') 
                         ?>
                         <script>
@@ -294,9 +294,9 @@ if(!empty($_POST)) {
             let search_term = getPostData(post_data, "q", "string").replace(/[\\]/g, "");
             let search_term_short = getSearchTermShort(search_term);
 
-            writeSearchTerm('search_term', search_term_short);
+            writeSearchTerm('search_term', search_term_short, search_term);
 
-            executeSearchRequest("<?php echo $HEADSTART_URL ?>server/services/" + script, post_data, service, search_term_short);
+            executeSearchRequest("<?php echo $HEADSTART_URL ?>server/services/" + script, post_data, service, search_term_short, search_term);
 
             var check_fallback_interval = null;
             var check_fallback_timeout = 
