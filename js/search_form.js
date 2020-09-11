@@ -15,6 +15,8 @@ var updateOptions = function(post_data) {
                                 }
                             }
                         }
+                    } else {
+                        dropdown_field.selected = false;
                     }
                 }
                 break;
