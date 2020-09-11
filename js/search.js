@@ -117,7 +117,13 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                     let list_array = (Array.isArray(output.reason)) 
                                         ? output.reason
                                         : [output.reason];
-
+                    
+                    for(let error of error_always_add) {
+                        if(!list_array.includes(error)) {
+                            list_array.push(error);
+                        }
+                    }
+                    
                     let list_array_translated = [];
                     for (let item of list_array) {
                         if(error_code_translation.hasOwnProperty(item)) {

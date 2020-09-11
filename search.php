@@ -243,7 +243,11 @@ if(!empty($_POST)) {
                         , 'query length': 'Shorten your query'
                         , 'too specific': 'Try more general search terms'
                         , 'typo': 'Check if you have a typo in your query'
-            }
+            };
+            
+            const error_always_add = [
+                'typo'
+            ];
             
             var service = "<?php echo $service ?>";
             var unique_id = "<?php echo (isset($unique_id)?($unique_id):("")) ?>";
