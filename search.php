@@ -162,6 +162,7 @@ if(!empty($_POST)) {
                     <p class="try-now" style="text-align: left !important; margin:30px 0 0;">
                         <a id="error-resolution" class="donate-now" style="display:none"></a>
                     </p>
+                    <h3 class="waiting-title">Have another try!</h3>
                     <div id="new_search_form">
                         <script>
                             var search_term_focus = true;
