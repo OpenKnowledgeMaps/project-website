@@ -53,7 +53,7 @@ var chooseOptions = function () {
     if(typeof post_data !== "undefined") {
         updateOptions(post_data);
     }
-    search_options.init("#filter-container", config.options);
+    search_options.init("#filter-container", config.options, true);
 
     config.options.dropdowns.forEach(function (entry) {
         if (typeof entry.width === "undefined") {
@@ -229,6 +229,10 @@ $(document).ready(function () {
 
     if (search_term_focus) {
         document.getElementById("searchterm").focus({preventScroll: true});
+    }
+    
+    if(show_filters) {
+        $("#filters").removeClass("frontend-hidden");
     }
 })
 

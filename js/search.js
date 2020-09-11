@@ -62,7 +62,10 @@ function errorOccurred() {
     stopAndResetProgressbar();
     clearFallbackInterval();
     $("#active_state").addClass("nodisplay");
-    $("#error_state").removeClass("nodisplay")
+    $("#error_state").removeClass("nodisplay");
+    if(search_term_focus) {
+        document.getElementById("searchterm").focus({preventScroll: true});
+    }
 }
 
 function redirectToMap(id) {

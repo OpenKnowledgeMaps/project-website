@@ -549,7 +549,6 @@ var SearchOptions = {
     init: function (tag, data) {
 
         var self = this;
-
         self.drawOptions(tag, data);
 
     },

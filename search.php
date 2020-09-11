@@ -165,6 +165,7 @@ if(!empty($_POST)) {
                     <div id="new_search_form">
                         <script>
                             var search_term_focus = true;
+                            var show_filters = true;
                         </script>
                         <?php
                             $default_lib = $service;
