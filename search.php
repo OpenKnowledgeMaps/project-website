@@ -173,42 +173,42 @@ if(!empty($_POST)) {
             const error_texts = {
                 not_enough_results: {
                     title: "Sorry! We could not create a knowledge map."
-                    , reason: 'Most likely there were not enough results for your search query: <strong id="search_term_fail"></strong>'
+                    , reason: 'Most likely there were not enough results for <strong id="search_term_fail"></strong> with the selected search options.'
                     , remedy: "<strong>Here are some tips to improve your query:</strong>"
                     , more_info: 'Alternatively you can <a id="more-info-link_na" target="_blank">check out results for your search query on <span id="more-info-link_service"></span></a>'
-                    , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Make sure you include the search query in your message.'
+                    , contact: 'For more information about our service please <a href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Please include the search query in your message.'
                     , "resolution": "Try again"
                     , "resolution_link": "index"
                 },
                 connection_error: {
-                    title: "Error connecting to the server."
-                    , reason: "It seems that you have lost your Internet connection or the connection was reset."
-                    , remedy: 'You can try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
+                    title: "Connection lost!"
+                    , reason: "It seems that your Internet is unavailable or the connection was reset."
+                    , remedy: 'Please check your Internet settings and try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
                     , "resolution": "Refresh this page"
                     , "resolution_link": "javascript:location.reload()"
                     
                 },
                 server_error: {
-                    title: "Sorry! An unknown server error occurred."
-                    , reason: 'Please <a href="index.php">try again</a> in a few minutes.'
-                    , remedy: 'If the error persists, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.'
+                    title: "Whoops! An unexpected error occurred."
+                    , reason: 'Unfortunately we don’t know what went wrong. We apologize for the inconvenience. Please <a href="index.php">try again</a> in a few minutes.'
+                    , remedy: 'If the error persists, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. We will investigate the issue further.'
                     , "resolution": "Try again"
                     , "resolution_link": "index"
                     
                 },
                 no_post_data: {
-                    title: "Oooups! You should not be here..."
-                    , reason: 'Sorry about that. You will be redirected to <a class="underline" href="index">our service</a> in 10 seconds.'
-                    , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    title: "Ooops! You should not be here..."
+                    , reason: 'We apologize for this slight detour. You will be redirected to <a class="underline" href="index">our service</a> in 10 seconds.'
+                    , contact: 'For more information about our service please <a href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Go to search page"
                     , "resolution_link": "index"
                     
                 },
                 timeout: {
-                    title: "Your request timed out."
-                    , reason: "It seems that you have lost your Internet connection or the request to the data source is taking longer than expected."
-                    , remedy: 'You can try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
-                    , contact: 'If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    title: "We didn't anticipate this taking so long - unfortunately your request timed out."
+                    , reason: "It might be that too many people are currently creating knowledge maps. You may also have lost your Internet connection."
+                    , remedy: 'In any case, we recommend to check your Internet settings and try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
+                    , contact: 'For more information about our service please <a href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Refresh this page"
                     , "resolution_link": "javascript:location.reload()"
                     
@@ -217,9 +217,9 @@ if(!empty($_POST)) {
             
             //Set JavaScript values influenced by PHP & error code translations
             const error_code_translation = {
-                        'timeframe too short': 'Increase your time range'
-                        , 'query length': 'Shorten your query'
-                        , 'too specific': 'Try more general search terms'
+                        'timeframe too short': 'Increase the custom time range'
+                        , 'query length': 'Try a shorter query'
+                        , 'too specific': 'Try keywords instead of long phrases'
                         , 'typo': 'Check if you have a typo in your query'
             }
             
