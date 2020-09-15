@@ -45,7 +45,7 @@
             "cookie": {
               "name": "cookie-msg-2020-06",
               "domain": cookie_domain,
-              "sameSite": "lax"
+              "SameSite": "lax"
             }
         })
     });
