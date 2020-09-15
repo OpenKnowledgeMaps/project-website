@@ -181,7 +181,7 @@ if(!empty($_POST)) {
                     , "resolution_link": "index"
                 },
                 connection_error: {
-                    title: "Connection lost!"
+                    title: "Connection lost"
                     , reason: "It seems that your Internet is unavailable or the connection was reset."
                     , remedy: 'Please check your Internet settings and try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
                     , "resolution": "Refresh this page"
