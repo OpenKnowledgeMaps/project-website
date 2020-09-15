@@ -20,7 +20,7 @@
       }
     }
     clearCookies(["cookieconsent_status", "priv-update-2018-10", "priv-update-2018-12",
-                  "priv-update-2019-10"]);
+                  "priv-update-2019-10", "cookie-msg-2020-06"]);
     var cookie_domain = "<?php echo $COOKIE_DOMAIN ?>";
     window.addEventListener("load", function () {
         window.cookieconsent.initialise({
@@ -43,7 +43,7 @@
                 "href": cookie_href
             },
             "cookie": {
-              "name": "cookie-msg-2020-06",
+              "name": "cookie-msg-2020-09",
               "domain": cookie_domain,
               "sameSite": "Lax"
             }
