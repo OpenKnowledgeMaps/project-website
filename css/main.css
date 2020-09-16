@@ -1968,10 +1968,6 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     text-align: center;
 }
 
-#progress a {
-    text-decoration: underline;
-}
-
 #progressbar {
     height: 10px;
     max-width: 400px;
@@ -2054,6 +2050,14 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .search-waiting-page .infohow {
     border-top: 0px solid #cacfd3;
+}
+
+.search-waiting-page .mittig2 {
+    margin: 0;
+}
+
+.search-waiting-page .mittig {
+    padding-bottom: 0px !important;
 }
 
 /**/
