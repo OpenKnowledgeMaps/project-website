@@ -51,11 +51,13 @@
                     </p>
                     <p>We want to keep the number of papers to a manageable amount. 
                         100 papers are already 10 times more content than is presented on a standard search results page.
-                        Nevertheless, we are investigating on how to enable the exploration of larger amounts of content, 
+                        Nevertheless, we are investigating how to enable the exploration of larger amounts of content, 
                         while keeping <a class="underline" href="https://en.wikipedia.org/wiki/Cognitive_load" target="_blank">cognitive load</a> to a minimum.
                         At the moment, you can drill deeper into a topic by providing a more specific search query.
                         One way to do this is to expand your query with the topic of a sub-area.
                     </p>
+                    
+                    <p>In addition to cognitive considerations, there are also technical limitations. Most data providers either impose a limit on how many items can be retrieved or considerably slow down larger queries. In order to give you more content in a single knowledge map, we would have to build our own index first. This is on our roadmap, but due to the significant development and maintenance effort involved, we are still <a class="underline" href="#faq-funding">seeking funding for it</a>.</p>
                 </div>
 
                 <div class="faq">
@@ -71,11 +73,27 @@
                         In the meantime, please let us know of cases of major omissions via <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.
                     </p>
                 </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q4</span> Why does it take up to 30 seconds to create a knowledge map?
+                    </p>
+                    <p>While you wait, each query is processed live: first, it is sent to the selected data provider (either PubMed or BASE), which returns the most relevant results for it. This process takes around 15 seconds. Then, we analyse this data to create a knowledge map for it, which takes another 15 seconds. 
+We are committed to reduce loading times, but this would most certainly mean that we need to create our own index. This is on our roadmap, but due to the significant development and maintenance effort involved, we are still <a class="underline" href="#faq-funding">seeking funding for it</a>.
+                    </p>
+                </div>
+                
+                <div class="faq">
+                    <p class="faquestion">
+                        <span id="question-Q">Q5</span> How do you ensure the quality of the research included in a knowledge map?
+                    </p>
+                    <p>We use only trusted data providers such as BASE, PubMed and OpenAIRE. These providers carefully review the data sources to make sure that they only include academic content. However, even with the most careful review, mistakes can occur. If you find content on Open Knowledge Maps that you deem unscientific, please contact us at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>.</p>
+                </div>
 
                 <a name=faq-automatic-analysis class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q4</span> Are the maps generated based on full text analysis or on metadata analysis?
+                        <span id="question-Q">Q6</span> Are the maps generated based on full text analysis or on metadata analysis?
                     </p>
                     <p>The grouping of papers is based on article metadata. Currently, we use titles, abstracts, authors, 
                         journals, and subject keywords to create a word co-occurrence matrix between articles. On top of this
@@ -89,7 +107,7 @@
                 <a name=faq-automatic-analysis class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q5</span> What does the placement of the bubbles and the papers mean?
+                        <span id="question-Q">Q7</span> What does the placement of the bubbles and the papers mean?
                     </p>
                     <p>In general, the placement of bubbles can be interpreted as follows:
                     <ul class="faq-bullet-list">
@@ -110,7 +128,7 @@
                 <a name=faq-faulty-map class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q6</span> Why does the overview visualization work better for some research topics than others?
+                        <span id="question-Q">Q8</span> Why does the overview visualization work better for some research topics than others?
                     </p>
                     <p>The visualization depends on the search results that we get for a given query.
                         If there are for example not enough articles on the topic, or if the metadata quality is low, this will impact the visualization.
@@ -122,7 +140,7 @@
                 <a name=faq-cite-okmaps class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q7</span> How should I cite Open Knowledge Maps?
+                        <span id="question-Q">Q9</span> How should I cite Open Knowledge Maps?
                     </p>
                     <ul class="faq-bullet-list">
                         <li>To cite an individual map, please use the citation provided under each map. 
@@ -136,7 +154,7 @@
                 <a name=faq-info-background class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q8</span> Where can I find more information on the background of Open Knowledge Maps?
+                        <span id="question-Q">Q10</span> Where can I find more information on the background of Open Knowledge Maps?
                     </p>
                     <p>Please see <a href="https://github.com/OpenKnowledgeMaps/Headstart#Background" target="_blank" class="underline"> our Github page</a> for a list of relevant research papers and project reports.</p>
                 </div>
@@ -144,7 +162,7 @@
                 <a name=faq-source-inclusion class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q9</span> How can I include my repository / data source on Open Knowledge Maps?
+                        <span id="question-Q">Q11</span> How can I include my repository / data source on Open Knowledge Maps?
                     </p>
                     <p>
                         Open Knowledge Maps uses <a class="underline pointer" data-toggle="popover" title="Bielefeld Academic Search Engine 
@@ -166,7 +184,7 @@
                 <a name=faq-okmaps-history class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q10</span> How did Open Knowledge Maps come about?
+                        <span id="question-Q">Q12</span> How did Open Knowledge Maps come about?
                     </p>
                     <p>Open Knowledge Maps was founded by Peter Kraker in 2015. 
                         Peter had worked on knowledge domain visualizations in his PhD and developed the first version of 
@@ -179,7 +197,7 @@
                 <a name=faq-custom-solution class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q11</span> Can I use Open Knowledge Maps to visualize my own collection(s)?
+                        <span id="question-Q">Q13</span> Can I use Open Knowledge Maps to visualize my own collection(s)?
                     </p>
                     <p>
                         Absolutely! Open Knowledge Maps is based on the open source software 
@@ -194,7 +212,7 @@
                 <a name=faq-funding class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q12</span> How is Open Knowledge Maps funded?
+                        <span id="question-Q">Q14</span> How is Open Knowledge Maps funded?
                     </p>
                     <p>
                         We are a charitable non-profit organization run by a group of dedicated volunteers. We propose to fund Open Knowledge Maps in a collective effort. Organizations are invited to <a class="underline" href="supporting-membership">become supporting members</a> and co-create the platform with us. 
@@ -213,7 +231,7 @@
                 <a name=faq-contribution class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q13</span> How can I contribute?
+                        <span id="question-Q">Q15</span> How can I contribute?
                     </p>
                     <p>
                         <a class="underline" href="donate-now">You can contribute in a number of ways</a>: 
@@ -231,7 +249,7 @@
                 <a name=faq-introduction-training class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q14</span> I would like to introduce Open Knowledge Maps to my peers. Do you have any materials available?
+                        <span id="question-Q">Q16</span> I would like to introduce Open Knowledge Maps to my peers. Do you have any materials available?
                     </p>
                     <p>
                         We do! 
@@ -243,7 +261,7 @@
                 <a name=faq-increase-visibility class="anchor"></a>
                  <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q15</span> How do I increase the visibility of my research online?
+                        <span id="question-Q">Q17</span> How do I increase the visibility of my research online?
                     </p>
                     <p>
                         We have created a workshop for this topic entitled "Academic SEO". You can find a recording of this workshop <a class="underline" target="_blank" href="https://www.youtube.com/watch?v=kjKZxZmEXAU" target="_blank">on Youtube</a>. 
@@ -254,7 +272,7 @@
                 <a name=faq-collaboration-availability class="anchor"></a>
                 <div class="faq">
                     <p class="faquestion">
-                        <span id="question-Q">Q16</span> Are you available for collaborations and joint projects?
+                        <span id="question-Q">Q18</span> Are you available for collaborations and joint projects?
                     </p>
                     <p>
                         Absolutely! 
