@@ -144,7 +144,7 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                 }
                 setErrorContact(current_error_texts.contact);
                 writeSearchTerm("search_term_fail", search_term_short, search_term);
-                setErrorResolution(current_error_texts.resolution, current_error_texts.resolution_link);
+                setErrorResolution(current_error_texts.resolution, current_error_texts.resolution_link, true);
             }
 
         })
@@ -223,10 +223,11 @@ function setErrorMoreInfo(html_string) {
 function setErrorContact(html_string) {
     writeErrorFieldHTML("error-contact", html_string);
 }
-function setErrorResolution(resolution, resolution_link) {
-        if(resolution === "Try again") {
+function setErrorResolution(resolution, resolution_link, show_form) {
+        if(typeof show_form !== "undefined" && show_form === true) {
             $("#new_search_form").show();
         } else {
+            $("#error-resolution").removeClass("nodisplay")
             $("#error-resolution").text(resolution);
             $("#error-resolution").attr("href", resolution_link);
         }

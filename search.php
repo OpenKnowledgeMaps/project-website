@@ -158,12 +158,9 @@ if(!empty($_POST)) {
                     <p id="error-reason"></p>
                     <p id="error-remedy"></p>
                     <p id="error-more-info"></p>
-                    <p id="error-contact"></p>
-                    <p class="try-now" style="text-align: left !important; margin:30px 0 0;">
-                        <a id="error-resolution" class="donate-now" style="display:none"></a>
-                    </p>
-                    <h3 class="waiting-title">Have another try!</h3>
-                    <div id="new_search_form">
+                    
+                    <div id="new_search_form" class="noresults-search-form nodisplay">
+                        <h3 class="waiting-title">Have another try!</h3>
                         <script>
                             var search_term_focus = true;
                             var show_filters = true;
@@ -175,10 +172,14 @@ if(!empty($_POST)) {
                         ?>
                         <script>
                             $("#searchform").attr("target", "");
-                        </script>
+                        </script>  
                     </div>
+                    
+                    <p id="error-contact"></p>
+                    <p class="try-now" style="text-align: left !important; margin:30px 0 0;">
+                        <a id="error-resolution" class="donate-now nodisplay"></a>
+                    </p>
                 </div>
-
             </div>
         </div>
         
@@ -199,8 +200,8 @@ if(!empty($_POST)) {
                     title: "Sorry! We could not create a knowledge map."
                     , reason: 'Most likely there were not enough results for <strong id="search_term_fail"></strong> with the selected search options.'
                     , remedy: "<strong>Here are some tips to improve your query:</strong>"
-                    , more_info: 'Alternatively you can <a id="more-info-link_na" target="_blank">check out results for your search query on <span id="more-info-link_service"></span></a>'
-                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Please include the search query in your message.'
+                    , more_info: 'Alternatively you can <a class="underline" id="more-info-link_na" target="_blank">check out results for your search query on <span id="more-info-link_service"></span></a>. For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>.'
+                    , contact: 'If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Please include the search query in your message.'
                     , "resolution": "Try again"
                     , "resolution_link": "index"
                 },
@@ -222,8 +223,8 @@ if(!empty($_POST)) {
                 },
                 no_post_data: {
                     title: "Ooops! You should not be here..."
-                    , reason: 'We apologize for this slight detour. You will be redirected to <a class="underline" href="index">our service</a> in 10 seconds.'
-                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <br><a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    , reason: 'We apologize for this slight detour. You will be redirected to <a class="underline" href="index">our search page</a> in 10 seconds.'
+                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Go to search page"
                     , "resolution_link": "index"
                     
@@ -232,7 +233,7 @@ if(!empty($_POST)) {
                     title: "We didn't anticipate this taking so long - unfortunately your request timed out."
                     , reason: "It might be that too many people are currently creating knowledge maps. You may also have lost your Internet connection."
                     , remedy: 'In any case, we recommend to check your Internet settings and try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
-                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <br><a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Refresh this page"
                     , "resolution_link": "javascript:location.reload()"
                     

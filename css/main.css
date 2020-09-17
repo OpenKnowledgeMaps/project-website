@@ -2060,6 +2060,11 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     padding-bottom: 0px !important;
 }
 
+.noresults-search-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /**/
 .library {
     font-size: 18px;
