@@ -238,7 +238,7 @@ var options_base = {
                 {id: "most-relevant", text: "Most relevant"}
                 , {id: "most-recent", text: "Most recent"}
             ]},
-        {id: "document_types", multiple: true, width: "140px", name: "Document types", type: "dropdown"
+        {id: "document_types", multiple: true, name: "Document types", type: "dropdown", width: "140px"
             , fields: [
                 {id: "4", text: "Audio", selected: false}
                 , {id: "11", text: "Book", selected: false}
@@ -263,7 +263,12 @@ var options_base = {
                 , {id: "183", text: "Thesis: doctoral and postdoctoral", selected: false}
                 , {id: "182", text: "Thesis: master", selected: false}
                 , {id: "52", text: "Video/moving image", selected: false}
-            ]}
+            ]},
+        {id: "min_descsize", multiple: false, name: "Abstract", type: "dropdown", width: "145px"
+            , fields: [
+                {id: "300", text: "Abstract required (minimum length: 300 characters)"}
+                , {id: "0", text: "No abstract required (may significantly reduce map quality)"}
+            ]},
     ],
     languages: [
         {

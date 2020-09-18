@@ -62,7 +62,7 @@ if(!empty($_POST)) {
         $params_array = array();
         switch ($service) {
             case "base":
-                $params_array = array("from", "to", "document_types", "sorting");
+                $params_array = array("from", "to", "document_types", "sorting", "min_descsize");
                 break;
             
             case "pubmed":
