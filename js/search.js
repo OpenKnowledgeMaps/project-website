@@ -62,7 +62,10 @@ function errorOccurred() {
     stopAndResetProgressbar();
     clearFallbackInterval();
     $("#active_state").addClass("nodisplay");
-    $("#error_state").removeClass("nodisplay")
+    $("#error_state").removeClass("nodisplay");
+    if(search_term_focus) {
+        document.getElementById("searchterm").focus({preventScroll: true});
+    }
 }
 
 function redirectToMap(id) {
@@ -77,11 +80,12 @@ var getSearchTermShort = function (search_term) {
                 : search_term;
 }
 
-function writeSearchTerm(id, search_term_short) {
+function writeSearchTerm(id, search_term_short, search_term) {
     $('#' + id).text(search_term_short);
+    $('#' + id).attr("title", search_term);
 }
 
-function executeSearchRequest(service_url, post_data, service, search_term_short) {
+function executeSearchRequest(service_url, post_data, service, search_term_short, search_term) {
     $.ajax({
             url: service_url,
             type: "POST",
@@ -116,7 +120,13 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                     let list_array = (Array.isArray(output.reason)) 
                                         ? output.reason
                                         : [output.reason];
-
+                    
+                    for(let error of error_always_add) {
+                        if(!list_array.includes(error)) {
+                            list_array.push(error);
+                        }
+                    }
+                    
                     let list_array_translated = [];
                     for (let item of list_array) {
                         if(error_code_translation.hasOwnProperty(item)) {
@@ -133,8 +143,8 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                     $("#more-info-link_service").text((service === "base") ? ("BASE") : ("PubMed"))
                 }
                 setErrorContact(current_error_texts.contact);
-                writeSearchTerm("search_term_fail", search_term_short);
-                setErrorResolution(current_error_texts.resolution, current_error_texts.resolution_link);
+                writeSearchTerm("search_term_fail", search_term_short, search_term);
+                setErrorResolution(current_error_texts.resolution, current_error_texts.resolution_link, true);
             }
 
         })
@@ -168,7 +178,7 @@ function redirectToIndex() {
 // Everything related to error messaging apart from translating 
 // error descriptions/possible reasons
 
-function setErrorTexts(text_object, search_term_short) {
+function setErrorTexts(text_object, search_term_short, search_term) {
     if(text_object.hasOwnProperty("title")) {
         setErrorTitle(text_object.title);
     }
@@ -184,8 +194,9 @@ function setErrorTexts(text_object, search_term_short) {
     if(text_object.hasOwnProperty("title")) {
         setErrorContact(text_object.contact);
     }
-    if(typeof search_term_short !== "undefined" && search_term_short !== null) {
-        writeSearchTerm('search_term_fail', search_term_short);
+    if(typeof search_term_short !== "undefined" && search_term_short !== null
+            && typeof search_term !== "undefined" && search_term !== null) {
+        writeSearchTerm('search_term_fail', search_term_short, search_term);
     }
     
     if(text_object.hasOwnProperty("resolution") && text_object.hasOwnProperty("resolution_link")) {
@@ -212,9 +223,14 @@ function setErrorMoreInfo(html_string) {
 function setErrorContact(html_string) {
     writeErrorFieldHTML("error-contact", html_string);
 }
-function setErrorResolution(resolution, resolution_link) {
-        $("#error-resolution").text(resolution);
-        $("#error-resolution").attr("href", resolution_link);
+function setErrorResolution(resolution, resolution_link, show_form) {
+        if(typeof show_form !== "undefined" && show_form === true) {
+            $("#new_search_form").show();
+        } else {
+            $("#error-resolution").removeClass("nodisplay")
+            $("#error-resolution").text(resolution);
+            $("#error-resolution").attr("href", resolution_link);
+        }
 }
 
 function writeErrorFieldHTML(field, html_string) {

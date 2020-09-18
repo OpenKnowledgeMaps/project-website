@@ -48,12 +48,13 @@ function createID($string_array) {
 }
 
 $unique_id = "";
+$dirty_query = "";
 
 if(!empty($_POST)) {
     $post_array = $_POST;
+    $dirty_query = $post_array["q"];
     
     if(!isset($post_array["unique_id"])) {
-        $dirty_query = $post_array["q"];
         $query = addslashes(trim(strtolower(strip_tags($dirty_query))));
         
         $date = new DateTime();
@@ -109,7 +110,7 @@ if(!empty($_POST)) {
         ?>
 
         <style>
-            .ui-widget-header {
+            #progressbar .ui-widget-header {
                 background: #e55137;
                 border: 1px solid #DDDDDD;
                 color: #333333;
@@ -117,6 +118,14 @@ if(!empty($_POST)) {
             }
         </style>
         <script src="./js/search.js"></script>
+        <script>
+            <?php
+                if(isset($post_data)) {
+                    echo "var post_data = " . $post_data . ";\n";
+                }
+                
+            ?>
+        </script>
     </head>
 
     <body class="about-page search-waiting-page">
@@ -149,12 +158,28 @@ if(!empty($_POST)) {
                     <p id="error-reason"></p>
                     <p id="error-remedy"></p>
                     <p id="error-more-info"></p>
+                    
+                    <div id="new_search_form" class="noresults-search-form nodisplay">
+                        <h3 class="waiting-title">Have another try!</h3>
+                        <script>
+                            var search_term_focus = true;
+                            var show_filters = true;
+                        </script>
+                        <?php
+                            $default_lib = $service;
+                            $search_query = htmlspecialchars(stripslashes($dirty_query));
+                            include($COMPONENTS_PATH . 'search-form.php') 
+                        ?>
+                        <script>
+                            $("#searchform").attr("target", "");
+                        </script>  
+                    </div>
+                    
                     <p id="error-contact"></p>
                     <p class="try-now" style="text-align: left !important; margin:30px 0 0;">
-                    <a id="error-resolution" class="donate-now"></a>                
-                </p>
+                        <a id="error-resolution" class="donate-now nodisplay"></a>
+                    </p>
                 </div>
-
             </div>
         </div>
         
@@ -175,8 +200,8 @@ if(!empty($_POST)) {
                     title: "Sorry! We could not create a knowledge map."
                     , reason: 'Most likely there were not enough results for <strong id="search_term_fail"></strong> with the selected search options.'
                     , remedy: "<strong>Here are some tips to improve your query:</strong>"
-                    , more_info: 'Alternatively you can <a id="more-info-link_na" target="_blank">check out results for your search query on <span id="more-info-link_service"></span></a>'
-                    , contact: 'For more information about our service please <a href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Please include the search query in your message.'
+                    , more_info: 'Alternatively you can <a class="underline" id="more-info-link_na" target="_blank">check out results for your search query on <span id="more-info-link_service"></span></a>. For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>.'
+                    , contact: 'If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. Please include the search query in your message.'
                     , "resolution": "Try again"
                     , "resolution_link": "index"
                 },
@@ -190,16 +215,16 @@ if(!empty($_POST)) {
                 },
                 server_error: {
                     title: "Whoops! An unexpected error occurred."
-                    , reason: 'Unfortunately we don’t know what went wrong. We apologize for the inconvenience. Please <a href="index.php">try again</a> in a few minutes.'
-                    , remedy: 'If the error persists, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. We will investigate the issue further.'
+                    , reason: 'Unfortunately we don’t know what went wrong. We apologize for the inconvenience. Please <a class="underline" href="index.php">try again</a> in a few minutes.'
+                    , remedy: 'If the error persists, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. We will investigate the issue further.'
                     , "resolution": "Try again"
                     , "resolution_link": "index"
                     
                 },
                 no_post_data: {
                     title: "Ooops! You should not be here..."
-                    , reason: 'We apologize for this slight detour. You will be redirected to <a class="underline" href="index">our service</a> in 10 seconds.'
-                    , contact: 'For more information about our service please <a href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    , reason: 'We apologize for this slight detour. You will be redirected to <a class="underline" href="index">our search page</a> in 10 seconds.'
+                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Go to search page"
                     , "resolution_link": "index"
                     
@@ -208,7 +233,7 @@ if(!empty($_POST)) {
                     title: "We didn't anticipate this taking so long - unfortunately your request timed out."
                     , reason: "It might be that too many people are currently creating knowledge maps. You may also have lost your Internet connection."
                     , remedy: 'In any case, we recommend to check your Internet settings and try again by <a class="underline" style="cursor:pointer" onClick="window.location.reload();">refreshing this page</a>.'
-                    , contact: 'For more information about our service please <a href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <br><a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Refresh this page"
                     , "resolution_link": "javascript:location.reload()"
                     
@@ -221,14 +246,11 @@ if(!empty($_POST)) {
                         , 'query length': 'Try a shorter query'
                         , 'too specific': 'Try keywords instead of long phrases'
                         , 'typo': 'Check if you have a typo in your query'
-            }
+            };
             
-            <?php
-                if(isset($post_data)) {
-                    echo "var post_data = " . $post_data . ";\n";
-                }
-                
-            ?>
+            const error_always_add = [
+                'typo'
+            ];
             
             var service = "<?php echo $service ?>";
             var unique_id = "<?php echo (isset($unique_id)?($unique_id):("")) ?>";
@@ -279,9 +301,9 @@ if(!empty($_POST)) {
             let search_term = getPostData(post_data, "q", "string").replace(/[\\]/g, "");
             let search_term_short = getSearchTermShort(search_term);
 
-            writeSearchTerm('search_term', search_term_short);
+            writeSearchTerm('search_term', search_term_short, search_term);
 
-            executeSearchRequest("<?php echo $HEADSTART_URL ?>server/services/" + script, post_data, service, search_term_short);
+            executeSearchRequest("<?php echo $HEADSTART_URL ?>server/services/" + script, post_data, service, search_term_short, search_term);
 
             var check_fallback_interval = null;
             var check_fallback_timeout = 
