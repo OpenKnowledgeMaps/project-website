@@ -63,9 +63,6 @@ function errorOccurred() {
     clearFallbackInterval();
     $("#active_state").addClass("nodisplay");
     $("#error_state").removeClass("nodisplay");
-    if(search_term_focus) {
-        document.getElementById("searchterm").focus({preventScroll: true});
-    }
 }
 
 function redirectToMap(id) {
@@ -229,6 +226,9 @@ function setErrorContact(html_string) {
 function setErrorResolution(resolution, resolution_link, show_form) {
         if(typeof show_form !== "undefined" && show_form === true) {
             $("#new_search_form").show();
+            if(search_term_focus) {
+                document.getElementById("searchterm").focus({preventScroll: true});
+            }
         } else {
             $("#error-resolution").removeClass("nodisplay")
             $("#error-resolution").text(resolution);
