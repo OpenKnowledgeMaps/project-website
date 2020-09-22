@@ -111,22 +111,25 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                 } catch(e) {
                     console.log("An error ocurred when creating the search string");
                 }
+                
+                let list_array = [];
+                
+                if(output.hasOwnProperty("reason") && output.reason.length > 0) {
+                    list_array = (Array.isArray(output.reason)) 
+                                        ? output.reason
+                                        : [output.reason];
+                }
+                
+                if (list_array.length > 0 && list_array[0] === "API error: requested metadata size") {
+                    setErrorTexts(error_texts.pubmed_api_fail);
+                    return;
+                }
 
                 let current_error_texts = error_texts.not_enough_results;
 
                 setErrorTitle(current_error_texts.title);
                 setErrorReason(current_error_texts.reason);
-                if(output.hasOwnProperty("reason") && output.reason.length > 0) {
-                    let list_array = (Array.isArray(output.reason)) 
-                                        ? output.reason
-                                        : [output.reason];
-                    
-                    for(let error of error_always_add) {
-                        if(!list_array.includes(error)) {
-                            list_array.push(error);
-                        }
-                    }
-                    
+                if(list_array.length > 0) {
                     let list_array_translated = [];
                     for (let item of list_array) {
                         if(error_code_translation.hasOwnProperty(item)) {
