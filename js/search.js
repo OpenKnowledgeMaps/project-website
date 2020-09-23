@@ -120,6 +120,9 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                 if (list_array.length > 0 && list_array[0] === "API error: requested metadata size") {
                     setErrorTexts(error_texts.pubmed_api_fail);
                     return;
+                } else if(list_array.length === 0 || list_array[0] === "unexpected data processing error") {
+                    setErrorTexts(error_texts.server_error);
+                    return;
                 }
 
                 let current_error_texts = error_texts.not_enough_results;
