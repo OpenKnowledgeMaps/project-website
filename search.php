@@ -242,7 +242,7 @@ if(!empty($_POST)) {
                     title: "An unexpected error occurred while retrieving data from PubMed"
                     , reason: "The PubMed API is currently experiencing problems. We have logged the error and will investigate the issue."
                     , remedy: 'Please <a class="underline" style="cursor:pointer" onClick="window.location.reload();">try again</a> in a few minutes or <a class="underline" style="cursor:pointer" href="index">use the BASE integration</a>, which also covers the articles indexed in PubMed.'
-                    , contact: 'For more information about our service please <a href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Try again"
                     , "resolution_link": "javascript:location.reload()"
                     
