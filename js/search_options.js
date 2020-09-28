@@ -124,9 +124,10 @@ var options_pubmed = {
                 , {id: "clinical trial, phase iv", text: "Clinical Trial, Phase IV", selected: true}
                 , {id: "clinical trial, veterinary", text: "Clinical Trial, Veterinary", selected: true}
                 , {id: "collected work", text: "Collected Work", selected: true}
+                , {id: "collected works", text: "Collected Works", selected: true}
                 , {id: "comment", text: "Comment", selected: true}
                 , {id: "comparative study", text: "Comparative Study", selected: true}
-                , {id: "congresses", text: "Congresses", selected: true}
+                , {id: "congress", text: "Congress", selected: true}
                 , {id: "consensus development conference", text: "Consensus Development Conference", selected: true}
                 , {id: "consensus development conference, nih", text: "Consensus Development Conference, NIH", selected: true}
                 , {id: "controlled clinical trial", text: "Controlled Clinical Trial", selected: true}
@@ -140,6 +141,7 @@ var options_pubmed = {
                 , {id: "english abstract", text: "English Abstract", selected: true}
                 , {id: "ephemera", text: "Ephemera", selected: true}
                 , {id: "equivalence trial", text: "Equivalence Trial", selected: true}
+                , {id: "evaluation studies", text: "Evaluation Studies", selected: true}
                 , {id: "evaluation study", text: "Evaluation Study", selected: true}
                 , {id: "expression of concern", text: "Expression of Concern", selected: true}
                 , {id: "festschrift", text: "Festschrift", selected: true}
@@ -154,6 +156,7 @@ var options_pubmed = {
                 , {id: "legal case", text: "Legal Case", selected: true}
                 , {id: "legislation", text: "Legislation", selected: true}
                 , {id: "letter", text: "Letter", selected: true}
+                , {id: "manuscript", text: "Manuscript", selected: true}
                 , {id: "meta analysis", text: "Meta Analysis", selected: true}
                 , {id: "multicenter study", text: "Multicenter Study", selected: true}
                 , {id: "news", text: "News", selected: true}
@@ -169,6 +172,7 @@ var options_pubmed = {
                 , {id: "portrait", text: "Portrait", selected: true}
                 , {id: "practice guideline", text: "Practice Guideline", selected: true}
                 , {id: "pragmatic clinical trial", text: "Pragmatic Clinical Trial", selected: true}
+                , {id: "preprint", text: "Preprint", selected: true}
                 , {id: "publication components", text: "Publication Components", selected: true}
                 , {id: "publication formats", text: "Publication Formats", selected: true}
                 , {id: "publication type category", text: "Publication Type Category", selected: true}
@@ -549,7 +553,6 @@ var SearchOptions = {
     init: function (tag, data) {
 
         var self = this;
-
         self.drawOptions(tag, data);
 
     },
@@ -707,7 +710,9 @@ var SearchOptions = {
 
         })
     },
-    setDateRangeFromPreset: function (from, to, val, start_date) {
+    setDateRangeFromPreset: function (from, to, val, start_date, end_date, hide_inputs) {
+        var self = this;
+        
         var current_date = new Date();
         var current_year = current_date.getFullYear();
         
@@ -717,6 +722,7 @@ var SearchOptions = {
         //set ranges for date picker
         var start_date_object = new Date(start_date);
         var start_year = start_date_object.getFullYear();
+        
         var range = start_year + ":" + current_year;
         $(from).datepicker("option", "yearRange", range);
         $(to).datepicker("option", "yearRange", range);
@@ -725,7 +731,12 @@ var SearchOptions = {
 
             case "user-defined":
                 self.user_defined_date = true;
-                d3.select("#input-container").style("display", "block");
+                if(typeof end_date !== "undefined") {
+                    this.setDateFields(from, to, start_date, end_date);
+                }
+                if(typeof hide_inputs === "undefined" || hide_inputs === false) {
+                    d3.select("#input-container").style("display", "block");
+                }
                 break;
 
                 //full date
@@ -779,7 +790,7 @@ var SearchOptions = {
     initDateFields: function (from, to) {
         setDateFields(from, to);
     },
-    addDatePickerFromTo: function (from, to, init_time_range, start_date) {
+    addDatePickerFromTo: function (from, to, init_time_range, start_date, end_date, hide_inputs) {
 
         var self = this;
 
@@ -807,7 +818,7 @@ var SearchOptions = {
                 firstDay: 1
             });
 
-            self.setDateRangeFromPreset("#from", "#to", init_time_range, start_date);
+            self.setDateRangeFromPreset("#from", "#to", init_time_range, start_date, end_date, hide_inputs);
 
         });
     },
