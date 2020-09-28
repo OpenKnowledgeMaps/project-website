@@ -266,8 +266,8 @@ var options_base = {
             ]},
         {id: "min_descsize", multiple: false, name: "Abstract", type: "dropdown", width: "145px"
             , fields: [
-                {id: "300", text: "Abstract required (minimum length: 300 characters)"}
-                , {id: "0", text: "No abstract required (may significantly reduce map quality)"}
+                {id: "300", text: "Metadata quality high (abstract required, minimum length: 300 characters)"}
+                , {id: "0", text: "Metadata quality low (no abstract required, which may significantly reduce map quality)"}
             ]},
     ],
     languages: [
