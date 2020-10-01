@@ -18,7 +18,7 @@ include "head_components/cookieconsent.php";
 ?>
 
 <link rel="stylesheet" href="<?php echo $LIB_PATH ?>font-awesome.min.css" >
-<link rel="stylesheet" href="./css/main.css?v=sfec">
+<link rel="stylesheet" href="./css/main.css?v=descsize-filter-update">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
