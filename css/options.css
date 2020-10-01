@@ -34,6 +34,10 @@
     z-index: auto;
 }
 
+#filters .dropdown-menu {
+    z-index: 1000;
+}
+
 button {
     background-color: #2D3E52;
     color: white;
