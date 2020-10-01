@@ -6,7 +6,7 @@ var updateOptions = function(post_data) {
         for (let dropdown of config.options.dropdowns) {
             if(dropdown.id === post_field_key) {
                 for (let dropdown_field of dropdown.fields) {
-                    if(dropdown_field.id === post_field || post_field.includes(dropdown_field.id)) {
+                    if(dropdown_field.id === post_field || (Array.isArray(post_field) && post_field.includes(dropdown_field.id))) {
                         dropdown_field.selected = true;
                         if(dropdown.id === "time_range" && dropdown_field.id === "user-defined") {
                             for(let input of dropdown_field.inputs) {
