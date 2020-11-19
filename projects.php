@@ -24,8 +24,7 @@
                 <div class="team">
                     <h2 style="color: #2d3e52;">Projects</h2>
                     <p>At Open Knowledge Maps, our aim is to improve the visibility of scientific knowledge. 
-                        That’s why we partner with organizations that share our goals to develop innovative open science projects.
-                       Check out our present and past collaboration projects below <!--and <a class="underline" href="projects#work-with-us">learn more about how we can work together</a>-->.</p>
+                        We partner with funders, research organizations and infrastructures that share our goals to develop innovative open science projects.<br><br><a class="underline" href="getintouch">Get in touch</a>, if you are interested in such a collaboration. Currently, we are looking for dedicated funding for the workplan set out <a class="underline" href="https://github.com/OpenKnowledgeMaps/open-discovery/blob/master/roadmap.md#Workplan">in our roadmap</a>.</p>
                 </div>
             </div>
         </div>
@@ -37,6 +36,6 @@
         //$COMMENT_IMAGES_URL = "./img/project-partners/partner-statements/";
         //include($COMPONENTS_PATH . 'commentstream.php');
         ?>            
-        <?php include($COMPONENTS_PATH . "project-work-with-us.php"); ?>
-        <?php include($COMPONENTS_PATH . "project-team.php"); ?>
+        <?php //include($COMPONENTS_PATH . "project-work-with-us.php"); ?>
+        <?php //include($COMPONENTS_PATH . "project-team.php"); ?>
         <?php include($COMPONENTS_PATH . 'footer_base.php'); ?>

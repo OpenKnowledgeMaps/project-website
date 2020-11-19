@@ -7,10 +7,12 @@
     <div class="project-examples">
 
         <div class="project-card">
-            <div class="project-pic">
-                <img class="desktop-img" src="./img/project-examples/triple-desktop.png" alt='Triple EU project funded under the Horizon 2020 framework'>
-                <img class="mobile-img" src="./img/project-examples/triple.png" alt='Triple EU project funded under the Horizon 2020 framework'>
-            </div>
+            <a target="_blank" href="http://gotriple.eu">
+                <div class="project-pic">
+                    <img class="desktop-img hoverlink" src="./img/project-examples/triple-desktop.png" alt='Triple EU project funded under the Horizon 2020 framework'>
+                    <img class="mobile-img hoverlink" src="./img/project-examples/triple.png" alt='Triple EU project funded under the Horizon 2020 framework'>
+                </div>
+            </a>
             <div class="project-description">
                 <h3>TRIPLE: The multilingual discovery platform for the social sciences and humanities.</h3>
                 <p class="project-facts">TRIPLE is a EU project funded under the Horizon 2020 framework. TRIPLE's goal is to create a comprehensive free and open discovery solution for the social sciences and humanities (SSH). Under the lead of Huma-Num (CNRS), a consortium of 18 partners from 12 countries will develop TRIPLE as a core service of OPERAS and the European Open Science Cloud (EOSC).</p>
@@ -23,11 +25,13 @@
         </div>
         
         <div class="project-card">
-            <div class="project-pic">
-                
-                   <img class="desktop-img" src="./img/project-examples/elife-desktop.png" alt='project funded by eLife'>
-                    <img class="mobile-img" src="./img/project-examples/elife.png" alt='project funded by eLife'>
-            </div>
+            <a target="_blank" href="https://elifesciences.org/labs/ef274c83/open-knowledge-maps-a-visual-interface-to-the-world-s-scientific-knowledge">
+                <div class="project-pic">
+
+                       <img class="desktop-img hoverlink" src="./img/project-examples/elife-desktop.png" alt='project funded by eLife'>
+                        <img class="mobile-img hoverlink" src="./img/project-examples/elife.png" alt='project funded by eLife'>
+                </div>
+            </a>
             <div class="project-description">
                 <h3>Open Knowledge Maps Frontend Refactoring</h3>
                 <p class="project-facts">With eLife's backing, we are performing a necessary refactoring of the Open Knowledge Maps frontend.
