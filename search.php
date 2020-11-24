@@ -318,7 +318,7 @@ if(!empty($_POST)) {
             var check_fallback_timeout = 
                             window.setTimeout(function () {
                                 check_fallback_interval = window.setInterval(fallbackCheck, 4000
-                                , "<?php echo $HEADSTART_URL ?>server/services/getLastVersion.php?vis_id="
+                                , "<?php echo $HEADSTART_URL ?>server/services/getLastVersion.php?service=" + service + "&vis_id="
                                 , unique_id);
                             }, 10000);
                             
