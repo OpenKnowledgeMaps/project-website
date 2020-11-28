@@ -36,8 +36,8 @@ var data_config = {
 	show_keywords: true,
     
     is_evaluation: true,
-    evaluation_service: ["ga", "matomo"],
-    
+    evaluation_service: ["matomo"],
+
     use_hypothesis: true,
     
     faqs_button: true,
