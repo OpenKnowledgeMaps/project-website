@@ -2,6 +2,7 @@
 <div class="featuredin" id="partnerdiv">
     <h2>Featured in</h2>
     <div class="partners">
+        <a href="https://www.trend.at/branchen/forschung-innovation/open-science-wissenschaft-11769653" target="_blank"><img src="./img/featuredin/trend_at_logo.png" alt="trend"></a>
         <a href="https://freieswissen.net/einreichung.html" target="_blank"><img src="./img/featuredin/austrian-prize-for-free-knowledge.png" alt="Austrian Prize for Free Knowledge"></a>
         <a href="https://futurezone.at/" target="_blank"><img src="./img/featuredin/fuzo-logo.png" alt="Futurezone"></a>
         <a href="https://open-access.net/startseite" target="_blank"><img src="./img/featuredin/oa-tage.png" alt="Open Access Tage"></a>
