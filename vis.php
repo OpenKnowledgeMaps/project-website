@@ -103,97 +103,50 @@
                 
             ?>
        <?php endif; ?>
-            <div class="overflow-vis">
- 
-                <div id="visualization" style="background-color:white;"></div>
-
-            </div>
-
-            <script src="js/search_options.js"></script>  
-            <script> 
-                var calcDivHeight = function () {
-                    
-                    let height = $(window).height();
-                    let width = $(window).width();
-                    
-                    if(height <= 670 || width < 904 || (width >= 985 && width  < 1070)) {
-                        return 670;    
-                    } else if (width >= 904 && width <= 984) {
-                        return 670 + (width - 904);
-                    } else if (width >= 1070 && width < 1400) {
-                        return 670 + (width - 1070)/2;
-                    } else if (width > 1400 && width < 1600) {
-                        let calc_width = 835 + (width - 1400)
-                        return (calc_width > 897)?(897):(calc_width);
-                    }  else {
-                        return $(window).height();
-                    }
-                }
-
-                var div_height = calcDivHeight();
-
-                <?php if (!$is_embed): ?>
-                    $(".overflow-vis").css("min-height", div_height + "px")
-                    $("#visualization").css("min-height", div_height + "px")
-                
-                <?php endif ?>
-                
-                data_config.server_url = "<?php echo $HEADSTART_URL ?>server/";
-                data_config.intro = intro;
+       <script src="js/search_options.js"></script>
+       <script>
+           var fit_to_page = false;
+       </script>
+       
+       <?php include ($SEARCH_FLOW_PATH . "inc/knowledge-map.php") ?>
+       
+       <link rel="stylesheet" href="./css/main.css">
+       <script>
+            data_config.intro = intro;
             <?php if ($service == "plos"): ?>
                 data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
             <?php endif ?>
-                data_config.files = [{
-                title: <?php echo json_encode($query) ?>,
-                        file: <?php echo json_encode($id) ?>
-                }]
+            data_config.files = [{
+            title: <?php echo json_encode($query) ?>,
+                    file: <?php echo json_encode($id) ?>
+            }]
 
-                data_config.options = options_<?php echo $service ?>.dropdowns;
-                                    
-            </script>
-            <script type="text/javascript" src="<?php echo $HEADSTART_URL ?>dist/headstart.js"></script>
-            <script type="text/javascript">
-                $(document).ready(function () {
-                    headstart.start();
-                })
-                
-            </script>
+            data_config.options = options_<?php echo $service ?>.dropdowns;
+            data_config.server_url = "<?php echo $headstart_path ?>server/";
+       </script>
+       <?php if ($is_embed): ?>
+           <script>
+               data_config.canonical_url = "<?php echo $canonical_url; ?>";
+           </script>
+       <?php else: ?>
+
+            <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>
+
+            <div style="border-top: 0px solid #cacfd3; padding: 50px 20px;">
+                <p class="try-now" style="text-align: center; margin:0px 0 0;">
+                    <a target="_blank" class="donate-now" href="index">Create a new knowledge map</a>
+                </p>
+            </div>
             
-            <link rel="stylesheet" href="<?php echo $HEADSTART_URL ?>dist/headstart.css">
-            <link rel="stylesheet" href="./css/main.css">
-        
-        <?php if($has_custom_title): ?>
-            <script>
-                data_config.create_title_from_context_style = "custom";
-                data_config.custom_title = "<?php echo $custom_title?>";
-            </script>          
-        <?php endif; ?>
-            
-        <?php if ($is_embed): ?>
-            <script>
-                data_config.credit_embed = true;
-                data_config.canonical_url = "<?php echo $canonical_url; ?>";
-            </script>
+            <div class="desktop-img"><?php include($COMPONENTS_PATH . 'integrations-v2.php') ?></div>
+            <div class="mobile-img"><?php include($COMPONENTS_PATH . 'integrations.php') ?></div>
+            <?php
+            //include($COMPONENTS_PATH . 'supportus.php');
+            //include($COMPONENTS_PATH . 'donation-section.php');
+            include($COMPONENTS_PATH . 'footer_base.php');
+            ?>
 
-        <?php else: ?>
-
-        <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>
-
-<div style="border-top: 0px solid #cacfd3; padding: 50px 20px;">
-    <p class="try-now" style="text-align: center; margin:0px 0 0;">
-        <a target="_blank" class="donate-now" href="index">Create a new knowledge map</a>
-    </p>
-</div>
-            
-        <div class="desktop-img"><?php include($COMPONENTS_PATH . 'integrations-v2.php') ?></div>
-        <div class="mobile-img"><?php include($COMPONENTS_PATH . 'integrations.php') ?></div>
-        <?php
-        //include($COMPONENTS_PATH . 'supportus.php');
-        //include($COMPONENTS_PATH . 'donation-section.php');
-        include($COMPONENTS_PATH . 'footer_base.php');
-        ?>
-
-        <?php endif ?>  
+        <?php endif; ?>  
 
         <?php include ($COMPONENTS_PATH . "vis_additional_functions.php"); ?>
         
