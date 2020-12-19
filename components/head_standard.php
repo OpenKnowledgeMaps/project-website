@@ -25,3 +25,10 @@ include "head_components/cookieconsent.php";
 
 <?php include "head_components/evaluation.php"; ?>
 
+<script>
+    var pubmed_down = <?php echo (isset($PUBMED_DOWN) && $PUBMED_DOWN === true)?("true"):("false") ?>;
+    var base_down = <?php echo (isset($BASE_DOWN) && $BASE_DOWN === true)?("true"):("false") ?>;
+    
+    var lib_from_param = "<?php echo(isset($_GET['lib'])?($_GET['lib']):("null")); ?>";
+</script>
+

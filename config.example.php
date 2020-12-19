@@ -15,10 +15,8 @@ $PIWIK_SITE_ID = "1";
 $GA_ENABLED = false;
 $GA_CODE = "XX-00000000-0";
 
-$DEFAULT_LIB = "base";
 $BASE_DOWN = false;
 $PUBMED_DOWN =  false;
-$DOAJ_FALLBACK = false;
 $COOKIE_DOMAIN = "";
 
 ?>

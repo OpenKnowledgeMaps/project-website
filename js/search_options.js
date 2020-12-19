@@ -1,3 +1,34 @@
+var search_options = {
+    disabled_message: "Undergoing downtime - please try again later!"
+    , options: [
+        { id: "pubmed", name: "PubMed", disabled: false, default: false 
+            , text: "PubMed", description: "(life sciences)"
+            , service: "searchPubmed.php"
+            
+        }
+        , { id: "base", name: "BASE", disabled: false, default: true 
+            , text: "BASE", description: "(all disciplines)"
+            , service: "searchBASE.php"
+        }
+    ]
+}
+
+var examples_pubmed = {
+    example_text: "Try out:", 
+    examples : [
+        { text: "covid-19", link: "./map/9c13731dc8cd3de25b4eb29cd8c55244" }
+        , { text: "\"climate change\"", link: "./map/96a8f56b533aac696e9f3ea67713ed0a" }
+    ]
+}
+
+var examples_base = {
+    example_text: "Try out:", 
+    examples : [
+        { text: "digital education", link: "./map/530133cf1768e6606f63c641a1a96768" }
+        , { text: "climate change AND impact", link: "./map/b56644312705917c3426967928bf2477" }
+    ]
+}
+
 var options_plos = {
     start_date: "1970-01-01",
     dropdowns: [
@@ -552,3 +583,49 @@ var options_openaire = {
                 , {id: "wt", text: "WT - Wellcome Trust"}                
             ]}
     ]}
+
+var disableItem = function(id) {
+    search_options.options.find(function(item) {
+        if (item.id === id) {
+            item.disabled = true;
+        }
+    })
+}
+
+var makeDefault = function(id) {
+    search_options.options.find(function(item) {
+        if (item.id === id) {
+            item.default = true;
+        }
+    })
+}
+
+var removeDefault = function(id) {
+    search_options.options.find(function(item) {
+        if (item.id === id) {
+            item.default = false;
+        }
+    })
+}
+
+
+//TODO: Introduce a more dynamic solution here, integrate in search-flow
+if(base_down) {
+    disableItem("base");
+    makeDefault("pubmed");
+}
+
+if(pubmed_down) {
+    disableItem("pubmed");
+    makeDefault("base");
+}
+
+if(lib_from_param === "pubmed") {
+    makeDefault("pubmed");
+    removeDefault("base");
+}
+
+if(lib_from_param === "base") {
+    makeDefault("base");
+    removeDefault("pubmed");
+}
