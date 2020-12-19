@@ -3,12 +3,14 @@ var search_options = {
     , options: [
         { id: "pubmed", name: "PubMed", disabled: false, default: false 
             , text: "PubMed", description: "(life sciences)"
-            , service: "searchPubmed.php"
+            , script: "searchPubmed.php", milliseconds_progressbar: 800
+            , max_length_search_term_short: 115, timeout: 120000
             
         }
         , { id: "base", name: "BASE", disabled: false, default: true 
             , text: "BASE", description: "(all disciplines)"
-            , service: "searchBASE.php"
+            , script: "searchBASE.php", milliseconds_progressbar: 800
+            , max_length_search_term_short: 115, timeout: 120000
         }
     ]
 }

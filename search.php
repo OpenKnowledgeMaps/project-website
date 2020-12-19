@@ -18,6 +18,7 @@ include 'config.php';
         include($COMPONENTS_PATH . 'head_standard.php');
         include($COMPONENTS_PATH . 'head_headstart.php');
         ?>
+        <script src="./js/waiting_page_options.js"></script>
     </head>
 
     <body class="about-page search-waiting-page">
