@@ -2,6 +2,7 @@ var search_options = {
     disabled_message: "Undergoing downtime - please try again later!"
     , search_term_focus: true
     , show_filters: false
+    , filters_text: "Refine your search"
     , options: [
         { id: "pubmed", name: "PubMed", disabled: false, default: false 
             , text: "PubMed", description: "(life sciences)"
