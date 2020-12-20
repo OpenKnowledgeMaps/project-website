@@ -1,5 +1,7 @@
 var search_options = {
     disabled_message: "Undergoing downtime - please try again later!"
+    , search_term_focus: true
+    , show_filters: false
     , options: [
         { id: "pubmed", name: "PubMed", disabled: false, default: false 
             , text: "PubMed", description: "(life sciences)"
