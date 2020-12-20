@@ -1,5 +1,8 @@
 const waiting_page_texts = {
-    'longer than expected': 'Creating your visualization takes longer than expected. Please stay tuned!'
+    longer_than_expected_text: 'Creating your visualization takes longer than expected. Please stay tuned!'
+    , waiting_title: 'Your knowledge map on <strong id="search_term"></strong> is being created!'
+    , status_waiting: 'Please be patient, this takes around 20 seconds.<br>While you are waiting, find out how the knowledge map is being created below.'
+    , try_again_title: 'Have another try!'
 }
 
 const error_texts = {
@@ -67,5 +70,7 @@ const error_code_translation = {
 const error_always_add = [
     'typo'
 ];
+
+const add_not_enough_results_links = true;
 
 
