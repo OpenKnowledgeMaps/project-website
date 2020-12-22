@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="<?php echo $LIB_PATH ?>bootstrap-multiselect.css">
 <link rel="stylesheet" href="./css/options.css">
 
-<script type="text/javascript" src="./js/search_options.js"></script>
+<?php include "search_options.php" ?>
 <script type="text/javascript">
     $(document).ready(function () {
         $('[data-toggle="popover"]').popover({trigger: "hover", placement: "right"});

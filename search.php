@@ -34,11 +34,6 @@ include 'config.php';
         <div class="background-lamp" style="background-color: #eff3f4 !important;">
              <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
              <?php
-                $params_arrays = array(
-                    "base" => array("from", "to", "document_types", "sorting", "min_descsize")
-                    , "pubmed" => array("from", "to", "sorting", "article_types")
-                );
-           
                 include ($SEARCH_FLOW_PATH . "inc/waiting-page.php") 
              ?>
         </div>

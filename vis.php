@@ -121,7 +121,7 @@
                     file: <?php echo json_encode($id) ?>
             }]
 
-            data_config.options = options_<?php echo $service ?>.dropdowns;
+            data_config.options = search_flow_config.search_options.filter_options.options_<?php echo $service ?>.dropdowns;
             data_config.server_url = "<?php echo $headstart_path ?>server/";
        </script>
        <?php if ($is_embed): ?>

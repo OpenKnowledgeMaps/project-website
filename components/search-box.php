@@ -15,3 +15,25 @@
         </div>
     <p style="text-align:center; margin-top: 30px;"><a class="newsletter2" href="about">What is Open Knowledge Maps?</a><p>
 </div>
+<script>
+    //TODO: Introduce a more dynamic solution here, integrate in search-flow
+    if(base_down) {
+        disableItem("base");
+        makeDefault("pubmed");
+    }
+
+    if(pubmed_down) {
+        disableItem("pubmed");
+        makeDefault("base");
+    }
+
+    if(lib_from_param === "pubmed") {
+        makeDefault("pubmed");
+        removeDefault("base");
+    }
+
+    if(lib_from_param === "base") {
+        makeDefault("base");
+        removeDefault("pubmed");
+    }
+</script>
