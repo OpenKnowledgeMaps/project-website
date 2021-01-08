@@ -8,10 +8,12 @@
             "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
             , "description" => "Start your literature search here: get an overview of a research topic, find relevant papers, and identify important concepts."
         );
+
+        include($COMPONENTS_PATH . 'head_bootstrap.php'); 
+        include($COMPONENTS_PATH . 'head_standard.php'); 
+        include($COMPONENTS_PATH . 'head_headstart.php'); 
+        include($COMPONENTS_PATH . 'search_options.php');
         ?>
-        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
     <body id="home">
