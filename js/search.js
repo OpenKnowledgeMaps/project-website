@@ -116,8 +116,10 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                                         ? output.reason
                                         : [output.reason];
                 }
-                
-                if (list_array.length > 0 && list_array[0] === "API error: requested metadata size") {
+                if (list_array.length > 0 && list_array[0] === "API error: timeout") {
+                    setErrorTexts(error_texts.timeout);
+                    return;
+                } else if (list_array.length > 0 && list_array[0] === "API error: requested metadata size") {
                     setErrorTexts(error_texts.pubmed_api_fail);
                     return;
                 } else if(list_array.length === 0 || list_array[0] === "unexpected data processing error") {
