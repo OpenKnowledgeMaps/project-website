@@ -214,7 +214,7 @@ if(!empty($_POST)) {
                     
                 },
                 server_error: {
-                    title: "Whoops! An unexpected error occurred."
+                    title: "Sorry! An unexpected error occurred."
                     , reason: 'Unfortunately we don’t know what went wrong. We apologize for the inconvenience. Please <a class="underline" href="index.php">try again</a> in a few minutes.'
                     , remedy: 'If the error persists, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>. We will investigate the issue further.'
                     , "resolution": "Try again"
@@ -238,10 +238,30 @@ if(!empty($_POST)) {
                     , "resolution_link": "javascript:location.reload()"
                     
                 },
-                pubmed_api_fail: {
-                    title: "An unexpected error occurred while retrieving data from PubMed"
+                pubmed_unexpected_error: {
+                    title: "An unexpected error occurred while retrieving data from PubMed."
                     , reason: "The PubMed API is currently experiencing problems. We have logged the error and will investigate the issue."
                     , remedy: 'Please <a class="underline" style="cursor:pointer" onClick="window.location.reload();">try again</a> in a few minutes or <a class="underline" style="cursor:pointer" href="index">use the BASE integration</a>, which also covers the articles indexed in PubMed.'
+                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    , "resolution": "Try again"
+                    , "resolution_link": "javascript:location.reload()"
+                    
+                },
+                        
+                pubmed_500_error: {
+                    title: "The PubMed API is currently experiencing down time."
+                    , reason: "Unfortunately this means, at the moment we cannot provide knowledge maps for PubMed."
+                    , remedy: 'Please <a class="underline" style="cursor:pointer" onClick="window.location.reload();">try again</a> in a few minutes or <a class="underline" style="cursor:pointer" href="index">use the BASE integration</a>, which also covers the articles indexed in PubMed.'
+                    , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
+                    , "resolution": "Try again"
+                    , "resolution_link": "javascript:location.reload()"
+                    
+                },
+                
+                pubmed_502_error: {
+                    title: "An error occurred while retrieving data from PubMed."
+                    , reason: "Unfortunately this means we cannot create a knowledge map for this search."
+                    , remedy: 'Please <a class="underline" style="cursor:pointer" onClick="window.location.reload();">try again</a> with a different search term or <a class="underline" style="cursor:pointer" href="index">use the BASE integration</a>, which also covers the articles indexed in PubMed.'
                     , contact: 'For more information about our service please <a class="underline" href="https://openknowledgemaps.org/faq">see our FAQs</a>. If you think that there is something wrong with our service, please let us know at <a class="underline" href="mailto:info@openknowledgemaps.org">info@openknowledgemaps.org</a>'
                     , "resolution": "Try again"
                     , "resolution_link": "javascript:location.reload()"
