@@ -3,40 +3,26 @@
 <html lang="en">
     <head>
         <base href="<?php echo $SITE_URL ?>">
+        <!-- TODO: avoid double inclusion of jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <?php
-        $id_get = filter_input(INPUT_GET, "id", FILTER_SANITIZE_STRING);
-        $id = ($id_get !== false && $id_get !== null && $id_get !== "") ? ($id_get) : ("zika");
-
-        $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
-        
-        $custom_title = filter_input(INPUT_GET, "custom_title", FILTER_SANITIZE_STRING);
-        $has_custom_title = ($custom_title !== false && $custom_title !== null)?(true):(false);
-        
-        $embed_get = filter_input(INPUT_GET, "embed", FILTER_VALIDATE_BOOLEAN);
-        $is_embed = ($embed_get !== null)?($embed_get):(false);
-        
+        include($COMPONENTS_PATH . 'search_options.php');
+        include($SEARCH_FLOW_PATH . 'inc/knowledge-map-header.php');
+              
+        //TODO: Move this canonical URL and citation creation to search flow at some point
         $canonical_url = "$protocol//openknowledgemaps.org/map/$id" 
-                . (($has_custom_title)?(urlencode("custom_title=" . $custom_title)):(""));
-
-        $context_json = curl_get_contents($protocol . $HEADSTART_URL . "server/services/getContext.php?vis_id=$id");
-        $context = json_decode($context_json);
-
-        $query = (isset($context) && $context->query !== null) ? ($context->query) : ("zika");
-        $query = preg_replace("/\\\\\"/", "&quot;", $query);
-        $query = preg_replace("/\\\'/", "&apos;", $query);
+        . (($has_custom_title)?(urlencode("custom_title=" . $custom_title)):(""));
         
         $citation = "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth(($has_custom_title)?($custom_title):($query), 0, 100, "[..]") .". " 
-    . "Retrieved from " . '<a href="' . $canonical_url . '">' . $canonical_url . '</a>'
-    . " [" . date ("d M Y") . "].";
-
+. "Retrieved from " . '<a href="' . $canonical_url . '">' . $canonical_url . '</a>'
+. " [" . date ("d M Y") . "].";
+        
         $credit = "";
-
         $service_name = "";
-
         $service = (isset($context) && substr($context->service, 0, 4) !== "PLOS") ? ($context->service) : ("plos");
-        
+
         $query_description = ($has_custom_title)?("This map has a custom title and was created using the following query: <b>$query</b>"):('');
-        
+
         if ($service == "plos") {
             $credit = '<a href="http://github.com/ropensci/rplos" target="_blank">rplos</a>. Content and metadata retrieved from <a href="https://www.plos.org/publications/journals/" target="_blank">Public Library of Science Journals</a>';
             echo '<script type="text/javascript" src="./js/data-config_plos.js"></script>';
@@ -60,7 +46,7 @@
             $description = '<a class="underline" href="http://base-search.net" target="_blank ">BASE</a> provides access to over 100 million documents from '
                     . 'more than 5,200 content sources in all disciplines.';
         }
-
+        
         $override_labels = array(
             "tweet-text" => "Check out this visual overview of research on " . (($has_custom_title)?($custom_title):($query)) . " by @OK_Maps!"
             , "title" => "Overview of research on " . (($has_custom_title)?($custom_title):($query)) . " - Open Knowledge Maps"
@@ -73,7 +59,6 @@
 
         include($COMPONENTS_PATH . 'head_bootstrap.php');
         include($COMPONENTS_PATH . 'head_standard.php');
-        include($COMPONENTS_PATH . 'search_options.php');
         include($COMPONENTS_PATH . 'vis_intro.php');
         ?>
     </head>
@@ -150,17 +135,3 @@
         <?php endif; ?>  
 
         <?php include ($COMPONENTS_PATH . "vis_additional_functions.php"); ?>
-        
-        <?php
-            function curl_get_contents($url) {
-                $ch = curl_init($url);
-                curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-                curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-                curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-                $data = curl_exec($ch);
-                curl_close($ch);
-                return $data;
-            }
-        
-        ?>
