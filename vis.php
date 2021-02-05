@@ -8,12 +8,25 @@
         <?php
         include($COMPONENTS_PATH . 'search_options.php');
         include($SEARCH_FLOW_PATH . 'inc/knowledge-map-header.php');
+        ?>
+        
+        <?php if (!isset($context)): ?>
+            <script>
+                window.location.replace("http://openknowledgemaps.org/404");
+            </script>
+        <?php endif; ?>
+        
+        <?php
               
         //TODO: Move this canonical URL and citation creation to search flow at some point
         $canonical_url = "$protocol//openknowledgemaps.org/map/$id" 
         . (($has_custom_title)?(urlencode("custom_title=" . $custom_title)):(""));
         
-        $citation = "Open Knowledge Maps (" . (new DateTime($context->timestamp))->format('Y') . "). Overview of research on " . mb_strimwidth(($has_custom_title)?($custom_title):($query), 0, 100, "[..]") .". " 
+        $publication_year = (isset($context) && property_exists($context, "timestamp"))
+                                ? ((new DateTime($context->timestamp))->format('Y'))
+                                 : ("n.d.");
+        
+        $citation = "Open Knowledge Maps (" . $publication_year . "). Overview of research on " . mb_strimwidth(($has_custom_title)?($custom_title):($query), 0, 100, "[..]") .". " 
 . "Retrieved from " . '<a href="' . $canonical_url . '">' . $canonical_url . '</a>'
 . " [" . date ("d M Y") . "].";
         
@@ -55,7 +68,7 @@
             , "twitter-image" => "$protocol$SNAPSHOT_PATH$id.png"
             , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
         );
-
+        
         include($COMPONENTS_PATH . 'head_bootstrap.php');
         include($COMPONENTS_PATH . 'head_standard.php');
         include($COMPONENTS_PATH . 'vis_intro.php');
