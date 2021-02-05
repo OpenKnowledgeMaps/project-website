@@ -19,7 +19,6 @@
         
         $credit = "";
         $service_name = "";
-        $service = (isset($context) && substr($context->service, 0, 4) !== "PLOS") ? ($context->service) : ("plos");
 
         $query_description = ($has_custom_title)?("This map has a custom title and was created using the following query: <b>$query</b>"):('');
 
@@ -89,7 +88,6 @@
                 
             ?>
        <?php endif; ?>
-       <script src="js/search_options.js"></script>
        <script>
            var fit_to_page = false;
        </script>
