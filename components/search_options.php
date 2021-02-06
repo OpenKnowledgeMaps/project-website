@@ -576,7 +576,13 @@ $search_flow_config_local = array(
             //Whether the vis_page is a cool URI (e.g. "map/21043904") or uses standard parameter form (e.g. "vis?id=21043904")
             , vis_page_cool_uri: true
             //Parameters for the vis page
-            , vis_page_additional_params: []
+            , vis_page_params: [
+                { id: 'unique_id', name: 'id' }
+            ]
+            // For cool URIs the ability to add "classic" parameters with "&param=value"
+            , vis_page_additional_params: [
+                //{ id: 'embed', name: 'embed', value: "true" }
+            ]
             , error_always_add: [
                 'typo'
             ]   
