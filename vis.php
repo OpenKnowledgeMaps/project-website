@@ -3,8 +3,6 @@
 <html lang="en">
     <head>
         <base href="<?php echo $SITE_URL ?>">
-        <!-- TODO: avoid double inclusion of jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <?php
         include($COMPONENTS_PATH . 'search_options.php');
         include($SEARCH_FLOW_PATH . 'inc/knowledge-map-header.php');
