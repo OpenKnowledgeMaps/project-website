@@ -112,11 +112,9 @@
                 data_config.title = '<?php echo 'Overview of <span id="search-term-unique">' . $query . '</span> based on <span id="num_articles"></span> ' . $service_name . ' articles'; ?>';
             <?php endif ?>
             data_config.files = [{
-            title: <?php echo json_encode($query) ?>,
+                    title: <?php echo json_encode($query) ?>,
                     file: <?php echo json_encode($id) ?>
             }]
-
-            data_config.options = search_flow_config.search_options.filter_options.options_<?php echo $service ?>.dropdowns;
             data_config.server_url = "<?php echo $headstart_path ?>server/";
        </script>
        <?php if ($is_embed): ?>

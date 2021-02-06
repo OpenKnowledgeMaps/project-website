@@ -5,6 +5,7 @@ $search_flow_config_local = array(
         "base" => array("from", "to", "document_types", "sorting", "min_descsize")
         , "pubmed" => array("from", "to", "sorting", "article_types")
     )
+    , "vis_load_context" => true
     , "enable_default_id" => true
     , "default_id" => "zika"
     , "enable_default_query" => true
