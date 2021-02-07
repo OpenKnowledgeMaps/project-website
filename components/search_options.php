@@ -1,11 +1,14 @@
 <?php
 
 $search_flow_config_local = array(
-    "params_arrays" => array(
+    "search_form_page" => "index"
+    , "waiting_page" => "search"
+    , "vis_page" => "map"
+    , "params_arrays" => array(
         "base" => array("from", "to", "document_types", "sorting", "min_descsize")
         , "pubmed" => array("from", "to", "sorting", "article_types")
     )
-    , "add_today_to_params" => true
+    , "enable_get_requests" => true
     , "vis_load_context" => true
     , "enable_default_id" => true
     , "default_id" => "zika"
