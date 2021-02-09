@@ -32,7 +32,7 @@ include 'config.php';
         <a style="padding-top:160px;" name="search"></a>
 
         <div class="background-lamp" style="background-color: #eff3f4 !important;">
-             <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
+             <?php include ($SEARCH_FLOW_PATH . "inc/browser-unsupported-banner.php"); ?>
              <?php
                 include ($SEARCH_FLOW_PATH . "inc/waiting-page.php") 
              ?>
