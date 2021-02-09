@@ -80,19 +80,6 @@
 
         <div class="topheader"></div>
 
-            <?php 
-                require_once $LIB_PATH . 'MobileDetect/Mobile_Detect.php';
-                $detect = new Mobile_Detect;
-                if ($detect->isMobile()):
-                ?>
-
-                <script>
-                    //Enable overflow on mobile so you can pinch and zoom
-                    $(document).ready(function () {
-                        $(".overflow-vis").css("overflow-y", "visible");
-                    })
-                </script>
-                <?php endif; ?>
             <?php
                 include ($SEARCH_FLOW_PATH . "inc/browser-unsupported-banner.php");
                 include ($COMPONENTS_PATH . "vis_beta_banner.php"); 
