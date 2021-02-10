@@ -8,6 +8,9 @@ $search_flow_config_local = array(
         "base" => array("from", "to", "document_types", "sorting", "min_descsize")
         , "pubmed" => array("from", "to", "sorting", "article_types")
     )
+    , "optional_get_params" => [
+        "base" => ["repo", "repo_coll"]
+    ]
     , "enable_get_requests" => true
     , "vis_load_context" => true
     , "enable_default_id" => true
