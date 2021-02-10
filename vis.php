@@ -5,7 +5,7 @@
         <base href="<?php echo $SITE_URL ?>">
         <?php
         include($COMPONENTS_PATH . 'search_options.php');
-        include($SEARCH_FLOW_PATH . 'inc/knowledge-map-header.php');
+        include($SEARCH_FLOW_PATH . 'inc/visualization-header.php');
         ?>
         
         <?php if (!isset($context)): ?>
@@ -77,8 +77,8 @@
         <div class="topheader"></div>
 
             <?php
-                include ($SEARCH_FLOW_PATH . "inc/browser-unsupported-banner.php");
-                include($SEARCH_FLOW_PATH . 'inc/mobile-banner.php');
+                include ($SEARCH_FLOW_PATH . "inc/banner-browser-unsupported.php");
+                include($SEARCH_FLOW_PATH . 'inc/banner-mobile.php');
                 
             ?>
        <?php endif; ?>
@@ -86,7 +86,7 @@
            var fit_to_page = false;
        </script>
        
-       <?php include ($SEARCH_FLOW_PATH . "inc/knowledge-map.php") ?>
+       <?php include ($SEARCH_FLOW_PATH . "inc/visualization.php") ?>
        
        <link rel="stylesheet" href="./css/main.css">
        <script>

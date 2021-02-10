@@ -1,7 +1,7 @@
 <div class="topheader"></div>    
 <?php include ($COMPONENTS_PATH . "covis_banner_small.php"); ?>
 <?php //include ($COMPONENTS_PATH . "donation_banner.php"); ?>
-<?php include ($SEARCH_FLOW_PATH . "inc/browser-unsupported-banner.php"); ?>
+<?php include ($SEARCH_FLOW_PATH . "inc/banner-browser-unsupported.php"); ?>
 
 <div class="search-box">
         <div class="background2">
