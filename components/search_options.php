@@ -9,7 +9,7 @@ $search_flow_config_local = array(
         , "pubmed" => array("from", "to", "sorting", "article_types")
     )
     , "optional_get_params" => [
-        "base" => ["repo", "repo_coll"]
+        "base" => ["repo", "coll"]
     ]
     , "enable_get_requests" => true
     , "vis_load_context" => true
