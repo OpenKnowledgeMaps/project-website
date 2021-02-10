@@ -16,13 +16,9 @@
         
         <?php
               
-        //TODO: Move this canonical URL and citation creation to search flow at some point
+        //TODO: Move canonical URL and citation creation completely to search flow at some point
         $canonical_url = "$protocol//openknowledgemaps.org/map/$id" 
         . (($has_custom_title)?(urlencode("custom_title=" . $custom_title)):(""));
-        
-        $publication_year = (isset($context) && property_exists($context, "timestamp"))
-                                ? ((new DateTime($context->timestamp))->format('Y'))
-                                 : ("n.d.");
         
         $citation = "Open Knowledge Maps (" . $publication_year . "). Overview of research on " . mb_strimwidth(($has_custom_title)?($custom_title):($query), 0, 100, "[..]") .". " 
 . "Retrieved from " . '<a href="' . $canonical_url . '">' . $canonical_url . '</a>'
@@ -109,9 +105,17 @@
                data_config.canonical_url = "<?php echo $canonical_url; ?>";
            </script>
        <?php else: ?>
-
-            <?php include ($COMPONENTS_PATH . "vis_context_info.php"); ?>
-
+           <?php 
+                $builtwith_string = 'Created on '
+                   . (new DateTime($timestamp))->format('j M Y \a\t H:i') 
+                   .' with <a href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Headstart</a> and '
+                   . $credit;
+                
+                include ($SEARCH_FLOW_PATH . "inc/context-builtwith.php");
+                include ($SEARCH_FLOW_PATH . "inc/context-citation.php");
+                include ($COMPONENTS_PATH . "vis_context_info.php");
+            
+            ?>
             <div style="border-top: 0px solid #cacfd3; padding: 50px 20px;">
                 <p class="try-now" style="text-align: center; margin:0px 0 0;">
                     <a target="_blank" class="donate-now" href="index">Create a new knowledge map</a>
