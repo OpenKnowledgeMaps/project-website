@@ -20,6 +20,7 @@ $search_flow_config_local = array(
     , "enable_default_service" => true
     , "default_service" => "plos"
     , "enable_custom_title" => true
+    , "banner_alternate_desktop_warning" => true
     , "filter_options" => [
             'options_plos' => [
                 'start_date' => '1970-01-01',
@@ -1535,5 +1536,9 @@ $search_flow_config_local = array(
 
             }
         }
+        , banner_texts: {
+            mobile_warning: 'Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps. <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">More info on this map</a>. Note: the map isn\'t optimized for mobile yet, you may encounter some rough edges.'
+            , alternate_desktop_warning: 'Welcome to the <span style="font-weight:bold;">beta version</span> of Open Knowledge Maps. For more information on this map, please <a href="#info_modal" data-type="text" data-toggle="modal" class="underline" style="font-weight:bold;">click here</a>.'
+        }           
     }
 </script>

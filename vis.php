@@ -82,7 +82,7 @@
 
             <?php
                 include ($SEARCH_FLOW_PATH . "inc/browser-unsupported-banner.php");
-                include ($COMPONENTS_PATH . "vis_beta_banner.php"); 
+                include($SEARCH_FLOW_PATH . 'inc/mobile-banner.php');
                 
             ?>
        <?php endif; ?>
