@@ -3,7 +3,7 @@ var data_config = {
     mode: "search_repos",
 
     service: "base",
-    
+
     bubble_min_scale: 1,
     bubble_max_scale: 1,
     paper_min_scale: 1,
@@ -22,11 +22,11 @@ var data_config = {
     show_list: true,
     content_based: true,
     url_prefix: "https://www.base-search.net/Record/",
-	
+
     show_context: true,
     create_title_from_context: true,
     context_most_relevant_tooltip: true,
-    
+
     embed_modal: true,
     share_modal: true,
 
@@ -35,14 +35,15 @@ var data_config = {
     sort_menu_dropdown: true,
     filter_options: ["all", "open_access"],
 	show_keywords: true,
-    
+
     is_evaluation: true,
-    evaluation_service: ["ga", "matomo"],
-    
+    evaluation_service: ["matomo"],
+
     use_hypothesis: true,
-    
+
     faqs_button: true,
     faqs_url: "https://openknowledgemaps.org/faq",
-    
-    highlight_query_terms: true,
+
+    highlight_query_terms: true
+
 };

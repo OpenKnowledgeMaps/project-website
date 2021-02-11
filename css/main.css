@@ -286,6 +286,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 .membership #more-info .vision h2 {
     margin: 0 0 5%;
+    padding: 0px 0px 20px !important;
     font-size: 18px;
     text-transform: none; 
     text-align: center;
@@ -1567,6 +1568,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 #more-info .vision h2 {
     font-size: 20px;
+    padding: 0px !important;
 }
 
 #version {
@@ -1980,10 +1982,6 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
     text-align: center;
 }
 
-#progress a {
-    text-decoration: underline;
-}
-
 #progressbar {
     height: 10px;
     max-width: 400px;
@@ -2066,6 +2064,19 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .search-waiting-page .infohow {
     border-top: 0px solid #cacfd3;
+}
+
+.search-waiting-page .mittig2 {
+    margin: 0;
+}
+
+.search-waiting-page .mittig {
+    padding-bottom: 0px !important;
+}
+
+.noresults-search-form {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /**/
@@ -2712,8 +2723,8 @@ time {
         font-size: 16px;
     }
 
-    #more-info .vision {
-        max-width: 25%;
+    #more-info .vision, .membership #more-info .vision {
+        max-width: 40%;
     }
 }
 
@@ -3042,10 +3053,6 @@ time {
         margin-top: 0px;
     }
 
-    .membership #more-info .vision {
-        max-width: 100%;
-    }
-
     .logo-links {
         display: block;
     }
@@ -3074,7 +3081,7 @@ time {
     }
 
     #filters {
-        margin-left: 30px;
+        margin-left: 0px;
     }
 
     #imprint {
@@ -3090,6 +3097,10 @@ time {
 
     input[type="radio"] {
         margin: 12px 0 0;
+    }
+    
+    #filters input[type=radio] {
+        margin-top: 4px;
     }
 
     #beta-version {
@@ -3365,6 +3376,10 @@ time {
         max-width: 70%;
         padding: 20px 20px;
         min-height: 16px;
+    }
+    
+    .membership #more-info .vision {
+        max-width: 70%;
     }
 
     .more-info-icon {

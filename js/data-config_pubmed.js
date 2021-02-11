@@ -36,12 +36,13 @@ var data_config = {
 	show_keywords: true,
     
     is_evaluation: true,
-    evaluation_service: ["ga", "matomo"],
-    
+    evaluation_service: ["matomo"],
+
     use_hypothesis: true,
     
     faqs_button: true,
     faqs_url: "https://openknowledgemaps.org/faq",
     
-    highlight_query_terms: true,
+    highlight_query_terms: true
+
 };

@@ -28,6 +28,9 @@
         <a name="top"></a>
 
         <a style="padding-top:160px;" name="search"></a>
+        <script>
+            let show_filters = false;
+        </script>
         <?php include($COMPONENTS_PATH . 'search-box.php') ?>
 
         <span class="anchor" id="okmmission"></span>

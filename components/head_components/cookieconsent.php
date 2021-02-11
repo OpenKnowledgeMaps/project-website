@@ -8,7 +8,7 @@
         let cookie_button = "Alles klar!";
         let cookie_href = "https://openknowledgemaps.org/datenschutz";
 <?php } else { ?>
-        let cookie_message = '<strong>We use cookies that are essential for the operation this website.</strong> By your continued use of this website, you accept the use of essential cookies. For more information, please see ';
+        let cookie_message = '<strong>We use cookies that are essential for the operation of this website.</strong> By your continued use of this website, you accept the use of essential cookies. For more information, please see ';
         let cookie_link = "our privacy policy.";
         let cookie_button = "Got it!";
         let cookie_href = "https://openknowledgemaps.org/privacy";
@@ -16,11 +16,11 @@
     function clearCookies (names) {
       var i = 0, namesLength = names.length;
       for (i; i < namesLength; i += 1) {
-        document.cookie = names[i] + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/';
+        document.cookie = names[i] + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/; SameSite=Lax';
       }
     }
     clearCookies(["cookieconsent_status", "priv-update-2018-10", "priv-update-2018-12",
-                  "priv-update-2019-10"]);
+                  "priv-update-2019-10", "cookie-msg-2020-06"]);
     var cookie_domain = "<?php echo $COOKIE_DOMAIN ?>";
     window.addEventListener("load", function () {
         window.cookieconsent.initialise({
@@ -43,8 +43,9 @@
                 "href": cookie_href
             },
             "cookie": {
-              "name": "cookie-msg-2020-06",
-              "domain": cookie_domain
+              "name": "cookie-msg-2020-09",
+              "domain": cookie_domain,
+              "sameSite": "Lax"
             }
         })
     });

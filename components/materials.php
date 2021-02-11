@@ -17,8 +17,8 @@
                     <span class="tag">Português</span>
                 </div>
                 
-                <h2>Open Knowledge Maps presentation</h2>
-                <p>You can use these slides to inform your community about open discovery and Open Knowledge Maps. Slides are available in English, Español
+                <h2>Introduction to OKMaps</h2>
+                <p>You can use this presentation to introduce your community to Open Knowledge Maps. Slides are available in English, Español
  and Português.
                     <br><br><span style="font-weight: bold;">view and download</span>
                 </p>
@@ -33,7 +33,7 @@
                     <span class="tag">English</span>
                 </div>
                 
-                <h2>Open Knowledge Maps Scavenger Hunt</h2>
+                <h2>OKMaps Scavenger Hunt</h2>
                 <p>Play a fun fast paced game with your colleagues to get to know Open Knowledge Maps. Slides are available in English.
                     <br><br><span style="font-weight: bold;">view and download</span>
                 </p>
@@ -49,7 +49,7 @@
                     <span class="tag">Português</span>
                 </div>
                 
-                <h2>Academic SEO<!--: Improve the visibility of your research online (in English)--></h2>
+                <h2>Academic SEO Workshop</h2>
                 <p>This workshop includes practical tips on how to improve the visibility of your research online<!--“How do I get my research to show up 
                     in search engines and discovery tools?”--> and an introduction to Open Knowledge Maps. Slides are available in English and Português.
                     <br><br><span style="font-weight: bold;">view and download</span>
@@ -62,7 +62,7 @@
             <div class="vision" style="min-height: 20px;">
                 <p><img src="./img/materials/okmaps-posters.jpg" alt='Open Knowledge Maps Poster'></p>
                 <div class="tag-div"><span class="tag">English</span></div>
-                <h2>Open Knowledge Maps Poster</h2>
+                <h2>Poster</h2>
                 <p>Print it, hang it, love it - and use it to inform your community about Open Knowledge Maps. Posters are available in English.
                     <br><br><span style="font-weight: bold;">view and download</span>
                 </p>

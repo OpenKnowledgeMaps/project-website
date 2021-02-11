@@ -78,6 +78,19 @@
                             <li><a class="contact-icon" target="_blank" href="mailto:jkonstant@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
+                    
+                    <div class="member">
+                        <img src="./img/team/michela.png" alt="Michela Vignoli">
+                        <ul>
+                            <li class="name">Michela Vignoli</li>
+                            <li class="job-title">Community Manager</li>
+                            <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Vienna</li>
+                        </ul>
+
+                        <ul class="contact-member">
+                            <li><a class="contact-icon" target="_blank" href="mailto:mvignoli@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
 
                     <div class="member">
                         <img src="./img/team/scott.png" alt="Scott Chamberlain">
@@ -115,19 +128,6 @@
                         <ul class="contact-member">
                             <li><a class="contact-icon" target="_blank" href="mailto:tom@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
                             <li><a class="contact-icon" target="_blank" href="https://github.com/tarrow/"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="member">
-                        <img src="./img/team/michela.png" alt="Michela Vignoli">
-                        <ul>
-                            <li class="name">Michela Vignoli</li>
-                            <li class="job-title">Community Coordinator</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:mvignoli@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="https://twitter.com/iea_ioi"><i class="fa fa-link" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
 
@@ -184,7 +184,7 @@
                 </div>
 
                 <div id="partnerdiv" style="padding-bottom: 0px;">
-                    <h2>Our current Sustaining Members</h2>
+                    <h2>Category "Sustaining Members"</h2>
                     <div class="partners">
                         <?php include($COMPONENTS_PATH . 'sustaining-members.php'); ?>
                     </div>
