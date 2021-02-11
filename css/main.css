@@ -1296,11 +1296,11 @@ a .number:hover {
 }
 
 .tag {
-    background-color: #e55137;
+    background-color: #ea9940;
     border-radius: 5px;
     -moz-border-radius: 5px;
     color: white;
-    padding: 5px;
+    padding: 2px 5px;
 }
 
 .tag-div {
