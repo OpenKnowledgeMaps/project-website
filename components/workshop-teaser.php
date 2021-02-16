@@ -8,7 +8,7 @@
 
         <p class="project-facts" style="text-align:center;">
             Would you like to introduce Open Knowledge Maps to your community? 
-            We put together a workshop kit that makes it easy to introduce Open Knowledge Maps to your peers. 
+            We put together a workshop kit that makes it easy to introduce Open Knowledge Maps to your peers. Slides are available in English, Español and Português.
         </p>
         
         <p class="try-now" style="text-align: center; margin:30px 0 0;">
