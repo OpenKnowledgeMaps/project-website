@@ -286,6 +286,7 @@ a.newsletter:hover, a.newsletter:active, a.newsletter:focus {
 
 .membership #more-info .vision h2 {
     margin: 0 0 5%;
+    padding: 0px 0px 20px !important;
     font-size: 18px;
     text-transform: none; 
     text-align: center;
@@ -1295,6 +1296,18 @@ a .number:hover {
     font-size:12px;
 }
 
+.tag {
+    background-color: #ea9940;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: white;
+    padding: 2px 5px;
+}
+
+.tag-div {
+    margin: 20px 0 10px 0;
+}
+
 /*DONATION*/
 .thankyou-page .background2 .team {
     padding: 50px 20px;
@@ -1555,6 +1568,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 #more-info .vision h2 {
     font-size: 20px;
+    padding: 0px !important;
 }
 
 #version {
@@ -2709,8 +2723,8 @@ time {
         font-size: 16px;
     }
 
-    #more-info .vision {
-        max-width: 25%;
+    #more-info .vision, .membership #more-info .vision {
+        max-width: 40%;
     }
 }
 
@@ -3039,10 +3053,6 @@ time {
         margin-top: 0px;
     }
 
-    .membership #more-info .vision {
-        max-width: 100%;
-    }
-
     .logo-links {
         display: block;
     }
@@ -3366,6 +3376,10 @@ time {
         max-width: 70%;
         padding: 20px 20px;
         min-height: 16px;
+    }
+    
+    .membership #more-info .vision {
+        max-width: 70%;
     }
 
     .more-info-icon {

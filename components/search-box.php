@@ -1,8 +1,7 @@
 <script>
     var search_term_focus = true;
 </script>
-<div class="topheader"></div>    
-<?php include ($COMPONENTS_PATH . "covis_banner_small.php"); ?>
+<div class="topheader"></div>
 <?php //include ($COMPONENTS_PATH . "donation_banner.php"); ?>
 <?php include ($COMPONENTS_PATH . "browser_unsupported_banner.php"); ?>
 

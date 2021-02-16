@@ -12,7 +12,7 @@
         </p>
         
         <p class="try-now" style="text-align: center; margin:30px 0 0;">
-            <a target="_blank" class="donate-now" href="community#training-materials">Use our training materials</a>
+            <a class="donate-now" href="community#training-materials">Use our training materials</a>
         </p>
     </div>
 </div>
