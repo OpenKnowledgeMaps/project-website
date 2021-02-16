@@ -1871,7 +1871,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 
 .advisor {
     display:inline-block;
-    background-color: white;
+    background-color: transparent;
     vertical-align: top;
     margin: 3px;
     background-image: url(../img/link.png); 
@@ -1885,8 +1885,9 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 .advisor h3 {
     color: #2d3e52;
     font-weight: 800;
+    line-height: 120%;
     text-align: left;
-    padding: 10px 20px 0px 20px;
+    padding: 10px 20px 0px 0px;
     text-transform: none;
 }
 
@@ -1907,7 +1908,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .advisor p, .advisor ul {
-    padding: 0px 20px 20px 20px;
+    padding: 10px 20px 20px 0px;
     color: #2d3e52;
 }
 
