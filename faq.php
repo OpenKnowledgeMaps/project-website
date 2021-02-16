@@ -173,7 +173,7 @@ We are committed to reduce loading times, but this would most certainly mean tha
                     <p>
                         Nevertheless, the placement of the areas should only be taken as an indication as the map is untangled in the beginning to
                     improve readability.
-                    The placement of papers within a area has no specific meaning, 
+                    The placement of papers within an area has no specific meaning, 
                     as they are moved around significantly during the initial arrangement of the map to avoid overlap.
                     More information can be found in <a class="underline" href="https://arxiv.org/abs/1412.6462" target="_blank">this article</a>.
                     </p>
