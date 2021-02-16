@@ -120,13 +120,13 @@ function executeSearchRequest(service_url, post_data, service, search_term_short
                     setErrorTexts(error_texts.timeout);
                     return;
                 } else if (list_array.length > 0 && list_array[0] === "API error: requested metadata size") {
-                    setErrorTexts(error_texts.pubmed_api_fail);
+                    setErrorTexts(error_texts.pubmed_502_error);
                     return;
                 } else if(list_array.length > 0 && list_array[0] === "API error: PubMed not reachable") {
-                    setErrorTexts(error_texts.pubmed_api_fail);
+                    setErrorTexts(error_texts.pubmed_500_error);
                     return;
                 } else if(list_array.length > 0 && list_array[0] === "unexpected PubMed API error") {
-                    setErrorTexts(error_texts.pubmed_api_fail);
+                    setErrorTexts(error_texts.pubmed_unexpected_error);
                     return;
                 } else if(list_array.length === 0 || list_array[0] === "unexpected data processing error") {
                     setErrorTexts(error_texts.server_error);
