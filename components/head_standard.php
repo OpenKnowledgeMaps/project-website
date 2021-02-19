@@ -29,14 +29,15 @@ include "head_components/cookieconsent.php";
 <?php if(!$has_search_form): ?>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link rel="stylesheet" href="<?php echo $LIB_PATH ?>font-awesome.min.css" >
+    <script src="<?php echo $LIB_PATH ?>bootstrap.min.js"></script>
 <?php else: ?>
     <?php include($SEARCH_FLOW_PATH . 'inc/shared/head-search-form.php'); ?>
 <?php endif; ?>
-<link rel="stylesheet" href="./css/main.css?v=descsize-filter-update">
 
-<?php if($has_search_form): ?>
-    <link rel="stylesheet" href="./css/options.css">
-    
+<link rel="stylesheet" href="./css/main.css?v=descsize-filter-update">
+<link rel="stylesheet" href="./css/options.css">
+
+<?php if($has_search_form): ?>    
     <script>
         var pubmed_down = <?php echo (isset($PUBMED_DOWN) && $PUBMED_DOWN === true)?("true"):("false") ?>;
         var base_down = <?php echo (isset($BASE_DOWN) && $BASE_DOWN === true)?("true"):("false") ?>;
@@ -46,8 +47,7 @@ include "head_components/cookieconsent.php";
 <?php endif; ?>
 
 <?php include "head_components/evaluation.php"; ?>
-
-<script src="<?php echo $LIB_PATH ?>bootstrap.min.js">
+   
 <script type="text/javascript">
     $(document).ready(function () {
         $('[data-toggle="popover"]').popover({trigger: "hover", placement: "right"});
