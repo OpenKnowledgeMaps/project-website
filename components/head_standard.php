@@ -1,4 +1,6 @@
 <?php
+$has_search_form = (isset($contains_search_form) && $contains_search_form);
+
 include "head_components/detect_lang.php";
 
 $default_labels = array(
@@ -22,19 +24,32 @@ include "head_components/favicons.php";
 include "head_components/cookieconsent.php";
 ?>
 
-<?php include($SEARCH_FLOW_PATH . 'inc/shared/head-search-form.php') ?>
-<link rel="stylesheet" href="<?php echo $LIB_PATH ?>font-awesome.min.css" >
-<link rel="stylesheet" href="./css/main.css?v=descsize-filter-update">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<?php if(!$has_search_form): ?>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="<?php echo $LIB_PATH ?>font-awesome.min.css" >
+<?php else: ?>
+    <?php include($SEARCH_FLOW_PATH . 'inc/shared/head-search-form.php'); ?>
+<?php endif; ?>
+<link rel="stylesheet" href="./css/main.css?v=descsize-filter-update">
+
+<?php if($has_search_form): ?>
+    <link rel="stylesheet" href="./css/options.css">
+    
+    <script>
+        var pubmed_down = <?php echo (isset($PUBMED_DOWN) && $PUBMED_DOWN === true)?("true"):("false") ?>;
+        var base_down = <?php echo (isset($BASE_DOWN) && $BASE_DOWN === true)?("true"):("false") ?>;
+
+        var lib_from_param = "<?php echo(isset($_GET['lib'])?($_GET['lib']):("null")); ?>";
+    </script>
+<?php endif; ?>
 
 <?php include "head_components/evaluation.php"; ?>
 
-<script>
-    var pubmed_down = <?php echo (isset($PUBMED_DOWN) && $PUBMED_DOWN === true)?("true"):("false") ?>;
-    var base_down = <?php echo (isset($BASE_DOWN) && $BASE_DOWN === true)?("true"):("false") ?>;
-    
-    var lib_from_param = "<?php echo(isset($_GET['lib'])?($_GET['lib']):("null")); ?>";
+<script src="<?php echo $LIB_PATH ?>bootstrap.min.js">
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('[data-toggle="popover"]').popover({trigger: "hover", placement: "right"});
+    });
 </script>
-

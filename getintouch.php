@@ -5,7 +5,6 @@
         <base href="<?php echo $SITE_URL ?>">
         <?php $title = "Get in touch - Open Knowledge Maps"; ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
     <body class="faq-page getintouchpage">

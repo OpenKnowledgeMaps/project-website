@@ -8,7 +8,6 @@
         <?php $title = "Over Capacity - Open Knowledge Maps"; ?>
         <?php
         include($COMPONENTS_PATH . 'head_standard.php');
-        include($COMPONENTS_PATH . 'head_headstart.php');
         ?>
 
         <style>

@@ -11,7 +11,6 @@
             );
         ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
     </head>
 
     <body class="projects-page">

@@ -1,7 +1,6 @@
 <?php 
-include ($SEARCH_FLOW_PATH . "inc/waiting-page/waiting-page-header.php");
-
 include 'config.php';
+include ($SEARCH_FLOW_PATH . "inc/waiting-page/waiting-page-header.php");
 ?>
 <!DOCTYPE HTML>
 
@@ -12,8 +11,8 @@ include 'config.php';
         <meta name="robots" content="noindex">
         <?php
         $title = "Search - Open Knowledge Maps";
-        include($COMPONENTS_PATH . 'head_standard.php');
-        include($COMPONENTS_PATH . 'head_headstart.php');
+        $contains_search_form = true;
+        include($COMPONENTS_PATH . 'head_standard.php'); 
         include($COMPONENTS_PATH . 'search_options.php')
         ?>
     </head>

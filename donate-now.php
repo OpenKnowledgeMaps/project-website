@@ -16,7 +16,6 @@
         );
         ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
         <?php include($COMPONENTS_PATH . 'head_detect_country.php') ?>
     </head>
 
