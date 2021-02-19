@@ -1,7 +1,5 @@
 <?php 
-if (session_status() == PHP_SESSION_NONE) {
-    session_start();
-}
+include ($SEARCH_FLOW_PATH . "inc/waiting-page/waiting-page-header.php");
 
 include 'config.php';
 ?>
@@ -14,7 +12,6 @@ include 'config.php';
         <meta name="robots" content="noindex">
         <?php
         $title = "Search - Open Knowledge Maps";
-        include($COMPONENTS_PATH . 'head_bootstrap.php');
         include($COMPONENTS_PATH . 'head_standard.php');
         include($COMPONENTS_PATH . 'head_headstart.php');
         include($COMPONENTS_PATH . 'search_options.php')
@@ -32,10 +29,8 @@ include 'config.php';
         <a style="padding-top:160px;" name="search"></a>
 
         <div class="background-lamp" style="background-color: #eff3f4 !important;">
-             <?php include ($SEARCH_FLOW_PATH . "inc/banner-browser-unsupported.php"); ?>
-             <?php
-                include ($SEARCH_FLOW_PATH . "inc/waiting-page.php") 
-             ?>
+             <?php include ($SEARCH_FLOW_PATH . "inc/shared/banner-browser-unsupported.php"); ?>
+             <?php include ($SEARCH_FLOW_PATH . "inc/waiting-page/waiting-page.php") ?>
         </div>
         
          <?php include($COMPONENTS_PATH . "howitworks.php") ?>

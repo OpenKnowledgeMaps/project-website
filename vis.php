@@ -5,7 +5,7 @@
         <base href="<?php echo $SITE_URL ?>">
         <?php
         include($COMPONENTS_PATH . 'search_options.php');
-        include($SEARCH_FLOW_PATH . 'inc/visualization-header.php');
+        include($SEARCH_FLOW_PATH . 'inc/visualization/visualization-header.php');
         ?>
         
         <?php if (!isset($context)): ?>
@@ -63,7 +63,6 @@
             , "fb-image" => "$protocol$SNAPSHOT_PATH$id.png"
         );
         
-        include($COMPONENTS_PATH . 'head_bootstrap.php');
         include($COMPONENTS_PATH . 'head_standard.php');
         include($COMPONENTS_PATH . 'vis_intro.php');
         ?>
@@ -77,16 +76,13 @@
         <div class="topheader"></div>
 
             <?php
-                include ($SEARCH_FLOW_PATH . "inc/banner-browser-unsupported.php");
-                include($SEARCH_FLOW_PATH . 'inc/banner-mobile.php');
+                include ($SEARCH_FLOW_PATH . "inc/shared/banner-browser-unsupported.php");
+                include($SEARCH_FLOW_PATH . 'inc/shared/banner-mobile.php');
                 
             ?>
        <?php endif; ?>
-       <script>
-           var fit_to_page = false;
-       </script>
        
-       <?php include ($SEARCH_FLOW_PATH . "inc/visualization.php") ?>
+       <?php include ($SEARCH_FLOW_PATH . "inc/visualization/visualization.php") ?>
        
        <link rel="stylesheet" href="./css/main.css">
        <script>
@@ -111,8 +107,8 @@
                    .' with <a href="https://github.com/OpenKnowledgeMaps/Headstart" target="_blank">Headstart</a> and '
                    . $credit;
                 
-                include ($SEARCH_FLOW_PATH . "inc/context-builtwith.php");
-                include ($SEARCH_FLOW_PATH . "inc/context-citation.php");
+                include ($SEARCH_FLOW_PATH . "inc/visualization/context-builtwith.php");
+                include ($SEARCH_FLOW_PATH . "inc/visualization/context-citation.php");
                 include ($COMPONENTS_PATH . "vis_context_info.php");
             
             ?>

@@ -10,7 +10,6 @@
                 , "description" => "We partner with organizations to develop innovative open science projects that make it easier for you to discover and benefit from scientific knowledge. In addition, these collaborations enable organizations to make their collections more accessible to their users."
             );
         ?>
-        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
     </head>

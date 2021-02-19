@@ -7,7 +7,6 @@
         <base href="<?php echo $SITE_URL ?>">
         <?php $title = "Over Capacity - Open Knowledge Maps"; ?>
         <?php
-        include($COMPONENTS_PATH . 'head_bootstrap.php');
         include($COMPONENTS_PATH . 'head_standard.php');
         include($COMPONENTS_PATH . 'head_headstart.php');
         ?>

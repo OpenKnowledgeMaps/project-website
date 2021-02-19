@@ -4,7 +4,6 @@
     <head>
         <base href="<?php echo $SITE_URL ?>">
         <?php $title = "Team - Open Knowledge Maps"; ?>
-        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
 
     </head>

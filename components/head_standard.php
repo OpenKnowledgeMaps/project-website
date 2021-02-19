@@ -14,9 +14,15 @@ $default_labels = array(
 
 include "head_components/meta_tags.php";
 include "head_components/favicons.php";
+?>
+
+<link rel="stylesheet" href="<?php echo $LIB_PATH ?>bootstrap.min.css">
+
+<?php
 include "head_components/cookieconsent.php";
 ?>
 
+<?php include($SEARCH_FLOW_PATH . 'inc/shared/head-search-form.php') ?>
 <link rel="stylesheet" href="<?php echo $LIB_PATH ?>font-awesome.min.css" >
 <link rel="stylesheet" href="./css/main.css?v=descsize-filter-update">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet' type='text/css'>
