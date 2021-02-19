@@ -105,19 +105,6 @@
                     </div>
 
                     <div class="member">
-                        <img src="./img/team/najmeh.png" alt="Najmeh Shaghaei">
-                        <ul>
-                            <li class="name">Najmeh Shaghaei</li>
-                            <li class="job-title">Library Liaison</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:n.shaghaei@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="https://portal.findresearcher.sdu.dk/da/persons/nas"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
-                    <div class="member">
                         <img src="./img/team/thomas.png" alt="Thomas Arrow">
                         <ul>
                             <li class="name">Thomas Arrow</li>
@@ -157,6 +144,7 @@
 
                     <!-- list of former contributors -->
                     <div class="alumni" style=""><h3>Special thanks to former contributers:</h3>
+                        <a target="_blank" class="underline" href="https://portal.findresearcher.sdu.dk/da/persons/nas">Najmeh Shaghaei</a>,
                         <a target="_blank" class="underline" href="https://twitter.com/asuraenkhbayar">Asura Enkhbayar</a>,
                         <a target="_blank" class="underline" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9">Fabian Kraut</a>,
                         <a target="_blank" class="underline" href="https://twitter.com/rabachleitner">Rainer Bachleitner</a>,
@@ -292,6 +280,15 @@
                                 <li>University of Turin</li>
                             </ul>
                         </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="https://portal.findresearcher.sdu.dk/da/persons/nas"><img class="hoverlink" src="./img/advisors/najmeh.jpg" alt="Open Knowledge Maps Advisor Najmeh Shaghaei"></a>
+                            <h3>Najmeh Shaghaei</h3>
+                            <ul class="advisor-desc">
+                                <li>Head of Library at Campus Sønderborg</li>
+                                <li>University Library of Southern Denmark</li>
+                            </ul>
+                        </div>
 
                         <div class="advisor">
                             <a target="_blank" href="https://twitter.com/EvoMRI"><img class="hoverlink" src="./img/advisors/daniel_m.jpg" alt="Open Knowledge Maps Advisor Daniel Mietchen"></a>
@@ -303,11 +300,21 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Open Knowledge Maps Advisor Michael E. Karpeles"></a>
-                            <h3>Michael E. Karpeles</h3>
+                            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Open Knowledge Maps Advisor Andreas Ferus"></a>
+                            <h3>Andreas Ferus</h3>
                             <ul class="advisor-desc">
-                                <li>Citizen of the world</li>
-                                <li>Internet Archive</li>
+                                <li>Director</li>
+                                <li>Library of the Academy of Fine Arts Vienna</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="https://dasaptaerwin.net/"><img class="hoverlink" src="./img/advisors/dasapta.jpg" alt="Open Knowledge Maps Advisor Dasapta Erwin Irawan"></a>
+                            <h3>Dasapta Erwin Irawan</h3>
+                            <ul class="advisor-desc">
+                                <li>Researcher and Lecturer in hydrogeology</li>
+                                <li>Institut Teknologi Bandung</li>
+                                <li>RINarxiv</li>
                             </ul>
                         </div>
 
@@ -366,12 +373,6 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://informationswissenschaft-wirtschaftsinformatik.uni-graz.at/de/institut/mitarbeiterinnen/schloegl-christian/"><img class="hoverlink" src="./img/advisors/christians.jpg" alt="Open Knowledge Maps Advisor Christian Schlögl"></a>
-                            <h3>Christian Schlögl</h3>
-                            <p class="advisor-desc">Associate Professor<br>University of Graz</p>
-                        </div>
-
-                        <div class="advisor">
                             <a target="_blank" href="http://www.stefankasberger.at/"><img class="hoverlink" src="./img/advisors/stefan.jpg" alt="Open Knowledge Maps Advisor Stefan Kasberger"></a>
                             <h3>Stefan Kasberger</h3>
                             <ul class="advisor-desc">
@@ -390,11 +391,11 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/ferli90"><img class="hoverlink" src="./img/advisors/andreas.jpg" alt="Open Knowledge Maps Advisor Andreas Ferus"></a>
-                            <h3>Andreas Ferus</h3>
+                            <a target="_blank" href="https://www.archivelab.org/"><img class="hoverlink" src="./img/advisors/mek.jpg" alt="Open Knowledge Maps Advisor Michael E. Karpeles"></a>
+                            <h3>Michael E. Karpeles</h3>
                             <ul class="advisor-desc">
-                                <li>Dept. Director</li>
-                                <li>Library of the Academy of Fine Arts Vienna</li>
+                                <li>Citizen of the world</li>
+                                <li>Internet Archive</li>
                             </ul>
                         </div>
 
@@ -426,15 +427,6 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/sextus_empirico "><img class="hoverlink" src="./img/advisors/robert.jpg" alt="Open Knowledge Maps Advisor Robert Gutounig"></a>
-                            <h3>Robert Gutounig</h3>
-                            <ul class="advisor-desc">
-                                <li>Head of Degree Programme "Content Strategy"</li>
-                                <li>FH JOANNEUM</li>
-                            </ul>
-                        </div>
-
-                        <div class="advisor">
                             <a target="_blank" href="https://online.boku.ac.at/BOKUonline/visitenkarte.show_vcard?pPersonenId=51947CF9F7441FEF&pPersonenGruppe=3"><img class="hoverlink" src="./img/advisors/daniel.jpg" alt="Open Knowledge Maps Advisor Daniel Dörler"></a>
                             <h3>Daniel Dörler</h3>
                             <ul class="advisor-desc">
@@ -451,7 +443,7 @@
                                 <li>University of Graz</li>
                             </ul>
                         </div>
-
+                        
                     </div>
                 </div>
             </div>

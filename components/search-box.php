@@ -1,5 +1,4 @@
-<div class="topheader"></div>    
-<?php include ($COMPONENTS_PATH . "covis_banner_small.php"); ?>
+<div class="topheader"></div>
 <?php //include ($COMPONENTS_PATH . "donation_banner.php"); ?>
 <?php include ($SEARCH_FLOW_PATH . "inc/shared/banner-browser-unsupported.php"); ?>
 
