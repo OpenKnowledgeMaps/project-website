@@ -35,9 +35,10 @@ include "head_components/cookieconsent.php";
 <?php endif; ?>
 
 <link rel="stylesheet" href="./css/main.css?v=descsize-filter-update">
-<link rel="stylesheet" href="./css/options.css">
 
-<?php if($has_search_form): ?>    
+<?php if($has_search_form): ?>
+    <link rel="stylesheet" href="./css/options.css">
+
     <script>
         var pubmed_down = <?php echo (isset($PUBMED_DOWN) && $PUBMED_DOWN === true)?("true"):("false") ?>;
         var base_down = <?php echo (isset($BASE_DOWN) && $BASE_DOWN === true)?("true"):("false") ?>;
