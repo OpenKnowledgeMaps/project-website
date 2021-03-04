@@ -1427,13 +1427,13 @@ $search_flow_config_local = array(
             , filters_text: "Refine your search"
             , options: [
                 {id: "pubmed", name: "PubMed", disabled: false, default: false
-                    , text: "PubMed", description: "(life sciences)"
+                    , text: "PubMed", description: "(life sciences)", vis_type_name: "knowledge map"
                     , script: "searchPubmed.php", milliseconds_progressbar: 800
                     , max_length_search_term_short: 115, timeout: 120000
 
                 }
                 , {id: "base", name: "BASE", disabled: false, default: true
-                    , text: "BASE", description: "(all disciplines)"
+                    , text: "BASE", description: "(all disciplines)", vis_type_name: "knowledge map"
                     , script: "searchBASE.php", milliseconds_progressbar: 800
                     , max_length_search_term_short: 115, timeout: 120000
                 }
