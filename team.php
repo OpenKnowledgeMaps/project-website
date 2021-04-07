@@ -247,15 +247,6 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://oana.at"><img class="hoverlink" src="./img/advisors/falk.jpg" alt="Open Knowledge Maps Advisor Falk Reckling"></a>
-                            <h3>Falk Reckling</h3>
-                            <ul class="advisor-desc">
-                                <li>Head of Strategy</li>
-                                <li>Austrian Science Fund (FWF)</li>
-                            </ul>
-                        </div>
-
-                        <div class="advisor">
                             <a target="_blank" href="https://www.wikimedia.at/"><img class="hoverlink" src="./img/advisors/claudia.jpg" alt="Open Knowledge Maps Advisor Claudia Gar&aacute;d"></a>
                             <h3>Claudia Gar&aacute;d</h3>
                             <ul class="advisor-desc">
@@ -343,15 +334,6 @@
                             <ul class="advisor-desc">
                                 <li>Executive Committee Member</li>
                                 <li>SPARC Africa</li>
-                            </ul>
-                        </div>
-
-                        <div class="advisor">
-                            <a target="_blank" href="https://twitter.com/Lambo"><img class="hoverlink" src="./img/advisors/lambert.jpg" alt="Open Knowledge Maps Advisor Lambert Heller"></a>
-                            <h3>Lambert Heller</h3>
-                            <ul class="advisor-desc">
-                                <li>Librarian</li>
-                                <li>German National Library of S&T (TIB)</li>
                             </ul>
                         </div>
 
