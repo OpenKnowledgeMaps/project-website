@@ -24,7 +24,7 @@ $search_flow_config_local = array(
     , "filter_options" => ['options_plos' => 
                 ['start_date' => '1970-01-01', 'dropdowns' => [
                     ['id' => 'time_range', 'multiple' => false, 'name' => 'Time Range', 'type' => 'dropdown', 'fields' => [
-                            ['id' => 'any-time', 'text' => 'Any time'],
+                            ['id' => 'any-time', 'text' => 'All time'],
                             ['id' => 'last-month', 'text' => 'Last month'],
                             ['id' => 'last-year', 'text' => 'Last year'],
                             ['id' => 'user-defined', 'text' => 'Custom range', 'class' => 'user-defined', 'inputs' => [
@@ -109,7 +109,7 @@ $search_flow_config_local = array(
             'options_pubmed' => 
                 ['start_date' => '1809-01-01', 'dropdowns' => [
                     ['id' => 'time_range', 'multiple' => false, 'name' => 'Time Range', 'type' => 'dropdown', 'fields' => [
-                            ['id' => 'any-time', 'text' => 'Any time'],
+                            ['id' => 'any-time', 'text' => 'All time'],
                             ['id' => 'last-month', 'text' => 'Last month'],
                             ['id' => 'last-year', 'text' => 'Last year'],
                             ['id' => 'user-defined', 'text' => 'Custom range', 'class' => 'user-defined', 'inputs' => [
@@ -225,7 +225,7 @@ $search_flow_config_local = array(
             'options_doaj' => 
                 ['start_date' => '1809', 'dropdowns' => [
                     ['id' => 'year_range', 'multiple' => false, 'name' => 'Time Range', 'type' => 'dropdown', 'fields' => [
-                            ['id' => 'any-time-years', 'text' => 'Any year'],
+                            ['id' => 'any-time-years', 'text' => 'All time'],
                             ['id' => 'this-year', 'text' => 'This year'],
                             ['id' => 'last-year-years', 'text' => 'Last year'],
                             ['id' => 'user-defined', 'text' => 'Custom range', 'class' => 'user-defined', 'inputs' => [
@@ -246,7 +246,7 @@ $search_flow_config_local = array(
             'options_base' => 
                 ['start_date' => '1665-01-01', 'dropdowns' => [
                     ['id' => 'time_range', 'multiple' => false, 'name' => 'Time Range', 'type' => 'dropdown', 'fields' => [
-                            ['id' => 'any-time', 'text' => 'Any time'],
+                            ['id' => 'any-time', 'text' => 'All time'],
                             ['id' => 'last-month', 'text' => 'Last month'],
                             ['id' => 'last-year', 'text' => 'Last year'],
                             ['id' => 'user-defined', 'text' => 'Custom range', 'class' => 'user-defined', 'inputs' => [
