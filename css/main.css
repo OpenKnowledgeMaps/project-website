@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: content-box;
 }
 
 html {
@@ -91,6 +92,10 @@ a:focus, a:hover {
 .whitelink:hover {
     color: white;
 }
+
+/*.about-page *, .membership *, .community-page *, .projects-page *, .updates *, .faq-page * {
+    box-sizing: content-box;
+}*/
 
 /*NAVIGATION*/
 header {
@@ -595,6 +600,10 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 
 #home #newsletterdiv, .about-page #newsletterdiv {
     background-color: white;
+}
+
+.vis * {
+    box-sizing: border-box;
 }
 
 .vis #partnerdiv {

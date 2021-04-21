@@ -3,10 +3,10 @@
 <html lang="en">
     <head>
         <base href="<?php echo $SITE_URL ?>">
-        <?php $title = "FAQs - Open Knowledge Maps"; ?>
-        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
+        <?php 
+        $title = "FAQs - Open Knowledge Maps";
+        include($COMPONENTS_PATH . 'head_standard.php'); 
+        ?>
 
     </head>
     <body class="faq-page faqx">

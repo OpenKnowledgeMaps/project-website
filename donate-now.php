@@ -15,9 +15,7 @@
             , "fb-image" => "https://openknowledgemaps.org/img/donation-fbcard.png"
         );
         ?>
-        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
         <?php include($COMPONENTS_PATH . 'head_detect_country.php') ?>
     </head>
 

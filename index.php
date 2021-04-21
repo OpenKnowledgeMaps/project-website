@@ -8,29 +8,20 @@
             "title" => "Open Knowledge Maps - A visual interface to the world&#39;s scientific knowledge"
             , "description" => "Start your literature search here: get an overview of a research topic, find relevant papers, and identify important concepts."
         );
+        
+        $contains_search_form = true;
+        include($COMPONENTS_PATH . 'head_standard.php'); 
+        include($COMPONENTS_PATH . 'search_options.php');
         ?>
-        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
-        <?php include($COMPONENTS_PATH . 'head_headstart.php') ?>
 
     </head>
     <body id="home">
 
         <?php include($COMPONENTS_PATH . 'header.php'); ?>
 
-        <?php
-        $default_lib = $DEFAULT_LIB;
-        if (isset($_GET["lib"])) {
-            $default_lib = $_GET["lib"];
-        }
-        ?>
-
         <a name="top"></a>
 
         <a style="padding-top:160px;" name="search"></a>
-        <script>
-            let show_filters = false;
-        </script>
         <?php include($COMPONENTS_PATH . 'search-box.php') ?>
 
         <span class="anchor" id="okmmission"></span>

@@ -3,7 +3,6 @@
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
     <head>
         <?php $title = "Privacy Policy - Open Knowledge Maps"; ?>
-        <?php include($COMPONENTS_PATH . 'head_bootstrap.php'); ?>
         <?php include($COMPONENTS_PATH . 'head_standard.php'); ?>
     </head>
     <body id="imprint-page">
