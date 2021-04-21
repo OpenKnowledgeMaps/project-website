@@ -25,12 +25,12 @@
         </p>
 
         <p>
-            <b>We are currently running the 3rd iteration</b> of the Enthusiasts program until January 2021.
+            <b>We are currently running the 4th iteration</b> of the Enthusiasts program until December 2021.
             <!--<b>Important announcement:</b> We have received a lot of interest and are happy to confirm the enthusiasts program continues in 2020. <b>Sign-ups are still open until December 18!</b>-->
         </p>
         
-        <p><b>Would you like to join our program in 2021?</b> 
-            Please click below or message our community manager Michela until January 26:
+        <p><b>Would you like to join our program next year in 2022?</b> 
+            Please click below or message our community manager Michela until December 18:
             <a class="underline" href="mailto:mvignoli@openknowledgemaps.org">mvignoli@openknowledgemaps.org</a>
             <br>She will get back to you with more details.
             <!--<br>She will get back to you as soon as we are preparing for the 3rd iteration in winter 2019.-->

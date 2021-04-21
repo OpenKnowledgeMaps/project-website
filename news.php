@@ -7,6 +7,7 @@
     
     function getArticleProperties($article) {
         global $SITE_URL;
+        $protocol = !empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' ? 'https:' : 'http:';
         
         $property_array = array();
         
@@ -24,7 +25,7 @@
             $src = $images->item(0)->getAttribute("src");
             $property_array["image"] = (substr($src, 0, 4) === "http")
                                             ? ($src)
-                                            : ($SITE_URL . $src); 
+                                            : ($protocol . $SITE_URL . $src); 
         } else {
             $property_array["image"] = "";
         }
