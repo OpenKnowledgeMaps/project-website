@@ -59,7 +59,8 @@
                 <ul>
                     <li class="name">Eva Seidlmayer</li>
                     <li class="job-title">Research Assistant</li>
-                    <li class="organization">ZB MED Information Centre for Life Sciences</li>
+                    <li class="organization">ZB MED Information Centre<br>
+                        for Life Sciences</li>
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Germany</li>
                 </ul>
             </div>
