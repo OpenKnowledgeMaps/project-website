@@ -46,8 +46,7 @@
                 <ul>
                     <li class="name">Héctor Tuy</li>
                     <li class="job-title">Academic researcher</li>
-                    <li class="job-title">Instituto de Investigación y Proyección </li>
-                    <li class="job-title">sobre Ambiente Natural y Sociedad (IARNA)</li>
+                    <li class="job-title">IARNA</li>
                     <li class="organization">Universidad Rafael Landívar</li>
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Guatemala</li>
                 </ul>
@@ -62,18 +61,6 @@
                     <li class="job-title">Research Assistant</li>
                     <li class="organization">ZB MED Information Centre for Life Sciences</li>
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Germany</li>
-                </ul>
-            </div>
-
-            <div class="member">
-                <div class="memberimage">
-                    <img src="./img/enthusiasts/teguh.png" alt="OKMaps Enthusiast Purnomo Teguh">
-                </div>
-                <ul>
-                    <li class="name">Purnomo Teguh</li>
-                    <li class="job-title"></li>
-                    <li class="organization">University of Banyuwangi</li>
-                    <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Indonesia</li>
                 </ul>
             </div>
 
