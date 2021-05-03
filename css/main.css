@@ -1778,7 +1778,7 @@ a.donation-button:hover, a.donation-button:active, a.donation-button:focus {
 }
 
 .community-page .member {
-    max-width: 350px;
+    max-width: 250px;
 }
 .community-page .bs-example, .community-page .bg4 {
     background-color: #ea9940;

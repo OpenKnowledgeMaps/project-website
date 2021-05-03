@@ -11,13 +11,64 @@
     </div>
 
     <div class="advisorsdiv">
-        <div id="members">  
+        <div id="members"> 
+
+            <!-- Enthusiasts 2021 -->
+
+            <div class="member">
+                <div class="memberimage">
+                    <a target="_blank" href="https://twitter.com/sukmakurn1awan?lang=en"><img class="hoverlink" src="./img/enthusiasts/putu.png" alt="OKMaps Enthusiast Putu Sukma Kurniawan"></a>
+                </div>
+                <ul>
+                    <li class="name">Putu Sukma Kurniawan</li>
+                    <li class="job-title">Lecturer</li>
+                    <li class="organization">Universitas Pendidikan Ganesha</li>
+                    <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Indonesia</li>
+                </ul>
+            </div>
+
+            <div class="member">
+                <div class="memberimage">
+                    <a target="_blank" href="https://www.linkedin.com/in/astridvanwesenbeeck/"><img class="hoverlink" src="./img/enthusiasts/astrid.png" alt="OKMaps Enthusiast Astrid van Wesenbeeck"></a>
+                </div>
+                <ul>
+                    <li class="name">Astrid van Wesenbeeck</li>
+                    <li class="job-title">Open Science Officer</li>
+                    <li class="organization">KB Nationale Bibliotheek</li>
+                    <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Netherlands</li>
+                </ul>
+            </div>
+
+            <div class="member">
+                <div class="memberimage">
+                    <img src="./img/enthusiasts/hector.png" alt="OKMaps Enthusiast Héctor Tuy">
+                </div>
+                <ul>
+                    <li class="name">Héctor Tuy</li>
+                    <li class="job-title">Academic researcher</li>
+                    <li class="job-title">IARNA</li>
+                    <li class="organization">Universidad Rafael Landívar</li>
+                    <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Guatemala</li>
+                </ul>
+            </div>
+
+            <div class="member">
+                <div class="memberimage">
+                    <a target="_blank" href="https://twitter.com/kivilih"><img class="hoverlink" src="./img/enthusiasts/eva.png" alt="OKMaps Enthusiast Eva Seidlmayer"></a>
+                </div>
+                <ul>
+                    <li class="name">Eva Seidlmayer</li>
+                    <li class="job-title">Research Assistant</li>
+                    <li class="organization">ZB MED Information Centre for Life Sciences</li>
+                    <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Germany</li>
+                </ul>
+            </div>
 
             <!-- Enthusiasts 2020 -->
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/nancykwangwa"><img class="hoverlink" src="./img/enthusiasts/nancy.png" alt="OK Maps Enthusiast Nancy Kwangwa"></a>
+                    <a target="_blank" href="https://twitter.com/nancykwangwa"><img class="hoverlink" src="./img/enthusiasts/nancy.png" alt="OKMaps Enthusiast Nancy Kwangwa"></a>
                 </div>
                 <ul>
                     <li class="name">Nancy Kwangwa</li>
@@ -26,10 +77,10 @@
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Zimbabwe</li>
                 </ul>
             </div>
-            
+
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/deed_tz"><img class="hoverlink" src="./img/enthusiasts/daniel-d.png" alt="OK Maps Enthusiast Daniel Deogratus"></a>
+                    <a target="_blank" href="https://twitter.com/deed_tz"><img class="hoverlink" src="./img/enthusiasts/daniel-d.png" alt="OKMaps Enthusiast Daniel Deogratus"></a>
                 </div>
                 <ul>
                     <li class="name">Daniel Deogratus</li>
@@ -40,10 +91,10 @@
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Tanzania</li>
                 </ul>
             </div>
-            
+
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/pmarrai"><img class="hoverlink" src="./img/enthusiasts/paloma.png" alt="OK Maps Enthusiast Paloma Marín Arraiza"></a>
+                    <a target="_blank" href="https://twitter.com/pmarrai"><img class="hoverlink" src="./img/enthusiasts/paloma.png" alt="OKMaps Enthusiast Paloma Marín Arraiza"></a>
                 </div>
                 <ul>
                     <li class="name">Paloma Marín Arraiza</li>
@@ -54,7 +105,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/hamyat"><img class="hoverlink" src="./img/enthusiasts/hamdan.png" alt="OK Maps Enthusiast Hamdan Hidayat"></a>
+                    <a target="_blank" href="https://twitter.com/hamyat"><img class="hoverlink" src="./img/enthusiasts/hamdan.png" alt="OKMaps Enthusiast Hamdan Hidayat"></a>
                 </div>
                 <ul>
                     <li class="name">Hamdan Hidayat</li>
@@ -63,10 +114,10 @@
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Indonesia</li>
                 </ul>
             </div>
-           
+
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://www.serdarbalci.com/"><img class="hoverlink" src="./img/enthusiasts/serdar.png" alt="OK Maps Enthusiast Serdar Balci"></a>
+                    <a target="_blank" href="https://www.serdarbalci.com/"><img class="hoverlink" src="./img/enthusiasts/serdar.png" alt="OKMaps Enthusiast Serdar Balci"></a>
                 </div>
                 <ul>
                     <li class="name">Serdar Balci</li>
@@ -75,12 +126,12 @@
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Turkey</li>
                 </ul>
             </div>
-            
+
             <!-- Enthusiasts 2019 -->
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="http://dasaptaerwin.net/"><img class="hoverlink" src="./img/enthusiasts/erwin.png" alt="OK Maps Enthusiast Dasapta Erwin Irawan"></a>
+                    <a target="_blank" href="http://dasaptaerwin.net/"><img class="hoverlink" src="./img/enthusiasts/erwin.png" alt="OKMaps Enthusiast Dasapta Erwin Irawan"></a>
                 </div>
                 <ul>
                     <li class="name">Dasapta Erwin Irawan</li>
@@ -92,7 +143,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://www.linkedin.com/in/georgia-bayliss-brown-85114928/"><img class="hoverlink" src="./img/enthusiasts/georgia.png" alt="OK Maps Enthusiast Georgia Bayliss-Brown"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/georgia-bayliss-brown-85114928/"><img class="hoverlink" src="./img/enthusiasts/georgia.png" alt="OKMaps Enthusiast Georgia Bayliss-Brown"></a>
                 </div>
                 <ul>
                     <li class="name">Georgia Bayliss-Brown</li>
@@ -104,7 +155,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/justinahinon1"><img class="hoverlink" src="./img/enthusiasts/justin.png" alt="OK Maps Enthusiast Justin Sègbédji Ahinon"></a>
+                    <a target="_blank" href="https://twitter.com/justinahinon1"><img class="hoverlink" src="./img/enthusiasts/justin.png" alt="OKMaps Enthusiast Justin Sègbédji Ahinon"></a>
                 </div>
                 <ul>
                     <li class="name">Justin Sègbédji Ahinon</li>
@@ -116,7 +167,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/JEkstroem"><img class="hoverlink" src="./img/enthusiasts/jeannette.png" alt="OK Maps Enthusiast Jeannette Ekstrøm"></a>
+                    <a target="_blank" href="https://twitter.com/JEkstroem"><img class="hoverlink" src="./img/enthusiasts/jeannette.png" alt="OKMaps Enthusiast Jeannette Ekstrøm"></a>
                 </div>
                 <ul>
                     <li class="name">Jeannette Ekstrøm</li>
@@ -128,7 +179,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="http://www.smart.biz.pl/techblog"><img class="hoverlink" src="./img/enthusiasts/marcin.png" alt="OK Maps Enthusiast Marcin Stępień"></a>
+                    <a target="_blank" href="http://www.smart.biz.pl/techblog"><img class="hoverlink" src="./img/enthusiasts/marcin.png" alt="OKMaps Enthusiast Marcin Stępień"></a>
                 </div>
                 <ul>
                     <li class="name">Marcin Stępień</li>
@@ -136,12 +187,12 @@
                     <li class="country"><span class="awesome"><i class="fas fa-location-arrow"></i></span> Poland</li>
                 </ul>
             </div>
-            
+
             <!-- Enthusiasts 2018 -->
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/amiefairs"><img class="hoverlink" src="./img/enthusiasts/amie.png" alt="OK Maps Enthusiast Amie Fairs"></a>
+                    <a target="_blank" href="https://twitter.com/amiefairs"><img class="hoverlink" src="./img/enthusiasts/amie.png" alt="OKMaps Enthusiast Amie Fairs"></a>
                 </div>
                 <ul>
                     <li class="name">Amie Fairs</li>
@@ -153,7 +204,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <img src="./img/enthusiasts/benedikt.png" alt="OK Maps Enthusiast Benedikt Fecher">
+                    <img src="./img/enthusiasts/benedikt.png" alt="OKMaps Enthusiast Benedikt Fecher">
                 </div>
                 <ul>
                     <li class="name">Benedikt Fecher</li>
@@ -165,7 +216,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://refigure.org/"><img class="hoverlink" src="./img/enthusiasts/girija.png" alt="OK Maps EnthusiastGirija Goyal"></a>
+                    <a target="_blank" href="https://refigure.org/"><img class="hoverlink" src="./img/enthusiasts/girija.png" alt="OKMaps EnthusiastGirija Goyal"></a>
                 </div>
                 <ul>
                     <li class="name">Girija Goyal</li>
@@ -177,7 +228,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/ametodico"><img class="hoverlink" src="./img/enthusiasts/ricardo.png" alt="OK Maps Enthusiast Ricardo Hartley Belmar"></a>
+                    <a target="_blank" href="https://twitter.com/ametodico"><img class="hoverlink" src="./img/enthusiasts/ricardo.png" alt="OKMaps Enthusiast Ricardo Hartley Belmar"></a>
                 </div>
                 <ul>
                     <li class="name">Ricardo Hartley Belmar</li>
@@ -189,7 +240,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://twitter.com/jermy_pee"><img class="hoverlink" src="./img/enthusiasts/jeremiah.png" alt="OK Maps Enthusiast Jeremiah Pietersen"></a>
+                    <a target="_blank" href="https://twitter.com/jermy_pee"><img class="hoverlink" src="./img/enthusiasts/jeremiah.png" alt="OKMaps Enthusiast Jeremiah Pietersen"></a>
                 </div>
                 <ul>
                     <li class="name">Jeremiah Pietersen</li>
@@ -201,7 +252,7 @@
 
             <div class="member">
                 <div class="memberimage">
-                    <a target="_blank" href="https://www.linkedin.com/in/maria-ines-plaza-schwarck-9825962/"><img class="hoverlink" src="./img/enthusiasts/mari.png" alt="OK Maps Enthusiast Mari Plaza"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/maria-ines-plaza-schwarck-9825962/"><img class="hoverlink" src="./img/enthusiasts/mari.png" alt="OKMaps Enthusiast Mari Plaza"></a>
                 </div>
                 <ul>
                     <li class="name">Mari Plaza</li>
