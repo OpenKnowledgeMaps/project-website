@@ -117,19 +117,6 @@
                         </ul>
                     </div>
 
-                    <div class="member">
-                        <img src="./img/team/bjorn.png" alt="Bjorn Brembs">
-                        <ul>
-                            <li class="name">Björn Brembs</li>
-                            <li class="job-title">Resident User</li>
-                        </ul>
-
-                        <ul class="contact-member">
-                            <li><a class="contact-icon" target="_blank" href="mailto:brembs@openknowledgemaps.org"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                            <li><a class="contact-icon" target="_blank" href="http://brembs.net"><i class="fa fa-link" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-
                     <div class="organizational-member">
                         <img src="./img/team/knowcenter.png" alt="Organizational member Know Center">
                         <ul>
@@ -144,6 +131,7 @@
 
                     <!-- list of former contributors -->
                     <div class="alumni" style=""><h3>Special thanks to former contributers:</h3>
+                        <a target="_blank" class="underline" href="http://brembs.net/">Björn Brembs</a>,
                         <a target="_blank" class="underline" href="https://portal.findresearcher.sdu.dk/da/persons/nas">Najmeh Shaghaei</a>,
                         <a target="_blank" class="underline" href="https://twitter.com/asuraenkhbayar">Asura Enkhbayar</a>,
                         <a target="_blank" class="underline" href="https://de.linkedin.com/in/fabian-kraut-01aa31a9">Fabian Kraut</a>,
@@ -310,20 +298,29 @@
                         </div>
 
                         <div class="advisor">
-                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Open Knowledge Maps Advisor Elisabeth Lex"></a>
-                            <h3>Elisabeth Lex</h3>
-                            <ul class="advisor-desc">
-                                <li>Assistant Professor</li>
-                                <li>Graz University of Technology</li>
-                            </ul>
-                        </div>
-
-                        <div class="advisor">
                             <a target="_blank" href="http://isabella-peters.de/"><img class="hoverlink" src="./img/advisors/isabella.jpg" alt="Open Knowledge Maps Advisor Isabella Peters"></a>
                             <h3>Isabella Peters</h3>
                             <ul class="advisor-desc">
                                 <li>Professor of Web Science</li>
                                 <li>ZBW - Leibniz Information Centre for Economics & Kiel University</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="http://brembs.net/"><img class="hoverlink" src="./img/advisors/bjorn.jpg" alt="Open Knowledge Maps Advisor Björn Brembs"></a>
+                            <h3>Björn Brembs</h3>
+                            <ul class="advisor-desc">
+                                <li>Professor of Neurogenetics</li>
+                                <li>University Regensburg</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="advisor">
+                            <a target="_blank" href="http://www.elisabethlex.info/"><img class="hoverlink" src="./img/advisors/elisabeth.jpg" alt="Open Knowledge Maps Advisor Elisabeth Lex"></a>
+                            <h3>Elisabeth Lex</h3>
+                            <ul class="advisor-desc">
+                                <li>Assistant Professor</li>
+                                <li>Graz University of Technology</li>
                             </ul>
                         </div>
 
@@ -407,15 +404,6 @@
                                 <li>Netherlands Institute of Ecology (NIOO-KNAW)</li>
                             </ul>
                         </div>
-
-                        <div class="advisor">
-                            <a target="_blank" href="https://online.boku.ac.at/BOKUonline/visitenkarte.show_vcard?pPersonenId=51947CF9F7441FEF&pPersonenGruppe=3"><img class="hoverlink" src="./img/advisors/daniel.jpg" alt="Open Knowledge Maps Advisor Daniel Dörler"></a>
-                            <h3>Daniel Dörler</h3>
-                            <ul class="advisor-desc">
-                                <li>PhD Student</li>
-                                <li>BOKU Vienna</li>
-                            </ul>
-                        </div> 
 
                         <div class="advisor">
                             <a target="_blank" href=""><img class="hoverlink" src="./img/advisors/christian.jpg" alt="Open Knowledge Maps Advisor Christian Kaier"></a>
