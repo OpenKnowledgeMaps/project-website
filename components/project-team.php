@@ -6,7 +6,7 @@
 </div>
     
     <div class="member">
-        <img src="./img/team/peter.png" alt="Peter Kraker Founder of Open KNowledge Maps">
+        <img src="./img/team/peter.png" alt="Peter Kraker Founder of Open Knowledge Maps">
         <ul>
             <li class="name">Peter Kraker</li>
             <li>Founder of OKMaps</li>
