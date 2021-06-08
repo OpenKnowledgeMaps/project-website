@@ -311,7 +311,7 @@
                             <h3>Björn Brembs</h3>
                             <ul class="advisor-desc">
                                 <li>Professor of Neurogenetics</li>
-                                <li>University Regensburg</li>
+                                <li>University of Regensburg</li>
                             </ul>
                         </div>
                         
