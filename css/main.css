@@ -771,7 +771,7 @@ a.newsletter2:hover, a.newsletter2:active, a.newsletter2:focus {
 .search-box {
     background-image:
         linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
-        url(../img/startseite-desktop.png);
+        url(../img/startseite-desktop-v1.png);
     background-color: #51c9ae;
     background-repeat: no-repeat; 
     background-position: 100% 0%;
@@ -2700,7 +2700,7 @@ time {
     .search-box {
         background-image:
             linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
-            url(../img/startseite-desktop-1150px.png);
+            url(../img/startseite-desktop-1150px-v1.png);
     }
 
     .getintouch {
@@ -2989,7 +2989,7 @@ time {
     .search-box {
         background-image:
             linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.6)), 
-            url(../img/startseite-desktop-800px.png);
+            url(../img/startseite-desktop-800px-v1.png);
     }
 
     .nav_top {
