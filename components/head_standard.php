@@ -34,7 +34,7 @@ include "head_components/cookieconsent.php";
     <?php include($SEARCH_FLOW_PATH . 'inc/shared/head-search-form.php'); ?>
 <?php endif; ?>
 
-<link rel="stylesheet" href="./css/main.css?v=2021-03-26">
+<link rel="stylesheet" href="./css/main.css?v=2021-06-10-2">
 
 <?php if($has_search_form): ?>
     <link rel="stylesheet" href="./css/options.css">
